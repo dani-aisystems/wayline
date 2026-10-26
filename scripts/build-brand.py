@@ -121,3 +121,10 @@ icon(mark_sq, 32, 0.08, radius=0.22).save(OUT / "favicon-32.png")
 icon(mark_sq, 48, 0.08, radius=0.22).save(ROOT / "public" / "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
 
 print("Wrote:", ", ".join(sorted(p.name for p in OUT.iterdir())))
+
+# Copies imported by the app (so single-file builds can inline them).
+import shutil
+APP_ASSETS = ROOT / "src" / "assets" / "brand"
+APP_ASSETS.mkdir(parents=True, exist_ok=True)
+for name in ["mark-128h.png", "wordmark-text-ink.png", "wordmark-text-white.png"]:
+    shutil.copy(OUT / name, APP_ASSETS / name)

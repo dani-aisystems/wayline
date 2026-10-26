@@ -13,6 +13,8 @@ export function Settings() {
   const [persisted, setPersisted] = useState<boolean | null>(null);
   const [voices, setVoices] = useState<VoiceOption[] | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
+  const [pending, setPending] = useState<{ kind: "restore"; text: string } | { kind: "reset" } | null>(null);
+  const [pasted, setPasted] = useState("");
   const ids = { lang: useId(), time: useId(), theme: useId(), voice: useId() };
 
   useEffect(() => {
@@ -40,23 +42,46 @@ export function Settings() {
     await update({ lastBackupAt: new Date().toISOString() });
   };
 
-  const restore = async (file: File) => {
-    if (!confirm(t("settings.importConfirm"))) return;
-    const result = await importBackup(await file.text());
+  // Reload so every screen reads the new data. The artifact build keeps routes in memory, so a reload is enough there.
+  const restart = (path: string) => (__ARTIFACT__ ? location.reload() : location.assign(path));
+
+  const copyBackup = async () => {
+    const text = JSON.stringify(await exportBackup());
+    try {
+      await navigator.clipboard.writeText(text);
+      setMessage({ kind: "good", text: t("settings.copied") });
+      await update({ lastBackupAt: new Date().toISOString() });
+    } catch {
+      setMessage({ kind: "bad", text: t("settings.copyFailed") });
+    }
+  };
+
+  const restore = async (text: string) => {
+    setPending(null);
+    const result = await importBackup(text);
     if (result.ok) {
       setMessage({ kind: "good", text: t("settings.importDone", { n: String(result.rows) }) });
-      // Reload so every screen reads the restored data.
-      setTimeout(() => location.assign("/today"), 900);
+      setTimeout(() => restart("/today"), 900);
     } else {
       setMessage({ kind: "bad", text: t("settings.importInvalid") });
     }
   };
 
   const reset = async () => {
-    if (!confirm(t("settings.resetConfirm"))) return;
+    setPending(null);
     await db.delete();
-    location.assign("/");
+    restart("/");
   };
+
+  const confirmPanel = (text: string, action: string, onConfirm: () => void, danger = false) => (
+    <div className="confirm" role="alertdialog" aria-label={action}>
+      <p>{text}</p>
+      <div className="setting-row">
+        <button type="button" className={`btn ${danger ? "btn-danger-solid" : "btn-primary"}`} onClick={onConfirm}>{action}</button>
+        <button type="button" className="btn btn-quiet" onClick={() => setPending(null)}>{t("common.cancel")}</button>
+      </div>
+    </div>
+  );
 
   return (
     <div className="page settings">
@@ -123,7 +148,8 @@ export function Settings() {
           {profile.lastBackupAt ? t("settings.lastBackup", { when: relativeDay(new Date(profile.lastBackupAt), lang) }) : t("settings.neverBackedUp")}
         </p>
         <div className="setting-row">
-          <button type="button" className="btn btn-primary" onClick={download}>{t("settings.export")}</button>
+          {!__ARTIFACT__ && <button type="button" className="btn btn-primary" onClick={download}>{t("settings.export")}</button>}
+          <button type="button" className={`btn ${__ARTIFACT__ ? "btn-primary" : "btn-quiet"}`} onClick={copyBackup}>{t("settings.copy")}</button>
           <button type="button" className="btn btn-quiet" onClick={() => fileRef.current?.click()}>{t("settings.import")}</button>
           <input
             ref={fileRef}
@@ -134,10 +160,19 @@ export function Settings() {
             onChange={(e) => {
               const f = e.target.files?.[0];
               e.target.value = "";
-              if (f) void restore(f);
+              if (f) void f.text().then((text) => setPending({ kind: "restore", text }));
             }}
           />
         </div>
+        <details className="paste-restore">
+          <summary>{t("settings.pasteRestore")}</summary>
+          <label htmlFor="paste-backup" className="visually-hidden">{t("settings.pasteRestore")}</label>
+          <textarea id="paste-backup" rows={4} value={pasted} onChange={(e) => setPasted(e.target.value)} spellCheck={false} />
+          <button type="button" className="btn btn-quiet" disabled={!pasted.trim()} onClick={() => setPending({ kind: "restore", text: pasted })}>
+            {t("settings.import")}
+          </button>
+        </details>
+        {pending?.kind === "restore" && confirmPanel(t("settings.importConfirm"), t("settings.importAction"), () => void restore(pending.text))}
       </section>
 
       <section className="setting" aria-labelledby="storage-title">
@@ -148,7 +183,8 @@ export function Settings() {
             {t("settings.protect")}
           </button>
         )}
-        <button type="button" className="btn btn-danger" onClick={reset}>{t("settings.reset")}</button>
+        <button type="button" className="btn btn-danger" onClick={() => setPending({ kind: "reset" })}>{t("settings.reset")}</button>
+        {pending?.kind === "reset" && confirmPanel(t("settings.resetConfirm"), t("settings.resetAction"), () => void reset(), true)}
       </section>
 
       <section className="setting" aria-labelledby="about-title">

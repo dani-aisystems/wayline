@@ -2,13 +2,25 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
+import { viteSingleFile } from "vite-plugin-singlefile";
 import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 
 const pkg = JSON.parse(readFileSync(new URL("./package.json", import.meta.url), "utf8"));
 
-export default defineConfig({
-  define: { __APP_VERSION__: JSON.stringify(pkg.version) },
-  plugins: [
+export default defineConfig(({ mode }) => {
+  const artifact = mode === "artifact";
+  return {
+  define: { __APP_VERSION__: JSON.stringify(pkg.version), __ARTIFACT__: JSON.stringify(artifact) },
+  ...(artifact
+    ? {
+        base: "./",
+        resolve: { alias: { "virtual:pwa-register/react": fileURLToPath(new URL("./src/app/stubs/pwa-register-react.ts", import.meta.url)) } },
+        build: { outDir: "dist-artifact", assetsInlineLimit: 100_000_000, cssCodeSplit: false },
+        publicDir: false as const,
+      }
+    : {}),
+  plugins: artifact ? [react(), viteSingleFile()] : [
     react(),
     VitePWA({
       registerType: "prompt",
@@ -43,4 +55,5 @@ export default defineConfig({
     include: ["src/**/*.test.ts"],
     environment: "node",
   },
+};
 });

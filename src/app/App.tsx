@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, MemoryRouter, Navigate, Route, Routes } from "react-router-dom";
 import type { ReactNode } from "react";
 import { useProfile } from "../state/profile";
 import { LensProvider } from "../components/lens/Lens";
@@ -26,9 +26,12 @@ function Home() {
   return <Welcome />;
 }
 
+// The artifact viewer can't show path routes in its address bar, so that build keeps routes in memory.
+const Router = __ARTIFACT__ ? MemoryRouter : BrowserRouter;
+
 export function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <LensProvider>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -45,6 +48,6 @@ export function App() {
         </Routes>
         <UpdatePrompt />
       </LensProvider>
-    </BrowserRouter>
+    </Router>
   );
 }

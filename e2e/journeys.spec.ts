@@ -103,16 +103,16 @@ test("back up, delete everything, restore", async ({ page }) => {
   const backup = JSON.parse(readFileSync(path, "utf8"));
   expect(backup.format).toBe("wayline-backup");
 
-  page.once("dialog", (d) => d.accept());
   await page.getByRole("button", { name: "Delete all progress" }).click();
+  await page.getByRole("button", { name: "Delete everything" }).click();
   await page.waitForURL((u) => u.pathname === "/");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Draw your way into English.");
 
   // Restore needs the app open: onboard again quickly, then restore over it.
   await onboard(page, { canRead: true });
   await page.getByRole("link", { name: "Settings" }).click();
-  page.once("dialog", (d) => d.accept());
   await page.getByTestId("restore-input").setInputFiles(path);
+  await page.getByRole("button", { name: "Restore backup" }).click();
   await expect(page.getByRole("status").filter({ hasText: "Backup restored" })).toBeVisible();
   await page.waitForURL("**/today");
   await expect(page.locator(".today-stats")).toContainText(`${answered} of`);
@@ -121,8 +121,8 @@ test("back up, delete everything, restore", async ({ page }) => {
 test("a damaged backup is rejected and nothing changes", async ({ page }) => {
   await onboard(page, { canRead: true });
   await page.getByRole("link", { name: "Settings" }).click();
-  page.once("dialog", (d) => d.accept());
   await page.getByTestId("restore-input").setInputFiles({ name: "bad.json", mimeType: "application/json", buffer: Buffer.from('{"format":"nope"}') });
+  await page.getByRole("button", { name: "Restore backup" }).click();
   await expect(page.getByRole("alert")).toContainText("isn't a Wayline backup");
 });
 

@@ -10,3 +10,8 @@
 }
 .btn-danger { background: transparent; color: var(--bad); border-color: currentColor; margin-top: var(--s-3); }
 .notice-good { background: var(--good-tint); color: var(--good); }
+.btn-danger-solid { background: var(--bad); color: var(--accent-ink); }
+.confirm { display: grid; gap: var(--s-3); width: 100%; padding: var(--s-4); border: 1.5px solid var(--line); border-radius: var(--r-md); background: var(--surface-raised); }
+.paste-restore { width: 100%; }
+.paste-restore summary { cursor: pointer; color: var(--text-soft); font-size: var(--fs-sm); min-height: var(--tap); display: flex; align-items: center; }
+.paste-restore textarea { width: 100%; font: inherit; font-size: var(--fs-xs); padding: var(--s-2); border: var(--border); border-radius: var(--r-sm); background: var(--surface-raised); color: var(--text); margin: var(--s-2) 0; }
