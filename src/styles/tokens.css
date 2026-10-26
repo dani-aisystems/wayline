@@ -22,6 +22,13 @@
   --c-error: #b42318;        /* wrong answers; never the route colour */
   --c-error-tint: #fbe3e0;
   --c-focus: #13233a;
+  /* Dialogue speaker tones (avatars only) */
+  --c-tone-1: #0a5fd1;
+  --c-tone-2: #1b6b57;
+  --c-tone-3: #8a5a00;
+  --c-tone-4: #7a3fb8;
+  --c-tone-5: #b4467a;
+  --c-tone-6: #3d6a8a;
 
   /* Semantic roles */
   --surface: var(--c-paper);
@@ -108,6 +115,12 @@
     --c-error: #ff8a7a;
     --c-error-tint: #3d1c1a;
     --c-focus: #e7eef3;
+    --c-tone-1: #4fd3fa;
+    --c-tone-2: #4cc7a5;
+    --c-tone-3: #e9b44c;
+    --c-tone-4: #b892f0;
+    --c-tone-5: #f08cb8;
+    --c-tone-6: #8fb6d6;
     color-scheme: dark;
   }
 }
@@ -128,6 +141,12 @@
   --c-error: #ff8a7a;
   --c-error-tint: #3d1c1a;
   --c-focus: #e7eef3;
+  --c-tone-1: #4fd3fa;
+  --c-tone-2: #4cc7a5;
+  --c-tone-3: #e9b44c;
+  --c-tone-4: #b892f0;
+  --c-tone-5: #f08cb8;
+  --c-tone-6: #8fb6d6;
   color-scheme: dark;
 }
 

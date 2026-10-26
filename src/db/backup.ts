@@ -4,7 +4,8 @@ import { BANDS } from "../content/schema";
 import { SUPPORTED_LANGUAGES } from "../i18n/strings";
 
 export const BACKUP_FORMAT = "wayline-backup";
-export const BACKUP_SCHEMA_VERSION = 1;
+/** 2 adds placements, xp and achievements. Version 1 backups still restore (those tables start empty). */
+export const BACKUP_SCHEMA_VERSION = 2;
 const MAX_ROWS = 200_000;
 const str = z.string().max(2000);
 const date = z.coerce.date().refine((d) => !Number.isNaN(d.getTime()), "invalid date");
@@ -38,6 +39,19 @@ const Rows = {
       onboardedAt: str.optional(),
       voiceId: str.optional(),
       seenNotes: z.array(str).max(5000).default([]),
+      placementSource: z.enum(["reading-check", "diagnostic", "chosen"]).optional(),
+      focusSkills: z.array(str).max(10).optional(),
+      selfRating: str.optional(),
+      recognitionConsent: z.boolean().optional(),
+      micDeviceId: str.optional(),
+      accent: z.enum(["US", "GB"]).optional(),
+      placementDraft: z
+        .object({
+          mode: z.enum(["quick", "extended"]), priorMean: z.number().finite(),
+          responses: z.array(z.object({ itemId: str, correct: z.boolean() })).max(200),
+          skipSkills: z.array(str).max(10), startedAt: str,
+        })
+        .optional(),
     }),
   ).max(1),
   cards: z.array(
@@ -98,11 +112,34 @@ const Rows = {
       newItems: z.number().int().min(0),
     }),
   ),
+  placements: z.array(
+    z.object({
+      id: z.number().int().optional(),
+      at: str,
+      mode: z.enum(["quick", "extended"]),
+      responses: z.array(z.object({ itemId: str, correct: z.boolean() })).max(200),
+      result: z.object({
+        theta: z.number().finite(), se: z.number().finite(), band: str, recommended: str, range: z.tuple([str, str]),
+        confidence: z.enum(["high", "medium", "low"]),
+        skills: z.array(z.object({ skill: str, band: str.nullable(), theta: z.number().finite().nullable(), items: z.number().int(), correct: z.number().int() })),
+        weakTopics: z.array(z.object({ topic: str, skill: str, missed: z.number().int() })),
+        strongSkills: z.array(str), weakSkills: z.array(str), items: z.number().int(), skipped: z.array(str),
+      }),
+      accepted: str.optional(),
+    }),
+  ).default([]),
+  xp: z.array(
+    z.object({
+      id: str, at: str, day: z.string().regex(/^\d{4}-\d{2}-\d{2}$/), amount: z.number().int().min(0).max(500),
+      reason: z.enum(["lesson", "review", "speaking", "listening", "placement", "plan", "word", "achievement"]),
+    }),
+  ).default([]),
+  achievements: z.array(z.object({ id: str, at: str })).default([]),
 };
 
 export const Backup = z.object({
   format: z.literal(BACKUP_FORMAT),
-  schemaVersion: z.literal(BACKUP_SCHEMA_VERSION),
+  schemaVersion: z.union([z.literal(1), z.literal(2)]),
   appVersion: str,
   exportedAt: str,
   data: z.object(Rows).refine(

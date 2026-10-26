@@ -76,3 +76,14 @@
 
 .exercise-actions { display: flex; flex-wrap: wrap; gap: var(--s-3); }
 .btn-small { min-height: 36px; padding: 0 var(--s-4); font-size: var(--fs-sm); }
+
+/* Correct the mistake */
+.fix-original { font-size: var(--fs-lg); }
+.fix-wrong { background: var(--bad-tint); color: var(--bad); border-radius: 3px; padding: 0 2px; }
+.fix-input {
+  width: 100%; margin-top: var(--s-3); font-family: var(--font-read); font-size: var(--fs-lg); line-height: 1.4;
+  padding: var(--s-3); border: 1.5px solid var(--line); border-radius: var(--r-md); background: var(--surface-raised); color: var(--text); resize: vertical;
+}
+.fix-input:focus { outline: 3px solid var(--focus); outline-offset: 2px; }
+.fix-input[data-state="wrong"] { border-color: var(--bad); }
+.fix-input[data-state="right"] { border-color: var(--good); background: var(--good-tint); }

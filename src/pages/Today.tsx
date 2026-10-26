@@ -14,7 +14,7 @@ export function Today() {
   const data = useLiveQuery(async () => {
     if (!profile) return null;
     const [progress, plan, today, cardCount] = await Promise.all([
-      competenceProgress(),
+      competenceProgress(undefined, undefined, startBand(profile)),
       planSession(profile),
       db.activity.get(localDay()),
       db.cards.count(),
@@ -43,6 +43,13 @@ export function Today() {
         <div className="banner" role="note">
           <p>{t("today.backup")}</p>
           <Link className="btn btn-quiet btn-small" to="/settings#backup">{t("today.backupAction")}</Link>
+        </div>
+      )}
+
+      {profile.placementSource !== "diagnostic" && profile.placedBand !== "preA1" && (
+        <div className="banner banner-info" role="note">
+          <p>{t("today.diagnosticOffer")}</p>
+          <Link className="btn btn-primary btn-small" to="/placement">{t("today.diagnosticAction")}</Link>
         </div>
       )}
 

@@ -42,3 +42,4 @@
 .route-name { font-weight: 600; }
 .route-band { font-weight: 400; font-size: var(--fs-xs); color: var(--text-soft); border: var(--border); border-radius: var(--r-pill); padding: 0 var(--s-2); margin-left: var(--s-1); }
 .route-detail { color: var(--text-soft); font-size: var(--fs-sm); }
+.banner-info { background: var(--surface-sunk); }

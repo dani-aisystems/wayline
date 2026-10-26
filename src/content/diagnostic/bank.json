@@ -1,0 +1,2709 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "dx.a1.g.do-question",
+      "band": "A1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "questions",
+      "shift": -0.3,
+      "prompt": "___ you have a car?",
+      "options": [
+        "Are",
+        "Does",
+        "Do",
+        "Is"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Form present simple questions with \"do\"",
+        "bg": "Да задаваш въпроси в сегашно просто време с \"do\""
+      },
+      "evidence": "Do-support in yes/no questions with \"you\" is core A1 grammar.",
+      "explanation": {
+        "en": "With \"you\" and a normal verb like \"have\", the question starts with \"Do\". \"Are\" is for the verb \"be\", and \"Does\" is only for he/she/it.",
+        "bg": "С \"you\" и обикновен глагол като \"have\" въпросът започва с \"Do\". \"Are\" е за глагола \"be\", а \"Does\" е само за he/she/it."
+      }
+    },
+    {
+      "id": "dx.a1.g.article-an",
+      "band": "A1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "articles",
+      "shift": -0.2,
+      "prompt": "I eat ___ apple every morning.",
+      "options": [
+        "a",
+        "the",
+        "some",
+        "an"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Choose \"a\" or \"an\" before a noun",
+        "bg": "Да избираш \"a\" или \"an\" пред съществително"
+      },
+      "evidence": "The a/an alternation before a vowel sound is a first-level article rule.",
+      "explanation": {
+        "en": "\"Apple\" starts with a vowel sound, so we say \"an apple\". \"A\" is used before consonant sounds (\"a banana\"). \"The\" is wrong because we mean any apple, not a specific one.",
+        "bg": "\"Apple\" започва с гласен звук, затова казваме \"an apple\". \"A\" се използва пред съгласен звук (\"a banana\"). \"The\" е грешно, защото става дума за някаква ябълка, не за конкретна."
+      }
+    },
+    {
+      "id": "dx.a1.g.there-are",
+      "band": "A1",
+      "skill": "grammar",
+      "type": "cloze",
+      "topic": "there-is-are",
+      "shift": 0.0,
+      "sentence": "Look! There ___ two cats in the garden.",
+      "accept": [
+        "are"
+      ],
+      "objective": {
+        "en": "Use \"there is / there are\"",
+        "bg": "Да използваш \"there is / there are\""
+      },
+      "evidence": "There is/are with a plural noun is a defining A1 structure.",
+      "explanation": {
+        "en": "\"Two cats\" is plural, so we use \"there are\". \"There is\" is for one thing: \"There is a cat\".",
+        "bg": "\"Two cats\" е множествено число, затова използваме \"there are\". \"There is\" е за едно нещо: \"There is a cat\"."
+      }
+    },
+    {
+      "id": "dx.a1.g.has",
+      "band": "A1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "present-simple",
+      "shift": 0.1,
+      "prompt": "My brother ___ a big dog.",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "haves"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Use \"have\" / \"has\" correctly",
+        "bg": "Да използваш правилно \"have\" / \"has\""
+      },
+      "evidence": "Third-person \"has\" is a high-frequency A1 form that beginners often get wrong.",
+      "explanation": {
+        "en": "With he/she/it (\"my brother\" = he) we use \"has\". \"Have\" is for I/you/we/they, and \"haves\" does not exist.",
+        "bg": "С he/she/it (\"my brother\" = he) използваме \"has\". \"Have\" е за I/you/we/they, а \"haves\" не съществува."
+      }
+    },
+    {
+      "id": "dx.a1.g.plural-children",
+      "band": "A1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "plurals",
+      "shift": 0.3,
+      "prompt": "I have two ___: a boy and a girl.",
+      "options": [
+        "childs",
+        "children",
+        "child",
+        "childrens"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Use common irregular plurals",
+        "bg": "Да използваш често срещани неправилни множествени числа"
+      },
+      "evidence": "Irregular plurals of very common nouns (child/children) are taught at A1.",
+      "explanation": {
+        "en": "The plural of \"child\" is \"children\". It is irregular, so \"childs\" is wrong, and \"childrens\" adds an extra -s.",
+        "bg": "Множественото число на \"child\" е \"children\". То е неправилно, затова \"childs\" е грешно, а \"childrens\" има излишно -s."
+      }
+    },
+    {
+      "id": "dx.a1.v.week",
+      "band": "A1",
+      "skill": "vocabulary",
+      "type": "cloze",
+      "topic": "time",
+      "shift": -0.4,
+      "sentence": "There are seven days in a ___.",
+      "accept": [
+        "week"
+      ],
+      "objective": {
+        "en": "Know basic words for time",
+        "bg": "Да знаеш основни думи за време"
+      },
+      "evidence": "Days/weeks/months are among the first time words learners meet.",
+      "explanation": {
+        "en": "A week has seven days. A month has about thirty days.",
+        "bg": "Една седмица (\"week\") има седем дни. Един месец (\"month\") има около трийсет дни."
+      }
+    },
+    {
+      "id": "dx.a1.v.half-past",
+      "band": "A1",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "time",
+      "shift": 0.2,
+      "prompt": "It's 7:30. It's ___.",
+      "options": [
+        "half past eight",
+        "half to seven",
+        "seven past half",
+        "half past seven"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Tell the time in English",
+        "bg": "Да казваш колко е часът на английски"
+      },
+      "evidence": "Telling the time with \"half past\" is an A1 everyday-language target.",
+      "explanation": {
+        "en": "7:30 is \"half past seven\" (thirty minutes after seven). Be careful: in some languages 7:30 is \"half eight\", but in English \"half past eight\" is 8:30.",
+        "bg": "7:30 е \"half past seven\" (трийсет минути след седем). Внимавай: \"half past eight\" е 8:30, а \"half to seven\" не се използва."
+      }
+    },
+    {
+      "id": "dx.a1.v.knife",
+      "band": "A1",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "everyday-objects",
+      "shift": -0.2,
+      "prompt": "You use a ___ to cut bread.",
+      "options": [
+        "spoon",
+        "cup",
+        "knife",
+        "plate"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Name everyday objects",
+        "bg": "Да назоваваш предмети от ежедневието"
+      },
+      "evidence": "Kitchen objects are concrete, high-frequency A1 vocabulary.",
+      "explanation": {
+        "en": "A knife cuts. A spoon is for soup, a cup is for drinks and a plate is for putting food on.",
+        "bg": "С нож (\"knife\") се реже. Лъжицата (\"spoon\") е за супа, чашата (\"cup\") е за напитки, а чинията (\"plate\") е за храна."
+      }
+    },
+    {
+      "id": "dx.a1.v.uncle",
+      "band": "A1",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "family",
+      "shift": 0.1,
+      "prompt": "My mother's brother is my ___.",
+      "options": [
+        "aunt",
+        "uncle",
+        "cousin",
+        "grandfather"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Name family members",
+        "bg": "Да назоваваш членове на семейството"
+      },
+      "evidence": "Family words are a standard A1 lexical set.",
+      "explanation": {
+        "en": "Your mother's (or father's) brother is your uncle. An aunt is a woman, and a cousin is your uncle's or aunt's child.",
+        "bg": "Братът на майка ти е твой вуйчо — \"uncle\" (на английски една и съща дума за вуйчо и чичо). \"Aunt\" е леля, а \"cousin\" е братовчед."
+      }
+    },
+    {
+      "id": "dx.a1.r.lena",
+      "band": "A1",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "detail",
+      "shift": -0.3,
+      "passage": "Hi, I'm Lena. I'm from Poland, but I live in Dublin now. I work in a café near the river. I have a cat called Milo.",
+      "prompt": "Where does Lena work?",
+      "options": [
+        "In a café",
+        "In Poland",
+        "In a shop",
+        "At home"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Find simple information in a short text",
+        "bg": "Да намираш проста информация в кратък текст"
+      },
+      "evidence": "Locating one explicit detail in a 4-sentence personal text is an A1 reading skill.",
+      "explanation": {
+        "en": "The text says \"I work in a café near the river.\" She is from Poland, but she does not work there now.",
+        "bg": "В текста пише \"I work in a café near the river.\" Тя е от Полша, но сега не работи там."
+      }
+    },
+    {
+      "id": "dx.a1.r.pool",
+      "band": "A1",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "detail",
+      "shift": 0.2,
+      "passage": "SWIMMING POOL\nOpen Monday to Saturday, 7 am – 9 pm. Closed on Sunday.\nChildren under 8 must come with an adult.",
+      "prompt": "Which sentence is true?",
+      "options": [
+        "You can swim on Sunday.",
+        "A six-year-old can swim alone.",
+        "The pool closes at 7 in the evening.",
+        "The pool opens at 7 in the morning."
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Understand a simple notice",
+        "bg": "Да разбираш просто обявление"
+      },
+      "evidence": "Reading times and simple rules on a public notice is typical A1 reading.",
+      "explanation": {
+        "en": "\"7 am\" means seven in the morning. The pool is closed on Sunday, closes at 9 pm, and children under 8 must come with an adult.",
+        "bg": "\"7 am\" означава седем сутринта. В неделя басейнът е затворен, затваря в 21:00, а деца под 8 години трябва да са с възрастен."
+      }
+    },
+    {
+      "id": "dx.a1.r.postcard",
+      "band": "A1",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "detail",
+      "shift": 0.4,
+      "passage": "Dear Sam, I'm at the beach with my family. The weather is hot and sunny. We swim every day, and in the evening we eat fish in a small restaurant. See you next week! Maria",
+      "prompt": "What does Maria do in the evening?",
+      "options": [
+        "She eats in a restaurant.",
+        "She swims in the sea.",
+        "She goes to the beach.",
+        "She writes postcards."
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Understand a short personal message",
+        "bg": "Да разбираш кратко лично съобщение"
+      },
+      "evidence": "Following a simple time sequence (every day / in the evening) in a postcard is upper A1.",
+      "explanation": {
+        "en": "Maria writes: \"in the evening we eat fish in a small restaurant\". They swim during the day, not in the evening.",
+        "bg": "Мария пише: \"in the evening we eat fish in a small restaurant\". Те плуват през деня, не вечер."
+      }
+    },
+    {
+      "id": "dx.a1.l.prices",
+      "band": "A1",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "numbers",
+      "shift": -0.1,
+      "passage": "A: How much is the coffee? B: It's two pounds fifty. A: And a sandwich? B: Four pounds.",
+      "prompt": "How much is the sandwich?",
+      "options": [
+        "£2.50",
+        "£4.00",
+        "£14.00",
+        "£6.50"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Understand prices when you hear them",
+        "bg": "Да разбираш цени, когато ги чуеш"
+      },
+      "evidence": "Catching a simple price in a short service exchange is A1 listening.",
+      "explanation": {
+        "en": "The answer is \"Four pounds\". £2.50 is the coffee, and £6.50 is the price of both together. Don't confuse \"four\" with \"fourteen\".",
+        "bg": "Отговорът е \"Four pounds\". £2.50 е кафето, а £6.50 е цената на двете заедно. Не бъркай \"four\" с \"fourteen\"."
+      }
+    },
+    {
+      "id": "dx.a1.l.message",
+      "band": "A1",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "detail",
+      "shift": 0.1,
+      "passage": "Hello, this is a message for Anna. My name is David. I can't come to the party on Friday. Can we meet on Saturday morning? Call me back. Thanks!",
+      "prompt": "When does David want to meet Anna?",
+      "options": [
+        "On Friday evening",
+        "On Saturday evening",
+        "On Saturday morning",
+        "On Sunday morning"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Understand a simple phone message",
+        "bg": "Да разбираш просто телефонно съобщение"
+      },
+      "evidence": "Extracting a day and time from a short voicemail is A1 listening.",
+      "explanation": {
+        "en": "David says \"Can we meet on Saturday morning?\". He can't come to the party on Friday.",
+        "bg": "Дейвид казва \"Can we meet on Saturday morning?\". Той не може да дойде на партито в петък."
+      }
+    },
+    {
+      "id": "dx.a1.l.quarter-to",
+      "band": "A1",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "time",
+      "shift": 0.4,
+      "passage": "A: What time is it? B: It's quarter to nine. A: Oh no! My bus is at nine!",
+      "prompt": "What time is it now?",
+      "options": [
+        "8:45",
+        "9:15",
+        "9:45",
+        "8:15"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Understand times when you hear them",
+        "bg": "Да разбираш часове, когато ги чуеш"
+      },
+      "evidence": "Decoding \"quarter to\" by ear is at the top of A1.",
+      "explanation": {
+        "en": "\"Quarter to nine\" means fifteen minutes before nine: 8:45. \"Quarter past nine\" would be 9:15.",
+        "bg": "\"Quarter to nine\" означава петнайсет минути преди девет: 8:45. \"Quarter past nine\" би било 9:15."
+      }
+    },
+    {
+      "id": "dx.a1.f.meet",
+      "band": "A1",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "greetings",
+      "shift": -0.4,
+      "prompt": "You meet a new colleague for the first time. What do you say?",
+      "options": [
+        "Nice to see you again.",
+        "Nice to meet you.",
+        "How do you do it?",
+        "Goodbye, see you."
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Greet someone you meet for the first time",
+        "bg": "Да поздравяваш човек, когото срещаш за първи път"
+      },
+      "evidence": "First-meeting greetings are among the very first functional phrases.",
+      "explanation": {
+        "en": "\"Nice to meet you\" is for the first time. \"Nice to see you again\" is for someone you already know.",
+        "bg": "\"Nice to meet you\" е за първа среща. \"Nice to see you again\" е за човек, когото вече познаваш."
+      }
+    },
+    {
+      "id": "dx.a1.f.order",
+      "band": "A1",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "requests",
+      "shift": 0.0,
+      "prompt": "You are in a café and you want a cup of tea. What do you say?",
+      "options": [
+        "Give me tea.",
+        "I am a tea, please.",
+        "Do you have tea me?",
+        "Can I have a tea, please?"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Ask for something politely",
+        "bg": "Да помолиш учтиво за нещо"
+      },
+      "evidence": "Polite ordering with \"Can I have…, please?\" is a core A1 transactional phrase.",
+      "explanation": {
+        "en": "\"Can I have…, please?\" is polite and natural. \"Give me tea\" is understandable but sounds rude in English.",
+        "bg": "\"Can I have…, please?\" е учтиво и естествено. \"Give me tea\" се разбира, но на английски звучи грубо."
+      }
+    },
+    {
+      "id": "dx.a1.f.welcome",
+      "band": "A1",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "social-responses",
+      "shift": 0.2,
+      "prompt": "Someone says \"Thank you very much!\" What do you answer?",
+      "options": [
+        "Yes, please.",
+        "I'm fine, thanks.",
+        "You're welcome.",
+        "Sorry."
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Respond to thanks",
+        "bg": "Да отговаряш на благодарност"
+      },
+      "evidence": "Matching a basic social formula to its response is A1 functional competence.",
+      "explanation": {
+        "en": "We answer \"Thank you\" with \"You're welcome.\" \"Yes, please\" accepts an offer, and \"I'm fine, thanks\" answers \"How are you?\".",
+        "bg": "На \"Thank you\" отговаряме с \"You're welcome.\" \"Yes, please\" е за приемане на предложение, а \"I'm fine, thanks\" — отговор на \"How are you?\"."
+      }
+    },
+    {
+      "id": "dx.a2.g.went",
+      "band": "A2",
+      "skill": "grammar",
+      "type": "cloze",
+      "topic": "past-simple",
+      "shift": -0.3,
+      "sentence": "Yesterday we ___ (go) to the cinema and saw a funny film.",
+      "accept": [
+        "went"
+      ],
+      "objective": {
+        "en": "Use irregular past simple forms",
+        "bg": "Да използваш неправилни глаголи в минало просто време"
+      },
+      "evidence": "Common irregular past forms (go → went) are an A2 grammar target.",
+      "explanation": {
+        "en": "\"Go\" is irregular: the past simple is \"went\". \"Goed\" does not exist, and \"gone\" is the past participle (\"I have gone\").",
+        "bg": "\"Go\" е неправилен глагол: минало просто време е \"went\". \"Goed\" не съществува, а \"gone\" е миналото причастие (\"I have gone\")."
+      }
+    },
+    {
+      "id": "dx.a2.g.cheaper",
+      "band": "A2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "comparatives",
+      "shift": -0.1,
+      "prompt": "My new phone is ___ than my old one.",
+      "options": [
+        "more cheap",
+        "cheaper",
+        "cheapest",
+        "more cheaper"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Form comparative adjectives",
+        "bg": "Да образуваш сравнителна степен на прилагателни"
+      },
+      "evidence": "Comparatives of short adjectives with -er are a classic A2 structure.",
+      "explanation": {
+        "en": "Short adjectives take -er: \"cheap → cheaper\". \"More cheaper\" uses two comparative forms at once, and \"cheapest\" is the superlative.",
+        "bg": "Кратките прилагателни получават -er: \"cheap → cheaper\". \"More cheaper\" съдържа две сравнителни форми едновременно, а \"cheapest\" е превъзходна степен."
+      }
+    },
+    {
+      "id": "dx.a2.g.going-to",
+      "band": "A2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "future-going-to",
+      "shift": 0.1,
+      "prompt": "Look at those dark clouds! It ___ rain.",
+      "options": [
+        "is going to",
+        "goes to",
+        "is going",
+        "will to"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Use \"going to\" for predictions based on what you can see",
+        "bg": "Да използваш \"going to\" за предвиждания по това, което виждаш"
+      },
+      "evidence": "\"Going to\" for evidence-based prediction is A2 future grammar.",
+      "explanation": {
+        "en": "When we can see evidence now (dark clouds), we use \"be going to + verb\": \"It is going to rain.\" \"Will to\" is never correct, and \"is going\" without \"to\" is incomplete.",
+        "bg": "Когато виждаме признаци сега (тъмни облаци), използваме \"be going to + глагол\": \"It is going to rain.\" \"Will to\" никога не е правилно, а \"is going\" без \"to\" е непълно."
+      }
+    },
+    {
+      "id": "dx.a2.g.how-much",
+      "band": "A2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "countable-uncountable",
+      "shift": 0.2,
+      "prompt": "How ___ sugar do you want in your coffee?",
+      "options": [
+        "many",
+        "lot",
+        "much",
+        "few"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Use \"much\" and \"many\" correctly",
+        "bg": "Да използваш правилно \"much\" и \"many\""
+      },
+      "evidence": "The much/many distinction with uncountable nouns is core A2.",
+      "explanation": {
+        "en": "\"Sugar\" is uncountable, so we ask \"How much?\". \"How many?\" is for things we can count (\"How many cups?\").",
+        "bg": "\"Sugar\" е неброимо, затова питаме \"How much?\". \"How many?\" е за неща, които се броят (\"How many cups?\")."
+      }
+    },
+    {
+      "id": "dx.a2.g.have-to",
+      "band": "A2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "modals",
+      "shift": 0.3,
+      "prompt": "At my school, students ___ wear a uniform. It's the rule.",
+      "options": [
+        "has to",
+        "must to",
+        "can",
+        "have to"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Express obligation with \"have to\"",
+        "bg": "Да изразяваш задължение с \"have to\""
+      },
+      "evidence": "Have to for external rules, with correct agreement, is an A2 target.",
+      "explanation": {
+        "en": "\"Students\" is plural, so we say \"have to\". \"Must to\" is wrong (we say \"must wear\"), and \"can\" means it is allowed, not a rule.",
+        "bg": "\"Students\" е множествено число, затова казваме \"have to\". \"Must to\" е грешно (казва се \"must wear\"), а \"can\" означава, че е позволено, а не задължително."
+      }
+    },
+    {
+      "id": "dx.a2.v.shower",
+      "band": "A2",
+      "skill": "vocabulary",
+      "type": "cloze",
+      "topic": "collocations",
+      "shift": -0.2,
+      "sentence": "I usually ___ a shower before breakfast.",
+      "accept": [
+        "have",
+        "take"
+      ],
+      "objective": {
+        "en": "Use common verb + noun combinations",
+        "bg": "Да използваш често срещани съчетания глагол + съществително"
+      },
+      "evidence": "Daily-routine collocations (have/take a shower) are A2 vocabulary.",
+      "explanation": {
+        "en": "We say \"have a shower\" (British) or \"take a shower\" (American). We don't say \"make a shower\" or \"do a shower\".",
+        "bg": "Казваме \"have a shower\" (британски) или \"take a shower\" (американски). Не казваме \"make a shower\" или \"do a shower\"."
+      }
+    },
+    {
+      "id": "dx.a2.v.on-table",
+      "band": "A2",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "prepositions",
+      "shift": -0.1,
+      "prompt": "The keys are ___ the table, next to the lamp.",
+      "options": [
+        "at",
+        "in",
+        "to",
+        "on"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Use prepositions of place",
+        "bg": "Да използваш предлози за място"
+      },
+      "evidence": "Basic prepositions of place on a surface are A2.",
+      "explanation": {
+        "en": "Something on a surface is \"on\" it. \"In\" is for inside a container (\"in the drawer\").",
+        "bg": "Нещо върху повърхност е \"on\". \"In\" е за вътре в нещо (\"in the drawer\")."
+      }
+    },
+    {
+      "id": "dx.a2.v.cheap",
+      "band": "A2",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "adjectives",
+      "shift": 0.0,
+      "prompt": "The opposite of \"expensive\" is ___.",
+      "options": [
+        "poor",
+        "free",
+        "cheap",
+        "low"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Know common adjectives and their opposites",
+        "bg": "Да знаеш често срещани прилагателни и техните противоположности"
+      },
+      "evidence": "Opposite pairs of common adjectives are A2 vocabulary.",
+      "explanation": {
+        "en": "\"Cheap\" means it doesn't cost much. \"Free\" means it costs nothing, and \"poor\" describes people without money.",
+        "bg": "\"Cheap\" означава евтин. \"Free\" означава безплатен, а \"poor\" описва хора без пари."
+      }
+    },
+    {
+      "id": "dx.a2.v.book-table",
+      "band": "A2",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "collocations",
+      "shift": 0.3,
+      "prompt": "I'd like to ___ a table for four people at 8 pm.",
+      "options": [
+        "book",
+        "order",
+        "take",
+        "make"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Use common phrases for booking and travel",
+        "bg": "Да използваш често срещани изрази за резервации и пътуване"
+      },
+      "evidence": "Booking language (book a table/room) is A2 transactional vocabulary.",
+      "explanation": {
+        "en": "We \"book\" a table, a room or a ticket. We \"order\" food once we are in the restaurant.",
+        "bg": "Маса, стая или билет се \"book\"-ват (резервират). Храна се \"order\"-ва (поръчва), когато вече си в ресторанта."
+      }
+    },
+    {
+      "id": "dx.a2.r.barbecue",
+      "band": "A2",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "detail",
+      "shift": -0.2,
+      "passage": "Hi Jack, Thanks for inviting me to your barbecue on Saturday. I'd love to come, but I'm working until four. Is it OK if I arrive at about five? I can bring some drinks. Ben",
+      "prompt": "Why will Ben arrive late?",
+      "options": [
+        "He has to buy drinks.",
+        "He has to work.",
+        "The barbecue starts at five.",
+        "He doesn't like barbecues."
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Understand reasons in a short email",
+        "bg": "Да разбираш причини в кратък имейл"
+      },
+      "evidence": "Identifying a stated reason in a simple informal email is A2 reading.",
+      "explanation": {
+        "en": "Ben says \"I'm working until four\". He offers to bring drinks, but that's not the reason he's late.",
+        "bg": "Бен казва \"I'm working until four\". Той предлага да донесе напитки, но това не е причината да закъснее."
+      }
+    },
+    {
+      "id": "dx.a2.r.library",
+      "band": "A2",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "detail",
+      "shift": 0.1,
+      "passage": "The Green Street Library is moving. From 1 June, it will be in the old post office building on Hill Road. The library will be closed for two weeks in May while staff move the books.",
+      "prompt": "When will you NOT be able to borrow books?",
+      "options": [
+        "From 1 June",
+        "All summer",
+        "For two weeks in May",
+        "Only at weekends"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Understand practical information in a notice",
+        "bg": "Да разбираш практическа информация в обявление"
+      },
+      "evidence": "Connecting two pieces of information about time in a short notice is A2.",
+      "explanation": {
+        "en": "The library \"will be closed for two weeks in May\". From 1 June it is open again in a new building.",
+        "bg": "Библиотеката \"will be closed for two weeks in May\". От 1 юни отново работи, в нова сграда."
+      }
+    },
+    {
+      "id": "dx.a2.r.scotland",
+      "band": "A2",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "detail",
+      "shift": 0.3,
+      "passage": "Last summer Tom went to Scotland with his brother. They wanted to climb a mountain, but it rained every day, so they visited museums and castles instead. Tom says it was still a great holiday.",
+      "prompt": "Did Tom and his brother climb the mountain?",
+      "options": [
+        "Yes, on the last day.",
+        "No, because Tom was ill.",
+        "Yes, but it rained.",
+        "No, because of the weather."
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Follow a simple story in the past",
+        "bg": "Да следиш проста история в минало време"
+      },
+      "evidence": "Understanding a plan that changed (\"wanted to…, but…, so…\") is upper A2.",
+      "explanation": {
+        "en": "They \"wanted to\" climb, \"but it rained every day, so\" they visited museums instead. \"Wanted to\" doesn't mean they did it.",
+        "bg": "Те \"wanted to\" (искаха) да се изкачат, \"but it rained every day, so\" отидоха в музеи. \"Wanted to\" не значи, че са го направили."
+      }
+    },
+    {
+      "id": "dx.a2.l.directions",
+      "band": "A2",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "directions",
+      "shift": -0.1,
+      "passage": "A: Excuse me, where's the train station? B: Go straight on, then turn left at the bank. The station is opposite the supermarket.",
+      "prompt": "Where is the station?",
+      "options": [
+        "Opposite the supermarket",
+        "Next to the bank",
+        "Opposite the bank",
+        "Behind the supermarket"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Understand simple directions",
+        "bg": "Да разбираш прости упътвания"
+      },
+      "evidence": "Following directions with landmarks is a standard A2 listening task.",
+      "explanation": {
+        "en": "The speaker says \"The station is opposite the supermarket.\" The bank is only where you turn left.",
+        "bg": "Казва се \"The station is opposite the supermarket.\" Банката е само мястото, където завиваш наляво."
+      }
+    },
+    {
+      "id": "dx.a2.l.late-train",
+      "band": "A2",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "detail",
+      "shift": 0.1,
+      "passage": "Hi Mum, it's me. The train is late, so I'm going to be home at half past eight, not seven. Don't wait for me for dinner. See you later!",
+      "prompt": "What time will the speaker get home?",
+      "options": [
+        "7:00",
+        "8:30",
+        "7:30",
+        "8:00"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Understand changes of plan in a message",
+        "bg": "Да разбираш промени в плана в съобщение"
+      },
+      "evidence": "Picking the new time over the old one (\"at half past eight, not seven\") is A2.",
+      "explanation": {
+        "en": "The speaker says \"half past eight, not seven\". Seven o'clock was the original plan.",
+        "bg": "Казва се \"half past eight, not seven\". Седем часа беше първоначалният план."
+      }
+    },
+    {
+      "id": "dx.a2.l.film",
+      "band": "A2",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "opinion",
+      "shift": 0.3,
+      "passage": "A: Did you enjoy the film? B: Well, the actors were great, but it was too long. Nearly three hours! A: Oh, I loved it.",
+      "prompt": "What didn't speaker B like about the film?",
+      "options": [
+        "It was too long.",
+        "The actors.",
+        "The music.",
+        "The ending."
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Understand simple opinions",
+        "bg": "Да разбираш прости мнения"
+      },
+      "evidence": "Separating positive and negative points joined by \"but\" is A2 listening.",
+      "explanation": {
+        "en": "B says \"the actors were great, but it was too long\". The actors were a positive point.",
+        "bg": "B казва \"the actors were great, but it was too long\". Актьорите са положителното."
+      }
+    },
+    {
+      "id": "dx.a2.f.sympathy",
+      "band": "A2",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "sympathy",
+      "shift": -0.2,
+      "prompt": "Your friend says: \"I failed my driving test again.\" What do you say?",
+      "options": [
+        "Congratulations!",
+        "That's a good idea.",
+        "Oh, I'm happy for you.",
+        "Oh no, I'm sorry to hear that."
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Show sympathy",
+        "bg": "Да изразяваш съчувствие"
+      },
+      "evidence": "Reacting appropriately to bad news is A2 social language.",
+      "explanation": {
+        "en": "\"I'm sorry to hear that\" shows sympathy for bad news. \"Congratulations\" and \"I'm happy for you\" are for good news.",
+        "bg": "\"I'm sorry to hear that\" изразява съчувствие при лоша новина. \"Congratulations\" и \"I'm happy for you\" са за добри новини."
+      }
+    },
+    {
+      "id": "dx.a2.f.decline",
+      "band": "A2",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "invitations",
+      "shift": 0.0,
+      "prompt": "A friend invites you to a party, but you are busy. What do you say?",
+      "options": [
+        "No, I don't want.",
+        "I'd love to, but I can't — I'm busy that evening.",
+        "Yes, I'm busy.",
+        "I can't to come, sorry."
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Refuse an invitation politely",
+        "bg": "Да откажеш учтиво покана"
+      },
+      "evidence": "Declining politely with a reason is an A2 functional target.",
+      "explanation": {
+        "en": "\"I'd love to, but…\" is polite and gives a reason. \"No, I don't want\" sounds rude, and \"can't to come\" is a grammar mistake (\"can't come\").",
+        "bg": "\"I'd love to, but…\" е учтиво и дава причина. \"No, I don't want\" звучи грубо, а \"can't to come\" е граматична грешка (\"can't come\")."
+      }
+    },
+    {
+      "id": "dx.a2.f.permission",
+      "band": "A2",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "permission",
+      "shift": 0.3,
+      "prompt": "You are at a friend's flat and you want to open the window. What do you say?",
+      "options": [
+        "Do you mind to open the window?",
+        "I open the window, OK?",
+        "Do you mind if I open the window?",
+        "Can you open me the window?"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Ask for permission",
+        "bg": "Да искаш разрешение"
+      },
+      "evidence": "Asking permission with \"Do you mind if I…?\" is upper-A2 functional language.",
+      "explanation": {
+        "en": "\"Do you mind if I + verb?\" asks for permission politely. \"Do you mind to…\" is wrong — after \"mind\" we use \"if I…\" or \"-ing\".",
+        "bg": "\"Do you mind if I + глагол?\" е учтив начин да искаш разрешение. \"Do you mind to…\" е грешно — след \"mind\" идва \"if I…\" или \"-ing\"."
+      }
+    },
+    {
+      "id": "dx.b1.g.since",
+      "band": "B1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "present-perfect",
+      "shift": -0.2,
+      "prompt": "I ___ in this flat since 2019.",
+      "options": [
+        "live",
+        "lived",
+        "have lived",
+        "am living"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Use the present perfect with \"since\"",
+        "bg": "Да използваш сегашно перфектно време със \"since\""
+      },
+      "evidence": "Present perfect for unfinished time with since/for is a key B1 contrast.",
+      "explanation": {
+        "en": "With \"since\" for a situation that started in the past and continues now, English uses the present perfect: \"have lived\". \"I live here since 2019\" is a common mistake (in Bulgarian we use the present tense).",
+        "bg": "Със \"since\" за ситуация, започнала в миналото и продължаваща сега, английският използва сегашно перфектно: \"have lived\". \"I live here since 2019\" е честа грешка (на български казваме \"живея тук от 2019\")."
+      }
+    },
+    {
+      "id": "dx.b1.g.second-cond",
+      "band": "B1",
+      "skill": "grammar",
+      "type": "cloze",
+      "topic": "conditionals",
+      "shift": 0.0,
+      "sentence": "If I ___ (have) more money, I would buy a bigger flat.",
+      "accept": [
+        "had"
+      ],
+      "objective": {
+        "en": "Use the second conditional for unreal situations",
+        "bg": "Да използваш второ условно за нереални ситуации"
+      },
+      "evidence": "The second conditional (if + past, would + verb) is core B1.",
+      "explanation": {
+        "en": "For an imaginary present situation we use \"if + past simple\": \"If I had…\". \"If I would have…\" is a common mistake — \"would\" goes in the other half of the sentence.",
+        "bg": "За въображаема ситуация в настоящето използваме \"if + минало просто\": \"If I had…\". \"If I would have…\" е честа грешка — \"would\" е в другата част на изречението."
+      }
+    },
+    {
+      "id": "dx.b1.g.passive-past",
+      "band": "B1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "passive",
+      "shift": 0.1,
+      "prompt": "This bridge ___ in 1890.",
+      "options": [
+        "built",
+        "was built",
+        "is building",
+        "has built"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Use the past simple passive",
+        "bg": "Да използваш минало просто време в страдателен залог"
+      },
+      "evidence": "Past passive for historical facts is a B1 grammar target.",
+      "explanation": {
+        "en": "The bridge didn't build anything — someone built it, so we need the passive: \"was built\". \"Built\" alone would mean the bridge built something.",
+        "bg": "Мостът не е строил нищо — някой го е построил, затова трябва страдателен залог: \"was built\". Само \"built\" би означавало, че мостът е построил нещо."
+      }
+    },
+    {
+      "id": "dx.b1.g.used-to",
+      "band": "B1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "used-to",
+      "shift": 0.2,
+      "prompt": "When I was a child, I ___ hate vegetables, but now I love them.",
+      "options": [
+        "use to",
+        "was used to",
+        "am used to",
+        "used to"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Talk about past habits with \"used to\"",
+        "bg": "Да говориш за минали навици с \"used to\""
+      },
+      "evidence": "Used to for past states, and not confusing it with be used to, is B1.",
+      "explanation": {
+        "en": "\"Used to + verb\" describes a past situation that is no longer true. \"Be used to\" means \"be familiar with\" and is followed by a noun or -ing.",
+        "bg": "\"Used to + глагол\" описва минала ситуация, която вече не е вярна. \"Be used to\" означава \"свикнал съм с\" и се следва от съществително или -ing."
+      }
+    },
+    {
+      "id": "dx.b1.g.decide-to",
+      "band": "B1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "gerund-infinitive",
+      "shift": 0.3,
+      "prompt": "After university, my brother decided ___ abroad.",
+      "options": [
+        "to study",
+        "studying",
+        "study",
+        "to studying"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Choose between infinitive and -ing after common verbs",
+        "bg": "Да избираш между инфинитив и -ing след често срещани глаголи"
+      },
+      "evidence": "Verb patterns (decide + to-infinitive) are a B1 grammar area.",
+      "explanation": {
+        "en": "\"Decide\" is followed by \"to + verb\": \"decided to study\". Verbs like \"enjoy\" or \"finish\" take -ing, but \"decide\" does not.",
+        "bg": "След \"decide\" идва \"to + глагол\": \"decided to study\". Глаголи като \"enjoy\" или \"finish\" се следват от -ing, но \"decide\" — не."
+      }
+    },
+    {
+      "id": "dx.b1.v.turn-down",
+      "band": "B1",
+      "skill": "vocabulary",
+      "type": "cloze",
+      "topic": "phrasal-verbs",
+      "shift": -0.2,
+      "sentence": "Could you ___ the music down? I'm trying to sleep.",
+      "accept": [
+        "turn",
+        "keep"
+      ],
+      "objective": {
+        "en": "Use common phrasal verbs",
+        "bg": "Да използваш често срещани фразови глаголи"
+      },
+      "evidence": "Everyday phrasal verbs like \"turn down\" are B1 vocabulary.",
+      "explanation": {
+        "en": "\"Turn down\" means make quieter (\"keep the music down\" is also correct). \"Turn up\" would make it louder.",
+        "bg": "\"Turn down\" означава да намалиш звука (\"keep the music down\" също е правилно). \"Turn up\" би го увеличило."
+      }
+    },
+    {
+      "id": "dx.b1.v.look-after",
+      "band": "B1",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "phrasal-verbs",
+      "shift": 0.0,
+      "prompt": "I need to ___ my little sister this afternoon while my parents are out.",
+      "options": [
+        "look for",
+        "look after",
+        "look up",
+        "look into"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Distinguish common phrasal verbs",
+        "bg": "Да различаваш често срещани фразови глаголи"
+      },
+      "evidence": "Distinguishing phrasal verbs with the same base verb is B1.",
+      "explanation": {
+        "en": "\"Look after\" means take care of. \"Look for\" means try to find, and \"look up\" is for information in a dictionary or online.",
+        "bg": "\"Look after\" означава да се грижиш за някого. \"Look for\" е да търсиш, а \"look up\" — да търсиш информация в речник или онлайн."
+      }
+    },
+    {
+      "id": "dx.b1.v.make-mistake",
+      "band": "B1",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "collocations",
+      "shift": 0.1,
+      "prompt": "Sorry, I ___ a mistake in your phone number.",
+      "options": [
+        "did",
+        "had",
+        "took",
+        "made"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Use \"make\" and \"do\" correctly",
+        "bg": "Да използваш правилно \"make\" и \"do\""
+      },
+      "evidence": "Make/do collocations are a classic B1 vocabulary problem.",
+      "explanation": {
+        "en": "We \"make a mistake\". \"Do\" goes with work and tasks (\"do homework\"), but not with \"mistake\".",
+        "bg": "Казва се \"make a mistake\". \"Do\" се съчетава с работа и задачи (\"do homework\"), но не и с \"mistake\"."
+      }
+    },
+    {
+      "id": "dx.b1.v.boring",
+      "band": "B1",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "word-formation",
+      "shift": 0.3,
+      "prompt": "The concert was so ___ that I fell asleep.",
+      "options": [
+        "bored",
+        "interesting",
+        "boring",
+        "interested"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Distinguish -ed and -ing adjectives",
+        "bg": "Да различаваш прилагателни с -ed и -ing"
+      },
+      "evidence": "The -ed/-ing adjective contrast is a B1 lexical target.",
+      "explanation": {
+        "en": "Things that cause a feeling are \"-ing\" (a boring concert); people who have the feeling are \"-ed\" (I was bored). The concert can't be \"bored\".",
+        "bg": "Нещата, които предизвикват чувство, са с \"-ing\" (a boring concert); хората, които изпитват чувството, са с \"-ed\" (I was bored). Концертът не може да е \"bored\"."
+      }
+    },
+    {
+      "id": "dx.b1.r.priya",
+      "band": "B1",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "gist",
+      "shift": -0.1,
+      "passage": "When Priya started working from home, she thought she would save time. In fact, she found herself answering emails late at night and skipping lunch. After a few months, she set some rules: she now stops work at six and goes for a walk every afternoon. She says she is more productive than before, not less.",
+      "prompt": "What is the main idea of the text?",
+      "options": [
+        "Working from home works better with clear limits.",
+        "Priya prefers working in an office.",
+        "Priya now works fewer hours and achieves less.",
+        "Walking is the best way to save time."
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Understand the main idea of a short text",
+        "bg": "Да разбираш основната идея на кратък текст"
+      },
+      "evidence": "Identifying gist across a short narrative with a change is B1 reading.",
+      "explanation": {
+        "en": "Priya's problems stopped after she \"set some rules\", and now she is \"more productive than before, not less\". So it's not true that she achieves less.",
+        "bg": "Проблемите на Прия спират, след като тя \"set some rules\", и сега е \"more productive than before, not less\". Значи не е вярно, че постига по-малко."
+      }
+    },
+    {
+      "id": "dx.b1.r.room",
+      "band": "B1",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "detail",
+      "shift": 0.2,
+      "passage": "Room to rent in shared house. Five minutes from the university, all bills included. You will share the kitchen and bathroom with three other students. No pets, and no smoking inside the house. Available from September.",
+      "prompt": "Who would this room suit best?",
+      "options": [
+        "A non-smoker who wants to pay the same amount every month",
+        "A student who wants a private bathroom",
+        "Someone with a small dog",
+        "Someone who needs a room in July"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Match information in an advert to a person's needs",
+        "bg": "Да съпоставяш информация от обява с нуждите на човек"
+      },
+      "evidence": "Matching several conditions in an advert to a profile is B1 reading.",
+      "explanation": {
+        "en": "\"All bills included\" means the cost is the same every month, and there is no smoking inside. The bathroom is shared, pets are not allowed and the room is free from September.",
+        "bg": "\"All bills included\" значи, че сумата е една и съща всеки месец, а пушенето вътре е забранено. Банята е обща, домашни любимци не се допускат, а стаята е свободна от септември."
+      }
+    },
+    {
+      "id": "dx.b1.r.restaurant",
+      "band": "B1",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "writer-opinion",
+      "shift": 0.3,
+      "passage": "I had high hopes for this restaurant after reading the reviews. The food was fine, though nothing special, and the portions were small for the price. What really disappointed me, however, was the service: we waited forty minutes for our main course and nobody apologised.",
+      "prompt": "What was the writer's biggest complaint?",
+      "options": [
+        "The quality of the food",
+        "The size of the portions",
+        "The slow service",
+        "The online reviews"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Identify a writer's main opinion",
+        "bg": "Да откриваш основното мнение на автора"
+      },
+      "evidence": "Recognising which of several criticisms is foregrounded (\"What really disappointed me…\") is B1+.",
+      "explanation": {
+        "en": "\"What really disappointed me, however, was the service\" shows the main complaint. The food and portions were criticised less strongly.",
+        "bg": "\"What really disappointed me, however, was the service\" показва основното оплакване. Храната и порциите са критикувани по-меко."
+      }
+    },
+    {
+      "id": "dx.b1.l.lisbon",
+      "band": "B1",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "advice",
+      "shift": -0.1,
+      "passage": "A: I'm thinking of going to Lisbon in April. Have you ever been there? B: Yes, twice. The first time it rained all week, but last year the weather was lovely. Go by plane, though — the train takes forever.",
+      "prompt": "What does speaker B advise?",
+      "options": [
+        "To go in summer",
+        "To take the train",
+        "To avoid April",
+        "To fly there"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Understand advice in a conversation",
+        "bg": "Да разбираш съвети в разговор"
+      },
+      "evidence": "Picking out advice signalled by \"though\" among other details is B1 listening.",
+      "explanation": {
+        "en": "B says \"Go by plane, though — the train takes forever.\" B never says to avoid April; the rain was just one experience.",
+        "bg": "B казва \"Go by plane, though — the train takes forever.\" B никъде не казва да избягваш април; дъждът е само едно преживяване."
+      }
+    },
+    {
+      "id": "dx.b1.l.platform",
+      "band": "B1",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "announcements",
+      "shift": 0.1,
+      "passage": "Attention, please. The 10:15 train to Manchester will now leave from platform 6, not platform 2. This train is running about ten minutes late. We apologise for any inconvenience.",
+      "prompt": "What is true about the 10:15 train?",
+      "options": [
+        "It will leave from platform 2 at 10:15.",
+        "It will leave from a different platform at about 10:25.",
+        "It has been cancelled.",
+        "It will leave from platform 6 at 10:05."
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Understand public announcements",
+        "bg": "Да разбираш обществени съобщения"
+      },
+      "evidence": "Combining two changes (platform and delay) from an announcement is B1.",
+      "explanation": {
+        "en": "The train now leaves from platform 6, not 2, and is \"about ten minutes late\", so around 10:25.",
+        "bg": "Влакът вече тръгва от перон 6, а не от 2, и закъснява \"about ten minutes\", значи около 10:25."
+      }
+    },
+    {
+      "id": "dx.b1.l.report",
+      "band": "B1",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "detail",
+      "shift": 0.3,
+      "passage": "A: Did you finish the report? B: Not yet. I was going to do it last night, but my laptop stopped working. I've taken it to be repaired, so I'll use my brother's computer tonight.",
+      "prompt": "Why hasn't speaker B finished the report?",
+      "options": [
+        "B forgot about it.",
+        "B's brother needed the computer.",
+        "B was ill last night.",
+        "B's laptop stopped working."
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Understand reasons and explanations",
+        "bg": "Да разбираш причини и обяснения"
+      },
+      "evidence": "Following a reason given with \"was going to… but…\" is B1 listening.",
+      "explanation": {
+        "en": "B \"was going to do it last night, but my laptop stopped working\". B will use the brother's computer tonight — that's the solution, not the reason.",
+        "bg": "B \"was going to do it last night, but my laptop stopped working\". Компютърът на брат му е решението за довечера, а не причината."
+      }
+    },
+    {
+      "id": "dx.b1.f.email-friend",
+      "band": "B1",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "register",
+      "shift": -0.1,
+      "prompt": "You're writing an email to a close friend you haven't seen for a while. Which is the best first line?",
+      "options": [
+        "Dear Sir, I am writing to inform you of my news.",
+        "It's been ages! How are things with you?",
+        "I hope this email finds you well.",
+        "To whom it may concern,"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Choose an informal register for emails to friends",
+        "bg": "Да избираш неформален стил в имейли до приятели"
+      },
+      "evidence": "Distinguishing informal from formal email openings is a B1 writing/functional target.",
+      "explanation": {
+        "en": "\"It's been ages!\" is warm and informal — right for a close friend. \"I hope this email finds you well\" is polite but sounds like a business email.",
+        "bg": "\"It's been ages!\" е топло и неформално — подходящо за близък приятел. \"I hope this email finds you well\" е учтиво, но звучи като делови имейл."
+      }
+    },
+    {
+      "id": "dx.b1.f.advice",
+      "band": "B1",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "advice",
+      "shift": 0.1,
+      "prompt": "Your friend has a bad headache the night before an exam. What's the most natural advice?",
+      "options": [
+        "You must to rest now.",
+        "You would better rest.",
+        "You should take a break and drink some water.",
+        "You should to rest now."
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Give advice",
+        "bg": "Да даваш съвет"
+      },
+      "evidence": "Giving advice with \"should\" (correctly formed) is B1 functional language.",
+      "explanation": {
+        "en": "\"You should + verb\" is the natural way to give advice. After \"should\" and \"must\" there is no \"to\", and the phrase is \"you'd better\", not \"you would better\".",
+        "bg": "\"You should + глагол\" е естественият начин да дадеш съвет. След \"should\" и \"must\" няма \"to\", а изразът е \"you'd better\", не \"you would better\"."
+      }
+    },
+    {
+      "id": "dx.b1.f.bag",
+      "band": "B1",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "requests",
+      "shift": 0.3,
+      "prompt": "On a train, you want the person next to you to move their bag so you can sit down. What do you say?",
+      "options": [
+        "Excuse me, would you mind moving your bag?",
+        "Excuse me, would you mind to move your bag?",
+        "Move your bag, please. I'm sitting here.",
+        "Sorry, can you moving your bag?"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Make polite requests to strangers",
+        "bg": "Да отправяш учтиви молби към непознати"
+      },
+      "evidence": "Would you mind + -ing for polite requests to strangers is B1.",
+      "explanation": {
+        "en": "\"Would you mind + -ing?\" is a polite request. \"Would you mind to move\" is a grammar mistake, and \"Move your bag\" is too direct for a stranger.",
+        "bg": "\"Would you mind + -ing?\" е учтива молба. \"Would you mind to move\" е граматична грешка, а \"Move your bag\" е твърде директно към непознат."
+      }
+    },
+    {
+      "id": "dx.b2.g.third-cond",
+      "band": "B2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "conditionals",
+      "shift": -0.2,
+      "prompt": "If she ___ the earlier train, she wouldn't have missed the meeting.",
+      "options": [
+        "had caught",
+        "would catch",
+        "caught",
+        "has caught"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Use the third conditional for past situations",
+        "bg": "Да използваш трето условно за минали ситуации"
+      },
+      "evidence": "The third conditional (if + past perfect) is a B2 grammar target.",
+      "explanation": {
+        "en": "For an imaginary past, we use \"if + past perfect\": \"If she had caught…\". \"Caught\" would make it a second conditional, which doesn't match \"wouldn't have missed\".",
+        "bg": "За въображаемо минало използваме \"if + минало перфектно\": \"If she had caught…\". \"Caught\" би го направило второ условно, което не пасва на \"wouldn't have missed\"."
+      }
+    },
+    {
+      "id": "dx.b2.g.mixed-cond",
+      "band": "B2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "conditionals",
+      "shift": 0.1,
+      "prompt": "If I had studied medicine, I ___ a doctor now.",
+      "options": [
+        "would have been",
+        "will be",
+        "would be",
+        "had been"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Use mixed conditionals",
+        "bg": "Да използваш смесени условни изречения"
+      },
+      "evidence": "Mixed conditionals (past condition, present result) are B2.",
+      "explanation": {
+        "en": "The condition is past (\"had studied\") but the result is about now (\"now\"), so we use \"would be\". \"Would have been\" refers to the past and clashes with \"now\".",
+        "bg": "Условието е в миналото (\"had studied\"), но резултатът е за сега (\"now\"), затова е \"would be\". \"Would have been\" се отнася за миналото и не пасва на \"now\"."
+      }
+    },
+    {
+      "id": "dx.b2.g.wish",
+      "band": "B2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "wish",
+      "shift": 0.0,
+      "prompt": "I wish I ___ that to her yesterday — she's still upset.",
+      "options": [
+        "didn't say",
+        "hadn't said",
+        "wouldn't say",
+        "haven't said"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Express regret with \"wish\"",
+        "bg": "Да изразяваш съжаление с \"wish\""
+      },
+      "evidence": "Wish + past perfect for past regret is a B2 structure.",
+      "explanation": {
+        "en": "For regret about the past (\"yesterday\"), \"wish\" is followed by the past perfect: \"I wish I hadn't said\". \"Didn't say\" is used for wishes about the present.",
+        "bg": "За съжаление за миналото (\"yesterday\") след \"wish\" идва минало перфектно: \"I wish I hadn't said\". \"Didn't say\" се използва за желания за настоящето."
+      }
+    },
+    {
+      "id": "dx.b2.g.cant-have",
+      "band": "B2",
+      "skill": "grammar",
+      "type": "cloze",
+      "topic": "modals-deduction",
+      "shift": 0.2,
+      "sentence": "You ___ have seen Mark at the party — he was in Paris that weekend.",
+      "accept": [
+        "can't",
+        "cannot",
+        "couldn't",
+        "could not",
+        "can not"
+      ],
+      "objective": {
+        "en": "Make deductions about the past",
+        "bg": "Да правиш логически изводи за миналото"
+      },
+      "evidence": "Past deduction with can't/couldn't have is B2.",
+      "explanation": {
+        "en": "When we are sure something was impossible, we use \"can't have\" or \"couldn't have\" + past participle. \"Mustn't have\" is a common mistake — it is not used for deduction.",
+        "bg": "Когато сме сигурни, че нещо е било невъзможно, използваме \"can't have\" или \"couldn't have\" + минало причастие. \"Mustn't have\" е честа грешка — не се използва за изводи."
+      }
+    },
+    {
+      "id": "dx.b2.g.reported",
+      "band": "B2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "reported-speech",
+      "shift": 0.3,
+      "prompt": "\"I'll call you tomorrow,\" he said. → He said he ___ me the next day.",
+      "options": [
+        "will call",
+        "calls",
+        "would have called",
+        "would call"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Report speech with tense changes",
+        "bg": "Да предаваш чужда реч с промяна на времената"
+      },
+      "evidence": "Backshift of will → would in reported speech is B2.",
+      "explanation": {
+        "en": "In reported speech after \"said\", \"will\" usually becomes \"would\": \"he would call\". \"Would have called\" means it didn't happen, which changes the meaning.",
+        "bg": "В непряката реч след \"said\" \"will\" обикновено става \"would\": \"he would call\". \"Would have called\" означава, че не се е случило, което променя смисъла."
+      }
+    },
+    {
+      "id": "dx.b2.v.despite",
+      "band": "B2",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "linking-words",
+      "shift": -0.2,
+      "prompt": "___ having very little experience, she got the job.",
+      "options": [
+        "In spite",
+        "Despite",
+        "However",
+        "Even though"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Use contrast linkers correctly",
+        "bg": "Да използваш правилно свързващи думи за контраст"
+      },
+      "evidence": "Choosing despite vs although by the grammar that follows is a B2 target.",
+      "explanation": {
+        "en": "\"Despite\" is followed by a noun or -ing (\"having\"). \"In spite\" needs \"of\" (\"In spite of having…\"), and \"even though\" needs a full clause: \"Even though she had very little experience…\".",
+        "bg": "След \"despite\" идва съществително или -ing (\"having\"). \"In spite\" изисква \"of\" (\"In spite of having…\"), а след \"even though\" трябва цяло изречение: \"Even though she had very little experience…\"."
+      }
+    },
+    {
+      "id": "dx.b2.v.failure",
+      "band": "B2",
+      "skill": "vocabulary",
+      "type": "cloze",
+      "topic": "word-formation",
+      "shift": 0.0,
+      "sentence": "The company's ___ (FAIL) to adapt to online shopping led to its collapse.",
+      "accept": [
+        "failure",
+        "failing"
+      ],
+      "objective": {
+        "en": "Form nouns from verbs",
+        "bg": "Да образуваш съществителни от глаголи"
+      },
+      "evidence": "Noun formation with less obvious suffixes (fail → failure) is B2 word formation.",
+      "explanation": {
+        "en": "After \"The company's\" we need a noun. The usual noun from \"fail\" is \"failure\", in the pattern \"failure to + verb\" (\"failing\" is also accepted). \"Fail\" itself is a verb and can't follow \"The company's\".",
+        "bg": "След \"The company's\" трябва съществително. Обичайното съществително от \"fail\" е \"failure\", в израза \"failure to + глагол\" (приема се и \"failing\"). Самото \"fail\" е глагол и не може да стои след \"The company's\"."
+      }
+    },
+    {
+      "id": "dx.b2.v.take-measures",
+      "band": "B2",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "collocations",
+      "shift": 0.2,
+      "prompt": "The government has ___ a number of measures to reduce air pollution.",
+      "options": [
+        "made",
+        "done",
+        "taken",
+        "put"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Use common verb-noun collocations",
+        "bg": "Да използваш често срещани словосъчетания глагол + съществително"
+      },
+      "evidence": "Collocations like \"take measures\" are B2 lexis.",
+      "explanation": {
+        "en": "In English we \"take measures\" (or \"introduce\" them). \"Make measures\" is a common translation mistake.",
+        "bg": "На английски се казва \"take measures\" (или \"introduce\"). \"Make measures\" е честа грешка от превод."
+      }
+    },
+    {
+      "id": "dx.b2.v.highly",
+      "band": "B2",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "collocations",
+      "shift": 0.3,
+      "prompt": "It's ___ unlikely that the flight will leave on time.",
+      "options": [
+        "highly",
+        "strongly",
+        "heavily",
+        "greatly"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Use adverb-adjective collocations",
+        "bg": "Да използваш съчетания наречие + прилагателно"
+      },
+      "evidence": "Intensifier collocations (highly unlikely) are upper-B2.",
+      "explanation": {
+        "en": "\"Highly\" collocates with \"unlikely\", \"likely\" and \"probable\". \"Strongly\" goes with verbs like \"recommend\" or \"believe\", not with \"unlikely\".",
+        "bg": "\"Highly\" се съчетава с \"unlikely\", \"likely\" и \"probable\". \"Strongly\" върви с глаголи като \"recommend\" или \"believe\", не с \"unlikely\"."
+      }
+    },
+    {
+      "id": "dx.b2.r.four-day",
+      "band": "B2",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "writer-attitude",
+      "shift": 0.2,
+      "passage": "Supporters of the four-day working week often point to trials in which productivity stayed the same or even rose. Yet most of these trials involved office-based companies that volunteered to take part, and which were therefore likely to be enthusiastic from the start. For hospitals, schools or factories, where work cannot simply be done faster, the picture is far less clear. None of this means the idea should be abandoned; it means the evidence so far tells us less than its champions claim.",
+      "prompt": "What is the writer's attitude to the four-day week?",
+      "options": [
+        "Convinced that it cannot work outside offices",
+        "Convinced that the trials prove it works",
+        "Uninterested, since it affects few industries",
+        "Open to it, but doubtful about how strong the evidence is"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Identify a writer's attitude",
+        "bg": "Да определяш отношението на автора"
+      },
+      "evidence": "Recognising a balanced, qualified stance across a paragraph is B2 reading.",
+      "explanation": {
+        "en": "The writer says the idea shouldn't be \"abandoned\" but the evidence \"tells us less than its champions claim\". They don't say it can't work elsewhere — only that \"the picture is far less clear\".",
+        "bg": "Авторът казва, че идеята не бива да се \"abandoned\", но доказателствата \"tell us less than its champions claim\". Не твърди, че не може да работи другаде — само че \"the picture is far less clear\"."
+      }
+    },
+    {
+      "id": "dx.b2.r.bilingual",
+      "band": "B2",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "inference",
+      "shift": 0.3,
+      "passage": "For decades, parents were told that raising a child with two languages would delay their speech. Researchers now think this advice was based on poorly designed studies. Bilingual toddlers may know fewer words in each language, but when both languages are counted together, their vocabulary is usually similar to that of children who speak only one. Some studies even suggest that switching between languages helps children control their attention.",
+      "prompt": "Why, according to the text, might people have believed that bilingual children learn to speak more slowly?",
+      "options": [
+        "Bilingual children really do start speaking later.",
+        "Switching between languages causes confusion.",
+        "Their words were counted in only one language.",
+        "Bilingual children have smaller total vocabularies."
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Infer reasons from a text",
+        "bg": "Да правиш изводи за причини от текст"
+      },
+      "evidence": "Inferring an unstated reason from contrasting facts is B2 reading.",
+      "explanation": {
+        "en": "They \"know fewer words in each language\", but the total is similar \"when both languages are counted together\". So counting one language made them look slower. The text says total vocabulary is usually similar.",
+        "bg": "Те \"know fewer words in each language\", но общият брой е сходен, \"when both languages are counted together\". Значи броенето само на един език ги е карало да изглеждат по-бавни."
+      }
+    },
+    {
+      "id": "dx.b2.r.interview",
+      "band": "B2",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "detail",
+      "shift": -0.3,
+      "passage": "Thank you for your application for the position of Marketing Assistant. We were impressed by your experience and would like to invite you to an interview on 14 March at 10 a.m. Please note that, as part of the interview, you will be asked to give a ten-minute presentation on a recent campaign you admire. Could you confirm by Friday whether this time is convenient? If not, we will do our best to offer an alternative.",
+      "prompt": "What must the candidate do before the interview?",
+      "options": [
+        "Send in a ten-minute presentation",
+        "Suggest an alternative date",
+        "Design a new marketing campaign",
+        "Tell the company whether the time is suitable"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Understand requests in a formal letter",
+        "bg": "Да разбираш молби в официално писмо"
+      },
+      "evidence": "Locating the required action in a formal email with distracting details is B2.",
+      "explanation": {
+        "en": "The letter asks: \"Could you confirm by Friday whether this time is convenient?\" The presentation is given at the interview, not sent before.",
+        "bg": "Писмото пита: \"Could you confirm by Friday whether this time is convenient?\" Презентацията се представя на интервюто, а не се изпраща предварително."
+      }
+    },
+    {
+      "id": "dx.b2.l.launch",
+      "band": "B2",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "opinion",
+      "shift": 0.0,
+      "passage": "A: So, are we all agreed on launching in May? B: In principle, yes. My only concern is that testing might not be finished by then. If it slips, I'd rather we delayed by a month than launched something half-ready.",
+      "prompt": "What is speaker B's position?",
+      "options": [
+        "B accepts May but would prefer a delay to an unfinished product.",
+        "B wants to launch in June.",
+        "B thinks testing is already finished.",
+        "B is against launching in May."
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Understand qualified opinions in a meeting",
+        "bg": "Да разбираш мнения с уговорки на среща"
+      },
+      "evidence": "Following a hedged position (\"in principle, yes… my only concern…\") is B2 listening.",
+      "explanation": {
+        "en": "\"In principle, yes\" means B agrees with May; the condition is \"If it slips, I'd rather we delayed\". B doesn't want June unless testing isn't ready.",
+        "bg": "\"In principle, yes\" значи, че B е съгласен с май; условието е \"If it slips, I'd rather we delayed\". B не иска юни, освен ако тестването не е готово."
+      }
+    },
+    {
+      "id": "dx.b2.l.running",
+      "band": "B2",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "detail",
+      "shift": 0.2,
+      "passage": "I'd never have taken up running if my doctor hadn't more or less ordered me to. I hated it for the first month, honestly. What kept me going wasn't my health, though — it was the people in the club I joined. Now I'd miss them more than the running itself.",
+      "prompt": "What keeps the speaker running now?",
+      "options": [
+        "Health reasons",
+        "The people in the club",
+        "The doctor's orders",
+        "Enjoying running itself"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Understand reasons and contrasts in a monologue",
+        "bg": "Да разбираш причини и контрасти в монолог"
+      },
+      "evidence": "Separating the initial reason from the current motivation (\"wasn't… though — it was…\") is B2.",
+      "explanation": {
+        "en": "The doctor got them started, but \"What kept me going wasn't my health… it was the people in the club\". They'd miss the people \"more than the running itself\".",
+        "bg": "Лекарят е причината да започне, но \"What kept me going wasn't my health… it was the people in the club\". Хората биха му липсвали \"more than the running itself\"."
+      }
+    },
+    {
+      "id": "dx.b2.l.job-offer",
+      "band": "B2",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "inference",
+      "shift": 0.4,
+      "passage": "A: You must have been thrilled when they offered you the job. B: I would have been, if they hadn't cut the salary they'd mentioned at the interview. I'm still deciding.",
+      "prompt": "How does speaker B feel about the job offer?",
+      "options": [
+        "Disappointed by the salary and unsure whether to accept",
+        "Delighted and ready to accept",
+        "B has already turned it down.",
+        "Worried about how the interview went"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Understand feelings expressed indirectly",
+        "bg": "Да разбираш чувства, изразени непряко"
+      },
+      "evidence": "Decoding an unreal past conditional in speech to infer feelings is upper B2.",
+      "explanation": {
+        "en": "\"I would have been [thrilled], if they hadn't cut the salary\" means B is not thrilled. \"I'm still deciding\" shows B hasn't said yes or no.",
+        "bg": "\"I would have been [thrilled], if they hadn't cut the salary\" означава, че B не е във възторг. \"I'm still deciding\" показва, че още не е решил."
+      }
+    },
+    {
+      "id": "dx.b2.f.interrupt",
+      "band": "B2",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "meetings",
+      "shift": -0.2,
+      "prompt": "In a meeting, you want to add a point while a colleague is speaking. What's most appropriate?",
+      "options": [
+        "Stop, I have something to say.",
+        "Excuse me, can you be quiet for a moment?",
+        "Wait — you're wrong about that.",
+        "Sorry to interrupt, but could I just add something here?"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Interrupt politely in a meeting",
+        "bg": "Да прекъсваш учтиво на среща"
+      },
+      "evidence": "Polite interruption strategies in meetings are B2 functional language.",
+      "explanation": {
+        "en": "\"Sorry to interrupt, but could I just…\" apologises and asks permission. The others are too direct or rude for a work meeting.",
+        "bg": "\"Sorry to interrupt, but could I just…\" извинява прекъсването и иска разрешение. Останалите са твърде директни или груби за работна среща."
+      }
+    },
+    {
+      "id": "dx.b2.f.invoice",
+      "band": "B2",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "register",
+      "shift": 0.1,
+      "prompt": "You're emailing a client you've never met about an unpaid invoice. Which sentence has the right tone?",
+      "options": [
+        "Pay the invoice ASAP, please.",
+        "I'd be grateful if you could let me know when we can expect payment.",
+        "Hey, just wondering where my money is!",
+        "You still haven't paid, which is very annoying."
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Use a polite, professional register in emails",
+        "bg": "Да използваш учтив, професионален стил в имейли"
+      },
+      "evidence": "Adjusting register for a sensitive business request is B2.",
+      "explanation": {
+        "en": "\"I'd be grateful if you could…\" is polite but clear. \"Pay… ASAP\" is a command, and \"Hey…\" is far too informal for a new client.",
+        "bg": "\"I'd be grateful if you could…\" е учтиво, но ясно. \"Pay… ASAP\" е заповед, а \"Hey…\" е прекалено неформално за нов клиент."
+      }
+    },
+    {
+      "id": "dx.b2.f.disagree",
+      "band": "B2",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "disagreeing",
+      "shift": 0.3,
+      "prompt": "A colleague suggests a plan you think won't work. Which response is diplomatic but clear?",
+      "options": [
+        "That's a terrible idea.",
+        "Yes, perfect, let's do it.",
+        "I see where you're coming from, but I'm not sure it would work with our budget.",
+        "I'm agree with you, but it's not possible."
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Disagree diplomatically",
+        "bg": "Да изразяваш несъгласие дипломатично"
+      },
+      "evidence": "Softened disagreement that still states a reason is a B2 functional skill.",
+      "explanation": {
+        "en": "It acknowledges the idea, then gives a clear reason. \"I'm agree\" is a grammar mistake (\"I agree\") and contradicts itself.",
+        "bg": "Първо признава идеята, после дава ясна причина. \"I'm agree\" е граматична грешка (\"I agree\") и си противоречи."
+      }
+    },
+    {
+      "id": "dx.c1.g.not-only",
+      "band": "C1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "inversion",
+      "shift": -0.3,
+      "prompt": "Not only ___ late, but he also forgot the documents.",
+      "options": [
+        "he arrived",
+        "arrived he",
+        "did he arrive",
+        "he did arrive"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Use inversion after negative adverbials",
+        "bg": "Да използваш инверсия след отрицателни наречия"
+      },
+      "evidence": "Inversion after \"Not only\" is a C1 grammar marker.",
+      "explanation": {
+        "en": "After \"Not only\" at the start of a sentence, we invert like a question: \"did he arrive\". \"He arrived\" is the normal word order and is wrong here.",
+        "bg": "След \"Not only\" в началото на изречението словоредът се обръща като във въпрос: \"did he arrive\". \"He arrived\" е нормален словоред и тук е грешен."
+      }
+    },
+    {
+      "id": "dx.c1.g.rarely",
+      "band": "C1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "inversion",
+      "shift": 0.0,
+      "prompt": "Rarely ___ such a talented young pianist.",
+      "options": [
+        "have I heard",
+        "I have heard",
+        "I heard",
+        "heard I"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Use inversion for emphasis",
+        "bg": "Да използваш инверсия за емфаза"
+      },
+      "evidence": "Fronted \"Rarely\" with auxiliary inversion is C1.",
+      "explanation": {
+        "en": "\"Rarely\" at the start needs auxiliary + subject: \"have I heard\". \"Heard I\" inverts the main verb, which modern English doesn't do.",
+        "bg": "\"Rarely\" в началото изисква спомагателен глагол + подлог: \"have I heard\". \"Heard I\" обръща основния глагол, което в съвременния английски не се прави."
+      }
+    },
+    {
+      "id": "dx.c1.g.cleft",
+      "band": "C1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "cleft-sentences",
+      "shift": 0.1,
+      "prompt": "I didn't object to the decision itself. ___ was the way it was announced.",
+      "options": [
+        "That annoyed me",
+        "Which annoyed me",
+        "It annoyed me",
+        "What annoyed me"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Use cleft sentences for emphasis",
+        "bg": "Да използваш изречения с изнесен фокус (cleft sentences) за емфаза"
+      },
+      "evidence": "Wh-cleft sentences for contrastive focus are C1 grammar.",
+      "explanation": {
+        "en": "\"What annoyed me was…\" is a cleft sentence that focuses on the contrast. \"Which\" can't start this kind of clause, and \"It annoyed me was…\" has two verbs without a link.",
+        "bg": "\"What annoyed me was…\" е изречение с изнесен фокус (cleft), което подчертава контраста. \"Which\" не може да започва такова изречение, а \"It annoyed me was…\" има два глагола без връзка."
+      }
+    },
+    {
+      "id": "dx.c1.g.hardly",
+      "band": "C1",
+      "skill": "grammar",
+      "type": "cloze",
+      "topic": "inversion",
+      "shift": 0.3,
+      "sentence": "Hardly ___ I closed my eyes when the alarm went off.",
+      "accept": [
+        "had"
+      ],
+      "objective": {
+        "en": "Use \"Hardly… when\" with inversion",
+        "bg": "Да използваш \"Hardly… when\" с инверсия"
+      },
+      "evidence": "Hardly + past perfect inversion is an advanced C1 structure.",
+      "explanation": {
+        "en": "\"Hardly had I + past participle… when…\" means one thing happened immediately after another. \"Did\" is wrong because \"closed\" is a past participle here and needs the past perfect.",
+        "bg": "\"Hardly had I + минало причастие… when…\" означава, че нещо се е случило веднага след друго. \"Did\" е грешно, защото тук \"closed\" е минало причастие и изисква минало перфектно."
+      }
+    },
+    {
+      "id": "dx.c1.g.had-i-known",
+      "band": "C1",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "conditionals",
+      "shift": 0.2,
+      "prompt": "Had I known about the traffic, I ___ earlier.",
+      "options": [
+        "would leave",
+        "would have left",
+        "had left",
+        "will have left"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Use inverted conditionals",
+        "bg": "Да използваш условни изречения с инверсия"
+      },
+      "evidence": "Inverted third conditionals (Had I known…) are C1.",
+      "explanation": {
+        "en": "\"Had I known\" = \"If I had known\", a third conditional, so the result is \"would have left\". \"Had left\" repeats the condition form and doesn't express the result.",
+        "bg": "\"Had I known\" = \"If I had known\" — трето условно, затова резултатът е \"would have left\". \"Had left\" повтаря формата на условието и не изразява резултат."
+      }
+    },
+    {
+      "id": "dx.c1.v.nonetheless",
+      "band": "C1",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "connectors",
+      "shift": -0.1,
+      "prompt": "The data are incomplete; ___, the overall trend is unmistakable.",
+      "options": [
+        "therefore",
+        "nonetheless",
+        "moreover",
+        "whereas"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Use nuanced connectors",
+        "bg": "Да използваш свързващи думи с точно значение"
+      },
+      "evidence": "Concessive sentence adverbs in formal argument are C1.",
+      "explanation": {
+        "en": "The second idea contrasts with the first (incomplete data, but a clear trend), so we need a concessive connector: \"nonetheless\". \"Whereas\" contrasts but joins clauses and can't follow a semicolon like this.",
+        "bg": "Втората идея контрастира с първата (непълни данни, но ясна тенденция), затова трябва \"nonetheless\". \"Whereas\" също изразява контраст, но свързва клаузи и не стои така след точка и запетая."
+      }
+    },
+    {
+      "id": "dx.c1.v.scarcity",
+      "band": "C1",
+      "skill": "vocabulary",
+      "type": "cloze",
+      "topic": "nominalisation",
+      "shift": 0.2,
+      "sentence": "The report highlights the ___ (SCARCE) of reliable data on rural poverty.",
+      "accept": [
+        "scarcity",
+        "scarceness"
+      ],
+      "objective": {
+        "en": "Use nominalisation in formal writing",
+        "bg": "Да използваш номинализация в официален текст"
+      },
+      "evidence": "Abstract noun formation for academic style is C1.",
+      "explanation": {
+        "en": "After \"the\" and before \"of\" we need a noun. The usual noun from \"scarce\" is \"scarcity\" (\"scarceness\" also exists but is rare).",
+        "bg": "След \"the\" и преди \"of\" трябва съществително. Обичайното съществително от \"scarce\" е \"scarcity\" (\"scarceness\" също съществува, но е рядко)."
+      }
+    },
+    {
+      "id": "dx.c1.v.strike-deal",
+      "band": "C1",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "collocations",
+      "shift": 0.1,
+      "prompt": "After months of negotiation, the two companies finally ___ a deal.",
+      "options": [
+        "struck",
+        "hit",
+        "beat",
+        "knocked"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Use advanced verb-noun collocations",
+        "bg": "Да използваш напреднали словосъчетания глагол + съществително"
+      },
+      "evidence": "Idiomatic collocations like \"strike a deal\" are C1 lexis.",
+      "explanation": {
+        "en": "We \"strike a deal\" (or \"reach\" one). \"Hit\" sounds similar in meaning but doesn't collocate with \"deal\".",
+        "bg": "Казва се \"strike a deal\" (или \"reach a deal\"). \"Hit\" е близко по значение, но не се съчетава с \"deal\"."
+      }
+    },
+    {
+      "id": "dx.c1.v.sore-point",
+      "band": "C1",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "idioms",
+      "shift": 0.3,
+      "prompt": "Don't mention the budget cuts at dinner — it's a bit of a ___ point with my dad.",
+      "options": [
+        "raw",
+        "bitter",
+        "sore",
+        "hurt"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Understand common idioms",
+        "bg": "Да разбираш често срещани идиоми"
+      },
+      "evidence": "Fixed idioms like \"a sore point\" are C1 vocabulary.",
+      "explanation": {
+        "en": "\"A sore point\" is a topic that upsets someone. \"Raw\" appears in the idiom \"touch a raw nerve\", but not with \"point\".",
+        "bg": "\"A sore point\" е тема, която разстройва някого. \"Raw\" се среща в идиома \"touch a raw nerve\", но не и с \"point\"."
+      }
+    },
+    {
+      "id": "dx.c1.r.museums",
+      "band": "C1",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "inference",
+      "shift": 0.0,
+      "passage": "Museums have become remarkably fond of the word \"conversation\". Exhibitions no longer present objects; they \"start conversations\" about them. The phrase flatters visitors, who are cast as participants rather than pupils, and it is conveniently modest for curators, who need never be wrong if they never quite claim anything. But a conversation in which one party chooses the topic, writes all the lines and closes the doors at six is hardly a conversation at all. Visitors might be better served by curators willing to make an argument they could then disagree with.",
+      "prompt": "What does the writer suggest about the word \"conversation\"?",
+      "options": [
+        "It accurately reflects how museums now work.",
+        "It makes visitors feel excluded.",
+        "It is used mainly to attract younger visitors.",
+        "It allows curators to avoid taking a clear position."
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Understand implied criticism",
+        "bg": "Да разбираш скрита критика"
+      },
+      "evidence": "Inferring an ironic, implied argument from dense prose is C1 reading.",
+      "explanation": {
+        "en": "Curators \"need never be wrong if they never quite claim anything\", and the writer wants curators \"willing to make an argument\". The writer says the word flatters visitors — not that it excludes them.",
+        "bg": "Кураторите \"need never be wrong if they never quite claim anything\", а авторът иска куратори, \"willing to make an argument\". Според автора думата ласкае посетителите — не ги изключва."
+      }
+    },
+    {
+      "id": "dx.c1.r.productivity",
+      "band": "C1",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "gist",
+      "shift": 0.2,
+      "passage": "The promise of most productivity apps is that, by organising our tasks more efficiently, they will free up time for the things that matter. The difficulty is that time saved is rarely experienced as time freed. Hours reclaimed from email are quickly filled with more email, partly because the people we work with use the same tools and have raised their expectations accordingly. Efficiency, in other words, tends to be absorbed by the system rather than enjoyed by the individual. This is not an argument against the apps themselves, but against the belief that a personal solution can fix what is essentially a collective habit.",
+      "prompt": "What is the writer's main point?",
+      "options": [
+        "Productivity apps don't actually make people more efficient.",
+        "People should stop using productivity apps.",
+        "Time saved by individuals tends to be absorbed by shared expectations.",
+        "Email is the main cause of wasted time at work."
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Identify the main argument of a complex text",
+        "bg": "Да откриваш основния аргумент в сложен текст"
+      },
+      "evidence": "Extracting an abstract thesis while rejecting a near-miss is C1 reading.",
+      "explanation": {
+        "en": "The key idea is that \"efficiency… tends to be absorbed by the system rather than enjoyed by the individual\". The writer accepts that the apps can work and says it is \"not an argument against the apps themselves\".",
+        "bg": "Основната идея е, че \"efficiency… tends to be absorbed by the system rather than enjoyed by the individual\". Авторът приема, че приложенията работят, и казва, че това \"not an argument against the apps themselves\"."
+      }
+    },
+    {
+      "id": "dx.c1.r.bypass",
+      "band": "C1",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "inference",
+      "shift": 0.4,
+      "passage": "The new bypass was supposed to rescue the high street from traffic, and in one sense it has: lorries no longer rattle past the café windows. Yet footfall has fallen, not risen. Shopkeepers who once complained about noise now complain about silence. It seems that a good share of their trade came from drivers who, stuck in the queue, noticed a bakery and decided to stop. The council's consultants, who modelled traffic flows in great detail, appear not to have modelled appetite.",
+      "prompt": "What does the final sentence imply?",
+      "options": [
+        "The consultants underestimated how much traffic the bypass would carry.",
+        "The bakery had to close because of the new road.",
+        "The council should not have hired consultants.",
+        "The consultants ignored how drivers' impulse stops supported local shops."
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Interpret ironic statements",
+        "bg": "Да тълкуваш иронични изказвания"
+      },
+      "evidence": "Interpreting a witty, implied conclusion (\"not to have modelled appetite\") is upper C1.",
+      "explanation": {
+        "en": "\"Modelled appetite\" plays on \"modelled traffic flows\": the consultants studied cars in detail but missed that hungry drivers stuck in traffic were customers. Nothing suggests they got the traffic figures wrong.",
+        "bg": "\"Modelled appetite\" е игра на думи с \"modelled traffic flows\": консултантите са изучили колите подробно, но са пропуснали, че гладните шофьори в задръстването са били клиенти. Нищо не показва, че са сбъркали данните за трафика."
+      }
+    },
+    {
+      "id": "dx.c1.l.campaign",
+      "band": "C1",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "hedging",
+      "shift": -0.3,
+      "passage": "I wouldn't go so far as to say the campaign failed. It's fair to say, though, that the results fell somewhat short of what we'd hoped, and that some of the targets were, perhaps, a little ambitious.",
+      "prompt": "What is the speaker's view of the campaign?",
+      "options": [
+        "It was a complete failure.",
+        "It was less successful than hoped, but not a failure.",
+        "It was a great success.",
+        "It succeeded because the targets were ambitious."
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Understand hedged and softened statements",
+        "bg": "Да разбираш смекчени и предпазливи изказвания"
+      },
+      "evidence": "Decoding hedging (\"I wouldn't go so far as to say…\", \"somewhat\", \"perhaps\") is C1 listening.",
+      "explanation": {
+        "en": "\"I wouldn't go so far as to say the campaign failed\" rules out failure, and \"fell somewhat short\" shows it disappointed. The ambitious targets explain the shortfall, not success.",
+        "bg": "\"I wouldn't go so far as to say the campaign failed\" изключва провал, а \"fell somewhat short\" показва разочарование. Амбициозните цели обясняват недостига, а не успеха."
+      }
+    },
+    {
+      "id": "dx.c1.l.board",
+      "band": "C1",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "implied-meaning",
+      "shift": 0.1,
+      "passage": "A: How did the presentation to the board go? B: Well, they were very polite. They said it was \"an interesting starting point\" and asked whether we'd considered involving the strategy team. A: Ah. So, back to the drawing board, then?",
+      "prompt": "What does speaker A conclude?",
+      "options": [
+        "The board wasn't convinced, and the proposal needs rethinking.",
+        "The board approved the proposal.",
+        "The strategy team will present instead.",
+        "The board was rude to B."
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Understand implied meaning in conversation",
+        "bg": "Да разбираш подразбиращ се смисъл в разговор"
+      },
+      "evidence": "Inferring a negative outcome from polite euphemism is C1 listening.",
+      "explanation": {
+        "en": "\"An interesting starting point\" is a polite way of saying it isn't good enough yet, and \"back to the drawing board\" means starting again. The board was polite, not rude.",
+        "bg": "\"An interesting starting point\" е учтив начин да се каже, че още не е достатъчно добро, а \"back to the drawing board\" значи да започнеш отначало. Бордът е бил учтив, не груб."
+      }
+    },
+    {
+      "id": "dx.c1.l.demanding",
+      "band": "C1",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "inference",
+      "shift": 0.3,
+      "passage": "I'd been warned that the job would be demanding, and it is — but not in the way I'd expected. The hours are perfectly reasonable. What wears you down is never quite knowing whose decision anything is.",
+      "prompt": "What does the speaker find most difficult about the job?",
+      "options": [
+        "The long working hours",
+        "The complexity of the tasks",
+        "Not knowing who is responsible for decisions",
+        "Not having been warned about the job"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Understand a speaker's real point beyond the expected one",
+        "bg": "Да разбираш истинската позиция на говорещия отвъд очакваното"
+      },
+      "evidence": "Following a contrast with an expectation to the real point is C1 listening.",
+      "explanation": {
+        "en": "The speaker says \"The hours are perfectly reasonable\"; what wears them down is \"never quite knowing whose decision anything is\". They were warned, so the last option is wrong.",
+        "bg": "Говорещият казва \"The hours are perfectly reasonable\"; изтощава го \"never quite knowing whose decision anything is\". Бил е предупреден, така че последният вариант е грешен."
+      }
+    },
+    {
+      "id": "dx.c1.f.feedback",
+      "band": "C1",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "tact",
+      "shift": -0.1,
+      "prompt": "A junior colleague's report has several weak sections. Which opening is the most tactful while still being honest?",
+      "options": [
+        "This report is not good enough.",
+        "There's a lot of good material here — I think a couple of sections could be developed further.",
+        "Great work, I wouldn't change a thing!",
+        "I'm afraid I can't possibly accept this as it is."
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Give tactful but honest feedback",
+        "bg": "Да даваш тактична, но честна обратна връзка"
+      },
+      "evidence": "Balancing honesty and tact in feedback is C1 pragmatic competence.",
+      "explanation": {
+        "en": "It starts positively but clearly signals that work is needed. \"Great work, I wouldn't change a thing\" is tactful but dishonest; the others are honest but harsh.",
+        "bg": "Започва положително, но ясно показва, че има още работа. \"Great work, I wouldn't change a thing\" е тактично, но нечестно; другите са честни, но груби."
+      }
+    },
+    {
+      "id": "dx.c1.f.complaint",
+      "band": "C1",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "register",
+      "shift": 0.1,
+      "prompt": "Which sentence is most appropriate in a formal letter of complaint?",
+      "options": [
+        "I want to know why you haven't sent my money back yet.",
+        "Can you tell me what's going on with my refund?",
+        "I'd be well grateful if you could sort out my refund ASAP.",
+        "I would appreciate a full explanation of why my refund has not yet been processed."
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Use formal register in written complaints",
+        "bg": "Да използваш официален стил в писмени оплаквания"
+      },
+      "evidence": "Sustaining a formal, firm register in complaints is C1.",
+      "explanation": {
+        "en": "\"I would appreciate a full explanation\" is formal and firm. \"Well grateful\" and \"sort out… ASAP\" are informal and don't fit a formal letter.",
+        "bg": "\"I would appreciate a full explanation\" е официално и твърдо. \"Well grateful\" и \"sort out… ASAP\" са разговорни и не пасват на официално писмо."
+      }
+    },
+    {
+      "id": "dx.c1.f.hedging",
+      "band": "C1",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "hedging",
+      "shift": 0.3,
+      "prompt": "Which sentence is best suited to an academic essay presenting a cautious conclusion?",
+      "options": [
+        "The findings would appear to suggest a link between sleep and memory.",
+        "The findings prove that sleep causes better memory.",
+        "Basically, sleep is great for your memory.",
+        "It's obvious from the findings that sleep and memory are linked."
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Use hedging in academic writing",
+        "bg": "Да използваш предпазлив изказ в академично писане"
+      },
+      "evidence": "Academic hedging (\"would appear to suggest\") is a C1 stance marker.",
+      "explanation": {
+        "en": "\"Would appear to suggest\" is cautious and academic. \"Prove that… causes\" claims too much, and \"basically\" and \"it's obvious\" are too informal or too certain.",
+        "bg": "\"Would appear to suggest\" е предпазливо и академично. \"Prove that… causes\" твърди твърде много, а \"basically\" и \"it's obvious\" са твърде разговорни или категорични."
+      }
+    },
+    {
+      "id": "dx.c2.g.so-adj",
+      "band": "C2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "inversion",
+      "shift": -0.3,
+      "prompt": "So ___ the response that the organisers had to add a second performance.",
+      "options": [
+        "overwhelming was",
+        "was overwhelming",
+        "overwhelmed was",
+        "overwhelming it was"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Use stylistic inversion with \"so\"",
+        "bg": "Да използваш стилистична инверсия със \"so\""
+      },
+      "evidence": "So + adjective + be + subject inversion is a rare literary pattern beyond C1 control.",
+      "explanation": {
+        "en": "The pattern is \"So + adjective + be + subject + that…\": \"So overwhelming was the response that…\". \"Overwhelmed\" describes a person's feeling, not a response.",
+        "bg": "Конструкцията е \"So + прилагателно + be + подлог + that…\": \"So overwhelming was the response that…\". \"Overwhelmed\" описва чувство на човек, не реакция."
+      }
+    },
+    {
+      "id": "dx.c2.g.finish-did",
+      "band": "C2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "ellipsis",
+      "shift": 0.0,
+      "prompt": "She had vowed to finish the novel by spring, and finish it she ___, with two weeks to spare.",
+      "options": [
+        "made",
+        "was",
+        "got",
+        "did"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Recognise emphatic fronting with auxiliary \"do\"",
+        "bg": "Да разпознаваш емфатично изнасяне напред със спомагателното \"do\""
+      },
+      "evidence": "Fronted verb phrase with stranded emphatic \"did\" is a C2 stylistic structure.",
+      "explanation": {
+        "en": "The verb phrase is moved to the front for emphasis and \"did\" stays behind: \"finish it she did\" = she really did finish it. The other verbs can't act as auxiliaries for \"finish\".",
+        "bg": "Глаголната фраза е изнесена напред за емфаза, а \"did\" остава: \"finish it she did\" = наистина го завърши. Другите глаголи не могат да са спомагателни за \"finish\"."
+      }
+    },
+    {
+      "id": "dx.c2.g.were-to",
+      "band": "C2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "conditionals",
+      "shift": -0.2,
+      "prompt": "Were the proposal ___, the consequences for the region could be severe.",
+      "options": [
+        "be rejected",
+        "to be rejected",
+        "being rejected",
+        "would be rejected"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Use formal inverted conditionals with \"were to\"",
+        "bg": "Да използваш официални условни изречения с инверсия \"were to\""
+      },
+      "evidence": "Inverted \"were + subject + to-infinitive\" for hypothetical future events is C2 formal grammar.",
+      "explanation": {
+        "en": "\"Were the proposal to be rejected\" = \"If the proposal were to be rejected\", a formal way to talk about a possible future event. After inverted \"were\" we need \"to + infinitive\"; \"be\", \"being\" and \"would be\" are ungrammatical here.",
+        "bg": "\"Were the proposal to be rejected\" = \"If the proposal were to be rejected\" — официален начин да говориш за възможно бъдещо събитие. След \"were\" с инверсия трябва \"to + инфинитив\"; \"be\", \"being\" и \"would be\" тук са грешни."
+      }
+    },
+    {
+      "id": "dx.c2.g.adj-though",
+      "band": "C2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "concession",
+      "shift": 0.3,
+      "prompt": "___ though his intentions may have been, the outcome was disastrous.",
+      "options": [
+        "However admirable",
+        "Although admirable",
+        "Admirable",
+        "Much admirable"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Use concessive \"adjective + though\" structures",
+        "bg": "Да използваш отстъпителни конструкции \"прилагателно + though\""
+      },
+      "evidence": "Fronted adjective + though/as concession is a C2 structure that C1 learners rarely control.",
+      "explanation": {
+        "en": "The structure is \"Adjective + though + subject + verb\": \"Admirable though his intentions may have been…\" = \"Although his intentions may have been admirable…\". \"However admirable\" would need no \"though\".",
+        "bg": "Конструкцията е \"Прилагателно + though + подлог + глагол\": \"Admirable though his intentions may have been…\" = \"Although his intentions may have been admirable…\". \"However admirable\" не допуска \"though\" след себе си."
+      }
+    },
+    {
+      "id": "dx.c2.g.come-what-may",
+      "band": "C2",
+      "skill": "grammar",
+      "type": "choice",
+      "topic": "subjunctive",
+      "shift": -0.1,
+      "prompt": "___ what may, we will finish this project on time.",
+      "options": [
+        "Whatever",
+        "Be",
+        "Happen",
+        "Come"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Recognise fixed subjunctive expressions",
+        "bg": "Да разпознаваш устойчиви изрази с подчинително наклонение"
+      },
+      "evidence": "Fossilised subjunctive formulae like \"come what may\" are C2.",
+      "explanation": {
+        "en": "\"Come what may\" is a fixed expression meaning \"whatever happens\". \"Whatever what may\" doubles the question word; \"Happen what may\" is not used.",
+        "bg": "\"Come what may\" е устойчив израз, който значи \"каквото и да стане\". \"Whatever what may\" повтаря въпросителната дума, а \"Happen what may\" не се използва."
+      }
+    },
+    {
+      "id": "dx.c2.v.imminent",
+      "band": "C2",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "confusables",
+      "shift": -0.3,
+      "prompt": "Residents were evacuated because the collapse of the bridge was thought to be ___.",
+      "options": [
+        "imminent",
+        "eminent",
+        "immanent",
+        "prominent"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Distinguish easily confused words",
+        "bg": "Да различаваш лесно бъркани думи"
+      },
+      "evidence": "Discriminating imminent/eminent/immanent is a C2 lexical-precision task.",
+      "explanation": {
+        "en": "\"Imminent\" means about to happen. \"Eminent\" means famous and respected (an eminent scientist), and \"immanent\" means existing within something.",
+        "bg": "\"Imminent\" значи предстоящ, надвиснал. \"Eminent\" значи изтъкнат, уважаван (an eminent scientist), а \"immanent\" — присъщ, вътрешно присъщ."
+      }
+    },
+    {
+      "id": "dx.c2.v.contemptuous",
+      "band": "C2",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "confusables",
+      "shift": 0.1,
+      "prompt": "She gave the waiter a ___ look, as if he were beneath her notice.",
+      "options": [
+        "contemptible",
+        "contentious",
+        "contemptuous",
+        "contemplative"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Distinguish words with similar forms but different meanings",
+        "bg": "Да различаваш думи със сходна форма, но различно значение"
+      },
+      "evidence": "The contemptuous/contemptible contrast is a classic C2 distinction.",
+      "explanation": {
+        "en": "\"Contemptuous\" means showing contempt (her look expressed it). \"Contemptible\" means deserving contempt — it describes the person being judged, not the look of the person judging.",
+        "bg": "\"Contemptuous\" значи изразяващ презрение (погледът ѝ го показва). \"Contemptible\" значи заслужаващ презрение — описва онзи, когото презират, а не погледа на онзи, който презира."
+      }
+    },
+    {
+      "id": "dx.c2.v.equivocal",
+      "band": "C2",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "precise-meaning",
+      "shift": 0.2,
+      "prompt": "The minister's apology was so ___ that it seemed designed to admit nothing at all.",
+      "options": [
+        "unequivocal",
+        "equivocal",
+        "equitable",
+        "equable"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Choose words with precise meaning",
+        "bg": "Да избираш думи с точно значение"
+      },
+      "evidence": "Precise evaluative lexis like \"equivocal\" vs \"unequivocal\" is C2.",
+      "explanation": {
+        "en": "\"Equivocal\" means deliberately vague or open to more than one interpretation — exactly how you admit nothing. \"Unequivocal\" means the opposite: completely clear.",
+        "bg": "\"Equivocal\" значи умишлено двусмислен или неясен — точно така не признаваш нищо. \"Unequivocal\" значи обратното: напълно ясен."
+      }
+    },
+    {
+      "id": "dx.c2.v.tenuous",
+      "band": "C2",
+      "skill": "vocabulary",
+      "type": "choice",
+      "topic": "confusables",
+      "shift": 0.4,
+      "prompt": "The evidence linking him to the crime was ___ at best: one blurred photograph and a neighbour's vague memory.",
+      "options": [
+        "tenuous",
+        "tensile",
+        "tendentious",
+        "tenacious"
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Distinguish formal words with similar forms",
+        "bg": "Да различаваш официални думи със сходна форма"
+      },
+      "evidence": "Discriminating tenuous/tentative/tendentious/tenacious requires C2 lexical precision.",
+      "explanation": {
+        "en": "\"Tenuous\" means very weak or slight, as a link or evidence can be. \"Tendentious\" means biased — the problem here is weakness, not bias — \"tenacious\" means determined, and \"tensile\" relates to stretching.",
+        "bg": "\"Tenuous\" значи много слаб, крехък — каквато може да е връзка или доказателство. \"Tendentious\" значи тенденциозен — а тук проблемът е слабост, не пристрастност; \"tenacious\" е упорит, а \"tensile\" се отнася до опъване."
+      }
+    },
+    {
+      "id": "dx.c2.r.village",
+      "band": "C2",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "tone",
+      "shift": -0.1,
+      "passage": "The brochure promises \"an authentic village experience\", and in fairness it delivers one, provided that one's idea of a village includes four gift shops selling identical \"handmade\" baskets, a car park larger than the square, and a population that appears to consist entirely of actors in period costume who clock off at five. The church, admittedly, is genuine, though one must queue to enter it and pay to light a candle. It would be churlish to deny that the visitors enjoy themselves. It would be generous to say they have seen a village.",
+      "prompt": "What is the writer's attitude to the village?",
+      "options": [
+        "Genuinely impressed by how well it has been preserved",
+        "Angry with visitors for enjoying a fake experience",
+        "Wryly critical of its staged, commercial \"authenticity\"",
+        "Neutral, simply describing what visitors will find"
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Recognise irony and tone",
+        "bg": "Да разпознаваш ирония и тон"
+      },
+      "evidence": "Reading sustained irony and the final antithesis is C2 reading.",
+      "explanation": {
+        "en": "Phrases like \"in fairness it delivers one, provided that…\" and \"actors… who clock off at five\" are ironic. The writer doesn't blame the visitors: \"It would be churlish to deny that the visitors enjoy themselves.\"",
+        "bg": "Изрази като \"in fairness it delivers one, provided that…\" и \"actors… who clock off at five\" са иронични. Авторът не обвинява посетителите: \"It would be churlish to deny that the visitors enjoy themselves.\""
+      }
+    },
+    {
+      "id": "dx.c2.r.statistics",
+      "band": "C2",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "inference",
+      "shift": 0.2,
+      "passage": "It is often said that statistics can be made to prove anything. The remark is usually offered as a reason to distrust numbers, but it is better read as a reason to distrust people who have not looked at them closely. A figure torn from its context — a percentage without a base, an average that conceals a wildly uneven distribution — can indeed mislead. Yet the remedy for a misused number is seldom no number at all; it is a better number, honestly framed. Those who dismiss statistics wholesale do not escape manipulation; they merely surrender the means of detecting it.",
+      "prompt": "Which statement would the writer most likely agree with?",
+      "options": [
+        "Statistics are generally too easy to manipulate to be trusted.",
+        "Rejecting statistics altogether makes people more, not less, open to being misled.",
+        "Averages should never be presented without percentages.",
+        "Most people who use statistics do so dishonestly."
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Infer a writer's position from a dense argument",
+        "bg": "Да извеждаш позицията на автора от сложна аргументация"
+      },
+      "evidence": "Inferring the implication of a final aphoristic sentence is C2 reading.",
+      "explanation": {
+        "en": "The writer concludes that those who dismiss statistics \"merely surrender the means of detecting\" manipulation. The idea that statistics can't be trusted is the view the writer argues against.",
+        "bg": "Авторът заключава, че онези, които отхвърлят статистиката, \"merely surrender the means of detecting\" манипулацията. Идеята, че на статистиката не може да се вярва, е тъкмо позицията, срещу която авторът спори."
+      }
+    },
+    {
+      "id": "dx.c2.r.report",
+      "band": "C2",
+      "skill": "reading",
+      "type": "choice",
+      "topic": "rhetorical-effect",
+      "shift": 0.4,
+      "passage": "The committee's report runs to three hundred pages. It contains forty-two recommendations, eleven appendices and a foreword by a former minister. What it does not contain, anywhere, is the word \"cost\". One can admire the ambition of a plan to rebuild the national rail network while declining to mention who is to pay for it; one can admire, in the same spirit, a house designed without foundations.",
+      "prompt": "What is the purpose of the final comparison?",
+      "options": [
+        "To praise the report's architectural ambition",
+        "To argue that the rail network needs new foundations",
+        "To show that the writer admires the committee despite some doubts",
+        "To suggest the plan is unworkable, however impressive it appears"
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Understand the rhetorical effect of a comparison",
+        "bg": "Да разбираш реторичния ефект на сравнение"
+      },
+      "evidence": "Interpreting sardonic \"admiration\" and an analogy's rhetorical purpose is C2.",
+      "explanation": {
+        "en": "A house without foundations looks fine but cannot stand. \"One can admire\" is ironic — the writer is not really admiring the committee, but saying a plan without costs is unworkable.",
+        "bg": "Къща без основи изглежда добре, но не може да се задържи. \"One can admire\" е иронично — авторът всъщност не се възхищава, а казва, че план без разходи е неосъществим."
+      }
+    },
+    {
+      "id": "dx.c2.l.conference",
+      "band": "C2",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "irony",
+      "shift": -0.4,
+      "passage": "A: How was the conference? B: Oh, marvellous. Three days of people telling me the future is uncertain, at four hundred euros a ticket. I came back enlightened.",
+      "prompt": "What does speaker B really think of the conference?",
+      "options": [
+        "It was enlightening and worth the price.",
+        "It showed that the future of the industry is uncertain.",
+        "Three days was not long enough.",
+        "It was overpriced and said nothing useful."
+      ],
+      "correct": 3,
+      "objective": {
+        "en": "Recognise sarcasm in speech",
+        "bg": "Да разпознаваш сарказъм в речта"
+      },
+      "evidence": "Detecting sarcasm from content clash (\"marvellous\" + empty content + high price) by ear is C2-entry listening.",
+      "explanation": {
+        "en": "\"Marvellous\" and \"enlightened\" are sarcastic: B paid four hundred euros to hear something obvious (\"the future is uncertain\").",
+        "bg": "\"Marvellous\" и \"enlightened\" са саркастични: B е платил четиристотин евро, за да чуе нещо очевидно (\"the future is uncertain\")."
+      }
+    },
+    {
+      "id": "dx.c2.l.partnership",
+      "band": "C2",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "attitude",
+      "shift": 0.2,
+      "passage": "People ask whether I regret turning down the partnership. The honest answer is that I regret the version of me who would have accepted it — the one who'd have been richer and, I suspect, considerably less interesting company. So no, not the decision. Occasionally the bank balance.",
+      "prompt": "How does the speaker feel about turning down the partnership?",
+      "options": [
+        "Deeply regretful, because they would now be richer",
+        "Content with the decision, despite occasional thoughts about the money",
+        "Unsure, because they can't know who they would have become",
+        "Completely indifferent, since money has never mattered to them"
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Understand complex, layered attitudes",
+        "bg": "Да разбираш сложни, многопластови нагласи"
+      },
+      "evidence": "Untangling an attitude expressed through paradox and a qualifying afterthought is C2 listening.",
+      "explanation": {
+        "en": "\"So no, not the decision\" = no regret about the decision. \"Occasionally the bank balance\" adds that the money sometimes crosses their mind, so \"completely indifferent\" is too strong.",
+        "bg": "\"So no, not the decision\" = не съжалява за решението. \"Occasionally the bank balance\" добавя, че понякога мисли за парите, затова \"completely indifferent\" е прекалено силно."
+      }
+    },
+    {
+      "id": "dx.c2.l.proposal",
+      "band": "C2",
+      "skill": "listening",
+      "type": "choice",
+      "topic": "implied-meaning",
+      "shift": 0.0,
+      "passage": "A: Did you read Tom's proposal? B: I did. It's very... thorough. He's clearly put in the hours. A: But? B: Well, I got to page forty and I still couldn't tell you what he's actually proposing.",
+      "prompt": "What is speaker B's main criticism of the proposal?",
+      "options": [
+        "It lacks a clear central point.",
+        "Tom didn't work hard enough on it.",
+        "It is too short.",
+        "B didn't have time to read it all."
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Understand criticism expressed through understatement",
+        "bg": "Да разбираш критика, изразена чрез сдържаност"
+      },
+      "evidence": "Interpreting faint praise (\"very… thorough\") and the punchline as the real criticism is C2.",
+      "explanation": {
+        "en": "The hesitation in \"very… thorough\" signals faint praise, and the real point is \"I still couldn't tell you what he's actually proposing\". B praises the effort, so laziness is not the criticism.",
+        "bg": "Колебанието във \"very… thorough\" е сдържана похвала, а истинската критика е \"I still couldn't tell you what he's actually proposing\". B хвали усилието, така че мързелът не е проблемът."
+      }
+    },
+    {
+      "id": "dx.c2.f.decline-coauthor",
+      "band": "C2",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "tact",
+      "shift": -0.1,
+      "prompt": "A senior colleague invites you to co-author a paper you think is weak. You want to decline without damaging the relationship. Which reply is most skilful?",
+      "options": [
+        "Thanks, but honestly I don't think the paper is strong enough.",
+        "I regret to inform you that I must decline your invitation.",
+        "I'm flattered you thought of me — I'm stretched too thin this term to do it justice, but I'd be glad to read a draft.",
+        "Sure, why not — though I can't promise I'll contribute much."
+      ],
+      "correct": 2,
+      "objective": {
+        "en": "Decline tactfully while keeping a relationship",
+        "bg": "Да откажеш тактично, като запазиш отношенията"
+      },
+      "evidence": "Combining a face-saving refusal with a constructive offer is advanced pragmatic competence.",
+      "explanation": {
+        "en": "It declines, gives a face-saving reason and offers something positive. \"I regret to inform you\" is too cold for a colleague, and \"Sure, why not\" doesn't decline at all.",
+        "bg": "Отказва, дава причина, която пази достойнството и на двамата, и предлага нещо положително. \"I regret to inform you\" е твърде студено към колега, а \"Sure, why not\" изобщо не е отказ."
+      }
+    },
+    {
+      "id": "dx.c2.f.understatement",
+      "band": "C2",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "understatement",
+      "shift": -0.2,
+      "prompt": "Which sentence uses understatement to criticise someone?",
+      "options": [
+        "His grasp of the facts was absolutely appalling.",
+        "His grasp of the facts was not, perhaps, his strongest suit.",
+        "He knew literally nothing about the facts.",
+        "His grasp of the facts was impressive."
+      ],
+      "correct": 1,
+      "objective": {
+        "en": "Recognise and use understatement",
+        "bg": "Да разпознаваш и използваш умишлено смекчаване (understatement)"
+      },
+      "evidence": "Recognising British-style understatement as criticism is C2 pragmatic awareness.",
+      "explanation": {
+        "en": "\"Not, perhaps, his strongest suit\" says something negative in a deliberately mild way — that's understatement. \"Literally nothing\" is exaggeration, the opposite.",
+        "bg": "\"Not, perhaps, his strongest suit\" казва нещо негативно умишлено меко — това е understatement. \"Literally nothing\" е преувеличение, тоест обратното."
+      }
+    },
+    {
+      "id": "dx.c2.f.with-respect",
+      "band": "C2",
+      "skill": "functional",
+      "type": "choice",
+      "topic": "pragmatics",
+      "shift": 0.0,
+      "prompt": "In a meeting, a British colleague begins: \"With the greatest respect…\" What does this most likely signal?",
+      "options": [
+        "Strong disagreement is coming.",
+        "They are about to praise you.",
+        "They agree with you completely.",
+        "They are about to apologise."
+      ],
+      "correct": 0,
+      "objective": {
+        "en": "Understand pragmatic meaning of polite formulas",
+        "bg": "Да разбираш прагматичния смисъл на учтиви формули"
+      },
+      "evidence": "Knowing that a respect formula signals the opposite is C2 cultural-pragmatic competence.",
+      "explanation": {
+        "en": "Despite its literal meaning, \"With the greatest respect\" usually introduces firm disagreement or criticism. Taken literally, it sounds like praise — that's the trap.",
+        "bg": "Въпреки буквалното значение, \"With the greatest respect\" обикновено въвежда твърдо несъгласие или критика. Буквално звучи като похвала — в това е капанът."
+      }
+    }
+  ]
+}

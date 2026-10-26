@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
-import { ageCards, items, onboard, runSession, seedBacklog } from "./helpers";
+import { ageCards, items, onboard, onboardA1, runSession, seedBacklog } from "./helpers";
 
 // Learner journeys run on desktop Chromium plus both phone profiles; Firefox/WebKit desktop run the welcome suite.
 test.beforeEach(({ browserName, isMobile }) => {
@@ -14,7 +14,7 @@ test("complete beginner starts with letters and sounds", async ({ page }) => {
 });
 
 test("A1 learner finishes a session, progress survives a reload, and the route advances", async ({ page }) => {
-  await onboard(page, { canRead: true, minutes: 10 });
+  await onboardA1(page, { minutes: 10 });
   const region = await page.locator(".today-region").innerText();
   await page.getByRole("link", { name: /Start today's session/ }).click();
   const answered = await runSession(page, (n) => (n === 1 ? "wrong-then-right" : n === 2 ? "give-up" : "right"));
@@ -45,7 +45,7 @@ test("A1 learner finishes a session, progress survives a reload, and the route a
 });
 
 test("Bulgarian explanations appear in lessons", async ({ page }) => {
-  await onboard(page, { canRead: true, lang: "bg" });
+  await onboardA1(page, { lang: "bg" });
   await page.getByRole("link", { name: /Започни днешния урок/ }).click();
   await page.locator(".exercise, .step-note").first().waitFor();
   if (await page.locator(".step-note").isVisible()) {
@@ -56,7 +56,7 @@ test("Bulgarian explanations appear in lessons", async ({ page }) => {
 });
 
 test("Word Lens: tap a word, save it, find it under Words", async ({ page }) => {
-  await onboard(page, { canRead: true });
+  await onboardA1(page);
   await page.getByRole("link", { name: /Start today's session/ }).click();
   const word = page.locator(".lens-word:not(.lens-word-plain)").first();
   const text = await word.innerText();
@@ -72,7 +72,7 @@ test("Word Lens: tap a word, save it, find it under Words", async ({ page }) => 
 });
 
 test("after a week away the review queue is capped, not a backlog", async ({ page }) => {
-  await onboard(page, { canRead: true, minutes: 10 });
+  await onboardA1(page, { minutes: 10 });
   await page.getByRole("link", { name: /Start today's session/ }).click();
   await runSession(page);
   // 30 items practised a week ago, all due now.
@@ -91,7 +91,7 @@ test("after a week away the review queue is capped, not a backlog", async ({ pag
 });
 
 test("back up, delete everything, restore", async ({ page }) => {
-  await onboard(page, { canRead: true });
+  await onboardA1(page);
   await page.getByRole("link", { name: /Start today's session/ }).click();
   const answered = await runSession(page);
   await page.getByRole("link", { name: "Back to Today" }).click();
@@ -109,7 +109,7 @@ test("back up, delete everything, restore", async ({ page }) => {
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Draw your way into English.");
 
   // Restore needs the app open: onboard again quickly, then restore over it.
-  await onboard(page, { canRead: true });
+  await onboardA1(page);
   await page.getByRole("link", { name: "Settings" }).click();
   await page.getByTestId("restore-input").setInputFiles(path);
   await page.getByRole("button", { name: "Restore backup" }).click();
@@ -119,7 +119,7 @@ test("back up, delete everything, restore", async ({ page }) => {
 });
 
 test("a damaged backup is rejected and nothing changes", async ({ page }) => {
-  await onboard(page, { canRead: true });
+  await onboardA1(page);
   await page.getByRole("link", { name: "Settings" }).click();
   await page.getByTestId("restore-input").setInputFiles({ name: "bad.json", mimeType: "application/json", buffer: Buffer.from('{"format":"nope"}') });
   await page.getByRole("button", { name: "Restore backup" }).click();
@@ -128,7 +128,7 @@ test("a damaged backup is rejected and nothing changes", async ({ page }) => {
 
 test("lessons work offline once loaded", async ({ page, context, browserName }) => {
   test.skip(browserName !== "chromium", "service worker control is observable in Chromium only");
-  await onboard(page, { canRead: true });
+  await onboardA1(page);
   await page.evaluate(async () => { await navigator.serviceWorker.ready; });
   await page.reload();
   await context.setOffline(true);

@@ -1,5 +1,5 @@
 import { db, type MasteryRow, type Profile, type StudyCard, type WaylineDB } from "../db/db";
-import type { GlossaryEntry, Item } from "../content/schema";
+import { BANDS, type Band, type GlossaryEntry, type Item } from "../content/schema";
 import { library as defaultLibrary, bandAtLeast, type Library } from "../content/library";
 import { newCard, review, Rating, buildReviewQueue, reviewCap, type Grade } from "../lib/srs";
 
@@ -99,7 +99,11 @@ export type CompetenceProgress = {
   unlocked: boolean;
 };
 
-export async function competenceProgress(lib: Library = defaultLibrary, database: WaylineDB = db): Promise<Map<string, CompetenceProgress>> {
+/**
+ * Progress per competence. A prerequisite counts as met when it has been fully practised, or when it sits
+ * below the learner's start band (they placed out of it) — so a B2 learner isn't locked behind A1 lessons.
+ */
+export async function competenceProgress(lib: Library = defaultLibrary, database: WaylineDB = db, from: Band = "preA1"): Promise<Map<string, CompetenceProgress>> {
   const cards = await database.cards.where("kind").equals("item").toArray();
   const answered = new Set(cards.map((c) => c.ref));
   const masteryRows = new Map((await database.mastery.toArray()).map((m) => [m.competence, m]));
@@ -120,7 +124,12 @@ export async function competenceProgress(lib: Library = defaultLibrary, database
   }
   for (const c of lib.competences) {
     const p = out.get(c.id)!;
-    p.unlocked = c.prerequisites.every((pre) => out.get(pre)?.answered === out.get(pre)?.total && (out.get(pre)?.total ?? 0) > 0);
+    p.unlocked = c.prerequisites.every((pre) => {
+      const q = out.get(pre);
+      const preBand = lib.competence.get(pre)?.band;
+      if (preBand && !bandAtLeast(preBand, from)) return true;
+      return !!q && q.total > 0 && q.answered === q.total;
+    });
   }
   return out;
 }
@@ -142,8 +151,15 @@ export type SessionPlan = {
 const NEW_ITEMS: Record<10 | 20 | 30 | 45, number> = { 10: 3, 20: 6, 30: 8, 45: 12 };
 
 /** Where the learner's route starts, from their placement. */
-export function startBand(profile: Profile): "preA1" | "A1" {
-  return profile.placedBand === "preA1" ? "preA1" : "A1";
+/**
+ * Where the learner's route starts: the level they accepted after placement. If no lessons exist yet at that
+ * level, fall back to the highest level below it that has lessons (the results screen says so).
+ */
+export function startBand(profile: Profile, lib: Library = defaultLibrary): Band {
+  const wanted: Band = profile.acceptedBand ?? (profile.placedBand === "preA1" ? "preA1" : "A1");
+  if (lib.competences.some((c) => bandAtLeast(c.band, wanted))) return wanted;
+  const below = lib.competences.filter((c) => !bandAtLeast(c.band, wanted)).map((c) => c.band);
+  return below.sort((a, b) => BANDS.indexOf(b) - BANDS.indexOf(a))[0] ?? "A1";
 }
 
 /** Today's plan: recall (capped due reviews) → understand (unseen notes) → apply (new items) → experience (text). */
@@ -155,7 +171,8 @@ export async function planSession(
   opts: { reviewOnly?: boolean } = {},
 ): Promise<SessionPlan> {
   const minutes = profile.dailyMinutes ?? 20;
-  const progress = await competenceProgress(lib, database);
+  const from = startBand(profile, lib);
+  const progress = await competenceProgress(lib, database, from);
   const cards = await database.cards.toArray();
   const byRef = new Map(cards.map((c) => [c.ref, c]));
 
@@ -172,7 +189,6 @@ export async function planSession(
     }
   }
 
-  const from = startBand(profile);
   if (opts.reviewOnly) return { competenceId: null, steps, deferredReviews: deferred, routeComplete: false };
   const current = lib.competences.find((c) => {
     const p = progress.get(c.id)!;

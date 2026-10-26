@@ -50,6 +50,7 @@ const pairs: Array<[string, string, number, string]> = [
   ["c-error", "c-error-tint", 4.5, "error text on tint"],
   ["c-focus", "c-paper", 3, "focus ring (non-text)"],
   ["c-contour", "c-paper", 1.3, "decorative rules stay visible"],
+  ...[1, 2, 3, 4, 5, 6].map((n) => [`c-tone-${n}`, "c-paper", 3, "speaker avatar ring (non-text)"] as [string, string, number, string]),
 ];
 
 describe("design tokens meet WCAG 2.2 AA", () => {

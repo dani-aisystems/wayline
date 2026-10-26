@@ -5,6 +5,8 @@ const PORT = 4173;
 export default defineConfig({
   testDir: "./e2e",
   fullyParallel: true,
+  // Learner journeys include a full placement test plus a lesson.
+  timeout: 120_000,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 1 : 0,
   reporter: [["list"], ["html", { open: "never", outputFolder: "playwright-report" }]],

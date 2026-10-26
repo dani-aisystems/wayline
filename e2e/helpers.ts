@@ -18,22 +18,92 @@ export const items = new Map<string, AnyItem>(
     .map((i) => [i.id, i]),
 );
 
-/** Pick explanation language, then onboarding. */
-export async function onboard(page: Page, opts: { canRead: boolean; lang?: "en" | "bg"; minutes?: 10 | 20 | 30 | 45 }) {
+type Band = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
+const BAND_ORDER = ["preA1", "A1", "A2", "B1", "B2", "C1", "C2"];
+type DiagItem = { id: string; band: Band; type: "choice" | "cloze"; prompt?: string; sentence?: string; passage?: string; options?: string[]; correct?: number; accept?: string[] };
+const bankFile = new URL("../src/content/diagnostic/bank.json", import.meta.url);
+export const diag: DiagItem[] = JSON.parse(readFileSync(bankFile, "utf8")).items;
+
+/** Pick explanation language, then the onboarding questions. Learners who can read go on to the level test. */
+export async function onboard(page: Page, opts: { canRead: boolean; lang?: "en" | "bg"; minutes?: 10 | 20 | 30 | 45; self?: number }) {
   await page.goto("/");
   if (opts.lang === "bg") await page.getByRole("radio", { name: /Български/ }).check();
   else await page.getByRole("radio", { name: /English only/ }).check();
   await page.locator("form").getByRole("button").click();
   await page.waitForURL("**/start");
-  await page.getByRole("radio").nth(opts.canRead ? 0 : 1).check();
-  await page.getByRole("button", { name: /Next|Напред/ }).click();
-  await page.getByRole("radio").first().check();
-  await page.getByRole("button", { name: /Next|Напред/ }).click();
-  await page.getByRole("button", { name: /Next|Напред/ }).click();
+  const next = page.getByRole("button", { name: /^(Next|Напред)$/ });
+  const pick = async (i: number) => {
+    await expect(page.locator(".onb-option").first()).toBeVisible();
+    await expect(async () => {
+      await page.locator(".onb-option").nth(i).click();
+      await expect(page.getByRole("radio").nth(i)).toBeChecked({ timeout: 1000 });
+    }).toPass({ timeout: 10_000 });
+  };
+  await pick(opts.canRead ? 0 : 1);
+  await next.click();
+  await pick(0); // goal
+  await next.click();
+  await next.click(); // skills (optional)
+  await next.click(); // interests (optional)
   const minutes = [10, 20, 30, 45].indexOf(opts.minutes ?? 10);
-  await page.getByRole("radio").nth(minutes).check();
-  await page.getByRole("button", { name: /Start learning|Започни/ }).click();
+  await pick(minutes);
+  if (!opts.canRead) {
+    await page.getByRole("button", { name: /Start learning|Започни/ }).click();
+    await page.waitForURL("**/today");
+    return;
+  }
+  await next.click();
+  await pick(opts.self ?? 5); // "I'm not sure"
+  await page.getByRole("button", { name: /Continue to the level test|Към теста за ниво/ }).click();
+  await page.waitForURL("**/placement");
+}
+
+/**
+ * Take the level test as a learner whose real level is `level`: items at or below it are answered correctly,
+ * harder ones with "I don't know". Returns the number of questions asked.
+ */
+export async function takeTest(page: Page, level: Band | "none") {
+  await page.getByRole("button", { name: /^(Start the test|Започни теста)$/ }).click();
+  let n = 0;
+  for (; n < 50; n++) {
+    if (page.url().includes("/placement/result")) break;
+    const q = page.locator(".pl-q");
+    try {
+      await q.waitFor({ timeout: 4000 });
+    } catch {
+      if (page.url().includes("/placement/result")) break;
+      throw new Error("no question shown");
+    }
+    const heading = await page.locator(".pl-count").innerText();
+    const prompt = (await q.locator("legend, .cloze-sentence").first().innerText()).trim();
+    const item = diag.find((i) => (i.prompt ?? "").trim() === prompt || (i.sentence ?? "").replace("___", "").replace(/\s+/g, " ").trim() === prompt.replace(/\s+/g, " ").trim());
+    expect(item, `unknown placement item: ${prompt}`).toBeTruthy();
+    const knows = level !== "none" && BAND_ORDER.indexOf(item!.band) <= BAND_ORDER.indexOf(level);
+    if (!knows) await page.getByRole("button", { name: /^(I don't know|Не знам)$/ }).click();
+    else {
+      if (item!.type === "choice") await q.locator(".choice").nth(item!.correct!).click();
+      else await q.getByRole("textbox").fill(item!.accept![0]);
+      await page.getByRole("button", { name: /^(Next|Напред)$/ }).click();
+    }
+    await expect(page.locator(".pl-count")).not.toHaveText(heading, { timeout: 4000 }).catch(() => {});
+  }
+  await page.waitForURL("**/placement/result/**");
+  return n;
+}
+
+/** On the results screen, start at a given level (recommended, one lower or one higher). */
+export async function startAt(page: Page, band?: string) {
+  const buttons = page.locator(".res-actions .btn");
+  if (!band) await buttons.first().click();
+  else await buttons.filter({ hasText: new RegExp(`\\b${band === "preA1" ? "Pre-A1" : band}\\b`) }).first().click();
   await page.waitForURL("**/today");
+}
+
+/** Shortcut used by lesson tests: onboard, take the test as an A1 learner, start at A1. */
+export async function onboardA1(page: Page, opts: { lang?: "en" | "bg"; minutes?: 10 | 20 | 30 | 45 } = {}) {
+  await onboard(page, { canRead: true, ...opts });
+  await takeTest(page, "A1");
+  await startAt(page, "A1");
 }
 
 /** Answer the exercise on screen. mode: right first time, wrong then right, or give up. */

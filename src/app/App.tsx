@@ -11,6 +11,15 @@ import { Review } from "../pages/Review";
 import { Words } from "../pages/Words";
 import { Settings } from "../pages/Settings";
 import { Session } from "../pages/session/Session";
+import { Placement } from "../pages/placement/Placement";
+import { PlacementResult } from "../pages/placement/PlacementResult";
+
+function RequireProfile({ children }: { children: ReactNode }) {
+  const { status, profile } = useProfile();
+  if (status === "loading") return null;
+  if (!profile) return <Navigate to="/" replace />;
+  return children;
+}
 
 function RequireOnboarded({ children }: { children: ReactNode }) {
   const { status, profile } = useProfile();
@@ -36,6 +45,8 @@ export function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/start" element={<Onboarding />} />
+          <Route path="/placement" element={<RequireProfile><Placement /></RequireProfile>} />
+          <Route path="/placement/result/:id" element={<RequireProfile><PlacementResult /></RequireProfile>} />
           <Route path="/session" element={<RequireOnboarded><Session /></RequireOnboarded>} />
           <Route path="/review/session" element={<RequireOnboarded><Session reviewOnly /></RequireOnboarded>} />
           <Route element={<RequireOnboarded><Shell /></RequireOnboarded>}>

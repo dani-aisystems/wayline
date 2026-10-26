@@ -17,6 +17,17 @@ export function checkAnswer(item: Item, answer: Answer): boolean {
       const given = normalizeAnswer(answer.tiles.join(" "));
       return item.accept.some((a) => normalizeAnswer(a) === given);
     }
+    case "fix": {
+      if (answer.kind !== "text") return false;
+      const given = normalizeAnswer(answer.value);
+      return item.accept.some((a) => normalizeAnswer(a) === given);
+    }
+    case "listen":
+      return answer.kind === "choice" && answer.index === item.correct;
+    // Speaking and dialogues are judged in their own components (recognition or self-assessment).
+    case "speak":
+    case "dialogue":
+      return false;
   }
 }
 
@@ -28,7 +39,16 @@ export function modelAnswer(item: Item): string {
     case "cloze":
       return item.sentence.replace("___", item.accept[0]);
     case "build":
+    case "fix":
       return item.accept[0];
+    case "listen":
+      return item.options[item.correct];
+    case "speak":
+      return item.target ?? item.model;
+    case "dialogue": {
+      const turn = item.lines.find((l) => "learner" in l);
+      return turn && "learner" in turn ? turn.options.find((o) => o.correct)!.text : "";
+    }
   }
 }
 

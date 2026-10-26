@@ -81,7 +81,82 @@ export const BuildItem = ItemBase.extend({
   { message: "every accepted answer must use exactly the given tiles", path: ["accept"] },
 );
 
-export const Item = z.union([ClozeItem, ChoiceItem, BuildItem]);
+/** A character in a dialogue. The voice wish is matched to the device's voices (see lib/speech). */
+export const Character = z.object({
+  id: z.string().regex(/^[a-z][a-z0-9-]*$/),
+  name: z.string().min(1),
+  presents: z.enum(["female", "male"]).optional(),
+  accent: z.enum(["US", "GB"]).optional(),
+  /** One of the avatar palette slots, so speakers are told apart by colour and initial. */
+  tone: z.number().int().min(1).max(6).default(1),
+});
+export type Character = z.infer<typeof Character>;
+
+/** Speaking: listen and repeat, read aloud, or answer a question. Never scored as pronunciation. */
+export const SpeakItem = ItemBase.extend({
+  type: z.literal("speak"),
+  mode: z.enum(["repeat", "read", "answer"]),
+  /** What the learner sees (read/answer) or hears first (repeat/answer). */
+  prompt: z.string().min(1),
+  /** The sentence to say (repeat/read). */
+  target: z.string().min(1).optional(),
+  /** For answers: groups of acceptable words; each group needs one match, e.g. [["from"],["Sofia","Bulgaria"]]. */
+  keywords: z.array(z.array(z.string().min(1)).min(1)).default([]),
+  /** A model answer shown and played after the attempt. */
+  model: z.string().min(1),
+  voice: Character.pick({ presents: true, accent: true }).optional(),
+}).refine((i) => i.mode === "answer" || !!i.target, { message: "repeat and read items need a target", path: ["target"] })
+  .refine((i) => i.mode !== "answer" || i.keywords.length > 0, { message: "answer items need keywords", path: ["keywords"] });
+
+/** Listening comprehension: audio (spoken by the device), then a question. Transcript after answering. */
+export const ListenItem = ItemBase.extend({
+  type: z.literal("listen"),
+  /** Spoken text. Dialogue lines use "Name: text" with names from `characters`. */
+  audio: z.string().min(1),
+  characters: z.array(Character).default([]),
+  question: z.string().min(1),
+  options: z.array(z.string().min(1)).min(2).max(4),
+  correct: z.number().int().min(0),
+}).refine((i) => i.correct < i.options.length, { message: "correct index out of range", path: ["correct"] });
+
+const DialogueLine = z.union([
+  z.object({ by: z.string().min(1), text: z.string().min(1) }),
+  z.object({
+    learner: z.literal(true),
+    /** Options the learner can choose (and then say aloud). Exactly one is right. */
+    options: z.array(z.object({ text: z.string().min(1), correct: z.boolean(), why: LocalizedText.optional() })).min(2).max(4),
+  }),
+]);
+
+/** Conversation / roleplay with distinct speakers; the learner takes some turns. */
+export const DialogueItem = ItemBase.extend({
+  type: z.literal("dialogue"),
+  scene: LocalizedText,
+  characters: z.array(Character).min(1).max(4),
+  /** Which character the learner plays. */
+  learnerAs: z.string().min(1),
+  lines: z.array(DialogueLine).min(3),
+}).superRefine((i, ctx) => {
+  const ids = new Set(i.characters.map((c) => c.id));
+  if (!ids.has(i.learnerAs)) ctx.addIssue({ code: "custom", message: "learnerAs must be a character", path: ["learnerAs"] });
+  i.lines.forEach((l, k) => {
+    if ("by" in l && !ids.has(l.by)) ctx.addIssue({ code: "custom", message: `unknown speaker ${l.by}`, path: ["lines", k] });
+    if ("learner" in l && l.options.filter((o) => o.correct).length !== 1) ctx.addIssue({ code: "custom", message: "learner turn needs exactly one correct option", path: ["lines", k] });
+  });
+  if (!i.lines.some((l) => "learner" in l)) ctx.addIssue({ code: "custom", message: "dialogue needs at least one learner turn", path: ["lines"] });
+});
+
+/** Correct the mistake: a sentence with one error; the learner types the corrected sentence. */
+export const FixItem = ItemBase.extend({
+  type: z.literal("fix"),
+  sentence: z.string().min(1),
+  /** The wrong part, highlighted after answering. */
+  wrong: z.string().min(1),
+  accept: z.array(z.string().min(1)).min(1),
+}).refine((i) => i.sentence.includes(i.wrong), { message: "wrong must appear in the sentence", path: ["wrong"] })
+  .refine((i) => i.accept.every((a) => normalizeAnswer(a) !== normalizeAnswer(i.sentence)), { message: "an accepted answer equals the wrong sentence", path: ["accept"] });
+
+export const Item = z.union([ClozeItem, ChoiceItem, BuildItem, SpeakItem, ListenItem, DialogueItem, FixItem]);
 export type Item = z.infer<typeof Item>;
 
 /** A competence = one region on the map. */

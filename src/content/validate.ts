@@ -63,7 +63,12 @@ export function validatePacks(raw: Array<{ file: string; data: unknown }>): { pa
       else if (comp.band !== item.band)
         issues.push({ level: "warning", where: item.id, message: `item band ${item.band} differs from competence band ${comp.band}` });
 
-      const key = "sentence" in item ? item.sentence : "prompt" in item ? item.prompt : item.tiles.join(" ");
+      const key =
+        item.type === "cloze" || item.type === "fix" ? item.sentence
+        : item.type === "choice" || item.type === "speak" ? `${item.type}:${item.prompt}`
+        : item.type === "build" ? item.tiles.join(" ")
+        : item.type === "listen" ? `${item.audio}|${item.question}`
+        : `${item.id}`;
       const seen = prompts.get(key.toLowerCase());
       if (seen) issues.push({ level: "error", where: item.id, message: `duplicate prompt (also in ${seen})` });
       prompts.set(key.toLowerCase(), item.id);

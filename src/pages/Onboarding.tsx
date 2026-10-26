@@ -6,42 +6,78 @@ import type { Profile } from "../db/db";
 import type { StringKey } from "../i18n/strings";
 import "./onboarding.css";
 
-const GOALS = ["everyday", "work", "study", "travel", "exam", "allround"] as const;
+const GOALS = ["everyday", "travel", "work", "study", "academic", "speaking", "exam", "allround"] as const;
+const SKILLS = ["speaking", "listening", "reading", "writing", "grammar", "vocabulary"] as const;
 const TOPICS = ["tech", "sport", "film", "business", "science", "travel", "food", "music", "history", "society"] as const;
 const TIMES = [10, 20, 30, 45] as const;
+const SELF = ["few-words", "basic", "conversations", "comfortable", "fluent", "unsure"] as const;
 
+type Goal = (typeof GOALS)[number];
 type Draft = {
   canRead: boolean | null;
-  goal: Profile["goal"] | null;
+  goal: Goal | null;
+  skills: string[];
   interests: string[];
   minutes: Profile["dailyMinutes"] | null;
+  self: (typeof SELF)[number] | null;
 };
 
+/** Profile goals predate "academic" and "speaking"; map the new ones onto stored values plus focus skills. */
+function storedGoal(g: Goal): NonNullable<Profile["goal"]> {
+  if (g === "academic") return "study";
+  if (g === "speaking") return "everyday";
+  return g;
+}
+
+/**
+ * Goals and context. These answers decide WHAT the learner studies; the level test decides WHERE they start.
+ * Learners who can't read English yet skip the test and start with letters and sounds.
+ */
 export function Onboarding() {
   const { t, update } = useProfile();
   const navigate = useNavigate();
   const [step, setStep] = useState(0);
-  const [d, setD] = useState<Draft>({ canRead: null, goal: null, interests: [], minutes: null });
+  const [d, setD] = useState<Draft>({ canRead: null, goal: null, skills: [], interests: [], minutes: null, self: null });
   const headingRef = useRef<HTMLHeadingElement>(null);
-  const total = 4;
+
+  // Beginners who can't read skip the self-description step.
+  const steps = d.canRead === false ? (["read", "goal", "skills", "interests", "time"] as const) : (["read", "goal", "skills", "interests", "time", "self"] as const);
+  const total = steps.length;
+  const name = steps[Math.min(step, total - 1)];
 
   useEffect(() => headingRef.current?.focus(), [step]);
 
-  const canNext = [d.canRead !== null, d.goal !== null, true, d.minutes !== null][step];
+  const canNext = { read: d.canRead !== null, goal: d.goal !== null, skills: true, interests: true, time: d.minutes !== null, self: d.self !== null }[name];
 
   const finish = async () => {
-    await update({
-      placedBand: d.canRead ? "A1" : "preA1",
-      acceptedBand: d.canRead ? "A1" : "preA1",
-      goal: d.goal ?? "allround",
+    const goal = d.goal ?? "allround";
+    const focus = new Set(d.skills);
+    if (goal === "speaking") focus.add("speaking");
+    if (goal === "academic") { focus.add("writing"); focus.add("reading"); }
+    const base = {
+      goal: storedGoal(goal),
+      focusSkills: [...focus],
       interests: d.interests,
       dailyMinutes: d.minutes ?? 20,
-      onboardedAt: new Date().toISOString(),
-    });
-    navigate("/today", { replace: true });
+    };
+    if (d.canRead === false) {
+      await update({ ...base, placedBand: "preA1", acceptedBand: "preA1", placementSource: "chosen", onboardedAt: new Date().toISOString() });
+      navigate("/today", { replace: true });
+    } else {
+      await update({ ...base, selfRating: d.self ?? "unsure" });
+      navigate("/placement", { replace: true });
+    }
   };
 
-  const questions: StringKey[] = ["onb.read.question", "onb.goal.question", "onb.interests.question", "onb.time.question"];
+  const questions: Record<typeof name, StringKey> = {
+    read: "onb.read.question",
+    goal: "onb.goal.question",
+    skills: "onb.skills.question",
+    interests: "onb.interests.question",
+    time: "onb.time.question",
+    self: "onb.self.question",
+  };
+  const last = step === total - 1;
 
   return (
     <div className="onb">
@@ -56,9 +92,9 @@ export function Onboarding() {
       </div>
 
       <main className="onb-main">
-        <h1 id="onb-q" className="onb-question" tabIndex={-1} ref={headingRef}>{t(questions[step])}</h1>
+        <h1 id="onb-q" className="onb-question" tabIndex={-1} ref={headingRef}>{t(questions[name])}</h1>
 
-        {step === 0 && (
+        {name === "read" && (
           <>
             <p className="onb-sample" lang="en">{t("onb.read.sample")}</p>
             <Options
@@ -74,71 +110,74 @@ export function Onboarding() {
           </>
         )}
 
-        {step === 1 && (
+        {name === "goal" && (
           <Options
             name="goal"
             value={d.goal}
             options={GOALS.map((g) => ({ value: g, label: t(`onb.goal.${g}` as StringKey) }))}
-            onChange={(v) => setD({ ...d, goal: v as Draft["goal"] })}
+            onChange={(v) => setD({ ...d, goal: v as Goal })}
           />
         )}
 
-        {step === 2 && (
+        {name === "skills" && (
+          <>
+            <p className="onb-hint">{t("onb.skills.hint")}</p>
+            <Chips
+              legend={t("onb.skills.question")}
+              values={SKILLS.map((k) => ({ value: k, label: t(`skill.${k}` as StringKey) }))}
+              selected={d.skills}
+              onChange={(skills) => setD({ ...d, skills })}
+            />
+          </>
+        )}
+
+        {name === "interests" && (
           <>
             <p className="onb-hint">{t("onb.interests.hint")}</p>
-            <fieldset className="onb-chips">
-              <legend className="visually-hidden">{t("onb.interests.question")}</legend>
-              {TOPICS.map((topic) => {
-                const on = d.interests.includes(topic);
-                const full = d.interests.length >= 3 && !on;
-                return (
-                  <label key={topic} className="chip" data-on={on} data-disabled={full}>
-                    <input
-                      type="checkbox"
-                      checked={on}
-                      disabled={full}
-                      onChange={() =>
-                        setD({ ...d, interests: on ? d.interests.filter((x) => x !== topic) : [...d.interests, topic] })
-                      }
-                    />
-                    {t(`topic.${topic}` as StringKey)}
-                  </label>
-                );
-              })}
-            </fieldset>
+            <Chips
+              legend={t("onb.interests.question")}
+              values={TOPICS.map((k) => ({ value: k, label: t(`topic.${k}` as StringKey) }))}
+              selected={d.interests}
+              max={3}
+              onChange={(interests) => setD({ ...d, interests })}
+            />
             <p className="onb-count" aria-live="polite">{t("onb.interests.selected", { n: String(d.interests.length) })}</p>
           </>
         )}
 
-        {step === 3 && (
+        {name === "time" && (
           <>
             <p className="onb-hint">{t("onb.time.hint")}</p>
             <Options
               name="minutes"
               value={d.minutes ? String(d.minutes) : null}
-              options={TIMES.map((m) => ({
-                value: String(m),
-                label: t("onb.time.minutes", { n: String(m) }),
-                detail: t(`onb.time.${m}` as StringKey),
-              }))}
+              options={TIMES.map((m) => ({ value: String(m), label: t("onb.time.minutes", { n: String(m) }), detail: t(`onb.time.${m}` as StringKey) }))}
               onChange={(v) => setD({ ...d, minutes: Number(v) as Draft["minutes"] })}
             />
-            <p className="onb-note">{t(d.canRead ? "onb.startNote.A1" : "onb.startNote.preA1")}</p>
+            {d.canRead === false && <p className="onb-note">{t("onb.startNote.preA1")}</p>}
+          </>
+        )}
+
+        {name === "self" && (
+          <>
+            <p className="onb-hint">{t("onb.self.hint")}</p>
+            <Options
+              name="self"
+              value={d.self}
+              options={SELF.map((k) => ({ value: k, label: t(`onb.self.${k}` as StringKey) }))}
+              onChange={(v) => setD({ ...d, self: v as Draft["self"] })}
+            />
           </>
         )}
 
         <div className="onb-actions">
-          {step > 0 && (
-            <button type="button" className="btn btn-quiet" onClick={() => setStep(step - 1)}>{t("onb.back")}</button>
-          )}
-          {step < total - 1 ? (
-            <button type="button" className="btn btn-primary" disabled={!canNext} onClick={() => setStep(step + 1)}>
-              {t("onb.next")}
+          {step > 0 && <button type="button" className="btn btn-quiet" onClick={() => setStep(step - 1)}>{t("onb.back")}</button>}
+          {last ? (
+            <button type="button" className="btn btn-primary" disabled={!canNext} onClick={finish}>
+              {d.canRead === false ? t("onb.finish") : t("onb.toTest")}
             </button>
           ) : (
-            <button type="button" className="btn btn-primary" disabled={!canNext} onClick={finish}>
-              {t("onb.finish")}
-            </button>
+            <button type="button" className="btn btn-primary" disabled={!canNext} onClick={() => setStep(step + 1)}>{t("onb.next")}</button>
           )}
         </div>
       </main>
@@ -146,17 +185,7 @@ export function Onboarding() {
   );
 }
 
-function Options({
-  name,
-  value,
-  options,
-  onChange,
-}: {
-  name: string;
-  value: string | null | undefined;
-  options: { value: string; label: string; detail?: string }[];
-  onChange: (v: string) => void;
-}) {
+function Options({ name, value, options, onChange }: { name: string; value: string | null | undefined; options: { value: string; label: string; detail?: string }[]; onChange: (v: string) => void }) {
   return (
     <div className="onb-options" role="radiogroup" aria-labelledby="onb-q">
       {options.map((o) => (
@@ -167,5 +196,23 @@ function Options({
         </label>
       ))}
     </div>
+  );
+}
+
+function Chips({ legend, values, selected, onChange, max }: { legend: string; values: { value: string; label: string }[]; selected: string[]; onChange: (v: string[]) => void; max?: number }) {
+  return (
+    <fieldset className="onb-chips">
+      <legend className="visually-hidden">{legend}</legend>
+      {values.map(({ value, label }) => {
+        const on = selected.includes(value);
+        const full = max !== undefined && selected.length >= max && !on;
+        return (
+          <label key={value} className="chip" data-on={on} data-disabled={full}>
+            <input type="checkbox" checked={on} disabled={full} onChange={() => onChange(on ? selected.filter((x) => x !== value) : [...selected, value])} />
+            {label}
+          </label>
+        );
+      })}
+    </fieldset>
   );
 }

@@ -6,7 +6,12 @@ import { speak } from "../../lib/speech";
 import { useProfile } from "../../state/profile";
 import { library } from "../../content/library";
 import { LensText } from "../lens/Lens";
+import { SpeakExercise } from "./SpeakExercise";
+import { ListenExercise } from "./ListenExercise";
+import { DialogueExercise } from "./DialogueExercise";
 import "./exercise.css";
+
+type Classic = Extract<Item, { type: "cloze" | "choice" | "build" | "fix" }>;
 
 type Phase = "answering" | "wrong" | "done";
 
@@ -15,13 +20,20 @@ type Phase = "answering" | "wrong" | "done";
  * another try; the answer is shown only when hints run out or the learner asks for it.
  */
 export function Exercise({ item, onDone }: { item: Item; onDone: (outcome: Outcome, given: string) => void }) {
+  if (item.type === "speak") return <SpeakExercise item={item} onDone={onDone} />;
+  if (item.type === "listen") return <ListenExercise item={item} onDone={onDone} />;
+  if (item.type === "dialogue") return <DialogueExercise item={item} onDone={onDone} />;
+  return <ClassicExercise item={item} onDone={onDone} />;
+}
+
+function ClassicExercise({ item, onDone }: { item: Classic; onDone: (outcome: Outcome, given: string) => void }) {
   const { t, lang, profile } = useProfile();
   const [phase, setPhase] = useState<Phase>("answering");
   const [hintsShown, setHintsShown] = useState(0);
   const [wrongTries, setWrongTries] = useState(0);
   const [outcome, setOutcome] = useState<Outcome | null>(null);
   const [firstGiven, setFirstGiven] = useState("");
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState(item.type === "fix" ? item.sentence : "");
   const [choice, setChoice] = useState<number | null>(null);
   const [eliminated, setEliminated] = useState<number[]>([]);
   const [tiles, setTiles] = useState<number[]>([]);
@@ -42,6 +54,7 @@ export function Exercise({ item, onDone }: { item: Item; onDone: (outcome: Outco
   const answer = (): Answer | null => {
     if (item.type === "choice") return choice === null ? null : { kind: "choice", index: choice };
     if (item.type === "cloze") return value.trim() ? { kind: "text", value } : null;
+    if (item.type === "fix") return value.trim() && value.trim() !== item.sentence ? { kind: "text", value } : null;
     return tiles.length ? { kind: "tiles", tiles: tiles.map((i) => item.tiles[i]) } : null;
   };
   const givenText = (a: Answer) => (a.kind === "text" ? a.value : a.kind === "choice" && item.type === "choice" ? item.options[a.index] : a.kind === "tiles" ? a.tiles.join(" ") : "");
@@ -127,6 +140,37 @@ export function Exercise({ item, onDone }: { item: Item; onDone: (outcome: Outco
             />
             <LensText text={item.sentence.split("___")[1]} context={item.sentence.replace("___", "…")} />
           </p>
+        </div>
+      )}
+
+      {item.type === "fix" && (
+        <div className="exercise-body">
+          <p className="exercise-prompt-hint">{t("session.fixHint")}</p>
+          <p className="exercise-prompt fix-original" lang="en">
+            {done ? (
+              <>
+                {item.sentence.split(item.wrong)[0]}
+                <mark className="fix-wrong">{item.wrong}</mark>
+                {item.sentence.split(item.wrong).slice(1).join(item.wrong)}
+              </>
+            ) : (
+              <LensText text={item.sentence} />
+            )}
+          </p>
+          <label htmlFor={inputId} className="visually-hidden">{t("session.typeHere")}</label>
+          <textarea
+            id={inputId}
+            className="fix-input"
+            rows={2}
+            lang="en"
+            value={done && !solved ? item.accept[0] : value}
+            onChange={(e) => setValue(e.target.value)}
+            readOnly={done}
+            autoComplete="off"
+            autoCapitalize="off"
+            spellCheck={false}
+            data-state={done ? (solved ? "right" : "shown") : phase === "wrong" ? "wrong" : undefined}
+          />
         </div>
       )}
 
