@@ -1,0 +1,712 @@
+{
+  "id": "prea1-letters",
+  "version": 1,
+  "band": "preA1",
+  "competences": [
+    {
+      "id": "prea1.letters",
+      "band": "preA1",
+      "title": {
+        "en": "Letters & first sounds",
+        "bg": "Букви и първи звуци"
+      },
+      "canDo": {
+        "en": "I can recognise the English letters, big and small, and the first sound of simple words.",
+        "bg": "Мога да разпознавам английските букви, главни и малки, и първия звук на прости думи."
+      },
+      "skills": [
+        "vocabulary",
+        "reading",
+        "pronunciation"
+      ],
+      "prerequisites": []
+    }
+  ],
+  "notes": [
+    {
+      "id": "prea1.letters.note-names-sounds",
+      "competence": "prea1.letters",
+      "title": {
+        "en": "Letter names and letter sounds",
+        "bg": "Име на буквата и звук на буквата"
+      },
+      "body": {
+        "en": "English has 26 letters. Every letter has a name (A, B, C… say \"ay\", \"bee\", \"see\") and a sound in words. The name and the sound are often different. The letter \"c\" is called \"see\", but in \"cat\" it sounds like k, and in \"city\" it sounds like s. So listen to the sound, not only the name.",
+        "bg": "Английската азбука има 26 букви. Всяка буква има име (A, B, C… казваш \"ей\", \"би\", \"си\") и звук в думите. Името и звукът често са различни. Буквата \"c\" се казва \"си\", но в \"cat\" звучи като \"к\", а в \"city\" — като \"с\". Затова слушай звука, а не само името."
+      },
+      "examples": [
+        "A cat and a dog.",
+        "A city.",
+        "A kite and a hat."
+      ]
+    },
+    {
+      "id": "prea1.letters.note-capitals",
+      "competence": "prea1.letters",
+      "title": {
+        "en": "Capital and small letters",
+        "bg": "Главни и малки букви"
+      },
+      "body": {
+        "en": "Every letter has a capital form (A, B, G) and a small form (a, b, g). Some pairs look very different: G and g, R and r, Q and q. Use a capital letter at the start of a sentence, for names (Anna, Tom), and always for \"I\". Be careful with b, d, p and q: they look like mirror images.",
+        "bg": "Всяка буква има главна форма (A, B, G) и малка форма (a, b, g). Някои двойки изглеждат много различно: G и g, R и r, Q и q. Пиши главна буква в началото на изречението, за имена (Anna, Tom) и винаги за \"I\" (аз). Внимавай с b, d, p и q: те приличат една на друга като в огледало."
+      },
+      "examples": [
+        "Anna and Tom.",
+        "A dog and a cat."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "alphabet",
+      "pos": "noun",
+      "ipa": "/ˈælfəˌbɛt/",
+      "meaning": {
+        "en": "All the letters of a language, in order: A, B, C…",
+        "bg": "Азбука — всички букви на езика по ред."
+      },
+      "example": "The alphabet starts with A.",
+      "forms": [
+        "alphabets"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "letter",
+      "pos": "noun",
+      "ipa": "/ˈlɛtɚ/",
+      "meaning": {
+        "en": "One sign of the alphabet, like A or b.",
+        "bg": "Буква — един знак от азбуката, например A или b."
+      },
+      "example": "A is a letter.",
+      "forms": [
+        "letters"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "word",
+      "pos": "noun",
+      "ipa": "/wɝd/",
+      "meaning": {
+        "en": "A group of letters with a meaning, like \"cat\".",
+        "bg": "Дума — група букви със значение, например \"cat\"."
+      },
+      "example": "Cat is a word.",
+      "forms": [
+        "words"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "sound",
+      "pos": "noun",
+      "ipa": "/saʊnd/",
+      "meaning": {
+        "en": "What you hear when you say a letter or a word.",
+        "bg": "Звук — това, което чуваш, когато кажеш буква или дума."
+      },
+      "example": "Cat and kite start with the same sound.",
+      "forms": [
+        "sounds"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "same",
+      "pos": "adjective",
+      "ipa": "/seɪm/",
+      "meaning": {
+        "en": "Not different.",
+        "bg": "Същият, еднакъв."
+      },
+      "example": "Cat and kite start with the same sound.",
+      "forms": [],
+      "band": "preA1"
+    },
+    {
+      "word": "capital",
+      "pos": "adjective",
+      "ipa": "/ˈkæpɪtəl/",
+      "meaning": {
+        "en": "A capital letter is a big letter, like A or G.",
+        "bg": "Главна (за буква) — голяма буква, например A или G."
+      },
+      "example": "Anna starts with a capital letter.",
+      "forms": [],
+      "band": "preA1"
+    },
+    {
+      "word": "small",
+      "pos": "adjective",
+      "ipa": "/smɔl/",
+      "meaning": {
+        "en": "Not big. A small letter is like a or g.",
+        "bg": "Малък. Малка буква е например a или g."
+      },
+      "example": "A small cat.",
+      "forms": [
+        "smaller",
+        "smallest"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "start",
+      "pos": "verb",
+      "ipa": "/stɑrt/",
+      "meaning": {
+        "en": "To begin. A word starts with its first letter.",
+        "bg": "Започвам. Думата започва с първата си буква."
+      },
+      "example": "A word starts with a letter.",
+      "forms": [
+        "starts",
+        "started",
+        "starting"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "with",
+      "pos": "preposition",
+      "ipa": "/wɪð/",
+      "meaning": {
+        "en": "Used to show what goes together: a word starts with a letter.",
+        "bg": "С — показва какво е заедно с нещо."
+      },
+      "example": "A cat with a hat.",
+      "forms": [],
+      "band": "preA1"
+    },
+    {
+      "word": "the",
+      "pos": "determiner",
+      "ipa": "/ðə/",
+      "meaning": {
+        "en": "Used before a thing when we know which one: the alphabet, the same sound.",
+        "bg": "Членува съществителното — когато знаем за кое нещо става дума (като \"-та\", \"-то\", \"-ът\")."
+      },
+      "example": "The alphabet starts with A.",
+      "forms": [],
+      "band": "preA1"
+    },
+    {
+      "word": "a",
+      "pos": "determiner",
+      "ipa": "/ə/",
+      "meaning": {
+        "en": "One; used before a thing or person: a cat, a pen.",
+        "bg": "Един, една, едно — пред дума за нещо или някого: a cat (една котка)."
+      },
+      "example": "A cat and a dog.",
+      "forms": [
+        "an"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "and",
+      "pos": "conjunction",
+      "ipa": "/ænd/",
+      "meaning": {
+        "en": "A word that joins two things: a cat and a dog.",
+        "bg": "И — свързва две неща."
+      },
+      "example": "A cat and a dog.",
+      "forms": [],
+      "band": "preA1"
+    },
+    {
+      "word": "cat",
+      "pos": "noun",
+      "ipa": "/kæt/",
+      "meaning": {
+        "en": "A small animal that says \"meow\".",
+        "bg": "Котка."
+      },
+      "example": "A cat and a dog.",
+      "forms": [
+        "cats"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "dog",
+      "pos": "noun",
+      "ipa": "/dɔɡ/",
+      "meaning": {
+        "en": "An animal that says \"woof\".",
+        "bg": "Куче."
+      },
+      "example": "A dog and a cat.",
+      "forms": [
+        "dogs"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "bed",
+      "pos": "noun",
+      "ipa": "/bɛd/",
+      "meaning": {
+        "en": "You sleep in it.",
+        "bg": "Легло."
+      },
+      "example": "A small bed.",
+      "forms": [
+        "beds"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "pen",
+      "pos": "noun",
+      "ipa": "/pɛn/",
+      "meaning": {
+        "en": "You write with it.",
+        "bg": "Химикалка."
+      },
+      "example": "A pen and a hat.",
+      "forms": [
+        "pens"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "hat",
+      "pos": "noun",
+      "ipa": "/hæt/",
+      "meaning": {
+        "en": "You wear it on your head.",
+        "bg": "Шапка."
+      },
+      "example": "A small hat.",
+      "forms": [
+        "hats"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "kite",
+      "pos": "noun",
+      "ipa": "/kaɪt/",
+      "meaning": {
+        "en": "A toy that flies in the wind.",
+        "bg": "Хвърчило."
+      },
+      "example": "A kite and a hat.",
+      "forms": [
+        "kites"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "city",
+      "pos": "noun",
+      "ipa": "/ˈsɪti/",
+      "meaning": {
+        "en": "A big town.",
+        "bg": "Град (голям)."
+      },
+      "example": "A city.",
+      "forms": [
+        "cities"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "nose",
+      "pos": "noun",
+      "ipa": "/noʊz/",
+      "meaning": {
+        "en": "The part of your face you smell with.",
+        "bg": "Нос."
+      },
+      "example": "A small nose.",
+      "forms": [
+        "noses"
+      ],
+      "band": "preA1"
+    },
+    {
+      "word": "chair",
+      "pos": "noun",
+      "ipa": "/tʃɛr/",
+      "meaning": {
+        "en": "You sit on it.",
+        "bg": "Стол."
+      },
+      "example": "A small chair.",
+      "forms": [
+        "chairs"
+      ],
+      "band": "preA1"
+    }
+  ],
+  "texts": [],
+  "names": [
+    "Anna",
+    "Tom"
+  ],
+  "items": [
+    {
+      "id": "prea1.letters.starts-with-b",
+      "type": "choice",
+      "band": "preA1",
+      "skill": "vocabulary",
+      "competence": "prea1.letters",
+      "objective": {
+        "en": "Find a word by its first letter: b.",
+        "bg": "Да намериш дума по първата ѝ буква: b."
+      },
+      "difficulty": -4.6,
+      "prompt": "Which word starts with the letter B?",
+      "options": [
+        "dog",
+        "bed",
+        "pen",
+        "hat"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "\"Bed\" starts with b. Be careful: \"dog\" starts with d, and \"pen\" with p — b, d and p look alike, but they are different letters.",
+        "bg": "\"Bed\" започва с b. Внимавай: \"dog\" започва с d, а \"pen\" — с p. Буквите b, d и p си приличат, но са различни."
+      },
+      "hints": [
+        {
+          "en": "Look only at the first letter of each word.",
+          "bg": "Гледай само първата буква на всяка дума."
+        },
+        {
+          "en": "The letter b has its round part on the right: b.",
+          "bg": "Буквата b има коремче отдясно: b."
+        }
+      ],
+      "words": [
+        "bed",
+        "dog",
+        "pen",
+        "hat"
+      ],
+      "structures": [],
+      "tags": [
+        "letters",
+        "first-letter"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "prea1.letters.capital-g",
+      "type": "choice",
+      "band": "preA1",
+      "skill": "reading",
+      "competence": "prea1.letters",
+      "objective": {
+        "en": "Match a small letter with its capital.",
+        "bg": "Да свържеш малка буква с главната ѝ форма."
+      },
+      "difficulty": -4.4,
+      "prompt": "Which is the capital letter of g?",
+      "options": [
+        "C",
+        "Q",
+        "J",
+        "G"
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The capital of \"g\" is \"G\". These two look quite different, so it is good to learn them as a pair.",
+        "bg": "Главната форма на \"g\" е \"G\". Двете изглеждат доста различно, затова е добре да ги запомниш като двойка."
+      },
+      "hints": [
+        {
+          "en": "Say the letter name: \"gee\". Which capital has the same name?",
+          "bg": "Кажи името на буквата: \"джи\". Коя главна буква се казва така?"
+        }
+      ],
+      "words": [
+        "g"
+      ],
+      "structures": [],
+      "tags": [
+        "letters",
+        "capitals"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "prea1.letters.small-d",
+      "type": "choice",
+      "band": "preA1",
+      "skill": "reading",
+      "competence": "prea1.letters",
+      "objective": {
+        "en": "Match a capital letter with its small form.",
+        "bg": "Да свържеш главна буква с малката ѝ форма."
+      },
+      "difficulty": -4.3,
+      "prompt": "Which is the small letter of D?",
+      "options": [
+        "b",
+        "p",
+        "d",
+        "q"
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The small form of \"D\" is \"d\". It has a round part on the left and a tall line on the right. \"b\" is the other way round.",
+        "bg": "Малката форма на \"D\" е \"d\". Тя има коремче отляво и висока чертичка отдясно. При \"b\" е обратното."
+      },
+      "hints": [
+        {
+          "en": "b, d, p and q look like mirror images. Look at where the round part is.",
+          "bg": "b, d, p и q приличат на огледални образи. Виж къде е коремчето."
+        }
+      ],
+      "words": [
+        "d"
+      ],
+      "structures": [],
+      "tags": [
+        "letters",
+        "capitals",
+        "b-d-p-q"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "prea1.letters.same-sound-cat",
+      "type": "choice",
+      "band": "preA1",
+      "skill": "pronunciation",
+      "competence": "prea1.letters",
+      "objective": {
+        "en": "Hear that one letter can have different sounds.",
+        "bg": "Да разбереш, че една буква може да има различни звуци."
+      },
+      "difficulty": -4.0,
+      "prompt": "Which word starts with the same sound as \"cat\"?",
+      "options": [
+        "city",
+        "kite",
+        "chair",
+        "nose"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "\"Cat\" and \"kite\" start with the same sound, k, even with different letters. \"City\" starts with the letter c, but here c sounds like s. \"Chair\" starts with the sound ch.",
+        "bg": "\"Cat\" и \"kite\" започват с един и същ звук — \"к\", макар и с различни букви. \"City\" започва с буквата c, но тук c звучи като \"с\". \"Chair\" започва със звука \"ч\"."
+      },
+      "hints": [
+        {
+          "en": "Listen to the sound, not the letter.",
+          "bg": "Слушай звука, а не буквата."
+        },
+        {
+          "en": "Say \"cat\" and each word out loud.",
+          "bg": "Кажи на глас \"cat\" и всяка от думите."
+        }
+      ],
+      "words": [
+        "cat",
+        "city",
+        "kite",
+        "chair",
+        "nose"
+      ],
+      "structures": [],
+      "tags": [
+        "sounds",
+        "letter-vs-sound"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "prea1.letters.after-m",
+      "type": "choice",
+      "band": "preA1",
+      "skill": "vocabulary",
+      "competence": "prea1.letters",
+      "objective": {
+        "en": "Know the order of the alphabet.",
+        "bg": "Да знаеш реда на буквите в азбуката."
+      },
+      "difficulty": -4.5,
+      "prompt": "Which letter comes next? K, L, M, …",
+      "options": [
+        "N",
+        "L",
+        "W",
+        "O"
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The order is … K, L, M, N, O, P … So N comes after M.",
+        "bg": "Редът е … K, L, M, N, O, P … Значи след M идва N."
+      },
+      "hints": [
+        {
+          "en": "Say the alphabet from K.",
+          "bg": "Кажи азбуката от K нататък."
+        }
+      ],
+      "words": [
+        "m",
+        "n"
+      ],
+      "structures": [],
+      "tags": [
+        "alphabet",
+        "order"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "prea1.letters.order-jklm",
+      "type": "build",
+      "band": "preA1",
+      "skill": "vocabulary",
+      "competence": "prea1.letters",
+      "objective": {
+        "en": "Put letters in alphabet order.",
+        "bg": "Да подредиш букви по реда в азбуката."
+      },
+      "difficulty": -4.2,
+      "tiles": [
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "accept": [
+        "J K L M"
+      ],
+      "explanation": {
+        "en": "In the alphabet, J comes first, then K, L and M: … I, J, K, L, M, N …",
+        "bg": "В азбуката първо идва J, после K, L и M: … I, J, K, L, M, N …"
+      },
+      "hints": [
+        {
+          "en": "Say the alphabet from I.",
+          "bg": "Кажи азбуката, като започнеш от I."
+        }
+      ],
+      "words": [
+        "j",
+        "k",
+        "l",
+        "m"
+      ],
+      "structures": [],
+      "tags": [
+        "alphabet",
+        "order"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "prea1.letters.abc-gap",
+      "type": "cloze",
+      "band": "preA1",
+      "skill": "vocabulary",
+      "competence": "prea1.letters",
+      "objective": {
+        "en": "Complete the start of the alphabet.",
+        "bg": "Да допълниш началото на азбуката."
+      },
+      "difficulty": -4.9,
+      "sentence": "a, b, c, ___, e",
+      "accept": [
+        "d"
+      ],
+      "explanation": {
+        "en": "The alphabet starts a, b, c, d, e. The missing letter is \"d\" (name: \"dee\").",
+        "bg": "Азбуката започва с a, b, c, d, e. Липсващата буква е \"d\" (казва се \"ди\")."
+      },
+      "hints": [
+        {
+          "en": "Sing or say the alphabet from the start.",
+          "bg": "Изпей или кажи азбуката от началото."
+        }
+      ],
+      "words": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "structures": [],
+      "tags": [
+        "alphabet",
+        "order"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "prea1.letters.xyz-gap",
+      "type": "cloze",
+      "band": "preA1",
+      "skill": "vocabulary",
+      "competence": "prea1.letters",
+      "objective": {
+        "en": "Complete the end of the alphabet.",
+        "bg": "Да допълниш края на азбуката."
+      },
+      "difficulty": -4.6,
+      "sentence": "w, x, y, ___",
+      "accept": [
+        "z"
+      ],
+      "explanation": {
+        "en": "The alphabet ends w, x, y, z. In American English \"z\" is called \"zee\"; in British English it is \"zed\".",
+        "bg": "Азбуката завършва с w, x, y, z. В американския английски \"z\" се казва \"зи\", а в британския — \"зед\"."
+      },
+      "hints": [
+        {
+          "en": "Which letter is the very last one?",
+          "bg": "Коя е последната буква?"
+        }
+      ],
+      "words": [
+        "w",
+        "x",
+        "y",
+        "z"
+      ],
+      "structures": [],
+      "tags": [
+        "alphabet",
+        "order"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

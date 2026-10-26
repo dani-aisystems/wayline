@@ -35,6 +35,9 @@ const Rows = {
       placedBand: z.enum(BANDS).optional(),
       acceptedBand: z.enum(BANDS).optional(),
       lastBackupAt: str.optional(),
+      onboardedAt: str.optional(),
+      voiceId: str.optional(),
+      seenNotes: z.array(str).max(5000).default([]),
     }),
   ).max(1),
   cards: z.array(
@@ -43,6 +46,7 @@ const Rows = {
       kind: z.enum(["word", "item", "structure"]),
       ref: str,
       context: str.optional(),
+      lastOutcome: z.enum(["first", "hint", "revealed"]).optional(),
       fsrs: FsrsCard,
       createdAt: str,
     }),

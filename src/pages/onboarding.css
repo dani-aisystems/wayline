@@ -1,0 +1,39 @@
+.onb { max-width: 640px; margin: 0 auto; padding: 0 var(--gutter) var(--s-8); }
+.onb-bar { display: flex; align-items: center; justify-content: space-between; min-height: 72px; }
+.onb-step { color: var(--text-soft); font-size: var(--fs-sm); }
+.onb-track { display: flex; gap: var(--s-2); }
+.onb-dot { flex: 1; height: 4px; border-radius: var(--r-pill); background: var(--surface-sunk); }
+.onb-dot[data-state="done"], .onb-dot[data-state="now"] { background: var(--accent); }
+.onb-main { display: grid; gap: var(--s-5); padding-top: var(--s-7); }
+.onb-question { font-size: var(--fs-2xl); letter-spacing: -0.01em; outline: none; }
+.onb-sample {
+  font-family: var(--font-read); font-size: var(--fs-xl);
+  padding: var(--s-4) var(--s-5); border-left: 3px solid var(--accent); background: var(--surface-raised);
+}
+.onb-hint, .onb-note, .onb-count { color: var(--text-soft); }
+.onb-note { padding: var(--s-3) var(--s-4); background: var(--surface-sunk); border-radius: var(--r-md); color: var(--text); }
+
+.onb-options { display: grid; gap: var(--s-3); }
+.onb-option {
+  position: relative; display: flex; align-items: center; justify-content: space-between; gap: var(--s-3);
+  min-height: 56px; padding: var(--s-3) var(--s-4) var(--s-3) calc(var(--s-4) + 30px);
+  border: var(--border); border-radius: var(--r-md); background: var(--surface-raised); cursor: pointer;
+}
+.onb-option input { position: absolute; left: var(--s-4); top: 50%; width: 18px; height: 18px; margin: -9px 0 0; accent-color: var(--accent); }
+.onb-option[data-checked="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.onb-option:has(input:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
+.onb-option-label { font-weight: 600; }
+.onb-option-detail { color: var(--text-soft); font-size: var(--fs-sm); }
+
+.onb-chips { border: 0; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.chip {
+  display: inline-flex; align-items: center; gap: var(--s-2);
+  min-height: var(--tap); padding: 0 var(--s-4);
+  border: var(--border); border-radius: var(--r-pill); background: var(--surface-raised); cursor: pointer;
+}
+.chip input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.chip[data-on="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.chip[data-disabled="true"] { opacity: 0.5; cursor: not-allowed; }
+.chip:has(input:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.onb-actions { display: flex; gap: var(--s-3); padding-top: var(--s-3); }

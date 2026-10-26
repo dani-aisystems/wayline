@@ -1,4 +1,5 @@
 import { useId, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { ChartHero } from "../components/ChartHero";
 import { Wordmark } from "../components/Logo";
 import { useProfile } from "../state/profile";
@@ -14,9 +15,11 @@ export function Welcome() {
   const [saved, setSaved] = useState(false);
   const groupId = useId();
 
+  const navigate = useNavigate();
   const save = async () => {
     await update({ explanationLanguage: choice });
     setSaved(true);
+    navigate(profile?.onboardedAt ? "/today" : "/start");
   };
 
   return (

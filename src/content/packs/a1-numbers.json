@@ -1,0 +1,1123 @@
+{
+  "id": "a1-numbers",
+  "version": 1,
+  "band": "A1",
+  "competences": [
+    {
+      "id": "a1.numbers",
+      "band": "A1",
+      "title": {
+        "en": "Numbers & age",
+        "bg": "Числа и възраст"
+      },
+      "canDo": {
+        "en": "I can count to 100, say how old I am, ask someone's age, and give my phone number.",
+        "bg": "Мога да броя до 100, да кажа на колко години съм, да попитам някого за възрастта му и да кажа телефонния си номер."
+      },
+      "skills": [
+        "vocabulary",
+        "grammar",
+        "speaking",
+        "reading"
+      ],
+      "prerequisites": [
+        "a1.hello"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "a1.numbers.note-teen-ty",
+      "competence": "a1.numbers",
+      "title": {
+        "en": "Thirteen or thirty?",
+        "bg": "Thirteen или thirty?"
+      },
+      "body": {
+        "en": "Numbers 13 to 19 end in -teen: thirteen, fourteen, fifteen. Tens end in -ty: thirty, forty, fifty. Listen to the stress: thirTEEN (13) but THIRty (30). Watch the spelling: twelve, fifteen, fifty, and forty (no \"u\", not \"fourty\"). Between tens and ones we write a hyphen: twenty-one, forty-five. 100 is \"one hundred\" or \"a hundred\".",
+        "bg": "Числата от 13 до 19 завършват на -teen: thirteen, fourteen, fifteen. Десетиците завършват на -ty: thirty, forty, fifty. Слушай ударението: thirTEEN (13), но THIRty (30). Внимавай с правописа: twelve, fifteen, fifty и forty (без \"u\", не \"fourty\"). Между десетиците и единиците пишем тире: twenty-one, forty-five. 100 е \"one hundred\" или \"a hundred\"."
+      },
+      "examples": [
+        "Ten, eleven, twelve.",
+        "I'm thirteen.",
+        "Ten, twenty, thirty.",
+        "Seventy, eighty, ninety, one hundred."
+      ]
+    },
+    {
+      "id": "a1.numbers.note-age-phone",
+      "competence": "a1.numbers",
+      "title": {
+        "en": "Age and phone numbers",
+        "bg": "Възраст и телефонни номера"
+      },
+      "body": {
+        "en": "For age, English uses \"be\", not \"have\": \"How old are you?\" — \"I'm twenty.\" or \"I'm twenty years old.\" Don't stop after \"years\": \"I'm twenty years\" is wrong. In Bulgarian we say \"На двадесет години съм\", but in English there is no \"на\", and \"old\" is needed after \"years\". For phone numbers, say each number one by one: 0888 412 739 = \"oh eight eight eight, four one two, seven three nine\". 0 is \"oh\" or \"zero\".",
+        "bg": "За възраст английският използва \"be\" (съм), а не \"have\" (имам): \"How old are you?\" — \"I'm twenty.\" или \"I'm twenty years old.\" Не спирай след \"years\": \"I'm twenty years\" е грешно. На български казваме \"На двадесет години съм\", но на английски няма \"на\", а след \"years\" трябва \"old\". Телефонните номера казваш цифра по цифра: 0888 412 739 = \"oh eight eight eight, four one two, seven three nine\". 0 се казва \"oh\" или \"zero\"."
+      },
+      "examples": [
+        "How old are you?",
+        "I'm twenty years old.",
+        "What's your phone number?",
+        "It's oh eight eight eight, four one two, seven three nine."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "zero",
+      "pos": "number",
+      "ipa": "/ˈzɪroʊ/",
+      "meaning": {
+        "en": "The number 0.",
+        "bg": "Нула (0)."
+      },
+      "example": "Zero is a number.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "one",
+      "pos": "number",
+      "ipa": "/wʌn/",
+      "meaning": {
+        "en": "The number 1.",
+        "bg": "Едно (1)."
+      },
+      "example": "I'm one year old.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "two",
+      "pos": "number",
+      "ipa": "/tu/",
+      "meaning": {
+        "en": "The number 2.",
+        "bg": "Две (2)."
+      },
+      "example": "Two, four, six.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "three",
+      "pos": "number",
+      "ipa": "/θri/",
+      "meaning": {
+        "en": "The number 3.",
+        "bg": "Три (3)."
+      },
+      "example": "One, two, three.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "four",
+      "pos": "number",
+      "ipa": "/fɔr/",
+      "meaning": {
+        "en": "The number 4.",
+        "bg": "Четири (4)."
+      },
+      "example": "Two, four, six.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "five",
+      "pos": "number",
+      "ipa": "/faɪv/",
+      "meaning": {
+        "en": "The number 5.",
+        "bg": "Пет (5)."
+      },
+      "example": "I'm five years old.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "six",
+      "pos": "number",
+      "ipa": "/sɪks/",
+      "meaning": {
+        "en": "The number 6.",
+        "bg": "Шест (6)."
+      },
+      "example": "Two, four, six.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "seven",
+      "pos": "number",
+      "ipa": "/ˈsɛvən/",
+      "meaning": {
+        "en": "The number 7.",
+        "bg": "Седем (7)."
+      },
+      "example": "I'm seven.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "eight",
+      "pos": "number",
+      "ipa": "/eɪt/",
+      "meaning": {
+        "en": "The number 8.",
+        "bg": "Осем (8)."
+      },
+      "example": "Tom is eight.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "nine",
+      "pos": "number",
+      "ipa": "/naɪn/",
+      "meaning": {
+        "en": "The number 9.",
+        "bg": "Девет (9)."
+      },
+      "example": "I'm nine years old.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "ten",
+      "pos": "number",
+      "ipa": "/tɛn/",
+      "meaning": {
+        "en": "The number 10.",
+        "bg": "Десет (10)."
+      },
+      "example": "Ten, twenty, thirty.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "eleven",
+      "pos": "number",
+      "ipa": "/ɪˈlɛvən/",
+      "meaning": {
+        "en": "The number 11.",
+        "bg": "Единадесет (11)."
+      },
+      "example": "Ten, eleven, twelve.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "twelve",
+      "pos": "number",
+      "ipa": "/twɛlv/",
+      "meaning": {
+        "en": "The number 12.",
+        "bg": "Дванадесет (12)."
+      },
+      "example": "Ten, eleven, twelve.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "thirteen",
+      "pos": "number",
+      "ipa": "/ˌθɝˈtin/",
+      "meaning": {
+        "en": "The number 13.",
+        "bg": "Тринадесет (13)."
+      },
+      "example": "I'm thirteen.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "fourteen",
+      "pos": "number",
+      "ipa": "/ˌfɔrˈtin/",
+      "meaning": {
+        "en": "The number 14.",
+        "bg": "Четиринадесет (14)."
+      },
+      "example": "I'm fourteen years old.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "fifteen",
+      "pos": "number",
+      "ipa": "/ˌfɪfˈtin/",
+      "meaning": {
+        "en": "The number 15.",
+        "bg": "Петнадесет (15)."
+      },
+      "example": "I'm fifteen.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "sixteen",
+      "pos": "number",
+      "ipa": "/ˌsɪkˈstin/",
+      "meaning": {
+        "en": "The number 16.",
+        "bg": "Шестнадесет (16)."
+      },
+      "example": "I'm sixteen years old.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "seventeen",
+      "pos": "number",
+      "ipa": "/ˌsɛvənˈtin/",
+      "meaning": {
+        "en": "The number 17.",
+        "bg": "Седемнадесет (17)."
+      },
+      "example": "I'm seventeen.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "eighteen",
+      "pos": "number",
+      "ipa": "/ˌeɪˈtin/",
+      "meaning": {
+        "en": "The number 18.",
+        "bg": "Осемнадесет (18)."
+      },
+      "example": "I'm eighteen years old.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "nineteen",
+      "pos": "number",
+      "ipa": "/ˌnaɪnˈtin/",
+      "meaning": {
+        "en": "The number 19.",
+        "bg": "Деветнадесет (19)."
+      },
+      "example": "I'm nineteen.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "twenty",
+      "pos": "number",
+      "ipa": "/ˈtwɛnti/",
+      "meaning": {
+        "en": "The number 20.",
+        "bg": "Двадесет (20)."
+      },
+      "example": "I'm twenty years old.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "thirty",
+      "pos": "number",
+      "ipa": "/ˈθɝti/",
+      "meaning": {
+        "en": "The number 30.",
+        "bg": "Тридесет (30)."
+      },
+      "example": "Ten, twenty, thirty.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "forty",
+      "pos": "number",
+      "ipa": "/ˈfɔrti/",
+      "meaning": {
+        "en": "The number 40.",
+        "bg": "Четиридесет (40)."
+      },
+      "example": "I'm forty.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "fifty",
+      "pos": "number",
+      "ipa": "/ˈfɪfti/",
+      "meaning": {
+        "en": "The number 50.",
+        "bg": "Петдесет (50)."
+      },
+      "example": "Forty, fifty, sixty.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "sixty",
+      "pos": "number",
+      "ipa": "/ˈsɪksti/",
+      "meaning": {
+        "en": "The number 60.",
+        "bg": "Шестдесет (60)."
+      },
+      "example": "Forty, fifty, sixty.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "seventy",
+      "pos": "number",
+      "ipa": "/ˈsɛvənti/",
+      "meaning": {
+        "en": "The number 70.",
+        "bg": "Седемдесет (70)."
+      },
+      "example": "Seventy, eighty, ninety.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "eighty",
+      "pos": "number",
+      "ipa": "/ˈeɪti/",
+      "meaning": {
+        "en": "The number 80.",
+        "bg": "Осемдесет (80)."
+      },
+      "example": "Seventy, eighty, ninety.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "ninety",
+      "pos": "number",
+      "ipa": "/ˈnaɪnti/",
+      "meaning": {
+        "en": "The number 90.",
+        "bg": "Деветдесет (90)."
+      },
+      "example": "Seventy, eighty, ninety.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "hundred",
+      "pos": "number",
+      "ipa": "/ˈhʌndrəd/",
+      "meaning": {
+        "en": "The number 100. Say \"one hundred\" or \"a hundred\".",
+        "bg": "Сто (100). Казваш \"one hundred\" или \"a hundred\"."
+      },
+      "example": "Ninety, one hundred.",
+      "forms": [
+        "hundreds"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "oh",
+      "pos": "number",
+      "ipa": "/oʊ/",
+      "meaning": {
+        "en": "A way to say 0, for example in phone numbers.",
+        "bg": "Нула — така често се казва 0 в телефонни номера."
+      },
+      "example": "It's oh eight eight eight.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "number",
+      "pos": "noun",
+      "ipa": "/ˈnʌmbɚ/",
+      "meaning": {
+        "en": "A word or sign for an amount, like 3 or \"three\"; also a phone number.",
+        "bg": "Число; номер (например телефонен)."
+      },
+      "example": "What's your phone number?",
+      "forms": [
+        "numbers"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "phone",
+      "pos": "noun",
+      "ipa": "/foʊn/",
+      "meaning": {
+        "en": "You use it to call people.",
+        "bg": "Телефон."
+      },
+      "example": "What's your phone number?",
+      "forms": [
+        "phones"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "how",
+      "pos": "adverb",
+      "ipa": "/haʊ/",
+      "meaning": {
+        "en": "A question word: \"How old…?\" asks about age.",
+        "bg": "Как, колко — въпросителна дума. \"How old…?\" пита за възраст."
+      },
+      "example": "How old are you?",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "old",
+      "pos": "adjective",
+      "ipa": "/oʊld/",
+      "meaning": {
+        "en": "With age: \"How old are you?\" — \"I'm ten years old.\"",
+        "bg": "Стар. За възраст: \"How old are you?\" = \"На колко години си?\""
+      },
+      "example": "I'm ten years old.",
+      "forms": [
+        "older",
+        "oldest"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "year",
+      "pos": "noun",
+      "ipa": "/jɪr/",
+      "meaning": {
+        "en": "Twelve months. For age: \"ten years old\".",
+        "bg": "Година."
+      },
+      "example": "I'm twenty years old.",
+      "forms": [
+        "years"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "it",
+      "pos": "pronoun",
+      "ipa": "/ɪt/",
+      "meaning": {
+        "en": "A word for a thing, not a person.",
+        "bg": "То, той, тя — за нещо (не за човек)."
+      },
+      "example": "It's oh eight eight eight.",
+      "forms": [
+        "it's"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "yes",
+      "pos": "interjection",
+      "ipa": "/jɛs/",
+      "meaning": {
+        "en": "The answer when something is true.",
+        "bg": "Да."
+      },
+      "example": "Yes, I am.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "new",
+      "pos": "adjective",
+      "ipa": "/nu/",
+      "meaning": {
+        "en": "Not old; here for the first time.",
+        "bg": "Нов."
+      },
+      "example": "Are you new here?",
+      "forms": [
+        "newer",
+        "newest"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "here",
+      "pos": "adverb",
+      "ipa": "/hɪr/",
+      "meaning": {
+        "en": "In this place.",
+        "bg": "Тук."
+      },
+      "example": "Are you new here?",
+      "forms": [],
+      "band": "A1"
+    }
+  ],
+  "texts": [
+    {
+      "id": "a1.numbers.text-new-here",
+      "competence": "a1.numbers",
+      "band": "A1",
+      "title": "New here",
+      "paragraphs": [
+        "Ben: Hi! Are you new here?",
+        "Sara: Yes, I am. I'm Sara.",
+        "Ben: I'm Ben. How old are you, Sara?",
+        "Sara: I'm sixteen. And you?",
+        "Ben: I'm fifteen. What's your phone number?",
+        "Sara: It's 0888 412 739."
+      ]
+    }
+  ],
+  "names": [
+    "Ben",
+    "Sara",
+    "Tom"
+  ],
+  "items": [
+    {
+      "id": "a1.numbers.thirteen",
+      "type": "choice",
+      "band": "A1",
+      "skill": "vocabulary",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Recognise the number 13.",
+        "bg": "Да разпознаеш числото 13."
+      },
+      "difficulty": -3.5,
+      "prompt": "Which word is 13?",
+      "options": [
+        "thirty",
+        "three",
+        "thirteen",
+        "third"
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "13 is \"thirteen\": numbers from 13 to 19 end in -teen. \"Thirty\" is 30, \"three\" is 3, and \"third\" means number three in order (3rd).",
+        "bg": "13 е \"thirteen\": числата от 13 до 19 завършват на -teen. \"Thirty\" е 30, \"three\" е 3, а \"third\" значи \"трети\" (3-ти)."
+      },
+      "hints": [
+        {
+          "en": "13 to 19 all end the same way.",
+          "bg": "Числата от 13 до 19 завършват по еднакъв начин."
+        }
+      ],
+      "words": [
+        "thirteen",
+        "thirty",
+        "three"
+      ],
+      "structures": [],
+      "tags": [
+        "numbers",
+        "teen-ty"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.forty-spelling",
+      "type": "choice",
+      "band": "A1",
+      "skill": "vocabulary",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Spell the number 40.",
+        "bg": "Да напишеш правилно числото 40."
+      },
+      "difficulty": -2.6,
+      "prompt": "Which word is 40?",
+      "options": [
+        "fourteen",
+        "forty",
+        "fourty",
+        "four"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "40 is \"forty\" — no \"u\", even though 4 is \"four\" and 14 is \"fourteen\". \"Fourty\" is a very common mistake.",
+        "bg": "40 е \"forty\" — без \"u\", въпреки че 4 е \"four\", а 14 е \"fourteen\". \"Fourty\" е много честа грешка."
+      },
+      "hints": [
+        {
+          "en": "Tens end in -ty.",
+          "bg": "Десетиците завършват на -ty."
+        },
+        {
+          "en": "This one is spelled differently from \"four\".",
+          "bg": "Тук правописът е различен от \"four\"."
+        }
+      ],
+      "words": [
+        "forty",
+        "fourteen",
+        "four"
+      ],
+      "structures": [],
+      "tags": [
+        "numbers",
+        "spelling"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.twelve",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "vocabulary",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Write the number 12.",
+        "bg": "Да напишеш числото 12."
+      },
+      "difficulty": -3.4,
+      "sentence": "ten, eleven, ___, thirteen",
+      "accept": [
+        "twelve",
+        "12"
+      ],
+      "explanation": {
+        "en": "The order is ten, eleven, twelve, thirteen. 11 and 12 are special words: they don't end in -teen.",
+        "bg": "Редът е ten, eleven, twelve, thirteen. 11 и 12 са специални думи — не завършват на -teen."
+      },
+      "hints": [
+        {
+          "en": "Which number comes between 11 and 13?",
+          "bg": "Кое число е между 11 и 13?"
+        },
+        {
+          "en": "It starts with \"tw\", like \"two\".",
+          "bg": "Започва с \"tw\", като \"two\"."
+        }
+      ],
+      "words": [
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen"
+      ],
+      "structures": [],
+      "tags": [
+        "numbers"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.one-hundred",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "vocabulary",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Count by tens to 100.",
+        "bg": "Да броиш през десет до 100."
+      },
+      "difficulty": -2.4,
+      "sentence": "seventy, eighty, ninety, ___",
+      "accept": [
+        "one hundred",
+        "a hundred",
+        "100"
+      ],
+      "explanation": {
+        "en": "After ninety (90) comes one hundred (100). You can also say \"a hundred\". Just \"hundred\" alone is not enough.",
+        "bg": "След ninety (90) идва one hundred (100). Може да кажеш и \"a hundred\". Само \"hundred\" не е достатъчно."
+      },
+      "hints": [
+        {
+          "en": "90 + 10 = ?",
+          "bg": "90 + 10 = ?"
+        }
+      ],
+      "words": [
+        "seventy",
+        "eighty",
+        "ninety",
+        "hundred"
+      ],
+      "structures": [],
+      "tags": [
+        "numbers",
+        "tens"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.how-old",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Ask someone's age.",
+        "bg": "Да попиташ някого на колко години е."
+      },
+      "difficulty": -3.0,
+      "sentence": "A: How ___ are you? B: I'm nine.",
+      "accept": [
+        "old"
+      ],
+      "explanation": {
+        "en": "To ask about age, say \"How old are you?\". In Bulgarian we ask \"На колко години си?\", but English uses \"old\" and the verb \"be\".",
+        "bg": "За да попиташ за възраст, казваш \"How old are you?\". На български питаме \"На колко години си?\", а на английски се използва \"old\" и глаголът \"be\"."
+      },
+      "hints": [
+        {
+          "en": "Look at the answer: \"I'm nine.\" The question is about age.",
+          "bg": "Виж отговора: \"I'm nine.\" Въпросът е за възраст."
+        }
+      ],
+      "words": [
+        "how",
+        "old",
+        "be",
+        "you"
+      ],
+      "structures": [
+        "be.present",
+        "questions.wh"
+      ],
+      "tags": [
+        "age",
+        "questions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.age-answer",
+      "type": "choice",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Say your age with \"be\".",
+        "bg": "Да кажеш възрастта си с \"be\"."
+      },
+      "difficulty": -2.0,
+      "prompt": "\"How old are you?\" Which answer is correct?",
+      "options": [
+        "I have twenty years.",
+        "I'm twenty years.",
+        "I'm twenty year old.",
+        "I'm twenty."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "In English we say \"I'm twenty\" or \"I'm twenty years old\" — always with \"be\", never with \"have\". \"I'm twenty years\" is missing \"old\", and \"year\" needs an -s after twenty.",
+        "bg": "На английски казваме \"I'm twenty\" или \"I'm twenty years old\" — винаги с \"be\", никога с \"have\" (имам). В \"I'm twenty years\" липсва \"old\", а след twenty трябва \"years\" с -s."
+      },
+      "hints": [
+        {
+          "en": "English uses \"be\" for age, not \"have\".",
+          "bg": "За възраст английският използва \"be\", а не \"have\"."
+        },
+        {
+          "en": "If you say \"years\", you also need \"old\".",
+          "bg": "Ако кажеш \"years\", трябва и \"old\"."
+        }
+      ],
+      "words": [
+        "be",
+        "twenty",
+        "year",
+        "old"
+      ],
+      "structures": [
+        "be.present"
+      ],
+      "tags": [
+        "age",
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.years-old",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "vocabulary",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Say an age with \"years old\".",
+        "bg": "Да кажеш възраст с \"years old\"."
+      },
+      "difficulty": -2.8,
+      "sentence": "Tom is eight ___ old.",
+      "accept": [
+        "years"
+      ],
+      "explanation": {
+        "en": "The full phrase is number + \"years old\": eight years old. Use \"years\" with -s, because eight is more than one.",
+        "bg": "Пълният израз е число + \"years old\": eight years old. Пишем \"years\" с -s, защото осем е повече от едно."
+      },
+      "hints": [
+        {
+          "en": "Which word means \"години\"?",
+          "bg": "Коя дума значи \"години\"?"
+        }
+      ],
+      "words": [
+        "eight",
+        "year",
+        "old"
+      ],
+      "structures": [
+        "be.present"
+      ],
+      "tags": [
+        "age"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.build-age",
+      "type": "build",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Build a sentence about your age.",
+        "bg": "Да построиш изречение за възрастта си."
+      },
+      "difficulty": -2.6,
+      "tiles": [
+        "I'm",
+        "twelve",
+        "years",
+        "old"
+      ],
+      "accept": [
+        "I'm twelve years old"
+      ],
+      "explanation": {
+        "en": "The order is: I'm + number + years old. \"Old\" comes at the end.",
+        "bg": "Редът е: I'm + число + years old. \"Old\" е накрая."
+      },
+      "hints": [
+        {
+          "en": "Start with \"I'm\".",
+          "bg": "Започни с \"I'm\"."
+        },
+        {
+          "en": "\"Old\" is the last word.",
+          "bg": "\"Old\" е последната дума."
+        }
+      ],
+      "words": [
+        "be",
+        "twelve",
+        "year",
+        "old"
+      ],
+      "structures": [
+        "be.present"
+      ],
+      "tags": [
+        "age"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.build-phone",
+      "type": "build",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Ask for a phone number.",
+        "bg": "Да попиташ за телефонен номер."
+      },
+      "difficulty": -2.3,
+      "tiles": [
+        "What's",
+        "your",
+        "phone",
+        "number"
+      ],
+      "accept": [
+        "What's your phone number?"
+      ],
+      "explanation": {
+        "en": "The question is \"What's your phone number?\" (What is…). \"Phone number\" is like one word: \"phone\" comes first.",
+        "bg": "Въпросът е \"What's your phone number?\" (What is…). \"Phone number\" е като една дума: \"phone\" е отпред."
+      },
+      "hints": [
+        {
+          "en": "Start with the question word.",
+          "bg": "Започни с въпросителната дума."
+        }
+      ],
+      "words": [
+        "what",
+        "your",
+        "phone",
+        "number"
+      ],
+      "structures": [
+        "be.present",
+        "questions.wh"
+      ],
+      "tags": [
+        "phone-numbers",
+        "questions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.text-sara-age",
+      "type": "choice",
+      "band": "A1",
+      "skill": "reading",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Find someone's age in a dialogue.",
+        "bg": "Да откриеш нечия възраст в диалог."
+      },
+      "difficulty": -2.8,
+      "prompt": "How old is Sara?",
+      "options": [
+        "fifteen",
+        "sixteen",
+        "sixty",
+        "six"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sara says \"I'm sixteen\" (16). Ben is fifteen. Be careful: \"sixty\" is 60.",
+        "bg": "Sara казва \"I'm sixteen\" (16). Ben е на fifteen (15). Внимавай: \"sixty\" е 60."
+      },
+      "hints": [
+        {
+          "en": "Find the line where Sara answers Ben's question about age.",
+          "bg": "Намери реда, в който Sara отговаря на въпроса за възрастта."
+        }
+      ],
+      "words": [
+        "sixteen",
+        "fifteen",
+        "sixty",
+        "six"
+      ],
+      "structures": [],
+      "tags": [
+        "reading",
+        "age"
+      ],
+      "textId": "a1.numbers.text-new-here",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.text-ben-age",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "reading",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Find someone's age in a dialogue.",
+        "bg": "Да откриеш нечия възраст в диалог."
+      },
+      "difficulty": -2.6,
+      "sentence": "Ben is ___ years old.",
+      "accept": [
+        "fifteen",
+        "15"
+      ],
+      "explanation": {
+        "en": "Ben says \"I'm fifteen.\" So Ben is fifteen (15) years old.",
+        "bg": "Ben казва \"I'm fifteen.\" Значи Ben е на fifteen (15) години."
+      },
+      "hints": [
+        {
+          "en": "Read Ben's last line.",
+          "bg": "Прочети последната реплика на Ben."
+        }
+      ],
+      "words": [
+        "fifteen",
+        "year",
+        "old"
+      ],
+      "structures": [],
+      "tags": [
+        "reading",
+        "age"
+      ],
+      "textId": "a1.numbers.text-new-here",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.numbers.text-phone",
+      "type": "choice",
+      "band": "A1",
+      "skill": "reading",
+      "competence": "a1.numbers",
+      "objective": {
+        "en": "Read a phone number carefully.",
+        "bg": "Да прочетеш внимателно телефонен номер."
+      },
+      "difficulty": -2.2,
+      "prompt": "What is Sara's phone number?",
+      "options": [
+        "0888 421 739",
+        "0888 412 793",
+        "0888 412 739",
+        "0888 214 739"
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Sara's number is 0888 412 739 — \"oh eight eight eight, four one two, seven three nine\". The other options change the order of two numbers.",
+        "bg": "Номерът на Sara е 0888 412 739 — \"oh eight eight eight, four one two, seven three nine\". В другите отговори две цифри са разменени."
+      },
+      "hints": [
+        {
+          "en": "Check the numbers one by one.",
+          "bg": "Провери цифрите една по една."
+        }
+      ],
+      "words": [
+        "phone",
+        "number"
+      ],
+      "structures": [],
+      "tags": [
+        "reading",
+        "phone-numbers"
+      ],
+      "textId": "a1.numbers.text-new-here",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

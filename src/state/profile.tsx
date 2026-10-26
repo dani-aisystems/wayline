@@ -63,6 +63,7 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
       explanationLanguage: guessLanguage(),
       theme: "system" as const,
       interests: [],
+      seenNotes: [],
     };
     const next: Profile = { ...current, ...patch };
     await db.profile.put(next);

@@ -16,7 +16,7 @@ async function seeded() {
   dbs.push(d);
   const now = new Date("2026-11-01T09:00:00Z");
   const { card, log } = review(newCard(now), Rating.Good, now);
-  await d.profile.put({ id: "me", createdAt: now.toISOString(), explanationLanguage: "bg", theme: "system", interests: ["tech"] });
+  await d.profile.put({ id: "me", createdAt: now.toISOString(), explanationLanguage: "bg", theme: "system", interests: ["tech"], seenNotes: [] });
   await d.cards.put({ id: "w:go", kind: "word", ref: "go", context: "I go to school.", fsrs: card, createdAt: now.toISOString() });
   await d.reviews.add({ cardId: "w:go", log });
   await d.mastery.put({ competence: "a1.hello", correct: 4, attempts: 5, hintsUsed: 1, updatedAt: now.toISOString() });

@@ -1,0 +1,9 @@
+.word-list { list-style: none; margin: 0; padding: 0; border-top: var(--border); }
+.word-row { display: flex; justify-content: space-between; gap: var(--s-4); padding: var(--s-4) 0; border-bottom: var(--border); }
+.word-row-head { display: flex; align-items: baseline; gap: var(--s-3); }
+.word-row-word { font-size: var(--fs-lg); font-weight: 600; }
+.word-row-ipa { font-family: var(--font-read); color: var(--text-soft); font-size: var(--fs-sm); }
+.word-row-meaning { margin-top: var(--s-1); }
+.word-row-context { margin-top: var(--s-1); font-family: var(--font-read); font-style: italic; color: var(--text-soft); }
+.word-row-due { color: var(--text-soft); font-size: var(--fs-xs); white-space: nowrap; }
+@media (max-width: 520px) { .word-row { flex-direction: column; gap: var(--s-2); } }

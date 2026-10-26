@@ -1,0 +1,12 @@
+.settings { gap: 0; }
+.settings .page-title { margin-bottom: var(--s-5); }
+.setting { display: grid; gap: var(--s-2); justify-items: start; padding: var(--s-5) 0; border-top: var(--border); }
+.setting-label { font-weight: 600; font-size: var(--fs-md); }
+.setting-hint { color: var(--text-soft); font-size: var(--fs-sm); max-width: 60ch; }
+.setting-row { display: flex; flex-wrap: wrap; gap: var(--s-3); align-items: center; }
+.setting select {
+  min-height: var(--tap); max-width: 100%; padding: 0 var(--s-4);
+  border: var(--border); border-radius: var(--r-md); background: var(--surface-raised); color: var(--text); font: inherit;
+}
+.btn-danger { background: transparent; color: var(--bad); border-color: currentColor; margin-top: var(--s-3); }
+.notice-good { background: var(--good-tint); color: var(--good); }

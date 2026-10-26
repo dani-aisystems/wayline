@@ -12,11 +12,11 @@ test.describe("welcome and explanation language", () => {
     await page.goto("/");
     await page.getByRole("radio", { name: /Български/ }).check();
     await page.getByRole("button", { name: "Continue" }).click();
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Начертай своя път към английския.");
-    await expect(page.getByRole("status")).toHaveText("Обясненията ще бъдат на български.");
+    await page.waitForURL("**/start");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Можеш ли да прочетеш това изречение?");
     await expect(page.locator("html")).toHaveAttribute("lang", "bg");
 
-    await page.reload();
+    await page.goto("/");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Начертай своя път към английския.");
     await expect(page.getByRole("radio", { name: /Български/ })).toBeChecked();
   });
@@ -56,6 +56,7 @@ test.describe("welcome and explanation language", () => {
     test.skip(isMobile, "keyboard path is a desktop concern");
     test.skip(browserName === "webkit", "Safari only tabs to form controls when the OS setting is on");
     await page.goto("/");
+    await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
     await page.keyboard.press("Tab");
     await expect(page.getByRole("link", { name: "Skip to content" })).toBeFocused();
     await page.keyboard.press("Tab");

@@ -15,6 +15,11 @@ export interface Profile {
   placedBand?: Band;
   acceptedBand?: Band;
   lastBackupAt?: string;
+  onboardedAt?: string;
+  /** Preferred English TTS voice (voiceURI). */
+  voiceId?: string;
+  /** Notes ("Understand" cards) already shown, so they are not repeated in every session. */
+  seenNotes: string[];
 }
 
 /** A reviewable thing (word, structure, item) with its FSRS memory state and where it was met. */
@@ -23,6 +28,8 @@ export interface StudyCard {
   kind: "word" | "item" | "structure";
   ref: string;
   context?: string;
+  /** How the learner did the last time (items only). */
+  lastOutcome?: "first" | "hint" | "revealed";
   fsrs: Card;
   createdAt: string;
 }
@@ -74,7 +81,7 @@ export class WaylineDB extends Dexie {
       cards: "id, kind, ref, fsrs.due",
       reviews: "++id, cardId",
       mastery: "competence",
-      mistakes: "++id, itemId, competence, resolved",
+      mistakes: "++id, itemId, competence",
       activity: "day",
     });
   }

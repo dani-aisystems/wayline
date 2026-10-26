@@ -44,6 +44,8 @@ const ItemBase = z.object({
   words: z.array(z.string()).default([]),
   structures: z.array(Id).default([]),
   tags: z.array(z.string()).default([]),
+  /** Set when the item is a comprehension question about a Text in the same pack. */
+  textId: Id.optional(),
   review: z.object({
     author: z.string().min(1),
     status: z.enum(["draft", "reviewed", "approved"]),
@@ -93,11 +95,49 @@ export const Competence = z.object({
 });
 export type Competence = z.infer<typeof Competence>;
 
+/** "Understand" step: a short rule or usage card shown before practice. */
+export const Note = z.object({
+  id: Id,
+  competence: Id,
+  title: LocalizedText,
+  body: LocalizedText,
+  /** English examples, each one sentence. Rendered with Word Lens. */
+  examples: z.array(z.string().min(1)).min(1).max(6),
+});
+export type Note = z.infer<typeof Note>;
+
+/** Word Lens dictionary entry. One entry per lemma; `forms` lets "is", "are" find "be". */
+export const GlossaryEntry = z.object({
+  word: z.string().min(1),
+  pos: z.enum(["noun", "verb", "adjective", "adverb", "pronoun", "determiner", "preposition", "conjunction", "interjection", "number", "phrase"]),
+  ipa: z.string().regex(/^\/.+\/$/, "IPA in slashes, e.g. /həˈloʊ/").optional(),
+  meaning: LocalizedText,
+  example: z.string().min(1),
+  forms: z.array(z.string().min(1)).default([]),
+  band: Band,
+});
+export type GlossaryEntry = z.infer<typeof GlossaryEntry>;
+
+/** A short graded text (the "Experience" step), followed by items that reference it by `textId`. */
+export const Text = z.object({
+  id: Id,
+  competence: Id,
+  band: Band,
+  title: z.string().min(1),
+  paragraphs: z.array(z.string().min(1)).min(1),
+});
+export type Text = z.infer<typeof Text>;
+
 export const ContentPack = z.object({
   id: Id,
   version: z.number().int().positive(),
   band: Band,
   competences: z.array(Competence).min(1),
+  notes: z.array(Note).default([]),
+  glossary: z.array(GlossaryEntry).default([]),
+  texts: z.array(Text).default([]),
+  /** Proper names used in this pack (Maria, London). Word Lens shows them as names, not words. */
+  names: z.array(z.string().min(1)).default([]),
   items: z.array(Item).min(1),
 });
 export type ContentPack = z.infer<typeof ContentPack>;

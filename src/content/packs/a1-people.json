@@ -1,0 +1,993 @@
+{
+  "id": "a1-people",
+  "version": 1,
+  "band": "A1",
+  "competences": [
+    {
+      "id": "a1.people",
+      "band": "A1",
+      "title": {
+        "en": "Family & people",
+        "bg": "Семейство и хора"
+      },
+      "canDo": {
+        "en": "I can introduce my family and other people and say simple things about them.",
+        "bg": "Мога да представя семейството си и други хора и да кажа прости неща за тях."
+      },
+      "skills": [
+        "vocabulary",
+        "grammar",
+        "speaking",
+        "reading"
+      ],
+      "prerequisites": [
+        "a1.hello"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "a1.people.note-he-she-his-her",
+      "competence": "a1.people",
+      "title": {
+        "en": "He, she, his, her",
+        "bg": "He, she, his, her"
+      },
+      "body": {
+        "en": "Use \"he\" for a man or boy and \"she\" for a woman or girl. For things that belong to them, use \"his\" (for a man) and \"her\" (for a woman). Careful: in English \"his\" or \"her\" depends on the owner, not on the thing. So it is \"his sister\" (the sister of a man) and \"her brother\" (the brother of a woman). Bulgarian works the same way (\"неговата сестра\", \"нейният брат\"), so ask yourself: whose is it?",
+        "bg": "Използвай \"he\" за мъж или момче и \"she\" за жена или момиче. За нещо, което е тяхно, използвай \"his\" (негов — на мъж) и \"her\" (неин — на жена). Внимавай: на английски \"his\" или \"her\" зависи от притежателя, а не от предмета. Така че е \"his sister\" (сестрата на мъж) и \"her brother\" (братът на жена). На български е по същия начин (\"неговата сестра\", \"нейният брат\"), така че се питай: чие е?"
+      },
+      "examples": [
+        "This is my brother. He is ten.",
+        "This is my mother. She is a doctor.",
+        "His sister is Eva.",
+        "Her brother is Dan."
+      ]
+    },
+    {
+      "id": "a1.people.note-is-are",
+      "competence": "a1.people",
+      "title": {
+        "en": "\"This is…\", is and are",
+        "bg": "\"This is…\", is и are"
+      },
+      "body": {
+        "en": "To introduce someone, say \"This is my…\": \"This is my dad.\" Use \"is\" with he, she and one person (he's, she's). Use \"are\" with they and two or more people (they're). English always needs a subject: in Bulgarian you can say \"Лекарка е\", but in English you need \"She is a doctor\". Notice \"a\" before jobs: \"She is a doctor\", \"He is a teacher\".",
+        "bg": "За да представиш някого, кажи \"This is my…\": \"This is my dad.\" (Това е баща ми.) Използвай \"is\" с he, she и един човек (he's, she's). Използвай \"are\" с they и двама или повече души (they're). В английския подлогът е задължителен: на български можеш да кажеш \"Лекарка е\", но на английски трябва \"She is a doctor\". Обърни внимание на \"a\" пред професиите: \"She is a doctor\", \"He is a teacher\"."
+      },
+      "examples": [
+        "This is my dad.",
+        "My parents are teachers.",
+        "They are nice.",
+        "She's a doctor."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "this",
+      "pos": "pronoun",
+      "ipa": "/ðɪs/",
+      "meaning": {
+        "en": "Used to show or introduce a person or thing near you.",
+        "bg": "Това, този, тази — за да покажеш или представиш някого."
+      },
+      "example": "This is my mother.",
+      "forms": [
+        "these"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "he",
+      "pos": "pronoun",
+      "ipa": "/hi/",
+      "meaning": {
+        "en": "A man or boy (as the subject).",
+        "bg": "Той — за мъж или момче."
+      },
+      "example": "He is ten.",
+      "forms": [
+        "him",
+        "he's"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "she",
+      "pos": "pronoun",
+      "ipa": "/ʃi/",
+      "meaning": {
+        "en": "A woman or girl (as the subject).",
+        "bg": "Тя — за жена или момиче."
+      },
+      "example": "She is a doctor.",
+      "forms": [
+        "she's"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "they",
+      "pos": "pronoun",
+      "ipa": "/ðeɪ/",
+      "meaning": {
+        "en": "Two or more people or things.",
+        "bg": "Те — за двама или повече души или неща."
+      },
+      "example": "They are nice.",
+      "forms": [
+        "them",
+        "they're"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "we",
+      "pos": "pronoun",
+      "ipa": "/wi/",
+      "meaning": {
+        "en": "Me and other people.",
+        "bg": "Ние."
+      },
+      "example": "We are a family.",
+      "forms": [
+        "us",
+        "we're"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "his",
+      "pos": "determiner",
+      "ipa": "/hɪz/",
+      "meaning": {
+        "en": "Belonging to a man or boy.",
+        "bg": "Негов, негова, негово — на мъж или момче."
+      },
+      "example": "His sister is Eva.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "her",
+      "pos": "determiner",
+      "ipa": "/hɝ/",
+      "meaning": {
+        "en": "Belonging to a woman or girl.",
+        "bg": "Неин, нейна, нейно — на жена или момиче."
+      },
+      "example": "Her brother is Dan.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "family",
+      "pos": "noun",
+      "ipa": "/ˈfæməli/",
+      "meaning": {
+        "en": "A group of people like parents, children, brothers and sisters.",
+        "bg": "Семейство."
+      },
+      "example": "This is my family.",
+      "forms": [
+        "families"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "mother",
+      "pos": "noun",
+      "ipa": "/ˈmʌðɚ/",
+      "meaning": {
+        "en": "A woman who has a child.",
+        "bg": "Майка."
+      },
+      "example": "This is my mother.",
+      "forms": [
+        "mothers"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "father",
+      "pos": "noun",
+      "ipa": "/ˈfɑðɚ/",
+      "meaning": {
+        "en": "A man who has a child.",
+        "bg": "Баща."
+      },
+      "example": "My father is a doctor.",
+      "forms": [
+        "fathers"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "mom",
+      "pos": "noun",
+      "ipa": "/mɑm/",
+      "meaning": {
+        "en": "An informal word for \"mother\" (American English; British: \"mum\").",
+        "bg": "Мама — разговорно за \"mother\"."
+      },
+      "example": "My mom is nice.",
+      "forms": [
+        "moms",
+        "mum"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "dad",
+      "pos": "noun",
+      "ipa": "/dæd/",
+      "meaning": {
+        "en": "An informal word for \"father\".",
+        "bg": "Татко — разговорно за \"father\"."
+      },
+      "example": "This is my dad.",
+      "forms": [
+        "dads"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "parent",
+      "pos": "noun",
+      "ipa": "/ˈpɛrənt/",
+      "meaning": {
+        "en": "A mother or a father.",
+        "bg": "Родител."
+      },
+      "example": "My parents are teachers.",
+      "forms": [
+        "parents"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "brother",
+      "pos": "noun",
+      "ipa": "/ˈbrʌðɚ/",
+      "meaning": {
+        "en": "A boy or man with the same parents as you.",
+        "bg": "Брат."
+      },
+      "example": "This is my brother.",
+      "forms": [
+        "brothers"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "sister",
+      "pos": "noun",
+      "ipa": "/ˈsɪstɚ/",
+      "meaning": {
+        "en": "A girl or woman with the same parents as you.",
+        "bg": "Сестра."
+      },
+      "example": "His sister is Eva.",
+      "forms": [
+        "sisters"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "grandmother",
+      "pos": "noun",
+      "ipa": "/ˈɡrænˌmʌðɚ/",
+      "meaning": {
+        "en": "The mother of your mother or father.",
+        "bg": "Баба."
+      },
+      "example": "My grandmother is seventy.",
+      "forms": [
+        "grandmothers",
+        "grandma"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "friend",
+      "pos": "noun",
+      "ipa": "/frɛnd/",
+      "meaning": {
+        "en": "A person you like and know well.",
+        "bg": "Приятел, приятелка."
+      },
+      "example": "This is my friend Dan.",
+      "forms": [
+        "friends"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "doctor",
+      "pos": "noun",
+      "ipa": "/ˈdɑktɚ/",
+      "meaning": {
+        "en": "A person who helps sick people.",
+        "bg": "Лекар, лекарка."
+      },
+      "example": "She is a doctor.",
+      "forms": [
+        "doctors"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "engineer",
+      "pos": "noun",
+      "ipa": "/ˌɛndʒəˈnɪr/",
+      "meaning": {
+        "en": "A person who designs and builds machines, roads or computer systems.",
+        "bg": "Инженер."
+      },
+      "example": "My dad is an engineer.",
+      "forms": [
+        "engineers"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "kind",
+      "pos": "adjective",
+      "ipa": "/kaɪnd/",
+      "meaning": {
+        "en": "Nice and friendly to other people.",
+        "bg": "Мил, добър (към другите)."
+      },
+      "example": "My grandmother is very kind.",
+      "forms": [
+        "kinder",
+        "kindest"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "very",
+      "pos": "adverb",
+      "ipa": "/ˈvɛri/",
+      "meaning": {
+        "en": "More than a little; it makes a word stronger.",
+        "bg": "Много (пред прилагателно)."
+      },
+      "example": "My grandmother is very kind.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "big",
+      "pos": "adjective",
+      "ipa": "/bɪɡ/",
+      "meaning": {
+        "en": "Not small.",
+        "bg": "Голям."
+      },
+      "example": "This is my big brother.",
+      "forms": [
+        "bigger",
+        "biggest"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "in",
+      "pos": "preposition",
+      "ipa": "/ɪn/",
+      "meaning": {
+        "en": "Inside a place: in Sofia, in a house.",
+        "bg": "В — вътре в място."
+      },
+      "example": "They are in Sofia.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "live",
+      "pos": "verb",
+      "ipa": "/lɪv/",
+      "meaning": {
+        "en": "To have your home in a place.",
+        "bg": "Живея."
+      },
+      "example": "We live in Varna.",
+      "forms": [
+        "lives",
+        "lived",
+        "living"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "not",
+      "pos": "adverb",
+      "ipa": "/nɑt/",
+      "meaning": {
+        "en": "Makes a sentence negative.",
+        "bg": "Не."
+      },
+      "example": "She is not a doctor.",
+      "forms": [
+        "n't"
+      ],
+      "band": "A1"
+    }
+  ],
+  "texts": [
+    {
+      "id": "a1.people.text-my-family",
+      "competence": "a1.people",
+      "band": "A1",
+      "title": "My family",
+      "paragraphs": [
+        "Hi! I'm Eva. This is my family. We are a small family. We live in Varna.",
+        "This is my mom. Her name is Nina. She is a doctor. This is my dad. His name is Peter. He is an engineer.",
+        "This is my brother, Dan. He is twelve. He is a student. I'm a student too.",
+        "My grandmother is seventy. She is very kind. My parents are very kind too."
+      ]
+    }
+  ],
+  "names": [
+    "Eva",
+    "Dan",
+    "Nina",
+    "Peter",
+    "Varna",
+    "Sofia",
+    "Anna",
+    "Mark"
+  ],
+  "items": [
+    {
+      "id": "a1.people.this-is-my",
+      "type": "build",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Introduce someone with \"This is my…\".",
+        "bg": "Да представиш някого с \"This is my…\"."
+      },
+      "difficulty": -3.2,
+      "tiles": [
+        "This",
+        "is",
+        "my",
+        "brother"
+      ],
+      "accept": [
+        "This is my brother",
+        "Is this my brother?"
+      ],
+      "explanation": {
+        "en": "We introduce people with \"This is my…\": This is my brother. English uses \"my\" before the person, while Bulgarian often puts it after: \"брат ми\".",
+        "bg": "Представяме хора с \"This is my…\": This is my brother. На английски \"my\" е пред думата, а на български често е след нея: \"брат ми\"."
+      },
+      "hints": [
+        {
+          "en": "Start with \"This\".",
+          "bg": "Започни с \"This\"."
+        }
+      ],
+      "words": [
+        "this",
+        "be",
+        "my",
+        "brother"
+      ],
+      "structures": [
+        "be.present",
+        "possessives"
+      ],
+      "tags": [
+        "family",
+        "introductions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.she-mother",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Use \"she\" for a woman.",
+        "bg": "Да използваш \"she\" за жена."
+      },
+      "difficulty": -3.0,
+      "sentence": "This is my mother. ___ is a doctor.",
+      "accept": [
+        "She"
+      ],
+      "explanation": {
+        "en": "\"Mother\" is a woman, so we say \"she\". English needs this pronoun: in Bulgarian \"Лекарка е\" is fine, but in English you can't say \"Is a doctor\".",
+        "bg": "\"Mother\" е жена, затова казваме \"she\". В английския това местоимение е задължително: на български \"Лекарка е\" е нормално, но на английски не може \"Is a doctor\"."
+      },
+      "hints": [
+        {
+          "en": "Is a mother a man or a woman?",
+          "bg": "Майката мъж ли е или жена?"
+        }
+      ],
+      "words": [
+        "this",
+        "mother",
+        "she",
+        "doctor"
+      ],
+      "structures": [
+        "be.present",
+        "subject.required"
+      ],
+      "tags": [
+        "pronouns",
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.his-sister",
+      "type": "choice",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Choose \"his\" or \"her\" by the owner.",
+        "bg": "Да избереш \"his\" или \"her\" според притежателя."
+      },
+      "difficulty": -2.0,
+      "prompt": "Dan is ten. ___ (= Dan's) sister is Eva. Choose the word for the gap.",
+      "options": [
+        "Her",
+        "His",
+        "He",
+        "He's"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Dan is a boy, so it is \"his sister\". In English, \"his/her\" agrees with the owner (Dan), not with the thing (sister). \"He\" is not a possessive, and \"he's\" means \"he is\".",
+        "bg": "Dan е момче, затова е \"his sister\". На английски \"his/her\" се съгласува с притежателя (Dan), а не с предмета (sister). \"He\" не показва притежание, а \"he's\" значи \"he is\"."
+      },
+      "hints": [
+        {
+          "en": "Who does the sister belong to — a boy or a girl?",
+          "bg": "На кого е сестрата — на момче или на момиче?"
+        },
+        {
+          "en": "Think about the owner, not about the sister.",
+          "bg": "Мисли за притежателя, а не за сестрата."
+        }
+      ],
+      "words": [
+        "his",
+        "her",
+        "sister"
+      ],
+      "structures": [
+        "possessives"
+      ],
+      "tags": [
+        "possessives",
+        "his-her"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.her-brother",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Use \"her\" for something that belongs to a woman.",
+        "bg": "Да използваш \"her\" за нещо, което е на жена."
+      },
+      "difficulty": -1.8,
+      "sentence": "Anna is a teacher. ___ (= Anna's) brother is a doctor.",
+      "accept": [
+        "Her"
+      ],
+      "explanation": {
+        "en": "Anna is a woman, so we say \"her brother\" — even though a brother is a man. \"His\" or \"her\" depends on the owner.",
+        "bg": "Anna е жена, затова казваме \"her brother\" — въпреки че братът е мъж. \"His\" или \"her\" зависи от притежателя."
+      },
+      "hints": [
+        {
+          "en": "Whose brother is it — Anna's. Is Anna a man or a woman?",
+          "bg": "Чий брат е — на Anna. Anna мъж ли е или жена?"
+        }
+      ],
+      "words": [
+        "her",
+        "brother"
+      ],
+      "structures": [
+        "possessives"
+      ],
+      "tags": [
+        "possessives",
+        "his-her"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.they-are",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Use \"are\" with \"they\".",
+        "bg": "Да използваш \"are\" с \"they\"."
+      },
+      "difficulty": -2.8,
+      "sentence": "My parents are teachers. They ___ very kind.",
+      "accept": [
+        "are",
+        "'re"
+      ],
+      "explanation": {
+        "en": "With \"they\" we use \"are\": They are nice. The short form is \"they're\". \"Is\" is only for one person (he, she).",
+        "bg": "С \"they\" използваме \"are\": They are nice. Кратката форма е \"they're\". \"Is\" е само за един човек (he, she)."
+      },
+      "hints": [
+        {
+          "en": "\"They\" is two or more people.",
+          "bg": "\"They\" са двама или повече души."
+        }
+      ],
+      "words": [
+        "parent",
+        "they",
+        "be",
+        "kind"
+      ],
+      "structures": [
+        "be.present"
+      ],
+      "tags": [
+        "be"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.parents-are",
+      "type": "choice",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Choose \"is\" or \"are\" for one or more people.",
+        "bg": "Да избереш \"is\" или \"are\" за един или повече души."
+      },
+      "difficulty": -2.4,
+      "prompt": "My brother and my sister ___ students. Choose the word for the gap.",
+      "options": [
+        "is",
+        "be",
+        "am",
+        "are"
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "\"My brother and my sister\" are two people, so we use \"are\": \"My brother and my sister are students.\" \"Is\" is for one person, and \"am\" goes only with \"I\".",
+        "bg": "\"My brother and my sister\" са двама души, затова използваме \"are\": \"My brother and my sister are students.\" \"Is\" е за един човек, а \"am\" е само с \"I\"."
+      },
+      "hints": [
+        {
+          "en": "How many people are in the subject?",
+          "bg": "Колко души има в подлога?"
+        }
+      ],
+      "words": [
+        "brother",
+        "sister",
+        "be",
+        "student"
+      ],
+      "structures": [
+        "be.present"
+      ],
+      "tags": [
+        "be"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.a-doctor",
+      "type": "choice",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Use \"a\" before a job.",
+        "bg": "Да използваш \"a\" пред професия."
+      },
+      "difficulty": -1.9,
+      "prompt": "Talk about your mom's job. Which sentence is correct?",
+      "options": [
+        "She is doctor.",
+        "She is a doctor.",
+        "Is a doctor.",
+        "She a doctor."
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "In English we say \"She is a doctor\" — with \"a\" before a job. In Bulgarian \"Тя е лекарка\" has no article, so learners often forget \"a\". \"Is a doctor\" has no subject, and \"She a doctor\" has no verb.",
+        "bg": "На английски казваме \"She is a doctor\" — с \"a\" пред професията. На български \"Тя е лекарка\" е без член, затова често се забравя \"a\". \"Is a doctor\" няма подлог, а \"She a doctor\" няма глагол."
+      },
+      "hints": [
+        {
+          "en": "Look at the small word before the job.",
+          "bg": "Виж малката дума пред професията."
+        }
+      ],
+      "words": [
+        "she",
+        "be",
+        "doctor"
+      ],
+      "structures": [
+        "be.present",
+        "articles.a-an"
+      ],
+      "tags": [
+        "jobs",
+        "articles",
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.build-he-is-not",
+      "type": "build",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Make a negative sentence with \"is not\".",
+        "bg": "Да направиш отрицателно изречение с \"is not\"."
+      },
+      "difficulty": -1.6,
+      "tiles": [
+        "He",
+        "is",
+        "not",
+        "a",
+        "teacher"
+      ],
+      "accept": [
+        "He is not a teacher"
+      ],
+      "explanation": {
+        "en": "To make a sentence negative, put \"not\" after \"is\": He is not a teacher. In speech: \"He isn't a teacher\" or \"He's not a teacher\".",
+        "bg": "За отрицание слагаш \"not\" след \"is\": He is not a teacher. В разговор: \"He isn't a teacher\" или \"He's not a teacher\"."
+      },
+      "hints": [
+        {
+          "en": "\"Not\" goes right after the verb \"is\".",
+          "bg": "\"Not\" стои веднага след глагола \"is\"."
+        }
+      ],
+      "words": [
+        "he",
+        "be",
+        "not",
+        "teacher"
+      ],
+      "structures": [
+        "be.present",
+        "be.negative"
+      ],
+      "tags": [
+        "be",
+        "negatives"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.text-mom-job",
+      "type": "choice",
+      "band": "A1",
+      "skill": "reading",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Find someone's job in a text.",
+        "bg": "Да откриеш нечия професия в текст."
+      },
+      "difficulty": -2.4,
+      "prompt": "What is Eva's mom?",
+      "options": [
+        "a doctor",
+        "an engineer",
+        "a student",
+        "a teacher"
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Eva writes: \"This is my mom. Her name is Nina. She is a doctor.\" Peter, her dad, is the engineer.",
+        "bg": "Eva пише: \"This is my mom. Her name is Nina. She is a doctor.\" Инженерът е Peter — баща ѝ."
+      },
+      "hints": [
+        {
+          "en": "Find the sentence about Eva's mom.",
+          "bg": "Намери изречението за майката на Eva."
+        }
+      ],
+      "words": [
+        "mom",
+        "doctor",
+        "engineer",
+        "student"
+      ],
+      "structures": [],
+      "tags": [
+        "reading",
+        "jobs"
+      ],
+      "textId": "a1.people.text-my-family",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.text-dan-age",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "reading",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Find a detail about a family member.",
+        "bg": "Да откриеш подробност за член на семейството."
+      },
+      "difficulty": -2.2,
+      "sentence": "Dan, Eva's brother, is ___ years old.",
+      "accept": [
+        "twelve",
+        "12"
+      ],
+      "explanation": {
+        "en": "Eva writes: \"This is my brother, Dan. He is twelve.\" Seventy is her grandmother's age.",
+        "bg": "Eva пише: \"This is my brother, Dan. He is twelve.\" Seventy е възрастта на баба ѝ."
+      },
+      "hints": [
+        {
+          "en": "Read the third paragraph.",
+          "bg": "Прочети третия абзац."
+        }
+      ],
+      "words": [
+        "brother",
+        "twelve"
+      ],
+      "structures": [],
+      "tags": [
+        "reading",
+        "age"
+      ],
+      "textId": "a1.people.text-my-family",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.text-grandmother-age",
+      "type": "choice",
+      "band": "A1",
+      "skill": "reading",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Find a detail about a family member.",
+        "bg": "Да откриеш подробност за член на семейството."
+      },
+      "difficulty": -1.7,
+      "prompt": "In the text, who is seventy?",
+      "options": [
+        "Eva's mom",
+        "Eva's dad",
+        "Eva",
+        "Eva's grandmother"
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Eva writes: \"My grandmother is seventy. She is very kind.\" So the grandmother is seventy (70). Dan is twelve.",
+        "bg": "Eva пише: \"My grandmother is seventy. She is very kind.\" Значи бабата е на седемдесет (70). Dan е на дванадесет."
+      },
+      "hints": [
+        {
+          "en": "Who is seventy?",
+          "bg": "Кой е на седемдесет?"
+        }
+      ],
+      "words": [
+        "grandmother",
+        "seventy",
+        "kind"
+      ],
+      "structures": [
+        "pronouns"
+      ],
+      "tags": [
+        "reading",
+        "pronouns"
+      ],
+      "textId": "a1.people.text-my-family",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.people.we-are",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.people",
+      "objective": {
+        "en": "Use \"are\" with \"we\".",
+        "bg": "Да използваш \"are\" с \"we\"."
+      },
+      "difficulty": -2.6,
+      "sentence": "We ___ from Bulgaria.",
+      "accept": [
+        "are",
+        "'re"
+      ],
+      "explanation": {
+        "en": "With \"we\" we use \"are\", like with \"you\" and \"they\": We are from Bulgaria. Short form: \"we're\".",
+        "bg": "С \"we\" използваме \"are\", както с \"you\" и \"they\": We are from Bulgaria. Кратка форма: \"we're\"."
+      },
+      "hints": [
+        {
+          "en": "\"We\" is more than one person.",
+          "bg": "\"We\" е повече от един човек."
+        }
+      ],
+      "words": [
+        "we",
+        "be",
+        "from"
+      ],
+      "structures": [
+        "be.present"
+      ],
+      "tags": [
+        "be"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

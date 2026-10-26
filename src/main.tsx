@@ -2,12 +2,12 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles/global.css";
 import { ProfileProvider } from "./state/profile";
-import { Welcome } from "./pages/Welcome";
+import { App } from "./app/App";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ProfileProvider>
-      <Welcome />
+      <App />
     </ProfileProvider>
   </StrictMode>,
 );

@@ -6,14 +6,443 @@
     {
       "id": "a1.hello",
       "band": "A1",
-      "title": { "en": "Hello & names", "bg": "Поздрави и имена" },
-      "canDo": {
-        "en": "I can greet someone, say my name and ask theirs.",
-        "bg": "Мога да поздравя някого, да кажа името си и да попитам за неговото."
+      "title": {
+        "en": "Hello & names",
+        "bg": "Поздрави и имена"
       },
-      "skills": ["vocabulary", "grammar", "speaking"],
+      "canDo": {
+        "en": "I can greet someone, say my name and where I am from, ask theirs, and say goodbye.",
+        "bg": "Мога да поздравя някого, да кажа как се казвам и откъде съм, да попитам другия за същото и да се сбогувам."
+      },
+      "skills": [
+        "vocabulary",
+        "grammar",
+        "speaking",
+        "reading"
+      ],
       "prerequisites": []
     }
+  ],
+  "notes": [
+    {
+      "id": "a1.hello.note-i-am",
+      "competence": "a1.hello",
+      "title": {
+        "en": "\"I am…\" and \"My name is…\"",
+        "bg": "\"I am…\" и \"My name is…\""
+      },
+      "body": {
+        "en": "To say who you are, use \"I am\" or \"My name is\". In speech \"I am\" is usually short: \"I'm\". English always needs the subject and the verb: you can't say \"Am Maria\". In Bulgarian you can say \"Мария съм\" with no \"аз\", but in English you need \"I\" and \"am\" every time.",
+        "bg": "За да кажеш кой си, използвай \"I am\" или \"My name is\". В разговор \"I am\" обикновено се съкращава: \"I'm\". В английския подлогът и глаголът са задължителни: не може само \"Am Maria\". На български казваш \"Мария съм\" без \"аз\", но на английски винаги трябват и \"I\", и \"am\"."
+      },
+      "examples": [
+        "Hi, I'm Maria.",
+        "My name is Tom.",
+        "What's your name?",
+        "Nice to meet you."
+      ]
+    },
+    {
+      "id": "a1.hello.note-from",
+      "competence": "a1.hello",
+      "title": {
+        "en": "Where are you from?",
+        "bg": "Откъде си?"
+      },
+      "body": {
+        "en": "To ask about someone's country or city, say \"Where are you from?\". Answer with \"I'm from…\" and the place. Notice that \"from\" comes at the end of the question. Countries and cities always start with a capital letter. To finish a conversation, say \"Goodbye\" or just \"Bye\".",
+        "bg": "За да попиташ някого от коя страна или град е, кажи \"Where are you from?\". Отговаряш с \"I'm from…\" и мястото. Обърни внимание, че \"from\" е в края на въпроса — а не в началото, както в \"Откъде?\". Страните и градовете винаги се пишат с главна буква. В края на разговора казваш \"Goodbye\" или просто \"Bye\"."
+      },
+      "examples": [
+        "Where are you from?",
+        "I'm from Bulgaria.",
+        "I'm from Sofia.",
+        "Goodbye!"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "hello",
+      "pos": "interjection",
+      "ipa": "/həˈloʊ/",
+      "meaning": {
+        "en": "What you say when you meet someone.",
+        "bg": "Здравей, здрасти — казваш го, когато срещнеш някого."
+      },
+      "example": "Hello, I'm Tom.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "hi",
+      "pos": "interjection",
+      "ipa": "/haɪ/",
+      "meaning": {
+        "en": "A short, friendly \"hello\".",
+        "bg": "Здрасти — кратко и приятелско \"hello\"."
+      },
+      "example": "Hi, I'm Maria.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "goodbye",
+      "pos": "interjection",
+      "ipa": "/ɡʊdˈbaɪ/",
+      "meaning": {
+        "en": "What you say when you leave someone.",
+        "bg": "Довиждане — казваш го, когато си тръгваш."
+      },
+      "example": "Goodbye, Tom!",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "bye",
+      "pos": "interjection",
+      "ipa": "/baɪ/",
+      "meaning": {
+        "en": "A short, friendly \"goodbye\".",
+        "bg": "Чао — кратко и приятелско \"goodbye\"."
+      },
+      "example": "Bye, Maria!",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "I",
+      "pos": "pronoun",
+      "ipa": "/aɪ/",
+      "meaning": {
+        "en": "The word for yourself when you speak. Always a capital letter.",
+        "bg": "Аз. Винаги се пише с главна буква."
+      },
+      "example": "I'm Maria.",
+      "forms": [
+        "me",
+        "I'm"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "you",
+      "pos": "pronoun",
+      "ipa": "/ju/",
+      "meaning": {
+        "en": "The person you are speaking to.",
+        "bg": "Ти (или вие)."
+      },
+      "example": "Nice to meet you.",
+      "forms": [
+        "you're"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "be",
+      "pos": "verb",
+      "ipa": "/bi/",
+      "meaning": {
+        "en": "The verb for saying who or what someone is: I am, you are, it is.",
+        "bg": "Съм — глагол, с който казваш кой или какъв е някой: I am (аз съм), you are (ти си), it is (то е)."
+      },
+      "example": "I'm from Bulgaria.",
+      "forms": [
+        "am",
+        "is",
+        "are",
+        "'m",
+        "'s",
+        "'re",
+        "was",
+        "were",
+        "been",
+        "being"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "my",
+      "pos": "determiner",
+      "ipa": "/maɪ/",
+      "meaning": {
+        "en": "Belonging to me.",
+        "bg": "Мой, моя, мое (моето име = my name)."
+      },
+      "example": "My name is Tom.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "your",
+      "pos": "determiner",
+      "ipa": "/jʊr/",
+      "meaning": {
+        "en": "Belonging to the person you are speaking to.",
+        "bg": "Твой, твоя, твое (или ваш)."
+      },
+      "example": "What's your name?",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "name",
+      "pos": "noun",
+      "ipa": "/neɪm/",
+      "meaning": {
+        "en": "What people call you, like Maria or Tom.",
+        "bg": "Име."
+      },
+      "example": "My name is Maria.",
+      "forms": [
+        "names"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "what",
+      "pos": "pronoun",
+      "ipa": "/wʌt/",
+      "meaning": {
+        "en": "A question word for things and information.",
+        "bg": "Какво, какъв — въпросителна дума."
+      },
+      "example": "What's your name?",
+      "forms": [
+        "what's"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "where",
+      "pos": "adverb",
+      "ipa": "/wɛr/",
+      "meaning": {
+        "en": "A question word for places.",
+        "bg": "Къде — въпросителна дума за място."
+      },
+      "example": "Where are you from?",
+      "forms": [
+        "where's"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "from",
+      "pos": "preposition",
+      "ipa": "/frʌm/",
+      "meaning": {
+        "en": "Shows the place where someone was born or lives.",
+        "bg": "От — показва откъде е някой."
+      },
+      "example": "I'm from Sofia.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "nice",
+      "pos": "adjective",
+      "ipa": "/naɪs/",
+      "meaning": {
+        "en": "Good and pleasant.",
+        "bg": "Хубав, приятен."
+      },
+      "example": "Nice to meet you.",
+      "forms": [
+        "nicer",
+        "nicest"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "to",
+      "pos": "preposition",
+      "ipa": "/tu/",
+      "meaning": {
+        "en": "Used before a verb: to meet, to go.",
+        "bg": "Стои пред глагол: to meet (да се запозная)."
+      },
+      "example": "Nice to meet you.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "meet",
+      "pos": "verb",
+      "ipa": "/mit/",
+      "meaning": {
+        "en": "To see and talk to someone for the first time.",
+        "bg": "Запознавам се, срещам."
+      },
+      "example": "Nice to meet you, Tom.",
+      "forms": [
+        "meets",
+        "met",
+        "meeting"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "too",
+      "pos": "adverb",
+      "ipa": "/tu/",
+      "meaning": {
+        "en": "Also.",
+        "bg": "Също, и аз."
+      },
+      "example": "Nice to meet you too.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "today",
+      "pos": "adverb",
+      "ipa": "/təˈdeɪ/",
+      "meaning": {
+        "en": "This day.",
+        "bg": "Днес."
+      },
+      "example": "Today is our first day.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "class",
+      "pos": "noun",
+      "ipa": "/klæs/",
+      "meaning": {
+        "en": "A group of students who learn together.",
+        "bg": "Клас, група — ученици, които учат заедно."
+      },
+      "example": "Hello, class!",
+      "forms": [
+        "classes"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "our",
+      "pos": "determiner",
+      "ipa": "/aʊr/",
+      "meaning": {
+        "en": "Belonging to us.",
+        "bg": "Наш, наша, наше."
+      },
+      "example": "Today is our first day.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "first",
+      "pos": "adjective",
+      "ipa": "/fɝst/",
+      "meaning": {
+        "en": "Number one in order.",
+        "bg": "Първи."
+      },
+      "example": "Today is our first day.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "day",
+      "pos": "noun",
+      "ipa": "/deɪ/",
+      "meaning": {
+        "en": "Twenty-four hours; the time when it is light.",
+        "bg": "Ден."
+      },
+      "example": "Today is our first day.",
+      "forms": [
+        "days"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "teacher",
+      "pos": "noun",
+      "ipa": "/ˈtitʃɚ/",
+      "meaning": {
+        "en": "A person who teaches a class.",
+        "bg": "Учител, учителка."
+      },
+      "example": "I'm your teacher.",
+      "forms": [
+        "teachers"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "student",
+      "pos": "noun",
+      "ipa": "/ˈstudənt/",
+      "meaning": {
+        "en": "A person who learns at a school, college or class.",
+        "bg": "Ученик, студент, курсист."
+      },
+      "example": "I'm a student.",
+      "forms": [
+        "students"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "see",
+      "pos": "verb",
+      "ipa": "/si/",
+      "meaning": {
+        "en": "To use your eyes; \"See you!\" means \"goodbye\".",
+        "bg": "Виждам. \"See you!\" значи \"До скоро!\"."
+      },
+      "example": "Bye! See you tomorrow.",
+      "forms": [
+        "sees",
+        "saw",
+        "seen"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "tomorrow",
+      "pos": "adverb",
+      "ipa": "/təˈmɑroʊ/",
+      "meaning": {
+        "en": "The day after today.",
+        "bg": "Утре."
+      },
+      "example": "See you tomorrow!",
+      "forms": [],
+      "band": "A1"
+    }
+  ],
+  "texts": [
+    {
+      "id": "a1.hello.text-first-day",
+      "competence": "a1.hello",
+      "band": "A1",
+      "title": "The first day",
+      "paragraphs": [
+        "Teacher: Hello, class! Today is our first day. My name is Anna. I'm your teacher.",
+        "Teacher: What's your name?",
+        "Student: Hi! My name is Lucas. I'm from Brazil.",
+        "Teacher: Nice to meet you, Lucas. And you? Where are you from?",
+        "Student: I'm Elena. I'm from Bulgaria. I'm from Plovdiv.",
+        "Teacher: Nice to meet you too, Elena."
+      ]
+    }
+  ],
+  "names": [
+    "Maria",
+    "Tom",
+    "Anna",
+    "Lucas",
+    "Elena",
+    "Brazil",
+    "Bulgaria",
+    "Sofia",
+    "Plovdiv",
+    "Spain"
   ],
   "items": [
     {
@@ -22,21 +451,85 @@
       "band": "A1",
       "skill": "grammar",
       "competence": "a1.hello",
-      "objective": { "en": "Use \"am\" after \"I\".", "bg": "Употреба на \"am\" след \"I\"." },
-      "difficulty": -3.5,
+      "objective": {
+        "en": "Use \"am\" after \"I\".",
+        "bg": "Да използваш \"am\" след \"I\"."
+      },
+      "difficulty": -3.6,
       "sentence": "Hi! I ___ Maria.",
-      "accept": ["am", "'m"],
+      "accept": [
+        "am",
+        "'m"
+      ],
       "explanation": {
-        "en": "With \"I\" we always use \"am\": I am Maria. In speech it is often short: I'm Maria.",
-        "bg": "След \"I\" (аз) винаги използваме \"am\": I am Maria. В разговорна реч често се съкращава: I'm Maria."
+        "en": "With \"I\" we always use \"am\": I am Maria. In speech it is often short: I'm Maria. In Bulgarian you can drop \"аз\", but in English \"I\" and \"am\" are both needed.",
+        "bg": "След \"I\" (аз) винаги използваме \"am\": I am Maria. В разговор често се съкращава: I'm Maria. На български можеш да пропуснеш \"аз\", но на английски трябват и \"I\", и \"am\"."
       },
       "hints": [
-        { "en": "Which form of \"be\" goes with \"I\"?", "bg": "Коя форма на \"be\" (съм) върви с \"I\"?" }
+        {
+          "en": "Which form of \"be\" goes with \"I\"?",
+          "bg": "Коя форма на \"be\" (съм) върви с \"I\"?"
+        }
       ],
-      "words": ["hi", "I", "am"],
-      "structures": ["be.present"],
-      "tags": ["be"],
-      "review": { "author": "claude", "status": "draft" }
+      "words": [
+        "hi",
+        "I",
+        "be"
+      ],
+      "structures": [
+        "be.present"
+      ],
+      "tags": [
+        "be"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.hello.my-name-is",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.hello",
+      "objective": {
+        "en": "Say your name with \"My name is…\".",
+        "bg": "Да кажеш името си с \"My name is…\"."
+      },
+      "difficulty": -3.4,
+      "sentence": "Hello! My name ___ Tom.",
+      "accept": [
+        "is",
+        "'s"
+      ],
+      "explanation": {
+        "en": "The phrase is \"My name is…\". \"Name\" is one thing, so we use \"is\" (not \"am\" or \"are\"). It can be short: \"My name's Tom\".",
+        "bg": "Изразът е \"My name is…\". \"Name\" е едно нещо, затова използваме \"is\" (не \"am\" или \"are\"). Може и съкратено: \"My name's Tom\"."
+      },
+      "hints": [
+        {
+          "en": "\"Am\" goes only with \"I\". What goes with \"my name\"?",
+          "bg": "\"Am\" върви само с \"I\". Какво върви с \"my name\"?"
+        }
+      ],
+      "words": [
+        "hello",
+        "my",
+        "name",
+        "be"
+      ],
+      "structures": [
+        "be.present"
+      ],
+      "tags": [
+        "be",
+        "names"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
     },
     {
       "id": "a1.hello.whats-your-name",
@@ -44,22 +537,45 @@
       "band": "A1",
       "skill": "grammar",
       "competence": "a1.hello",
-      "objective": { "en": "Ask someone's name.", "bg": "Да попиташ някого как се казва." },
-      "difficulty": -3,
+      "objective": {
+        "en": "Ask someone's name.",
+        "bg": "Да попиташ някого как се казва."
+      },
+      "difficulty": -3.2,
       "prompt": "You want to know someone's name. What do you say?",
-      "options": ["What's your name?", "What your name?", "Who is name?", "How your name is?"],
-      "correct": 0,
+      "options": [
+        "What your name?",
+        "What's your name?",
+        "Who is name?",
+        "How your name is?"
+      ],
+      "correct": 1,
       "explanation": {
         "en": "The question is \"What is your name?\", usually shortened to \"What's your name?\". English questions need the verb \"is\".",
-        "bg": "Въпросът е \"What is your name?\" и обикновено се съкращава на \"What's your name?\". Във въпросите на английски глаголът \"is\" е задължителен."
+        "bg": "Въпросът е \"What is your name?\" и обикновено се съкращава на \"What's your name?\". Във въпроса на английски глаголът \"is\" е задължителен — не може без него."
       },
       "hints": [
-        { "en": "The question needs the verb \"is\".", "bg": "Във въпроса трябва да има глагол \"is\"." }
+        {
+          "en": "The question needs the verb \"is\".",
+          "bg": "Във въпроса трябва да има глагол \"is\"."
+        }
       ],
-      "words": ["what", "your", "name"],
-      "structures": ["be.present", "questions.wh"],
-      "tags": ["questions"],
-      "review": { "author": "claude", "status": "draft" }
+      "words": [
+        "what",
+        "your",
+        "name"
+      ],
+      "structures": [
+        "be.present",
+        "questions.wh"
+      ],
+      "tags": [
+        "questions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
     },
     {
       "id": "a1.hello.nice-to-meet-you",
@@ -67,21 +583,405 @@
       "band": "A1",
       "skill": "vocabulary",
       "competence": "a1.hello",
-      "objective": { "en": "Say \"nice to meet you\".", "bg": "Да кажеш \"приятно ми е\"." },
-      "difficulty": -2.5,
-      "tiles": ["Nice", "to", "meet", "you"],
-      "accept": ["Nice to meet you"],
+      "objective": {
+        "en": "Say \"nice to meet you\".",
+        "bg": "Да кажеш \"приятно ми е\"."
+      },
+      "difficulty": -2.8,
+      "tiles": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+      ],
+      "accept": [
+        "Nice to meet you"
+      ],
       "explanation": {
-        "en": "\"Nice to meet you\" is what we say when we meet someone for the first time.",
+        "en": "\"Nice to meet you\" is what we say when we meet someone for the first time, like \"Приятно ми е\".",
         "bg": "\"Nice to meet you\" казваме, когато се запознаваме с някого за първи път — като \"Приятно ми е\"."
       },
       "hints": [
-        { "en": "Start with \"Nice\".", "bg": "Започни с \"Nice\"." }
+        {
+          "en": "Start with \"Nice\".",
+          "bg": "Започни с \"Nice\"."
+        }
       ],
-      "words": ["nice", "meet", "you"],
+      "words": [
+        "nice",
+        "to",
+        "meet",
+        "you"
+      ],
       "structures": [],
-      "tags": ["phrases"],
-      "review": { "author": "claude", "status": "draft" }
+      "tags": [
+        "phrases"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.hello.reply-nice-to-meet-you",
+      "type": "choice",
+      "band": "A1",
+      "skill": "speaking",
+      "competence": "a1.hello",
+      "objective": {
+        "en": "Reply to \"Nice to meet you\".",
+        "bg": "Да отговориш на \"Nice to meet you\"."
+      },
+      "difficulty": -2.6,
+      "prompt": "Someone says: \"Nice to meet you.\" What do you answer?",
+      "options": [
+        "Yes, I am.",
+        "I'm fine, thanks.",
+        "Goodbye, nice.",
+        "Nice to meet you too."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "We answer \"Nice to meet you\" with \"Nice to meet you too\" — \"too\" means \"also\", like \"И на мен\". \"I'm fine\" answers \"How are you?\", not this.",
+        "bg": "На \"Nice to meet you\" отговаряме с \"Nice to meet you too\" — \"too\" значи \"също\", като \"И на мен\". \"I'm fine\" е отговор на \"How are you?\", а не на това."
+      },
+      "hints": [
+        {
+          "en": "Repeat what the person said and add one small word.",
+          "bg": "Повтори какво каза човекът и добави една малка дума."
+        }
+      ],
+      "words": [
+        "nice",
+        "meet",
+        "you",
+        "too"
+      ],
+      "structures": [],
+      "tags": [
+        "phrases",
+        "responses"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.hello.where-from-build",
+      "type": "build",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.hello",
+      "objective": {
+        "en": "Ask where someone is from.",
+        "bg": "Да попиташ някого откъде е."
+      },
+      "difficulty": -2.2,
+      "tiles": [
+        "Where",
+        "are",
+        "you",
+        "from"
+      ],
+      "accept": [
+        "Where are you from?"
+      ],
+      "explanation": {
+        "en": "The question is \"Where are you from?\". \"Where\" goes first, then \"are you\", and \"from\" goes at the end. In Bulgarian \"от\" comes first (\"Откъде си?\"), but in English \"from\" stays at the end.",
+        "bg": "Въпросът е \"Where are you from?\". Първо е \"Where\", после \"are you\", а \"from\" отива в края. На български \"от\" е в началото (\"Откъде си?\"), но на английски \"from\" остава накрая."
+      },
+      "hints": [
+        {
+          "en": "Start with the question word.",
+          "bg": "Започни с въпросителната дума."
+        },
+        {
+          "en": "\"From\" is the last word.",
+          "bg": "\"From\" е последната дума."
+        }
+      ],
+      "words": [
+        "where",
+        "be",
+        "you",
+        "from"
+      ],
+      "structures": [
+        "be.present",
+        "questions.wh"
+      ],
+      "tags": [
+        "questions",
+        "countries"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.hello.im-from",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "vocabulary",
+      "competence": "a1.hello",
+      "objective": {
+        "en": "Say where you are from.",
+        "bg": "Да кажеш откъде си."
+      },
+      "difficulty": -3.0,
+      "sentence": "A: Where are you from? B: I'm ___ Bulgaria.",
+      "accept": [
+        "from"
+      ],
+      "explanation": {
+        "en": "We say \"I'm from\" + a country or city: I'm from Bulgaria. Not \"I'm of\" or \"I'm in\" — \"in\" means where you are now, not where you are from.",
+        "bg": "Казваме \"I'm from\" + страна или град: I'm from Bulgaria. Не \"I'm of\", нито \"I'm in\" — \"in\" значи къде си в момента, а не откъде си."
+      },
+      "hints": [
+        {
+          "en": "Which small word means \"от\" here?",
+          "bg": "Коя малка дума тук значи \"от\"?"
+        }
+      ],
+      "words": [
+        "be",
+        "from"
+      ],
+      "structures": [
+        "be.present"
+      ],
+      "tags": [
+        "countries"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.hello.goodbye",
+      "type": "choice",
+      "band": "A1",
+      "skill": "vocabulary",
+      "competence": "a1.hello",
+      "objective": {
+        "en": "Say goodbye at the end of a conversation.",
+        "bg": "Да се сбогуваш в края на разговор."
+      },
+      "difficulty": -3.8,
+      "prompt": "You are leaving. What do you say?",
+      "options": [
+        "Hello!",
+        "Bye!",
+        "Hi!",
+        "How are you?"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "\"Bye\" is a short, friendly \"goodbye\". \"Hello\" and \"Hi\" are for when you meet someone, and \"How are you?\" starts a conversation.",
+        "bg": "\"Bye\" е кратко, приятелско \"goodbye\" (чао). \"Hello\" и \"Hi\" са за среща, а с \"How are you?\" (Как си?) започва разговор."
+      },
+      "hints": [
+        {
+          "en": "You are leaving, not arriving.",
+          "bg": "Тръгваш си, а не идваш."
+        }
+      ],
+      "words": [
+        "bye",
+        "hello",
+        "hi"
+      ],
+      "structures": [],
+      "tags": [
+        "greetings"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.hello.im-not-am",
+      "type": "choice",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.hello",
+      "objective": {
+        "en": "Use the subject \"I\" with \"am\".",
+        "bg": "Да използваш подлога \"I\" заедно с \"am\"."
+      },
+      "difficulty": -2.4,
+      "prompt": "You meet a new friend. Which sentence is correct?",
+      "options": [
+        "Am from Spain.",
+        "I from Spain.",
+        "I'm from Spain.",
+        "I is from Spain."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "English needs a subject: \"I'm from Spain\" (= I am from Spain). In Bulgarian \"От Испания съм\" has no \"аз\", but \"Am from Spain\" is wrong in English. \"I from Spain\" has no verb, and \"I is\" is the wrong form.",
+        "bg": "В английския подлогът е задължителен: \"I'm from Spain\" (= I am from Spain). На български \"От Испания съм\" е без \"аз\", но \"Am from Spain\" е грешно на английски. \"I from Spain\" няма глагол, а \"I is\" е грешна форма."
+      },
+      "hints": [
+        {
+          "en": "You need two things: a subject and the verb \"be\".",
+          "bg": "Трябват ти две неща: подлог и глаголът \"be\"."
+        },
+        {
+          "en": "Which form of \"be\" goes with \"I\"?",
+          "bg": "Коя форма на \"be\" върви с \"I\"?"
+        }
+      ],
+      "words": [
+        "I",
+        "be",
+        "from"
+      ],
+      "structures": [
+        "be.present",
+        "subject.required"
+      ],
+      "tags": [
+        "be",
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.hello.text-teacher-name",
+      "type": "choice",
+      "band": "A1",
+      "skill": "reading",
+      "competence": "a1.hello",
+      "objective": {
+        "en": "Find a name in a short dialogue.",
+        "bg": "Да намериш име в кратък диалог."
+      },
+      "difficulty": -3.0,
+      "prompt": "What is the teacher's name?",
+      "options": [
+        "Elena",
+        "Lucas",
+        "Anna",
+        "Plovdiv"
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The teacher says: \"My name is Anna. I'm your teacher.\" Lucas and Elena are students.",
+        "bg": "Учителката казва: \"My name is Anna. I'm your teacher.\" Lucas и Elena са ученици."
+      },
+      "hints": [
+        {
+          "en": "Read the first line again.",
+          "bg": "Прочети пак първия ред."
+        }
+      ],
+      "words": [
+        "teacher",
+        "name"
+      ],
+      "structures": [],
+      "tags": [
+        "reading",
+        "names"
+      ],
+      "textId": "a1.hello.text-first-day",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.hello.text-lucas-from",
+      "type": "choice",
+      "band": "A1",
+      "skill": "reading",
+      "competence": "a1.hello",
+      "objective": {
+        "en": "Find where someone is from in a dialogue.",
+        "bg": "Да откриеш в диалог откъде е някой."
+      },
+      "difficulty": -2.8,
+      "prompt": "Where is Lucas from?",
+      "options": [
+        "Bulgaria",
+        "Brazil",
+        "Plovdiv",
+        "Spain"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Lucas says: \"I'm from Brazil.\" Elena is from Bulgaria.",
+        "bg": "Lucas казва: \"I'm from Brazil.\" Elena е от България."
+      },
+      "hints": [
+        {
+          "en": "Find the line where Lucas speaks.",
+          "bg": "Намери реда, в който говори Lucas."
+        }
+      ],
+      "words": [
+        "where",
+        "from"
+      ],
+      "structures": [
+        "questions.wh"
+      ],
+      "tags": [
+        "reading",
+        "countries"
+      ],
+      "textId": "a1.hello.text-first-day",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a1.hello.text-elena-city",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "reading",
+      "competence": "a1.hello",
+      "objective": {
+        "en": "Find details in a dialogue.",
+        "bg": "Да откриеш подробности в диалог."
+      },
+      "difficulty": -2.5,
+      "sentence": "Elena is from Bulgaria. She is from the city of ___.",
+      "accept": [
+        "Plovdiv"
+      ],
+      "explanation": {
+        "en": "Elena says: \"I'm from Bulgaria. I'm from Plovdiv.\" Plovdiv is the city.",
+        "bg": "Elena казва: \"I'm from Bulgaria. I'm from Plovdiv.\" Пловдив е градът."
+      },
+      "hints": [
+        {
+          "en": "Read what Elena says. She names a country and a city.",
+          "bg": "Прочети какво казва Elena. Тя назовава страна и град."
+        }
+      ],
+      "words": [
+        "from"
+      ],
+      "structures": [],
+      "tags": [
+        "reading",
+        "countries"
+      ],
+      "textId": "a1.hello.text-first-day",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
     }
   ]
 }
