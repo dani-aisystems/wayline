@@ -1,0 +1,160 @@
+.welcome {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--gutter) var(--s-8);
+}
+
+.welcome-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 72px;
+}
+
+.theme-picker select {
+  min-height: var(--tap);
+  padding: 0 var(--s-4);
+  border: var(--border);
+  border-radius: var(--r-pill);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: var(--fs-sm);
+}
+
+.welcome-main {
+  display: grid;
+  gap: var(--s-6);
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "intro" "choice" "art";
+  padding-top: var(--s-5);
+}
+.welcome-main > * { min-width: 0; }
+
+.welcome-intro { grid-area: intro; }
+.welcome-art { grid-area: art; }
+.welcome-choice { grid-area: choice; }
+
+@media (min-width: 900px) {
+  .welcome-main {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    grid-template-areas: "intro art" "choice art";
+    column-gap: var(--s-8);
+    row-gap: var(--s-7);
+    padding-top: var(--s-8);
+    align-items: start;
+  }
+  .welcome-art { position: sticky; top: var(--s-6); }
+}
+
+.welcome-title {
+  font-size: clamp(var(--fs-2xl), 7vw, var(--fs-3xl));
+  letter-spacing: -0.02em;
+  max-width: 14ch;
+}
+
+.welcome-lead {
+  margin-top: var(--s-4);
+  font-family: var(--font-read);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-read);
+  color: var(--text-soft);
+  max-width: 44ch;
+}
+
+/* Chart illustration */
+.chart-hero { width: 100%; height: auto; display: block; }
+@media (max-width: 899px) {
+  /* On phones the question is the main job: keep the chart a short strip so it stays above the fold. */
+  .chart-hero { max-height: 200px; }
+  .welcome-lead { font-size: var(--fs-md); }
+}
+@media (min-width: 900px) {
+  .welcome-art { margin-top: var(--s-6); margin-right: calc(-1 * var(--s-6)); }
+}
+.chart-contours path { stroke: var(--line); stroke-width: 1.5; }
+.chart-soundings text { fill: var(--text-soft); font-family: var(--font-read); font-style: italic; }
+.chart-route {
+  stroke: var(--accent);
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw-route var(--t-draw) var(--ease) 250ms forwards;
+}
+.chart-start { fill: var(--accent); }
+.chart-here {
+  fill: var(--surface);
+  stroke: var(--accent);
+  stroke-width: 3;
+  opacity: 0;
+  animation: appear var(--t-med) var(--ease) calc(var(--t-draw) + 250ms) forwards;
+}
+@keyframes draw-route { to { stroke-dashoffset: 0; } }
+@keyframes appear { to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .chart-route { stroke-dashoffset: 0; animation: none; }
+  .chart-here { opacity: 1; animation: none; }
+}
+
+/* Language choice */
+.lang-set { border: 0; margin: 0; padding: 0; min-width: 0; }
+.lang-question { font-size: var(--fs-lg); font-weight: 600; padding: 0; }
+.lang-hint { margin-top: var(--s-2); color: var(--text-soft); font-size: var(--fs-sm); max-width: 52ch; }
+
+.lang-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--s-3);
+  margin-top: var(--s-4);
+  max-width: 520px;
+}
+
+.lang-option {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 64px;
+  padding: var(--s-3) var(--s-4) var(--s-3) calc(var(--s-4) + 28px);
+  border: var(--border);
+  border-radius: var(--r-md);
+  background: var(--surface-raised);
+  cursor: pointer;
+  transition: border-color var(--t-fast) var(--ease);
+}
+.lang-option:hover { border-color: var(--text-soft); }
+.lang-option[data-checked="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.lang-option input {
+  position: absolute;
+  left: var(--s-4);
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  margin: -9px 0 0;
+  accent-color: var(--accent);
+}
+.lang-option:has(input:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
+.lang-native { font-weight: 600; }
+.lang-english { font-size: var(--fs-xs); color: var(--text-soft); }
+
+.welcome-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-4);
+  margin-top: var(--s-5);
+}
+.welcome-status { color: var(--text-soft); font-size: var(--fs-sm); }
+
+.welcome-fineprint {
+  margin-top: var(--s-6);
+  padding-top: var(--s-4);
+  border-top: var(--border);
+  color: var(--text-soft);
+  font-size: var(--fs-xs);
+  max-width: 60ch;
+}
+
+.notice { padding: var(--s-4); border-radius: var(--r-md); }
+.notice-bad { background: var(--bad-tint); color: var(--bad); }

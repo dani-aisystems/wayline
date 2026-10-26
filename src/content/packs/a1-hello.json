@@ -1,0 +1,87 @@
+{
+  "id": "a1-hello",
+  "version": 1,
+  "band": "A1",
+  "competences": [
+    {
+      "id": "a1.hello",
+      "band": "A1",
+      "title": { "en": "Hello & names", "bg": "Поздрави и имена" },
+      "canDo": {
+        "en": "I can greet someone, say my name and ask theirs.",
+        "bg": "Мога да поздравя някого, да кажа името си и да попитам за неговото."
+      },
+      "skills": ["vocabulary", "grammar", "speaking"],
+      "prerequisites": []
+    }
+  ],
+  "items": [
+    {
+      "id": "a1.hello.be-am",
+      "type": "cloze",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.hello",
+      "objective": { "en": "Use \"am\" after \"I\".", "bg": "Употреба на \"am\" след \"I\"." },
+      "difficulty": -3.5,
+      "sentence": "Hi! I ___ Maria.",
+      "accept": ["am", "'m"],
+      "explanation": {
+        "en": "With \"I\" we always use \"am\": I am Maria. In speech it is often short: I'm Maria.",
+        "bg": "След \"I\" (аз) винаги използваме \"am\": I am Maria. В разговорна реч често се съкращава: I'm Maria."
+      },
+      "hints": [
+        { "en": "Which form of \"be\" goes with \"I\"?", "bg": "Коя форма на \"be\" (съм) върви с \"I\"?" }
+      ],
+      "words": ["hi", "I", "am"],
+      "structures": ["be.present"],
+      "tags": ["be"],
+      "review": { "author": "claude", "status": "draft" }
+    },
+    {
+      "id": "a1.hello.whats-your-name",
+      "type": "choice",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.hello",
+      "objective": { "en": "Ask someone's name.", "bg": "Да попиташ някого как се казва." },
+      "difficulty": -3,
+      "prompt": "You want to know someone's name. What do you say?",
+      "options": ["What's your name?", "What your name?", "Who is name?", "How your name is?"],
+      "correct": 0,
+      "explanation": {
+        "en": "The question is \"What is your name?\", usually shortened to \"What's your name?\". English questions need the verb \"is\".",
+        "bg": "Въпросът е \"What is your name?\" и обикновено се съкращава на \"What's your name?\". Във въпросите на английски глаголът \"is\" е задължителен."
+      },
+      "hints": [
+        { "en": "The question needs the verb \"is\".", "bg": "Във въпроса трябва да има глагол \"is\"." }
+      ],
+      "words": ["what", "your", "name"],
+      "structures": ["be.present", "questions.wh"],
+      "tags": ["questions"],
+      "review": { "author": "claude", "status": "draft" }
+    },
+    {
+      "id": "a1.hello.nice-to-meet-you",
+      "type": "build",
+      "band": "A1",
+      "skill": "vocabulary",
+      "competence": "a1.hello",
+      "objective": { "en": "Say \"nice to meet you\".", "bg": "Да кажеш \"приятно ми е\"." },
+      "difficulty": -2.5,
+      "tiles": ["Nice", "to", "meet", "you"],
+      "accept": ["Nice to meet you"],
+      "explanation": {
+        "en": "\"Nice to meet you\" is what we say when we meet someone for the first time.",
+        "bg": "\"Nice to meet you\" казваме, когато се запознаваме с някого за първи път — като \"Приятно ми е\"."
+      },
+      "hints": [
+        { "en": "Start with \"Nice\".", "bg": "Започни с \"Nice\"." }
+      ],
+      "words": ["nice", "meet", "you"],
+      "structures": [],
+      "tags": ["phrases"],
+      "review": { "author": "claude", "status": "draft" }
+    }
+  ]
+}

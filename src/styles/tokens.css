@@ -1,0 +1,140 @@
+/*
+ * Wayline design tokens.
+ * Direction: a nautical chart. Cool chart paper, navy ink, depth-tint blues,
+ * and chart magenta reserved for one meaning only: the learner's own route.
+ * Every text/background pair used below is checked by scripts/check-contrast.ts.
+ */
+
+:root {
+  /* Base palette (light) */
+  --c-paper: #f3f6f5;        /* chart paper */
+  --c-paper-raised: #ffffff;  /* sheets, overlays */
+  --c-shallow: #dce9ee;      /* depth tint: subtle fills */
+  --c-ink: #13233a;          /* primary text */
+  --c-ink-soft: #46566b;     /* secondary text */
+  --c-contour: #c3cfd4;      /* rules, borders, map contours */
+  --c-route: #a3125f;        /* chart magenta: the learner's line, primary actions */
+  --c-route-ink: #ffffff;    /* text on route */
+  --c-mastered: #1b6b57;     /* mastered regions, correct answers */
+  --c-mastered-tint: #d7ece4;
+  --c-due: #8a5a00;          /* review due */
+  --c-due-tint: #f6ead0;
+  --c-error: #b42318;        /* wrong answers; never the route colour */
+  --c-error-tint: #fbe3e0;
+  --c-focus: #1f5fbf;
+
+  /* Semantic roles */
+  --surface: var(--c-paper);
+  --surface-raised: var(--c-paper-raised);
+  --surface-sunk: var(--c-shallow);
+  --text: var(--c-ink);
+  --text-soft: var(--c-ink-soft);
+  --line: var(--c-contour);
+  --accent: var(--c-route);
+  --accent-ink: var(--c-route-ink);
+  --good: var(--c-mastered);
+  --good-tint: var(--c-mastered-tint);
+  --warn: var(--c-due);
+  --warn-tint: var(--c-due-tint);
+  --bad: var(--c-error);
+  --bad-tint: var(--c-error-tint);
+  --focus: var(--c-focus);
+
+  /* Type */
+  --font-ui: "Golos Text Variable", system-ui, sans-serif;
+  --font-read: "Literata Variable", Georgia, serif;
+  --fs-xs: 0.8125rem;   /* 13 */
+  --fs-sm: 0.9375rem;   /* 15 */
+  --fs-md: 1.0625rem;   /* 17 — UI base */
+  --fs-lg: 1.3125rem;   /* 21 */
+  --fs-xl: 1.75rem;     /* 28 */
+  --fs-2xl: 2.375rem;   /* 38 */
+  --fs-3xl: 3.25rem;    /* 52 */
+  --fs-read: 1.125rem;  /* 18 — reader body */
+  --lh-ui: 1.45;
+  --lh-read: 1.65;
+  --measure: 66ch;
+
+  /* Space (4/8 scale) */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+  --s-9: 96px;
+
+  /* Shape */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-pill: 999px;
+  --border: 1px solid var(--line);
+
+  /* Motion */
+  --t-fast: 120ms;
+  --t-med: 200ms;
+  --t-draw: 900ms;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  /* Layout */
+  --gutter: 16px;
+  --content-max: 1120px;
+  --tap: 44px;
+
+  color-scheme: light;
+}
+
+@media (min-width: 768px) {
+  :root { --gutter: 32px; }
+}
+
+/* Dark: the chart at night */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --c-paper: #0e1828;
+    --c-paper-raised: #16233a;
+    --c-shallow: #1c2c45;
+    --c-ink: #e7eef3;
+    --c-ink-soft: #a8b6c6;
+    --c-contour: #2e4060;
+    --c-route: #f26aae;
+    --c-route-ink: #1a0a12;
+    --c-mastered: #4cc7a5;
+    --c-mastered-tint: #133a33;
+    --c-due: #e9b44c;
+    --c-due-tint: #3a2e14;
+    --c-error: #ff8a7a;
+    --c-error-tint: #3d1c1a;
+    --c-focus: #7fb0ff;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --c-paper: #0e1828;
+  --c-paper-raised: #16233a;
+  --c-shallow: #1c2c45;
+  --c-ink: #e7eef3;
+  --c-ink-soft: #a8b6c6;
+  --c-contour: #2e4060;
+  --c-route: #f26aae;
+  --c-route-ink: #1a0a12;
+  --c-mastered: #4cc7a5;
+  --c-mastered-tint: #133a33;
+  --c-due: #e9b44c;
+  --c-due-tint: #3a2e14;
+  --c-error: #ff8a7a;
+  --c-error-tint: #3d1c1a;
+  --c-focus: #7fb0ff;
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --t-fast: 0ms;
+    --t-med: 0ms;
+    --t-draw: 0ms;
+  }
+}
