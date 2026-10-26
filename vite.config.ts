@@ -12,7 +12,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "prompt",
-      includeAssets: ["favicon.svg", "brand/apple-touch-icon.png", "brand/favicon-32.png"],
+      includeAssets: ["favicon.ico", "brand/apple-touch-icon.png", "brand/favicon-32.png"],
       manifest: {
         name: "Wayline",
         short_name: "Wayline",
@@ -21,8 +21,8 @@ export default defineConfig({
         start_url: "/",
         scope: "/",
         display: "standalone",
-        background_color: "#f3f6f5",
-        theme_color: "#13233a",
+        background_color: "#0a0f1a",
+        theme_color: "#0a0f1a",
         icons: [
           { src: "/brand/icon-192.png", sizes: "192x192", type: "image/png" },
           { src: "/brand/icon-512.png", sizes: "512x512", type: "image/png" },
@@ -30,9 +30,10 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ["**/*.{js,css,html,svg,png,woff2,json}"],
+        globPatterns: ["**/*.{js,css,html,svg,png,ico,woff2,json}"],
+        // Large master logo files are for marketing, not the app shell.
         // Precache only the font subsets English and Bulgarian learners need.
-        globIgnores: ["**/*-greek-*.woff2", "**/*-vietnamese-*.woff2", "**/*-cyrillic-ext-*.woff2", "**/*-greek-ext-*.woff2"],
+        globIgnores: ["**/brand/logo-*.png", "**/brand/mark.png", "**/brand/mark-mono.png", "**/*-greek-*.woff2", "**/*-vietnamese-*.woff2", "**/*-cyrillic-ext-*.woff2", "**/*-greek-ext-*.woff2"],
         navigateFallback: "/index.html",
         cleanupOutdatedCaches: true,
       },

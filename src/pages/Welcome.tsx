@@ -23,7 +23,7 @@ export function Welcome() {
     <div className="welcome">
       <a className="skip-link" href="#main">{t("app.skip")}</a>
       <header className="welcome-bar">
-        <Wordmark size={24} />
+        <Wordmark height={30} />
         <ThemePicker value={profile?.theme ?? "system"} onChange={(theme) => update({ theme })} />
       </header>
 

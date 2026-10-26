@@ -69,5 +69,12 @@ a { color: var(--accent); text-underline-offset: 0.18em; }
 .btn-quiet:hover { border-color: var(--text-soft); }
 
 /* Wordmark */
-.wordmark { display: inline-flex; align-items: center; gap: 0.3em; color: var(--text); text-decoration: none; }
-.wordmark-text { font-weight: 600; letter-spacing: -0.01em; line-height: 1; }
+.wordmark { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
+.wordmark img { display: block; height: auto; }
+.wordmark-word-white { display: none !important; }
+:root[data-theme="dark"] .wordmark-word-ink { display: none !important; }
+:root[data-theme="dark"] .wordmark-word-white { display: block !important; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .wordmark-word-ink { display: none !important; }
+  :root:not([data-theme="light"]) .wordmark-word-white { display: block !important; }
+}

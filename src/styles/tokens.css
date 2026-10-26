@@ -1,7 +1,7 @@
 /*
  * Wayline design tokens.
- * Direction: a nautical chart. Cool chart paper, navy ink, depth-tint blues,
- * and chart magenta reserved for one meaning only: the learner's own route.
+ * Direction: a nautical chart drawn in the Wayline logo's blues. Cool chart paper, navy ink,
+ * and the logo blue reserved for one meaning only: the learner's own route.
  * Every text/background pair used below is checked by scripts/check-contrast.ts.
  */
 
@@ -13,7 +13,7 @@
   --c-ink: #13233a;          /* primary text */
   --c-ink-soft: #46566b;     /* secondary text */
   --c-contour: #c3cfd4;      /* rules, borders, map contours */
-  --c-route: #a3125f;        /* chart magenta: the learner's line, primary actions */
+  --c-route: #0a5fd1;        /* logo blue: the learner's line, primary actions */
   --c-route-ink: #ffffff;    /* text on route */
   --c-mastered: #1b6b57;     /* mastered regions, correct answers */
   --c-mastered-tint: #d7ece4;
@@ -21,7 +21,7 @@
   --c-due-tint: #f6ead0;
   --c-error: #b42318;        /* wrong answers; never the route colour */
   --c-error-tint: #fbe3e0;
-  --c-focus: #1f5fbf;
+  --c-focus: #13233a;
 
   /* Semantic roles */
   --surface: var(--c-paper);
@@ -93,41 +93,41 @@
 /* Dark: the chart at night */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --c-paper: #0e1828;
-    --c-paper-raised: #16233a;
-    --c-shallow: #1c2c45;
+    --c-paper: #0a0f1a;
+    --c-paper-raised: #121a2b;
+    --c-shallow: #18233a;
     --c-ink: #e7eef3;
     --c-ink-soft: #a8b6c6;
-    --c-contour: #2e4060;
-    --c-route: #f26aae;
-    --c-route-ink: #1a0a12;
+    --c-contour: #2a3852;
+    --c-route: #4fd3fa;
+    --c-route-ink: #06121f;
     --c-mastered: #4cc7a5;
     --c-mastered-tint: #133a33;
     --c-due: #e9b44c;
     --c-due-tint: #3a2e14;
     --c-error: #ff8a7a;
     --c-error-tint: #3d1c1a;
-    --c-focus: #7fb0ff;
+    --c-focus: #e7eef3;
     color-scheme: dark;
   }
 }
 
 :root[data-theme="dark"] {
-  --c-paper: #0e1828;
-  --c-paper-raised: #16233a;
-  --c-shallow: #1c2c45;
+  --c-paper: #0a0f1a;
+  --c-paper-raised: #121a2b;
+  --c-shallow: #18233a;
   --c-ink: #e7eef3;
   --c-ink-soft: #a8b6c6;
-  --c-contour: #2e4060;
-  --c-route: #f26aae;
-  --c-route-ink: #1a0a12;
+  --c-contour: #2a3852;
+  --c-route: #4fd3fa;
+  --c-route-ink: #06121f;
   --c-mastered: #4cc7a5;
   --c-mastered-tint: #133a33;
   --c-due: #e9b44c;
   --c-due-tint: #3a2e14;
   --c-error: #ff8a7a;
   --c-error-tint: #3d1c1a;
-  --c-focus: #7fb0ff;
+  --c-focus: #e7eef3;
   color-scheme: dark;
 }
 
