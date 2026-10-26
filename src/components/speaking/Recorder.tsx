@@ -25,7 +25,8 @@ export function Recorder({ onTake, onSkip, compact = false }: { onTake: (t: Take
   const [devices, setDevices] = useState<{ id: string; label: string }[]>([]);
   const [level, setLevel] = useState(0);
   const [support, setSupport] = useState<RecognitionSupport | null>(null);
-  const [wantCheck, setWantCheck] = useState(true);
+  // Off by default: the learner opts in, and only then do we probe the browser's recogniser.
+  const [wantCheck, setWantCheck] = useState(false);
   const stream = useRef<MediaStream | null>(null);
   const stopMeter = useRef<() => void>(() => {});
   const stopRec = useRef<() => void>(() => {});
@@ -34,7 +35,10 @@ export function Recorder({ onTake, onSkip, compact = false }: { onTake: (t: Take
   const ids = { device: useId(), consent: useId() };
 
   useEffect(() => {
-    void recognitionSupport().then(setSupport);
+    if (wantCheck && support === null) void recognitionSupport().then(setSupport);
+  }, [wantCheck, support]);
+
+  useEffect(() => {
     return () => {
       stopMeter.current();
       stopRec.current();
@@ -166,7 +170,6 @@ export function Recorder({ onTake, onSkip, compact = false }: { onTake: (t: Take
 
 function RecognitionChoice({ support, want, setWant, consentId, onInstalled }: { support: RecognitionSupport | null; want: boolean; setWant: (v: boolean) => void; consentId: string; onInstalled: () => void }) {
   const { t, profile, update } = useProfile();
-  if (support === null) return null;
   if (support === "none") return <p className="rec-note">{t("rec.none")}</p>;
   return (
     <div className="rec-recog">

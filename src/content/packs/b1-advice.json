@@ -1,0 +1,1241 @@
+{
+  "id": "b1-advice",
+  "version": 1,
+  "band": "B1",
+  "competences": [
+    {
+      "id": "b1.advice",
+      "band": "B1",
+      "title": {
+        "en": "Problems & advice",
+        "bg": "Проблеми и съвети"
+      },
+      "canDo": {
+        "en": "I can describe a problem, make a polite complaint, and give advice with should, ought to and \"If I were you…\".",
+        "bg": "Мога да опиша проблем, да направя учтиво оплакване и да дам съвет със should, ought to и \"If I were you…\"."
+      },
+      "skills": [
+        "grammar",
+        "speaking",
+        "writing",
+        "reading"
+      ],
+      "prerequisites": [
+        "a2.plans"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "b1.advice.note-should",
+      "competence": "b1.advice",
+      "title": {
+        "en": "Giving advice: should, ought to, If I were you",
+        "bg": "Съвети: should, ought to, If I were you"
+      },
+      "body": {
+        "en": "\"Should\" + base verb is the most common way to give advice: You should see a doctor. \"Ought to\" means the same but is a little more formal: You ought to see a doctor. The negative is \"shouldn't\". \"If I were you, I'd…\" is softer and more personal. Use \"were\" for all persons here (If I were you, not normally \"If I was you\" in careful English). Never put \"to\" after \"should\": \"You should to go\" is wrong.",
+        "bg": "\"Should\" + основна форма е най-честият начин да дадеш съвет: You should see a doctor (Трябва да отидеш на лекар). \"Ought to\" значи същото, но е малко по-официално: You ought to see a doctor. Отрицанието е \"shouldn't\". \"If I were you, I'd…\" (На твое място бих…) е по-меко и по-лично. Тук се използва \"were\" за всички лица (If I were you, а в грижлив английски не \"If I was you\"). След \"should\" никога не слагай \"to\": \"You should to go\" е грешно."
+      },
+      "examples": [
+        "You should see a doctor.",
+        "You shouldn't drink coffee so late.",
+        "You ought to talk to your manager.",
+        "If I were you, I'd look for a new job."
+      ]
+    },
+    {
+      "id": "b1.advice.note-complaints",
+      "competence": "b1.advice",
+      "title": {
+        "en": "Complaining politely",
+        "bg": "Учтиво оплакване"
+      },
+      "body": {
+        "en": "In English a direct complaint can sound aggressive, so people usually soften it. Start with \"I'm afraid…\" or \"I'm sorry to bother you, but…\", describe the problem, and ask with \"Could you…?\" or \"Would you mind + -ing…?\". In Bulgarian a direct \"Музиката ви е много силна\" is often fine, but in English \"Your music is too loud\" alone can start a conflict.",
+        "bg": "На английски прякото оплакване може да прозвучи агресивно, затова обикновено се смекчава. Започни с \"I'm afraid…\" или \"I'm sorry to bother you, but…\", опиши проблема и помоли с \"Could you…?\" или \"Would you mind + -ing…?\". На български прякото \"Музиката ви е много силна\" често е нормално, но на английски само \"Your music is too loud\" може да предизвика конфликт."
+      },
+      "examples": [
+        "I'm sorry to bother you, but the music is very loud.",
+        "I'm afraid there's a problem with my order.",
+        "Could you turn it down a bit, please?",
+        "Would you mind closing the window?"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "afraid",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Frightened. \"I'm afraid…\" also softens bad news.",
+        "bg": "Уплашен. \"I'm afraid…\" смекчава лоша новина: \"За съжаление…\"."
+      },
+      "example": "I'm afraid there's a problem with my order.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "almost",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Nearly, but not completely.",
+        "bg": "Почти."
+      },
+      "example": "But my new neighbours play loud music almost every night, often until two in the morning.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "awful",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Very bad.",
+        "bg": "Ужасен."
+      },
+      "example": "Kate replied: That sounds awful.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "bit",
+      "pos": "noun",
+      "meaning": {
+        "en": "\"A bit\" = a little.",
+        "bg": "\"A bit\" = малко."
+      },
+      "example": "Could you turn it down a bit, please?",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "bother",
+      "pos": "verb",
+      "meaning": {
+        "en": "To disturb or annoy someone.",
+        "bg": "Безпокоя, притеснявам."
+      },
+      "example": "I'm sorry to bother you, but the music is very loud.",
+      "forms": [
+        "bothers",
+        "bothered",
+        "bothering"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "building",
+      "pos": "noun",
+      "meaning": {
+        "en": "A structure with walls and a roof, like a house or an office block.",
+        "bg": "Сграда, блок."
+      },
+      "example": "If it doesn't stop, you should contact the building manager.",
+      "forms": [
+        "buildings"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "change",
+      "pos": "verb",
+      "meaning": {
+        "en": "To become different, or to make something different.",
+        "bg": "Променям (се)."
+      },
+      "example": "I've knocked on their door twice, but nothing has changed.",
+      "forms": [
+        "changes",
+        "changed",
+        "changing"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "close",
+      "pos": "verb",
+      "meaning": {
+        "en": "To shut.",
+        "bg": "Затварям."
+      },
+      "example": "Would you mind closing the window?",
+      "forms": [
+        "closes",
+        "closed",
+        "closing"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "contact",
+      "pos": "verb",
+      "meaning": {
+        "en": "To call, write to or email someone.",
+        "bg": "Свързвам се с."
+      },
+      "example": "If it doesn't stop, you should contact the building manager.",
+      "forms": [
+        "contacts",
+        "contacted",
+        "contacting"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "date",
+      "pos": "noun",
+      "meaning": {
+        "en": "A particular day of the month or year.",
+        "bg": "Дата."
+      },
+      "example": "Marco replied: You ought to keep a record of the dates and times.",
+      "forms": [
+        "dates"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "door",
+      "pos": "noun",
+      "meaning": {
+        "en": "The thing you open to go into a room or building.",
+        "bg": "Врата."
+      },
+      "example": "I've knocked on their door twice, but nothing has changed.",
+      "forms": [
+        "doors"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "down",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Towards a lower level. \"Turn down\" = make quieter.",
+        "bg": "Надолу. \"Turn down\" = намалявам (звука)."
+      },
+      "example": "Could you turn it down a bit, please?",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "drink",
+      "pos": "verb",
+      "meaning": {
+        "en": "To take liquid into your mouth and swallow it.",
+        "bg": "Пия."
+      },
+      "example": "You shouldn't drink coffee so late.",
+      "forms": [
+        "drinks",
+        "drank",
+        "drunk",
+        "drinking"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "every",
+      "pos": "determiner",
+      "meaning": {
+        "en": "All of a group, one by one: every night.",
+        "bg": "Всеки: every night (всяка вечер)."
+      },
+      "example": "But my new neighbours play loud music almost every night, often until two in the morning.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "exam",
+      "pos": "noun",
+      "meaning": {
+        "en": "An important test.",
+        "bg": "Изпит."
+      },
+      "example": "I'm exhausted and I have exams next month.",
+      "forms": [
+        "exams"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "exhausted",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Extremely tired.",
+        "bg": "Изтощен, капнал."
+      },
+      "example": "I'm exhausted and I have exams next month.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "if",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "Used to talk about a possible or imagined situation.",
+        "bg": "Ако."
+      },
+      "example": "If I were you, I'd look for a new job.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "job",
+      "pos": "noun",
+      "meaning": {
+        "en": "The work that you do to earn money.",
+        "bg": "Работа (служба)."
+      },
+      "example": "If I were you, I'd look for a new job.",
+      "forms": [
+        "jobs"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "keep",
+      "pos": "verb",
+      "meaning": {
+        "en": "To continue to have something. \"Keep a record\" = write things down.",
+        "bg": "Пазя, държа. \"Keep a record\" = водя си записки."
+      },
+      "example": "Marco replied: You ought to keep a record of the dates and times.",
+      "forms": [
+        "keeps",
+        "kept",
+        "keeping"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "knock",
+      "pos": "verb",
+      "meaning": {
+        "en": "To hit a door with your hand so people inside hear you.",
+        "bg": "Чукам (на врата)."
+      },
+      "example": "I've knocked on their door twice, but nothing has changed.",
+      "forms": [
+        "knocks",
+        "knocked",
+        "knocking"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "look",
+      "pos": "verb",
+      "meaning": {
+        "en": "To seem; also to use your eyes. \"Look for\" = try to find.",
+        "bg": "Изглеждам; гледам. \"Look for\" = търся."
+      },
+      "example": "If I were you, I'd look for a new job.",
+      "forms": [
+        "looks",
+        "looked",
+        "looking"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "loud",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Making a lot of noise.",
+        "bg": "Силен, шумен."
+      },
+      "example": "I'm sorry to bother you, but the music is very loud.",
+      "forms": [
+        "louder",
+        "loudest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "make",
+      "pos": "verb",
+      "meaning": {
+        "en": "To create or cause something.",
+        "bg": "Правя, карам (нещо да стане)."
+      },
+      "example": "I wouldn't call the police yet, though — it might make things worse.",
+      "forms": [
+        "makes",
+        "made",
+        "making"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "manager",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person in charge of a business, a building or a team.",
+        "bg": "Мениджър, управител."
+      },
+      "example": "You ought to talk to your manager.",
+      "forms": [
+        "managers"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "might",
+      "pos": "verb",
+      "meaning": {
+        "en": "Used to say something is possible.",
+        "bg": "Може (би) — за възможност."
+      },
+      "example": "I wouldn't call the police yet, though — it might make things worse.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "mind",
+      "pos": "verb",
+      "meaning": {
+        "en": "To be bothered by something. \"Would you mind…?\" = a polite request.",
+        "bg": "Имам нещо против. \"Would you mind…?\" = учтива молба."
+      },
+      "example": "Would you mind closing the window?",
+      "forms": [
+        "minds",
+        "minded",
+        "minding"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "neighbour",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person who lives next to you or near you.",
+        "bg": "Съсед."
+      },
+      "example": "But my new neighbours play loud music almost every night, often until two in the morning.",
+      "forms": [
+        "neighbours",
+        "neighbor",
+        "neighbors"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "night",
+      "pos": "noun",
+      "meaning": {
+        "en": "The time when it is dark and people sleep.",
+        "bg": "Нощ, вечер."
+      },
+      "example": "But my new neighbours play loud music almost every night, often until two in the morning.",
+      "forms": [
+        "nights"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "note",
+      "pos": "noun",
+      "meaning": {
+        "en": "A short written message.",
+        "bg": "Бележка."
+      },
+      "example": "If I were you, I'd write them a short, polite note.",
+      "forms": [
+        "notes"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "nothing",
+      "pos": "pronoun",
+      "meaning": {
+        "en": "Not anything.",
+        "bg": "Нищо."
+      },
+      "example": "I've knocked on their door twice, but nothing has changed.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "of",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Shows that something belongs to or is part of something.",
+        "bg": "На, от (a record of the dates = записки на датите)."
+      },
+      "example": "Marco replied: You ought to keep a record of the dates and times.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "order",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something you ask to buy, for example online or in a restaurant.",
+        "bg": "Поръчка."
+      },
+      "example": "I'm afraid there's a problem with my order.",
+      "forms": [
+        "orders"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "ought",
+      "pos": "verb",
+      "meaning": {
+        "en": "\"Ought to\" + verb = should (a little more formal).",
+        "bg": "\"Ought to\" + глагол = би трябвало (малко по-официално от should)."
+      },
+      "example": "You ought to talk to your manager.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "police",
+      "pos": "noun",
+      "meaning": {
+        "en": "The people whose job is to make sure the law is followed.",
+        "bg": "Полиция."
+      },
+      "example": "I wouldn't call the police yet, though — it might make things worse.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "polite",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Showing good manners and respect.",
+        "bg": "Учтив."
+      },
+      "example": "If I were you, I'd write them a short, polite note.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "problem",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something that causes difficulty.",
+        "bg": "Проблем."
+      },
+      "example": "I'm afraid there's a problem with my order.",
+      "forms": [
+        "problems"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "realise",
+      "pos": "verb",
+      "meaning": {
+        "en": "To understand or become aware of something.",
+        "bg": "Осъзнавам, давам си сметка."
+      },
+      "example": "Some people honestly don't realise how thin the walls are.",
+      "forms": [
+        "realises",
+        "realised",
+        "realising",
+        "realize",
+        "realizes",
+        "realized"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "record",
+      "pos": "noun",
+      "meaning": {
+        "en": "Written information that you keep about something.",
+        "bg": "Запис, записки."
+      },
+      "example": "Marco replied: You ought to keep a record of the dates and times.",
+      "forms": [
+        "records"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "short",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Not long.",
+        "bg": "Кратък, къс."
+      },
+      "example": "If I were you, I'd write them a short, polite note.",
+      "forms": [
+        "shorter",
+        "shortest"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "should",
+      "pos": "verb",
+      "meaning": {
+        "en": "Used to give advice: You should rest.",
+        "bg": "Трябва, би трябвало — за съвет: You should rest."
+      },
+      "example": "What should I do?",
+      "forms": [
+        "shouldn't"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "stop",
+      "pos": "verb",
+      "meaning": {
+        "en": "To end; not continue.",
+        "bg": "Спирам."
+      },
+      "example": "If it doesn't stop, you should contact the building manager.",
+      "forms": [
+        "stops",
+        "stopped",
+        "stopping"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "talk",
+      "pos": "verb",
+      "meaning": {
+        "en": "To speak with someone.",
+        "bg": "Говоря, разговарям."
+      },
+      "example": "You ought to talk to your manager.",
+      "forms": [
+        "talks",
+        "talked",
+        "talking"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "their",
+      "pos": "determiner",
+      "meaning": {
+        "en": "Belonging to them.",
+        "bg": "Техен, тяхна."
+      },
+      "example": "I've knocked on their door twice, but nothing has changed.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "thin",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Not thick.",
+        "bg": "Тънък."
+      },
+      "example": "Some people honestly don't realise how thin the walls are.",
+      "forms": [
+        "thinner",
+        "thinnest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "though",
+      "pos": "adverb",
+      "meaning": {
+        "en": "At the end of a sentence: however.",
+        "bg": "В края на изречение: все пак, обаче."
+      },
+      "example": "I wouldn't call the police yet, though — it might make things worse.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "turn",
+      "pos": "verb",
+      "meaning": {
+        "en": "To move round; \"turn down\" = make quieter.",
+        "bg": "Обръщам, въртя; \"turn down\" = намалявам (звука)."
+      },
+      "example": "Could you turn it down a bit, please?",
+      "forms": [
+        "turns",
+        "turned",
+        "turning"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "until",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Up to a time.",
+        "bg": "До (дадено време)."
+      },
+      "example": "But my new neighbours play loud music almost every night, often until two in the morning.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "wall",
+      "pos": "noun",
+      "meaning": {
+        "en": "One of the sides of a room or building.",
+        "bg": "Стена."
+      },
+      "example": "Some people honestly don't realise how thin the walls are.",
+      "forms": [
+        "walls"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "window",
+      "pos": "noun",
+      "meaning": {
+        "en": "A glass opening in a wall.",
+        "bg": "Прозорец."
+      },
+      "example": "Would you mind closing the window?",
+      "forms": [
+        "windows"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "worse",
+      "pos": "adjective",
+      "meaning": {
+        "en": "More bad (bad – worse – worst).",
+        "bg": "По-лош."
+      },
+      "example": "I wouldn't call the police yet, though — it might make things worse.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "yet",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Until now, so far — often in negatives: not yet.",
+        "bg": "Още (в отрицание): not yet = още не."
+      },
+      "example": "I wouldn't call the police yet, though — it might make things worse.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "reply",
+      "pos": "verb",
+      "meaning": {
+        "en": "To answer.",
+        "bg": "Отговарям."
+      },
+      "example": "Kate replied: That sounds awful.",
+      "forms": [
+        "replies",
+        "replied",
+        "replying"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "fine",
+      "pos": "adjective",
+      "meaning": {
+        "en": "OK; good enough.",
+        "bg": "Наред, добре."
+      },
+      "example": "Dimitar wrote: I moved into a new flat in March, and at first everything was fine.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "into",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Moving to the inside of something.",
+        "bg": "В (с движение навътре)."
+      },
+      "example": "Dimitar wrote: I moved into a new flat in March, and at first everything was fine.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "move",
+      "pos": "verb",
+      "meaning": {
+        "en": "To go to live in a different place.",
+        "bg": "Местя се, премествам се."
+      },
+      "example": "Dimitar wrote: I moved into a new flat in March, and at first everything was fine.",
+      "forms": [
+        "moves",
+        "moved",
+        "moving"
+      ],
+      "band": "A2"
+    }
+  ],
+  "texts": [
+    {
+      "id": "b1.advice.text-forum",
+      "competence": "b1.advice",
+      "band": "B1",
+      "title": "Noisy neighbours",
+      "paragraphs": [
+        "Dimitar wrote: I moved into a new flat in March, and at first everything was fine. But my new neighbours play loud music almost every night, often until two in the morning. I've knocked on their door twice, but nothing has changed. I'm exhausted and I have exams next month. What should I do?",
+        "Kate replied: That sounds awful. If I were you, I'd write them a short, polite note. Some people honestly don't realise how thin the walls are.",
+        "Marco replied: You ought to keep a record of the dates and times. If it doesn't stop, you should contact the building manager. I wouldn't call the police yet, though — it might make things worse."
+      ]
+    }
+  ],
+  "names": [
+    "Dimitar",
+    "Kate",
+    "Marco"
+  ],
+  "items": [
+    {
+      "id": "b1.advice.should-see",
+      "type": "cloze",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.advice",
+      "objective": {
+        "en": "Give advice with \"should\".",
+        "bg": "Да дадеш съвет със \"should\"."
+      },
+      "difficulty": -1.3,
+      "sentence": "You look really tired. You ___ go to bed earlier.",
+      "accept": [
+        "should",
+        "ought to",
+        "had better",
+        "'d better",
+        "must",
+        "need to"
+      ],
+      "explanation": {
+        "en": "The most common word for advice is \"should\" + base verb (\"ought to\" is a little more formal). No \"to\" after \"should\". \"Had better\", \"must\" and \"need to\" are also possible here, but they sound stronger — more like a warning than friendly advice.",
+        "bg": "Най-честата дума за съвет е \"should\" + основна форма (\"ought to\" е малко по-официално). След \"should\" няма \"to\". \"Had better\", \"must\" и \"need to\" също са възможни тук, но звучат по-силно — по-скоро като предупреждение, отколкото като приятелски съвет."
+      },
+      "hints": [
+        {
+          "en": "Which modal verb gives advice?",
+          "bg": "Кой модален глагол дава съвет?"
+        }
+      ],
+      "words": [
+        "should",
+        "tired"
+      ],
+      "structures": [
+        "modals.advice"
+      ],
+      "tags": [
+        "advice"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.advice.should-no-to",
+      "type": "choice",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.advice",
+      "objective": {
+        "en": "Use \"should\" without \"to\".",
+        "bg": "Да използваш \"should\" без \"to\"."
+      },
+      "difficulty": -1.2,
+      "prompt": "Which piece of advice is grammatically correct?",
+      "options": [
+        "You should to call her.",
+        "You ought call her.",
+        "You should call her.",
+        "You should calling her."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "\"Should\" is followed directly by the base verb: should call. \"Ought\" needs \"to\": ought to call. In Bulgarian you say \"трябва да\", and that \"да\" makes learners add \"to\" after \"should\".",
+        "bg": "След \"should\" идва директно основната форма: should call. \"Ought\" изисква \"to\": ought to call. На български казваш \"трябва да\" и това \"да\" кара учащите да слагат \"to\" след \"should\"."
+      },
+      "hints": [
+        {
+          "en": "\"Should\" never takes \"to\". \"Ought\" always does.",
+          "bg": "След \"should\" никога няма \"to\". След \"ought\" винаги има."
+        }
+      ],
+      "words": [
+        "should",
+        "call"
+      ],
+      "structures": [
+        "modals.advice"
+      ],
+      "tags": [
+        "advice",
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.advice.if-i-were-you",
+      "type": "build",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.advice",
+      "objective": {
+        "en": "Give advice with \"If I were you\".",
+        "bg": "Да дадеш съвет с \"If I were you\"."
+      },
+      "difficulty": -0.8,
+      "tiles": [
+        "If",
+        "I",
+        "were",
+        "you,",
+        "I'd",
+        "apologise"
+      ],
+      "accept": [
+        "If I were you, I'd apologise."
+      ],
+      "explanation": {
+        "en": "\"If I were you, I'd…\" is an unreal (second) conditional: you are not the other person, so we use the past form \"were\" and then \"would\" ('d) + base verb. It's like Bulgarian \"На твое място бих се извинил\".",
+        "bg": "\"If I were you, I'd…\" е нереално (второ) условно изречение: ти не си другият човек, затова използваме миналата форма \"were\" и после \"would\" ('d) + основна форма. Като \"На твое място бих се извинил\"."
+      },
+      "hints": [
+        {
+          "en": "Start with \"If I were you,\".",
+          "bg": "Започни с \"If I were you,\"."
+        }
+      ],
+      "words": [
+        "if",
+        "would",
+        "apologise"
+      ],
+      "structures": [
+        "conditional.second",
+        "advice"
+      ],
+      "tags": [
+        "advice",
+        "conditionals"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.advice.if-were-you-were",
+      "type": "cloze",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.advice",
+      "objective": {
+        "en": "Use \"were\" in advice with \"if\".",
+        "bg": "Да използваш \"were\" в съвет с \"if\"."
+      },
+      "difficulty": -0.9,
+      "sentence": "If I ___ you, I wouldn't lend him any more money.",
+      "accept": [
+        "were",
+        "was"
+      ],
+      "explanation": {
+        "en": "In this fixed phrase we use the past form because the situation is imaginary — I am not you. \"Were\" is the standard form in careful English; \"was\" is common in informal speech, so it is accepted too.",
+        "bg": "В този устойчив израз използваме минала форма, защото ситуацията е въображаема — аз не съм ти. \"Were\" е стандартната форма в грижлив английски; \"was\" е често в неформална реч, затова също се приема."
+      },
+      "hints": [
+        {
+          "en": "The situation is imaginary, so the verb goes into the past.",
+          "bg": "Ситуацията е въображаема, затова глаголът е в минало."
+        }
+      ],
+      "words": [
+        "lend",
+        "money"
+      ],
+      "structures": [
+        "conditional.second"
+      ],
+      "tags": [
+        "advice",
+        "conditionals"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.advice.second-conditional-advice",
+      "type": "choice",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.advice",
+      "objective": {
+        "en": "Complete a second conditional.",
+        "bg": "Да довършиш второ условно изречение."
+      },
+      "difficulty": -0.5,
+      "prompt": "Complete the advice: \"If you spoke to your boss, she ___ understand.\"",
+      "options": [
+        "will",
+        "does",
+        "is",
+        "would"
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "\"If + past simple\" (spoke) describes an imagined situation, so the other half needs \"would\": she would understand. \"Will\" goes with the present in the if-part (If you speak…, she will…).",
+        "bg": "\"If + past simple\" (spoke) описва въображаема ситуация, затова втората част изисква \"would\": she would understand. \"Will\" върви със сегашно време в if-частта (If you speak…, she will…)."
+      },
+      "hints": [
+        {
+          "en": "Look at the verb after \"If\": it's in the past.",
+          "bg": "Виж глагола след \"If\": в минало е."
+        }
+      ],
+      "words": [
+        "would",
+        "understand"
+      ],
+      "structures": [
+        "conditional.second"
+      ],
+      "tags": [
+        "conditionals"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.advice.polite-complaint",
+      "type": "choice",
+      "band": "B1",
+      "skill": "speaking",
+      "competence": "b1.advice",
+      "objective": {
+        "en": "Make a polite complaint.",
+        "bg": "Да направиш учтиво оплакване."
+      },
+      "difficulty": -0.6,
+      "prompt": "Your soup in a restaurant is cold. Which is the most natural and polite thing to say to the waiter?",
+      "options": [
+        "Your soup is cold. Bring another.",
+        "I'm afraid my soup is cold. Could you warm it up, please?",
+        "I want a hot soup now.",
+        "Why you bring cold soup?"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "\"I'm afraid…\" softens the bad news and \"Could you…, please?\" makes a polite request. The two direct demands are grammatically fine but sound rude in English, and \"Why you bring cold soup?\" is not correct English.",
+        "bg": "\"I'm afraid…\" смекчава лошата новина, а \"Could you…, please?\" е учтива молба. Двете директни искания са граматически верни, но звучат грубо на английски, а \"Why you bring cold soup?\" не е правилен английски."
+      },
+      "hints": [
+        {
+          "en": "Look for a softener at the start and a polite question.",
+          "bg": "Потърси смекчаваща фраза в началото и учтив въпрос."
+        }
+      ],
+      "words": [
+        "afraid",
+        "could"
+      ],
+      "structures": [],
+      "tags": [
+        "complaints",
+        "politeness"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.advice.would-you-mind",
+      "type": "cloze",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.advice",
+      "objective": {
+        "en": "Use \"Would you mind + -ing\".",
+        "bg": "Да използваш \"Would you mind + -ing\"."
+      },
+      "difficulty": -0.4,
+      "sentence": "Would you mind ___ (turn) the music down a little?",
+      "accept": [
+        "turning"
+      ],
+      "explanation": {
+        "en": "After \"Would you mind\" we use the -ing form: Would you mind turning…? Not \"to turn\". It literally asks \"Would it bother you…?\", so the polite answer if you agree is \"No, not at all.\"",
+        "bg": "След \"Would you mind\" използваме -ing форма: Would you mind turning…? Не \"to turn\". Буквално пита \"Ще те притесни ли…?\", затова учтивият отговор, ако си съгласен, е \"No, not at all.\""
+      },
+      "hints": [
+        {
+          "en": "\"Mind\" is followed by the -ing form.",
+          "bg": "След \"mind\" идва -ing форма."
+        }
+      ],
+      "words": [
+        "mind",
+        "turn",
+        "music"
+      ],
+      "structures": [
+        "verb-patterns.ing"
+      ],
+      "tags": [
+        "complaints",
+        "requests"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.advice.text-dimitar-problem",
+      "type": "choice",
+      "band": "B1",
+      "skill": "reading",
+      "competence": "b1.advice",
+      "objective": {
+        "en": "Understand the main problem in a forum post.",
+        "bg": "Да разбереш основния проблем в публикация във форум."
+      },
+      "difficulty": -1.0,
+      "prompt": "Why is Dimitar especially worried about the noise?",
+      "options": [
+        "He works night shifts.",
+        "He has a new baby.",
+        "He has exams soon and can't sleep.",
+        "The neighbours are rude to him."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "He writes: \"I'm exhausted and I have exams next month.\" The text doesn't mention work, a baby, or rude neighbours.",
+        "bg": "Той пише: \"I'm exhausted and I have exams next month.\" В текста не се споменават работа, бебе или груби съседи."
+      },
+      "hints": [
+        {
+          "en": "Read the end of Dimitar's post.",
+          "bg": "Прочети края на публикацията на Dimitar."
+        }
+      ],
+      "words": [
+        "exam",
+        "exhausted"
+      ],
+      "structures": [],
+      "tags": [
+        "reading"
+      ],
+      "textId": "b1.advice.text-forum",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.advice.text-marco-police",
+      "type": "choice",
+      "band": "B1",
+      "skill": "reading",
+      "competence": "b1.advice",
+      "objective": {
+        "en": "Understand advice and reasons in a reply.",
+        "bg": "Да разбереш съвет и причина в отговор."
+      },
+      "difficulty": -0.2,
+      "prompt": "What does Marco think about calling the police?",
+      "options": [
+        "It isn't a good idea yet, because it could make the situation worse.",
+        "It's the first thing Dimitar should do.",
+        "The police won't come for noise.",
+        "Kate should do it, not Dimitar."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Marco says: \"I wouldn't call the police yet, though — it might make things worse.\" \"I wouldn't…\" is another way to give advice: it means \"don't do it\".",
+        "bg": "Marco казва: \"I wouldn't call the police yet, though — it might make things worse.\" \"I wouldn't…\" е още един начин да дадеш съвет: значи \"не го прави\"."
+      },
+      "hints": [
+        {
+          "en": "Find \"police\" in Marco's reply.",
+          "bg": "Намери \"police\" в отговора на Marco."
+        }
+      ],
+      "words": [
+        "police",
+        "worse"
+      ],
+      "structures": [
+        "conditional.second"
+      ],
+      "tags": [
+        "reading",
+        "advice"
+      ],
+      "textId": "b1.advice.text-forum",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.advice.text-kate-note",
+      "type": "cloze",
+      "band": "B1",
+      "skill": "reading",
+      "competence": "b1.advice",
+      "objective": {
+        "en": "Find advice in a text.",
+        "bg": "Да откриеш съвет в текст."
+      },
+      "difficulty": -0.9,
+      "sentence": "Kate thinks Dimitar should write the neighbours a polite ___.",
+      "accept": [
+        "note"
+      ],
+      "explanation": {
+        "en": "Kate writes: \"If I were you, I'd write them a short, polite note.\"",
+        "bg": "Kate пише: \"If I were you, I'd write them a short, polite note.\""
+      },
+      "hints": [
+        {
+          "en": "Read Kate's reply. What should Dimitar write?",
+          "bg": "Прочети отговора на Kate. Какво да напише Dimitar?"
+        }
+      ],
+      "words": [
+        "note",
+        "polite"
+      ],
+      "structures": [],
+      "tags": [
+        "reading"
+      ],
+      "textId": "b1.advice.text-forum",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

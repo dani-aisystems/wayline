@@ -1,0 +1,758 @@
+{
+  "id": "talk-a2-directions",
+  "version": 1,
+  "band": "A2",
+  "competences": [
+    {
+      "id": "a2.talk-directions",
+      "band": "A2",
+      "title": {
+        "en": "Finding your way",
+        "bg": "Как да се ориентираш"
+      },
+      "canDo": {
+        "en": "I can ask for and follow simple directions, ask someone to repeat, and understand basic information about buses and trains.",
+        "bg": "Мога да попитам за посока и да следвам прости указания, да помоля някого да повтори и да разбера основна информация за автобуси и влакове."
+      },
+      "skills": [
+        "speaking",
+        "listening",
+        "grammar"
+      ],
+      "prerequisites": [
+        "a1.hello"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "a2.talk-directions.note-asking-the-way",
+      "competence": "a2.talk-directions",
+      "title": {
+        "en": "Asking the way",
+        "bg": "Как да питаш за посока"
+      },
+      "body": {
+        "en": "Start with \"Excuse me\" — it is polite and gets the person's attention. Then ask \"How do I get to…?\" or \"Is there a … near here?\". Directions use the imperative: \"Go straight on\", \"Turn left\", \"Take the second street on the right\". For transport, say \"by bus\", \"by train\" (no \"the\"), but \"on foot\" when you walk. If you don't understand, ask: \"Sorry, could you say that again, please?\"",
+        "bg": "Започни с \"Excuse me\" (Извинете) — учтиво е и привлича вниманието на човека. После питай \"How do I get to…?\" (Как да стигна до…?) или \"Is there a … near here?\" (Има ли … наблизо?). Указанията са в повелително наклонение: \"Go straight on\" (Върви направо), \"Turn left\" (Завий наляво), \"Take the second street on the right\" (Хвани втората улица вдясно). За транспорт казваш \"by bus\", \"by train\" (без \"the\"), но \"on foot\", когато ходиш пеша. Ако не разбираш, попитай: \"Sorry, could you say that again, please?\" (Извинете, бихте ли повторили?)"
+      },
+      "examples": [
+        "Excuse me, where's the station?",
+        "Is there a pharmacy near here?",
+        "Go straight on and turn left.",
+        "It's on your right, next to the bank.",
+        "Take the number ten bus.",
+        "It's about ten minutes on foot."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "excuse me",
+      "pos": "phrase",
+      "ipa": "/ɪkˈskjuːz miː/",
+      "meaning": {
+        "en": "A polite way to start talking to someone you don't know, or to say sorry.",
+        "bg": "Извинете — учтив начин да заговориш непознат или да се извиниш."
+      },
+      "example": "Excuse me, where's the station?",
+      "forms": [
+        "excuse"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "station",
+      "pos": "noun",
+      "ipa": "/ˈsteɪʃən/",
+      "meaning": {
+        "en": "A place where trains or buses stop for people to get on and off.",
+        "bg": "Гара, спирка (за влак или автобус)."
+      },
+      "example": "The station is near here.",
+      "forms": [
+        "stations"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "near",
+      "pos": "preposition",
+      "ipa": "/nɪr/",
+      "meaning": {
+        "en": "Not far from something.",
+        "bg": "Близо до, наблизо."
+      },
+      "example": "Is there a bank near here?",
+      "forms": [
+        "nearer",
+        "nearest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "straight",
+      "pos": "adverb",
+      "ipa": "/streɪt/",
+      "meaning": {
+        "en": "In a line, without turning.",
+        "bg": "Направо (без да завиваш)."
+      },
+      "example": "Go straight on.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "left",
+      "pos": "adverb",
+      "ipa": "/lɛft/",
+      "meaning": {
+        "en": "To or on the side of your left hand.",
+        "bg": "Наляво, вляво."
+      },
+      "example": "Turn left at the bank.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "bank",
+      "pos": "noun",
+      "ipa": "/bæŋk/",
+      "meaning": {
+        "en": "A place that looks after people's money.",
+        "bg": "Банка."
+      },
+      "example": "The bank is on your right.",
+      "forms": [
+        "banks"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "pharmacy",
+      "pos": "noun",
+      "ipa": "/ˈfɑːrməsi/",
+      "meaning": {
+        "en": "A shop where you can buy medicine.",
+        "bg": "Аптека."
+      },
+      "example": "Is there a pharmacy near here?",
+      "forms": [
+        "pharmacies"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "foot",
+      "pos": "noun",
+      "ipa": "/fʊt/",
+      "meaning": {
+        "en": "The part of your body at the end of your leg. \"On foot\" means walking.",
+        "bg": "Крак (стъпало). \"On foot\" означава пеша."
+      },
+      "example": "It's ten minutes on foot.",
+      "forms": [
+        "feet"
+      ],
+      "band": "A2"
+    }
+  ],
+  "texts": [],
+  "names": [
+    "Grace",
+    "Marco",
+    "Kofi",
+    "Elif",
+    "Lily",
+    "James",
+    "Central"
+  ],
+  "items": [
+    {
+      "id": "a2.talk-directions.dlg-train-station",
+      "type": "dialogue",
+      "band": "A2",
+      "skill": "speaking",
+      "competence": "a2.talk-directions",
+      "objective": {
+        "en": "Ask the way politely and check the information.",
+        "bg": "Да попиташ учтиво за посока и да провериш информацията."
+      },
+      "difficulty": -2.3,
+      "explanation": {
+        "en": "\"Excuse me, how do I get to…?\" is the most useful question for directions. At the end, repeat the key information to check it — that's what good listeners do.",
+        "bg": "\"Excuse me, how do I get to…?\" е най-полезният въпрос за посока. Накрая повтори важната информация, за да я провериш — така правят добрите слушатели."
+      },
+      "hints": [
+        {
+          "en": "In the last turn, check the bus number and place Grace said.",
+          "bg": "В последната реплика провери номера на автобуса и мястото, които каза Грейс."
+        }
+      ],
+      "words": [
+        "excuse me",
+        "station",
+        "bus",
+        "bank"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "directions",
+        "transport"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "You're in the city centre and you need the train station. You stop a woman in the street.",
+        "bg": "В центъра на града си и търсиш гарата. Спираш една жена на улицата."
+      },
+      "characters": [
+        {
+          "id": "grace",
+          "name": "Grace",
+          "presents": "female",
+          "accent": "GB",
+          "tone": 2
+        },
+        {
+          "id": "marco",
+          "name": "Marco",
+          "presents": "male",
+          "accent": "US",
+          "tone": 4
+        }
+      ],
+      "learnerAs": "marco",
+      "lines": [
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Excuse me, how do I get to the train station?",
+              "correct": true
+            },
+            {
+              "text": "Hey, where is train?",
+              "correct": false,
+              "why": {
+                "en": "Too direct for a stranger, and it's missing words: \"Excuse me, where's the train station?\"",
+                "bg": "Твърде рязко за непознат и липсват думи: \"Excuse me, where's the train station?\""
+              }
+            },
+            {
+              "text": "Excuse me, where did you go to the station?",
+              "correct": false,
+              "why": {
+                "en": "This asks about her past, not about the way. Use \"How do I get to…?\"",
+                "bg": "Това пита какво е правила тя в миналото, а не за пътя. Кажи \"How do I get to…?\""
+              }
+            }
+          ]
+        },
+        {
+          "by": "grace",
+          "text": "Oh, it's a bit far from here — about twenty minutes on foot."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Is there a bus?",
+              "correct": true
+            },
+            {
+              "text": "How long is the bus?",
+              "correct": false,
+              "why": {
+                "en": "This asks how long the bus itself is! Ask \"Is there a bus?\" or \"How long does it take by bus?\"",
+                "bg": "Това пита колко е дълъг самият автобус! Попитай \"Is there a bus?\" или \"How long does it take by bus?\""
+              }
+            },
+            {
+              "text": "Are there a bus?",
+              "correct": false,
+              "why": {
+                "en": "\"A bus\" is one thing, so it's \"Is there a bus?\".",
+                "bg": "\"A bus\" е едно нещо, затова е \"Is there a bus?\"."
+              }
+            }
+          ]
+        },
+        {
+          "by": "grace",
+          "text": "Yes, take the number twelve. The stop is opposite the bank, just over there."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "So, the number twelve, opposite the bank. Thanks so much!",
+              "correct": true
+            },
+            {
+              "text": "So, the number twenty, next to the bank. Thanks!",
+              "correct": false,
+              "why": {
+                "en": "Grace said number twelve, opposite the bank — not twenty, and not next to it.",
+                "bg": "Грейс каза номер дванайсет, срещу банката — не двайсет и не до нея."
+              }
+            },
+            {
+              "text": "Thanks, you're welcome!",
+              "correct": false,
+              "why": {
+                "en": "\"You're welcome\" is the answer to \"thank you\". Just say \"Thanks so much!\"",
+                "bg": "\"You're welcome\" е отговор на \"thank you\". Просто кажи \"Thanks so much!\""
+              }
+            }
+          ]
+        },
+        {
+          "by": "grace",
+          "text": "You're welcome. Have a good trip!"
+        }
+      ]
+    },
+    {
+      "id": "a2.talk-directions.dlg-hotel-museum",
+      "type": "dialogue",
+      "band": "A2",
+      "skill": "speaking",
+      "competence": "a2.talk-directions",
+      "objective": {
+        "en": "Ask for directions, ask for repetition and check left and right.",
+        "bg": "Да питаш за посока, да помолиш за повторение и да провериш ляво и дясно."
+      },
+      "difficulty": -1.9,
+      "explanation": {
+        "en": "If someone speaks too fast, \"Sorry, could you say that again, please?\" is polite and natural. \"What?\" sounds rude. When you check, keep left and right in the right places.",
+        "bg": "Ако някой говори твърде бързо, \"Sorry, could you say that again, please?\" е учтиво и естествено. \"What?\" звучи грубо. Когато проверяваш, внимавай да не объркаш ляво и дясно."
+      },
+      "hints": [
+        {
+          "en": "Listen carefully to \"right\" and \"left\" in Kofi's second answer.",
+          "bg": "Слушай внимателно \"right\" и \"left\" във втория отговор на Кофи."
+        }
+      ],
+      "words": [
+        "near",
+        "left",
+        "foot"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "directions",
+        "clarifying"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "You're at a hotel reception. You want to visit the museum.",
+        "bg": "На рецепцията в хотела си. Искаш да отидеш до музея."
+      },
+      "characters": [
+        {
+          "id": "kofi",
+          "name": "Kofi",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 3
+        },
+        {
+          "id": "elif",
+          "name": "Elif",
+          "presents": "female",
+          "accent": "US",
+          "tone": 6
+        }
+      ],
+      "learnerAs": "elif",
+      "lines": [
+        {
+          "by": "kofi",
+          "text": "Good morning! Can I help you?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Yes, please. Is the museum near here?",
+              "correct": true
+            },
+            {
+              "text": "Yes, please. Is the museum near from here?",
+              "correct": false,
+              "why": {
+                "en": "We say \"near here\" or \"near the hotel\" — no \"from\" after \"near\".",
+                "bg": "Казваме \"near here\" или \"near the hotel\" — без \"from\" след \"near\"."
+              }
+            },
+            {
+              "text": "Yes, I help you.",
+              "correct": false,
+              "why": {
+                "en": "Kofi is offering to help YOU. Say \"Yes, please\" and ask your question.",
+                "bg": "Кофи предлага да помогне на ТЕБ. Кажи \"Yes, please\" и задай въпроса си."
+              }
+            }
+          ]
+        },
+        {
+          "by": "kofi",
+          "text": "It's about fifteen minutes on foot. Go out of the hotel, turn right, then take the second street on the left, and it's at the end."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Sorry, could you say that again, please?",
+              "correct": true
+            },
+            {
+              "text": "What?",
+              "correct": false,
+              "why": {
+                "en": "\"What?\" alone sounds rude here. Use \"Sorry, could you say that again, please?\"",
+                "bg": "Само \"What?\" звучи грубо тук. Кажи \"Sorry, could you say that again, please?\""
+              }
+            },
+            {
+              "text": "Sorry, can you speak more loud?",
+              "correct": false,
+              "why": {
+                "en": "He isn't quiet — he's fast. Also, it's \"louder\", not \"more loud\".",
+                "bg": "Той не говори тихо, а бързо. И се казва \"louder\", а не \"more loud\"."
+              }
+            }
+          ]
+        },
+        {
+          "by": "kofi",
+          "text": "Of course. Turn right, then the second street on the left. The museum is at the end of that street."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Right, then the second on the left. Got it, thanks!",
+              "correct": true
+            },
+            {
+              "text": "Left, then the second on the right. Got it, thanks!",
+              "correct": false,
+              "why": {
+                "en": "You've changed left and right. Kofi said: right first, then the second on the left.",
+                "bg": "Объркал/а си лявото и дясното. Кофи каза: първо надясно, после втората вляво."
+              }
+            },
+            {
+              "text": "Do I turn the street?",
+              "correct": false,
+              "why": {
+                "en": "This doesn't make sense. Repeat the directions to check them.",
+                "bg": "Това няма смисъл. Повтори указанията, за да ги провериш."
+              }
+            }
+          ]
+        },
+        {
+          "by": "kofi",
+          "text": "That's it. Enjoy the museum!"
+        }
+      ]
+    },
+    {
+      "id": "a2.talk-directions.listen-bus-announcement",
+      "type": "listen",
+      "band": "A2",
+      "skill": "listening",
+      "competence": "a2.talk-directions",
+      "objective": {
+        "en": "Understand a transport announcement.",
+        "bg": "Да разбереш съобщение в транспорта."
+      },
+      "difficulty": -2.0,
+      "explanation": {
+        "en": "The announcement says: \"Passengers for the airport, please get off here and take the number twenty-two bus.\" \"Here\" is Central Station.",
+        "bg": "Съобщението казва: \"Passengers for the airport, please get off here and take the number twenty-two bus.\" (Пътниците за летището, моля, слезте тук и хванете автобус номер двайсет и две.) \"Тук\" е Централна гара."
+      },
+      "hints": [
+        {
+          "en": "Listen for the word \"airport\".",
+          "bg": "Слушай за думата \"airport\" (летище)."
+        }
+      ],
+      "words": [
+        "station",
+        "bus"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "transport"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "This is the number seven bus to the city centre. We are now arriving at Central Station. Passengers for the airport, please get off here and take the number twenty-two bus. Thank you.",
+      "characters": [],
+      "question": "How do passengers get to the airport?",
+      "options": [
+        "They get off at Central Station and take the number twenty-two.",
+        "They stay on the number seven bus.",
+        "They take a train from Central Station.",
+        "They take the number seven from the city centre."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "a2.talk-directions.listen-pharmacy",
+      "type": "listen",
+      "band": "A2",
+      "skill": "listening",
+      "competence": "a2.talk-directions",
+      "objective": {
+        "en": "Follow simple directions.",
+        "bg": "Да следваш прости указания."
+      },
+      "difficulty": -2.5,
+      "explanation": {
+        "en": "James says: \"turn left at the café. It's next to the supermarket.\" The café is only where you turn.",
+        "bg": "Джеймс казва: \"turn left at the café. It's next to the supermarket.\" (завий наляво при кафенето; до супермаркета е). Кафенето е само мястото, където завиваш."
+      },
+      "hints": [
+        {
+          "en": "Where do you turn, and where is the pharmacy? They are different places.",
+          "bg": "Къде завиваш и къде е аптеката? Това са различни места."
+        }
+      ],
+      "words": [
+        "pharmacy",
+        "near",
+        "straight",
+        "left"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "directions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "Lily: Excuse me, is there a pharmacy near here?\nJames: Yes. Go straight on, then turn left at the café. It's next to the supermarket.\nLily: Left at the café. Thanks!",
+      "characters": [
+        {
+          "id": "lily",
+          "name": "Lily",
+          "presents": "female",
+          "accent": "US",
+          "tone": 5
+        },
+        {
+          "id": "james",
+          "name": "James",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 2
+        }
+      ],
+      "question": "Where is the pharmacy?",
+      "options": [
+        "Next to the supermarket",
+        "Opposite the café",
+        "Next to the café",
+        "Opposite the supermarket"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "a2.talk-directions.say-right-bus",
+      "type": "speak",
+      "band": "A2",
+      "skill": "speaking",
+      "competence": "a2.talk-directions",
+      "objective": {
+        "en": "Repeat a question about the right bus.",
+        "bg": "Да повториш въпрос дали автобусът е правилният."
+      },
+      "difficulty": -2.6,
+      "explanation": {
+        "en": "\"Is this the right bus for…?\" is a quick way to check before you get on.",
+        "bg": "\"Is this the right bus for…?\" е бърз начин да провериш, преди да се качиш."
+      },
+      "hints": [
+        {
+          "en": "\"Right\" here means \"correct\", not the direction.",
+          "bg": "Тук \"right\" значи \"правилен\", а не посоката \"дясно\"."
+        }
+      ],
+      "words": [
+        "excuse me",
+        "bus"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "repeat",
+      "prompt": "Excuse me, is this the right bus for the airport?",
+      "model": "Excuse me, is this the right bus for the airport?",
+      "keywords": [],
+      "target": "Excuse me, is this the right bus for the airport?",
+      "voice": {
+        "presents": "male",
+        "accent": "US"
+      }
+    },
+    {
+      "id": "a2.talk-directions.read-traffic-lights",
+      "type": "speak",
+      "band": "A2",
+      "skill": "speaking",
+      "competence": "a2.talk-directions",
+      "objective": {
+        "en": "Read directions aloud.",
+        "bg": "Да прочетеш указания на глас."
+      },
+      "difficulty": -2.2,
+      "explanation": {
+        "en": "Directions are a list of short orders joined by \"and\" or commas: go, turn, it's on your left.",
+        "bg": "Указанията са поредица от кратки повелителни изречения, свързани с \"and\" или запетаи: върви, завий, вляво е."
+      },
+      "hints": [
+        {
+          "en": "Pause a little at each comma.",
+          "bg": "Направи малка пауза на всяка запетая."
+        }
+      ],
+      "words": [
+        "straight",
+        "left"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "read",
+      "prompt": "Go straight on, turn right at the traffic lights, and it's on your left.",
+      "model": "Go straight on, turn right at the traffic lights, and it's on your left.",
+      "keywords": [],
+      "target": "Go straight on, turn right at the traffic lights, and it's on your left."
+    },
+    {
+      "id": "a2.talk-directions.answer-get-to-work",
+      "type": "speak",
+      "band": "A2",
+      "skill": "speaking",
+      "competence": "a2.talk-directions",
+      "objective": {
+        "en": "Say how you travel to work or school.",
+        "bg": "Да кажеш как пътуваш до работа или училище."
+      },
+      "difficulty": -1.8,
+      "explanation": {
+        "en": "Use \"by\" + transport with no \"the\": by bus, by car, by train — but \"on foot\" or \"I walk\". You can add how long it takes.",
+        "bg": "Използвай \"by\" + превозно средство без \"the\": by bus, by car, by train — но \"on foot\" или \"I walk\". Можеш да добавиш колко време отнема."
+      },
+      "hints": [
+        {
+          "en": "Try: \"I usually go by…\"",
+          "bg": "Опитай: \"I usually go by…\""
+        }
+      ],
+      "words": [
+        "bus",
+        "foot"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "answer",
+      "prompt": "How do you usually get to work or school?",
+      "model": "I usually go by bus. It takes about twenty minutes.",
+      "keywords": [
+        [
+          "bus",
+          "car",
+          "walk",
+          "foot",
+          "train",
+          "bike",
+          "tram",
+          "metro",
+          "subway",
+          "taxi",
+          "drive",
+          "cycle",
+          "trolleybus",
+          "home"
+        ]
+      ],
+      "voice": {
+        "presents": "female",
+        "accent": "GB"
+      }
+    },
+    {
+      "id": "a2.talk-directions.fix-by-bus",
+      "type": "fix",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.talk-directions",
+      "objective": {
+        "en": "Say \"by bus\" without \"the\".",
+        "bg": "Да казваш \"by bus\" без \"the\"."
+      },
+      "difficulty": -1.7,
+      "explanation": {
+        "en": "With \"by\" + transport we don't use \"the\": by bus, by car, by train. In Bulgarian you say \"с автобуса\", but in English it's just \"by bus\" (or \"on the bus\").",
+        "bg": "След \"by\" + превозно средство не слагаме \"the\": by bus, by car, by train. На български казваш \"с автобуса\", но на английски е просто \"by bus\" (или \"on the bus\")."
+      },
+      "hints": [
+        {
+          "en": "Look at the word after \"by\".",
+          "bg": "Погледни думата след \"by\"."
+        }
+      ],
+      "words": [
+        "bus"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "sentence": "We can go to the museum by the bus.",
+      "wrong": "by the bus",
+      "accept": [
+        "We can go to the museum by bus.",
+        "We can go to the museum on the bus."
+      ]
+    }
+  ]
+}

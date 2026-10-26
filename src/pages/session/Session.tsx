@@ -3,7 +3,10 @@ import { Link, useNavigate } from "react-router-dom";
 import { library } from "../../content/library";
 import { localize } from "../../content/schema";
 import { gradeWord, planSession, recordItem, type Outcome, type SessionPlan, type Step } from "../../engine/progress";
-import { requestPersistence } from "../../db/db";
+import { db, requestPersistence } from "../../db/db";
+import { award, awardForItem, checkAchievements, XP, type AchievementId } from "../../engine/xp";
+import { localDay } from "../../engine/progress";
+import type { StringKey } from "../../i18n/strings";
 import { useProfile } from "../../state/profile";
 import { Exercise } from "../../components/exercise/Exercise";
 import { NoteStep, TextStep, WordReviewStep } from "./Steps";
@@ -18,6 +21,8 @@ export function Session({ reviewOnly = false }: { reviewOnly?: boolean }) {
   const [index, setIndex] = useState(0);
   const [tally, setTally] = useState<Tally>({ first: 0, helped: 0, reviews: 0 });
   const [next, setNext] = useState<string | null>(null);
+  const [xp, setXp] = useState(0);
+  const [earned, setEarned] = useState<AchievementId[]>([]);
   const started = useRef(Date.now());
   const headingRef = useRef<HTMLHeadingElement>(null);
 
@@ -41,6 +46,16 @@ export function Session({ reviewOnly = false }: { reviewOnly?: boolean }) {
     setIndex(nextIndex);
     if (nextIndex >= steps.length) {
       void requestPersistence(); // the learner has engaged: now it's fair to ask.
+      const day = localDay();
+      // The session key is the plan's own content, so reloading and finishing the same plan can't pay twice.
+      const key = steps.map((s) => ("item" in s ? s.item.id : s.kind === "note" ? s.noteId : s.kind === "text" ? s.textId : "card" in s ? s.card.id : "")).join(",");
+      let bonus = 0;
+      if (steps.some((s) => s.phase === "practice" || s.phase === "apply")) {
+        if (await award(`session:${day}:${hashKey(key)}`, XP.session, "lesson")) bonus += XP.session;
+        if (!reviewOnly && (await award(`plan:${day}`, XP.plan, "plan"))) bonus += XP.plan;
+      }
+      if (bonus) setXp((x) => x + bonus);
+      setEarned(await checkAchievements());
       if (!reviewOnly) {
         const p = await planSession(profile);
         setNext(p.competenceId);
@@ -55,7 +70,10 @@ export function Session({ reviewOnly = false }: { reviewOnly?: boolean }) {
   };
 
   const onItem = async (step: Extract<Step, { kind: "item" | "review-item" }>, outcome: Outcome, given: string) => {
+    const isNew = !(await db.cards.get(`item:${step.item.id}`));
     await recordItem(step.item, outcome, given, { seconds: seconds() });
+    const gained = await awardForItem(step.item, isNew);
+    if (gained) setXp((x) => x + gained);
     setTally((x) => ({
       first: x.first + (step.kind === "item" && outcome === "first" ? 1 : 0),
       helped: x.helped + (outcome !== "first" ? 1 : 0),
@@ -99,6 +117,12 @@ export function Session({ reviewOnly = false }: { reviewOnly?: boolean }) {
         {finished ? (
           <div className="step step-summary">
             <h2 className="step-title">{t("session.summaryTitle")}</h2>
+            {xp > 0 && <p className="summary-xp" aria-live="polite">{t("session.xp", { n: String(xp) })}</p>}
+            {earned.length > 0 && (
+              <ul className="summary-badges">
+                {earned.map((a) => <li key={a} className="badge">{t(`ach.${a}` as StringKey)}</li>)}
+              </ul>
+            )}
             <ul className="summary-list">
               {tally.first > 0 && <li>{t("session.summaryCorrect", { n: String(tally.first) })}</li>}
               {tally.helped > 0 && <li>{t("session.summaryHelp", { n: String(tally.helped) })}</li>}
@@ -125,6 +149,7 @@ export function Session({ reviewOnly = false }: { reviewOnly?: boolean }) {
             card={step.card}
             onGrade={async (g) => {
               await gradeWord(step.card, g);
+              if (await award(`wordreview:${step.card.id}:${localDay()}`, XP.review, "review")) setXp((x) => x + XP.review);
               setTally((x) => ({ ...x, reviews: x.reviews + 1 }));
               await advance();
             }}
@@ -138,4 +163,10 @@ export function Session({ reviewOnly = false }: { reviewOnly?: boolean }) {
       </main>
     </div>
   );
+}
+
+function hashKey(s: string): string {
+  let h = 2166136261;
+  for (const ch of s) h = Math.imul(h ^ ch.charCodeAt(0), 16777619);
+  return (h >>> 0).toString(36);
 }

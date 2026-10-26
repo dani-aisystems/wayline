@@ -7,6 +7,7 @@ import { db } from "../../db/db";
 import { nextItem, result, SELF_RATING_PRIOR, type Mode, type PlacementState } from "../../engine/placement";
 import { loadVoices, speakDialogue } from "../../lib/speech";
 import { useProfile } from "../../state/profile";
+import { award, XP } from "../../engine/xp";
 import { Wordmark } from "../../components/Logo";
 import type { StringKey } from "../../i18n/strings";
 import "./placement.css";
@@ -38,6 +39,7 @@ export function Placement() {
     void (async () => {
       const id = await db.placements.add({ at: new Date().toISOString(), mode: state.mode, responses: state.responses, result: res });
       await update({ placementDraft: undefined });
+      await award(`placement:${id}`, XP.placement, "placement");
       navigate(`/placement/result/${id}`, { replace: true });
     })();
   }, [state, item, update, navigate]);

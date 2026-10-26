@@ -1,0 +1,1128 @@
+{
+  "id": "a2-past-weekend",
+  "version": 1,
+  "band": "A2",
+  "competences": [
+    {
+      "id": "a2.past-weekend",
+      "band": "A2",
+      "title": {
+        "en": "Last weekend",
+        "bg": "Миналият уикенд"
+      },
+      "canDo": {
+        "en": "I can say what I did last weekend and ask other people about their weekend, using regular and irregular past forms.",
+        "bg": "Мога да разкажа какво съм правил миналия уикенд и да попитам другите за техния, като използвам правилни и неправилни глаголи в минало време."
+      },
+      "skills": [
+        "grammar",
+        "vocabulary",
+        "speaking",
+        "reading"
+      ],
+      "prerequisites": [
+        "a1.hello"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "a2.past-weekend.note-regular",
+      "competence": "a2.past-weekend",
+      "title": {
+        "en": "Regular verbs: add -ed",
+        "bg": "Правилни глаголи: добавяш -ed"
+      },
+      "body": {
+        "en": "For finished actions in the past (yesterday, last weekend, on Saturday) use the past simple. Regular verbs add -ed: watch → watched, stay → stayed. Watch the spelling: stop → stopped, study → studied. The form is the same for every person: I watched, she watched, we watched. In Bulgarian the ending changes (гледах, гледа, гледахме), but in English it never does. In questions and negatives use did / didn't + the base verb: Did you watch…? I didn't watch…",
+        "bg": "За приключили действия в миналото (yesterday, last weekend, on Saturday) използваш past simple. Правилните глаголи получават -ed: watch → watched, stay → stayed. Внимавай с правописа: stop → stopped, study → studied. Формата е една и съща за всички лица: I watched, she watched, we watched. На български окончанието се мени (гледах, гледа, гледахме), а на английски — никога. Във въпроси и отрицания използваш did / didn't + основната форма: Did you watch…? I didn't watch…"
+      },
+      "examples": [
+        "I watched a film on Saturday.",
+        "We stayed at home and cooked dinner.",
+        "She visited her grandmother last Sunday.",
+        "Did you have a nice weekend?"
+      ]
+    },
+    {
+      "id": "a2.past-weekend.note-irregular",
+      "competence": "a2.past-weekend",
+      "title": {
+        "en": "Irregular verbs",
+        "bg": "Неправилни глаголи"
+      },
+      "body": {
+        "en": "Many common verbs are irregular. You just learn them: go → went, have → had, buy → bought, see → saw, eat → ate, get → got, meet → met. After did and didn't, the verb goes back to its base form: I went, but I didn't go (not \"didn't went\"). Did you see…? (not \"Did you saw…?\").",
+        "bg": "Много от най-честите глаголи са неправилни. Тях просто ги научаваш: go → went, have → had, buy → bought, see → saw, eat → ate, get → got, meet → met. След did и didn't глаголът се връща в основна форма: I went, но I didn't go (не \"didn't went\"). Did you see…? (не \"Did you saw…?\")."
+      },
+      "examples": [
+        "On Saturday we went to the mountains.",
+        "We had pizza for lunch.",
+        "I bought a new jacket.",
+        "I didn't go out on Sunday.",
+        "Did you see the match?"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "afternoon",
+      "pos": "noun",
+      "meaning": {
+        "en": "The part of the day between 12 o'clock and the evening.",
+        "bg": "Следобед."
+      },
+      "example": "In the afternoon I played football in the park with my friends.",
+      "forms": [
+        "afternoons"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "all",
+      "pos": "determiner",
+      "meaning": {
+        "en": "The whole of something; every one.",
+        "bg": "Цял, всички (all day = цял ден)."
+      },
+      "example": "I didn't study at all!",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "at",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Used for a place or a time: at home, at eight.",
+        "bg": "В, на — за място или час: at home (вкъщи), at eight (в осем)."
+      },
+      "example": "I didn't study at all!",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "buy",
+      "pos": "verb",
+      "meaning": {
+        "en": "To get something by paying money for it.",
+        "bg": "Купувам."
+      },
+      "example": "I bought a new jacket.",
+      "forms": [
+        "buys",
+        "bought",
+        "buying"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "bread",
+      "pos": "noun",
+      "meaning": {
+        "en": "A basic food made from flour, water and yeast.",
+        "bg": "Хляб."
+      },
+      "example": "On Saturday morning I went to the market with my mum and we bought fruit and fresh bread.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "but",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "Used to add something different or surprising.",
+        "bg": "Но, обаче."
+      },
+      "example": "We lost, but it was fun!",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "cook",
+      "pos": "verb",
+      "meaning": {
+        "en": "To make food hot and ready to eat.",
+        "bg": "Готвя."
+      },
+      "example": "We stayed at home and cooked dinner.",
+      "forms": [
+        "cooks",
+        "cooked",
+        "cooking"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "do",
+      "pos": "verb",
+      "meaning": {
+        "en": "A very common verb: to perform an action. Also used to make questions and negatives (Did you…? I didn't…).",
+        "bg": "Правя. Също помощен глагол за въпроси и отрицания (Did you…? I didn't…)."
+      },
+      "example": "What did you do?",
+      "forms": [
+        "does",
+        "did",
+        "didn't",
+        "don't",
+        "doesn't",
+        "done",
+        "doing"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "dinner",
+      "pos": "noun",
+      "meaning": {
+        "en": "The main meal of the day, usually in the evening.",
+        "bg": "Вечеря."
+      },
+      "example": "We stayed at home and cooked dinner.",
+      "forms": [
+        "dinners"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "film",
+      "pos": "noun",
+      "meaning": {
+        "en": "A story you watch at the cinema or on TV.",
+        "bg": "Филм."
+      },
+      "example": "I watched a film on Saturday.",
+      "forms": [
+        "films"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "football",
+      "pos": "noun",
+      "meaning": {
+        "en": "A game where two teams kick a ball and try to score goals.",
+        "bg": "Футбол."
+      },
+      "example": "In the afternoon I played football in the park with my friends.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "fresh",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Recently made or picked, not old.",
+        "bg": "Пресен, свеж."
+      },
+      "example": "On Saturday morning I went to the market with my mum and we bought fruit and fresh bread.",
+      "forms": [
+        "fresher",
+        "freshest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "fruit",
+      "pos": "noun",
+      "meaning": {
+        "en": "Food like apples, bananas and oranges.",
+        "bg": "Плод, плодове."
+      },
+      "example": "On Saturday morning I went to the market with my mum and we bought fruit and fresh bread.",
+      "forms": [
+        "fruits"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "fun",
+      "pos": "noun",
+      "meaning": {
+        "en": "Enjoyment; something that is fun makes you happy.",
+        "bg": "Забавление, кеф (it was fun = беше забавно)."
+      },
+      "example": "We lost, but it was fun!",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "go",
+      "pos": "verb",
+      "meaning": {
+        "en": "To move from one place to another.",
+        "bg": "Отивам, ходя."
+      },
+      "example": "I didn't go out on Sunday.",
+      "forms": [
+        "goes",
+        "went",
+        "gone",
+        "going"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "great",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Very good.",
+        "bg": "Страхотен, чудесен."
+      },
+      "example": "Mine was great.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "have",
+      "pos": "verb",
+      "meaning": {
+        "en": "To own something; also used in phrases like have lunch, have a party.",
+        "bg": "Имам; също в изрази като have lunch (обядвам), have a party (правя купон)."
+      },
+      "example": "We had pizza for lunch.",
+      "forms": [
+        "has",
+        "had",
+        "having",
+        "'ve",
+        "I've",
+        "you've",
+        "we've",
+        "they've",
+        "haven't",
+        "hasn't",
+        "hadn't"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "home",
+      "pos": "noun",
+      "meaning": {
+        "en": "The place where you live.",
+        "bg": "Дом, вкъщи (at home)."
+      },
+      "example": "We stayed at home and cooked dinner.",
+      "forms": [
+        "homes"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "jacket",
+      "pos": "noun",
+      "meaning": {
+        "en": "A short coat.",
+        "bg": "Яке."
+      },
+      "example": "I bought a new jacket.",
+      "forms": [
+        "jackets"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "last",
+      "pos": "determiner",
+      "meaning": {
+        "en": "The one before this one: last week, last Saturday.",
+        "bg": "Миналия, последния: last week (миналата седмица)."
+      },
+      "example": "She visited her grandmother last Sunday.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "lose",
+      "pos": "verb",
+      "meaning": {
+        "en": "Not to win a game; also not to know where something is.",
+        "bg": "Губя (мач или нещо)."
+      },
+      "example": "We lost, but it was fun!",
+      "forms": [
+        "loses",
+        "lost",
+        "losing"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "lunch",
+      "pos": "noun",
+      "meaning": {
+        "en": "The meal you eat in the middle of the day.",
+        "bg": "Обяд."
+      },
+      "example": "We had pizza for lunch.",
+      "forms": [
+        "lunches"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "market",
+      "pos": "noun",
+      "meaning": {
+        "en": "A place where people buy and sell food and other things, often outside.",
+        "bg": "Пазар."
+      },
+      "example": "On Saturday morning I went to the market with my mum and we bought fruit and fresh bread.",
+      "forms": [
+        "markets"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "match",
+      "pos": "noun",
+      "meaning": {
+        "en": "A sports game between two people or teams.",
+        "bg": "Мач."
+      },
+      "example": "Did you see the match?",
+      "forms": [
+        "matches"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "mine",
+      "pos": "pronoun",
+      "meaning": {
+        "en": "The one that belongs to me.",
+        "bg": "Моят, моята, моето (без съществително след него)."
+      },
+      "example": "Mine was great.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "morning",
+      "pos": "noun",
+      "meaning": {
+        "en": "The early part of the day, before 12 o'clock.",
+        "bg": "Сутрин."
+      },
+      "example": "On Saturday morning I went to the market with my mum and we bought fruit and fresh bread.",
+      "forms": [
+        "mornings"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "mountain",
+      "pos": "noun",
+      "meaning": {
+        "en": "A very high hill.",
+        "bg": "Планина."
+      },
+      "example": "On Saturday we went to the mountains.",
+      "forms": [
+        "mountains"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "on",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Used for days and dates (on Sunday) and for a surface (on the table).",
+        "bg": "В, на — за дни (on Sunday = в неделя) и повърхност (on the table = на масата)."
+      },
+      "example": "I didn't go out on Sunday.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "out",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Away from home or inside; go out = leave home to have fun.",
+        "bg": "Навън; go out = излизам (с приятели, вечер)."
+      },
+      "example": "I didn't go out on Sunday.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "park",
+      "pos": "noun",
+      "meaning": {
+        "en": "A public garden in a town.",
+        "bg": "Парк."
+      },
+      "example": "In the afternoon I played football in the park with my friends.",
+      "forms": [
+        "parks"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "pasta",
+      "pos": "noun",
+      "meaning": {
+        "en": "Italian food like spaghetti.",
+        "bg": "Паста, макаронени изделия."
+      },
+      "example": "I watched two films and cooked pasta for my family.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "pizza",
+      "pos": "noun",
+      "meaning": {
+        "en": "A flat round bread with tomato, cheese and other things on top.",
+        "bg": "Пица."
+      },
+      "example": "We had pizza for lunch.",
+      "forms": [
+        "pizzas"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "play",
+      "pos": "verb",
+      "meaning": {
+        "en": "To take part in a game or sport.",
+        "bg": "Играя."
+      },
+      "example": "In the afternoon I played football in the park with my friends.",
+      "forms": [
+        "plays",
+        "played",
+        "playing"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "rain",
+      "pos": "verb",
+      "meaning": {
+        "en": "When water falls from the sky.",
+        "bg": "Вали (дъжд)."
+      },
+      "example": "On Sunday it rained all day, so I stayed at home.",
+      "forms": [
+        "rains",
+        "rained",
+        "raining"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "so",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "And because of this.",
+        "bg": "Затова, така че."
+      },
+      "example": "On Sunday it rained all day, so I stayed at home.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "soon",
+      "pos": "adverb",
+      "meaning": {
+        "en": "In a short time from now.",
+        "bg": "Скоро."
+      },
+      "example": "Write soon!",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "stay",
+      "pos": "verb",
+      "meaning": {
+        "en": "To remain in a place.",
+        "bg": "Оставам."
+      },
+      "example": "We stayed at home and cooked dinner.",
+      "forms": [
+        "stays",
+        "stayed",
+        "staying"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "study",
+      "pos": "verb",
+      "meaning": {
+        "en": "To learn about something, for example for a test.",
+        "bg": "Уча (за изпит, в училище)."
+      },
+      "example": "I didn't study at all!",
+      "forms": [
+        "studies",
+        "studied",
+        "studying"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "visit",
+      "pos": "verb",
+      "meaning": {
+        "en": "To go and see a person or a place.",
+        "bg": "Посещавам, отивам на гости."
+      },
+      "example": "She visited her grandmother last Sunday.",
+      "forms": [
+        "visits",
+        "visited",
+        "visiting"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "watch",
+      "pos": "verb",
+      "meaning": {
+        "en": "To look at something for some time, for example a film.",
+        "bg": "Гледам (филм, мач)."
+      },
+      "example": "I watched a film on Saturday.",
+      "forms": [
+        "watches",
+        "watched",
+        "watching"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "weekend",
+      "pos": "noun",
+      "meaning": {
+        "en": "Saturday and Sunday.",
+        "bg": "Уикенд, събота и неделя."
+      },
+      "example": "How was your weekend?",
+      "forms": [
+        "weekends"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "wasn't",
+      "pos": "verb",
+      "meaning": {
+        "en": "Short for \"was not\" (past of \"be\" in the negative).",
+        "bg": "Съкратено от \"was not\" — не беше (минало на \"be\" с отрицание)."
+      },
+      "example": "I wasn't at home on Sunday.",
+      "forms": [
+        "weren't"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "write",
+      "pos": "verb",
+      "meaning": {
+        "en": "To put words on paper or on a screen.",
+        "bg": "Пиша."
+      },
+      "example": "Write soon!",
+      "forms": [
+        "writes",
+        "wrote",
+        "written",
+        "writing"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "for",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Used to say who gets something or why: for my family.",
+        "bg": "За: for my family (за семейството ми)."
+      },
+      "example": "We had pizza for lunch.",
+      "forms": [],
+      "band": "A1"
+    }
+  ],
+  "texts": [
+    {
+      "id": "a2.past-weekend.text-message",
+      "competence": "a2.past-weekend",
+      "band": "A2",
+      "title": "How was your weekend?",
+      "paragraphs": [
+        "Hi Lina! How was your weekend? Mine was great.",
+        "On Saturday morning I went to the market with my mum and we bought fruit and fresh bread. In the afternoon I played football in the park with my friends. We lost, but it was fun!",
+        "On Sunday it rained all day, so I stayed at home. I watched two films and cooked pasta for my family. I didn't study at all!",
+        "What did you do? Write soon! Niki"
+      ]
+    }
+  ],
+  "names": [
+    "Lina",
+    "Niki",
+    "Ana",
+    "Saturday",
+    "Sunday",
+    "Friday"
+  ],
+  "items": [
+    {
+      "id": "a2.past-weekend.visited",
+      "type": "cloze",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.past-weekend",
+      "objective": {
+        "en": "Use a regular verb in the past simple.",
+        "bg": "Да използваш правилен глагол в past simple."
+      },
+      "difficulty": -2.7,
+      "sentence": "Last Saturday I ___ (visit) my grandparents.",
+      "accept": [
+        "visited"
+      ],
+      "explanation": {
+        "en": "\"Last Saturday\" is a finished time, so we use the past simple. \"Visit\" is regular: add -ed → visited. In English the form doesn't change for I, you, she or we.",
+        "bg": "\"Last Saturday\" е приключило време, затова използваме past simple. \"Visit\" е правилен глагол: добавяш -ed → visited. На английски формата не се мени за I, you, she или we."
+      },
+      "hints": [
+        {
+          "en": "It's a regular verb. What ending does it need?",
+          "bg": "Правилен глагол е. Какво окончание му трябва?"
+        }
+      ],
+      "words": [
+        "visit",
+        "last"
+      ],
+      "structures": [
+        "past-simple.regular"
+      ],
+      "tags": [
+        "past-simple"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.past-weekend.went",
+      "type": "cloze",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.past-weekend",
+      "objective": {
+        "en": "Use an irregular verb in the past simple.",
+        "bg": "Да използваш неправилен глагол в past simple."
+      },
+      "difficulty": -2.5,
+      "sentence": "On Sunday we ___ (go) to the cinema.",
+      "accept": [
+        "went"
+      ],
+      "explanation": {
+        "en": "\"Go\" is irregular: the past is \"went\", not \"goed\". Irregular verbs don't take -ed — you need to learn them one by one.",
+        "bg": "\"Go\" е неправилен глагол: миналото време е \"went\", а не \"goed\". Неправилните глаголи не получават -ed — трябва да ги научиш един по един."
+      },
+      "hints": [
+        {
+          "en": "This verb is irregular. It doesn't end in -ed.",
+          "bg": "Този глагол е неправилен. Не завършва на -ed."
+        },
+        {
+          "en": "It starts with w-.",
+          "bg": "Започва с w-."
+        }
+      ],
+      "words": [
+        "go"
+      ],
+      "structures": [
+        "past-simple.irregular"
+      ],
+      "tags": [
+        "past-simple",
+        "irregular"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.past-weekend.did-you-watch",
+      "type": "choice",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.past-weekend",
+      "objective": {
+        "en": "Make a past simple question with \"did\".",
+        "bg": "Да направиш въпрос в past simple с \"did\"."
+      },
+      "difficulty": -2.2,
+      "prompt": "Which question about last night is correct?",
+      "options": [
+        "Did you watched the match?",
+        "Did you watch the match?",
+        "Do you watched the match?",
+        "Watched you the match?"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Past questions use \"did\" + the base verb: Did you watch…? \"Did\" already shows the past, so the main verb has no -ed. In Bulgarian you can just change your voice (\"Гледа ли мача?\"), but English needs \"did\" at the start.",
+        "bg": "Въпросите в минало време са с \"did\" + основната форма на глагола: Did you watch…? \"Did\" вече показва миналото, затова основният глагол е без -ed. На български може само с интонация (\"Гледа ли мача?\"), а на английски в началото трябва \"did\"."
+      },
+      "hints": [
+        {
+          "en": "How many past forms do you need in the question?",
+          "bg": "Колко форми за минало време ти трябват във въпроса?"
+        }
+      ],
+      "words": [
+        "watch",
+        "match"
+      ],
+      "structures": [
+        "past-simple.questions"
+      ],
+      "tags": [
+        "past-simple",
+        "questions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.past-weekend.didnt-go-out",
+      "type": "cloze",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.past-weekend",
+      "objective": {
+        "en": "Make a past simple negative.",
+        "bg": "Да направиш отрицание в past simple."
+      },
+      "difficulty": -2.3,
+      "sentence": "I ___ (not / go) out on Friday. I was too tired.",
+      "accept": [
+        "didn't go",
+        "did not go"
+      ],
+      "explanation": {
+        "en": "The past negative is didn't (did not) + base verb: I didn't go out. Not \"I wasn't go\" and not \"I didn't went\".",
+        "bg": "Отрицанието в минало време е didn't (did not) + основна форма: I didn't go out. Не \"I wasn't go\" и не \"I didn't went\"."
+      },
+      "hints": [
+        {
+          "en": "You need two words: the past helper + not, then the base verb.",
+          "bg": "Трябват ти две думи: помощният глагол в минало + not, после основната форма."
+        }
+      ],
+      "words": [
+        "go",
+        "out"
+      ],
+      "structures": [
+        "past-simple.negative"
+      ],
+      "tags": [
+        "past-simple",
+        "negatives"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.past-weekend.what-did-you-do",
+      "type": "build",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.past-weekend",
+      "objective": {
+        "en": "Ask about someone's weekend.",
+        "bg": "Да попиташ някого за уикенда му."
+      },
+      "difficulty": -2.0,
+      "tiles": [
+        "What",
+        "did",
+        "you",
+        "do",
+        "last",
+        "weekend"
+      ],
+      "accept": [
+        "What did you do last weekend?"
+      ],
+      "explanation": {
+        "en": "The question word goes first, then did + you + base verb: What did you do…? Here \"do\" is the main verb (правя), and \"did\" is the helper that makes the question.",
+        "bg": "Въпросителната дума е първа, после did + you + основната форма: What did you do…? Тук \"do\" е основният глагол (правя), а \"did\" е помощният, който прави въпроса."
+      },
+      "hints": [
+        {
+          "en": "Start with the question word.",
+          "bg": "Започни с въпросителната дума."
+        },
+        {
+          "en": "After \"What\" comes \"did you\".",
+          "bg": "След \"What\" идва \"did you\"."
+        }
+      ],
+      "words": [
+        "what",
+        "do",
+        "last",
+        "weekend"
+      ],
+      "structures": [
+        "past-simple.questions",
+        "questions.wh"
+      ],
+      "tags": [
+        "questions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.past-weekend.studied",
+      "type": "choice",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.past-weekend",
+      "objective": {
+        "en": "Spell regular past forms correctly.",
+        "bg": "Да пишеш правилно миналите форми."
+      },
+      "difficulty": -2.2,
+      "prompt": "Choose the correct word: \"Yesterday I ___ for my English test.\"",
+      "options": [
+        "studyed",
+        "studed",
+        "studied",
+        "studies"
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "When a verb ends in consonant + y, the y changes to i before -ed: study → studied, try → tried. But play → played, because there is a vowel before the y. \"Studies\" is present, not past.",
+        "bg": "Когато глаголът завършва на съгласна + y, y става i пред -ed: study → studied, try → tried. Но play → played, защото пред y има гласна. \"Studies\" е сегашно време, а не минало."
+      },
+      "hints": [
+        {
+          "en": "Look at the letter before the y.",
+          "bg": "Виж буквата преди y."
+        }
+      ],
+      "words": [
+        "study",
+        "test"
+      ],
+      "structures": [
+        "past-simple.spelling"
+      ],
+      "tags": [
+        "past-simple",
+        "spelling"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.past-weekend.bought",
+      "type": "choice",
+      "band": "A2",
+      "skill": "vocabulary",
+      "competence": "a2.past-weekend",
+      "objective": {
+        "en": "Use the past form of \"buy\".",
+        "bg": "Да използваш миналата форма на \"buy\"."
+      },
+      "difficulty": -2.1,
+      "prompt": "Complete: \"I ___ a new phone on Saturday.\"",
+      "options": [
+        "bought",
+        "buyed",
+        "brought",
+        "buy"
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "\"Buy\" is irregular: buy → bought. Be careful: \"brought\" is the past of \"bring\" (нося, донасям), not \"buy\" (купувам). They sound similar, so many learners mix them up.",
+        "bg": "\"Buy\" е неправилен глагол: buy → bought. Внимавай: \"brought\" е миналото на \"bring\" (нося, донасям), а не на \"buy\" (купувам). Звучат подобно и затова често се бъркат."
+      },
+      "hints": [
+        {
+          "en": "\"Buy\" is irregular.",
+          "bg": "\"Buy\" е неправилен глагол."
+        },
+        {
+          "en": "Brought = донесох. You need купих.",
+          "bg": "Brought = донесох. Ти търсиш купих."
+        }
+      ],
+      "words": [
+        "buy",
+        "phone"
+      ],
+      "structures": [
+        "past-simple.irregular"
+      ],
+      "tags": [
+        "past-simple",
+        "irregular"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.past-weekend.text-sunday",
+      "type": "choice",
+      "band": "A2",
+      "skill": "reading",
+      "competence": "a2.past-weekend",
+      "objective": {
+        "en": "Find information in a message.",
+        "bg": "Да откриеш информация в съобщение."
+      },
+      "difficulty": -2.0,
+      "prompt": "What did Niki do on Sunday?",
+      "options": [
+        "Played football in the park",
+        "Studied for a test",
+        "Went to the market",
+        "Stayed at home and watched films"
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Niki writes: \"On Sunday it rained all day, so I stayed at home. I watched two films…\" Football and the market were on Saturday.",
+        "bg": "Niki пише: \"On Sunday it rained all day, so I stayed at home. I watched two films…\" Футболът и пазарът са били в събота."
+      },
+      "hints": [
+        {
+          "en": "Find the word \"Sunday\" in the message.",
+          "bg": "Намери думата \"Sunday\" в съобщението."
+        }
+      ],
+      "words": [
+        "stay",
+        "watch"
+      ],
+      "structures": [],
+      "tags": [
+        "reading"
+      ],
+      "textId": "a2.past-weekend.text-message",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.past-weekend.text-played",
+      "type": "cloze",
+      "band": "A2",
+      "skill": "reading",
+      "competence": "a2.past-weekend",
+      "objective": {
+        "en": "Find a past verb in a text.",
+        "bg": "Да откриеш глагол в минало време в текст."
+      },
+      "difficulty": -2.4,
+      "sentence": "On Saturday afternoon, Niki ___ football with some friends.",
+      "accept": [
+        "played"
+      ],
+      "explanation": {
+        "en": "Niki writes: \"In the afternoon I played football in the park.\" \"Play\" is regular: played. There is a vowel before the y, so the y doesn't change.",
+        "bg": "Niki пише: \"In the afternoon I played football in the park.\" \"Play\" е правилен глагол: played. Пред y има гласна, затова y не се променя."
+      },
+      "hints": [
+        {
+          "en": "Read the second part of the message again.",
+          "bg": "Прочети пак втората част на съобщението."
+        }
+      ],
+      "words": [
+        "play",
+        "football"
+      ],
+      "structures": [
+        "past-simple.regular"
+      ],
+      "tags": [
+        "reading"
+      ],
+      "textId": "a2.past-weekend.text-message",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.past-weekend.nice-weekend",
+      "type": "build",
+      "band": "A2",
+      "skill": "speaking",
+      "competence": "a2.past-weekend",
+      "objective": {
+        "en": "Ask a friendly question about the weekend.",
+        "bg": "Да зададеш приятелски въпрос за уикенда."
+      },
+      "difficulty": -1.8,
+      "tiles": [
+        "Did",
+        "you",
+        "have",
+        "a",
+        "good",
+        "weekend"
+      ],
+      "accept": [
+        "Did you have a good weekend?"
+      ],
+      "explanation": {
+        "en": "A very common question on Monday: \"Did you have a good weekend?\" \"Have\" stays in the base form after \"did\" — not \"Did you had…?\".",
+        "bg": "Много често питане в понеделник: \"Did you have a good weekend?\" След \"did\" глаголът \"have\" остава в основна форма — не \"Did you had…?\"."
+      },
+      "hints": [
+        {
+          "en": "Start with \"Did\".",
+          "bg": "Започни с \"Did\"."
+        }
+      ],
+      "words": [
+        "have",
+        "good",
+        "weekend"
+      ],
+      "structures": [
+        "past-simple.questions"
+      ],
+      "tags": [
+        "questions",
+        "phrases"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

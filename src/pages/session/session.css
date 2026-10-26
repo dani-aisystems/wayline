@@ -31,3 +31,6 @@
 .grade { padding: 0 var(--s-2); }
 
 .summary-list { margin: 0; padding-left: 1.2em; display: grid; gap: var(--s-2); font-size: var(--fs-lg); }
+.summary-xp { font-size: var(--fs-xl); font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+.summary-badges { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.badge { display: inline-flex; align-items: center; gap: var(--s-2); min-height: 32px; padding: 0 var(--s-3); border-radius: var(--r-pill); background: var(--good-tint); color: var(--good); font-weight: 600; font-size: var(--fs-sm); }

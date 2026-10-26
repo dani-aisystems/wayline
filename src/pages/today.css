@@ -43,3 +43,72 @@
 .route-band { font-weight: 400; font-size: var(--fs-xs); color: var(--text-soft); border: var(--border); border-radius: var(--r-pill); padding: 0 var(--s-2); margin-left: var(--s-1); }
 .route-detail { color: var(--text-soft); font-size: var(--fs-sm); }
 .banner-info { background: var(--surface-sunk); }
+
+/* Dashboard */
+.dash { max-width: var(--content-max); gap: var(--s-5); }
+.dash-hero { display: grid; gap: var(--s-2); justify-items: start; padding-block: var(--s-3) var(--s-2); }
+.dash-hello { font-size: var(--fs-2xl); letter-spacing: -0.01em; }
+.dash-focus { font-family: var(--font-read); font-size: var(--fs-lg); line-height: var(--lh-read); color: var(--text-soft); max-width: 52ch; }
+.dash-cta { margin-top: var(--s-2); min-height: 52px; padding: 0 var(--s-6); font-size: var(--fs-md); }
+.dash-grid { display: grid; gap: var(--s-5); grid-template-columns: minmax(0, 1fr); }
+.dash-main, .dash-side { display: grid; gap: var(--s-5); align-content: start; min-width: 0; }
+@media (min-width: 960px) { .dash-grid { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); } }
+.card { display: grid; gap: var(--s-3); padding: var(--s-5); border: var(--border); border-radius: var(--r-md); background: var(--surface-raised); justify-items: start; min-width: 0; }
+.card > * { max-width: 100%; }
+.card-head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-3); width: 100%; }
+.card-meta { color: var(--text-soft); font-size: var(--fs-sm); font-variant-numeric: tabular-nums; }
+.mini-title { font-size: var(--fs-sm); margin-top: var(--s-2); }
+
+.plan-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; width: 100%; }
+.plan-item { position: relative; display: flex; align-items: center; gap: var(--s-3); min-height: 48px; padding-left: 4px; }
+.plan-item::before { content: ""; position: absolute; left: 9px; top: 32px; bottom: -16px; width: 2px; background: var(--line); }
+.plan-item:last-child::before { display: none; }
+.plan-dot { flex: none; width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--accent); background: var(--surface-raised); margin-left: 0; }
+.plan-item[data-done="true"] .plan-dot { background: var(--good); border-color: var(--good); }
+.plan-link { color: var(--text); text-decoration: none; font-weight: 600; flex: 1; min-height: 44px; display: flex; align-items: center; }
+.plan-link:hover { color: var(--accent); }
+
+.journey-name { font-size: var(--fs-lg); font-weight: 600; }
+.journey-skills { color: var(--text-soft); font-size: var(--fs-sm); }
+
+.stat-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s-3); width: 100%; margin: 0; }
+.stat-row dt { color: var(--text-soft); font-size: var(--fs-xs); }
+.stat-row dd { margin: 0; font-size: var(--fs-xl); font-weight: 600; font-variant-numeric: tabular-nums; }
+.tag-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-1); }
+.tag-list a { color: var(--text); }
+
+.xp-level { font-weight: 600; color: var(--accent); }
+.xp-total { font-size: var(--fs-2xl); font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+.dash-band { font-weight: 600; }
+.skill-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); width: 100%; }
+.skill-row { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr) auto; gap: var(--s-3); align-items: center; min-height: 28px; }
+.skill-name { font-size: var(--fs-sm); font-weight: 600; }
+.skill-val { font-size: var(--fs-xs); color: var(--text-soft); white-space: nowrap; }
+.skill-none { grid-column: 2 / -1; }
+.insights { margin: 0; padding-left: 1.1em; display: grid; gap: var(--s-2); }
+.lib-links { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-1); width: 100%; }
+.lib-links li { display: flex; justify-content: space-between; align-items: center; min-height: 40px; border-bottom: var(--border); }
+.lib-links li:last-child { border-bottom: 0; }
+.lib-links a { color: var(--text); font-weight: 600; text-decoration: none; }
+.lib-links a:hover { color: var(--accent); }
+
+.week-chart { width: 100%; max-width: 360px; height: auto; }
+.wc-axis { stroke: var(--line); }
+.wc-grid { stroke: var(--line); stroke-dasharray: 2 4; }
+.wc-bar { fill: color-mix(in srgb, var(--accent) 45%, var(--surface-raised)); }
+.wc-today { fill: var(--accent); }
+.wc-label { fill: var(--text-soft); font-size: 11px; font-family: var(--font-ui); }
+
+/* Phones: one column in learning order — plan, revision, XP, skills, journey, insights, week, library, route. */
+@media (max-width: 959px) {
+  .dash-main, .dash-side { display: contents; }
+  .dash-grid > * > [data-order="1"] { order: 1; }
+  .dash-grid > * > [data-order="2"] { order: 2; }
+  .dash-grid > * > [data-order="3"] { order: 3; }
+  .dash-grid > * > [data-order="4"] { order: 4; }
+  .dash-grid > * > [data-order="5"] { order: 5; }
+  .dash-grid > * > [data-order="6"] { order: 6; }
+  .dash-grid > * > [data-order="7"] { order: 7; }
+  .dash-grid > * > [data-order="8"] { order: 8; }
+  .dash-grid > * > [data-order="9"] { order: 9; }
+}

@@ -1,0 +1,762 @@
+{
+  "id": "talk-b2-meeting",
+  "version": 1,
+  "band": "B2",
+  "competences": [
+    {
+      "id": "b2.talk-meeting",
+      "band": "B2",
+      "title": {
+        "en": "A team decision",
+        "bg": "Решение в екип"
+      },
+      "canDo": {
+        "en": "I can put forward a proposal in a meeting, disagree without causing offence, come in politely, and sum up what has been agreed.",
+        "bg": "Мога да направя предложение на среща, да не се съглася, без да обидя никого, учтиво да се включа в разговора и да обобщя какво е решено."
+      },
+      "skills": [
+        "speaking",
+        "listening",
+        "grammar"
+      ],
+      "prerequisites": [
+        "a1.hello"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "b2.talk-meeting.note-meeting-language",
+      "competence": "b2.talk-meeting",
+      "title": {
+        "en": "Proposing, disagreeing and summing up",
+        "bg": "Предложения, несъгласие и обобщение"
+      },
+      "body": {
+        "en": "In meetings, English speakers usually soften disagreement: first show you've understood (\"I see where you're coming from\", \"That's a fair point\"), then add your concern with \"but\" or \"however\". To propose, use \"I'd like to propose that we…\" or \"Would it be worth…?\". To join the discussion without being rude, ask \"Could I just come in here?\". To close a topic, sum up: \"So, to sum up, we're agreed on… but not on…\". \"Let's take that offline\" means \"let's discuss it later, outside this meeting\".",
+        "bg": "На срещи англоговорящите обикновено смекчават несъгласието: първо показват, че са разбрали (\"I see where you're coming from\" — разбирам какво имаш предвид, \"That's a fair point\" — основателно е), а после добавят притеснението си с \"but\" или \"however\". За предложение използвай \"I'd like to propose that we…\" или \"Would it be worth…?\" (Дали си струва…?). За да се включиш в разговора, без да прекъсваш грубо, питай \"Could I just come in here?\". За да приключиш дадена тема, обобщи: \"So, to sum up, we're agreed on… but not on…\". \"Let's take that offline\" значи \"да го обсъдим по-късно, извън тази среща\"."
+      },
+      "examples": [
+        "I'd like to propose that we move the launch to May.",
+        "I see where you're coming from, but I'm not sure it's realistic.",
+        "That's a fair point; however, we also need to consider the budget.",
+        "Could I just come in here?",
+        "So, to sum up, we're agreed on the date but not on the budget.",
+        "Let's take that offline and come back to it on Monday."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "propose",
+      "pos": "verb",
+      "ipa": "/prəˈpoʊz/",
+      "meaning": {
+        "en": "To formally suggest a plan or idea for others to consider.",
+        "bg": "Предлагам (официално) план или идея."
+      },
+      "example": "I'd like to propose a new plan.",
+      "forms": [
+        "proposes",
+        "proposed",
+        "proposing"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "realistic",
+      "pos": "adjective",
+      "ipa": "/ˌriːəˈlɪstɪk/",
+      "meaning": {
+        "en": "Possible to achieve; based on how things really are.",
+        "bg": "Реалистичен, постижим."
+      },
+      "example": "Is that date realistic?",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "consider",
+      "pos": "verb",
+      "ipa": "/kənˈsɪdər/",
+      "meaning": {
+        "en": "To think carefully about something before deciding.",
+        "bg": "Обмислям, вземам предвид."
+      },
+      "example": "We need to consider the costs.",
+      "forms": [
+        "considers",
+        "considered",
+        "considering"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "just",
+      "pos": "adverb",
+      "ipa": "/dʒʌst/",
+      "meaning": {
+        "en": "Only, simply; also used to make a request sound smaller and more polite.",
+        "bg": "Само, просто; използва се и за да прозвучи молбата по-скромно и учтиво."
+      },
+      "example": "Could I just ask a question?",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "sum up",
+      "pos": "phrase",
+      "ipa": "/sʌm ʌp/",
+      "meaning": {
+        "en": "To give the main points of a discussion in a few words.",
+        "bg": "Обобщавам."
+      },
+      "example": "Could you sum up the main points?",
+      "forms": [
+        "sum",
+        "sums",
+        "summed",
+        "summing"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "offline",
+      "pos": "adverb",
+      "ipa": "/ˌɒfˈlaɪn/",
+      "meaning": {
+        "en": "In business: in a separate, smaller conversation, not in the current meeting.",
+        "bg": "В бизнес контекст: в отделен, по-малък разговор, а не на текущата среща."
+      },
+      "example": "Let's discuss it offline.",
+      "forms": [],
+      "band": "B2"
+    }
+  ],
+  "texts": [],
+  "names": [
+    "Helen",
+    "Raj",
+    "Petra",
+    "Marcus",
+    "Yuki",
+    "Oliver",
+    "Claire",
+    "Ahmed",
+    "Kate",
+    "Finance",
+    "May",
+    "Monday",
+    "Friday",
+    "March"
+  ],
+  "items": [
+    {
+      "id": "b2.talk-meeting.dlg-launch-date",
+      "type": "dialogue",
+      "band": "B2",
+      "skill": "speaking",
+      "competence": "b2.talk-meeting",
+      "objective": {
+        "en": "Disagree diplomatically, make a concrete proposal and sum up a decision accurately.",
+        "bg": "Да не се съгласиш дипломатично, да направиш конкретно предложение и точно да обобщиш решение."
+      },
+      "difficulty": 0.6,
+      "explanation": {
+        "en": "Acknowledge first, then disagree with a reason (\"I see where you're coming from, but…\"). A proposal works best when it answers both sides' worries — here, a soft launch keeps marketing happy and gives testing time. A summary must be accurate and neutral, including the condition Raj added.",
+        "bg": "Първо покажи, че разбираш, после изрази несъгласие с причина (\"I see where you're coming from, but…\"). Предложението е най-добро, когато отговаря на притесненията и на двете страни — тук пробното пускане устройва маркетинга и дава време на тестерите. Обобщението трябва да е точно и неутрално, включително условието, което добави Радж."
+      },
+      "hints": [
+        {
+          "en": "In your summary, include Raj's condition about marketing.",
+          "bg": "В обобщението включи условието на Радж за маркетинга."
+        }
+      ],
+      "words": [
+        "propose",
+        "sum up",
+        "realistic"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "disagreeing",
+        "summarising",
+        "business"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "A product meeting. Your team is deciding whether to launch the new app in March. You lead the testing team.",
+        "bg": "Продуктова среща. Екипът ви решава дали да пусне новото приложение през март. Ти ръководиш екипа по тестване."
+      },
+      "characters": [
+        {
+          "id": "helen",
+          "name": "Helen",
+          "presents": "female",
+          "accent": "GB",
+          "tone": 1
+        },
+        {
+          "id": "raj",
+          "name": "Raj",
+          "presents": "male",
+          "accent": "US",
+          "tone": 3
+        },
+        {
+          "id": "petra",
+          "name": "Petra",
+          "presents": "female",
+          "accent": "US",
+          "tone": 5
+        }
+      ],
+      "learnerAs": "petra",
+      "lines": [
+        {
+          "by": "helen",
+          "text": "Right, the main item today is the app launch. Raj, you think we should go ahead in March?"
+        },
+        {
+          "by": "raj",
+          "text": "Absolutely. Marketing's ready, and if we wait, our competitors will beat us to it."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "I see where you're coming from, Raj, but testing found some serious bugs last week. I'm not convinced we'll be ready.",
+              "correct": true
+            },
+            {
+              "text": "That's completely wrong, Raj. We obviously can't launch in March.",
+              "correct": false,
+              "why": {
+                "en": "Far too blunt for a meeting — it attacks Raj and gives no reason.",
+                "bg": "Твърде рязко за среща — напада Радж и не дава никаква причина."
+              }
+            },
+            {
+              "text": "With respect, Raj, you're right, so let's launch in March.",
+              "correct": false,
+              "why": {
+                "en": "\"With respect\" signals that you're about to disagree, so following it with agreement sends a mixed message — and it ignores the bugs.",
+                "bg": "\"With respect\" подсказва, че ще възразиш, така че съгласието след него е объркващо — и пренебрегва грешките в приложението."
+              }
+            }
+          ]
+        },
+        {
+          "by": "helen",
+          "text": "That's a fair concern. So what would you suggest?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Would it be worth doing a soft launch in March with a small group of users, then the full launch in May?",
+              "correct": true
+            },
+            {
+              "text": "Let's just delay everything until next year and see.",
+              "correct": false,
+              "why": {
+                "en": "Not a constructive proposal: it ignores Raj's point about competitors and has no clear plan.",
+                "bg": "Не е градивно предложение: пренебрегва думите на Радж за конкурентите и няма ясен план."
+              }
+            },
+            {
+              "text": "We could maybe perhaps possibly wait a bit?",
+              "correct": false,
+              "why": {
+                "en": "So much hedging that you sound unsure, and there's no concrete idea for the team to discuss.",
+                "bg": "Толкова много смекчаване, че звучиш несигурно, а и няма конкретна идея, която екипът да обсъди."
+              }
+            }
+          ]
+        },
+        {
+          "by": "raj",
+          "text": "Hmm. That could work, as long as marketing can still announce something in March."
+        },
+        {
+          "by": "helen",
+          "text": "OK. Petra, could you sum up where we've got to?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Sure. So, we're agreed on a soft launch in March and the full launch in May, provided marketing has something to announce in March.",
+              "correct": true
+            },
+            {
+              "text": "Sure. So, we've agreed to launch everything in March.",
+              "correct": false,
+              "why": {
+                "en": "That's not what was decided — the full launch moved to May.",
+                "bg": "Не това беше решено — пълното пускане се премести за май."
+              }
+            },
+            {
+              "text": "Sure. Basically, I was right from the start.",
+              "correct": false,
+              "why": {
+                "en": "A summary should be neutral. This sounds arrogant and doesn't say what was agreed.",
+                "bg": "Обобщението трябва да е неутрално. Това звучи арогантно и не казва какво е решено."
+              }
+            }
+          ]
+        },
+        {
+          "by": "helen",
+          "text": "Great. Let's go with that."
+        }
+      ]
+    },
+    {
+      "id": "b2.talk-meeting.dlg-training-budget",
+      "type": "dialogue",
+      "band": "B2",
+      "skill": "speaking",
+      "competence": "b2.talk-meeting",
+      "objective": {
+        "en": "Interrupt politely, explain a concern with consequences, and move a detail out of the meeting.",
+        "bg": "Да се включиш учтиво, да обясниш притеснение с последствията му и да изнесеш детайл извън срещата."
+      },
+      "difficulty": 0.9,
+      "explanation": {
+        "en": "\"Could I just come in here?\" is the standard polite interruption (\"just\" makes it smaller). A strong concern explains a consequence (\"we'll probably see more complaints\") instead of judging the idea. \"Take it offline\" = discuss later, separately.",
+        "bg": "\"Could I just come in here?\" е стандартният учтив начин да се включиш (\"just\" смекчава молбата). Силното притеснение посочва последствие (\"we'll probably see more complaints\"), вместо да осъжда идеята. \"Take it offline\" = да го обсъдим по-късно, отделно."
+      },
+      "hints": [
+        {
+          "en": "\"Come in\" in a meeting means \"join the conversation\".",
+          "bg": "\"Come in\" на среща значи \"да се включиш в разговора\"."
+        }
+      ],
+      "words": [
+        "just",
+        "offline",
+        "propose"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "interrupting",
+        "disagreeing",
+        "business"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "A video call about next year's training budget. You manage the customer support team.",
+        "bg": "Видеоразговор за бюджета за обучения през следващата година. Ти ръководиш екипа за обслужване на клиенти."
+      },
+      "characters": [
+        {
+          "id": "marcus",
+          "name": "Marcus",
+          "presents": "male",
+          "accent": "US",
+          "tone": 2
+        },
+        {
+          "id": "yuki",
+          "name": "Yuki",
+          "presents": "female",
+          "accent": "US",
+          "tone": 6
+        },
+        {
+          "id": "oliver",
+          "name": "Oliver",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 4
+        }
+      ],
+      "learnerAs": "oliver",
+      "lines": [
+        {
+          "by": "marcus",
+          "text": "…so, to keep costs down, I'm proposing we cut the training budget by thirty percent across all departments."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Sorry, Marcus, could I just come in here for a second?",
+              "correct": true
+            },
+            {
+              "text": "Stop, Marcus. I need to speak now.",
+              "correct": false,
+              "why": {
+                "en": "Much too abrupt — it sounds like an order to a colleague.",
+                "bg": "Прекалено рязко — звучи като заповед към колега."
+              }
+            },
+            {
+              "text": "Marcus, can I come here for a second?",
+              "correct": false,
+              "why": {
+                "en": "\"Come here\" is about moving physically. In a meeting it's \"come in\" — join the discussion.",
+                "bg": "\"Come here\" означава да дойдеш физически някъде. На среща е \"come in\" — да се включиш в разговора."
+              }
+            }
+          ]
+        },
+        {
+          "by": "marcus",
+          "text": "Of course, go ahead."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "My concern is that support is where most of our new hires start. If we cut their training, we'll probably see more complaints.",
+              "correct": true
+            },
+            {
+              "text": "My concern is that support is where most of our new hires start, so your idea is ridiculous.",
+              "correct": false,
+              "why": {
+                "en": "Calling his idea \"ridiculous\" is personal and will make Marcus defensive. Explain the consequence instead.",
+                "bg": "Да наречеш идеята му \"нелепа\" е лично и ще накара Маркъс да се защитава. По-добре обясни последствието."
+              }
+            },
+            {
+              "text": "My concern are that new hires needs training.",
+              "correct": false,
+              "why": {
+                "en": "Two grammar slips: \"My concern is\" and \"new hires need\".",
+                "bg": "Две граматически грешки: \"My concern is\" и \"new hires need\"."
+              }
+            }
+          ]
+        },
+        {
+          "by": "yuki",
+          "text": "That's a fair point. Maybe we could make an exception for new staff training?"
+        },
+        {
+          "by": "marcus",
+          "text": "I could live with that, as long as the other teams still cut thirty percent."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "That sounds like a reasonable compromise. Shall we take the exact figures offline and come back to them on Monday?",
+              "correct": true
+            },
+            {
+              "text": "Fine. Whatever you want.",
+              "correct": false,
+              "why": {
+                "en": "Sounds annoyed and dismissive, even though you've just got what you asked for.",
+                "bg": "Звучи раздразнено и пренебрежително, при това точно след като получи каквото искаше."
+              }
+            },
+            {
+              "text": "That sounds like a reasonable compromise. Shall we take the exact figures online?",
+              "correct": false,
+              "why": {
+                "en": "\"Online\" doesn't mean \"later, separately\". The meeting phrase is \"take it offline\".",
+                "bg": "\"Online\" не значи \"по-късно, отделно\". Изразът за срещи е \"take it offline\"."
+              }
+            }
+          ]
+        },
+        {
+          "by": "marcus",
+          "text": "Works for me. I'll send out a revised proposal."
+        }
+      ]
+    },
+    {
+      "id": "b2.talk-meeting.listen-hiring-decision",
+      "type": "listen",
+      "band": "B2",
+      "skill": "listening",
+      "competence": "b2.talk-meeting",
+      "objective": {
+        "en": "Follow a short discussion to its decision.",
+        "bg": "Да проследиш кратка дискусия до решението."
+      },
+      "difficulty": 0.5,
+      "explanation": {
+        "en": "Claire prefers two juniors, but Ahmed points out nobody has time to mentor them. Claire concedes: \"Let's go with your suggestion for now\" — the senior developer.",
+        "bg": "Клеър предпочита двама младши, но Ахмед отбелязва, че никой няма време да ги обучава. Клеър отстъпва: \"Let's go with your suggestion for now\" — тоест старшия програмист."
+      },
+      "hints": [
+        {
+          "en": "\"Fair enough\" shows someone is giving way. Whose suggestion wins?",
+          "bg": "\"Fair enough\" показва, че някой отстъпва. Чие предложение надделява?"
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "business",
+        "decisions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "Claire: So, the question is whether we hire two juniors or one senior developer.\nAhmed: Personally, I'd go for the senior. We just don't have time to train anyone right now.\nClaire: I take your point, but two juniors would give us more flexibility in the long run.\nAhmed: True, but only if someone has time to mentor them — and frankly, nobody does.\nClaire: Fair enough. Let's go with your suggestion for now and look at it again in the autumn.",
+      "characters": [
+        {
+          "id": "claire",
+          "name": "Claire",
+          "presents": "female",
+          "accent": "GB",
+          "tone": 1
+        },
+        {
+          "id": "ahmed",
+          "name": "Ahmed",
+          "presents": "male",
+          "accent": "US",
+          "tone": 3
+        }
+      ],
+      "question": "What do they decide?",
+      "options": [
+        "To hire one senior developer for now",
+        "To hire two junior developers",
+        "To hire one junior and one senior",
+        "To wait until the autumn before hiring anyone"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "b2.talk-meeting.listen-meeting-summary",
+      "type": "listen",
+      "band": "B2",
+      "skill": "listening",
+      "competence": "b2.talk-meeting",
+      "objective": {
+        "en": "Understand what is decided and what is still open in a spoken summary.",
+        "bg": "Да разбереш кое е решено и кое още не в устно обобщение."
+      },
+      "difficulty": 1.1,
+      "explanation": {
+        "en": "\"The budget question is still open\" means it hasn't been decided: Finance want more detail first. The date, the slides and the invitation have all been settled.",
+        "bg": "\"The budget question is still open\" значи, че въпросът с бюджета още не е решен: финансовият отдел иска повече подробности. Датата, слайдовете и поканата са уточнени."
+      },
+      "hints": [
+        {
+          "en": "Listen for the word \"open\".",
+          "bg": "Слушай за думата \"open\"."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "business",
+        "summarising"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "Hi everyone, just a quick summary of this morning's meeting for those who couldn't make it. We've agreed to move the client presentation from Thursday to the following Tuesday, mainly because the design team need more time. The budget question is still open — Finance want more detail before they sign anything off. Next steps: Kate's updating the slides, and I'll send out a new invitation by the end of the day.",
+      "characters": [],
+      "question": "Which issue has NOT been decided yet?",
+      "options": [
+        "The budget",
+        "The date of the client presentation",
+        "Who will update the slides",
+        "Who will send the new invitation"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "b2.talk-meeting.say-fair-point",
+      "type": "speak",
+      "band": "B2",
+      "skill": "speaking",
+      "competence": "b2.talk-meeting",
+      "objective": {
+        "en": "Repeat a diplomatic disagreement.",
+        "bg": "Да повториш дипломатично несъгласие."
+      },
+      "difficulty": 0.2,
+      "explanation": {
+        "en": "\"That's a fair point, but…\" accepts part of the other person's argument before you challenge it.",
+        "bg": "\"That's a fair point, but…\" приема част от аргумента на другия, преди да го оспориш."
+      },
+      "hints": [
+        {
+          "en": "Stress \"fair\" and \"not sure\".",
+          "bg": "Наблегни на \"fair\" и \"not sure\"."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "repeat",
+      "prompt": "That's a fair point, but I'm not sure the numbers support it.",
+      "model": "That's a fair point, but I'm not sure the numbers support it.",
+      "keywords": [],
+      "target": "That's a fair point, but I'm not sure the numbers support it.",
+      "voice": {
+        "presents": "male",
+        "accent": "GB"
+      }
+    },
+    {
+      "id": "b2.talk-meeting.read-sum-up-timeline",
+      "type": "speak",
+      "band": "B2",
+      "skill": "speaking",
+      "competence": "b2.talk-meeting",
+      "objective": {
+        "en": "Read a meeting summary aloud.",
+        "bg": "Да прочетеш обобщение от среща на глас."
+      },
+      "difficulty": 0.4,
+      "explanation": {
+        "en": "A good summary separates what's agreed from what's still open, and ends with a next step or deadline.",
+        "bg": "Доброто обобщение разделя решеното от нерешеното и завършва със следваща стъпка или срок."
+      },
+      "hints": [
+        {
+          "en": "Pause after \"To sum up\".",
+          "bg": "Направи пауза след \"To sum up\"."
+        }
+      ],
+      "words": [
+        "sum up"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "read",
+      "prompt": "To sum up, we've agreed on the timeline, but we still need to look at the budget in more detail before Friday.",
+      "model": "To sum up, we've agreed on the timeline, but we still need to look at the budget in more detail before Friday.",
+      "keywords": [],
+      "target": "To sum up, we've agreed on the timeline, but we still need to look at the budget in more detail before Friday."
+    },
+    {
+      "id": "b2.talk-meeting.answer-cancel-meeting",
+      "type": "speak",
+      "band": "B2",
+      "skill": "speaking",
+      "competence": "b2.talk-meeting",
+      "objective": {
+        "en": "Give a balanced opinion with a reason.",
+        "bg": "Да изразиш балансирано мнение с аргумент."
+      },
+      "difficulty": 1.2,
+      "explanation": {
+        "en": "State your position (agree, disagree or partly agree) and support it with a reason. Partial agreement often sounds the most professional.",
+        "bg": "Заяви позицията си (съгласен, несъгласен или отчасти съгласен) и я подкрепи с причина. Частичното съгласие често звучи най-професионално."
+      },
+      "hints": [
+        {
+          "en": "Try: \"I partly agree, because… but…\"",
+          "bg": "Опитай: \"I partly agree, because… but…\""
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "answer",
+      "prompt": "A colleague suggests cancelling the weekly team meeting to save time. Do you agree? Give a reason.",
+      "model": "I partly agree, because some of our meetings run too long, but I think we still need a short weekly check-in.",
+      "keywords": [
+        [
+          "agree",
+          "disagree",
+          "sure",
+          "idea",
+          "point",
+          "think",
+          "feel",
+          "right"
+        ],
+        [
+          "because",
+          "since",
+          "as",
+          "but",
+          "so",
+          "however",
+          "although"
+        ]
+      ],
+      "voice": {
+        "presents": "female",
+        "accent": "US"
+      }
+    },
+    {
+      "id": "b2.talk-meeting.fix-suggest-postponing",
+      "type": "fix",
+      "band": "B2",
+      "skill": "grammar",
+      "competence": "b2.talk-meeting",
+      "objective": {
+        "en": "Use \"suggest\" with the right pattern.",
+        "bg": "Да използваш \"suggest\" с правилната конструкция."
+      },
+      "difficulty": 0.3,
+      "explanation": {
+        "en": "\"Suggest\" is never followed by \"to\" + verb. Use \"suggest\" + -ing, or \"suggest (that) we\" + verb: \"I suggest postponing…\" / \"I suggest we postpone…\".",
+        "bg": "След \"suggest\" никога не идва \"to\" + глагол. Използвай \"suggest\" + -ing или \"suggest (that) we\" + глагол: \"I suggest postponing…\" / \"I suggest we postpone…\"."
+      },
+      "hints": [
+        {
+          "en": "Can \"suggest\" take \"to\" + verb?",
+          "bg": "Може ли след \"suggest\" да има \"to\" + глагол?"
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "business"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "sentence": "I suggest to postpone the launch until we've fixed the bugs.",
+      "wrong": "suggest to postpone",
+      "accept": [
+        "I suggest postponing the launch until we've fixed the bugs.",
+        "I suggest we postpone the launch until we've fixed the bugs.",
+        "I suggest that we postpone the launch until we've fixed the bugs."
+      ]
+    }
+  ]
+}

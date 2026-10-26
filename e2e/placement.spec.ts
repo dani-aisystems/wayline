@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { onboard, startAt, takeTest } from "./helpers";
+import { answerExercise, onboard, startAt, takeTest } from "./helpers";
 
 test.beforeEach(({ browserName, isMobile }) => {
   test.skip(!isMobile && browserName !== "chromium", "placement journeys run on chromium + phones");
@@ -31,6 +31,18 @@ test("an advanced learner who rated themselves low can still reach C2", async ({
   await takeTest(page, "C2");
   await expect(page.locator(".res-band")).toHaveText(/C1|C2/);
   await expect(page.locator(".res-actions")).not.toContainText("A1");
+
+  // Their lessons are advanced, not beginner material.
+  await startAt(page);
+  await expect(page.locator(".journey-name .route-band")).toHaveText(/C1|C2/);
+  await page.getByRole("link", { name: /^(Start today's session|Continue learning)$/ }).click();
+  const first = page.locator(".exercise").first();
+  for (let i = 0; i < 5 && !(await first.isVisible()); i++) {
+    await page.locator(".exercise, .step-note, .step-text").first().waitFor();
+    if (!(await first.isVisible())) await page.getByRole("button", { name: "Continue" }).click();
+  }
+  expect(await first.getAttribute("data-item-id")).toMatch(/^c[12]\./);
+  await answerExercise(page, "right");
 });
 
 test("an interrupted test resumes where it stopped", async ({ page }) => {

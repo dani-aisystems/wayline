@@ -1,0 +1,894 @@
+{
+  "id": "a2-plans",
+  "version": 1,
+  "band": "A2",
+  "competences": [
+    {
+      "id": "a2.plans",
+      "band": "A2",
+      "title": {
+        "en": "Plans & invitations",
+        "bg": "Планове и покани"
+      },
+      "canDo": {
+        "en": "I can talk about my plans with \"going to\", invite someone, and accept or politely say no to an invitation.",
+        "bg": "Мога да говоря за плановете си с \"going to\", да поканя някого и да приема или учтиво да откажа покана."
+      },
+      "skills": [
+        "grammar",
+        "speaking",
+        "reading"
+      ],
+      "prerequisites": [
+        "a1.hello"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "a2.plans.note-going-to",
+      "competence": "a2.plans",
+      "title": {
+        "en": "Plans with \"going to\"",
+        "bg": "Планове с \"going to\""
+      },
+      "body": {
+        "en": "When you have already decided to do something, use be + going to + verb: I'm going to visit my cousin. \"Be\" changes with the person (I'm, you're, she's), but \"going to\" and the verb don't. In Bulgarian you often use \"ще\" or the present (\"В събота отивам на кино\"); in English \"going to\" shows the plan is already decided.",
+        "bg": "Когато вече си решил да направиш нещо, използвай be + going to + глагол: I'm going to visit my cousin. \"Be\" се мени според лицето (I'm, you're, she's), а \"going to\" и глаголът — не. На български често казваш \"ще\" или сегашно време (\"В събота отивам на кино\"); на английски \"going to\" показва, че планът вече е решен."
+      },
+      "examples": [
+        "I'm going to visit my cousin on Saturday.",
+        "Are you going to come to the party?",
+        "We're not going to cook tonight."
+      ]
+    },
+    {
+      "id": "a2.plans.note-invitations",
+      "competence": "a2.plans",
+      "title": {
+        "en": "Inviting, saying yes and saying no",
+        "bg": "Покана, приемане и отказ"
+      },
+      "body": {
+        "en": "\"Would you like to…?\" is a polite invitation. With friends you can also say \"Do you want to…?\". Both need \"to\" before the verb. To say yes: \"I'd love to!\" or \"That sounds great.\" To say no politely, say sorry and give a reason: \"Sorry, I can't. I'm going to work late.\" Just \"No\" sounds rude in English.",
+        "bg": "\"Would you like to…?\" е учтива покана. С приятели можеш да кажеш и \"Do you want to…?\". И при двете пред глагола трябва \"to\". За да приемеш: \"I'd love to!\" или \"That sounds great.\" За да откажеш учтиво, извини се и дай причина: \"Sorry, I can't. I'm going to work late.\" Само \"No\" звучи грубо на английски."
+      },
+      "examples": [
+        "Would you like to come to my birthday party?",
+        "Do you want to go for a coffee?",
+        "I'd love to, thanks!",
+        "Sorry, I can't. I'm going to work late.",
+        "Maybe next time."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "birthday",
+      "pos": "noun",
+      "meaning": {
+        "en": "The day each year when you remember the day you were born.",
+        "bg": "Рожден ден."
+      },
+      "example": "It's my birthday on Friday.",
+      "forms": [
+        "birthdays"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "bring",
+      "pos": "verb",
+      "meaning": {
+        "en": "To take something or someone with you to a place.",
+        "bg": "Нося, донасям."
+      },
+      "example": "Can I bring a cake?",
+      "forms": [
+        "brings",
+        "brought",
+        "bringing"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "cake",
+      "pos": "noun",
+      "meaning": {
+        "en": "A sweet food for parties and birthdays.",
+        "bg": "Торта, кекс."
+      },
+      "example": "Can I bring a cake?",
+      "forms": [
+        "cakes"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "can",
+      "pos": "verb",
+      "meaning": {
+        "en": "Used to say that something is possible or allowed.",
+        "bg": "Мога. Can't = не мога."
+      },
+      "example": "Can I bring a cake?",
+      "forms": [
+        "can't",
+        "cannot",
+        "could"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "coffee",
+      "pos": "noun",
+      "meaning": {
+        "en": "A hot brown drink.",
+        "bg": "Кафе."
+      },
+      "example": "Do you want to go for a coffee?",
+      "forms": [
+        "coffees"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "come",
+      "pos": "verb",
+      "meaning": {
+        "en": "To move to the place where the speaker is.",
+        "bg": "Идвам."
+      },
+      "example": "Would you like to come?",
+      "forms": [
+        "comes",
+        "came",
+        "coming"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "cousin",
+      "pos": "noun",
+      "meaning": {
+        "en": "The child of your aunt or uncle.",
+        "bg": "Братовчед, братовчедка."
+      },
+      "example": "I'm going to visit my cousin on Saturday.",
+      "forms": [
+        "cousins"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "flat",
+      "pos": "noun",
+      "meaning": {
+        "en": "A home with rooms on one floor of a building (US: apartment).",
+        "bg": "Апартамент."
+      },
+      "example": "I'm going to have a small party at my flat.",
+      "forms": [
+        "flats"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "late",
+      "pos": "adverb",
+      "meaning": {
+        "en": "After the usual or expected time.",
+        "bg": "Късно, до късно."
+      },
+      "example": "Sorry, I can't. I'm going to work late.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "like",
+      "pos": "verb",
+      "meaning": {
+        "en": "To enjoy something. \"Would like\" = want (polite).",
+        "bg": "Харесвам. \"Would like\" = искам (учтиво)."
+      },
+      "example": "Would you like to come?",
+      "forms": [
+        "likes",
+        "liked",
+        "liking"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "love",
+      "pos": "verb",
+      "meaning": {
+        "en": "To like something very much. \"I'd love to\" = Yes, with pleasure.",
+        "bg": "Обичам. \"I'd love to\" = С удоволствие."
+      },
+      "example": "I'd love to, thanks!",
+      "forms": [
+        "loves",
+        "loved",
+        "loving"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "maybe",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Perhaps; possibly.",
+        "bg": "Може би."
+      },
+      "example": "Maybe next time.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "music",
+      "pos": "noun",
+      "meaning": {
+        "en": "Sounds of instruments or voices that people enjoy.",
+        "bg": "Музика."
+      },
+      "example": "Lisa and Tom are going to bring some music.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "next",
+      "pos": "determiner",
+      "meaning": {
+        "en": "The one after this one: next week, next time.",
+        "bg": "Следващ: next week (следващата седмица)."
+      },
+      "example": "Maybe next time.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "no",
+      "pos": "interjection",
+      "meaning": {
+        "en": "The opposite of yes.",
+        "bg": "Не."
+      },
+      "example": "No, he can't.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "party",
+      "pos": "noun",
+      "meaning": {
+        "en": "A time when people meet to have fun, eat and dance.",
+        "bg": "Купон, парти."
+      },
+      "example": "Are you going to come to the party?",
+      "forms": [
+        "parties"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "pity",
+      "pos": "noun",
+      "meaning": {
+        "en": "\"That's a pity\" = that's sad, that's a shame.",
+        "bg": "\"That's a pity\" = жалко."
+      },
+      "example": "That's a pity.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "please",
+      "pos": "adverb",
+      "meaning": {
+        "en": "A polite word when you ask for something or say yes.",
+        "bg": "Моля."
+      },
+      "example": "Yes, please!",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "some",
+      "pos": "determiner",
+      "meaning": {
+        "en": "A number or amount of something.",
+        "bg": "Малко, някакви, няколко."
+      },
+      "example": "Lisa and Tom are going to bring some music.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "sorry",
+      "pos": "adjective",
+      "meaning": {
+        "en": "What you say when you apologise.",
+        "bg": "Съжалявам, извинявай."
+      },
+      "example": "Sorry, I can't. I'm going to work late.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "thanks",
+      "pos": "interjection",
+      "meaning": {
+        "en": "A friendly \"thank you\".",
+        "bg": "Благодаря, мерси."
+      },
+      "example": "I'd love to, thanks!",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "that",
+      "pos": "pronoun",
+      "meaning": {
+        "en": "A word for a thing or idea that is not here or was just said.",
+        "bg": "Това, онова (that's = that is)."
+      },
+      "example": "That's a pity.",
+      "forms": [
+        "that's",
+        "those"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "time",
+      "pos": "noun",
+      "meaning": {
+        "en": "The hour on the clock; also an occasion (next time).",
+        "bg": "Час, време; също път (next time = следващия път)."
+      },
+      "example": "What time?",
+      "forms": [
+        "times"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "tonight",
+      "pos": "adverb",
+      "meaning": {
+        "en": "This evening or night.",
+        "bg": "Довечера, тази вечер."
+      },
+      "example": "We're not going to cook tonight.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "want",
+      "pos": "verb",
+      "meaning": {
+        "en": "To wish to have or do something.",
+        "bg": "Искам."
+      },
+      "example": "Do you want to go for a coffee?",
+      "forms": [
+        "wants",
+        "wanted",
+        "wanting"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "work",
+      "pos": "verb",
+      "meaning": {
+        "en": "To do your job.",
+        "bg": "Работя."
+      },
+      "example": "Sorry, I can't. I'm going to work late.",
+      "forms": [
+        "works",
+        "worked",
+        "working"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "would",
+      "pos": "verb",
+      "meaning": {
+        "en": "Used in polite questions and offers: Would you like…? I'd love to.",
+        "bg": "Използва се в учтиви въпроси и отговори: Would you like…? (Искаш ли…?) I'd love to (С удоволствие)."
+      },
+      "example": "I'd love to, thanks!",
+      "forms": [
+        "'d",
+        "I'd",
+        "you'd",
+        "we'd",
+        "she'd",
+        "he'd",
+        "they'd",
+        "wouldn't"
+      ],
+      "band": "A2"
+    }
+  ],
+  "texts": [
+    {
+      "id": "a2.plans.text-party",
+      "competence": "a2.plans",
+      "band": "A2",
+      "title": "A birthday party",
+      "paragraphs": [
+        "Maya: Hi Sam! It's my birthday on Friday. I'm going to have a small party at my flat. Would you like to come?",
+        "Sam: Oh, thanks! I'd love to. What time?",
+        "Maya: At eight. Lisa and Tom are going to bring some music.",
+        "Sam: Great! Is Ivan going to come too?",
+        "Maya: No, he can't. He's going to visit his parents in Burgas this weekend.",
+        "Sam: That's a pity. Can I bring a cake?",
+        "Maya: Yes, please! See you on Friday."
+      ]
+    }
+  ],
+  "names": [
+    "Maya",
+    "Sam",
+    "Lisa",
+    "Tom",
+    "Ivan",
+    "Burgas",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ],
+  "items": [
+    {
+      "id": "a2.plans.im-going",
+      "type": "cloze",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.plans",
+      "objective": {
+        "en": "Form \"going to\" for a plan.",
+        "bg": "Да образуваш \"going to\" за план."
+      },
+      "difficulty": -2.7,
+      "sentence": "I'm ___ (go) to visit my aunt next weekend.",
+      "accept": [
+        "going"
+      ],
+      "explanation": {
+        "en": "For plans we use be + going to + verb: I'm going to visit… The word \"going\" never changes.",
+        "bg": "За планове използваме be + going to + глагол: I'm going to visit… Думата \"going\" никога не се променя."
+      },
+      "hints": [
+        {
+          "en": "I'm ___ to + verb.",
+          "bg": "I'm ___ to + глагол."
+        }
+      ],
+      "words": [
+        "go",
+        "visit"
+      ],
+      "structures": [
+        "going-to"
+      ],
+      "tags": [
+        "future",
+        "plans"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.plans.we-are-going",
+      "type": "cloze",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.plans",
+      "objective": {
+        "en": "Use the right form of \"be\" with \"going to\".",
+        "bg": "Да използваш правилната форма на \"be\" с \"going to\"."
+      },
+      "difficulty": -2.6,
+      "sentence": "Look, I've got the tickets! We ___ going to watch a film tonight.",
+      "accept": [
+        "are",
+        "'re"
+      ],
+      "explanation": {
+        "en": "\"Going to\" needs \"be\" before it, and \"be\" agrees with the subject: we are (we're) going to. Without \"are\" the sentence is wrong.",
+        "bg": "Пред \"going to\" трябва \"be\", а \"be\" се съгласува с подлога: we are (we're) going to. Без \"are\" изречението е грешно."
+      },
+      "hints": [
+        {
+          "en": "Which form of \"be\" goes with \"we\"?",
+          "bg": "Коя форма на \"be\" върви с \"we\"?"
+        }
+      ],
+      "words": [
+        "be",
+        "go",
+        "tonight"
+      ],
+      "structures": [
+        "going-to"
+      ],
+      "tags": [
+        "future",
+        "be"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.plans.accept-invitation",
+      "type": "choice",
+      "band": "A2",
+      "skill": "speaking",
+      "competence": "a2.plans",
+      "objective": {
+        "en": "Accept an invitation naturally.",
+        "bg": "Да приемеш покана естествено."
+      },
+      "difficulty": -2.2,
+      "prompt": "A friend asks: \"Would you like to come to the cinema on Saturday?\" You want to go. What do you say?",
+      "options": [
+        "I'd love to!",
+        "Yes, I would like.",
+        "Yes, I like.",
+        "Yes, I like it."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "\"I'd love to!\" is the natural answer. \"Would like\" needs something after it — \"Yes, I'd like to\" is fine, but not \"Yes, I would like.\" \"I like\" means you like it in general (харесвам), not that you want to go.",
+        "bg": "\"I'd love to!\" е естественият отговор. След \"would like\" трябва още нещо — \"Yes, I'd like to\" е правилно, но \"Yes, I would like.\" не е. \"I like\" значи, че нещо ти харесва по принцип, а не че искаш да отидеш."
+      },
+      "hints": [
+        {
+          "en": "One answer means \"С удоволствие!\".",
+          "bg": "Един от отговорите значи \"С удоволствие!\"."
+        }
+      ],
+      "words": [
+        "love",
+        "cinema"
+      ],
+      "structures": [
+        "would-like"
+      ],
+      "tags": [
+        "invitations"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.plans.decline-politely",
+      "type": "choice",
+      "band": "A2",
+      "skill": "speaking",
+      "competence": "a2.plans",
+      "objective": {
+        "en": "Decline an invitation politely.",
+        "bg": "Да откажеш покана учтиво."
+      },
+      "difficulty": -2.0,
+      "prompt": "A colleague invites you to lunch, but you have a meeting. What is the best answer?",
+      "options": [
+        "No.",
+        "No, I don't want.",
+        "I'm sorry, I can't. I've got a meeting.",
+        "Sorry, I'm not wanting."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A polite \"no\" in English has two parts: say sorry and give a reason. \"No, I don't want\" is impolite and also incomplete (want what?). \"I'm not wanting\" is not correct English.",
+        "bg": "Учтивото \"не\" на английски има две части: извиняваш се и даваш причина. \"No, I don't want\" е неучтиво и непълно (какво не искаш?). \"I'm not wanting\" не е правилно на английски."
+      },
+      "hints": [
+        {
+          "en": "Look for an answer with \"sorry\" and a reason.",
+          "bg": "Потърси отговор със \"sorry\" и причина."
+        }
+      ],
+      "words": [
+        "sorry",
+        "meeting"
+      ],
+      "structures": [],
+      "tags": [
+        "invitations",
+        "politeness"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.plans.would-you-like-party",
+      "type": "build",
+      "band": "A2",
+      "skill": "speaking",
+      "competence": "a2.plans",
+      "objective": {
+        "en": "Invite someone politely.",
+        "bg": "Да поканиш някого учтиво."
+      },
+      "difficulty": -2.1,
+      "tiles": [
+        "Would",
+        "you",
+        "like",
+        "to",
+        "come",
+        "to",
+        "my",
+        "party"
+      ],
+      "accept": [
+        "Would you like to come to my party?"
+      ],
+      "explanation": {
+        "en": "A polite invitation: Would you like + to + verb? \"Would\" comes first because it is a question. There are two \"to\"s: like to come, come to my party.",
+        "bg": "Учтива покана: Would you like + to + глагол? \"Would\" е първо, защото е въпрос. Има две \"to\": like to come (да дойдеш), come to my party (на купона ми)."
+      },
+      "hints": [
+        {
+          "en": "Start with \"Would\".",
+          "bg": "Започни с \"Would\"."
+        },
+        {
+          "en": "Would you like to come…",
+          "bg": "Would you like to come…"
+        }
+      ],
+      "words": [
+        "would",
+        "like",
+        "come",
+        "party"
+      ],
+      "structures": [
+        "would-like"
+      ],
+      "tags": [
+        "invitations",
+        "questions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.plans.would-like-to",
+      "type": "cloze",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.plans",
+      "objective": {
+        "en": "Use \"to\" after \"would like\".",
+        "bg": "Да използваш \"to\" след \"would like\"."
+      },
+      "difficulty": -2.5,
+      "sentence": "Would you like ___ have dinner with us on Sunday?",
+      "accept": [
+        "to"
+      ],
+      "explanation": {
+        "en": "After \"would like\" we need \"to\" + verb: would like to have. It's like Bulgarian \"искаш ли да…\" — the \"да\" is \"to\".",
+        "bg": "След \"would like\" трябва \"to\" + глагол: would like to have. Като в \"искаш ли да…\" — \"да\" е \"to\"."
+      },
+      "hints": [
+        {
+          "en": "Think of \"да\" in \"Искаш ли да вечеряш с нас?\".",
+          "bg": "Помисли за \"да\" в \"Искаш ли да вечеряш с нас?\"."
+        }
+      ],
+      "words": [
+        "would",
+        "like",
+        "dinner"
+      ],
+      "structures": [
+        "would-like"
+      ],
+      "tags": [
+        "invitations"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.plans.isnt-going-to-work",
+      "type": "build",
+      "band": "A2",
+      "skill": "grammar",
+      "competence": "a2.plans",
+      "objective": {
+        "en": "Make a negative with \"going to\".",
+        "bg": "Да направиш отрицание с \"going to\"."
+      },
+      "difficulty": -1.9,
+      "tiles": [
+        "She",
+        "isn't",
+        "going",
+        "to",
+        "work",
+        "tomorrow"
+      ],
+      "accept": [
+        "She isn't going to work tomorrow.",
+        "Tomorrow she isn't going to work.",
+        "Isn't she going to work tomorrow?"
+      ],
+      "explanation": {
+        "en": "For a negative plan, put \"not\" after \"be\": She isn't (is not) going to work tomorrow. The rest stays the same.",
+        "bg": "За отрицателен план слагаш \"not\" след \"be\": She isn't (is not) going to work tomorrow. Останалото не се променя."
+      },
+      "hints": [
+        {
+          "en": "Start with \"She isn't…\".",
+          "bg": "Започни със \"She isn't…\"."
+        }
+      ],
+      "words": [
+        "work",
+        "tomorrow"
+      ],
+      "structures": [
+        "going-to"
+      ],
+      "tags": [
+        "future",
+        "negatives"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.plans.text-ivan",
+      "type": "choice",
+      "band": "A2",
+      "skill": "reading",
+      "competence": "a2.plans",
+      "objective": {
+        "en": "Understand a reason in a dialogue.",
+        "bg": "Да разбереш причина в диалог."
+      },
+      "difficulty": -2.0,
+      "prompt": "Why can't Ivan come to the party?",
+      "options": [
+        "He is going to work late.",
+        "He is ill.",
+        "He doesn't like parties.",
+        "He is going to visit his parents."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Maya says: \"He's going to visit his parents in Burgas this weekend.\"",
+        "bg": "Maya казва: \"He's going to visit his parents in Burgas this weekend.\""
+      },
+      "hints": [
+        {
+          "en": "Find the line with \"Ivan\" and read the answer after it.",
+          "bg": "Намери реда с \"Ivan\" и прочети отговора след него."
+        }
+      ],
+      "words": [
+        "visit",
+        "parent"
+      ],
+      "structures": [
+        "going-to"
+      ],
+      "tags": [
+        "reading"
+      ],
+      "textId": "a2.plans.text-party",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.plans.text-time",
+      "type": "cloze",
+      "band": "A2",
+      "skill": "reading",
+      "competence": "a2.plans",
+      "objective": {
+        "en": "Find a time in a dialogue.",
+        "bg": "Да намериш час в диалог."
+      },
+      "difficulty": -2.4,
+      "sentence": "Maya's party starts at ___ o'clock.",
+      "accept": [
+        "eight",
+        "8"
+      ],
+      "explanation": {
+        "en": "Sam asks \"What time?\" and Maya answers \"At eight.\"",
+        "bg": "Sam пита \"What time?\", а Maya отговаря \"At eight.\""
+      },
+      "hints": [
+        {
+          "en": "Find Sam's question \"What time?\".",
+          "bg": "Намери въпроса на Sam \"What time?\"."
+        }
+      ],
+      "words": [
+        "time"
+      ],
+      "structures": [],
+      "tags": [
+        "reading",
+        "time"
+      ],
+      "textId": "a2.plans.text-party",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "a2.plans.text-cake",
+      "type": "choice",
+      "band": "A2",
+      "skill": "reading",
+      "competence": "a2.plans",
+      "objective": {
+        "en": "Understand who is going to do what.",
+        "bg": "Да разбереш кой какво ще направи."
+      },
+      "difficulty": -1.8,
+      "prompt": "What is Sam going to bring?",
+      "options": [
+        "Some music",
+        "A cake",
+        "Flowers",
+        "Pizza"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sam asks \"Can I bring a cake?\" and Maya says \"Yes, please!\" Lisa and Tom are going to bring the music, not Sam.",
+        "bg": "Sam пита \"Can I bring a cake?\", а Maya казва \"Yes, please!\" Музиката ще я донесат Lisa и Tom, а не Sam."
+      },
+      "hints": [
+        {
+          "en": "Music is Lisa and Tom's job.",
+          "bg": "Музиката е задача на Lisa и Tom."
+        }
+      ],
+      "words": [
+        "bring",
+        "cake"
+      ],
+      "structures": [],
+      "tags": [
+        "reading"
+      ],
+      "textId": "a2.plans.text-party",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

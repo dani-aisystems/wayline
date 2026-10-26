@@ -1,0 +1,2022 @@
+{
+  "id": "c1-stance",
+  "version": 1,
+  "band": "C1",
+  "competences": [
+    {
+      "id": "c1.stance",
+      "band": "C1",
+      "title": {
+        "en": "Academic stance & hedging",
+        "bg": "Академична позиция и смекчаване"
+      },
+      "canDo": {
+        "en": "I can express a cautious, well-qualified position in academic writing, using hedging, impersonal structures and nominalisation, and I can recognise how strongly a writer commits to a claim.",
+        "bg": "Мога да изразя внимателна, добре обоснована позиция в академичен текст чрез смекчаване, безлични конструкции и номинализация и мога да разпозная доколко авторът се ангажира с едно твърдение."
+      },
+      "skills": [
+        "grammar",
+        "writing",
+        "reading"
+      ],
+      "prerequisites": [
+        "b2.collocations",
+        "b2.meetings"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "c1.stance.note-hedging",
+      "competence": "c1.stance",
+      "title": {
+        "en": "Hedging: claiming as much as the evidence allows",
+        "bg": "Смекчаване: твърдиш толкова, колкото позволяват доказателствата"
+      },
+      "body": {
+        "en": "Academic English rarely states things as absolute fact. Writers signal how certain they are with modal verbs (may, might, could), lexical verbs (appear, seem, suggest, indicate), adverbs (arguably, possibly, largely, to some extent) and impersonal frames (It would appear that…, It could be argued that…, There is some evidence that…). \"The data prove that…\" is a much stronger claim than \"The data suggest that…\", and examiners and reviewers notice the difference. Bulgarian academic prose also hedges, but uses it less densely, and Bulgarian writers often translate \"доказва\" as \"proves\" where English would expect \"shows\" or \"suggests\".",
+        "bg": "Академичният английски рядко представя нещо като абсолютен факт. Авторите показват степента си на увереност чрез модални глаголи (may, might, could), смислови глаголи (appear, seem, suggest, indicate), наречия (arguably, possibly, largely, to some extent) и безлични конструкции (It would appear that…, It could be argued that…, There is some evidence that…). \"The data prove that…\" е много по-силно твърдение от \"The data suggest that…\" и рецензентите забелязват разликата. Българският академичен стил също смекчава, но по-рядко, а българските автори често превеждат \"доказва\" като \"proves\", където на английски се очаква \"shows\" или \"suggests\"."
+      },
+      "examples": [
+        "It would appear that the policy has had little effect.",
+        "The results suggest a link between sleep and memory.",
+        "This is arguably the most important factor.",
+        "To some extent, the problem is one of funding."
+      ]
+    },
+    {
+      "id": "c1.stance.note-nominalisation",
+      "competence": "c1.stance",
+      "title": {
+        "en": "Nominalisation: turning actions into concepts",
+        "bg": "Номинализация: действията стават понятия"
+      },
+      "body": {
+        "en": "Academic writing often packs a whole clause into a noun phrase: \"Because prices rose sharply, demand fell\" becomes \"The sharp rise in prices led to a fall in demand\". Nominalisation lets you make the process (not the people) the subject, compress information, and build cautious claims around abstract nouns (\"The reduction in interaction may…\"). Note the knock-on changes: adverbs become adjectives (rose sharply → sharp rise) and verbs need prepositions (reduce interaction → a reduction in interaction). Bulgarian bureaucratic style also overuses nouns (\"извършване на проверка\"), so aim for clarity: nominalise where it helps the argument, not everywhere.",
+        "bg": "Академичното писане често свива цяло изречение в именна фраза: \"Because prices rose sharply, demand fell\" става \"The sharp rise in prices led to a fall in demand\". Номинализацията позволява процесът (а не хората) да е подлог, сгъстява информацията и дава основа за предпазливи твърдения около абстрактни съществителни (\"The reduction in interaction may…\"). Обърни внимание на промените: наречията стават прилагателни (rose sharply → sharp rise), а глаголите изискват предлози (reduce interaction → a reduction in interaction). Българският канцеларски стил също злоупотребява със съществителни (\"извършване на проверка\"), така че целта е яснота: номинализирай там, където помага на аргумента, а не навсякъде."
+      },
+      "examples": [
+        "The sharp rise in prices led to a fall in demand.",
+        "The introduction of the new law caused widespread confusion.",
+        "There has been a significant increase in demand for housing."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "absence",
+      "pos": "noun",
+      "meaning": {
+        "en": "The fact of something not being there.",
+        "bg": "Отсъствие, липса."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "appear",
+      "pos": "verb",
+      "meaning": {
+        "en": "To seem. \"It would appear that…\" = a cautious way to state a conclusion.",
+        "bg": "Изглеждам, явявам се. \"It would appear that…\" = предпазлив начин да изразиш извод."
+      },
+      "example": "It would appear that the policy has had little effect.",
+      "forms": [
+        "appears",
+        "appeared",
+        "appearing"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "arguably",
+      "pos": "adverb",
+      "meaning": {
+        "en": "It can reasonably be argued that; used to present a claim you are prepared to defend.",
+        "bg": "Може да се твърди, че; спорно, но защитимо."
+      },
+      "example": "This is arguably the most important factor.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "become",
+      "pos": "verb",
+      "meaning": {
+        "en": "To start to be.",
+        "bg": "Ставам."
+      },
+      "example": "The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+      "forms": [
+        "becomes",
+        "became",
+        "becoming"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "benefit",
+      "pos": "verb",
+      "meaning": {
+        "en": "To be helped by something; to gain an advantage.",
+        "bg": "Печеля, имам полза."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [
+        "benefits",
+        "benefited",
+        "benefiting",
+        "benefitted"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "between",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Connecting or separating two things.",
+        "bg": "Между."
+      },
+      "example": "The results suggest a link between sleep and memory.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "bias",
+      "pos": "noun",
+      "meaning": {
+        "en": "A tendency that makes results or judgements unfair or inaccurate.",
+        "bg": "Пристрастие, изкривяване (на данни)."
+      },
+      "example": "Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+      "forms": [
+        "biases"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "collaborative",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Done by people working together.",
+        "bg": "Съвместен, колективен."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "condition",
+      "pos": "noun",
+      "meaning": {
+        "en": "The circumstances in which something happens.",
+        "bg": "Условие."
+      },
+      "example": "A more productive line of inquiry might be to ask which tasks, under which conditions, are best performed remotely.",
+      "forms": [
+        "conditions"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "confusion",
+      "pos": "noun",
+      "meaning": {
+        "en": "A state of not understanding or not being clear.",
+        "bg": "Объркване."
+      },
+      "example": "The introduction of the new law caused widespread confusion.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "consequence",
+      "pos": "noun",
+      "meaning": {
+        "en": "A result of an action, often a bad one.",
+        "bg": "Последица."
+      },
+      "example": "The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+      "forms": [
+        "consequences"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "considerable",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Large in amount or importance.",
+        "bg": "Значителен."
+      },
+      "example": "The rapid expansion of remote work since 2020 has prompted considerable debate about its effect on productivity.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "cost",
+      "pos": "noun",
+      "meaning": {
+        "en": "The price paid; a loss or disadvantage.",
+        "bg": "Цена, разход; загуба."
+      },
+      "example": "The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+      "forms": [
+        "costs"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "creative",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Involving new ideas and imagination.",
+        "bg": "Творчески."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "data",
+      "pos": "noun",
+      "meaning": {
+        "en": "Facts and figures collected for analysis (often plural in academic English: data are).",
+        "bg": "Данни (в академичния английски често в мн.ч.: data are)."
+      },
+      "example": "Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "debate",
+      "pos": "noun",
+      "meaning": {
+        "en": "A discussion in which people express different opinions.",
+        "bg": "Дебат, спор."
+      },
+      "example": "The rapid expansion of remote work since 2020 has prompted considerable debate about its effect on productivity.",
+      "forms": [
+        "debates"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "demand",
+      "pos": "noun",
+      "meaning": {
+        "en": "The need or desire of people to buy something.",
+        "bg": "Търсене (икономика)."
+      },
+      "example": "The sharp rise in prices led to a fall in demand.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "difficult",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Not easy.",
+        "bg": "Труден."
+      },
+      "example": "The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "distraction",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something that takes your attention away.",
+        "bg": "Разсейване, нещо, което отвлича вниманието."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [
+        "distractions"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "effect",
+      "pos": "noun",
+      "meaning": {
+        "en": "A change caused by something.",
+        "bg": "Ефект, въздействие."
+      },
+      "example": "It would appear that the policy has had little effect.",
+      "forms": [
+        "effects"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "evidence",
+      "pos": "noun",
+      "meaning": {
+        "en": "Facts or information that show whether something is true.",
+        "bg": "Доказателства, данни."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "existing",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Already there; current.",
+        "bg": "Съществуващ."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "expansion",
+      "pos": "noun",
+      "meaning": {
+        "en": "The process of becoming larger.",
+        "bg": "Разрастване, разширяване."
+      },
+      "example": "The rapid expansion of remote work since 2020 has prompted considerable debate about its effect on productivity.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "experience",
+      "pos": "noun",
+      "meaning": {
+        "en": "What has happened to a person or organisation; knowledge gained from doing.",
+        "bg": "Опит, преживяване."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [
+        "experiences"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "extent",
+      "pos": "noun",
+      "meaning": {
+        "en": "Degree. \"To some extent\" = partly.",
+        "bg": "Степен. \"To some extent\" = до известна степен."
+      },
+      "example": "To some extent, the problem is one of funding.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "face-to-face",
+      "pos": "adjective",
+      "meaning": {
+        "en": "In person, not online.",
+        "bg": "Лице в лице, на живо."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "factor",
+      "pos": "noun",
+      "meaning": {
+        "en": "One of the things that cause a situation.",
+        "bg": "Фактор."
+      },
+      "example": "This is arguably the most important factor.",
+      "forms": [
+        "factors"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "fall",
+      "pos": "noun",
+      "meaning": {
+        "en": "A decrease.",
+        "bg": "Спад."
+      },
+      "example": "The sharp rise in prices led to a fall in demand.",
+      "forms": [
+        "falls"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "finding",
+      "pos": "noun",
+      "meaning": {
+        "en": "A result of research.",
+        "bg": "Резултат, констатация (от изследване)."
+      },
+      "example": "Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+      "forms": [
+        "findings"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "firm",
+      "pos": "noun",
+      "meaning": {
+        "en": "A company.",
+        "bg": "Фирма."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [
+        "firms"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "focus",
+      "pos": "verb",
+      "meaning": {
+        "en": "To give attention mainly to one thing.",
+        "bg": "Съсредоточавам се, фокусирам се."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [
+        "focuses",
+        "focused",
+        "focusing"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "funding",
+      "pos": "noun",
+      "meaning": {
+        "en": "Money provided for a purpose.",
+        "bg": "Финансиране."
+      },
+      "example": "To some extent, the problem is one of funding.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "gain",
+      "pos": "noun",
+      "meaning": {
+        "en": "An increase or improvement.",
+        "bg": "Ръст, подобрение, печалба."
+      },
+      "example": "Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+      "forms": [
+        "gains"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "generalise",
+      "pos": "verb",
+      "meaning": {
+        "en": "To apply a conclusion more widely than the cases studied.",
+        "bg": "Обобщавам, разпростирам извод."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [
+        "generalises",
+        "generalised",
+        "generalising",
+        "generalize",
+        "generalized"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "housing",
+      "pos": "noun",
+      "meaning": {
+        "en": "Houses and flats as a whole.",
+        "bg": "Жилища."
+      },
+      "example": "There has been a significant increase in demand for housing.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "important",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Having great value or effect.",
+        "bg": "Важен."
+      },
+      "example": "This is arguably the most important factor.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "increase",
+      "pos": "noun",
+      "meaning": {
+        "en": "A rise in amount or number. Note: an increase IN something.",
+        "bg": "Увеличение. Внимавай: an increase IN something."
+      },
+      "example": "There has been a significant increase in demand for housing.",
+      "forms": [
+        "increases"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "increase",
+      "pos": "verb",
+      "meaning": {
+        "en": "To become or make larger.",
+        "bg": "Увеличавам (се)."
+      },
+      "example": "There has been a significant increase in demand for housing.",
+      "forms": [
+        "increased",
+        "increasing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "individual",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Done by one person alone.",
+        "bg": "Индивидуален."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "informal",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Relaxed, not official.",
+        "bg": "Неформален."
+      },
+      "example": "The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "inquiry",
+      "pos": "noun",
+      "meaning": {
+        "en": "An investigation; \"line of inquiry\" = a direction of research.",
+        "bg": "Изследване, проучване; \"line of inquiry\" = посока на изследване."
+      },
+      "example": "A more productive line of inquiry might be to ask which tasks, under which conditions, are best performed remotely.",
+      "forms": [
+        "inquiries",
+        "enquiry"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "interaction",
+      "pos": "noun",
+      "meaning": {
+        "en": "Communication between people.",
+        "bg": "Взаимодействие, общуване."
+      },
+      "example": "The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+      "forms": [
+        "interactions"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "introduction",
+      "pos": "noun",
+      "meaning": {
+        "en": "The act of bringing something in for the first time.",
+        "bg": "Въвеждане."
+      },
+      "example": "The introduction of the new law caused widespread confusion.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "its",
+      "pos": "determiner",
+      "meaning": {
+        "en": "Belonging to it.",
+        "bg": "Неговия, нейния (за предмет)."
+      },
+      "example": "The rapid expansion of remote work since 2020 has prompted considerable debate about its effect on productivity.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "large",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Big.",
+        "bg": "Голям."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [
+        "larger",
+        "largest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "largely",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Mostly, mainly.",
+        "bg": "До голяма степен, предимно."
+      },
+      "example": "Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "law",
+      "pos": "noun",
+      "meaning": {
+        "en": "An official rule of a country.",
+        "bg": "Закон."
+      },
+      "example": "The introduction of the new law caused widespread confusion.",
+      "forms": [
+        "laws"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "lead",
+      "pos": "verb",
+      "meaning": {
+        "en": "To cause (lead to); to be in charge of.",
+        "bg": "Водя (до); ръководя."
+      },
+      "example": "The sharp rise in prices led to a fall in demand.",
+      "forms": [
+        "leads",
+        "led",
+        "leading"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "less",
+      "pos": "determiner",
+      "meaning": {
+        "en": "A smaller amount; not as much.",
+        "bg": "По-малко."
+      },
+      "example": "More recent research presents a less uniform picture.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "limited",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Restricted; not much.",
+        "bg": "Ограничен."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "line",
+      "pos": "noun",
+      "meaning": {
+        "en": "A direction of thought or action.",
+        "bg": "Линия, посока."
+      },
+      "example": "A more productive line of inquiry might be to ask which tasks, under which conditions, are best performed remotely.",
+      "forms": [
+        "lines"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "link",
+      "pos": "noun",
+      "meaning": {
+        "en": "A connection.",
+        "bg": "Връзка."
+      },
+      "example": "The results suggest a link between sleep and memory.",
+      "forms": [
+        "links"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "literature",
+      "pos": "noun",
+      "meaning": {
+        "en": "In research: the published studies on a subject.",
+        "bg": "Литература (научни публикации по дадена тема)."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "little",
+      "pos": "determiner",
+      "meaning": {
+        "en": "Not much.",
+        "bg": "Малко (неброими)."
+      },
+      "example": "It would appear that the policy has had little effect.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "measure",
+      "pos": "verb",
+      "meaning": {
+        "en": "To find the size or amount of something.",
+        "bg": "Измервам."
+      },
+      "example": "The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+      "forms": [
+        "measures",
+        "measured",
+        "measuring"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "memory",
+      "pos": "noun",
+      "meaning": {
+        "en": "The ability to remember.",
+        "bg": "Памет."
+      },
+      "example": "The results suggest a link between sleep and memory.",
+      "forms": [
+        "memories"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "most",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Used to form superlatives: the most important.",
+        "bg": "Най- (най-важният)."
+      },
+      "example": "This is arguably the most important factor.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "much",
+      "pos": "determiner",
+      "meaning": {
+        "en": "A lot of (with uncountable nouns).",
+        "bg": "Много (неброими)."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "necessarily",
+      "pos": "adverb",
+      "meaning": {
+        "en": "\"Not necessarily\" = not always, not in every case.",
+        "bg": "\"Not necessarily\" = не непременно."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "note",
+      "pos": "verb",
+      "meaning": {
+        "en": "To notice or mention. \"It should be noted that…\" = an academic way to add an important point.",
+        "bg": "Отбелязвам. \"It should be noted that…\" = трябва да се отбележи, че…"
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [
+        "notes",
+        "noted",
+        "noting"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "notoriously",
+      "pos": "adverb",
+      "meaning": {
+        "en": "In a way that is well known for being bad.",
+        "bg": "Пословично, печално известно."
+      },
+      "example": "Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "office",
+      "pos": "noun",
+      "meaning": {
+        "en": "A room or building where people work at desks.",
+        "bg": "Офис."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [
+        "offices"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "open",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Not decided; still being discussed.",
+        "bg": "Отворен, нерешен."
+      },
+      "example": "To some extent, therefore, the question of whether remote work increases productivity remains open.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "or",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "Used to connect alternatives.",
+        "bg": "Или."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "organisation",
+      "pos": "noun",
+      "meaning": {
+        "en": "A company, institution or group.",
+        "bg": "Организация."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [
+        "organisations",
+        "organization",
+        "organizations"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "over",
+      "pos": "preposition",
+      "meaning": {
+        "en": "During a period of time: over time.",
+        "bg": "През, в течение на: over time = с времето."
+      },
+      "example": "The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "perform",
+      "pos": "verb",
+      "meaning": {
+        "en": "To do or carry out a task.",
+        "bg": "Изпълнявам."
+      },
+      "example": "A more productive line of inquiry might be to ask which tasks, under which conditions, are best performed remotely.",
+      "forms": [
+        "performs",
+        "performed",
+        "performing"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "picture",
+      "pos": "noun",
+      "meaning": {
+        "en": "A general idea or description of a situation.",
+        "bg": "Картина, представа."
+      },
+      "example": "More recent research presents a less uniform picture.",
+      "forms": [
+        "pictures"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "policy",
+      "pos": "noun",
+      "meaning": {
+        "en": "A plan of action agreed by a government or organisation.",
+        "bg": "Политика (мерки)."
+      },
+      "example": "It would appear that the policy has had little effect.",
+      "forms": [
+        "policies"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "present",
+      "pos": "verb",
+      "meaning": {
+        "en": "To show or offer something for consideration.",
+        "bg": "Представям, показвам."
+      },
+      "example": "More recent research presents a less uniform picture.",
+      "forms": [
+        "presents",
+        "presented",
+        "presenting"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "price",
+      "pos": "noun",
+      "meaning": {
+        "en": "How much money something costs.",
+        "bg": "Цена."
+      },
+      "example": "The sharp rise in prices led to a fall in demand.",
+      "forms": [
+        "prices"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "productive",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Producing good results.",
+        "bg": "Продуктивен, плодотворен."
+      },
+      "example": "A more productive line of inquiry might be to ask which tasks, under which conditions, are best performed remotely.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "productivity",
+      "pos": "noun",
+      "meaning": {
+        "en": "How much is produced compared with the time or effort used.",
+        "bg": "Производителност."
+      },
+      "example": "To some extent, therefore, the question of whether remote work increases productivity remains open.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "prompt",
+      "pos": "verb",
+      "meaning": {
+        "en": "To cause something to happen.",
+        "bg": "Предизвиквам, подтиквам."
+      },
+      "example": "The rapid expansion of remote work since 2020 has prompted considerable debate about its effect on productivity.",
+      "forms": [
+        "prompts",
+        "prompted",
+        "prompting"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "public",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Connected with the state or with people in general.",
+        "bg": "Публичен, обществен."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "question",
+      "pos": "noun",
+      "meaning": {
+        "en": "A matter to be discussed; something you ask.",
+        "bg": "Въпрос."
+      },
+      "example": "To some extent, therefore, the question of whether remote work increases productivity remains open.",
+      "forms": [
+        "questions"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "rapid",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Very fast.",
+        "bg": "Бърз, стремителен."
+      },
+      "example": "The rapid expansion of remote work since 2020 has prompted considerable debate about its effect on productivity.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "recent",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Happening a short time ago.",
+        "bg": "Скорошен, неотдавнашен."
+      },
+      "example": "More recent research presents a less uniform picture.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "reduction",
+      "pos": "noun",
+      "meaning": {
+        "en": "The act of making something smaller. Note: a reduction IN something.",
+        "bg": "Намаляване. Внимавай: a reduction IN something."
+      },
+      "example": "The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+      "forms": [
+        "reductions"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "remain",
+      "pos": "verb",
+      "meaning": {
+        "en": "To stay the same; to continue to be.",
+        "bg": "Оставам."
+      },
+      "example": "To some extent, therefore, the question of whether remote work increases productivity remains open.",
+      "forms": [
+        "remains",
+        "remained",
+        "remaining"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "remote",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Done from a distance; remote work = working from home or elsewhere.",
+        "bg": "Дистанционен, отдалечен."
+      },
+      "example": "To some extent, therefore, the question of whether remote work increases productivity remains open.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "remotely",
+      "pos": "adverb",
+      "meaning": {
+        "en": "From a distance, not in the office.",
+        "bg": "Дистанционно."
+      },
+      "example": "A more productive line of inquiry might be to ask which tasks, under which conditions, are best performed remotely.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "research",
+      "pos": "noun",
+      "meaning": {
+        "en": "Detailed study to discover new facts.",
+        "bg": "Изследване, проучване."
+      },
+      "example": "More recent research presents a less uniform picture.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "rest",
+      "pos": "verb",
+      "meaning": {
+        "en": "\"Rest on\" = be based on.",
+        "bg": "Почивам; \"rest on\" = опира се на, основава се на."
+      },
+      "example": "Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+      "forms": [
+        "rests",
+        "rested",
+        "resting"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "result",
+      "pos": "noun",
+      "meaning": {
+        "en": "What happens because of something; the outcome of research.",
+        "bg": "Резултат."
+      },
+      "example": "The results suggest a link between sleep and memory.",
+      "forms": [
+        "results"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "rise",
+      "pos": "noun",
+      "meaning": {
+        "en": "An increase. Note: a rise IN something.",
+        "bg": "Повишение, ръст. Внимавай: a rise IN something."
+      },
+      "example": "The sharp rise in prices led to a fall in demand.",
+      "forms": [
+        "rises"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "routine",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Ordinary and repeated regularly.",
+        "bg": "Рутинен."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "sector",
+      "pos": "noun",
+      "meaning": {
+        "en": "A part of the economy.",
+        "bg": "Сектор."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [
+        "sectors"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "seem",
+      "pos": "verb",
+      "meaning": {
+        "en": "To appear to be.",
+        "bg": "Изглеждам, струва ми се."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [
+        "seems",
+        "seemed",
+        "seeming"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "self-reported",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Reported by the people being studied, about themselves.",
+        "bg": "Самооценъчен, съобщен от самите участници."
+      },
+      "example": "Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "sharp",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Sudden and large (a sharp rise).",
+        "bg": "Рязък."
+      },
+      "example": "The sharp rise in prices led to a fall in demand.",
+      "forms": [
+        "sharper",
+        "sharpest"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "significant",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Large or important enough to notice.",
+        "bg": "Значителен, съществен."
+      },
+      "example": "There has been a significant increase in demand for housing.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "sleep",
+      "pos": "noun",
+      "meaning": {
+        "en": "The natural state of rest at night.",
+        "bg": "Сън."
+      },
+      "example": "The results suggest a link between sleep and memory.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "substantial",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Large in size or amount.",
+        "bg": "Значителен, солиден."
+      },
+      "example": "Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "suffer",
+      "pos": "verb",
+      "meaning": {
+        "en": "To be badly affected.",
+        "bg": "Страдам, пострадвам."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [
+        "suffers",
+        "suffered",
+        "suffering"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "suggest",
+      "pos": "verb",
+      "meaning": {
+        "en": "To indicate that something may be true (weaker than \"show\" or \"prove\").",
+        "bg": "Подсказвам, показвам (по-слабо от \"show\" и \"prove\")."
+      },
+      "example": "The results suggest a link between sleep and memory.",
+      "forms": [
+        "suggests",
+        "suggested",
+        "suggesting"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "task",
+      "pos": "noun",
+      "meaning": {
+        "en": "A piece of work.",
+        "bg": "Задача."
+      },
+      "example": "A more productive line of inquiry might be to ask which tasks, under which conditions, are best performed remotely.",
+      "forms": [
+        "tasks"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "technology",
+      "pos": "noun",
+      "meaning": {
+        "en": "Machines, computers and scientific knowledge used in practice.",
+        "bg": "Технология."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [
+        "technologies"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "uniform",
+      "pos": "adjective",
+      "meaning": {
+        "en": "The same everywhere; not varying.",
+        "bg": "Еднороден, единен."
+      },
+      "example": "More recent research presents a less uniform picture.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "visible",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Able to be seen or noticed.",
+        "bg": "Видим."
+      },
+      "example": "The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "vulnerable",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Easily harmed or affected.",
+        "bg": "Уязвим."
+      },
+      "example": "Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "whether",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "Used to introduce two possibilities: if.",
+        "bg": "Дали."
+      },
+      "example": "To some extent, therefore, the question of whether remote work increases productivity remains open.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "which",
+      "pos": "pronoun",
+      "meaning": {
+        "en": "Used for things in relative clauses and questions.",
+        "bg": "Който, която (за предмети); кой."
+      },
+      "example": "A more productive line of inquiry might be to ask which tasks, under which conditions, are best performed remotely.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "while",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "Although; whereas. Also: during the time that.",
+        "bg": "Докато; макар че."
+      },
+      "example": "While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "whose",
+      "pos": "determiner",
+      "meaning": {
+        "en": "Of whom or of which.",
+        "bg": "Чийто, чиято."
+      },
+      "example": "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "widespread",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Happening in many places or among many people.",
+        "bg": "Широко разпространен."
+      },
+      "example": "The introduction of the new law caused widespread confusion.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "comparison",
+      "pos": "noun",
+      "meaning": {
+        "en": "The act of examining how things are similar or different.",
+        "bg": "Сравнение."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [
+        "comparisons"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "complicate",
+      "pos": "verb",
+      "meaning": {
+        "en": "To make something more difficult to understand or deal with.",
+        "bg": "Усложнявам."
+      },
+      "example": "Methodological differences complicate matters further.",
+      "forms": [
+        "complicates",
+        "complicated",
+        "complicating"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "define",
+      "pos": "verb",
+      "meaning": {
+        "en": "To say exactly what something means.",
+        "bg": "Определям, дефинирам."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [
+        "defines",
+        "defined",
+        "defining"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "direct",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Straight, without anything in between.",
+        "bg": "Пряк, директен."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "matter",
+      "pos": "noun",
+      "meaning": {
+        "en": "A situation or subject. \"Complicate matters\" = make the situation harder.",
+        "bg": "Въпрос, положение. \"Complicate matters\" = усложнявам нещата."
+      },
+      "example": "Methodological differences complicate matters further.",
+      "forms": [
+        "matters"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "methodological",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Relating to the methods used in research.",
+        "bg": "Методологичен."
+      },
+      "example": "Methodological differences complicate matters further.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "output",
+      "pos": "noun",
+      "meaning": {
+        "en": "The amount produced.",
+        "bg": "Продукция, резултат (произведено количество)."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "per",
+      "pos": "preposition",
+      "meaning": {
+        "en": "For each: output per hour.",
+        "bg": "На (за всеки): output per hour = продукция на час."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "problematic",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Full of difficulties.",
+        "bg": "Проблематичен."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "range",
+      "pos": "verb",
+      "meaning": {
+        "en": "\"Range from X to Y\" = include different things between X and Y.",
+        "bg": "Варирам; \"range from X to Y\" = от X до Y."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [
+        "ranges",
+        "ranged",
+        "ranging"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "rating",
+      "pos": "noun",
+      "meaning": {
+        "en": "A score or judgement of quality.",
+        "bg": "Оценка, рейтинг."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [
+        "ratings"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "subjective",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Based on personal opinion, not facts.",
+        "bg": "Субективен."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "vary",
+      "pos": "verb",
+      "meaning": {
+        "en": "To be different from each other.",
+        "bg": "Варирам, различавам се."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [
+        "varies",
+        "varied",
+        "varying"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "widely",
+      "pos": "adverb",
+      "meaning": {
+        "en": "A lot; to a large degree.",
+        "bg": "Широко, в голяма степен."
+      },
+      "example": "Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+      "forms": [],
+      "band": "B2"
+    }
+  ],
+  "texts": [
+    {
+      "id": "c1.stance.text-abstract",
+      "competence": "c1.stance",
+      "band": "C1",
+      "title": "Remote work and productivity: a discussion",
+      "paragraphs": [
+        "The rapid expansion of remote work since 2020 has prompted considerable debate about its effect on productivity. Early studies reported substantial gains; however, these findings would appear to rest largely on self-reported data, which are notoriously vulnerable to bias.",
+        "More recent research presents a less uniform picture. While employees performing routine, individual tasks seem to benefit from the absence of office distractions, the evidence suggests that collaborative and creative work may suffer when face-to-face contact is limited. The reduction in informal interaction is arguably the most significant cost, since it is difficult to measure and its consequences may only become visible over time.",
+        "Methodological differences complicate matters further. Studies vary widely in how they define productivity, ranging from output per hour to managers' subjective ratings, which makes direct comparison problematic.",
+        "It should be noted that much of the existing literature focuses on large technology firms, whose experience cannot necessarily be generalised to smaller organisations or to the public sector. To some extent, therefore, the question of whether remote work increases productivity remains open. A more productive line of inquiry might be to ask which tasks, under which conditions, are best performed remotely."
+      ]
+    }
+  ],
+  "names": [],
+  "items": [
+    {
+      "id": "c1.stance.suggest-vs-prove",
+      "type": "choice",
+      "band": "C1",
+      "skill": "writing",
+      "competence": "c1.stance",
+      "objective": {
+        "en": "Choose an appropriately cautious reporting verb.",
+        "bg": "Да избереш подходящо предпазлив глагол за докладване."
+      },
+      "difficulty": 1.8,
+      "prompt": "A single survey of 200 students found that those who slept more had higher grades. Which sentence best reports this finding in an academic essay?",
+      "options": [
+        "The survey proves that sleep causes better grades.",
+        "The survey shows clearly that sleep is the reason for good grades.",
+        "The survey suggests that there may be a link between sleep and academic performance.",
+        "It is a fact that students who sleep more get higher grades."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "One survey can show a correlation but cannot prove causation. \"Suggests… may be a link\" matches the strength of the evidence. The other options overclaim: \"proves\", \"shows clearly that sleep is the reason\", and \"it is a fact\" all present a correlation as a proven cause.",
+        "bg": "Едно проучване може да покаже връзка, но не и причинно-следствена зависимост. \"Suggests… may be a link\" отговаря на силата на доказателствата. Другите варианти преувеличават: \"proves\", \"shows clearly that sleep is the reason\" и \"it is a fact\" представят корелацията като доказана причина."
+      },
+      "hints": [
+        {
+          "en": "Can one survey prove that one thing causes another?",
+          "bg": "Може ли едно проучване да докаже, че едно нещо причинява друго?"
+        }
+      ],
+      "words": [
+        "suggest",
+        "link"
+      ],
+      "structures": [
+        "hedging.verbs"
+      ],
+      "tags": [
+        "academic",
+        "hedging"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.stance.would-appear",
+      "type": "cloze",
+      "band": "C1",
+      "skill": "writing",
+      "competence": "c1.stance",
+      "objective": {
+        "en": "Use the hedge \"it would appear\".",
+        "bg": "Да използваш смекчаването \"it would appear\"."
+      },
+      "difficulty": 1.9,
+      "sentence": "It would ___ that the new policy has had little measurable impact on attendance.",
+      "accept": [
+        "appear",
+        "seem"
+      ],
+      "explanation": {
+        "en": "\"It would appear that…\" (or \"It would seem that…\") presents a conclusion tentatively: this is how it looks on the evidence, but the writer stops short of full commitment. \"Would\" adds an extra layer of caution compared with \"It appears that…\".",
+        "bg": "\"It would appear that…\" (или \"It would seem that…\") представя извода предпазливо: така изглежда според данните, но авторът не се ангажира напълно. \"Would\" добавя още една степен на предпазливост в сравнение с \"It appears that…\"."
+      },
+      "hints": [
+        {
+          "en": "Think of a verb meaning \"изглежда\".",
+          "bg": "Помисли за глагол със значение \"изглежда\"."
+        }
+      ],
+      "words": [
+        "appear",
+        "impact"
+      ],
+      "structures": [
+        "hedging.impersonal"
+      ],
+      "tags": [
+        "academic",
+        "hedging"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.stance.nominalise-rise",
+      "type": "build",
+      "band": "C1",
+      "skill": "writing",
+      "competence": "c1.stance",
+      "objective": {
+        "en": "Rewrite a clause as a noun phrase.",
+        "bg": "Да преобразуваш изречение в именна фраза."
+      },
+      "difficulty": 2.3,
+      "tiles": [
+        "The",
+        "sharp",
+        "rise",
+        "in",
+        "unemployment",
+        "led",
+        "to",
+        "social",
+        "unrest"
+      ],
+      "accept": [
+        "The sharp rise in unemployment led to social unrest.",
+        "Social unrest led to the sharp rise in unemployment."
+      ],
+      "explanation": {
+        "en": "This nominalises \"Unemployment rose sharply, which led to social unrest\". The verb \"rise\" becomes the noun \"rise\", the adverb \"sharply\" becomes the adjective \"sharp\", and \"in\" links the noun to what rose.",
+        "bg": "Това е номинализация на \"Unemployment rose sharply, which led to social unrest\". Глаголът \"rise\" става съществително \"rise\", наречието \"sharply\" става прилагателно \"sharp\", а \"in\" свързва съществителното с това, което е нараснало."
+      },
+      "hints": [
+        {
+          "en": "The subject is a noun phrase: The sharp rise in…",
+          "bg": "Подлогът е именна фраза: The sharp rise in…"
+        }
+      ],
+      "words": [
+        "rise",
+        "unemployment",
+        "unrest"
+      ],
+      "structures": [
+        "nominalisation"
+      ],
+      "tags": [
+        "academic"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.stance.reduction-in",
+      "type": "cloze",
+      "band": "C1",
+      "skill": "grammar",
+      "competence": "c1.stance",
+      "objective": {
+        "en": "Use the right preposition after a nominalised verb.",
+        "bg": "Да използваш правилния предлог след номинализиран глагол."
+      },
+      "difficulty": 2.1,
+      "sentence": "The study found a significant reduction ___ waiting times after the reform.",
+      "accept": [
+        "in"
+      ],
+      "explanation": {
+        "en": "When \"reduce\" becomes a noun, the thing reduced follows \"in\": a reduction in costs, an increase in demand, a rise in prices. \"Of\" is a common error, partly because Bulgarian uses \"на\" (намаляване на времето).",
+        "bg": "Когато \"reduce\" стане съществително, намаленото нещо следва след \"in\": a reduction in costs, an increase in demand, a rise in prices. \"Of\" е честа грешка, отчасти защото на български казваме \"намаляване на времето\"."
+      },
+      "hints": [
+        {
+          "en": "Same preposition as in \"an increase ___ prices\".",
+          "bg": "Същият предлог като в \"an increase ___ prices\"."
+        }
+      ],
+      "words": [
+        "reduction",
+        "significant"
+      ],
+      "structures": [
+        "nominalisation"
+      ],
+      "tags": [
+        "academic",
+        "bg-transfer",
+        "prepositions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.stance.arguably",
+      "type": "choice",
+      "band": "C1",
+      "skill": "vocabulary",
+      "competence": "c1.stance",
+      "objective": {
+        "en": "Understand the meaning of \"arguably\".",
+        "bg": "Да разбереш значението на \"arguably\"."
+      },
+      "difficulty": 2.0,
+      "prompt": "\"This is arguably the most important novel of the decade.\" What does \"arguably\" signal?",
+      "options": [
+        "The claim is controversial and probably wrong.",
+        "People are arguing about the novel.",
+        "The writer is quoting someone else's opinion.",
+        "The writer believes the claim and thinks it can be reasonably defended."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "\"Arguably\" means \"it can be argued that\" — the writer puts forward the claim as their position, while acknowledging others might disagree. It does not mean the claim is doubtful or that people are literally arguing.",
+        "bg": "\"Arguably\" значи \"може да се твърди, че\" — авторът представя твърдението като своя позиция, но признава, че други може да не са съгласни. Не значи, че твърдението е съмнително или че хората буквално спорят."
+      },
+      "hints": [
+        {
+          "en": "It comes from \"it can be argued\", not \"an argument\" between people.",
+          "bg": "Идва от \"it can be argued\" (може да се твърди), а не от спор между хора."
+        }
+      ],
+      "words": [
+        "arguably"
+      ],
+      "structures": [
+        "hedging.adverbs"
+      ],
+      "tags": [
+        "academic",
+        "hedging"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.stance.to-some-extent",
+      "type": "choice",
+      "band": "C1",
+      "skill": "writing",
+      "competence": "c1.stance",
+      "objective": {
+        "en": "Choose a hedge that limits a claim's scope.",
+        "bg": "Да избереш смекчаване, което ограничава обхвата на твърдение."
+      },
+      "difficulty": 2.4,
+      "prompt": "Which sentence makes the most carefully limited claim?",
+      "options": [
+        "Social media has completely changed how young people read.",
+        "To some extent, social media appears to have changed how some young people read.",
+        "Social media has certainly changed how young people read.",
+        "Undoubtedly, social media changes how everyone reads."
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "\"To some extent\" limits the degree, \"appears to\" softens the certainty, and \"some young people\" limits the scope. The other options use boosters (completely, certainly, undoubtedly, everyone) that commit the writer to a claim that is hard to defend.",
+        "bg": "\"To some extent\" ограничава степента, \"appears to\" смекчава увереността, а \"some young people\" ограничава обхвата. Другите варианти използват усилватели (completely, certainly, undoubtedly, everyone), които ангажират автора с трудно защитимо твърдение."
+      },
+      "hints": [
+        {
+          "en": "Count the hedges in each option.",
+          "bg": "Преброй смекчаващите елементи във всеки вариант."
+        }
+      ],
+      "words": [
+        "extent",
+        "appear"
+      ],
+      "structures": [
+        "hedging.adverbs"
+      ],
+      "tags": [
+        "academic",
+        "hedging"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.stance.could-be-argued",
+      "type": "build",
+      "band": "C1",
+      "skill": "writing",
+      "competence": "c1.stance",
+      "objective": {
+        "en": "Introduce a position impersonally.",
+        "bg": "Да въведеш позиция безлично."
+      },
+      "difficulty": 2.2,
+      "tiles": [
+        "It",
+        "could",
+        "be",
+        "argued",
+        "that",
+        "the",
+        "reform",
+        "came",
+        "too",
+        "late"
+      ],
+      "accept": [
+        "It could be argued that the reform came too late."
+      ],
+      "explanation": {
+        "en": "\"It could be argued that…\" introduces a position without saying \"I think\". The impersonal passive keeps the focus on the argument and allows the writer to evaluate it later.",
+        "bg": "\"It could be argued that…\" въвежда позиция, без да казваш \"I think\". Безличната страдателна конструкция задържа фокуса върху аргумента и позволява на автора да го оцени по-късно."
+      },
+      "hints": [
+        {
+          "en": "Start with \"It could be…\".",
+          "bg": "Започни с \"It could be…\"."
+        }
+      ],
+      "words": [
+        "argue",
+        "reform"
+      ],
+      "structures": [
+        "hedging.impersonal",
+        "passive"
+      ],
+      "tags": [
+        "academic"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.stance.text-self-reported",
+      "type": "choice",
+      "band": "C1",
+      "skill": "reading",
+      "competence": "c1.stance",
+      "objective": {
+        "en": "Identify why a writer questions earlier research.",
+        "bg": "Да откриеш защо авторът поставя под въпрос по-ранни изследвания."
+      },
+      "difficulty": 2.0,
+      "prompt": "Why does the writer treat the early studies with caution?",
+      "options": [
+        "They were carried out before 2020.",
+        "They only studied creative workers.",
+        "They mainly relied on what workers said about themselves, which can be biased.",
+        "They found that remote work reduced productivity."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The writer says the findings \"would appear to rest largely on self-reported data, which are notoriously vulnerable to bias\". Note that even this criticism is hedged (\"would appear to\", \"largely\").",
+        "bg": "Авторът казва, че резултатите \"would appear to rest largely on self-reported data, which are notoriously vulnerable to bias\". Забележи, че дори тази критика е смекчена (\"would appear to\", \"largely\")."
+      },
+      "hints": [
+        {
+          "en": "Look at the end of the first paragraph.",
+          "bg": "Виж края на първия абзац."
+        }
+      ],
+      "words": [
+        "data",
+        "bias"
+      ],
+      "structures": [],
+      "tags": [
+        "reading",
+        "academic"
+      ],
+      "textId": "c1.stance.text-abstract",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.stance.text-stance",
+      "type": "choice",
+      "band": "C1",
+      "skill": "reading",
+      "competence": "c1.stance",
+      "objective": {
+        "en": "Identify a writer's overall stance.",
+        "bg": "Да определиш цялостната позиция на автора."
+      },
+      "difficulty": 2.7,
+      "prompt": "Which statement best reflects the writer's overall position?",
+      "options": [
+        "The effect of remote work probably depends on the type of task, and the evidence is not yet conclusive.",
+        "Remote work clearly harms productivity and should be limited.",
+        "Remote work clearly increases productivity for most organisations.",
+        "There is no useful research on remote work."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The writer says the question \"remains open\" \"to some extent\" and proposes asking \"which tasks, under which conditions, are best performed remotely\". The text balances benefits for routine tasks against costs for collaborative work — it argues neither for nor against remote work overall.",
+        "bg": "Авторът казва, че въпросът \"remains open\" \"to some extent\" и предлага да се пита \"which tasks, under which conditions, are best performed remotely\". Текстът балансира ползите за рутинни задачи и загубите при съвместна работа — не е нито за, нито против дистанционната работа като цяло."
+      },
+      "hints": [
+        {
+          "en": "Read the final two sentences.",
+          "bg": "Прочети последните две изречения."
+        }
+      ],
+      "words": [
+        "conclusive",
+        "depend"
+      ],
+      "structures": [
+        "hedging"
+      ],
+      "tags": [
+        "reading",
+        "academic",
+        "stance"
+      ],
+      "textId": "c1.stance.text-abstract",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.stance.text-literature-focus",
+      "type": "cloze",
+      "band": "C1",
+      "skill": "reading",
+      "competence": "c1.stance",
+      "objective": {
+        "en": "Identify a limitation noted by the writer.",
+        "bg": "Да откриеш ограничение, посочено от автора."
+      },
+      "difficulty": 1.7,
+      "sentence": "According to the writer, much of the existing research has focused on large ___ firms.",
+      "accept": [
+        "technology",
+        "tech"
+      ],
+      "explanation": {
+        "en": "The third paragraph says: \"much of the existing literature focuses on large technology firms\", which may not represent smaller organisations or the public sector.",
+        "bg": "Третият абзац казва: \"much of the existing literature focuses on large technology firms\", които може да не са показателни за по-малки организации или за публичния сектор."
+      },
+      "hints": [
+        {
+          "en": "Read the first sentence of the last paragraph.",
+          "bg": "Прочети първото изречение на последния абзац."
+        }
+      ],
+      "words": [
+        "literature",
+        "firm"
+      ],
+      "structures": [],
+      "tags": [
+        "reading"
+      ],
+      "textId": "c1.stance.text-abstract",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

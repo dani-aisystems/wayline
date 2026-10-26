@@ -15,19 +15,19 @@ test("complete beginner starts with letters and sounds", async ({ page }) => {
 
 test("A1 learner finishes a session, progress survives a reload, and the route advances", async ({ page }) => {
   await onboardA1(page, { minutes: 10 });
-  const region = await page.locator(".today-region").innerText();
-  await page.getByRole("link", { name: /Start today's session/ }).click();
+  const region = await page.locator(".journey-name").innerText();
+  await page.getByRole("link", { name: /^(Start today's session|Continue learning)$/ }).click();
   const answered = await runSession(page, (n) => (n === 1 ? "wrong-then-right" : n === 2 ? "give-up" : "right"));
   expect(answered).toBeGreaterThanOrEqual(3);
   await expect(page.locator(".summary-list")).toContainText("needed help");
 
   await page.getByRole("link", { name: "Back to Today" }).click();
-  await expect(page.locator(".today-region")).toHaveText(region);
-  await expect(page.locator(".today-stats")).toContainText(`${answered} of`);
-  await expect(page.getByText("Today's session is done")).toBeVisible();
+  await expect(page.locator(".journey-name")).toHaveText(region);
+  await expect(page.locator(".journey-stats")).toContainText(`${answered} of`);
+  await expect(page.getByText("You've finished today's plan")).toBeVisible();
 
   await page.reload();
-  await expect(page.locator(".today-stats")).toContainText(`${answered} of`);
+  await expect(page.locator(".journey-stats")).toContainText(`${answered} of`);
 
   // Mistakes from this session were recorded.
   const mistakes = await page.evaluate(
@@ -46,7 +46,7 @@ test("A1 learner finishes a session, progress survives a reload, and the route a
 
 test("Bulgarian explanations appear in lessons", async ({ page }) => {
   await onboardA1(page, { lang: "bg" });
-  await page.getByRole("link", { name: /Започни днешния урок/ }).click();
+  await page.getByRole("link", { name: /^(Започни днешния урок|Продължи ученето)$/ }).click();
   await page.locator(".exercise, .step-note").first().waitFor();
   if (await page.locator(".step-note").isVisible()) {
     await expect(page.locator(".step-label")).toHaveText("Нещо ново");
@@ -57,7 +57,7 @@ test("Bulgarian explanations appear in lessons", async ({ page }) => {
 
 test("Word Lens: tap a word, save it, find it under Words", async ({ page }) => {
   await onboardA1(page);
-  await page.getByRole("link", { name: /Start today's session/ }).click();
+  await page.getByRole("link", { name: /^(Start today's session|Continue learning)$/ }).click();
   const word = page.locator(".lens-word:not(.lens-word-plain)").first();
   const text = await word.innerText();
   await word.click();
@@ -67,13 +67,14 @@ test("Word Lens: tap a word, save it, find it under Words", async ({ page }) => 
   await expect(sheet.getByRole("button", { name: "Saved to review" })).toBeVisible();
   await sheet.getByRole("button", { name: "Close" }).click();
   await page.getByRole("button", { name: "End session" }).click();
-  await page.getByRole("link", { name: "Words" }).click();
+  await page.getByRole("link", { name: "Library" }).click();
+  await page.getByRole("link", { name: /My vocabulary/ }).click();
   await expect(page.locator(".word-list")).toContainText(new RegExp(text, "i"));
 });
 
 test("after a week away the review queue is capped, not a backlog", async ({ page }) => {
   await onboardA1(page, { minutes: 10 });
-  await page.getByRole("link", { name: /Start today's session/ }).click();
+  await page.getByRole("link", { name: /^(Start today's session|Continue learning)$/ }).click();
   await runSession(page);
   // 30 items practised a week ago, all due now.
   await seedBacklog(page, [...items.keys()].slice(0, 30));
@@ -84,7 +85,7 @@ test("after a week away the review queue is capped, not a backlog", async ({ pag
   expect(Number((await start.innerText()).match(/\d+/)![0])).toBe(20); // 10-minute plan → cap of 20
   await page.goto("/today");
   await expect(page.getByText(/more reviews are waiting/)).toBeVisible();
-  await page.getByRole("link", { name: "Review" }).click();
+  await page.getByRole("link", { name: "Review", exact: true }).click();
   await start.click();
   await runSession(page);
   await expect(page.locator(".summary-list")).toContainText("20 reviews");
@@ -92,7 +93,7 @@ test("after a week away the review queue is capped, not a backlog", async ({ pag
 
 test("back up, delete everything, restore", async ({ page }) => {
   await onboardA1(page);
-  await page.getByRole("link", { name: /Start today's session/ }).click();
+  await page.getByRole("link", { name: /^(Start today's session|Continue learning)$/ }).click();
   const answered = await runSession(page);
   await page.getByRole("link", { name: "Back to Today" }).click();
   await page.getByRole("link", { name: "Settings" }).click();
@@ -115,7 +116,7 @@ test("back up, delete everything, restore", async ({ page }) => {
   await page.getByRole("button", { name: "Restore backup" }).click();
   await expect(page.getByRole("status").filter({ hasText: "Backup restored" })).toBeVisible();
   await page.waitForURL("**/today");
-  await expect(page.locator(".today-stats")).toContainText(`${answered} of`);
+  await expect(page.locator(".journey-stats")).toContainText(`${answered} of`);
 });
 
 test("a damaged backup is rejected and nothing changes", async ({ page }) => {
@@ -133,7 +134,7 @@ test("lessons work offline once loaded", async ({ page, context, browserName }) 
   await page.reload();
   await context.setOffline(true);
   await page.goto("/today");
-  await page.getByRole("link", { name: /Start today's session/ }).click();
+  await page.getByRole("link", { name: /^(Start today's session|Continue learning)$/ }).click();
   await runSession(page);
   await context.setOffline(false);
 });

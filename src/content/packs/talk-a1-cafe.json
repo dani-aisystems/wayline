@@ -1,0 +1,740 @@
+{
+  "id": "talk-a1-cafe",
+  "version": 1,
+  "band": "A1",
+  "competences": [
+    {
+      "id": "a1.talk-cafe",
+      "band": "A1",
+      "title": {
+        "en": "At a café",
+        "bg": "В кафенето"
+      },
+      "canDo": {
+        "en": "I can order food and drinks politely, answer simple questions from a waiter, and ask how much something costs.",
+        "bg": "Мога учтиво да си поръчам храна и напитки, да отговоря на прости въпроси на сервитьора и да попитам колко струва нещо."
+      },
+      "skills": [
+        "speaking",
+        "listening",
+        "grammar"
+      ],
+      "prerequisites": [
+        "a1.hello"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "a1.talk-cafe.note-ordering",
+      "competence": "a1.talk-cafe",
+      "title": {
+        "en": "Ordering politely",
+        "bg": "Как да поръчаш учтиво"
+      },
+      "body": {
+        "en": "To order, say \"Can I have…, please?\" or \"I'd like…, please.\" (\"I'd\" is short for \"I would\"). \"Please\" is very important in English: without it, an order can sound rude. To ask the price, say \"How much is it?\". When you give the money, say \"Here you are.\" Notice the word order: \"How much is it?\", not \"How much it is?\".",
+        "bg": "За да поръчаш, кажи \"Can I have…, please?\" или \"I'd like…, please.\" (\"I'd\" е кратко за \"I would\" — бих искал/а). \"Please\" е много важно в английския: без него поръчката може да звучи грубо, като заповед. За да попиташ за цената, кажи \"How much is it?\" (Колко струва?). Когато подаваш парите, казваш \"Here you are.\" (Заповядай). Внимавай с реда на думите: \"How much is it?\", а не \"How much it is?\"."
+      },
+      "examples": [
+        "Can I have a coffee, please?",
+        "I'd like a tea, please.",
+        "How much is it?",
+        "It's three euros.",
+        "Here you are.",
+        "Thank you!"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "tea",
+      "pos": "noun",
+      "ipa": "/tiː/",
+      "meaning": {
+        "en": "A hot drink made with leaves and water.",
+        "bg": "Чай."
+      },
+      "example": "Tea with milk, please.",
+      "forms": [
+        "teas"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "euro",
+      "pos": "noun",
+      "ipa": "/ˈjʊəroʊ/",
+      "meaning": {
+        "en": "The money used in many countries in Europe.",
+        "bg": "Евро — парите в много европейски страни."
+      },
+      "example": "It's two euros.",
+      "forms": [
+        "euros"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "milk",
+      "pos": "noun",
+      "ipa": "/mɪlk/",
+      "meaning": {
+        "en": "A white drink from cows.",
+        "bg": "Мляко."
+      },
+      "example": "A coffee with milk, please.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "sugar",
+      "pos": "noun",
+      "ipa": "/ˈʃʊɡər/",
+      "meaning": {
+        "en": "A sweet white thing you put in tea or coffee.",
+        "bg": "Захар."
+      },
+      "example": "No sugar, thank you.",
+      "forms": [],
+      "band": "A1"
+    }
+  ],
+  "texts": [],
+  "names": [
+    "Rosa",
+    "Ivan",
+    "Leo",
+    "Mia",
+    "Nina",
+    "Ben",
+    "Sara",
+    "Omar",
+    "Jess"
+  ],
+  "items": [
+    {
+      "id": "a1.talk-cafe.dlg-coffee",
+      "type": "dialogue",
+      "band": "A1",
+      "skill": "speaking",
+      "competence": "a1.talk-cafe",
+      "objective": {
+        "en": "Order a drink, answer a question and pay.",
+        "bg": "Да поръчаш напитка, да отговориш на въпрос и да платиш."
+      },
+      "difficulty": -3.0,
+      "explanation": {
+        "en": "\"Can I have…, please?\" is a polite way to order. \"Just milk\" answers the waiter's question. When you give money, say \"Here you are.\"",
+        "bg": "\"Can I have…, please?\" е учтив начин да поръчаш. \"Just milk\" (само мляко) отговаря на въпроса на сервитьорката. Когато подаваш парите, казваш \"Here you are.\" (Заповядай)."
+      },
+      "hints": [
+        {
+          "en": "Listen to the waiter's question and answer that question.",
+          "bg": "Слушай какво пита сервитьорката и отговори точно на това."
+        }
+      ],
+      "words": [
+        "coffee",
+        "milk",
+        "sugar",
+        "euro",
+        "please"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "ordering"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "You are in a café. Order a coffee and pay.",
+        "bg": "В кафене си. Поръчай си кафе и плати."
+      },
+      "characters": [
+        {
+          "id": "rosa",
+          "name": "Rosa",
+          "presents": "female",
+          "accent": "GB",
+          "tone": 2
+        },
+        {
+          "id": "ivan",
+          "name": "Ivan",
+          "presents": "male",
+          "accent": "US",
+          "tone": 4
+        }
+      ],
+      "learnerAs": "ivan",
+      "lines": [
+        {
+          "by": "rosa",
+          "text": "Hi! What can I get you?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Can I have a coffee, please?",
+              "correct": true
+            },
+            {
+              "text": "Give me coffee.",
+              "correct": false,
+              "why": {
+                "en": "This sounds like an order, not a request. Use \"Can I have…\" and \"please\".",
+                "bg": "Звучи като заповед, а не като молба. Кажи \"Can I have…\" и \"please\"."
+              }
+            },
+            {
+              "text": "I am a coffee, please.",
+              "correct": false,
+              "why": {
+                "en": "\"I am a coffee\" means you ARE a coffee! Say \"Can I have a coffee?\" or \"I'd like a coffee\".",
+                "bg": "\"I am a coffee\" означава, че ТИ си кафе! Кажи \"Can I have a coffee?\" или \"I'd like a coffee\"."
+              }
+            }
+          ]
+        },
+        {
+          "by": "rosa",
+          "text": "Sure. Milk and sugar?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Just milk, please.",
+              "correct": true
+            },
+            {
+              "text": "Yes, I'm fine.",
+              "correct": false,
+              "why": {
+                "en": "\"I'm fine\" is the answer to \"How are you?\". She is asking about milk and sugar.",
+                "bg": "\"I'm fine\" е отговор на \"How are you?\" (Как си?). Тя пита за мляко и захар."
+              }
+            },
+            {
+              "text": "How much is it?",
+              "correct": false,
+              "why": {
+                "en": "She asked about milk and sugar. Answer her question first.",
+                "bg": "Тя пита за мляко и захар. Първо отговори на въпроса ѝ."
+              }
+            }
+          ]
+        },
+        {
+          "by": "rosa",
+          "text": "OK. That's three euros fifty."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Here you are.",
+              "correct": true
+            },
+            {
+              "text": "You're welcome.",
+              "correct": false,
+              "why": {
+                "en": "\"You're welcome\" is the answer to \"Thank you\". When you give money, say \"Here you are\".",
+                "bg": "\"You're welcome\" (Моля) е отговор на \"Thank you\". Когато подаваш парите, казваш \"Here you are\"."
+              }
+            },
+            {
+              "text": "Here are you.",
+              "correct": false,
+              "why": {
+                "en": "The word order is wrong. Say \"Here you are\".",
+                "bg": "Редът на думите е грешен. Правилно е \"Here you are\"."
+              }
+            }
+          ]
+        },
+        {
+          "by": "rosa",
+          "text": "Thank you! Have a nice day."
+        },
+        {
+          "by": "ivan",
+          "text": "Thanks, you too!"
+        }
+      ]
+    },
+    {
+      "id": "a1.talk-cafe.dlg-two-friends",
+      "type": "dialogue",
+      "band": "A1",
+      "skill": "speaking",
+      "competence": "a1.talk-cafe",
+      "objective": {
+        "en": "Order for yourself, finish your order and ask about paying.",
+        "bg": "Да поръчаш за себе си, да приключиш поръчката и да попиташ за плащането."
+      },
+      "difficulty": -2.6,
+      "explanation": {
+        "en": "\"Anything else?\" means \"Do you want more?\". \"No, thank you\" finishes the order. \"Can I pay by card?\" is the usual way to ask about paying with a bank card.",
+        "bg": "\"Anything else?\" означава \"Искате ли още нещо?\". С \"No, thank you\" приключваш поръчката. \"Can I pay by card?\" е обичайният начин да попиташ дали можеш да платиш с карта."
+      },
+      "hints": [
+        {
+          "en": "Think: what does the waiter want to know?",
+          "bg": "Помисли: какво иска да разбере сервитьорът?"
+        }
+      ],
+      "words": [
+        "tea",
+        "coffee",
+        "euro"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "ordering",
+        "prices"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "You and your friend Mia are in a café. Order a tea, then ask about the price and paying.",
+        "bg": "Ти и приятелката ти Мия сте в кафене. Поръчай си чай, после попитай за цената и плащането."
+      },
+      "characters": [
+        {
+          "id": "leo",
+          "name": "Leo",
+          "presents": "male",
+          "accent": "US",
+          "tone": 3
+        },
+        {
+          "id": "mia",
+          "name": "Mia",
+          "presents": "female",
+          "accent": "US",
+          "tone": 5
+        },
+        {
+          "id": "nina",
+          "name": "Nina",
+          "presents": "female",
+          "accent": "GB",
+          "tone": 1
+        }
+      ],
+      "learnerAs": "nina",
+      "lines": [
+        {
+          "by": "leo",
+          "text": "Hello! Are you ready to order?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Yes. Can I have a tea, please?",
+              "correct": true
+            },
+            {
+              "text": "Yes, I ready.",
+              "correct": false,
+              "why": {
+                "en": "You need \"am\": \"I'm ready\". But it's better to say what you want.",
+                "bg": "Липсва \"am\": \"I'm ready\". Но е по-добре направо да кажеш какво искаш."
+              }
+            },
+            {
+              "text": "Goodbye!",
+              "correct": false,
+              "why": {
+                "en": "\"Goodbye\" is for when you leave. You want to order now.",
+                "bg": "\"Goodbye\" се казва, когато си тръгваш. Сега искаш да поръчаш."
+              }
+            }
+          ]
+        },
+        {
+          "by": "leo",
+          "text": "Of course. And for you?"
+        },
+        {
+          "by": "mia",
+          "text": "A coffee and a piece of cake, please."
+        },
+        {
+          "by": "leo",
+          "text": "Great. Anything else?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "No, thank you. How much is it?",
+              "correct": true
+            },
+            {
+              "text": "No, thanks you.",
+              "correct": false,
+              "why": {
+                "en": "Say \"thank you\" or \"thanks\", not \"thanks you\".",
+                "bg": "Казва се \"thank you\" или \"thanks\", но не и \"thanks you\"."
+              }
+            },
+            {
+              "text": "Yes, thank you.",
+              "correct": false,
+              "why": {
+                "en": "\"Yes\" means you want more. You have finished your order.",
+                "bg": "\"Yes\" означава, че искаш още нещо. А ти вече си поръчал/а всичко."
+              }
+            }
+          ]
+        },
+        {
+          "by": "leo",
+          "text": "That's seven euros."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Can I pay by card?",
+              "correct": true
+            },
+            {
+              "text": "Can I card, please?",
+              "correct": false,
+              "why": {
+                "en": "You need a verb: \"Can I pay by card?\".",
+                "bg": "Липсва глагол: \"Can I pay by card?\" (Мога ли да платя с карта?)."
+              }
+            },
+            {
+              "text": "What's your name?",
+              "correct": false,
+              "why": {
+                "en": "This is not about paying. The waiter is waiting for your money.",
+                "bg": "Това няма нищо общо с плащането. Сервитьорът чака да платиш."
+              }
+            }
+          ]
+        },
+        {
+          "by": "leo",
+          "text": "Yes, no problem."
+        }
+      ]
+    },
+    {
+      "id": "a1.talk-cafe.listen-two-teas",
+      "type": "listen",
+      "band": "A1",
+      "skill": "listening",
+      "competence": "a1.talk-cafe",
+      "objective": {
+        "en": "Understand a price.",
+        "bg": "Да разбереш цена."
+      },
+      "difficulty": -3.2,
+      "explanation": {
+        "en": "Sara says \"that's four euros\" for two teas.",
+        "bg": "Сара казва \"that's four euros\" (четири евро) за два чая."
+      },
+      "hints": [
+        {
+          "en": "Listen for a number after \"that's\".",
+          "bg": "Слушай за число след \"that's\"."
+        }
+      ],
+      "words": [
+        "tea",
+        "euro"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "prices"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "Ben: Hi! Two teas, please. How much is that?\nSara: Two teas… that's four euros, please.\nBen: Here you are. Thank you!\nSara: Thanks! Have a nice day.",
+      "characters": [
+        {
+          "id": "ben",
+          "name": "Ben",
+          "presents": "male",
+          "accent": "US",
+          "tone": 2
+        },
+        {
+          "id": "sara",
+          "name": "Sara",
+          "presents": "female",
+          "accent": "GB",
+          "tone": 6
+        }
+      ],
+      "question": "How much are the two teas?",
+      "options": [
+        "Two euros",
+        "Four euros",
+        "Fourteen euros",
+        "Five euros"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "a1.talk-cafe.listen-omar-order",
+      "type": "listen",
+      "band": "A1",
+      "skill": "listening",
+      "competence": "a1.talk-cafe",
+      "objective": {
+        "en": "Understand what someone orders.",
+        "bg": "Да разбереш какво поръчва някой."
+      },
+      "difficulty": -2.4,
+      "explanation": {
+        "en": "Omar orders a coffee and says \"Small, please\". Then he adds \"and a water too\".",
+        "bg": "Омар поръчва кафе и казва \"Small, please\" (малко, моля). После добавя \"and a water too\" (и една вода)."
+      },
+      "hints": [
+        {
+          "en": "Listen to the end — Omar adds something.",
+          "bg": "Слушай до края — Омар добавя още нещо."
+        }
+      ],
+      "words": [
+        "coffee"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "ordering"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "Jess: Hello! What can I get you?\nOmar: Hi, a coffee, please.\nJess: Sure. Big or small?\nOmar: Small, please. Oh, and a water too.\nJess: OK, that's three euros.",
+      "characters": [
+        {
+          "id": "omar",
+          "name": "Omar",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 4
+        },
+        {
+          "id": "jess",
+          "name": "Jess",
+          "presents": "female",
+          "accent": "US",
+          "tone": 1
+        }
+      ],
+      "question": "What does Omar order?",
+      "options": [
+        "A small coffee and a water",
+        "A big coffee and a water",
+        "A small coffee and a tea",
+        "Two small coffees"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "a1.talk-cafe.say-glass-of-water",
+      "type": "speak",
+      "band": "A1",
+      "skill": "speaking",
+      "competence": "a1.talk-cafe",
+      "objective": {
+        "en": "Repeat a polite request.",
+        "bg": "Да повториш учтива молба."
+      },
+      "difficulty": -3.4,
+      "explanation": {
+        "en": "\"Can I have…, please?\" works for anything in a café: a glass of water, a tea, a cake.",
+        "bg": "\"Can I have…, please?\" става за всичко в кафенето: чаша вода, чай, торта."
+      },
+      "hints": [
+        {
+          "en": "Notice the rising voice at the end of the question.",
+          "bg": "Обърни внимание как гласът се качва в края на въпроса."
+        }
+      ],
+      "words": [
+        "please"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "repeat",
+      "prompt": "Can I have a glass of water, please?",
+      "model": "Can I have a glass of water, please?",
+      "keywords": [],
+      "target": "Can I have a glass of water, please?",
+      "voice": {
+        "presents": "female",
+        "accent": "GB"
+      }
+    },
+    {
+      "id": "a1.talk-cafe.read-tea-and-cake",
+      "type": "speak",
+      "band": "A1",
+      "skill": "speaking",
+      "competence": "a1.talk-cafe",
+      "objective": {
+        "en": "Read an order aloud.",
+        "bg": "Да прочетеш поръчка на глас."
+      },
+      "difficulty": -3.0,
+      "explanation": {
+        "en": "You can order with just the things and \"please\": \"A tea and a cake, please.\" Then ask the price.",
+        "bg": "Можеш да поръчаш само с нещата и \"please\": \"A tea and a cake, please.\" После питаш за цената."
+      },
+      "hints": [
+        {
+          "en": "Say \"please\" clearly — it matters.",
+          "bg": "Кажи \"please\" ясно — важно е."
+        }
+      ],
+      "words": [
+        "tea",
+        "please"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "read",
+      "prompt": "A tea and a cake, please. How much is it?",
+      "model": "A tea and a cake, please. How much is it?",
+      "keywords": [],
+      "target": "A tea and a cake, please. How much is it?"
+    },
+    {
+      "id": "a1.talk-cafe.answer-drink",
+      "type": "speak",
+      "band": "A1",
+      "skill": "speaking",
+      "competence": "a1.talk-cafe",
+      "objective": {
+        "en": "Answer a waiter's question about drinks.",
+        "bg": "Да отговориш на сервитьор какво ще пиеш."
+      },
+      "difficulty": -2.2,
+      "explanation": {
+        "en": "Name a drink and say \"please\". For example: \"Can I have a tea, please?\" or \"I'd like a water, please.\"",
+        "bg": "Кажи напитка и \"please\". Например: \"Can I have a tea, please?\" или \"I'd like a water, please.\""
+      },
+      "hints": [
+        {
+          "en": "Start with \"Can I have…\" or \"I'd like…\".",
+          "bg": "Започни с \"Can I have…\" или \"I'd like…\"."
+        }
+      ],
+      "words": [
+        "tea",
+        "coffee",
+        "please"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "answer",
+      "prompt": "What would you like to drink?",
+      "model": "Can I have a tea, please?",
+      "keywords": [
+        [
+          "coffee",
+          "tea",
+          "water",
+          "juice",
+          "milk",
+          "lemonade",
+          "cola",
+          "hot chocolate",
+          "beer",
+          "wine"
+        ],
+        [
+          "please",
+          "thanks",
+          "thank you"
+        ]
+      ],
+      "voice": {
+        "presents": "male",
+        "accent": "US"
+      }
+    },
+    {
+      "id": "a1.talk-cafe.fix-how-much",
+      "type": "fix",
+      "band": "A1",
+      "skill": "grammar",
+      "competence": "a1.talk-cafe",
+      "objective": {
+        "en": "Ask \"How much is it?\" with the right word order.",
+        "bg": "Да питаш \"How much is it?\" с правилния словоред."
+      },
+      "difficulty": -2.0,
+      "explanation": {
+        "en": "In a question, the verb comes before \"it\": \"How much is it?\". \"How much it is\" is the order for a statement, not a question.",
+        "bg": "Във въпрос глаголът стои преди \"it\": \"How much is it?\". \"How much it is\" е словоред за изречение, а не за въпрос."
+      },
+      "hints": [
+        {
+          "en": "Where does \"is\" go in a question?",
+          "bg": "Къде стои \"is\" във въпроса?"
+        }
+      ],
+      "words": [
+        "much"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "sentence": "Excuse me, how much it is?",
+      "wrong": "how much it is",
+      "accept": [
+        "Excuse me, how much is it?",
+        "Excuse me, how much is this?",
+        "Excuse me, how much is that?"
+      ]
+    }
+  ]
+}

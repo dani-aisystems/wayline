@@ -1,3 +1,4 @@
+import { EXPRESSIONS, expressionEntry } from "./expressions";
 import { BANDS, ContentPack, type Band, type Competence, type GlossaryEntry, type Item, type Note, type Text } from "./schema";
 
 /** All shipped packs, bundled at build time and validated again at load. */
@@ -71,6 +72,11 @@ export function buildLibrary(rawPacks: unknown[]): Library {
 }
 
 export const library: Library = buildLibrary(Object.values(modules));
+// Curated expressions are reviewable like words: register them so saved cards resolve to an entry.
+for (const e of EXPRESSIONS) {
+  const key = e.text.toLowerCase();
+  if (!library.lens.has(key)) library.lens.set(key, expressionEntry(e));
+}
 
 export function bandAtLeast(b: Band, min: Band): boolean {
   return BANDS.indexOf(b) >= BANDS.indexOf(min);

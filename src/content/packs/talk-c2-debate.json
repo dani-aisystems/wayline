@@ -1,0 +1,807 @@
+{
+  "id": "talk-c2-debate",
+  "version": 1,
+  "band": "C2",
+  "competences": [
+    {
+      "id": "c2.talk-debate",
+      "band": "C2",
+      "title": {
+        "en": "Reasoned debate",
+        "bg": "Аргументиран дебат"
+      },
+      "canDo": {
+        "en": "I can concede a point without giving up my position, rebut an argument precisely, catch irony, and shift register between a formal debate and a heated conversation among friends.",
+        "bg": "Мога да отстъпя по даден въпрос, без да се отказвам от позицията си, да опровергая аргумент прецизно, да доловя ирония и да сменям регистъра между официален дебат и разгорещен разговор с приятели."
+      },
+      "skills": [
+        "speaking",
+        "listening",
+        "grammar"
+      ],
+      "prerequisites": [
+        "a1.hello"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "c2.talk-debate.note-concede-rebut",
+      "competence": "c2.talk-debate",
+      "title": {
+        "en": "Conceding and rebutting with finesse",
+        "bg": "Как да отстъпиш и да опровергаеш с финес"
+      },
+      "body": {
+        "en": "At this level, persuasion depends less on what you claim than on what you concede. A targeted concession (\"Granted, …\", \"Be that as it may, …\") shows you've heard the other side and makes your rebuttal more credible. Concede the narrow point, then show why it doesn't decide the wider question (\"that hardly makes it worthless\"). Understatement and irony do a lot of work: \"To put it charitably, the evidence is thin on the ground\" is far more damaging than \"There's no evidence\". Match register to the room: \"I'd take issue with…\" suits a debate; among friends, \"Hang on, that's not quite fair\" sounds natural.",
+        "bg": "На това ниво убедителността зависи не толкова от това какво твърдиш, колкото от това в какво отстъпваш. Прецизната отстъпка (\"Granted, …\" — Вярно е, че…, \"Be that as it may, …\" — Така да е, но…) показва, че си чул/а другата страна, и прави опровержението ти по-убедително. Признай тесния аргумент, после покажи защо той не решава по-широкия въпрос (\"that hardly makes it worthless\" — това едва ли го прави безполезно). Понижаването (understatement) и иронията вършат много работа: \"To put it charitably, the evidence is thin on the ground\" (меко казано, доказателствата са оскъдни) удря много по-силно от \"There's no evidence\". Съобрази регистъра с аудиторията: \"I'd take issue with…\" (не бих се съгласил/а с…) подхожда на дебат; между приятели \"Hang on, that's not quite fair\" звучи естествено."
+      },
+      "examples": [
+        "Granted, the scheme has its flaws, but that hardly makes it worthless.",
+        "I'd take issue with the idea that cost is the only consideration.",
+        "That may be true as far as it goes, but it doesn't go very far.",
+        "With respect, that rather misses the point.",
+        "To put it charitably, the evidence is thin on the ground.",
+        "Be that as it may, the principle still stands."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "granted",
+      "pos": "adverb",
+      "ipa": "/ˈɡrɑːntɪd/",
+      "meaning": {
+        "en": "Used to admit that something is true before arguing against its importance.",
+        "bg": "Вярно е, че…; признавам — преди да оспориш значението на нещо."
+      },
+      "example": "Granted, it costs more.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "flaw",
+      "pos": "noun",
+      "ipa": "/flɔː/",
+      "meaning": {
+        "en": "A fault or weakness that makes something less effective.",
+        "bg": "Недостатък, слабо място."
+      },
+      "example": "Every plan has its flaws.",
+      "forms": [
+        "flaws"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "hardly",
+      "pos": "adverb",
+      "ipa": "/ˈhɑːrdli/",
+      "meaning": {
+        "en": "Almost not; often used ironically to mean \"certainly not\".",
+        "bg": "Едва ли; почти не — често иронично със значение \"съвсем не\"."
+      },
+      "example": "That's hardly a surprise.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "worthless",
+      "pos": "adjective",
+      "ipa": "/ˈwɜːrθləs/",
+      "meaning": {
+        "en": "Having no value or use.",
+        "bg": "Безполезен, без стойност."
+      },
+      "example": "The data is far from worthless.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "consideration",
+      "pos": "noun",
+      "ipa": "/kənˌsɪdəˈreɪʃən/",
+      "meaning": {
+        "en": "A factor you must think about when making a decision.",
+        "bg": "Съображение, фактор."
+      },
+      "example": "Cost is an important consideration.",
+      "forms": [
+        "considerations"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "true",
+      "pos": "adjective",
+      "ipa": "/truː/",
+      "meaning": {
+        "en": "Correct; based on facts.",
+        "bg": "Вярно, истинско."
+      },
+      "example": "That's true, but it doesn't matter.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "far",
+      "pos": "adverb",
+      "ipa": "/fɑːr/",
+      "meaning": {
+        "en": "A long distance; \"as far as it goes\" means \"within its limits\".",
+        "bg": "Далече; \"as far as it goes\" значи \"в известни граници\"."
+      },
+      "example": "The idea doesn't go very far.",
+      "forms": [
+        "farther",
+        "further",
+        "furthest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "charitably",
+      "pos": "adverb",
+      "ipa": "/ˈtʃærɪtəbli/",
+      "meaning": {
+        "en": "In the kindest possible way; \"to put it charitably\" introduces polite but sharp criticism.",
+        "bg": "Възможно най-благосклонно; \"to put it charitably\" (меко казано) въвежда учтива, но остра критика."
+      },
+      "example": "To put it charitably, the plan was risky.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "ground",
+      "pos": "noun",
+      "ipa": "/ɡraʊnd/",
+      "meaning": {
+        "en": "The surface of the earth; \"thin on the ground\" means rare or scarce.",
+        "bg": "Земя; \"thin on the ground\" значи \"рядко срещан, оскъден\"."
+      },
+      "example": "Good ideas were thin on the ground.",
+      "forms": [
+        "grounds"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "principle",
+      "pos": "noun",
+      "ipa": "/ˈprɪnsəpəl/",
+      "meaning": {
+        "en": "A basic idea or rule that guides what you believe or do.",
+        "bg": "Принцип."
+      },
+      "example": "It's a question of principle.",
+      "forms": [
+        "principles"
+      ],
+      "band": "C1"
+    }
+  ],
+  "texts": [],
+  "names": [
+    "Eleanor",
+    "Victor",
+    "Irina",
+    "Felix",
+    "Maya",
+    "Theo",
+    "Hugo",
+    "Clara",
+    "AI",
+    "Friday"
+  ],
+  "items": [
+    {
+      "id": "c2.talk-debate.dlg-car-free-centres",
+      "type": "dialogue",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.talk-debate",
+      "objective": {
+        "en": "Concede a narrow point, rebut proportionately and close with a reframing argument in a formal debate.",
+        "bg": "Да отстъпиш по тесен въпрос, да опровергаеш съразмерно и да завършиш с аргумент, който преосмисля въпроса, в официален дебат."
+      },
+      "difficulty": 3.6,
+      "explanation": {
+        "en": "The strongest moves concede something real (\"some shops struggled at first\", \"small independents are more exposed\") and then show that the concession doesn't decide the motion. The closing point reframes the debate: the status quo has costs too. Insults, over-concession and overclaiming all hand the advantage to your opponent.",
+        "bg": "Най-силните ходове признават нещо реално (\"some shops struggled at first\", \"small independents are more exposed\") и после показват, че отстъпката не решава тезата. Заключителният аргумент преосмисля дебата: и статуквото има цена. Обидите, прекомерните отстъпки и преувеличенията дават предимство на опонента."
+      },
+      "hints": [
+        {
+          "en": "Concede the detail, keep the position.",
+          "bg": "Отстъпи по детайла, но запази позицията си."
+        }
+      ],
+      "words": [
+        "granted",
+        "hardly"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "debate",
+        "conceding",
+        "rebutting"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "A televised debate on the motion \"City centres should be car-free\". You are speaking for the motion; Victor is against.",
+        "bg": "Телевизионен дебат по тезата \"Градските центрове трябва да са без коли\". Ти защитаваш тезата, Виктор е против."
+      },
+      "characters": [
+        {
+          "id": "eleanor",
+          "name": "Eleanor",
+          "presents": "female",
+          "accent": "US",
+          "tone": 1
+        },
+        {
+          "id": "victor",
+          "name": "Victor",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 3
+        },
+        {
+          "id": "irina",
+          "name": "Irina",
+          "presents": "female",
+          "accent": "GB",
+          "tone": 4
+        }
+      ],
+      "learnerAs": "irina",
+      "lines": [
+        {
+          "by": "eleanor",
+          "text": "Our motion tonight: city centres should be car-free. Victor, you're opposed."
+        },
+        {
+          "by": "victor",
+          "text": "I am. Shops depend on drivers. Pedestrianise the centre and you'll turn high streets into ghost towns. That's not speculation — it's arithmetic."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Granted, some shops did struggle at first. But in most cities that have actually tried it, footfall recovered within a few years, so \"ghost towns\" seems something of an overstatement.",
+              "correct": true
+            },
+            {
+              "text": "That's simply nonsense, and frankly you know it.",
+              "correct": false,
+              "why": {
+                "en": "An attack on your opponent, not his argument — and far too aggressive for a formal debate.",
+                "bg": "Атака срещу опонента, а не срещу аргумента му — и прекалено агресивно за официален дебат."
+              }
+            },
+            {
+              "text": "Granted, shops depend on drivers — which is exactly why cars should be banned.",
+              "correct": false,
+              "why": {
+                "en": "A non sequitur: you concede his premise, then draw a conclusion that doesn't follow from it.",
+                "bg": "Логически скок: приемаш предпоставката му и после правиш извод, който не следва от нея."
+              }
+            }
+          ]
+        },
+        {
+          "by": "victor",
+          "text": "\"Recovered\" is doing an awful lot of work there. Recovered for whom? The chains, perhaps — not the family-run hardware shop."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "That's a fair distinction, and I'd concede that small independents are more exposed. But that's an argument for transitional support, not for abandoning the policy altogether.",
+              "correct": true
+            },
+            {
+              "text": "Well, hardly anyone uses hardware shops these days anyway.",
+              "correct": false,
+              "why": {
+                "en": "A dismissive generalisation with no evidence — it also sounds callous towards the very people Victor mentioned.",
+                "bg": "Пренебрежително обобщение без доказателства — и звучи безсърдечно към хората, за които говори Виктор."
+              }
+            },
+            {
+              "text": "That's a fair distinction, so I withdraw my argument.",
+              "correct": false,
+              "why": {
+                "en": "Over-concession: his point is about one group of shops, not the whole motion. Concede the detail, keep the position.",
+                "bg": "Прекомерна отстъпка: аргументът му засяга една група магазини, а не цялата теза. Отстъпи по детайла, но запази позицията."
+              }
+            }
+          ]
+        },
+        {
+          "by": "eleanor",
+          "text": "One minute left, Irina. Your closing point?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Simply this: the status quo isn't neutral. We already pay for cars in the centre — in air quality, in noise, in space. It's just that the bill never arrives at the till.",
+              "correct": true
+            },
+            {
+              "text": "To conclude, I've proved beyond all doubt that I'm right.",
+              "correct": false,
+              "why": {
+                "en": "Overclaiming invites ridicule — and it adds no argument at the moment that matters most.",
+                "bg": "Преувеличението предизвиква присмех — и не добавя аргумент точно в най-важния момент."
+              }
+            },
+            {
+              "text": "Simply this: cars are bad, and bad things should be banned.",
+              "correct": false,
+              "why": {
+                "en": "Circular and simplistic. A C2 closing should reframe the issue, not reduce it to a slogan.",
+                "bg": "Кръгово и опростено. Заключението на ниво C2 трябва да преосмисли въпроса, а не да го сведе до лозунг."
+              }
+            }
+          ]
+        },
+        {
+          "by": "eleanor",
+          "text": "Thank you both. Let's open it up to the floor."
+        }
+      ]
+    },
+    {
+      "id": "c2.talk-debate.dlg-ai-art-dinner",
+      "type": "dialogue",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.talk-debate",
+      "objective": {
+        "en": "Keep an informal register, read irony, and stake out a nuanced position among friends.",
+        "bg": "Да запазиш неофициален регистър, да разчетеш ирония и да заемеш нюансирана позиция в компания на приятели."
+      },
+      "difficulty": 3.9,
+      "explanation": {
+        "en": "Among friends, nuance comes through relaxed phrasing (\"Maya's got a point, though…\"), not legal language. Maya's \"he's just agreed with me less\" is teasing; the natural reply plays along. A good final position draws a clear, reasoned line rather than hedging into nothing.",
+        "bg": "Между приятели нюансът се предава с непринуден изказ (\"Maya's got a point, though…\"), а не с юридически език. \"He's just agreed with me less\" на Мая е закачка; естественият отговор се включва в шегата. Добрата крайна позиция очертава ясна, обоснована граница, вместо да се разтвори в уговорки."
+      },
+      "hints": [
+        {
+          "en": "Think about the setting: dinner with friends, not a courtroom.",
+          "bg": "Помисли за обстановката: вечеря с приятели, а не съдебна зала."
+        }
+      ],
+      "words": [
+        "hardly"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "debate",
+        "register",
+        "irony"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "Over dinner, your friends Felix and Maya are arguing about whether AI-generated images count as art. It's relaxed, but they both mean it.",
+        "bg": "На вечеря приятелите ти Феликс и Мая спорят дали изображенията, създадени от изкуствен интелект, са изкуство. Атмосферата е спокойна, но и двамата са сериозни."
+      },
+      "characters": [
+        {
+          "id": "felix",
+          "name": "Felix",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 2
+        },
+        {
+          "id": "maya",
+          "name": "Maya",
+          "presents": "female",
+          "accent": "US",
+          "tone": 6
+        },
+        {
+          "id": "theo",
+          "name": "Theo",
+          "presents": "male",
+          "accent": "US",
+          "tone": 3
+        }
+      ],
+      "learnerAs": "theo",
+      "lines": [
+        {
+          "by": "felix",
+          "text": "Come on, typing a prompt isn't art. It's ordering a takeaway and claiming you cooked it."
+        },
+        {
+          "by": "maya",
+          "text": "Bit harsh. People said exactly the same about photography in the eighteen-fifties."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Maya's got a point, though I'm not sure the analogy holds all the way — a photographer still has to be somewhere and choose the moment.",
+              "correct": true
+            },
+            {
+              "text": "I must respectfully submit that the analogy is fundamentally flawed.",
+              "correct": false,
+              "why": {
+                "en": "The register is far too formal for dinner with friends — it sounds like a courtroom.",
+                "bg": "Регистърът е твърде официален за вечеря с приятели — звучи като в съдебна зала."
+              }
+            },
+            {
+              "text": "Maya's got a point, so Felix is completely right.",
+              "correct": false,
+              "why": {
+                "en": "Contradictory: Maya and Felix hold opposite views, so agreeing with her can't make him right.",
+                "bg": "Противоречиво: Мая и Феликс са на противоположни мнения, така че съгласието с нея не може да означава, че той е прав."
+              }
+            }
+          ]
+        },
+        {
+          "by": "felix",
+          "text": "Thank you! Finally, someone talking sense."
+        },
+        {
+          "by": "maya",
+          "text": "Oh, don't get too excited, Felix. He hasn't agreed with you — he's just agreed with me slightly less."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Ha — she's not wrong. I'm sitting very firmly on the fence, and it's surprisingly comfortable up here.",
+              "correct": true
+            },
+            {
+              "text": "No, I definitely agree with Felix completely.",
+              "correct": false,
+              "why": {
+                "en": "That contradicts what you said a moment ago — you only questioned part of Maya's analogy.",
+                "bg": "Това противоречи на казаното от теб преди малко — ти постави под въпрос само част от аналогията на Мая."
+              }
+            },
+            {
+              "text": "Sorry, I don't understand what you mean.",
+              "correct": false,
+              "why": {
+                "en": "Maya is teasing, and the joke is easy to read. Missing it makes the conversation awkward.",
+                "bg": "Мая се шегува и закачката лесно се разбира. Ако не я доловиш, разговорът става неловък."
+              }
+            }
+          ]
+        },
+        {
+          "by": "felix",
+          "text": "Fine. But where would you actually draw the line?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Probably at intent. If someone spends weeks refining and curating, I'd be hard pressed to say there's no craft in it. A one-off prompt? That's more like a lucky snapshot.",
+              "correct": true
+            },
+            {
+              "text": "Probably at intent, I guess, maybe, sort of — it's hard to say, really.",
+              "correct": false,
+              "why": {
+                "en": "So much hedging that you end up saying nothing. Nuance means a clear position with limits, not no position.",
+                "bg": "Толкова много уговорки, че накрая не казваш нищо. Нюансът е ясна позиция с граници, а не липса на позиция."
+              }
+            },
+            {
+              "text": "The line is wherever I say it is.",
+              "correct": false,
+              "why": {
+                "en": "Glib — it shuts the conversation down instead of offering a reason.",
+                "bg": "Повърхностно — прекъсва разговора, вместо да предложи аргумент."
+              }
+            }
+          ]
+        },
+        {
+          "by": "maya",
+          "text": "See, that I can live with."
+        }
+      ]
+    },
+    {
+      "id": "c2.talk-debate.listen-remote-culture",
+      "type": "listen",
+      "band": "C2",
+      "skill": "listening",
+      "competence": "c2.talk-debate",
+      "objective": {
+        "en": "Identify the overall position in a nuanced argument.",
+        "bg": "Да откриеш общата позиция в нюансиран аргумент."
+      },
+      "difficulty": 3.5,
+      "explanation": {
+        "en": "The speaker rejects the claim that remote work killed culture, but concedes that new starters lose out. Her conclusion: offices aren't obsolete, but we should be \"far more deliberate about who needs to be in them, and when\".",
+        "bg": "Говорителката отхвърля твърдението, че работата от вкъщи е убила фирмената култура, но признава, че новите служители губят. Изводът ѝ: офисите не са остарели, но трябва да сме \"far more deliberate about who needs to be in them, and when\" (много по-обмислени кой и кога трябва да е там)."
+      },
+      "hints": [
+        {
+          "en": "Listen for \"That said\" and \"So the honest conclusion…\".",
+          "bg": "Слушай за \"That said\" и \"So the honest conclusion…\"."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "debate",
+        "conceding"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "My opponent claims that remote work has killed company culture. I'd gently point out that culture was never synonymous with free biscuits and compulsory Friday drinks. If anything, the shift has exposed how much of what we called culture was simply proximity. That said, I'll grant him this much: new starters do lose out. Learning by osmosis is real, and video calls are a poor substitute. So the honest conclusion isn't that offices are obsolete, but that we should be far more deliberate about who needs to be in them, and when.",
+      "characters": [],
+      "question": "What is the speaker's overall position?",
+      "options": [
+        "Offices still matter, especially for newcomers, but attendance should be planned with a clear purpose",
+        "Remote work has destroyed company culture",
+        "Offices are now obsolete for almost everyone",
+        "Company culture depends mainly on social events like Friday drinks"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "c2.talk-debate.listen-another-lane",
+      "type": "listen",
+      "band": "C2",
+      "skill": "listening",
+      "competence": "c2.talk-debate",
+      "objective": {
+        "en": "Follow a debate with irony and find the point of agreement.",
+        "bg": "Да проследиш спор с ирония и да откриеш общото съгласие."
+      },
+      "difficulty": 4.0,
+      "explanation": {
+        "en": "Clara's \"that's worked so brilliantly every other time\" is ironic — she thinks new lanes don't work. They only agree at the end: Hugo says telling people to take the bus \"isn't a plan either, not with the service we've got\", and Clara replies \"Now that, I won't argue with.\"",
+        "bg": "\"That's worked so brilliantly every other time\" на Клара е иронично — тя смята, че новите ленти не помагат. Съгласяват се чак накрая: Хюго казва, че да кажеш на хората да ползват автобуса \"isn't a plan either, not with the service we've got\" (също не е решение при сегашното обслужване), а Клара отвръща \"Now that, I won't argue with.\" (С това няма да споря.)"
+      },
+      "hints": [
+        {
+          "en": "\"I won't argue with that\" means \"I agree\".",
+          "bg": "\"I won't argue with that\" значи \"съгласен/съгласна съм\"."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "debate",
+        "irony"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "Hugo: So the council's solution to traffic is… another lane.\nClara: Yes, because that's worked so brilliantly every other time.\nHugo: Well, in fairness, the old bypass did ease congestion for a while.\nClara: For about eighteen months, until it filled up again. Induced demand isn't exactly a fringe theory.\nHugo: I'll give you that. Still, telling people to just take the bus isn't a plan either, not with the service we've got.\nClara: Now that, I won't argue with.",
+      "characters": [
+        {
+          "id": "hugo",
+          "name": "Hugo",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 2
+        },
+        {
+          "id": "clara",
+          "name": "Clara",
+          "presents": "female",
+          "accent": "US",
+          "tone": 5
+        }
+      ],
+      "question": "What do Hugo and Clara end up agreeing on?",
+      "options": [
+        "The current bus service isn't a realistic alternative",
+        "Adding another lane will solve the traffic problem",
+        "The old bypass was a complete failure",
+        "Induced demand is a fringe theory"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "c2.talk-debate.say-cuts-both-ways",
+      "type": "speak",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.talk-debate",
+      "objective": {
+        "en": "Repeat a concession that turns into a counter-argument.",
+        "bg": "Да повториш отстъпка, която прераства в контрааргумент."
+      },
+      "difficulty": 3.1,
+      "explanation": {
+        "en": "\"It cuts both ways\" means the same argument can be used for the other side too — a neat way to neutralise a point.",
+        "bg": "\"It cuts both ways\" значи, че същият аргумент важи и за другата страна — елегантен начин да неутрализираш довод."
+      },
+      "hints": [
+        {
+          "en": "Stress \"both\".",
+          "bg": "Наблегни на \"both\"."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "repeat",
+      "prompt": "I take your point, but I'd argue it cuts both ways.",
+      "model": "I take your point, but I'd argue it cuts both ways.",
+      "keywords": [],
+      "target": "I take your point, but I'd argue it cuts both ways.",
+      "voice": {
+        "presents": "female",
+        "accent": "GB"
+      }
+    },
+    {
+      "id": "c2.talk-debate.read-popular-wise",
+      "type": "speak",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.talk-debate",
+      "objective": {
+        "en": "Read a balanced, formal argument aloud.",
+        "bg": "Да прочетеш на глас балансиран официален аргумент."
+      },
+      "difficulty": 3.3,
+      "explanation": {
+        "en": "\"Be that as it may\" concedes the previous point; \"not necessarily\" and \"all too often\" keep the claim measured but pointed.",
+        "bg": "\"Be that as it may\" признава предишния довод; \"not necessarily\" и \"all too often\" правят твърдението премерено, но остро."
+      },
+      "hints": [
+        {
+          "en": "Pause after \"Be that as it may\", and stress \"popular\" and \"wise\".",
+          "bg": "Направи пауза след \"Be that as it may\" и наблегни на \"popular\" и \"wise\"."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "read",
+      "prompt": "Be that as it may, a policy that is popular is not necessarily one that is wise, and the two are all too often confused.",
+      "model": "Be that as it may, a policy that is popular is not necessarily one that is wise, and the two are all too often confused.",
+      "keywords": [],
+      "target": "Be that as it may, a policy that is popular is not necessarily one that is wise, and the two are all too often confused."
+    },
+    {
+      "id": "c2.talk-debate.answer-social-media",
+      "type": "speak",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.talk-debate",
+      "objective": {
+        "en": "Concede a point, then challenge the claim.",
+        "bg": "Да отстъпиш по един въпрос и после да оспориш твърдението."
+      },
+      "difficulty": 4.2,
+      "explanation": {
+        "en": "Concede something specific (\"Granted, it's fuelled a lot of misinformation\"), then pivot with \"That said\", \"but\" or \"Even so\" to show why the overall claim doesn't follow.",
+        "bg": "Признай нещо конкретно (\"Granted, it's fuelled a lot of misinformation\"), после смени посоката с \"That said\", \"but\" или \"Even so\", за да покажеш защо общото твърдение не следва."
+      },
+      "hints": [
+        {
+          "en": "Start with \"Granted…\" or \"It's true that…\".",
+          "bg": "Започни с \"Granted…\" или \"It's true that…\"."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "answer",
+      "prompt": "Someone says: \"Social media has done more harm than good.\" Concede one point, then challenge the claim.",
+      "model": "Granted, it's fuelled a lot of misinformation. That said, it's also given a voice to people who were never heard before, so I'd hesitate to call the overall balance negative.",
+      "keywords": [
+        [
+          "granted",
+          "true",
+          "fair",
+          "agree",
+          "admittedly",
+          "point",
+          "grant",
+          "concede",
+          "right",
+          "accept"
+        ],
+        [
+          "but",
+          "however",
+          "although",
+          "though",
+          "yet",
+          "that said",
+          "still",
+          "even so",
+          "whereas",
+          "nevertheless"
+        ]
+      ],
+      "voice": {
+        "presents": "male",
+        "accent": "US"
+      }
+    },
+    {
+      "id": "c2.talk-debate.fix-not-only-inversion",
+      "type": "fix",
+      "band": "C2",
+      "skill": "grammar",
+      "competence": "c2.talk-debate",
+      "objective": {
+        "en": "Use inversion after a fronted \"Not only\".",
+        "bg": "Да използваш инверсия след \"Not only\" в началото на изречението."
+      },
+      "difficulty": 3.2,
+      "explanation": {
+        "en": "When \"Not only\" starts a clause, the auxiliary comes before the subject, as in a question: \"Not only did the policy fail…\". Without inversion, the sentence is ungrammatical (you could also write \"The policy not only failed…\").",
+        "bg": "Когато \"Not only\" започва изречението, спомагателният глагол застава пред подлога, както във въпрос: \"Not only did the policy fail…\". Без инверсия изречението е неграматично (може и \"The policy not only failed…\")."
+      },
+      "hints": [
+        {
+          "en": "What happens to word order after a negative adverbial at the start?",
+          "bg": "Какво става със словореда след отрицателно обстоятелствено пояснение в началото?"
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "inversion"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "sentence": "Not only the policy failed to reduce emissions, but it also raised costs.",
+      "wrong": "Not only the policy failed",
+      "accept": [
+        "Not only did the policy fail to reduce emissions, but it also raised costs.",
+        "Not only did the policy fail to reduce emissions, it also raised costs.",
+        "Not only did the policy fail to reduce emissions, but it raised costs as well.",
+        "The policy not only failed to reduce emissions, but it also raised costs.",
+        "The policy not only failed to reduce emissions but also raised costs."
+      ]
+    }
+  ]
+}

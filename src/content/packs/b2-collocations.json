@@ -1,0 +1,1656 @@
+{
+  "id": "b2-collocations",
+  "version": 1,
+  "band": "B2",
+  "competences": [
+    {
+      "id": "b2.collocations",
+      "band": "B2",
+      "title": {
+        "en": "Persuasion: collocations & contrast",
+        "bg": "Убеждаване: колокации и контраст"
+      },
+      "canDo": {
+        "en": "I can build a persuasive argument using strong collocations and link contrasting ideas with although, despite, whereas and however.",
+        "bg": "Мога да изградя убедителен аргумент със силни колокации и да свързвам противоположни идеи с although, despite, whereas и however."
+      },
+      "skills": [
+        "vocabulary",
+        "grammar",
+        "writing",
+        "reading"
+      ],
+      "prerequisites": [
+        "b1.advice"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "b2.collocations.note-collocations",
+      "competence": "b2.collocations",
+      "title": {
+        "en": "Strong collocations",
+        "bg": "Силни колокации"
+      },
+      "body": {
+        "en": "Collocations are word partners that native speakers use automatically. They often don't match Bulgarian: we make (not \"take\") a decision — Bulgarian \"вземам решение\" pushes learners towards \"take\". Other key partners: raise concerns / raise an issue, meet / miss a deadline, take steps / take action, carry a risk, reach an agreement, pay attention. Using the right partner makes you sound fluent and persuasive; the wrong one is understood but marks you as a learner.",
+        "bg": "Колокациите са думи, които носителите на езика съчетават автоматично. Често не съвпадат с българския: на английски make (а не \"take\") a decision — \"вземам решение\" подтиква към \"take\". Други важни съчетания: raise concerns / raise an issue (повдигам притеснения/въпрос), meet / miss a deadline (спазвам/изпускам срок), take steps / take action (предприемам мерки/действия), carry a risk (крие риск), reach an agreement (постигам споразумение), pay attention (обръщам внимание). Правилното съчетание те прави да звучиш свободно и убедително; грешното се разбира, но издава, че учиш езика."
+      },
+      "examples": [
+        "We need to make a decision by Friday.",
+        "Several employees raised concerns about safety.",
+        "The team worked late to meet the deadline.",
+        "The government must take steps to reduce pollution."
+      ]
+    },
+    {
+      "id": "b2.collocations.note-contrast",
+      "competence": "b2.collocations",
+      "title": {
+        "en": "Although, despite, whereas, however",
+        "bg": "Although, despite, whereas, however"
+      },
+      "body": {
+        "en": "These all show contrast, but their grammar is different. \"Although\" + a full clause (subject + verb): Although it was expensive, we bought it. \"Despite\" / \"In spite of\" + a noun or -ing form, never a clause: Despite the cost… / Despite being expensive… (not \"Despite it was expensive\"). \"Whereas\" compares two different facts in one sentence: Sales rose in the north, whereas they fell in the south. \"However\" links two separate sentences and usually takes a comma: It was expensive. However, it was worth it. Bulgarian \"въпреки че\" and \"въпреки\" mirror although/despite, so think: is a verb coming?",
+        "bg": "Всички тези думи изразяват контраст, но граматиката им е различна. \"Although\" + цяло изречение (подлог + глагол): Although it was expensive, we bought it. \"Despite\" / \"In spite of\" + съществително или -ing форма, никога изречение: Despite the cost… / Despite being expensive… (не \"Despite it was expensive\"). \"Whereas\" сравнява два различни факта в едно изречение: Sales rose in the north, whereas they fell in the south. \"However\" свързва две отделни изречения и обикновено е със запетая: It was expensive. However, it was worth it. Българските \"въпреки че\" и \"въпреки\" съответстват на although/despite, така че се питай: следва ли глагол?"
+      },
+      "examples": [
+        "Although the plan is risky, it could save us money.",
+        "Despite the bad weather, the event was a success.",
+        "My sister loves cities, whereas I prefer the countryside.",
+        "The idea is popular. However, it would be expensive."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "act",
+      "pos": "verb",
+      "meaning": {
+        "en": "To do something to deal with a situation.",
+        "bg": "Действам."
+      },
+      "example": "If we fail to act, we may lose talented people to competitors who already offer flexible schedules.",
+      "forms": [
+        "acts",
+        "acted",
+        "acting"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "already",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Before now, or sooner than expected.",
+        "bg": "Вече."
+      },
+      "example": "If we fail to act, we may lose talented people to competitors who already offer flexible schedules.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "also",
+      "pos": "adverb",
+      "meaning": {
+        "en": "In addition; too.",
+        "bg": "Също така."
+      },
+      "example": "They also made fewer mistakes, whereas the five-day teams reported more overtime and lower morale.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "although",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "Despite the fact that; followed by subject + verb.",
+        "bg": "Въпреки че; след него идва подлог + глагол."
+      },
+      "example": "Although the plan is risky, it could save us money.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "approve",
+      "pos": "verb",
+      "meaning": {
+        "en": "To officially agree to a plan.",
+        "bg": "Одобрявам."
+      },
+      "example": "I am therefore asking the board to approve a six-month trial starting in January.",
+      "forms": [
+        "approves",
+        "approved",
+        "approving"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "bad",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Not good.",
+        "bg": "Лош."
+      },
+      "example": "Despite the bad weather, the event was a success.",
+      "forms": [
+        "worst"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "believe",
+      "pos": "verb",
+      "meaning": {
+        "en": "To think that something is true.",
+        "bg": "Вярвам, смятам."
+      },
+      "example": "Although many managers are sceptical, I believe the time has come to make a decision about the four-day week.",
+      "forms": [
+        "believes",
+        "believed",
+        "believing"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "board",
+      "pos": "noun",
+      "meaning": {
+        "en": "The group of people who control a company.",
+        "bg": "Борд, управителен съвет."
+      },
+      "example": "I am therefore asking the board to approve a six-month trial starting in January.",
+      "forms": [
+        "boards"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "burnout",
+      "pos": "noun",
+      "meaning": {
+        "en": "Extreme tiredness caused by working too hard for too long.",
+        "bg": "Прегаряне (от работа)."
+      },
+      "example": "Several staff members have raised concerns about burnout, and our sickness rate has doubled in two years.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "carry",
+      "pos": "verb",
+      "meaning": {
+        "en": "To hold and move; \"carry a risk\" = involve a risk.",
+        "bg": "Нося; \"carry a risk\" = крие риск."
+      },
+      "example": "Of course, the change carries some risk.",
+      "forms": [
+        "carries",
+        "carried",
+        "carrying"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "competitor",
+      "pos": "noun",
+      "meaning": {
+        "en": "A company selling similar things to yours.",
+        "bg": "Конкурент."
+      },
+      "example": "If we fail to act, we may lose talented people to competitors who already offer flexible schedules.",
+      "forms": [
+        "competitors"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "concern",
+      "pos": "noun",
+      "meaning": {
+        "en": "A worry. \"Raise concerns\" = say publicly that you are worried.",
+        "bg": "Притеснение. \"Raise concerns\" = изразявам притеснения."
+      },
+      "example": "Several employees raised concerns about safety.",
+      "forms": [
+        "concerns"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "countryside",
+      "pos": "noun",
+      "meaning": {
+        "en": "Land outside towns and cities.",
+        "bg": "Природа, провинция (извън града)."
+      },
+      "example": "My sister loves cities, whereas I prefer the countryside.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "course",
+      "pos": "noun",
+      "meaning": {
+        "en": "\"Of course\" = naturally, certainly.",
+        "bg": "\"Of course\" = разбира се."
+      },
+      "example": "Of course, the change carries some risk.",
+      "forms": [
+        "courses"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "cover",
+      "pos": "noun",
+      "meaning": {
+        "en": "Someone who does a person's job while they are away.",
+        "bg": "Заместване, покритие (на смяна)."
+      },
+      "example": "Customer service needs cover on Fridays, and we would have to take steps to protect it.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "customer",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person who buys things or services.",
+        "bg": "Клиент (купувач)."
+      },
+      "example": "Customer service needs cover on Fridays, and we would have to take steps to protect it.",
+      "forms": [
+        "customers"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "decision",
+      "pos": "noun",
+      "meaning": {
+        "en": "A choice you make. We MAKE a decision.",
+        "bg": "Решение. На английски MAKE a decision."
+      },
+      "example": "We need to make a decision by Friday.",
+      "forms": [
+        "decisions"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "despite",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Even though something happened; followed by a noun or -ing.",
+        "bg": "Въпреки; следва съществително или -ing."
+      },
+      "example": "Despite the bad weather, the event was a success.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "double",
+      "pos": "verb",
+      "meaning": {
+        "en": "To become twice as big.",
+        "bg": "Удвоявам (се)."
+      },
+      "example": "Several staff members have raised concerns about burnout, and our sickness rate has doubled in two years.",
+      "forms": [
+        "doubles",
+        "doubled",
+        "doubling"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "employee",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person who works for a company.",
+        "bg": "Служител."
+      },
+      "example": "Several employees raised concerns about safety.",
+      "forms": [
+        "employees"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "event",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something that happens, especially something organised.",
+        "bg": "Събитие."
+      },
+      "example": "Despite the bad weather, the event was a success.",
+      "forms": [
+        "events"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "expensive",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Costing a lot of money.",
+        "bg": "Скъп."
+      },
+      "example": "The idea is popular. However, it would be expensive.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "fail",
+      "pos": "verb",
+      "meaning": {
+        "en": "Not to succeed; \"fail to do\" = not do.",
+        "bg": "Провалям се; \"fail to do\" = не успявам да направя."
+      },
+      "example": "If we fail to act, we may lose talented people to competitors who already offer flexible schedules.",
+      "forms": [
+        "fails",
+        "failed",
+        "failing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "few",
+      "pos": "determiner",
+      "meaning": {
+        "en": "A small number of; fewer = a smaller number of.",
+        "bg": "Малко (броими); fewer = по-малко."
+      },
+      "example": "Despite working fewer hours, teams in the pilot scheme met every deadline last quarter.",
+      "forms": [
+        "fewer",
+        "fewest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "five-day",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Lasting five days.",
+        "bg": "Петдневен."
+      },
+      "example": "They also made fewer mistakes, whereas the five-day teams reported more overtime and lower morale.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "four-day",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Lasting four days.",
+        "bg": "Четиридневен."
+      },
+      "example": "Although many managers are sceptical, I believe the time has come to make a decision about the four-day week.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "flexible",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Able to change easily.",
+        "bg": "Гъвкав."
+      },
+      "example": "If we fail to act, we may lose talented people to competitors who already offer flexible schedules.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "government",
+      "pos": "noun",
+      "meaning": {
+        "en": "The group of people who control a country.",
+        "bg": "Правителство."
+      },
+      "example": "The government must take steps to reduce pollution.",
+      "forms": [
+        "governments"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "hour",
+      "pos": "noun",
+      "meaning": {
+        "en": "Sixty minutes.",
+        "bg": "Час."
+      },
+      "example": "Despite working fewer hours, teams in the pilot scheme met every deadline last quarter.",
+      "forms": [
+        "hours"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "however",
+      "pos": "adverb",
+      "meaning": {
+        "en": "But; used to start a new sentence that contrasts.",
+        "bg": "Обаче, въпреки това (в началото на ново изречение)."
+      },
+      "example": "The idea is popular. However, it would be expensive.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "idea",
+      "pos": "noun",
+      "meaning": {
+        "en": "A thought or plan.",
+        "bg": "Идея."
+      },
+      "example": "The idea is popular. However, it would be expensive.",
+      "forms": [
+        "ideas"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "low",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Not high.",
+        "bg": "Нисък."
+      },
+      "example": "They also made fewer mistakes, whereas the five-day teams reported more overtime and lower morale.",
+      "forms": [
+        "lower",
+        "lowest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "may",
+      "pos": "verb",
+      "meaning": {
+        "en": "Used to say something is possible.",
+        "bg": "Може (възможност)."
+      },
+      "example": "If we fail to act, we may lose talented people to competitors who already offer flexible schedules.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "member",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person who belongs to a group.",
+        "bg": "Член."
+      },
+      "example": "Several staff members have raised concerns about burnout, and our sickness rate has doubled in two years.",
+      "forms": [
+        "members"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "mistake",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something done wrong.",
+        "bg": "Грешка."
+      },
+      "example": "They also made fewer mistakes, whereas the five-day teams reported more overtime and lower morale.",
+      "forms": [
+        "mistakes"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "money",
+      "pos": "noun",
+      "meaning": {
+        "en": "Coins and notes you use to buy things.",
+        "bg": "Пари."
+      },
+      "example": "Although the plan is risky, it could save us money.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "morale",
+      "pos": "noun",
+      "meaning": {
+        "en": "How confident and positive a group feels.",
+        "bg": "Морал, дух (на екип)."
+      },
+      "example": "They also made fewer mistakes, whereas the five-day teams reported more overtime and lower morale.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "more",
+      "pos": "determiner",
+      "meaning": {
+        "en": "A bigger amount or number.",
+        "bg": "Повече."
+      },
+      "example": "They also made fewer mistakes, whereas the five-day teams reported more overtime and lower morale.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "must",
+      "pos": "verb",
+      "meaning": {
+        "en": "Used to say something is necessary.",
+        "bg": "Трябва (задължително)."
+      },
+      "example": "The government must take steps to reduce pollution.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "need",
+      "pos": "verb",
+      "meaning": {
+        "en": "To require something.",
+        "bg": "Имам нужда от, трябва ми."
+      },
+      "example": "We need to make a decision by Friday.",
+      "forms": [
+        "needs",
+        "needed",
+        "needing"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "offer",
+      "pos": "verb",
+      "meaning": {
+        "en": "To provide or give something.",
+        "bg": "Предлагам."
+      },
+      "example": "If we fail to act, we may lose talented people to competitors who already offer flexible schedules.",
+      "forms": [
+        "offers",
+        "offered",
+        "offering"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "overtime",
+      "pos": "noun",
+      "meaning": {
+        "en": "Extra hours worked after the normal working day.",
+        "bg": "Извънреден труд."
+      },
+      "example": "They also made fewer mistakes, whereas the five-day teams reported more overtime and lower morale.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "pilot",
+      "pos": "noun",
+      "meaning": {
+        "en": "A small test of a new idea before using it widely (also: a person who flies a plane).",
+        "bg": "Пилотен проект (също: пилот)."
+      },
+      "example": "Despite working fewer hours, teams in the pilot scheme met every deadline last quarter.",
+      "forms": [
+        "pilots"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "plan",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something you have decided to do, or a way of doing it.",
+        "bg": "План."
+      },
+      "example": "Although the plan is risky, it could save us money.",
+      "forms": [
+        "plans"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "pollution",
+      "pos": "noun",
+      "meaning": {
+        "en": "Dirty air, water or land.",
+        "bg": "Замърсяване."
+      },
+      "example": "The government must take steps to reduce pollution.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "popular",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Liked by many people.",
+        "bg": "Популярен."
+      },
+      "example": "The idea is popular. However, it would be expensive.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "practical",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Connected with real situations, not ideas.",
+        "bg": "Практически."
+      },
+      "example": "However, these are practical problems, not reasons to do nothing.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "prefer",
+      "pos": "verb",
+      "meaning": {
+        "en": "To like one thing more than another.",
+        "bg": "Предпочитам."
+      },
+      "example": "My sister loves cities, whereas I prefer the countryside.",
+      "forms": [
+        "prefers",
+        "preferred",
+        "preferring"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "protect",
+      "pos": "verb",
+      "meaning": {
+        "en": "To keep something safe.",
+        "bg": "Защитавам, пазя."
+      },
+      "example": "Customer service needs cover on Fridays, and we would have to take steps to protect it.",
+      "forms": [
+        "protects",
+        "protected",
+        "protecting"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "quarter",
+      "pos": "noun",
+      "meaning": {
+        "en": "One of four parts; in business, three months.",
+        "bg": "Четвърт; тримесечие."
+      },
+      "example": "Despite working fewer hours, teams in the pilot scheme met every deadline last quarter.",
+      "forms": [
+        "quarters"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "raise",
+      "pos": "verb",
+      "meaning": {
+        "en": "To lift; to bring up a subject. \"Raise concerns\".",
+        "bg": "Вдигам; повдигам (въпрос). \"Raise concerns\" = изразявам притеснения."
+      },
+      "example": "Several employees raised concerns about safety.",
+      "forms": [
+        "raises",
+        "raised",
+        "raising"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "rate",
+      "pos": "noun",
+      "meaning": {
+        "en": "How often something happens, measured as a number.",
+        "bg": "Процент, равнище, честота."
+      },
+      "example": "Several staff members have raised concerns about burnout, and our sickness rate has doubled in two years.",
+      "forms": [
+        "rates"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "reason",
+      "pos": "noun",
+      "meaning": {
+        "en": "Why something happens.",
+        "bg": "Причина."
+      },
+      "example": "However, these are practical problems, not reasons to do nothing.",
+      "forms": [
+        "reasons"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "reduce",
+      "pos": "verb",
+      "meaning": {
+        "en": "To make something smaller or less.",
+        "bg": "Намалявам."
+      },
+      "example": "The government must take steps to reduce pollution.",
+      "forms": [
+        "reduces",
+        "reduced",
+        "reducing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "report",
+      "pos": "verb",
+      "meaning": {
+        "en": "To give information about something.",
+        "bg": "Съобщавам, докладвам."
+      },
+      "example": "They also made fewer mistakes, whereas the five-day teams reported more overtime and lower morale.",
+      "forms": [
+        "reports",
+        "reported",
+        "reporting"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "risk",
+      "pos": "noun",
+      "meaning": {
+        "en": "The possibility of something bad happening.",
+        "bg": "Риск."
+      },
+      "example": "Of course, the change carries some risk.",
+      "forms": [
+        "risks"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "risky",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Involving risk.",
+        "bg": "Рискован."
+      },
+      "example": "Although the plan is risky, it could save us money.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "safety",
+      "pos": "noun",
+      "meaning": {
+        "en": "Being safe from danger.",
+        "bg": "Безопасност."
+      },
+      "example": "Several employees raised concerns about safety.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "save",
+      "pos": "verb",
+      "meaning": {
+        "en": "To keep money instead of spending it; to rescue.",
+        "bg": "Спестявам; спасявам."
+      },
+      "example": "Although the plan is risky, it could save us money.",
+      "forms": [
+        "saves",
+        "saved",
+        "saving"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "sceptical",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Doubting that something is true or will work.",
+        "bg": "Скептичен."
+      },
+      "example": "Although many managers are sceptical, I believe the time has come to make a decision about the four-day week.",
+      "forms": [
+        "skeptical"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "schedule",
+      "pos": "noun",
+      "meaning": {
+        "en": "A plan of times when things happen.",
+        "bg": "График."
+      },
+      "example": "If we fail to act, we may lose talented people to competitors who already offer flexible schedules.",
+      "forms": [
+        "schedules"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "scheme",
+      "pos": "noun",
+      "meaning": {
+        "en": "An official plan or programme.",
+        "bg": "Схема, програма."
+      },
+      "example": "Despite working fewer hours, teams in the pilot scheme met every deadline last quarter.",
+      "forms": [
+        "schemes"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "service",
+      "pos": "noun",
+      "meaning": {
+        "en": "Work done for customers.",
+        "bg": "Обслужване, услуга."
+      },
+      "example": "Customer service needs cover on Fridays, and we would have to take steps to protect it.",
+      "forms": [
+        "services"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "several",
+      "pos": "determiner",
+      "meaning": {
+        "en": "More than two but not many.",
+        "bg": "Няколко."
+      },
+      "example": "Several employees raised concerns about safety.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "sickness",
+      "pos": "noun",
+      "meaning": {
+        "en": "Illness; \"sickness rate\" = how often staff are off sick.",
+        "bg": "Болест; \"sickness rate\" = ниво на болнични."
+      },
+      "example": "Several staff members have raised concerns about burnout, and our sickness rate has doubled in two years.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "six-month",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Lasting six months.",
+        "bg": "Шестмесечен."
+      },
+      "example": "I am therefore asking the board to approve a six-month trial starting in January.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "staff",
+      "pos": "noun",
+      "meaning": {
+        "en": "The people who work for an organisation.",
+        "bg": "Персонал."
+      },
+      "example": "Several staff members have raised concerns about burnout, and our sickness rate has doubled in two years.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "step",
+      "pos": "noun",
+      "meaning": {
+        "en": "An action; \"take steps\" = take action.",
+        "bg": "Стъпка, мярка; \"take steps\" = предприемам мерки."
+      },
+      "example": "The government must take steps to reduce pollution.",
+      "forms": [
+        "steps"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "success",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something that achieves what was wanted.",
+        "bg": "Успех."
+      },
+      "example": "Despite the bad weather, the event was a success.",
+      "forms": [
+        "successes"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "take",
+      "pos": "verb",
+      "meaning": {
+        "en": "A very common verb: take steps, take action, take time.",
+        "bg": "Вземам; take steps = предприемам мерки."
+      },
+      "example": "The government must take steps to reduce pollution.",
+      "forms": [
+        "takes",
+        "took",
+        "taken",
+        "taking"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "talented",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Having a natural ability to do something well.",
+        "bg": "Талантлив."
+      },
+      "example": "If we fail to act, we may lose talented people to competitors who already offer flexible schedules.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "team",
+      "pos": "noun",
+      "meaning": {
+        "en": "A group of people who work or play together.",
+        "bg": "Екип, отбор."
+      },
+      "example": "The team worked late to meet the deadline.",
+      "forms": [
+        "teams"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "therefore",
+      "pos": "adverb",
+      "meaning": {
+        "en": "For that reason (formal).",
+        "bg": "Следователно, затова (официално)."
+      },
+      "example": "I am therefore asking the board to approve a six-month trial starting in January.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "trial",
+      "pos": "noun",
+      "meaning": {
+        "en": "A test period to see if something works.",
+        "bg": "Изпитателен период, проба."
+      },
+      "example": "I am therefore asking the board to approve a six-month trial starting in January.",
+      "forms": [
+        "trials"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "weather",
+      "pos": "noun",
+      "meaning": {
+        "en": "Rain, sun, wind, etc.",
+        "bg": "Време (метеорологично)."
+      },
+      "example": "Despite the bad weather, the event was a success.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "week",
+      "pos": "noun",
+      "meaning": {
+        "en": "Seven days.",
+        "bg": "Седмица."
+      },
+      "example": "Some colleagues argue that clients expect us to be available five days a week.",
+      "forms": [
+        "weeks"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "whereas",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "Used to compare two facts that are different.",
+        "bg": "Докато, а (за контраст между два факта)."
+      },
+      "example": "My sister loves cities, whereas I prefer the countryside.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "who",
+      "pos": "pronoun",
+      "meaning": {
+        "en": "Used for people: competitors who offer…",
+        "bg": "Който, която (за хора)."
+      },
+      "example": "If we fail to act, we may lose talented people to competitors who already offer flexible schedules.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "agreement",
+      "pos": "noun",
+      "meaning": {
+        "en": "A shared decision; \"reach an agreement\" = agree after discussion.",
+        "bg": "Споразумение; \"reach an agreement\" = постигам споразумение."
+      },
+      "example": "We have discussed it for over a year without reaching an agreement.",
+      "forms": [
+        "agreements"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "argue",
+      "pos": "verb",
+      "meaning": {
+        "en": "To give reasons for an opinion; also to disagree angrily.",
+        "bg": "Твърдя, аргументирам; също споря."
+      },
+      "example": "Some colleagues argue that clients expect us to be available five days a week.",
+      "forms": [
+        "argues",
+        "argued",
+        "arguing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "available",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Able to be contacted or used.",
+        "bg": "На разположение, достъпен."
+      },
+      "example": "Some colleagues argue that clients expect us to be available five days a week.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "discuss",
+      "pos": "verb",
+      "meaning": {
+        "en": "To talk about something in detail.",
+        "bg": "Обсъждам."
+      },
+      "example": "We have discussed it for over a year without reaching an agreement.",
+      "forms": [
+        "discusses",
+        "discussed",
+        "discussing"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "expect",
+      "pos": "verb",
+      "meaning": {
+        "en": "To think something will happen or should happen.",
+        "bg": "Очаквам."
+      },
+      "example": "Some colleagues argue that clients expect us to be available five days a week.",
+      "forms": [
+        "expects",
+        "expected",
+        "expecting"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "handle",
+      "pos": "verb",
+      "meaning": {
+        "en": "To deal with something.",
+        "bg": "Справям се с, обработвам."
+      },
+      "example": "In practice, however, very few clients contact us on Fridays, and urgent requests can be handled by a small rota.",
+      "forms": [
+        "handles",
+        "handled",
+        "handling"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "practice",
+      "pos": "noun",
+      "meaning": {
+        "en": "\"In practice\" = in reality, not in theory.",
+        "bg": "Практика. \"In practice\" = на практика."
+      },
+      "example": "In practice, however, very few clients contact us on Fridays, and urgent requests can be handled by a small rota.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "reach",
+      "pos": "verb",
+      "meaning": {
+        "en": "To arrive at; \"reach an agreement / a decision\".",
+        "bg": "Достигам; \"reach an agreement\" = постигам споразумение."
+      },
+      "example": "We have discussed it for over a year without reaching an agreement.",
+      "forms": [
+        "reaches",
+        "reached",
+        "reaching"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "request",
+      "pos": "noun",
+      "meaning": {
+        "en": "The act of asking for something politely or officially.",
+        "bg": "Молба, заявка."
+      },
+      "example": "In practice, however, very few clients contact us on Fridays, and urgent requests can be handled by a small rota.",
+      "forms": [
+        "requests"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "rota",
+      "pos": "noun",
+      "meaning": {
+        "en": "A list showing who works when (British English).",
+        "bg": "График за дежурства (брит.)."
+      },
+      "example": "In practice, however, very few clients contact us on Fridays, and urgent requests can be handled by a small rota.",
+      "forms": [
+        "rotas"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "urgent",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Needing to be dealt with immediately.",
+        "bg": "Спешен."
+      },
+      "example": "In practice, however, very few clients contact us on Fridays, and urgent requests can be handled by a small rota.",
+      "forms": [],
+      "band": "B1"
+    }
+  ],
+  "texts": [
+    {
+      "id": "b2.collocations.text-proposal",
+      "competence": "b2.collocations",
+      "band": "B2",
+      "title": "Why we should move to a four-day week",
+      "paragraphs": [
+        "Although many managers are sceptical, I believe the time has come to make a decision about the four-day week. We have discussed it for over a year without reaching an agreement. Several staff members have raised concerns about burnout, and our sickness rate has doubled in two years.",
+        "Despite working fewer hours, teams in the pilot scheme met every deadline last quarter. They also made fewer mistakes, whereas the five-day teams reported more overtime and lower morale.",
+        "Of course, the change carries some risk. Customer service needs cover on Fridays, and we would have to take steps to protect it. However, these are practical problems, not reasons to do nothing.",
+        "Some colleagues argue that clients expect us to be available five days a week. In practice, however, very few clients contact us on Fridays, and urgent requests can be handled by a small rota. If we fail to act, we may lose talented people to competitors who already offer flexible schedules. I am therefore asking the board to approve a six-month trial starting in January."
+      ]
+    }
+  ],
+  "names": [
+    "Fridays",
+    "January",
+    "Friday"
+  ],
+  "items": [
+    {
+      "id": "b2.collocations.make-a-decision",
+      "type": "choice",
+      "band": "B2",
+      "skill": "vocabulary",
+      "competence": "b2.collocations",
+      "objective": {
+        "en": "Use the collocation \"make a decision\".",
+        "bg": "Да използваш колокацията \"make a decision\"."
+      },
+      "difficulty": 0.2,
+      "prompt": "Complete: \"We can't wait any longer — we need to ___ a decision today.\"",
+      "options": [
+        "do",
+        "make",
+        "give",
+        "put"
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "In English you make a decision (you can also reach or come to one). \"Do\", \"give\" and \"put\" don't combine with \"decision\". Bulgarian \"вземам решение\" also pushes learners towards \"take a decision\": it exists in British English, but \"make\" is far more common and is the safe choice.",
+        "bg": "На английски make a decision (може и reach / come to a decision). \"Do\", \"give\" и \"put\" не се съчетават с \"decision\". Българското \"вземам решение\" подтиква и към \"take a decision\": среща се в британския английски, но \"make\" е много по-често и е сигурният избор."
+      },
+      "hints": [
+        {
+          "en": "Same verb as in \"make a mistake\" and \"make progress\".",
+          "bg": "Същият глагол като в \"make a mistake\" и \"make progress\"."
+        }
+      ],
+      "words": [
+        "decision"
+      ],
+      "structures": [
+        "collocation.verb-noun"
+      ],
+      "tags": [
+        "collocations",
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.collocations.raise-concerns",
+      "type": "choice",
+      "band": "B2",
+      "skill": "vocabulary",
+      "competence": "b2.collocations",
+      "objective": {
+        "en": "Choose the right verb for \"concerns\".",
+        "bg": "Да избереш правилния глагол за \"concerns\"."
+      },
+      "difficulty": 0.5,
+      "prompt": "Several parents have ___ concerns about the new school timetable.",
+      "options": [
+        "lifted",
+        "risen",
+        "raised",
+        "grown"
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "We raise concerns (= bring them up for discussion). \"Risen\" is from \"rise\", which has no object (prices rise), so it can't take \"concerns\". \"Lifted\" is physical. \"Concerns have grown\" is possible, but not \"parents have grown concerns\".",
+        "bg": "Казваме raise concerns (= повдигам притеснения). \"Risen\" е от \"rise\", който няма допълнение (prices rise), затова не може да е с \"concerns\". \"Lifted\" е физическо вдигане. \"Concerns have grown\" е възможно, но не и \"parents have grown concerns\"."
+      },
+      "hints": [
+        {
+          "en": "You need a verb that takes an object: someone does it TO concerns.",
+          "bg": "Трябва ти глагол с допълнение: някой го прави С притесненията."
+        }
+      ],
+      "words": [
+        "raise",
+        "concern"
+      ],
+      "structures": [
+        "collocation.verb-noun"
+      ],
+      "tags": [
+        "collocations"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.collocations.meet-deadline",
+      "type": "choice",
+      "band": "B2",
+      "skill": "vocabulary",
+      "competence": "b2.collocations",
+      "objective": {
+        "en": "Use deadline collocations.",
+        "bg": "Да използваш колокации с deadline."
+      },
+      "difficulty": 0.4,
+      "prompt": "The report was late because we didn't ___ the deadline.",
+      "options": [
+        "meet",
+        "reach",
+        "catch",
+        "hold"
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The collocation is \"meet a deadline\" (finish on time); the opposite is \"miss a deadline\". \"Catch\" goes with buses and trains, not deadlines.",
+        "bg": "Колокацията е \"meet a deadline\" (спазвам срок); обратното е \"miss a deadline\". \"Catch\" се използва за автобуси и влакове, не за срокове."
+      },
+      "hints": [
+        {
+          "en": "The opposite is \"miss a deadline\".",
+          "bg": "Обратното е \"miss a deadline\"."
+        }
+      ],
+      "words": [
+        "meet",
+        "deadline"
+      ],
+      "structures": [
+        "collocation.verb-noun"
+      ],
+      "tags": [
+        "collocations"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.collocations.despite-ing",
+      "type": "cloze",
+      "band": "B2",
+      "skill": "grammar",
+      "competence": "b2.collocations",
+      "objective": {
+        "en": "Use \"despite\" with an -ing form.",
+        "bg": "Да използваш \"despite\" с -ing форма."
+      },
+      "difficulty": 0.8,
+      "sentence": "Despite ___ (have) very little experience, she got the job.",
+      "accept": [
+        "having"
+      ],
+      "explanation": {
+        "en": "\"Despite\" is a preposition, so it is followed by a noun or an -ing form, not a full clause: Despite having… With a clause you'd need \"Although she had very little experience…\".",
+        "bg": "\"Despite\" е предлог, затова след него идва съществително или -ing форма, а не цяло изречение: Despite having… С изречение би трябвало \"Although she had very little experience…\"."
+      },
+      "hints": [
+        {
+          "en": "After a preposition, verbs take the -ing form.",
+          "bg": "След предлог глаголът е в -ing форма."
+        }
+      ],
+      "words": [
+        "despite",
+        "experience"
+      ],
+      "structures": [
+        "linking.contrast"
+      ],
+      "tags": [
+        "linking"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.collocations.although-vs-despite",
+      "type": "choice",
+      "band": "B2",
+      "skill": "grammar",
+      "competence": "b2.collocations",
+      "objective": {
+        "en": "Choose between although and despite.",
+        "bg": "Да избереш между although и despite."
+      },
+      "difficulty": 0.7,
+      "prompt": "Which sentence about the walk in the rain is correct?",
+      "options": [
+        "Despite it was raining, we went for a walk.",
+        "Although the rain, we went for a walk.",
+        "Despite of the rain, we went for a walk.",
+        "Although it was raining, we went for a walk."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "\"Although\" + subject + verb: Although it was raining. \"Despite\" needs a noun (despite the rain) and is never followed by \"of\" — that's \"in spite of\". Bulgarian \"въпреки че валеше\" = although; \"въпреки дъжда\" = despite.",
+        "bg": "\"Although\" + подлог + глагол: Although it was raining. \"Despite\" изисква съществително (despite the rain) и никога не е с \"of\" — това е \"in spite of\". \"Въпреки че валеше\" = although; \"въпреки дъжда\" = despite."
+      },
+      "hints": [
+        {
+          "en": "Which word can be followed by a subject and a verb?",
+          "bg": "След коя дума може да има подлог и глагол?"
+        }
+      ],
+      "words": [
+        "although",
+        "despite",
+        "rain"
+      ],
+      "structures": [
+        "linking.contrast"
+      ],
+      "tags": [
+        "linking",
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.collocations.whereas",
+      "type": "build",
+      "band": "B2",
+      "skill": "grammar",
+      "competence": "b2.collocations",
+      "objective": {
+        "en": "Contrast two facts with \"whereas\".",
+        "bg": "Да противопоставиш два факта с \"whereas\"."
+      },
+      "difficulty": 1.0,
+      "tiles": [
+        "Rents",
+        "rose",
+        "sharply,",
+        "whereas",
+        "salaries",
+        "stayed",
+        "the",
+        "same"
+      ],
+      "accept": [
+        "Rents rose sharply, whereas salaries stayed the same."
+      ],
+      "explanation": {
+        "en": "\"Whereas\" joins two clauses and highlights a difference between them. Each side keeps its own subject and verb, and a comma usually comes before \"whereas\".",
+        "bg": "\"Whereas\" свързва две изречения и подчертава разлика между тях. Всяка част запазва своя подлог и глагол, а пред \"whereas\" обикновено има запетая."
+      },
+      "hints": [
+        {
+          "en": "Make two short clauses and put \"whereas\" between them.",
+          "bg": "Направи две кратки изречения и сложи \"whereas\" между тях."
+        }
+      ],
+      "words": [
+        "whereas",
+        "rent",
+        "salary"
+      ],
+      "structures": [
+        "linking.contrast"
+      ],
+      "tags": [
+        "linking"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.collocations.take-steps",
+      "type": "cloze",
+      "band": "B2",
+      "skill": "vocabulary",
+      "competence": "b2.collocations",
+      "objective": {
+        "en": "Use the collocation \"take steps\".",
+        "bg": "Да използваш колокацията \"take steps\"."
+      },
+      "difficulty": 0.9,
+      "sentence": "The city council has promised to ___ steps to improve air quality.",
+      "accept": [
+        "take"
+      ],
+      "explanation": {
+        "en": "\"Take steps\" = take action to deal with a problem. Here \"take\" is right — compare \"make a decision\". There's no logic to it; collocations simply have to be learned as chunks.",
+        "bg": "\"Take steps\" = предприемам мерки. Тук \"take\" е правилно — сравни с \"make a decision\". Няма логика, колокациите просто се учат като цели фрази."
+      },
+      "hints": [
+        {
+          "en": "Same verb as in \"take action\".",
+          "bg": "Същият глагол като в \"take action\"."
+        }
+      ],
+      "words": [
+        "step"
+      ],
+      "structures": [
+        "collocation.verb-noun"
+      ],
+      "tags": [
+        "collocations"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.collocations.text-pilot",
+      "type": "choice",
+      "band": "B2",
+      "skill": "reading",
+      "competence": "b2.collocations",
+      "objective": {
+        "en": "Identify evidence in a persuasive text.",
+        "bg": "Да откриеш доказателство в убеждаващ текст."
+      },
+      "difficulty": 0.6,
+      "prompt": "What evidence does the writer give that the four-day week works?",
+      "options": [
+        "Teams in the pilot met all their deadlines and made fewer mistakes.",
+        "Customer service improved on Fridays.",
+        "The sickness rate has doubled.",
+        "Competitors have already introduced it."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The second paragraph: \"teams in the pilot scheme met every deadline last quarter. They also made fewer mistakes\". The doubled sickness rate is a problem, not evidence that the scheme works; competitors are mentioned as a risk.",
+        "bg": "Вторият абзац: \"teams in the pilot scheme met every deadline last quarter. They also made fewer mistakes\". Удвоените болнични са проблем, а не доказателство, че схемата работи; конкурентите се споменават като риск."
+      },
+      "hints": [
+        {
+          "en": "Read the paragraph about the pilot scheme.",
+          "bg": "Прочети абзаца за пилотната схема."
+        }
+      ],
+      "words": [
+        "pilot",
+        "evidence"
+      ],
+      "structures": [],
+      "tags": [
+        "reading"
+      ],
+      "textId": "b2.collocations.text-proposal",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.collocations.text-however",
+      "type": "choice",
+      "band": "B2",
+      "skill": "reading",
+      "competence": "b2.collocations",
+      "objective": {
+        "en": "Understand how a writer handles counter-arguments.",
+        "bg": "Да разбереш как авторът се справя с контрааргументи."
+      },
+      "difficulty": 1.3,
+      "prompt": "In the third paragraph, what is the function of \"However, these are practical problems, not reasons to do nothing\"?",
+      "options": [
+        "It admits that the plan is too risky.",
+        "It introduces a new argument against the four-day week.",
+        "It accepts a weakness but argues it should not stop the plan.",
+        "It summarises the views of the sceptical managers."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The writer first concedes a risk (Friday cover), then uses \"However\" to say this is manageable. Conceding and then countering is a classic persuasive technique.",
+        "bg": "Авторът първо признава риск (покритието в петък), а после с \"However\" казва, че той е преодолим. Признаването и последващото опровергаване е класическа техника за убеждаване."
+      },
+      "hints": [
+        {
+          "en": "What comes before \"However\" — a strength or a weakness?",
+          "bg": "Какво стои преди \"However\" — силна или слаба страна?"
+        }
+      ],
+      "words": [
+        "however",
+        "problem"
+      ],
+      "structures": [
+        "linking.contrast"
+      ],
+      "tags": [
+        "reading",
+        "argument"
+      ],
+      "textId": "b2.collocations.text-proposal",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.collocations.text-trial",
+      "type": "cloze",
+      "band": "B2",
+      "skill": "reading",
+      "competence": "b2.collocations",
+      "objective": {
+        "en": "Identify the writer's request.",
+        "bg": "Да откриеш молбата на автора."
+      },
+      "difficulty": 0.9,
+      "sentence": "The writer asks the board to approve a ___ trial.",
+      "accept": [
+        "six-month",
+        "six month",
+        "6-month"
+      ],
+      "explanation": {
+        "en": "The last sentence: \"I am therefore asking the board to approve a six-month trial starting in January.\" Note the hyphen: a number + noun used as an adjective takes a hyphen and no plural -s (a six-month trial, not \"six-months trial\").",
+        "bg": "Последното изречение: \"I am therefore asking the board to approve a six-month trial starting in January.\" Обърни внимание на тирето: число + съществително, използвано като прилагателно, е с тире и без -s за множествено число (a six-month trial, не \"six-months trial\")."
+      },
+      "hints": [
+        {
+          "en": "Read the final sentence.",
+          "bg": "Прочети последното изречение."
+        }
+      ],
+      "words": [
+        "trial",
+        "board"
+      ],
+      "structures": [],
+      "tags": [
+        "reading"
+      ],
+      "textId": "b2.collocations.text-proposal",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

@@ -8,7 +8,8 @@ import { Welcome } from "../pages/Welcome";
 import { Onboarding } from "../pages/Onboarding";
 import { Today } from "../pages/Today";
 import { Review } from "../pages/Review";
-import { Words } from "../pages/Words";
+import { LibraryAlphabet, LibraryCefr, LibraryExpressions, LibraryGrammar, LibraryHome, LibraryMistakes, LibraryReading, LibraryWords } from "../pages/library/Library";
+import { Practice } from "../pages/session/Practice";
 import { Settings } from "../pages/Settings";
 import { Session } from "../pages/session/Session";
 import { Placement } from "../pages/placement/Placement";
@@ -49,10 +50,19 @@ export function App() {
           <Route path="/placement/result/:id" element={<RequireProfile><PlacementResult /></RequireProfile>} />
           <Route path="/session" element={<RequireOnboarded><Session /></RequireOnboarded>} />
           <Route path="/review/session" element={<RequireOnboarded><Session reviewOnly /></RequireOnboarded>} />
+          <Route path="/practice" element={<RequireOnboarded><Practice /></RequireOnboarded>} />
           <Route element={<RequireOnboarded><Shell /></RequireOnboarded>}>
             <Route path="/today" element={<Today />} />
             <Route path="/review" element={<Review />} />
-            <Route path="/words" element={<Words />} />
+            <Route path="/library" element={<LibraryHome />} />
+            <Route path="/library/words" element={<LibraryWords />} />
+            <Route path="/library/expressions" element={<LibraryExpressions />} />
+            <Route path="/library/grammar" element={<LibraryGrammar />} />
+            <Route path="/library/alphabet" element={<LibraryAlphabet />} />
+            <Route path="/library/mistakes" element={<LibraryMistakes />} />
+            <Route path="/library/reading" element={<LibraryReading />} />
+            <Route path="/library/cefr" element={<LibraryCefr />} />
+            <Route path="/words" element={<Navigate to="/library/words" replace />} />
             <Route path="/settings" element={<Settings />} />
           </Route>
           <Route path="*" element={<Navigate to="/" replace />} />

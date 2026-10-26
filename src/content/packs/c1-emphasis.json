@@ -1,0 +1,1314 @@
+{
+  "id": "c1-emphasis",
+  "version": 1,
+  "band": "C1",
+  "competences": [
+    {
+      "id": "c1.emphasis",
+      "band": "C1",
+      "title": {
+        "en": "Emphasis: inversion & cleft sentences",
+        "bg": "Емфаза: инверсия и изречения с изнасяне"
+      },
+      "canDo": {
+        "en": "I can add emphasis and control focus in speech and writing using negative inversion (Not only…, Rarely…, Under no circumstances…) and cleft sentences (What I need is…, It was X that…).",
+        "bg": "Мога да поставям акцент и да насочвам вниманието в реч и писмено с отрицателна инверсия (Not only…, Rarely…, Under no circumstances…) и изречения с изнасяне (What I need is…, It was X that…)."
+      },
+      "skills": [
+        "grammar",
+        "writing",
+        "speaking",
+        "reading"
+      ],
+      "prerequisites": [
+        "b2.collocations"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "c1.emphasis.note-inversion",
+      "competence": "c1.emphasis",
+      "title": {
+        "en": "Negative inversion",
+        "bg": "Отрицателна инверсия"
+      },
+      "body": {
+        "en": "When a sentence begins with a negative or restrictive expression — Never, Rarely, Seldom, Not only, Hardly… when, No sooner… than, Only later, Under no circumstances, At no time — the subject and auxiliary swap places, as in a question: \"Rarely have I seen such commitment.\" If there is no auxiliary, add do/does/did: \"Not only did she finish early, but she also…\". This is formal and rhetorical; it adds weight in speeches, essays and formal letters, but sounds odd in casual chat. Bulgarian word order is free, so \"Никога не съм виждал…\" needs no grammatical change when you front \"никога\" — English does.",
+        "bg": "Когато изречението започва с отрицателен или ограничаващ израз — Never, Rarely, Seldom, Not only, Hardly… when, No sooner… than, Only later, Under no circumstances, At no time — подлогът и спомагателният глагол сменят местата си, както във въпрос: \"Rarely have I seen such commitment.\" Ако няма спомагателен глагол, добавяш do/does/did: \"Not only did she finish early, but she also…\". Това е официално и реторично; придава тежест в речи, есета и официални писма, но звучи странно в небрежен разговор. В българския словоредът е свободен и \"Никога не съм виждал…\" не изисква граматична промяна, когато изнесеш \"никога\" напред — в английския изисква."
+      },
+      "examples": [
+        "Rarely have I seen such commitment.",
+        "Not only did she finish early, but she also helped the others.",
+        "Under no circumstances should you share your password.",
+        "Only later did we realise the mistake."
+      ]
+    },
+    {
+      "id": "c1.emphasis.note-clefts",
+      "competence": "c1.emphasis",
+      "title": {
+        "en": "Cleft sentences: What… is / It was… that",
+        "bg": "Изречения с изнасяне: What… is / It was… that"
+      },
+      "body": {
+        "en": "Cleft sentences split one idea into two parts to put a spotlight on one element. A wh-cleft (pseudo-cleft) puts the known part first and the new, important part last: \"What I need is more time.\" \"What surprised me was the price.\" An it-cleft highlights one element, often to correct someone: \"It was Maria who found the error (not Tom).\" \"It was the delay that worried us, not the cost.\" In Bulgarian you'd often just stress the word or move it (\"Мария намери грешката\"); English prefers to restructure the sentence, especially in writing, where stress is invisible.",
+        "bg": "Изреченията с изнасяне разделят една мисъл на две части, за да осветят един елемент. При wh-cleft известното е първо, а новото и важното — накрая: \"What I need is more time.\" (Това, от което имам нужда, е повече време.) \"What surprised me was the price.\" При it-cleft се подчертава един елемент, често за поправка: \"It was Maria who found the error (not Tom).\" \"It was the delay that worried us, not the cost.\" На български често просто ударяваш думата или я преместваш (\"Мария намери грешката\"); английският предпочита да преустрои изречението, особено писмено, където ударението не се вижда."
+      },
+      "examples": [
+        "What I need is more time.",
+        "What surprised me was the price.",
+        "It was Maria who found the error.",
+        "It was the delay that worried us, not the cost."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "advice",
+      "pos": "noun",
+      "meaning": {
+        "en": "An opinion about what someone should do (uncountable: a piece of advice).",
+        "bg": "Съвет (неброимо: a piece of advice)."
+      },
+      "example": "So, a final piece of advice to those of you who will lead this company next.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "ago",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Before now: two years ago.",
+        "bg": "Преди (two years ago = преди две години)."
+      },
+      "example": "When I joined this company thirty-two years ago, we had eleven employees and a single fax machine.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "any",
+      "pos": "determiner",
+      "meaning": {
+        "en": "One, some or all, no matter which.",
+        "bg": "Какъвто и да е, никакъв."
+      },
+      "example": "What they know is worth more than any report I have ever read.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "business",
+      "pos": "noun",
+      "meaning": {
+        "en": "A company; commercial activity.",
+        "bg": "Бизнес, фирма."
+      },
+      "example": "Under no circumstances should you let the business grow so large that you stop listening to the people who keep it running.",
+      "forms": [
+        "businesses"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "circumstance",
+      "pos": "noun",
+      "meaning": {
+        "en": "A condition or fact that affects a situation.",
+        "bg": "Обстоятелство."
+      },
+      "example": "Under no circumstances should you share your password.",
+      "forms": [
+        "circumstances"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "clearly",
+      "pos": "adverb",
+      "meaning": {
+        "en": "In a way that is easy to see, hear or remember.",
+        "bg": "Ясно."
+      },
+      "example": "I remember the warehouse fire in 2004 very clearly.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "commitment",
+      "pos": "noun",
+      "meaning": {
+        "en": "Willingness to give time and energy to something.",
+        "bg": "Отдаденост, ангажираност."
+      },
+      "example": "Rarely have I seen such commitment.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "company",
+      "pos": "noun",
+      "meaning": {
+        "en": "A business organisation.",
+        "bg": "Компания, фирма."
+      },
+      "example": "So, a final piece of advice to those of you who will lead this company next.",
+      "forms": [
+        "companies"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "difference",
+      "pos": "noun",
+      "meaning": {
+        "en": "\"Make the difference\" = be the deciding factor.",
+        "bg": "Разлика. \"Make the difference\" = е решаващият фактор."
+      },
+      "example": "What made the difference, I think, was not any particular product or strategy.",
+      "forms": [
+        "differences"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "discover",
+      "pos": "verb",
+      "meaning": {
+        "en": "To find out something you did not know.",
+        "bg": "Откривам, разбирам."
+      },
+      "example": "Only later did I discover that half of them had worked through the weekend without being asked.",
+      "forms": [
+        "discovers",
+        "discovered",
+        "discovering"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "error",
+      "pos": "noun",
+      "meaning": {
+        "en": "A mistake.",
+        "bg": "Грешка."
+      },
+      "example": "It was Maria who found the error.",
+      "forms": [
+        "errors"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "everyone",
+      "pos": "pronoun",
+      "meaning": {
+        "en": "Every person.",
+        "bg": "Всички, всеки."
+      },
+      "example": "Not only did the night shift get everyone out safely, but they had the main orders back on the road within forty-eight hours.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "fax",
+      "pos": "noun",
+      "meaning": {
+        "en": "An old system for sending copies of documents by phone line.",
+        "bg": "Факс."
+      },
+      "example": "When I joined this company thirty-two years ago, we had eleven employees and a single fax machine.",
+      "forms": [
+        "faxes"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "final",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Last.",
+        "bg": "Последен, окончателен."
+      },
+      "example": "So, a final piece of advice to those of you who will lead this company next.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "finish",
+      "pos": "verb",
+      "meaning": {
+        "en": "To end; to complete.",
+        "bg": "Завършвам, свършвам."
+      },
+      "example": "Not only did she finish early, but she also helped the others.",
+      "forms": [
+        "finishes",
+        "finished",
+        "finishing"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "fire",
+      "pos": "noun",
+      "meaning": {
+        "en": "Flames that burn and destroy things.",
+        "bg": "Пожар, огън."
+      },
+      "example": "I remember the warehouse fire in 2004 very clearly.",
+      "forms": [
+        "fires"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "forty-eight",
+      "pos": "number",
+      "meaning": {
+        "en": "48.",
+        "bg": "Четиридесет и осем."
+      },
+      "example": "Not only did the night shift get everyone out safely, but they had the main orders back on the road within forty-eight hours.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "front",
+      "pos": "noun",
+      "meaning": {
+        "en": "\"In front of\" = facing, before.",
+        "bg": "Предна част. \"In front of\" = пред."
+      },
+      "example": "Never did I imagine that I would one day be standing in front of four hundred of you.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "get",
+      "pos": "verb",
+      "meaning": {
+        "en": "A very common verb: receive, become, move. \"Get someone out\" = help them leave.",
+        "bg": "Вземам, получавам, ставам. \"Get someone out\" = извеждам някого."
+      },
+      "example": "Not only did the night shift get everyone out safely, but they had the main orders back on the road within forty-eight hours.",
+      "forms": [
+        "gets",
+        "got",
+        "getting",
+        "gotten"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "grow",
+      "pos": "verb",
+      "meaning": {
+        "en": "To become bigger.",
+        "bg": "Раста, разраствам се."
+      },
+      "example": "Under no circumstances should you let the business grow so large that you stop listening to the people who keep it running.",
+      "forms": [
+        "grows",
+        "grew",
+        "grown",
+        "growing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "half",
+      "pos": "noun",
+      "meaning": {
+        "en": "One of two equal parts.",
+        "bg": "Половина."
+      },
+      "example": "Only later did I discover that half of them had worked through the weekend without being asked.",
+      "forms": [
+        "halves"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "help",
+      "pos": "verb",
+      "meaning": {
+        "en": "To make it easier for someone to do something.",
+        "bg": "Помагам."
+      },
+      "example": "Not only did she finish early, but she also helped the others.",
+      "forms": [
+        "helps",
+        "helped",
+        "helping"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "imagine",
+      "pos": "verb",
+      "meaning": {
+        "en": "To form a picture in your mind; to think something is possible.",
+        "bg": "Представям си."
+      },
+      "example": "Never did I imagine that I would one day be standing in front of four hundred of you.",
+      "forms": [
+        "imagines",
+        "imagined",
+        "imagining"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "join",
+      "pos": "verb",
+      "meaning": {
+        "en": "To become a member of a group or company.",
+        "bg": "Присъединявам се, постъпвам (на работа)."
+      },
+      "example": "When I joined this company thirty-two years ago, we had eleven employees and a single fax machine.",
+      "forms": [
+        "joins",
+        "joined",
+        "joining"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "later",
+      "pos": "adverb",
+      "meaning": {
+        "en": "At a time after now or after another event.",
+        "bg": "По-късно."
+      },
+      "example": "Only later did we realise the mistake.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "listen",
+      "pos": "verb",
+      "meaning": {
+        "en": "To pay attention to sounds or to what people say.",
+        "bg": "Слушам."
+      },
+      "example": "Under no circumstances should you let the business grow so large that you stop listening to the people who keep it running.",
+      "forms": [
+        "listens",
+        "listened",
+        "listening"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "machine",
+      "pos": "noun",
+      "meaning": {
+        "en": "A piece of equipment that does a job.",
+        "bg": "Машина, апарат."
+      },
+      "example": "When I joined this company thirty-two years ago, we had eleven employees and a single fax machine.",
+      "forms": [
+        "machines"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "main",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Most important.",
+        "bg": "Основен, главен."
+      },
+      "example": "Not only did the night shift get everyone out safely, but they had the main orders back on the road within forty-eight hours.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "ordinary",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Normal, not special.",
+        "bg": "Обикновен."
+      },
+      "example": "It was the willingness of ordinary people to take responsibility when things went wrong.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "particular",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Specific; this one and not others.",
+        "bg": "Конкретен, определен."
+      },
+      "example": "What made the difference, I think, was not any particular product or strategy.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "password",
+      "pos": "noun",
+      "meaning": {
+        "en": "A secret word you use to log in.",
+        "bg": "Парола."
+      },
+      "example": "Under no circumstances should you share your password.",
+      "forms": [
+        "passwords"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "piece",
+      "pos": "noun",
+      "meaning": {
+        "en": "A part; \"a piece of advice\" = one bit of advice.",
+        "bg": "Парче, част; \"a piece of advice\" = един съвет."
+      },
+      "example": "So, a final piece of advice to those of you who will lead this company next.",
+      "forms": [
+        "pieces"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "product",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something made to be sold.",
+        "bg": "Продукт."
+      },
+      "example": "What made the difference, I think, was not any particular product or strategy.",
+      "forms": [
+        "products"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "rarely",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Not often.",
+        "bg": "Рядко."
+      },
+      "example": "Rarely have I seen such commitment.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "read",
+      "pos": "verb",
+      "meaning": {
+        "en": "To look at and understand written words.",
+        "bg": "Чета."
+      },
+      "example": "What they know is worth more than any report I have ever read.",
+      "forms": [
+        "reads",
+        "reading"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "remember",
+      "pos": "verb",
+      "meaning": {
+        "en": "To keep something in your memory.",
+        "bg": "Помня, спомням си."
+      },
+      "example": "I remember the warehouse fire in 2004 very clearly.",
+      "forms": [
+        "remembers",
+        "remembered",
+        "remembering"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "responsibility",
+      "pos": "noun",
+      "meaning": {
+        "en": "A duty to deal with something. \"Take responsibility\" = accept that it is your job.",
+        "bg": "Отговорност. \"Take responsibility\" = поемам отговорност."
+      },
+      "example": "It was the willingness of ordinary people to take responsibility when things went wrong.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "road",
+      "pos": "noun",
+      "meaning": {
+        "en": "A way for cars. \"On the road\" = being delivered, travelling.",
+        "bg": "Път. \"On the road\" = на път, в движение."
+      },
+      "example": "Not only did the night shift get everyone out safely, but they had the main orders back on the road within forty-eight hours.",
+      "forms": [
+        "roads"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "run",
+      "pos": "verb",
+      "meaning": {
+        "en": "To move fast; also to manage or operate (run a business, keep it running).",
+        "bg": "Тичам; управлявам, поддържам (да работи)."
+      },
+      "example": "Under no circumstances should you let the business grow so large that you stop listening to the people who keep it running.",
+      "forms": [
+        "runs",
+        "ran",
+        "running"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "safely",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Without being hurt.",
+        "bg": "Безопасно, живи и здрави."
+      },
+      "example": "Not only did the night shift get everyone out safely, but they had the main orders back on the road within forty-eight hours.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "secret",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something not known by others; the key to success.",
+        "bg": "Тайна."
+      },
+      "example": "People often ask me what the secret of our success has been.",
+      "forms": [
+        "secrets"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "share",
+      "pos": "verb",
+      "meaning": {
+        "en": "To let someone else have or know something.",
+        "bg": "Споделям."
+      },
+      "example": "Under no circumstances should you share your password.",
+      "forms": [
+        "shares",
+        "shared",
+        "sharing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "shift",
+      "pos": "noun",
+      "meaning": {
+        "en": "A period of work, e.g. the night shift.",
+        "bg": "Смяна (на работа)."
+      },
+      "example": "Not only did the night shift get everyone out safely, but they had the main orders back on the road within forty-eight hours.",
+      "forms": [
+        "shifts"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "single",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Only one.",
+        "bg": "Единствен, само един."
+      },
+      "example": "When I joined this company thirty-two years ago, we had eleven employees and a single fax machine.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "stand",
+      "pos": "verb",
+      "meaning": {
+        "en": "To be on your feet.",
+        "bg": "Стоя прав."
+      },
+      "example": "Never did I imagine that I would one day be standing in front of four hundred of you.",
+      "forms": [
+        "stands",
+        "stood",
+        "standing"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "strategy",
+      "pos": "noun",
+      "meaning": {
+        "en": "A plan to achieve a goal.",
+        "bg": "Стратегия."
+      },
+      "example": "What made the difference, I think, was not any particular product or strategy.",
+      "forms": [
+        "strategies"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "surprise",
+      "pos": "verb",
+      "meaning": {
+        "en": "To make someone feel something unexpected.",
+        "bg": "Изненадвам."
+      },
+      "example": "What surprised me was the price.",
+      "forms": [
+        "surprises",
+        "surprised",
+        "surprising"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "than",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "Used in comparisons: more than, no sooner… than.",
+        "bg": "Отколкото (при сравнение)."
+      },
+      "example": "What they know is worth more than any report I have ever read.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "thirty-two",
+      "pos": "number",
+      "meaning": {
+        "en": "32.",
+        "bg": "Тридесет и две."
+      },
+      "example": "When I joined this company thirty-two years ago, we had eleven employees and a single fax machine.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "through",
+      "pos": "preposition",
+      "meaning": {
+        "en": "From the beginning to the end of a period: work through the weekend.",
+        "bg": "През (целия): through the weekend = през целия уикенд."
+      },
+      "example": "Only later did I discover that half of them had worked through the weekend without being asked.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "under",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Below; in a particular condition (under no circumstances).",
+        "bg": "Под; при (under no circumstances = при никакви обстоятелства)."
+      },
+      "example": "Under no circumstances should you share your password.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "warehouse",
+      "pos": "noun",
+      "meaning": {
+        "en": "A large building for storing goods.",
+        "bg": "Склад."
+      },
+      "example": "I remember the warehouse fire in 2004 very clearly.",
+      "forms": [
+        "warehouses"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "will",
+      "pos": "verb",
+      "meaning": {
+        "en": "Used to talk about the future.",
+        "bg": "Ще."
+      },
+      "example": "So, a final piece of advice to those of you who will lead this company next.",
+      "forms": [
+        "won't",
+        "'ll"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "willingness",
+      "pos": "noun",
+      "meaning": {
+        "en": "Being ready and happy to do something.",
+        "bg": "Готовност, желание."
+      },
+      "example": "It was the willingness of ordinary people to take responsibility when things went wrong.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "within",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Inside a period of time; before it ends.",
+        "bg": "В рамките на."
+      },
+      "example": "Not only did the night shift get everyone out safely, but they had the main orders back on the road within forty-eight hours.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "without",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Not having or not doing something.",
+        "bg": "Без."
+      },
+      "example": "Only later did I discover that half of them had worked through the weekend without being asked.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "worry",
+      "pos": "verb",
+      "meaning": {
+        "en": "To feel anxious, or make someone anxious.",
+        "bg": "Тревожа (се)."
+      },
+      "example": "It was the delay that worried us, not the cost.",
+      "forms": [
+        "worries",
+        "worried",
+        "worrying"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "alongside",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Together with; next to.",
+        "bg": "Редом с, заедно с."
+      },
+      "example": "It has been the privilege of my working life to work alongside you.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "life",
+      "pos": "noun",
+      "meaning": {
+        "en": "The time a person is alive; \"working life\" = career.",
+        "bg": "Живот; \"working life\" = трудов живот."
+      },
+      "example": "It has been the privilege of my working life to work alongside you.",
+      "forms": [
+        "lives"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "privilege",
+      "pos": "noun",
+      "meaning": {
+        "en": "A special honour or advantage.",
+        "bg": "Привилегия, чест."
+      },
+      "example": "It has been the privilege of my working life to work alongside you.",
+      "forms": [
+        "privileges"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "thank",
+      "pos": "verb",
+      "meaning": {
+        "en": "To say you are grateful.",
+        "bg": "Благодаря."
+      },
+      "example": "Thank you all for coming.",
+      "forms": [
+        "thanks",
+        "thanked",
+        "thanking"
+      ],
+      "band": "A1"
+    }
+  ],
+  "texts": [
+    {
+      "id": "c1.emphasis.text-speech",
+      "competence": "c1.emphasis",
+      "band": "C1",
+      "title": "A retirement speech",
+      "paragraphs": [
+        "Thank you all for coming. When I joined this company thirty-two years ago, we had eleven employees and a single fax machine. Never did I imagine that I would one day be standing in front of four hundred of you.",
+        "People often ask me what the secret of our success has been. What made the difference, I think, was not any particular product or strategy. It was the willingness of ordinary people to take responsibility when things went wrong.",
+        "I remember the warehouse fire in 2004 very clearly. Not only did the night shift get everyone out safely, but they had the main orders back on the road within forty-eight hours. Only later did I discover that half of them had worked through the weekend without being asked.",
+        "So, a final piece of advice to those of you who will lead this company next. Under no circumstances should you let the business grow so large that you stop listening to the people who keep it running. What they know is worth more than any report I have ever read.",
+        "It has been the privilege of my working life to work alongside you. Thank you."
+      ]
+    }
+  ],
+  "names": [],
+  "items": [
+    {
+      "id": "c1.emphasis.rarely-have",
+      "type": "cloze",
+      "band": "C1",
+      "skill": "grammar",
+      "competence": "c1.emphasis",
+      "objective": {
+        "en": "Invert subject and auxiliary after \"Rarely\".",
+        "bg": "Да обърнеш подлога и спомагателния глагол след \"Rarely\"."
+      },
+      "difficulty": 1.8,
+      "sentence": "Rarely ___ I seen such a well-organised event.",
+      "accept": [
+        "have",
+        "had"
+      ],
+      "explanation": {
+        "en": "After a fronted negative adverb like \"Rarely\", English uses question word order: auxiliary + subject. The normal sentence \"I have rarely seen…\" becomes \"Rarely have I seen…\" (or, about an earlier past, \"Rarely had I seen…\").",
+        "bg": "След изнесено напред отрицателно наречие като \"Rarely\" английският използва въпросителен словоред: спомагателен глагол + подлог. Обикновеното \"I have rarely seen…\" става \"Rarely have I seen…\" (а за по-ранно минало — \"Rarely had I seen…\")."
+      },
+      "hints": [
+        {
+          "en": "Think of the question form: ___ I seen…?",
+          "bg": "Помисли за въпросителната форма: ___ I seen…?"
+        }
+      ],
+      "words": [
+        "rarely",
+        "event"
+      ],
+      "structures": [
+        "inversion.negative"
+      ],
+      "tags": [
+        "inversion"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.emphasis.not-only-did",
+      "type": "choice",
+      "band": "C1",
+      "skill": "grammar",
+      "competence": "c1.emphasis",
+      "objective": {
+        "en": "Use \"do\"-support in inversion.",
+        "bg": "Да използваш спомагателното \"do\" при инверсия."
+      },
+      "difficulty": 2.2,
+      "prompt": "Which emphatic sentence is grammatically correct?",
+      "options": [
+        "Not only she apologised, but she also paid for the damage.",
+        "Not only did she apologise, but she also paid for the damage.",
+        "Not only she did apologise, but she also paid for the damage.",
+        "Not only apologised she, but she also paid for the damage."
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "\"Not only\" at the start triggers inversion. \"She apologised\" has no auxiliary, so we add \"did\" and put it before the subject: did she apologise. Inverting the main verb (apologised she) is not possible in modern English.",
+        "bg": "\"Not only\" в началото предизвиква инверсия. \"She apologised\" няма спомагателен глагол, затова добавяме \"did\" и го слагаме пред подлога: did she apologise. Обръщането на основния глагол (apologised she) не е възможно в съвременния английски."
+      },
+      "hints": [
+        {
+          "en": "Make it look like a question: ___ she apologise?",
+          "bg": "Направи го като въпрос: ___ she apologise?"
+        }
+      ],
+      "words": [
+        "apologise",
+        "damage"
+      ],
+      "structures": [
+        "inversion.negative"
+      ],
+      "tags": [
+        "inversion"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.emphasis.under-no-circumstances",
+      "type": "build",
+      "band": "C1",
+      "skill": "grammar",
+      "competence": "c1.emphasis",
+      "objective": {
+        "en": "Form an emphatic prohibition with inversion.",
+        "bg": "Да образуваш категорична забрана с инверсия."
+      },
+      "difficulty": 2.4,
+      "tiles": [
+        "Under",
+        "no",
+        "circumstances",
+        "should",
+        "you",
+        "open",
+        "this",
+        "door"
+      ],
+      "accept": [
+        "Under no circumstances should you open this door."
+      ],
+      "explanation": {
+        "en": "\"Under no circumstances\" + inversion is a very strong prohibition, typical of formal instructions and warnings. The modal \"should\" comes before \"you\". Compare the neutral version: \"You should not open this door under any circumstances.\"",
+        "bg": "\"Under no circumstances\" + инверсия е много категорична забрана, типична за официални инструкции и предупреждения. Модалният \"should\" е пред \"you\". Сравни с неутралното: \"You should not open this door under any circumstances.\""
+      },
+      "hints": [
+        {
+          "en": "Start with the negative phrase, then auxiliary + subject.",
+          "bg": "Започни с отрицателния израз, после спомагателен глагол + подлог."
+        }
+      ],
+      "words": [
+        "circumstance",
+        "door"
+      ],
+      "structures": [
+        "inversion.negative"
+      ],
+      "tags": [
+        "inversion",
+        "formal"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.emphasis.no-sooner-than",
+      "type": "cloze",
+      "band": "C1",
+      "skill": "grammar",
+      "competence": "c1.emphasis",
+      "objective": {
+        "en": "Complete \"No sooner… than\".",
+        "bg": "Да довършиш \"No sooner… than\"."
+      },
+      "difficulty": 2.7,
+      "sentence": "No sooner had we sat down ___ the fire alarm went off.",
+      "accept": [
+        "than"
+      ],
+      "explanation": {
+        "en": "\"No sooner\" is a comparative, so it pairs with \"than\", not \"when\". Its partner \"Hardly / Scarcely\" takes \"when\": Hardly had we sat down when… Mixing the two (No sooner… when) is a very common error even among advanced learners.",
+        "bg": "\"No sooner\" е сравнителна степен, затова върви с \"than\", а не с \"when\". Близкото \"Hardly / Scarcely\" е с \"when\": Hardly had we sat down when… Смесването (No sooner… when) е много честа грешка дори при напреднали."
+      },
+      "hints": [
+        {
+          "en": "\"Sooner\" is a comparative, like \"faster\".",
+          "bg": "\"Sooner\" е сравнителна степен, като \"faster\"."
+        }
+      ],
+      "words": [
+        "sooner",
+        "alarm"
+      ],
+      "structures": [
+        "inversion.negative"
+      ],
+      "tags": [
+        "inversion"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.emphasis.inversion-register",
+      "type": "choice",
+      "band": "C1",
+      "skill": "speaking",
+      "competence": "c1.emphasis",
+      "objective": {
+        "en": "Judge when inversion is appropriate.",
+        "bg": "Да прецениш кога инверсията е уместна."
+      },
+      "difficulty": 2.6,
+      "prompt": "Your friend texts: \"How was the film?\" Which reply is most natural?",
+      "options": [
+        "Never have I seen such a boring film.",
+        "Not only was it boring, but also it was long.",
+        "Honestly, it was so boring.",
+        "Seldom has a film bored me to such a degree."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Negative inversion is formal and rhetorical. In a casual text to a friend it sounds theatrical or comic. \"Not only was it boring, but also it was long\" is clumsy as well: the natural order is \"but it was also long\". Knowing when NOT to use a structure is part of C1 competence.",
+        "bg": "Отрицателната инверсия е официална и реторична. В небрежно съобщение до приятел звучи театрално или комично. \"Not only was it boring, but also it was long\" освен това е тромаво: естественият словоред е \"but it was also long\". Да знаеш кога ДА НЕ използваш дадена структура е част от ниво C1."
+      },
+      "hints": [
+        {
+          "en": "Which one sounds like a real text message?",
+          "bg": "Кое звучи като истинско съобщение?"
+        }
+      ],
+      "words": [
+        "boring"
+      ],
+      "structures": [
+        "inversion.negative",
+        "register"
+      ],
+      "tags": [
+        "register"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.emphasis.what-i-need",
+      "type": "build",
+      "band": "C1",
+      "skill": "grammar",
+      "competence": "c1.emphasis",
+      "objective": {
+        "en": "Form a wh-cleft sentence.",
+        "bg": "Да образуваш изречение с изнасяне с what."
+      },
+      "difficulty": 1.9,
+      "tiles": [
+        "What",
+        "I",
+        "need",
+        "is",
+        "a",
+        "few",
+        "days",
+        "off"
+      ],
+      "accept": [
+        "What I need is a few days off.",
+        "A few days off is what I need."
+      ],
+      "explanation": {
+        "en": "A wh-cleft puts \"What + subject + verb\" first and the important new information at the end: What I need is a few days off. The reversed version \"A few days off is what I need\" is also correct and puts the focus at the start.",
+        "bg": "При wh-cleft \"What + подлог + глагол\" е в началото, а важната нова информация — в края: What I need is a few days off. Обърнатият вариант \"A few days off is what I need\" също е правилен и поставя акцента в началото."
+      },
+      "hints": [
+        {
+          "en": "Start with \"What I need…\".",
+          "bg": "Започни с \"What I need…\"."
+        }
+      ],
+      "words": [
+        "need",
+        "few"
+      ],
+      "structures": [
+        "cleft.wh"
+      ],
+      "tags": [
+        "cleft"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.emphasis.it-cleft-correct",
+      "type": "choice",
+      "band": "C1",
+      "skill": "grammar",
+      "competence": "c1.emphasis",
+      "objective": {
+        "en": "Use an it-cleft to correct a misunderstanding.",
+        "bg": "Да използваш it-cleft, за да поправиш недоразумение."
+      },
+      "difficulty": 2.3,
+      "prompt": "Someone says: \"So the delay was caused by the suppliers?\" You want to correct them: the real cause was the bad weather. What do you say?",
+      "options": [
+        "No, it was the bad weather that caused the delay.",
+        "No, the bad weather was what it caused.",
+        "No, what caused it the bad weather was.",
+        "No, it caused the delay was the bad weather."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "An it-cleft (It was X that…) is the natural way to correct which element is true: It was the bad weather (not the suppliers) that caused the delay. The other options scramble the structure.",
+        "bg": "It-cleft (It was X that…) е естественият начин да поправиш кой елемент е верен: It was the bad weather (а не доставчиците) that caused the delay. Другите варианти бъркат структурата."
+      },
+      "hints": [
+        {
+          "en": "It was + the focused element + that + the rest.",
+          "bg": "It was + подчертаният елемент + that + останалото."
+        }
+      ],
+      "words": [
+        "cause",
+        "delay"
+      ],
+      "structures": [
+        "cleft.it"
+      ],
+      "tags": [
+        "cleft"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.emphasis.text-only-later",
+      "type": "choice",
+      "band": "C1",
+      "skill": "reading",
+      "competence": "c1.emphasis",
+      "objective": {
+        "en": "Interpret inverted structures in context.",
+        "bg": "Да тълкуваш структури с инверсия в контекст."
+      },
+      "difficulty": 2.5,
+      "prompt": "\"Only later did I discover that half of them had worked through the weekend without being asked.\" What does the speaker mean?",
+      "options": [
+        "He asked them to work, and later they agreed.",
+        "Half of the staff refused to work at the weekend.",
+        "He discovered the fire later in the weekend.",
+        "He found out about their extra work some time after it happened, and he hadn't requested it."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "\"Only later\" + inversion emphasises that he learned about it after the event. \"Without being asked\" means nobody had asked them to do it — it was their own initiative.",
+        "bg": "\"Only later\" + инверсия подчертава, че той е научил за това след събитието. \"Without being asked\" значи, че никой не ги е молил — било е тяхна инициатива."
+      },
+      "hints": [
+        {
+          "en": "Two key phrases: \"Only later\" and \"without being asked\".",
+          "bg": "Два ключови израза: \"Only later\" и \"without being asked\"."
+        }
+      ],
+      "words": [
+        "discover",
+        "later"
+      ],
+      "structures": [
+        "inversion.negative"
+      ],
+      "tags": [
+        "reading"
+      ],
+      "textId": "c1.emphasis.text-speech",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.emphasis.text-cleft-focus",
+      "type": "choice",
+      "band": "C1",
+      "skill": "reading",
+      "competence": "c1.emphasis",
+      "objective": {
+        "en": "Identify the focus of a cleft sentence.",
+        "bg": "Да откриеш акцента в изречение с изнасяне."
+      },
+      "difficulty": 2.8,
+      "prompt": "In the second paragraph, what is the speaker emphasising with \"What made the difference… was not… It was…\"?",
+      "options": [
+        "That people's readiness to take responsibility was the real reason for success, rather than products or strategy.",
+        "That a clever strategy explained the company's growth.",
+        "That the company's products were better than its competitors'.",
+        "That things often went wrong at the company."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The two clefts work together: the first rejects an expected answer (\"was not any particular product or strategy\"), and the it-cleft puts the spotlight on the real answer — \"the willingness of ordinary people to take responsibility\".",
+        "bg": "Двете изречения с изнасяне работят заедно: първото отхвърля очаквания отговор (\"was not any particular product or strategy\"), а it-cleft осветява истинския — \"the willingness of ordinary people to take responsibility\"."
+      },
+      "hints": [
+        {
+          "en": "What does he say it was NOT, and what does he say it WAS?",
+          "bg": "Какво казва, че НЕ е било, и какво казва, че Е било?"
+        }
+      ],
+      "words": [
+        "willingness",
+        "responsibility"
+      ],
+      "structures": [
+        "cleft.wh",
+        "cleft.it"
+      ],
+      "tags": [
+        "reading",
+        "cleft"
+      ],
+      "textId": "c1.emphasis.text-speech",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c1.emphasis.text-never-did",
+      "type": "cloze",
+      "band": "C1",
+      "skill": "reading",
+      "competence": "c1.emphasis",
+      "objective": {
+        "en": "Notice inversion in a text.",
+        "bg": "Да забележиш инверсия в текст."
+      },
+      "difficulty": 1.6,
+      "sentence": "\"Never ___ I imagine that I would one day be standing in front of four hundred of you.\"",
+      "accept": [
+        "did"
+      ],
+      "explanation": {
+        "en": "The speaker opens with \"Never\" for emphasis, so the past simple \"I never imagined\" becomes \"Never did I imagine\" — \"did\" + subject + base verb.",
+        "bg": "Ораторът започва с \"Never\" за емфаза, затова past simple \"I never imagined\" става \"Never did I imagine\" — \"did\" + подлог + основна форма."
+      },
+      "hints": [
+        {
+          "en": "Read the first paragraph again.",
+          "bg": "Прочети пак първия абзац."
+        },
+        {
+          "en": "Past simple, no auxiliary in the normal sentence — so which helper do you add?",
+          "bg": "Past simple без спомагателен глагол в нормалното изречение — кой помощен глагол добавяш?"
+        }
+      ],
+      "words": [
+        "imagine",
+        "never"
+      ],
+      "structures": [
+        "inversion.negative"
+      ],
+      "tags": [
+        "reading",
+        "inversion"
+      ],
+      "textId": "c1.emphasis.text-speech",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

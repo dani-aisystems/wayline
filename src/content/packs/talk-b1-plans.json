@@ -1,0 +1,722 @@
+{
+  "id": "talk-b1-plans",
+  "version": 1,
+  "band": "B1",
+  "competences": [
+    {
+      "id": "b1.talk-plans",
+      "band": "B1",
+      "title": {
+        "en": "Making plans with friends",
+        "bg": "Планове с приятели"
+      },
+      "canDo": {
+        "en": "I can suggest things to do, agree or politely say no, and change an arrangement when something comes up.",
+        "bg": "Мога да предлагам какво да правим, да се съглася или учтиво да откажа и да променя уговорка, когато нещо се случи."
+      },
+      "skills": [
+        "speaking",
+        "listening",
+        "grammar"
+      ],
+      "prerequisites": [
+        "a1.hello"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "b1.talk-plans.note-suggesting",
+      "competence": "b1.talk-plans",
+      "title": {
+        "en": "Suggesting, agreeing and changing plans",
+        "bg": "Предложения, съгласие и промяна на планове"
+      },
+      "body": {
+        "en": "To suggest, use \"How about…\" + -ing, \"Why don't we…\" + verb, or \"Shall we…?\". To agree, say \"Sounds good to me\" or \"Good idea\". To say no politely, start with \"I'm afraid…\" or \"Sorry, I can't make it\" — and offer another option if you can. To change a plan, ask \"Can we make it a bit later?\" or \"Shall we leave it till next week?\". Careful: after \"How about\" the verb takes -ing (\"How about going\"), never \"to\".",
+        "bg": "За предложение използвай \"How about…\" + -ing, \"Why don't we…\" + глагол или \"Shall we…?\". За съгласие кажи \"Sounds good to me\" (Звучи ми добре) или \"Good idea\". За учтив отказ започни с \"I'm afraid…\" (Съжалявам, но…) или \"Sorry, I can't make it\" (Няма да мога) — и ако можеш, предложи друг вариант. За да промениш план, питай \"Can we make it a bit later?\" (Може ли малко по-късно?) или \"Shall we leave it till next week?\" (Да го оставим за следващата седмица?). Внимавай: след \"How about\" глаголът е с -ing (\"How about going\"), никога с \"to\"."
+      },
+      "examples": [
+        "How about going to the cinema on Friday?",
+        "Why don't we meet at seven?",
+        "Sounds good to me.",
+        "I'm afraid I can't make it on Saturday.",
+        "Can we make it a bit later?",
+        "Shall we leave it till next week?"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "cinema",
+      "pos": "noun",
+      "ipa": "/ˈsɪnəmə/",
+      "meaning": {
+        "en": "A place where you go to watch films.",
+        "bg": "Кино."
+      },
+      "example": "Let's meet at the cinema.",
+      "forms": [
+        "cinemas"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "why",
+      "pos": "adverb",
+      "ipa": "/waɪ/",
+      "meaning": {
+        "en": "A question word for reasons. \"Why don't we…?\" is a friendly way to suggest something.",
+        "bg": "Защо — въпросителна дума за причина. \"Why don't we…?\" е приятелски начин да предложиш нещо."
+      },
+      "example": "Why don't we go home?",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "good",
+      "pos": "adjective",
+      "ipa": "/ɡʊd/",
+      "meaning": {
+        "en": "Nice, of high quality, or right for the situation.",
+        "bg": "Добър, хубав."
+      },
+      "example": "That's a good idea.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "leave",
+      "pos": "verb",
+      "ipa": "/liːv/",
+      "meaning": {
+        "en": "To go away from a place; \"leave it till…\" means to do it later.",
+        "bg": "Тръгвам си, оставям; \"leave it till…\" значи да отложиш нещо за по-късно."
+      },
+      "example": "Let's leave it till tomorrow.",
+      "forms": [
+        "leaves",
+        "leaving"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "till",
+      "pos": "preposition",
+      "ipa": "/tɪl/",
+      "meaning": {
+        "en": "Until; up to a certain time.",
+        "bg": "До (определен момент)."
+      },
+      "example": "I work till five.",
+      "forms": [],
+      "band": "B1"
+    }
+  ],
+  "texts": [],
+  "names": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Thursday",
+    "Priya",
+    "Jake",
+    "Viktor",
+    "Chris",
+    "Raya",
+    "Zoe",
+    "Ryan",
+    "Laura"
+  ],
+  "items": [
+    {
+      "id": "b1.talk-plans.dlg-saturday-plans",
+      "type": "dialogue",
+      "band": "B1",
+      "skill": "speaking",
+      "competence": "b1.talk-plans",
+      "objective": {
+        "en": "Suggest an alternative, choose a time that works, and react kindly to a maybe.",
+        "bg": "Да предложиш друг вариант, да избереш удобен час и да реагираш мило на „може би“."
+      },
+      "difficulty": -0.6,
+      "explanation": {
+        "en": "Good suggestions answer the problem (rain → something indoors) and fit what people have said (Jake is busy till four). \"No worries — just let us know\" is a relaxed, friendly way to give someone time.",
+        "bg": "Доброто предложение решава проблема (дъжд → нещо на закрито) и се съобразява с казаното (Джейк е зает до четири). \"No worries — just let us know\" е спокоен, приятелски начин да дадеш на някого време."
+      },
+      "hints": [
+        {
+          "en": "Remember what Jake says about football.",
+          "bg": "Запомни какво казва Джейк за футбола."
+        }
+      ],
+      "words": [
+        "good",
+        "till"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "suggesting",
+        "plans"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "You're on a video call with your friends Priya and Jake, planning Saturday.",
+        "bg": "На видеоразговор си с приятелите си Прия и Джейк и планирате събота."
+      },
+      "characters": [
+        {
+          "id": "priya",
+          "name": "Priya",
+          "presents": "female",
+          "accent": "US",
+          "tone": 2
+        },
+        {
+          "id": "jake",
+          "name": "Jake",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 3
+        },
+        {
+          "id": "viktor",
+          "name": "Viktor",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 5
+        }
+      ],
+      "learnerAs": "viktor",
+      "lines": [
+        {
+          "by": "priya",
+          "text": "So, what are we doing on Saturday? Any ideas?"
+        },
+        {
+          "by": "jake",
+          "text": "We could go hiking, but the forecast says it might rain all day."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "How about that new escape room in town instead? It's indoors.",
+              "correct": true
+            },
+            {
+              "text": "How about to go to the escape room?",
+              "correct": false,
+              "why": {
+                "en": "After \"How about\" use -ing: \"How about going…?\" — or just a noun: \"How about the escape room?\"",
+                "bg": "След \"How about\" идва -ing: \"How about going…?\" — или направо съществително: \"How about the escape room?\""
+              }
+            },
+            {
+              "text": "I'm agree, let's go hiking.",
+              "correct": false,
+              "why": {
+                "en": "It's \"I agree\" (no \"am\"). And hiking in the rain isn't a great plan — Jake just said that.",
+                "bg": "Казва се \"I agree\" (без \"am\"). А и разходка в планината в дъжда не е добър план — Джейк точно това каза."
+              }
+            }
+          ]
+        },
+        {
+          "by": "priya",
+          "text": "Ooh, good idea. I've heard it's really fun. What time works for everyone?"
+        },
+        {
+          "by": "jake",
+          "text": "I've got football till four, so anything after five is fine for me."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Shall we say six, then? We could grab a pizza afterwards.",
+              "correct": true
+            },
+            {
+              "text": "Shall we say three, then?",
+              "correct": false,
+              "why": {
+                "en": "Jake is playing football until four, so three won't work for him.",
+                "bg": "Джейк играе футбол до четири, така че три часа не му е удобно."
+              }
+            },
+            {
+              "text": "Let's meet at six o'clock, isn't it?",
+              "correct": false,
+              "why": {
+                "en": "\"Isn't it\" doesn't fit here. To check, say \"Shall we say six?\" or \"Six OK?\"",
+                "bg": "\"Isn't it\" не пасва тук. За да провериш, кажи \"Shall we say six?\" или \"Six OK?\""
+              }
+            }
+          ]
+        },
+        {
+          "by": "priya",
+          "text": "Perfect. I'll book it for six."
+        },
+        {
+          "by": "jake",
+          "text": "Actually, hang on — my sister's birthday dinner might be on Saturday. Can I let you know tomorrow?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "No worries — just let us know by tomorrow evening.",
+              "correct": true
+            },
+            {
+              "text": "You must tell us now.",
+              "correct": false,
+              "why": {
+                "en": "Too pushy for friends — he's just told you why he can't answer yet.",
+                "bg": "Твърде настойчиво за приятели — той току-що обясни защо още не може да отговори."
+              }
+            },
+            {
+              "text": "Don't worry, we'll go without you then.",
+              "correct": false,
+              "why": {
+                "en": "This sounds like you don't care if he comes. Give him time to decide.",
+                "bg": "Звучи така, сякаш не те интересува дали ще дойде. Дай му време да реши."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1.talk-plans.dlg-running-late",
+      "type": "dialogue",
+      "band": "B1",
+      "skill": "speaking",
+      "competence": "b1.talk-plans",
+      "objective": {
+        "en": "Apologise for being late, suggest a new time and confirm who does what.",
+        "bg": "Да се извиниш за закъснение, да предложиш нов час и да потвърдиш кой какво ще направи."
+      },
+      "difficulty": -0.9,
+      "explanation": {
+        "en": "Use \"be going to\" for something you can already see coming (\"I'm going to be late\"). \"Would seven thirty work for you?\" is a friendly way to suggest a new time. Listen for who is changing the booking — Chris offers to do it.",
+        "bg": "Използвай \"be going to\" за нещо, което вече виждаш, че ще стане (\"I'm going to be late\"). \"Would seven thirty work for you?\" е приятелски начин да предложиш нов час. Слушай кой ще промени резервацията — Крис предлага той да го направи."
+      },
+      "hints": [
+        {
+          "en": "In the last turn, remember who is calling the restaurant.",
+          "bg": "В последната реплика помни кой ще се обади в ресторанта."
+        }
+      ],
+      "words": [
+        "leave"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "changing-plans",
+        "apologising"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "You're meeting Chris for dinner at seven, but your train is late. He calls you.",
+        "bg": "Имаш среща с Крис за вечеря в седем, но влакът ти закъснява. Той ти звъни."
+      },
+      "characters": [
+        {
+          "id": "chris",
+          "name": "Chris",
+          "presents": "male",
+          "accent": "US",
+          "tone": 1
+        },
+        {
+          "id": "raya",
+          "name": "Raya",
+          "presents": "female",
+          "accent": "GB",
+          "tone": 4
+        }
+      ],
+      "learnerAs": "raya",
+      "lines": [
+        {
+          "by": "chris",
+          "text": "Hey! Are you on your way?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Sort of — I'm really sorry, but my train's been delayed. I'm going to be about half an hour late.",
+              "correct": true
+            },
+            {
+              "text": "Yes, I come in half an hour.",
+              "correct": false,
+              "why": {
+                "en": "Use \"I'll be there\" or \"I'm going to be late\". \"I come\" sounds like a habit, not this evening.",
+                "bg": "Кажи \"I'll be there\" или \"I'm going to be late\". \"I come\" звучи като навик, а не като тази вечер."
+              }
+            },
+            {
+              "text": "Sorry, I will be late since half an hour.",
+              "correct": false,
+              "why": {
+                "en": "\"Since\" is for a starting point in the past. Say \"about half an hour late\".",
+                "bg": "\"Since\" е за начален момент в миналото. Кажи \"about half an hour late\"."
+              }
+            }
+          ]
+        },
+        {
+          "by": "chris",
+          "text": "Oh no! Don't worry. Do you want to meet a bit later, then?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Would seven thirty work for you instead?",
+              "correct": true
+            },
+            {
+              "text": "Would seven thirty works for you instead?",
+              "correct": false,
+              "why": {
+                "en": "After \"would\", use the base form: \"work\", not \"works\".",
+                "bg": "След \"would\" глаголът е в основна форма: \"work\", а не \"works\"."
+              }
+            },
+            {
+              "text": "Could we cancel it for seven thirty?",
+              "correct": false,
+              "why": {
+                "en": "\"Cancel\" means the dinner won't happen at all. You want to move it: \"Could we make it seven thirty?\"",
+                "bg": "\"Cancel\" значи вечерята изобщо да не се състои. Ти искаш да я преместиш: \"Could we make it seven thirty?\""
+              }
+            }
+          ]
+        },
+        {
+          "by": "chris",
+          "text": "Seven thirty's fine. I'll call the restaurant and change the booking."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Brilliant, thanks for being so understanding. See you then!",
+              "correct": true
+            },
+            {
+              "text": "OK, I'll change the booking, then.",
+              "correct": false,
+              "why": {
+                "en": "Chris just said HE will call the restaurant. Thank him instead.",
+                "bg": "Крис току-що каза, че ТОЙ ще се обади в ресторанта. По-добре му благодари."
+              }
+            },
+            {
+              "text": "Thanks, see you on seven thirty!",
+              "correct": false,
+              "why": {
+                "en": "With clock times, use \"at\": \"See you at seven thirty!\"",
+                "bg": "С часове се използва \"at\": \"See you at seven thirty!\""
+              }
+            }
+          ]
+        },
+        {
+          "by": "chris",
+          "text": "No problem. Safe trip!"
+        }
+      ]
+    },
+    {
+      "id": "b1.talk-plans.listen-zoe-voicemail",
+      "type": "listen",
+      "band": "B1",
+      "skill": "listening",
+      "competence": "b1.talk-plans",
+      "objective": {
+        "en": "Understand a change of plan in a voicemail.",
+        "bg": "Да разбереш промяна в плана от гласово съобщение."
+      },
+      "difficulty": -0.4,
+      "explanation": {
+        "en": "Zoe cancels the picnic because of the weather (\"the picnic's off\") and says \"I've booked a table for one o'clock\" at an Italian restaurant.",
+        "bg": "Зоуи отменя пикника заради времето (\"the picnic's off\" — пикникът отпада) и казва \"I've booked a table for one o'clock\" (запазила е маса за един часа) в италиански ресторант."
+      },
+      "hints": [
+        {
+          "en": "\"The picnic's off\" means it's cancelled. What does she do instead?",
+          "bg": "\"The picnic's off\" значи, че е отменен. Какво прави тя вместо това?"
+        }
+      ],
+      "words": [
+        "why"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "voicemail",
+        "changing-plans"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "Hi, it's Zoe. Listen, about Sunday — the weather looks awful, so the picnic's off. Why don't we all go to that Italian place by the river instead? I've booked a table for one o'clock, but if that's too early for anyone, just text me and I'll move it. Bye!",
+      "characters": [],
+      "question": "What has Zoe done?",
+      "options": [
+        "She's booked a table for lunch on Sunday.",
+        "She's cancelled lunch because of the weather.",
+        "She's moved the picnic to one o'clock.",
+        "She's asked everyone to book a table."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "b1.talk-plans.listen-gym-time",
+      "type": "listen",
+      "band": "B1",
+      "skill": "listening",
+      "competence": "b1.talk-plans",
+      "objective": {
+        "en": "Follow a conversation where the time changes twice.",
+        "bg": "Да следиш разговор, в който часът се сменя два пъти."
+      },
+      "difficulty": -0.8,
+      "explanation": {
+        "en": "Eight becomes nine, but nine doesn't work for Ryan, so they move to the evening: \"let's do six, then\".",
+        "bg": "Осем става девет, но девет не е удобно за Райън, затова местят тренировката вечерта: \"let's do six, then\" (тогава в шест)."
+      },
+      "hints": [
+        {
+          "en": "Only the last time they agree on counts.",
+          "bg": "Важи само последният час, за който се разбират."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "changing-plans"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "Ryan: Are we still on for the gym tomorrow at eight?\nLaura: Actually, could we make it nine? I've got a dentist appointment first.\nRyan: Nine's a bit tricky — I start work at ten. What about the evening instead?\nLaura: Fine by me. Let's do six, then.",
+      "characters": [
+        {
+          "id": "ryan",
+          "name": "Ryan",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 3
+        },
+        {
+          "id": "laura",
+          "name": "Laura",
+          "presents": "female",
+          "accent": "US",
+          "tone": 6
+        }
+      ],
+      "question": "When are they going to the gym?",
+      "options": [
+        "Tomorrow at eight in the morning",
+        "Tomorrow at nine in the morning",
+        "Tomorrow at six in the evening",
+        "Tomorrow at ten"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "b1.talk-plans.say-cant-make-it",
+      "type": "speak",
+      "band": "B1",
+      "skill": "speaking",
+      "competence": "b1.talk-plans",
+      "objective": {
+        "en": "Repeat a polite refusal with an alternative.",
+        "bg": "Да повториш учтив отказ с друго предложение."
+      },
+      "difficulty": -1.2,
+      "explanation": {
+        "en": "\"I'm afraid I can't make it\" softens the \"no\", and offering another day keeps the plan alive.",
+        "bg": "\"I'm afraid I can't make it\" смекчава отказа, а предложението за друг ден запазва плана."
+      },
+      "hints": [
+        {
+          "en": "\"Can't make it\" sounds like one word: \"cantmakeit\".",
+          "bg": "\"Can't make it\" звучи почти като една дума."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "repeat",
+      "prompt": "I'm afraid I can't make it tonight — can we do Thursday instead?",
+      "model": "I'm afraid I can't make it tonight — can we do Thursday instead?",
+      "keywords": [],
+      "target": "I'm afraid I can't make it tonight — can we do Thursday instead?",
+      "voice": {
+        "presents": "female",
+        "accent": "US"
+      }
+    },
+    {
+      "id": "b1.talk-plans.read-quarter-to-eight",
+      "type": "speak",
+      "band": "B1",
+      "skill": "speaking",
+      "competence": "b1.talk-plans",
+      "objective": {
+        "en": "Read a suggestion aloud.",
+        "bg": "Да прочетеш предложение на глас."
+      },
+      "difficulty": -1.0,
+      "explanation": {
+        "en": "\"Why don't we…?\" + a reason (\"That way…\") makes a suggestion sound friendly and thought through.",
+        "bg": "\"Why don't we…?\" + причина (\"That way…\" — така…) прави предложението приятелско и обмислено."
+      },
+      "hints": [
+        {
+          "en": "Let your voice go down at the end of \"Why don't we…?\" — it's a suggestion, not a real question.",
+          "bg": "Гласът ти слиза в края на \"Why don't we…?\" — това е предложение, а не истински въпрос."
+        }
+      ],
+      "words": [
+        "why",
+        "cinema"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "read",
+      "prompt": "Why don't we meet outside the cinema at quarter to eight? That way we'll have time to get popcorn.",
+      "model": "Why don't we meet outside the cinema at quarter to eight? That way we'll have time to get popcorn.",
+      "keywords": [],
+      "target": "Why don't we meet outside the cinema at quarter to eight? That way we'll have time to get popcorn."
+    },
+    {
+      "id": "b1.talk-plans.answer-concert-busy",
+      "type": "speak",
+      "band": "B1",
+      "skill": "speaking",
+      "competence": "b1.talk-plans",
+      "objective": {
+        "en": "Turn down an invitation politely.",
+        "bg": "Да откажеш покана учтиво."
+      },
+      "difficulty": -0.3,
+      "explanation": {
+        "en": "A good answer has three parts: say sorry, give a short reason, and (if you can) suggest another time.",
+        "bg": "Добрият отговор има три части: извинение, кратка причина и (ако можеш) друг вариант."
+      },
+      "hints": [
+        {
+          "en": "Start with \"Sorry…\" or \"I'm afraid…\".",
+          "bg": "Започни със \"Sorry…\" или \"I'm afraid…\"."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "answer",
+      "prompt": "Your friend says: \"Do you want to come to a concert on Saturday?\" You're busy. What do you say?",
+      "model": "Sorry, I can't make it on Saturday — I'm working. How about next weekend?",
+      "keywords": [
+        [
+          "sorry",
+          "afraid",
+          "unfortunately",
+          "shame",
+          "pity"
+        ],
+        [
+          "busy",
+          "can't",
+          "cannot",
+          "working",
+          "plans",
+          "make it",
+          "won't"
+        ]
+      ],
+      "voice": {
+        "presents": "male",
+        "accent": "GB"
+      }
+    },
+    {
+      "id": "b1.talk-plans.fix-how-about-meeting",
+      "type": "fix",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.talk-plans",
+      "objective": {
+        "en": "Use -ing after \"How about\".",
+        "bg": "Да използваш -ing след \"How about\"."
+      },
+      "difficulty": -1.1,
+      "explanation": {
+        "en": "\"About\" is a preposition, and after prepositions English uses the -ing form: \"How about meeting…?\" (or \"What about meeting…?\").",
+        "bg": "\"About\" е предлог, а след предлози в английския глаголът е с -ing: \"How about meeting…?\" (или \"What about meeting…?\")."
+      },
+      "hints": [
+        {
+          "en": "What form of the verb comes after \"about\"?",
+          "bg": "Каква форма на глагола идва след \"about\"?"
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "suggesting"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "sentence": "How about to meet at the station at six?",
+      "wrong": "to meet",
+      "accept": [
+        "How about meeting at the station at six?",
+        "What about meeting at the station at six?"
+      ]
+    }
+  ]
+}

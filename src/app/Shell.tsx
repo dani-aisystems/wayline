@@ -7,7 +7,7 @@ import "./shell.css";
 const NAV: { to: string; label: StringKey; icon: string }[] = [
   { to: "/today", label: "nav.today", icon: "M4 12h4l3-8 3 16 3-8h3" },
   { to: "/review", label: "nav.review", icon: "M20 12a8 8 0 1 1-2.34-5.66M20 4v5h-5" },
-  { to: "/words", label: "nav.words", icon: "M6 4h12v16l-6-4-6 4z" },
+  { to: "/library", label: "nav.library", icon: "M5 4h4v16H5zM10 4h4v16h-4zM15.5 5l3.5-1 2.5 15.5-3.5 1z" },
   { to: "/settings", label: "nav.settings", icon: "M4 7h10M18 7h2M4 17h4M12 17h8M14 5v4M8 15v4" },
 ];
 

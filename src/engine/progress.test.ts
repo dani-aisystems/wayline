@@ -52,7 +52,7 @@ describe("daily session plan", () => {
     const d = fresh();
     const plan = await planSession(profile(), lib, d);
     expect(plan.competenceId).toBe("c.one");
-    expect(plan.steps[0]).toEqual({ kind: "note", noteId: "n.one" });
+    expect(plan.steps[0]).toMatchObject({ kind: "note", noteId: "n.one", phase: "learn" });
     expect(plan.steps.map((s) => (s.kind === "item" ? s.item.id : s.kind))).toEqual(["note", "a", "b", "c", "text", "q"]);
   });
 

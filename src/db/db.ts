@@ -148,6 +148,9 @@ export class WaylineDB extends Dexie {
         // Learners placed by the old reading check keep their level and progress; they're offered the diagnostic later.
         await tx.table("profile").toCollection().modify((p: Profile) => {
           if (p.onboardedAt && !p.placementSource) p.placementSource = "reading-check";
+          // Fill list fields that very early builds could leave unset.
+          p.seenNotes ??= [];
+          p.interests ??= [];
         });
       });
   }

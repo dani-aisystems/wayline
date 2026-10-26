@@ -4,6 +4,7 @@ import { library } from "../../content/library";
 import { localize, type GlossaryEntry } from "../../content/schema";
 import { db } from "../../db/db";
 import { removeWord, saveWord } from "../../engine/progress";
+import { award, XP } from "../../engine/xp";
 import { speak } from "../../lib/speech";
 import { useProfile } from "../../state/profile";
 import "./lens.css";
@@ -108,7 +109,7 @@ function WordSheet({ lookup: l, onClose }: { lookup: Lookup; onClose: () => void
                   {t("lens.saved")}
                 </button>
               ) : (
-                <button type="button" className="btn btn-primary" onClick={() => saveWord(entry, l.context)}>
+                <button type="button" className="btn btn-primary" onClick={async () => { await saveWord(entry, l.context); await award(`word:${cardId}`, XP.word, "word"); }}>
                   {t("lens.save")}
                 </button>
               )}

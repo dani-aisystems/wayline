@@ -1,0 +1,1158 @@
+{
+  "id": "b2-meetings",
+  "version": 1,
+  "band": "B2",
+  "competences": [
+    {
+      "id": "b2.meetings",
+      "band": "B2",
+      "title": {
+        "en": "Meetings: agreeing, disagreeing, regrets",
+        "bg": "Срещи: съгласие, несъгласие, съжаления"
+      },
+      "canDo": {
+        "en": "I can agree and disagree diplomatically in a meeting, soften my opinions, and discuss past decisions and their consequences with third and mixed conditionals.",
+        "bg": "Мога дипломатично да се съглася или да не се съглася на среща, да смекчавам мнението си и да обсъждам минали решения и последиците им с трето и смесено условно изречение."
+      },
+      "skills": [
+        "grammar",
+        "speaking",
+        "reading"
+      ],
+      "prerequisites": [
+        "b1.advice",
+        "b1.experiences"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "b2.meetings.note-diplomacy",
+      "competence": "b2.meetings",
+      "title": {
+        "en": "Agreeing and disagreeing diplomatically",
+        "bg": "Дипломатично съгласие и несъгласие"
+      },
+      "body": {
+        "en": "In English-speaking workplaces a flat \"No, you're wrong\" or \"That's not true\" usually sounds hostile, even when it is meant as a neutral correction. Speakers prefer to acknowledge the other view first and then disagree: \"I see your point, but…\", \"I'm not sure I agree…\", \"I'm not entirely convinced…\". Partial agreement is signalled with \"up to a point\" or \"to some extent\". Hedges like \"perhaps\", \"I'd say\" and \"it might be worth…\" make a proposal easier to accept. Bulgarian meetings tolerate more directness, so translating your Bulgarian tone word for word can make you sound rude.",
+        "bg": "В англоезична работна среда рязкото \"No, you're wrong\" или \"That's not true\" обикновено звучи враждебно, дори когато е замислено като неутрална поправка. Хората първо признават другата гледна точка и после изразяват несъгласие: \"I see your point, but…\", \"I'm not sure I agree…\", \"I'm not entirely convinced…\". Частично съгласие се изразява с \"up to a point\" или \"to some extent\". Смекчаващи думи като \"perhaps\", \"I'd say\" и \"it might be worth…\" правят едно предложение по-лесно за приемане. На българските срещи прямотата е по-приемлива, затова ако превеждаш тона си дума по дума, може да прозвучиш грубо."
+      },
+      "examples": [
+        "I see your point, but I'm not sure the budget allows it.",
+        "I'd go along with that, up to a point.",
+        "I'm not entirely convinced that's the best option.",
+        "It might be worth asking the client first."
+      ]
+    },
+    {
+      "id": "b2.meetings.note-third-mixed",
+      "competence": "b2.meetings",
+      "title": {
+        "en": "Third and mixed conditionals for regrets",
+        "bg": "Трето и смесено условно за съжаления"
+      },
+      "body": {
+        "en": "The third conditional imagines a different past: If + past perfect, would have + past participle. \"If we had tested it, we wouldn't have delayed the launch\" (but we didn't test it, and we did delay). A mixed conditional links a different past to a different present: If + past perfect, would + base verb. \"If we'd hired another developer, we wouldn't be so stressed now.\" For regrets and criticism without \"if\", use should have / could have + past participle: \"We should have asked earlier.\" Bulgarian uses \"ако бяхме…, щяхме да…\" for both time frames, so pay attention to whether the result is in the past or the present.",
+        "bg": "Третото условно изречение си представя различно минало: If + past perfect, would have + трето причастие. \"If we had tested it, we wouldn't have delayed the launch\" (но не сме тествали и сме забавили пускането). Смесеното условно свързва различно минало с различно настояще: If + past perfect, would + основна форма. \"If we'd hired another developer, we wouldn't be so stressed now.\" За съжаление и критика без \"if\" използвай should have / could have + трето причастие: \"We should have asked earlier.\" На български и за двата случая казваш \"ако бяхме…, щяхме да…\", затова внимавай дали резултатът е в миналото или в настоящето."
+      },
+      "examples": [
+        "If we had tested it properly, we wouldn't have delayed the launch.",
+        "If we'd hired another developer, we wouldn't be so stressed now.",
+        "We should have asked the client earlier.",
+        "They could have warned us."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "accept",
+      "pos": "verb",
+      "meaning": {
+        "en": "To agree to take or allow something.",
+        "bg": "Приемам."
+      },
+      "example": "I'm not entirely convinced the client would have accepted that, to be honest.",
+      "forms": [
+        "accepts",
+        "accepted",
+        "accepting"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "account",
+      "pos": "noun",
+      "meaning": {
+        "en": "In business: a client, especially an important one.",
+        "bg": "Клиент (в бизнеса), акаунт."
+      },
+      "example": "They're our biggest account, and if we had refused their changes, we might have lost them altogether.",
+      "forms": [
+        "accounts"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "agree",
+      "pos": "verb",
+      "meaning": {
+        "en": "To have the same opinion; \"agree on\" = decide together.",
+        "bg": "Съгласен съм; \"agree on\" = договарям се за."
+      },
+      "example": "Perhaps we should have agreed on a clear deadline for changes.",
+      "forms": [
+        "agrees",
+        "agreed",
+        "agreeing"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "allow",
+      "pos": "verb",
+      "meaning": {
+        "en": "To let something happen; to make something possible.",
+        "bg": "Позволявам."
+      },
+      "example": "I see your point, but I'm not sure the budget allows it.",
+      "forms": [
+        "allows",
+        "allowed",
+        "allowing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "along",
+      "pos": "adverb",
+      "meaning": {
+        "en": "\"Go along with\" = agree with, accept.",
+        "bg": "\"Go along with\" = съгласявам се с, приемам."
+      },
+      "example": "I'd go along with that, up to a point.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "another",
+      "pos": "determiner",
+      "meaning": {
+        "en": "One more; a different one.",
+        "bg": "Още един, друг."
+      },
+      "example": "If we'd hired another developer, we wouldn't be so stressed now.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "budget",
+      "pos": "noun",
+      "meaning": {
+        "en": "The amount of money available for something.",
+        "bg": "Бюджет."
+      },
+      "example": "I see your point, but I'm not sure the budget allows it.",
+      "forms": [
+        "budgets"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "cause",
+      "pos": "verb",
+      "meaning": {
+        "en": "To make something happen, usually something bad.",
+        "bg": "Причинявам."
+      },
+      "example": "Even if we had tested earlier, those changes would still have caused problems.",
+      "forms": [
+        "causes",
+        "caused",
+        "causing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "clear",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Easy to understand; definite.",
+        "bg": "Ясен."
+      },
+      "example": "Perhaps we should have agreed on a clear deadline for changes.",
+      "forms": [
+        "clearer",
+        "clearest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "client",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person or company that pays for a service.",
+        "bg": "Клиент."
+      },
+      "example": "We should have asked the client earlier.",
+      "forms": [
+        "clients"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "contract",
+      "pos": "noun",
+      "meaning": {
+        "en": "A formal written agreement.",
+        "bg": "Договор."
+      },
+      "example": "Let's put it in the contract next time, then, and see how they react.",
+      "forms": [
+        "contracts"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "convinced",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Completely sure that something is true.",
+        "bg": "Убеден."
+      },
+      "example": "I'm not entirely convinced that's the best option.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "deadline",
+      "pos": "noun",
+      "meaning": {
+        "en": "The time or date by which something must be done.",
+        "bg": "Краен срок."
+      },
+      "example": "Perhaps we should have agreed on a clear deadline for changes.",
+      "forms": [
+        "deadlines"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "delay",
+      "pos": "verb",
+      "meaning": {
+        "en": "To make something happen later than planned.",
+        "bg": "Забавям, отлагам."
+      },
+      "example": "If we had tested it properly, we wouldn't have delayed the launch.",
+      "forms": [
+        "delays",
+        "delayed",
+        "delaying"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "developer",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person who writes software.",
+        "bg": "Разработчик, програмист."
+      },
+      "example": "If we'd hired another developer, we wouldn't be so stressed now.",
+      "forms": [
+        "developers"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "early",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Before the usual or planned time.",
+        "bg": "Рано; earlier = по-рано."
+      },
+      "example": "We should have asked the client earlier.",
+      "forms": [
+        "earlier",
+        "earliest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "enough",
+      "pos": "adverb",
+      "meaning": {
+        "en": "\"Fair enough\" = that's reasonable, I accept that.",
+        "bg": "Достатъчно. \"Fair enough\" = разумно, приемам."
+      },
+      "example": "Fair enough.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "entirely",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Completely. \"Not entirely\" softens a negative.",
+        "bg": "Напълно. \"Not entirely\" смекчава отрицание."
+      },
+      "example": "I'm not entirely convinced that's the best option.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "even",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Used for emphasis; \"even if\" = whether or not.",
+        "bg": "Дори; \"even if\" = дори ако."
+      },
+      "example": "Even if we had tested earlier, those changes would still have caused problems.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "fair",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Reasonable and acceptable. \"That's fair\" = I accept that.",
+        "bg": "Справедлив, разумен. \"That's fair\" = приемам."
+      },
+      "example": "That's fair.",
+      "forms": [
+        "fairer",
+        "fairest"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "hire",
+      "pos": "verb",
+      "meaning": {
+        "en": "To give someone a job.",
+        "bg": "Наемам (на работа)."
+      },
+      "example": "If we'd hired another developer, we wouldn't be so stressed now.",
+      "forms": [
+        "hires",
+        "hired",
+        "hiring"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "honest",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Telling the truth. \"To be honest\" = frankly.",
+        "bg": "Честен. \"To be honest\" = честно казано."
+      },
+      "example": "Let's be honest about what went wrong.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "issue",
+      "pos": "noun",
+      "meaning": {
+        "en": "A problem or subject that people discuss.",
+        "bg": "Въпрос, проблем."
+      },
+      "example": "I see your point, but I'm not sure testing was the real issue.",
+      "forms": [
+        "issues"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "launch",
+      "pos": "noun",
+      "meaning": {
+        "en": "The moment when a new product is made available.",
+        "bg": "Пускане (на продукт), старт."
+      },
+      "example": "If we had tested it properly, we wouldn't have delayed the launch.",
+      "forms": [
+        "launches"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "let",
+      "pos": "verb",
+      "meaning": {
+        "en": "To allow. \"Let's\" = let us, for suggestions.",
+        "bg": "Позволявам. \"Let's\" = нека (за предложения)."
+      },
+      "example": "Let's be honest about what went wrong.",
+      "forms": [
+        "lets",
+        "letting",
+        "let's"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "option",
+      "pos": "noun",
+      "meaning": {
+        "en": "A choice.",
+        "bg": "Вариант, възможност."
+      },
+      "example": "I'm not entirely convinced that's the best option.",
+      "forms": [
+        "options"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "payment",
+      "pos": "noun",
+      "meaning": {
+        "en": "Money paid; the act of paying.",
+        "bg": "Плащане."
+      },
+      "example": "If we had tested the payment system properly in March, we wouldn't have had to delay the launch.",
+      "forms": [
+        "payments"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "perhaps",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Maybe; used to make a suggestion sound softer.",
+        "bg": "Може би (смекчава предложение)."
+      },
+      "example": "Perhaps we should have agreed on a clear deadline for changes.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "point",
+      "pos": "noun",
+      "meaning": {
+        "en": "An idea or opinion. \"Up to a point\" = partly.",
+        "bg": "Мнение, довод. \"Up to a point\" = донякъде."
+      },
+      "example": "I'd go along with that, up to a point.",
+      "forms": [
+        "points"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "properly",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Correctly; in the way it should be done.",
+        "bg": "Както трябва, правилно."
+      },
+      "example": "If we had tested it properly, we wouldn't have delayed the launch.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "push",
+      "pos": "verb",
+      "meaning": {
+        "en": "To press; \"push back on\" = resist or refuse a request.",
+        "bg": "Бутам; \"push back on\" = противопоставям се на искане."
+      },
+      "example": "Still, I think we could have pushed back on some of those changes.",
+      "forms": [
+        "pushes",
+        "pushed",
+        "pushing"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "put",
+      "pos": "verb",
+      "meaning": {
+        "en": "To place something somewhere.",
+        "bg": "Слагам."
+      },
+      "example": "Let's put it in the contract next time, then, and see how they react.",
+      "forms": [
+        "puts",
+        "putting"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "react",
+      "pos": "verb",
+      "meaning": {
+        "en": "To respond to something.",
+        "bg": "Реагирам."
+      },
+      "example": "Let's put it in the contract next time, then, and see how they react.",
+      "forms": [
+        "reacts",
+        "reacted",
+        "reacting"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "real",
+      "pos": "adjective",
+      "meaning": {
+        "en": "True, actual.",
+        "bg": "Истински, действителен."
+      },
+      "example": "I see your point, but I'm not sure testing was the real issue.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "requirement",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something that is needed or demanded.",
+        "bg": "Изискване."
+      },
+      "example": "The client changed the requirements twice in April.",
+      "forms": [
+        "requirements"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "stressed",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Worried and tense.",
+        "bg": "Стресиран."
+      },
+      "example": "If we'd hired another developer, we wouldn't be so stressed now.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "sure",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Certain. \"I'm not sure…\" softens disagreement.",
+        "bg": "Сигурен. \"I'm not sure…\" смекчава несъгласие."
+      },
+      "example": "I see your point, but I'm not sure the budget allows it.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "system",
+      "pos": "noun",
+      "meaning": {
+        "en": "A set of things that work together.",
+        "bg": "Система."
+      },
+      "example": "If we had tested the payment system properly in March, we wouldn't have had to delay the launch.",
+      "forms": [
+        "systems"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "test",
+      "pos": "verb",
+      "meaning": {
+        "en": "To check if something works.",
+        "bg": "Тествам, проверявам."
+      },
+      "example": "I see your point, but I'm not sure testing was the real issue.",
+      "forms": [
+        "tests",
+        "tested",
+        "testing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "then",
+      "pos": "adverb",
+      "meaning": {
+        "en": "At that time; also \"in that case\".",
+        "bg": "Тогава; също \"в такъв случай\"."
+      },
+      "example": "Let's put it in the contract next time, then, and see how they react.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "think",
+      "pos": "verb",
+      "meaning": {
+        "en": "To have an opinion; to use your mind.",
+        "bg": "Мисля."
+      },
+      "example": "Still, I think we could have pushed back on some of those changes.",
+      "forms": [
+        "thinks",
+        "thought",
+        "thinking"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "up",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Towards a higher place. \"Up to a point\" = partly.",
+        "bg": "Нагоре. \"Up to a point\" = донякъде."
+      },
+      "example": "I'd go along with that, up to a point.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "warn",
+      "pos": "verb",
+      "meaning": {
+        "en": "To tell someone about a possible danger or problem.",
+        "bg": "Предупреждавам."
+      },
+      "example": "They could have warned us.",
+      "forms": [
+        "warns",
+        "warned",
+        "warning"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "worth",
+      "pos": "adjective",
+      "meaning": {
+        "en": "\"It might be worth + -ing\" = it could be useful to do.",
+        "bg": "Струва си. \"It might be worth + -ing\" = може би си струва да…"
+      },
+      "example": "It might be worth asking the client first.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "wrong",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Not correct. \"What went wrong\" = what failed.",
+        "bg": "Грешен. \"What went wrong\" = какво се обърка."
+      },
+      "example": "Let's be honest about what went wrong.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "altogether",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Completely.",
+        "bg": "Напълно, изцяло."
+      },
+      "example": "They're our biggest account, and if we had refused their changes, we might have lost them altogether.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "goodwill",
+      "pos": "noun",
+      "meaning": {
+        "en": "Friendly feelings and trust between people or companies.",
+        "bg": "Добронамереност, добро отношение."
+      },
+      "example": "Maybe, but losing a bit of goodwill would have been better than losing three weekends.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "refuse",
+      "pos": "verb",
+      "meaning": {
+        "en": "To say no to something.",
+        "bg": "Отказвам."
+      },
+      "example": "They're our biggest account, and if we had refused their changes, we might have lost them altogether.",
+      "forms": [
+        "refuses",
+        "refused",
+        "refusing"
+      ],
+      "band": "B1"
+    }
+  ],
+  "texts": [
+    {
+      "id": "b2.meetings.text-transcript",
+      "competence": "b2.meetings",
+      "band": "B2",
+      "title": "Project review: the delayed app launch",
+      "paragraphs": [
+        "Helen: Let's be honest about what went wrong. If we had tested the payment system properly in March, we wouldn't have had to delay the launch.",
+        "Raj: I see your point, but I'm not sure testing was the real issue. The client changed the requirements twice in April. Even if we had tested earlier, those changes would still have caused problems.",
+        "Helen: That's fair. Still, I think we could have pushed back on some of those changes.",
+        "Sofia: I'd go along with that, up to a point. Perhaps we should have agreed on a clear deadline for changes. If we'd done that, we wouldn't be working weekends now.",
+        "Raj: I'm not entirely convinced the client would have accepted that, to be honest. They're our biggest account, and if we had refused their changes, we might have lost them altogether.",
+        "Sofia: Maybe, but losing a bit of goodwill would have been better than losing three weekends.",
+        "Helen: Fair enough. Let's put it in the contract next time, then, and see how they react."
+      ]
+    }
+  ],
+  "names": [
+    "Helen",
+    "Raj",
+    "Sofia",
+    "March",
+    "April"
+  ],
+  "items": [
+    {
+      "id": "b2.meetings.soft-disagree",
+      "type": "choice",
+      "band": "B2",
+      "skill": "speaking",
+      "competence": "b2.meetings",
+      "objective": {
+        "en": "Disagree diplomatically.",
+        "bg": "Да изразиш несъгласие дипломатично."
+      },
+      "difficulty": 0.3,
+      "prompt": "A colleague says: \"We should cut the marketing budget by half.\" You disagree, but want to keep a good working relationship. What is the most appropriate reply?",
+      "options": [
+        "You're wrong. That's a terrible idea.",
+        "I see where you're coming from, but I'm not sure halving it would help sales.",
+        "No. Marketing is important.",
+        "I disagree with you completely and totally."
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Acknowledging the other view (\"I see where you're coming from\") and then hedging the disagreement (\"I'm not sure…\") is the standard diplomatic pattern. The other options are grammatical but blunt, and in an English-speaking meeting they would probably sound aggressive.",
+        "bg": "Първо признаваш другата гледна точка (\"I see where you're coming from\"), после смекчаваш несъгласието (\"I'm not sure…\") — това е стандартният дипломатичен модел. Другите варианти са граматически верни, но твърде резки и на англоезична среща вероятно биха прозвучали агресивно."
+      },
+      "hints": [
+        {
+          "en": "Look for an answer that first shows you understand the other person.",
+          "bg": "Потърси отговор, който първо показва, че разбираш другия."
+        }
+      ],
+      "words": [
+        "point",
+        "sure"
+      ],
+      "structures": [],
+      "tags": [
+        "meetings",
+        "diplomacy"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.meetings.third-cond-have",
+      "type": "cloze",
+      "band": "B2",
+      "skill": "grammar",
+      "competence": "b2.meetings",
+      "objective": {
+        "en": "Form the third conditional.",
+        "bg": "Да образуваш трето условно изречение."
+      },
+      "difficulty": 0.6,
+      "sentence": "If we had booked the venue earlier, we wouldn't ___ to pay so much.",
+      "accept": [
+        "have had",
+        "'ve had"
+      ],
+      "explanation": {
+        "en": "This is a third conditional about an unreal past: If + had booked, would(n't) have + past participle. The participle of \"have\" is \"had\", so we get \"wouldn't have had to pay\". Learners often write \"wouldn't had\" — after \"would\" you always need the base form \"have\".",
+        "bg": "Това е трето условно изречение за нереално минало: If + had booked, would(n't) have + трето причастие. Третото причастие на \"have\" е \"had\", така че става \"wouldn't have had to pay\". Често се греши \"wouldn't had\" — след \"would\" винаги трябва основната форма \"have\"."
+      },
+      "hints": [
+        {
+          "en": "After \"wouldn't\" you need \"have\" + past participle.",
+          "bg": "След \"wouldn't\" трябва \"have\" + трето причастие."
+        },
+        {
+          "en": "The past participle of \"have\" is \"had\" — so you need two words.",
+          "bg": "Третото причастие на \"have\" е \"had\" — значи ти трябват две думи."
+        }
+      ],
+      "words": [
+        "book",
+        "venue"
+      ],
+      "structures": [
+        "conditional.third"
+      ],
+      "tags": [
+        "conditionals"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.meetings.mixed-now",
+      "type": "choice",
+      "band": "B2",
+      "skill": "grammar",
+      "competence": "b2.meetings",
+      "objective": {
+        "en": "Choose a mixed conditional for a present result.",
+        "bg": "Да избереш смесено условно за резултат в настоящето."
+      },
+      "difficulty": 0.9,
+      "prompt": "Choose the best ending: \"If I had accepted that job in Berlin last year, I ___.\"",
+      "options": [
+        "had lived in Germany now",
+        "will be living in Germany now",
+        "would live in Germany now",
+        "would have lived in Germany now"
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The condition is in the past (had accepted… last year), but the result is about now (\"now\"), so we need a mixed conditional: would + base verb. \"Would have lived\" refers to the past and clashes with \"now\". \"Will\" and \"had lived\" aren't possible in the result clause here.",
+        "bg": "Условието е в миналото (had accepted… last year), но резултатът е за сега (\"now\"), затова трябва смесено условно изречение: would + основна форма. \"Would have lived\" е за миналото и не пасва на \"now\". \"Will\" и \"had lived\" не са възможни тук в главното изречение."
+      },
+      "hints": [
+        {
+          "en": "Look at the last word: \"now\".",
+          "bg": "Виж последната дума: \"now\"."
+        }
+      ],
+      "words": [
+        "accept",
+        "job"
+      ],
+      "structures": [
+        "conditional.mixed"
+      ],
+      "tags": [
+        "conditionals"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.meetings.should-have-asked",
+      "type": "build",
+      "band": "B2",
+      "skill": "grammar",
+      "competence": "b2.meetings",
+      "objective": {
+        "en": "Criticise a past decision with \"should have\".",
+        "bg": "Да критикуваш минало решение с \"should have\"."
+      },
+      "difficulty": 0.5,
+      "tiles": [
+        "We",
+        "should",
+        "have",
+        "asked",
+        "for",
+        "more",
+        "time"
+      ],
+      "accept": [
+        "We should have asked for more time.",
+        "Should we have asked for more time?"
+      ],
+      "explanation": {
+        "en": "\"Should have + past participle\" expresses regret or criticism about the past: we didn't ask, and that was a mistake. Bulgarian says \"Трябваше да поискаме\", which leads learners to write \"We had to ask\" — but that means it was an obligation, and we did ask.",
+        "bg": "\"Should have + трето причастие\" изразява съжаление или критика за миналото: не сме поискали и това е било грешка. На български казваш \"Трябваше да поискаме\", заради което учащите пишат \"We had to ask\" — но това значи, че е било задължително и сме го направили."
+      },
+      "hints": [
+        {
+          "en": "Should + have + past participle.",
+          "bg": "Should + have + трето причастие."
+        }
+      ],
+      "words": [
+        "should",
+        "ask",
+        "time"
+      ],
+      "structures": [
+        "modals.past-regret"
+      ],
+      "tags": [
+        "regrets",
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.meetings.had-to-vs-should-have",
+      "type": "choice",
+      "band": "B2",
+      "skill": "grammar",
+      "competence": "b2.meetings",
+      "objective": {
+        "en": "Distinguish \"had to\" from \"should have\".",
+        "bg": "Да разграничиш \"had to\" от \"should have\"."
+      },
+      "difficulty": 1.1,
+      "prompt": "Your manager says: \"We had to cancel the trip.\" What does this mean?",
+      "options": [
+        "It was necessary to cancel the trip, and they cancelled it.",
+        "Cancelling the trip was a mistake.",
+        "They didn't cancel the trip, but they wanted to.",
+        "They might cancel the trip in the future."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "\"Had to\" = it was necessary, and it happened. If cancelling had been a mistake, she would say \"We shouldn't have cancelled the trip\". Bulgarian \"трябваше да\" can mean both, so it's easy to confuse them.",
+        "bg": "\"Had to\" = беше необходимо и се е случило. Ако отмяната беше грешка, тя би казала \"We shouldn't have cancelled the trip\". Българското \"трябваше да\" може да означава и двете, затова лесно се бъркат."
+      },
+      "hints": [
+        {
+          "en": "\"Had to\" is about obligation, not regret.",
+          "bg": "\"Had to\" е за задължение, не за съжаление."
+        }
+      ],
+      "words": [
+        "cancel",
+        "trip"
+      ],
+      "structures": [
+        "modals.past-obligation",
+        "modals.past-regret"
+      ],
+      "tags": [
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.meetings.up-to-a-point",
+      "type": "cloze",
+      "band": "B2",
+      "skill": "vocabulary",
+      "competence": "b2.meetings",
+      "objective": {
+        "en": "Express partial agreement.",
+        "bg": "Да изразиш частично съгласие."
+      },
+      "difficulty": 0.4,
+      "sentence": "I agree with you up to a ___, but the costs are still too high.",
+      "accept": [
+        "point"
+      ],
+      "explanation": {
+        "en": "\"Up to a point\" means \"partly\" — you agree with some of what was said, but not all. It's a useful way to disagree without sounding confrontational.",
+        "bg": "\"Up to a point\" значи \"донякъде\" — съгласен си с част от казаното, но не с всичко. Полезен начин да не се съгласиш, без да звучиш конфликтно."
+      },
+      "hints": [
+        {
+          "en": "The phrase means \"донякъде\".",
+          "bg": "Изразът значи \"донякъде\"."
+        }
+      ],
+      "words": [
+        "agree",
+        "point"
+      ],
+      "structures": [],
+      "tags": [
+        "meetings",
+        "diplomacy"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.meetings.not-entirely-convinced",
+      "type": "build",
+      "band": "B2",
+      "skill": "speaking",
+      "competence": "b2.meetings",
+      "objective": {
+        "en": "Soften disagreement with \"not entirely\".",
+        "bg": "Да смекчиш несъгласие с \"not entirely\"."
+      },
+      "difficulty": 0.7,
+      "tiles": [
+        "I'm",
+        "not",
+        "entirely",
+        "convinced",
+        "it",
+        "will",
+        "work"
+      ],
+      "accept": [
+        "I'm not entirely convinced it will work."
+      ],
+      "explanation": {
+        "en": "\"I'm not entirely convinced…\" is a polite way of saying \"I don't think…\". \"Entirely\" makes the doubt sound partial, which leaves room for discussion.",
+        "bg": "\"I'm not entirely convinced…\" е учтив начин да кажеш \"Не мисля, че…\". \"Entirely\" прави съмнението да звучи частично и оставя място за обсъждане."
+      },
+      "hints": [
+        {
+          "en": "Start with \"I'm not entirely…\".",
+          "bg": "Започни с \"I'm not entirely…\"."
+        }
+      ],
+      "words": [
+        "entirely",
+        "convinced"
+      ],
+      "structures": [],
+      "tags": [
+        "diplomacy",
+        "hedging"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.meetings.text-raj",
+      "type": "choice",
+      "band": "B2",
+      "skill": "reading",
+      "competence": "b2.meetings",
+      "objective": {
+        "en": "Understand a speaker's argument in a meeting.",
+        "bg": "Да разбереш аргумента на говорещ на среща."
+      },
+      "difficulty": 0.8,
+      "prompt": "What is Raj's main point in his first turn?",
+      "options": [
+        "The team tested the payment system too late.",
+        "Earlier testing would have prevented every problem.",
+        "The client should not have paid for the app.",
+        "The client's changes would have caused delays even with earlier testing."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Raj says: \"Even if we had tested earlier, those changes would still have caused problems.\" He is questioning Helen's view that testing was the main cause.",
+        "bg": "Raj казва: \"Even if we had tested earlier, those changes would still have caused problems.\" Той поставя под въпрос мнението на Helen, че тестването е основната причина."
+      },
+      "hints": [
+        {
+          "en": "Look at the sentence with \"Even if\".",
+          "bg": "Виж изречението с \"Even if\"."
+        }
+      ],
+      "words": [
+        "client",
+        "change"
+      ],
+      "structures": [
+        "conditional.third"
+      ],
+      "tags": [
+        "reading"
+      ],
+      "textId": "b2.meetings.text-transcript",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.meetings.text-sofia-mixed",
+      "type": "choice",
+      "band": "B2",
+      "skill": "reading",
+      "competence": "b2.meetings",
+      "objective": {
+        "en": "Interpret a mixed conditional in context.",
+        "bg": "Да тълкуваш смесено условно изречение в контекст."
+      },
+      "difficulty": 1.3,
+      "prompt": "Sofia says: \"If we'd done that, we wouldn't be working weekends now.\" What does she imply?",
+      "options": [
+        "The team didn't agree on a deadline, and as a result they're working weekends now.",
+        "The team agreed on a deadline, so they're not working weekends.",
+        "The team will have to work weekends in the future.",
+        "The team worked weekends in the past, but not now."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "This is a mixed conditional: an unreal past (they didn't agree on a deadline) with a present result (they are working weekends now). \"We'd done\" here is \"we had done\", not \"we would\".",
+        "bg": "Това е смесено условно изречение: нереално минало (не са се договорили за срок) с резултат в настоящето (сега работят през уикендите). \"We'd done\" тук е \"we had done\", а не \"we would\"."
+      },
+      "hints": [
+        {
+          "en": "\"We'd done\" = \"we had done\".",
+          "bg": "\"We'd done\" = \"we had done\"."
+        },
+        {
+          "en": "Real situation: the opposite of the if-clause.",
+          "bg": "Реалната ситуация е обратното на if-частта."
+        }
+      ],
+      "words": [
+        "weekend"
+      ],
+      "structures": [
+        "conditional.mixed"
+      ],
+      "tags": [
+        "reading",
+        "conditionals"
+      ],
+      "textId": "b2.meetings.text-transcript",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b2.meetings.text-contract",
+      "type": "cloze",
+      "band": "B2",
+      "skill": "reading",
+      "competence": "b2.meetings",
+      "objective": {
+        "en": "Identify the decision at the end of a meeting.",
+        "bg": "Да откриеш решението в края на среща."
+      },
+      "difficulty": 0.6,
+      "sentence": "At the end of the meeting, Helen suggests including a deadline for changes in the ___ next time.",
+      "accept": [
+        "contract"
+      ],
+      "explanation": {
+        "en": "Helen's last line: \"Let's put it in the contract next time, then, and see how they react.\"",
+        "bg": "Последната реплика на Helen: \"Let's put it in the contract next time, then, and see how they react.\""
+      },
+      "hints": [
+        {
+          "en": "Read Helen's last line.",
+          "bg": "Прочети последната реплика на Helen."
+        }
+      ],
+      "words": [
+        "contract"
+      ],
+      "structures": [],
+      "tags": [
+        "reading"
+      ],
+      "textId": "b2.meetings.text-transcript",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

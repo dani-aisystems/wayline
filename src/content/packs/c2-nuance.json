@@ -1,0 +1,1341 @@
+{
+  "id": "c2-nuance",
+  "version": 1,
+  "band": "C2",
+  "competences": [
+    {
+      "id": "c2.nuance",
+      "band": "C2",
+      "title": {
+        "en": "Nuance, connotation & tact",
+        "bg": "Нюанс, конотация и такт"
+      },
+      "canDo": {
+        "en": "I can choose between near-synonyms according to their connotation and register, distinguish easily confused words, and calibrate how strongly I commit to an opinion so that I come across as tactful.",
+        "bg": "Мога да избирам между близки синоними според конотацията и регистъра им, да различавам лесно объркващи се думи и да дозирам колко силно се ангажирам с мнение, за да звуча тактично."
+      },
+      "skills": [
+        "vocabulary",
+        "speaking",
+        "writing",
+        "reading"
+      ],
+      "prerequisites": [
+        "c1.stance"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "c2.nuance.note-connotation",
+      "competence": "c2.nuance",
+      "title": {
+        "en": "Same meaning, different judgement",
+        "bg": "Едно и също значение, различна оценка"
+      },
+      "body": {
+        "en": "Many English near-synonyms share a core meaning but carry opposite attitudes. Frugal (careful with money — positive) vs stingy (unwilling to spend or share — negative). Assertive (confident, stating your needs — positive) vs pushy (forcing your views on others — negative). Determined vs stubborn, slim vs skinny, curious vs nosy, thrifty vs tight. The word you choose reveals your judgement, so a C2 speaker controls connotation deliberately — and notices when others do. Watch out too for paronyms that only look alike: eminent (famous and respected) vs imminent (about to happen) vs immanent (inherent; rare, philosophical).",
+        "bg": "Много близки синоними в английския имат едно и също основно значение, но носят противоположно отношение. Frugal (пестелив — положително) срещу stingy (стиснат — отрицателно). Assertive (уверен, отстоява позицията си — положително) срещу pushy (натрапчив, налага се — отрицателно). Също determined/stubborn (решителен/инат), slim/skinny (строен/кльощав), curious/nosy (любознателен/любопитко), thrifty/tight (спестовен/скъперник). Думата, която избираш, издава оценката ти, затова на ниво C2 контролираш конотацията съзнателно — и забелязваш, когато другите го правят. Внимавай и с пароними, които само си приличат: eminent (виден, уважаван) срещу imminent (предстоящ, надвиснал) срещу immanent (присъщ; рядко, философски)."
+      },
+      "examples": [
+        "She's frugal rather than stingy: she saves, but she's generous with friends.",
+        "Being assertive in a negotiation is not the same as being pushy.",
+        "An eminent historian warned that a crisis was imminent."
+      ]
+    },
+    {
+      "id": "c2.nuance.note-tact",
+      "competence": "c2.nuance",
+      "title": {
+        "en": "Calibrating commitment: \"I'm inclined to agree\"",
+        "bg": "Дозиране на ангажимента: \"I'm inclined to agree\""
+      },
+      "body": {
+        "en": "\"I agree\" commits you fully. \"I'm inclined to agree\" signals provisional agreement: you lean that way but leave room to change your mind, which sounds measured and open. Similarly, \"I'm not sure that's quite right\" is far more tactful than \"That's wrong\", and \"I wonder if we might…\" softens a proposal. Tact also works through what is not said: praising someone's punctuality and handwriting in a reference, and nothing else, sends a clear message. Bulgarian has softeners too (\"по-скоро съм съгласен\"), but English uses them more systematically, and their absence can sound abrupt.",
+        "bg": "\"I agree\" е пълен ангажимент. \"I'm inclined to agree\" показва условно съгласие: склонен си да се съгласиш, но оставяш място да промениш мнението си — звучи премерено и открито. По същия начин \"I'm not sure that's quite right\" е много по-тактично от \"That's wrong\", а \"I wonder if we might…\" смекчава предложение. Тактът действа и чрез премълчаното: ако в препоръка похвалиш само точността и почерка на някого, посланието е ясно. В българския също има смекчаване (\"по-скоро съм съгласен\"), но английският го използва по-систематично и липсата му може да прозвучи рязко."
+      },
+      "examples": [
+        "I'm inclined to agree with you, though I'd like to see the figures.",
+        "I'm not sure that's quite right.",
+        "I wonder if we might postpone the decision."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "accurate",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Correct and exact.",
+        "bg": "Точен."
+      },
+      "example": "Daniel is careful with company resources — frugal, one might say — and his budgets were invariably accurate.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "application",
+      "pos": "noun",
+      "meaning": {
+        "en": "A formal request, e.g. for a job.",
+        "bg": "Кандидатура, молба."
+      },
+      "example": "I am writing in support of Daniel Price's application for the post of Finance Manager.",
+      "forms": [
+        "applications"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "as",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "Because; while; in the way that.",
+        "bg": "Тъй като; докато; както."
+      },
+      "example": "Being assertive in a negotiation is not the same as being pushy.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "assertive",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Confident and direct in stating your views and needs, while respecting others (positive).",
+        "bg": "Уверен, отстояващ позицията си (положително)."
+      },
+      "example": "Being assertive in a negotiation is not the same as being pushy.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "assessment",
+      "pos": "noun",
+      "meaning": {
+        "en": "A judgement about the quality or nature of something.",
+        "bg": "Оценка, преценка."
+      },
+      "example": "I am inclined to agree with his own assessment that he would thrive in a larger organisation, where his particular strengths might be put to better use.",
+      "forms": [
+        "assessments"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "away",
+      "pos": "adverb",
+      "meaning": {
+        "en": "At a distance; \"shy away from\" = avoid.",
+        "bg": "Далеч; \"shy away from\" = избягвам, отбягвам."
+      },
+      "example": "He is assertive in meetings and never shies away from voicing an opinion, which I know some colleagues found refreshing.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "better",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Of a higher quality (good – better – best).",
+        "bg": "По-добър."
+      },
+      "example": "I am inclined to agree with his own assessment that he would thrive in a larger organisation, where his particular strengths might be put to better use.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "careful",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Paying attention to avoid mistakes or waste.",
+        "bg": "Внимателен, грижлив."
+      },
+      "example": "Daniel is careful with company resources — frugal, one might say — and his budgets were invariably accurate.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "colleague",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person you work with.",
+        "bg": "Колега."
+      },
+      "example": "He is assertive in meetings and never shies away from voicing an opinion, which I know some colleagues found refreshing.",
+      "forms": [
+        "colleagues"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "conscientious",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Working hard and carefully, wanting to do things right.",
+        "bg": "Съвестен, добросъвестен."
+      },
+      "example": "Daniel worked in my department for four years, and I have no hesitation in describing him as conscientious and meticulous.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "crisis",
+      "pos": "noun",
+      "meaning": {
+        "en": "A time of great danger or difficulty.",
+        "bg": "Криза."
+      },
+      "example": "An eminent historian warned that a crisis was imminent.",
+      "forms": [
+        "crises"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "dear",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Used to begin a letter: Dear Ms Smith.",
+        "bg": "Уважаеми, драги (в началото на писмо)."
+      },
+      "example": "Dear Ms Okafor, Thank you for your letter of 3 May.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "department",
+      "pos": "noun",
+      "meaning": {
+        "en": "A section of a large organisation.",
+        "bg": "Отдел."
+      },
+      "example": "Daniel worked in my department for four years, and I have no hesitation in describing him as conscientious and meticulous.",
+      "forms": [
+        "departments"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "describe",
+      "pos": "verb",
+      "meaning": {
+        "en": "To say what someone or something is like.",
+        "bg": "Описвам."
+      },
+      "example": "Daniel worked in my department for four years, and I have no hesitation in describing him as conscientious and meticulous.",
+      "forms": [
+        "describes",
+        "described",
+        "describing"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "eminent",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Famous and respected in a particular field. Not to be confused with \"imminent\".",
+        "bg": "Виден, изтъкнат. Не бъркай с \"imminent\"."
+      },
+      "example": "An eminent historian warned that a crisis was imminent.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "figure",
+      "pos": "noun",
+      "meaning": {
+        "en": "A number, especially in official data.",
+        "bg": "Цифра, данни."
+      },
+      "example": "I'm inclined to agree with you, though I'd like to see the figures.",
+      "forms": [
+        "figures"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "frugal",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Careful with money and avoiding waste (usually positive).",
+        "bg": "Пестелив, скромен (обикновено положително)."
+      },
+      "example": "She's frugal rather than stingy: she saves, but she's generous with friends.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "further",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Additional, more.",
+        "bg": "Допълнителен."
+      },
+      "example": "Should you require any further information, please do not hesitate to contact me.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "generous",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Happy to give money, time or help.",
+        "bg": "Щедър."
+      },
+      "example": "She's frugal rather than stingy: she saves, but she's generous with friends.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "hesitate",
+      "pos": "verb",
+      "meaning": {
+        "en": "To pause before doing something because you are unsure.",
+        "bg": "Колебая се."
+      },
+      "example": "Should you require any further information, please do not hesitate to contact me.",
+      "forms": [
+        "hesitates",
+        "hesitated",
+        "hesitating"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "hesitation",
+      "pos": "noun",
+      "meaning": {
+        "en": "Uncertainty; \"no hesitation in\" = I am completely ready to.",
+        "bg": "Колебание; \"no hesitation in\" = без колебание."
+      },
+      "example": "Daniel worked in my department for four years, and I have no hesitation in describing him as conscientious and meticulous.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "historian",
+      "pos": "noun",
+      "meaning": {
+        "en": "An expert in history.",
+        "bg": "Историк."
+      },
+      "example": "An eminent historian warned that a crisis was imminent.",
+      "forms": [
+        "historians"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "imminent",
+      "pos": "adjective",
+      "meaning": {
+        "en": "About to happen very soon (often something unpleasant). Not to be confused with \"eminent\".",
+        "bg": "Предстоящ, надвиснал. Не бъркай с \"eminent\"."
+      },
+      "example": "An eminent historian warned that a crisis was imminent.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "inclined",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Tending to think or act in a certain way. \"I'm inclined to agree\" = I lean towards agreeing.",
+        "bg": "Склонен. \"I'm inclined to agree\" = склонен съм да се съглася."
+      },
+      "example": "I'm inclined to agree with you, though I'd like to see the figures.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "independently",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Alone, without help from others.",
+        "bg": "Самостоятелно."
+      },
+      "example": "He is at his best when working independently, and he has strong views on how a department ought to be run, views he is never reluctant to share.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "information",
+      "pos": "noun",
+      "meaning": {
+        "en": "Facts about something (uncountable).",
+        "bg": "Информация (неброимо)."
+      },
+      "example": "Should you require any further information, please do not hesitate to contact me.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "invariably",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Always, without exception.",
+        "bg": "Неизменно, винаги."
+      },
+      "example": "Daniel is careful with company resources — frugal, one might say — and his budgets were invariably accurate.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "meeting",
+      "pos": "noun",
+      "meaning": {
+        "en": "An occasion when people come together to discuss something.",
+        "bg": "Среща, събрание."
+      },
+      "example": "He is assertive in meetings and never shies away from voicing an opinion, which I know some colleagues found refreshing.",
+      "forms": [
+        "meetings"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "meticulous",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Extremely careful about details.",
+        "bg": "Педантичен, щателен."
+      },
+      "example": "Daniel worked in my department for four years, and I have no hesitation in describing him as conscientious and meticulous.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "negotiation",
+      "pos": "noun",
+      "meaning": {
+        "en": "Formal discussion to reach an agreement.",
+        "bg": "Преговори."
+      },
+      "example": "Being assertive in a negotiation is not the same as being pushy.",
+      "forms": [
+        "negotiations"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "opinion",
+      "pos": "noun",
+      "meaning": {
+        "en": "What you think about something.",
+        "bg": "Мнение."
+      },
+      "example": "He is assertive in meetings and never shies away from voicing an opinion, which I know some colleagues found refreshing.",
+      "forms": [
+        "opinions"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "own",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Belonging to oneself.",
+        "bg": "Собствен."
+      },
+      "example": "I am inclined to agree with his own assessment that he would thrive in a larger organisation, where his particular strengths might be put to better use.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "post",
+      "pos": "noun",
+      "meaning": {
+        "en": "A job, especially an official one.",
+        "bg": "Длъжност, позиция."
+      },
+      "example": "I am writing in support of Daniel Price's application for the post of Finance Manager.",
+      "forms": [
+        "posts"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "postpone",
+      "pos": "verb",
+      "meaning": {
+        "en": "To move an event to a later time.",
+        "bg": "Отлагам."
+      },
+      "example": "I wonder if we might postpone the decision.",
+      "forms": [
+        "postpones",
+        "postponed",
+        "postponing"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "pushy",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Trying too hard to get what you want; forcing your views on others (negative).",
+        "bg": "Натрапчив, напорист (отрицателно)."
+      },
+      "example": "Being assertive in a negotiation is not the same as being pushy.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "quite",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Completely (not quite right = not completely right); also fairly.",
+        "bg": "Напълно (not quite right = не съвсем правилно); също доста."
+      },
+      "example": "I'm not sure that's quite right.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "rather",
+      "pos": "adverb",
+      "meaning": {
+        "en": "\"X rather than Y\" = X and not Y.",
+        "bg": "\"X rather than Y\" = по-скоро X, отколкото Y."
+      },
+      "example": "She's frugal rather than stingy: she saves, but she's generous with friends.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "refreshing",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Pleasantly new and different.",
+        "bg": "Освежаващ, приятно различен."
+      },
+      "example": "He is assertive in meetings and never shies away from voicing an opinion, which I know some colleagues found refreshing.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "require",
+      "pos": "verb",
+      "meaning": {
+        "en": "To need (formal).",
+        "bg": "Изисквам, нуждая се от (официално)."
+      },
+      "example": "Should you require any further information, please do not hesitate to contact me.",
+      "forms": [
+        "requires",
+        "required",
+        "requiring"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "resource",
+      "pos": "noun",
+      "meaning": {
+        "en": "Money, people or materials available for use.",
+        "bg": "Ресурс."
+      },
+      "example": "Daniel is careful with company resources — frugal, one might say — and his budgets were invariably accurate.",
+      "forms": [
+        "resources"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "right",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Correct.",
+        "bg": "Правилен, верен."
+      },
+      "example": "I'm not sure that's quite right.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "say",
+      "pos": "verb",
+      "meaning": {
+        "en": "To speak words. \"One might say\" = some would describe it as.",
+        "bg": "Казвам. \"One might say\" = би могло да се каже."
+      },
+      "example": "Daniel is careful with company resources — frugal, one might say — and his budgets were invariably accurate.",
+      "forms": [
+        "says",
+        "said",
+        "saying"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "shy",
+      "pos": "verb",
+      "meaning": {
+        "en": "\"Shy away from\" = avoid doing something because you are nervous.",
+        "bg": "\"Shy away from\" = избягвам, отбягвам."
+      },
+      "example": "He is assertive in meetings and never shies away from voicing an opinion, which I know some colleagues found refreshing.",
+      "forms": [
+        "shies",
+        "shied",
+        "shying"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "sincerely",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Honestly; \"Yours sincerely\" ends a formal letter.",
+        "bg": "Искрено; \"Yours sincerely\" завършва официално писмо (\"С уважение\")."
+      },
+      "example": "Yours sincerely, Clare Whitfield, Head of Finance",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "stingy",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Unwilling to spend or give money (negative).",
+        "bg": "Стиснат, скъперник (отрицателно)."
+      },
+      "example": "She's frugal rather than stingy: she saves, but she's generous with friends.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "strength",
+      "pos": "noun",
+      "meaning": {
+        "en": "A good quality or ability.",
+        "bg": "Силна страна."
+      },
+      "example": "I am inclined to agree with his own assessment that he would thrive in a larger organisation, where his particular strengths might be put to better use.",
+      "forms": [
+        "strengths"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "support",
+      "pos": "noun",
+      "meaning": {
+        "en": "Agreement and help; \"in support of\" = backing.",
+        "bg": "Подкрепа."
+      },
+      "example": "I am writing in support of Daniel Price's application for the post of Finance Manager.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "thrive",
+      "pos": "verb",
+      "meaning": {
+        "en": "To grow, develop or succeed very well.",
+        "bg": "Процъфтявам, развивам се отлично."
+      },
+      "example": "I am inclined to agree with his own assessment that he would thrive in a larger organisation, where his particular strengths might be put to better use.",
+      "forms": [
+        "thrives",
+        "thrived",
+        "thriving"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "use",
+      "pos": "noun",
+      "meaning": {
+        "en": "The act of using; \"put to better use\" = use more effectively.",
+        "bg": "Употреба; \"put to better use\" = използвам по-пълноценно."
+      },
+      "example": "I am inclined to agree with his own assessment that he would thrive in a larger organisation, where his particular strengths might be put to better use.",
+      "forms": [
+        "uses"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "voice",
+      "pos": "verb",
+      "meaning": {
+        "en": "To express an opinion out loud.",
+        "bg": "Изразявам (мнение) на глас."
+      },
+      "example": "He is assertive in meetings and never shies away from voicing an opinion, which I know some colleagues found refreshing.",
+      "forms": [
+        "voices",
+        "voiced",
+        "voicing"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "wonder",
+      "pos": "verb",
+      "meaning": {
+        "en": "To ask yourself. \"I wonder if we might…\" = a tactful suggestion.",
+        "bg": "Чудя се. \"I wonder if we might…\" = тактично предложение."
+      },
+      "example": "I wonder if we might postpone the decision.",
+      "forms": [
+        "wonders",
+        "wondered",
+        "wondering"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "yours",
+      "pos": "pronoun",
+      "meaning": {
+        "en": "Belonging to you; used to end letters: Yours sincerely.",
+        "bg": "Твой/ваш; в края на писмо: Yours sincerely."
+      },
+      "example": "Yours sincerely, Clare Whitfield, Head of Finance",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "attendance",
+      "pos": "noun",
+      "meaning": {
+        "en": "Being present regularly, e.g. at work.",
+        "bg": "Присъствие, редовно явяване."
+      },
+      "example": "His attendance and timekeeping have been exemplary throughout.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "exemplary",
+      "pos": "adjective",
+      "meaning": {
+        "en": "So good that it is an example to others.",
+        "bg": "Образцов, безупречен."
+      },
+      "example": "His attendance and timekeeping have been exemplary throughout.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "feel",
+      "pos": "verb",
+      "meaning": {
+        "en": "To have an emotion or opinion.",
+        "bg": "Чувствам, смятам."
+      },
+      "example": "I understand that Daniel feels his talents have not been fully recognised here.",
+      "forms": [
+        "feels",
+        "felt",
+        "feeling"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "fully",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Completely.",
+        "bg": "Напълно."
+      },
+      "example": "I understand that Daniel feels his talents have not been fully recognised here.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "recognise",
+      "pos": "verb",
+      "meaning": {
+        "en": "To acknowledge or show appreciation of something.",
+        "bg": "Признавам, оценявам."
+      },
+      "example": "I understand that Daniel feels his talents have not been fully recognised here.",
+      "forms": [
+        "recognises",
+        "recognised",
+        "recognising",
+        "recognize",
+        "recognized"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "reluctant",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Unwilling and slow to do something.",
+        "bg": "Неохотен, колеблив."
+      },
+      "example": "He is at his best when working independently, and he has strong views on how a department ought to be run, views he is never reluctant to share.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "strong",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Powerful; \"strong views\" = firm opinions.",
+        "bg": "Силен; \"strong views\" = категорични възгледи."
+      },
+      "example": "He is at his best when working independently, and he has strong views on how a department ought to be run, views he is never reluctant to share.",
+      "forms": [
+        "stronger",
+        "strongest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "talent",
+      "pos": "noun",
+      "meaning": {
+        "en": "A natural ability.",
+        "bg": "Талант."
+      },
+      "example": "I understand that Daniel feels his talents have not been fully recognised here.",
+      "forms": [
+        "talents"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "throughout",
+      "pos": "adverb",
+      "meaning": {
+        "en": "During the whole time.",
+        "bg": "През цялото време."
+      },
+      "example": "His attendance and timekeeping have been exemplary throughout.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "timekeeping",
+      "pos": "noun",
+      "meaning": {
+        "en": "Being on time for work.",
+        "bg": "Точност, спазване на работното време."
+      },
+      "example": "His attendance and timekeeping have been exemplary throughout.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "understand",
+      "pos": "verb",
+      "meaning": {
+        "en": "To know the meaning of something; to be told something.",
+        "bg": "Разбирам."
+      },
+      "example": "I understand that Daniel feels his talents have not been fully recognised here.",
+      "forms": [
+        "understands",
+        "understood",
+        "understanding"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "view",
+      "pos": "noun",
+      "meaning": {
+        "en": "An opinion.",
+        "bg": "Възглед, мнение."
+      },
+      "example": "He is at his best when working independently, and he has strong views on how a department ought to be run, views he is never reluctant to share.",
+      "forms": [
+        "views"
+      ],
+      "band": "B2"
+    }
+  ],
+  "texts": [
+    {
+      "id": "c2.nuance.text-reference",
+      "competence": "c2.nuance",
+      "band": "C2",
+      "title": "A reference letter, read between the lines",
+      "paragraphs": [
+        "Dear Ms Okafor, Thank you for your letter of 3 May. I am writing in support of Daniel Price's application for the post of Finance Manager. Daniel worked in my department for four years, and I have no hesitation in describing him as conscientious and meticulous.",
+        "Daniel is careful with company resources — frugal, one might say — and his budgets were invariably accurate. He is assertive in meetings and never shies away from voicing an opinion, which I know some colleagues found refreshing. He is at his best when working independently, and he has strong views on how a department ought to be run, views he is never reluctant to share. His attendance and timekeeping have been exemplary throughout.",
+        "I understand that Daniel feels his talents have not been fully recognised here. I am inclined to agree with his own assessment that he would thrive in a larger organisation, where his particular strengths might be put to better use. Should you require any further information, please do not hesitate to contact me.",
+        "Yours sincerely, Clare Whitfield, Head of Finance"
+      ]
+    }
+  ],
+  "names": [
+    "Okafor",
+    "Daniel",
+    "Price",
+    "Price's",
+    "Finance",
+    "Manager",
+    "Clare",
+    "Whitfield",
+    "Ms"
+  ],
+  "items": [
+    {
+      "id": "c2.nuance.frugal-stingy",
+      "type": "choice",
+      "band": "C2",
+      "skill": "vocabulary",
+      "competence": "c2.nuance",
+      "objective": {
+        "en": "Choose a near-synonym with positive connotation.",
+        "bg": "Да избереш близък синоним с положителна конотация."
+      },
+      "difficulty": 3.2,
+      "prompt": "You admire your grandmother's careful attitude to money. Which word fits best? \"My grandmother was always ___; she never wasted a thing.\"",
+      "options": [
+        "stingy",
+        "mean",
+        "frugal",
+        "tight-fisted"
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "All four describe careful spending, but only \"frugal\" is approving: it suggests wise economy. \"Stingy\", \"mean\" (in British English) and \"tight-fisted\" all criticise the person for being unwilling to spend or share — wrong for someone you admire.",
+        "bg": "И четирите описват внимателно харчене, но само \"frugal\" е одобрително: предполага разумна пестеливост. \"Stingy\", \"mean\" (в британския английски) и \"tight-fisted\" критикуват човека, че не иска да харчи или да споделя — неподходящо за някого, когото уважаваш."
+      },
+      "hints": [
+        {
+          "en": "Three options are insults.",
+          "bg": "Три от вариантите са обидни."
+        }
+      ],
+      "words": [
+        "frugal",
+        "stingy"
+      ],
+      "structures": [
+        "connotation"
+      ],
+      "tags": [
+        "near-synonyms",
+        "connotation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.nuance.assertive-pushy",
+      "type": "choice",
+      "band": "C2",
+      "skill": "vocabulary",
+      "competence": "c2.nuance",
+      "objective": {
+        "en": "Distinguish assertive from pushy.",
+        "bg": "Да разграничиш assertive от pushy."
+      },
+      "difficulty": 3.4,
+      "prompt": "In a performance review, a manager wants to praise an employee who states her views clearly without being rude. Which sentence fits?",
+      "options": [
+        "She can be rather pushy in meetings.",
+        "She tends to be bossy with colleagues.",
+        "She is quite aggressive when presenting ideas.",
+        "She is assertive and communicates her views clearly."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "\"Assertive\" is positive: confident and direct while respecting others. \"Pushy\", \"aggressive\" and \"bossy\" all imply she imposes her views or disrespects others, which is criticism, not praise.",
+        "bg": "\"Assertive\" е положително: уверен и директен, но с уважение към другите. \"Pushy\", \"aggressive\" и \"bossy\" предполагат, че налага мнението си или не уважава другите — това е критика, а не похвала."
+      },
+      "hints": [
+        {
+          "en": "Which word is used on assertiveness training courses as a goal?",
+          "bg": "Коя дума се използва като цел в курсове за увереност в общуването?"
+        }
+      ],
+      "words": [
+        "assertive",
+        "pushy"
+      ],
+      "structures": [
+        "connotation"
+      ],
+      "tags": [
+        "near-synonyms",
+        "connotation",
+        "workplace"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.nuance.imminent",
+      "type": "cloze",
+      "band": "C2",
+      "skill": "vocabulary",
+      "competence": "c2.nuance",
+      "objective": {
+        "en": "Distinguish imminent from eminent.",
+        "bg": "Да разграничиш imminent от eminent."
+      },
+      "difficulty": 3.3,
+      "sentence": "Residents were evacuated as forecasters warned that the storm's arrival was ___.",
+      "accept": [
+        "imminent",
+        "impending"
+      ],
+      "explanation": {
+        "en": "\"Imminent\" means about to happen very soon (often something unpleasant). \"Eminent\" means famous and respected (an eminent surgeon). They sound almost the same, so the context decides. (\"Impending\" is a close synonym of \"imminent\" and is also correct here.)",
+        "bg": "\"Imminent\" значи, че ще се случи съвсем скоро (често нещо неприятно) — надвиснал, предстоящ. \"Eminent\" значи виден, уважаван (an eminent surgeon). Звучат почти еднакво, затова решава контекстът. (\"Impending\" е близък синоним на \"imminent\" и също е правилен тук.)"
+      },
+      "hints": [
+        {
+          "en": "You need the word meaning \"предстоящ, надвиснал\".",
+          "bg": "Търсиш думата със значение \"предстоящ, надвиснал\"."
+        },
+        {
+          "en": "It starts with \"imm-\".",
+          "bg": "Започва с \"imm-\"."
+        }
+      ],
+      "words": [
+        "imminent",
+        "storm"
+      ],
+      "structures": [
+        "paronyms"
+      ],
+      "tags": [
+        "confusables"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.nuance.eminent",
+      "type": "choice",
+      "band": "C2",
+      "skill": "vocabulary",
+      "competence": "c2.nuance",
+      "objective": {
+        "en": "Use \"eminent\" correctly.",
+        "bg": "Да използваш \"eminent\" правилно."
+      },
+      "difficulty": 3.1,
+      "prompt": "Which sentence uses \"eminent\" or \"imminent\" correctly?",
+      "options": [
+        "The eminent collapse of the bridge forced the council to act.",
+        "The conference was opened by an eminent professor of law.",
+        "She is an imminent scientist in the field of genetics.",
+        "Rain is eminent, so take an umbrella."
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "\"Eminent\" = distinguished and respected, so \"an eminent professor\" is correct. In the other sentences the meaning is \"about to happen\", which requires \"imminent\" (an imminent collapse, rain is imminent) — and \"an imminent scientist\" would mean a scientist who is about to arrive.",
+        "bg": "\"Eminent\" = виден, уважаван, затова \"an eminent professor\" е правилно. В другите изречения значението е \"предстои\", което изисква \"imminent\" (an imminent collapse, rain is imminent) — а \"an imminent scientist\" би значело учен, който всеки момент ще пристигне."
+      },
+      "hints": [
+        {
+          "en": "\"Eminent\" describes people.",
+          "bg": "\"Eminent\" описва хора."
+        }
+      ],
+      "words": [
+        "eminent",
+        "professor"
+      ],
+      "structures": [
+        "paronyms"
+      ],
+      "tags": [
+        "confusables"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.nuance.inclined-to-agree",
+      "type": "choice",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.nuance",
+      "objective": {
+        "en": "Interpret \"I'm inclined to agree\".",
+        "bg": "Да тълкуваш \"I'm inclined to agree\"."
+      },
+      "difficulty": 3.5,
+      "prompt": "In a board meeting a director says: \"I'm inclined to agree with Tom's proposal.\" What is the best interpretation?",
+      "options": [
+        "She strongly and unconditionally supports the proposal.",
+        "She disagrees but is too polite to say so.",
+        "She leans towards supporting it but is leaving room to reconsider.",
+        "She hasn't understood the proposal."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "\"Inclined to\" = tending towards. It signals provisional agreement: she supports it for now, but her position is open to new arguments. It is not a disguised \"no\" — that would be something like \"I can see the appeal, but…\".",
+        "bg": "\"Inclined to\" = склонен към. Изразява условно съгласие: засега подкрепя предложението, но е готова да преразгледа позицията си при нови аргументи. Не е прикрито \"не\" — за това би казала нещо като \"I can see the appeal, but…\"."
+      },
+      "hints": [
+        {
+          "en": "\"Inclined\" literally means leaning.",
+          "bg": "\"Inclined\" буквално значи наклонен."
+        }
+      ],
+      "words": [
+        "inclined",
+        "agree"
+      ],
+      "structures": [
+        "stance.tentative"
+      ],
+      "tags": [
+        "tact"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.nuance.not-quite-right",
+      "type": "build",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.nuance",
+      "objective": {
+        "en": "Disagree tactfully.",
+        "bg": "Да изразиш несъгласие тактично."
+      },
+      "difficulty": 3.2,
+      "tiles": [
+        "I'm",
+        "not",
+        "sure",
+        "that's",
+        "quite",
+        "right"
+      ],
+      "accept": [
+        "I'm not sure that's quite right.",
+        "I'm not quite sure that's right."
+      ],
+      "explanation": {
+        "en": "This is a tactful way of saying \"That's wrong\" (\"I'm not quite sure that's right\" works too). \"Not sure\" presents disagreement as doubt, and \"quite\" suggests the other person is nearly right. In English this kind of softening is expected, especially with senior colleagues or people you don't know well.",
+        "bg": "Това е тактичен начин да кажеш \"That's wrong\" (\"I'm not quite sure that's right\" също става). \"Not sure\" представя несъгласието като съмнение, а \"quite\" подсказва, че другият е почти прав. В английския такова смекчаване се очаква, особено с по-старши колеги или непознати."
+      },
+      "hints": [
+        {
+          "en": "Start with \"I'm not sure…\".",
+          "bg": "Започни с \"I'm not sure…\"."
+        }
+      ],
+      "words": [
+        "sure",
+        "quite"
+      ],
+      "structures": [
+        "hedging"
+      ],
+      "tags": [
+        "tact"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.nuance.determined-stubborn",
+      "type": "cloze",
+      "band": "C2",
+      "skill": "vocabulary",
+      "competence": "c2.nuance",
+      "objective": {
+        "en": "Select a word with negative connotation.",
+        "bg": "Да избереш дума с отрицателна конотация."
+      },
+      "difficulty": 3.6,
+      "sentence": "He calls himself determined; his colleagues, less charitably, call him ___ — he never changes his mind, even when he is clearly wrong.",
+      "accept": [
+        "stubborn",
+        "obstinate",
+        "pig-headed",
+        "bull-headed",
+        "bloody-minded",
+        "mulish",
+        "intransigent",
+        "inflexible",
+        "headstrong",
+        "obdurate"
+      ],
+      "explanation": {
+        "en": "The sentence contrasts his flattering self-description with a less kind view, so you need a negative equivalent of \"determined\": stubborn (most common), obstinate, pig-headed, intransigent. \"Less charitably\" is your signal that the second word is critical.",
+        "bg": "Изречението противопоставя ласкавото му самоописание на по-неблагосклонна оценка, затова ти трябва отрицателен еквивалент на \"determined\": stubborn (най-често), obstinate, pig-headed, intransigent — инат, твърдоглав. \"Less charitably\" е сигналът, че втората дума е критична."
+      },
+      "hints": [
+        {
+          "en": "You need a negative word for someone who won't change their mind.",
+          "bg": "Трябва ти отрицателна дума за човек, който не променя мнението си."
+        },
+        {
+          "en": "Bulgarian: инат, твърдоглав.",
+          "bg": "На български: инат, твърдоглав."
+        }
+      ],
+      "words": [
+        "determined",
+        "stubborn"
+      ],
+      "structures": [
+        "connotation"
+      ],
+      "tags": [
+        "near-synonyms",
+        "connotation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.nuance.text-frugal",
+      "type": "choice",
+      "band": "C2",
+      "skill": "reading",
+      "competence": "c2.nuance",
+      "objective": {
+        "en": "Detect faint praise in a reference.",
+        "bg": "Да разпознаеш \"сдържана похвала\" в препоръка."
+      },
+      "difficulty": 3.9,
+      "prompt": "Why does the writer add \"frugal, one might say\" after \"careful with company resources\"?",
+      "options": [
+        "To hint, while staying polite, that Daniel may be overly reluctant to spend.",
+        "To emphasise that Daniel saved the company a lot of money.",
+        "To correct a mistake in the previous phrase.",
+        "To show that she personally admires frugality."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "\"Frugal\" is usually positive, but the hesitant tag \"one might say\" draws attention to the word and invites the reader to consider a less flattering interpretation. In a reference letter, where open criticism is avoided, such hedged additions often carry the real message.",
+        "bg": "\"Frugal\" обикновено е положително, но колебливото \"one might say\" привлича вниманието към думата и кара читателя да помисли за по-неласкаво тълкуване. В препоръка, където открита критика се избягва, такива внимателни добавки често носят истинското послание."
+      },
+      "hints": [
+        {
+          "en": "Why would a writer hesitate before choosing a word?",
+          "bg": "Защо авторът би се поколебал преди да избере дума?"
+        }
+      ],
+      "words": [
+        "frugal"
+      ],
+      "structures": [
+        "connotation",
+        "implicature"
+      ],
+      "tags": [
+        "reading",
+        "tact"
+      ],
+      "textId": "c2.nuance.text-reference",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.nuance.text-reference-overall",
+      "type": "choice",
+      "band": "C2",
+      "skill": "reading",
+      "competence": "c2.nuance",
+      "objective": {
+        "en": "Infer the real message of a carefully worded reference.",
+        "bg": "Да изведеш истинското послание на внимателно формулирана препоръка."
+      },
+      "difficulty": 4.2,
+      "prompt": "Reading between the lines, what is the writer most likely suggesting about Daniel?",
+      "options": [
+        "He is an outstanding team player whom she is sorry to lose.",
+        "He is not qualified for a finance role.",
+        "He was dishonest with company money.",
+        "He is accurate and reliable but may be difficult to work with, and she would not mind him leaving."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The letter praises his accuracy, but \"some colleagues found refreshing\" implies others did not; \"at his best when working independently\" hints at weak teamwork; and \"inclined to agree… he would thrive in a larger organisation\" suggests she supports his departure. Nothing implies dishonesty or lack of qualifications.",
+        "bg": "Писмото хвали точността му, но \"some colleagues found refreshing\" намеква, че други не са; \"at his best when working independently\" загатва за слаба работа в екип; а \"inclined to agree… he would thrive in a larger organisation\" подсказва, че тя подкрепя напускането му. Нищо не намеква за нечестност или липса на квалификация."
+      },
+      "hints": [
+        {
+          "en": "Look at \"some colleagues\", \"working independently\" and \"a larger organisation\".",
+          "bg": "Виж \"some colleagues\", \"working independently\" и \"a larger organisation\"."
+        }
+      ],
+      "words": [
+        "reference",
+        "colleague"
+      ],
+      "structures": [
+        "implicature"
+      ],
+      "tags": [
+        "reading",
+        "tact"
+      ],
+      "textId": "c2.nuance.text-reference",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.nuance.text-some-colleagues",
+      "type": "cloze",
+      "band": "C2",
+      "skill": "reading",
+      "competence": "c2.nuance",
+      "objective": {
+        "en": "Notice how a quantifier limits praise.",
+        "bg": "Да забележиш как една дума ограничава похвалата."
+      },
+      "difficulty": 3.7,
+      "sentence": "The writer says that ___ colleagues found Daniel's readiness to voice opinions refreshing — implying that others did not.",
+      "accept": [
+        "some"
+      ],
+      "explanation": {
+        "en": "\"Some colleagues found [it] refreshing\" restricts the praise to part of the team. If everyone had liked it, she would have said so; the limiting word carries an implied criticism.",
+        "bg": "\"Some colleagues found [it] refreshing\" ограничава похвалата до част от екипа. Ако на всички им беше харесало, тя щеше да го каже; ограничаващата дума носи скрита критика."
+      },
+      "hints": [
+        {
+          "en": "Find the sentence about meetings in the second paragraph.",
+          "bg": "Намери изречението за срещите във втория абзац."
+        }
+      ],
+      "words": [
+        "colleague",
+        "refreshing"
+      ],
+      "structures": [
+        "implicature"
+      ],
+      "tags": [
+        "reading"
+      ],
+      "textId": "c2.nuance.text-reference",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

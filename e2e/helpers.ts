@@ -3,12 +3,51 @@ import { expect, type Page } from "@playwright/test";
 
 type AnyItem = {
   id: string;
-  type: "cloze" | "choice" | "build";
+  type: "cloze" | "choice" | "build" | "fix" | "speak" | "listen" | "dialogue";
   accept?: string[];
   options?: string[];
   correct?: number;
   tiles?: string[];
+  lines?: ({ by: string; text: string } | { learner: true; options: { text: string; correct: boolean }[] })[];
 };
+
+/**
+ * Oral items. Speaking uses the "continue without microphone" path (no real mic in CI) and self-assessment;
+ * listening and dialogue are choices. "wrong" modes pick a wrong option first where the item has one.
+ */
+async function answerOral(page: Page, item: AnyItem, mode: "right" | "wrong-then-right" | "give-up") {
+  const ex = page.locator(".exercise");
+  if (item.type === "speak") {
+    await ex.getByRole("button", { name: /^(Continue without microphone|Продължи без микрофон)$/ }).click();
+    await ex.getByRole("button", { name: mode === "right" ? /^(I said it clearly|Казах го ясно)$/ : /^(I need more practice|Трябва ми още практика)$/ }).click();
+    return;
+  }
+  if (item.type === "listen") {
+    if (mode !== "right") {
+      const wrong = item.options!.findIndex((_, i) => i !== item.correct);
+      await ex.locator(".choice").nth(wrong).click();
+      await page.getByRole("button", { name: /^(Check|Провери)$/ }).click();
+      await expect(page.locator(".feedback-wrong")).toBeVisible();
+    }
+    await ex.locator(".choice").nth(item.correct!).click();
+    await page.getByRole("button", { name: /^(Check|Провери)$/ }).click();
+    await page.getByRole("button", { name: /^(Continue|Продължи)$/ }).click();
+    return;
+  }
+  // dialogue: answer each learner turn in order
+  const turns = item.lines!.filter((l): l is Extract<typeof l, { learner: true }> => "learner" in l);
+  for (const [n, turn] of turns.entries()) {
+    const options = ex.locator(".dlg-turn .dlg-option");
+    await options.first().waitFor();
+    const right = turn.options.findIndex((o) => o.correct);
+    if (mode !== "right" && n === 0) {
+      await options.nth(turn.options.findIndex((o) => !o.correct)).click();
+      await expect(ex.locator(".dlg-turn .feedback-wrong")).toBeVisible();
+    }
+    await options.nth(right).click();
+  }
+  await page.getByRole("button", { name: /^(Continue|Продължи)$/ }).click();
+}
 
 const dir = new URL("../src/content/packs/", import.meta.url);
 export const items = new Map<string, AnyItem>(
@@ -112,13 +151,17 @@ export async function answerExercise(page: Page, mode: "right" | "wrong-then-rig
   const id = await ex.getAttribute("data-item-id");
   const item = items.get(id!);
   expect(item, `unknown item ${id}`).toBeTruthy();
+  if (item!.type === "speak" || item!.type === "listen" || item!.type === "dialogue") {
+    await answerOral(page, item!, mode);
+    return;
+  }
   const check = page.getByRole("button", { name: /^(Check|Провери)$/ });
 
   const giveWrong = async () => {
     if (item!.type === "choice") {
       const wrong = item!.options!.findIndex((_, i) => i !== item!.correct);
       await ex.locator(".choice").nth(wrong).click();
-    } else if (item!.type === "cloze") {
+    } else if (item!.type === "cloze" || item!.type === "fix") {
       await ex.getByRole("textbox").fill("zzz");
     } else {
       await ex.locator(".build-bank .tile").last().click();
@@ -128,7 +171,7 @@ export async function answerExercise(page: Page, mode: "right" | "wrong-then-rig
   const giveRight = async () => {
     if (item!.type === "choice") {
       await ex.locator(".choice", { hasText: item!.options![item!.correct!] }).first().click();
-    } else if (item!.type === "cloze") {
+    } else if (item!.type === "cloze" || item!.type === "fix") {
       await ex.getByRole("textbox").fill(item!.accept![0]);
     } else {
       const clear = page.getByRole("button", { name: /^(Clear|Изчисти)$/ });

@@ -1,0 +1,1383 @@
+{
+  "id": "c2-implication",
+  "version": 1,
+  "band": "C2",
+  "competences": [
+    {
+      "id": "c2.implication",
+      "band": "C2",
+      "title": {
+        "en": "Irony, understatement & implication",
+        "bg": "Ирония, недоизказване и внушение"
+      },
+      "canDo": {
+        "en": "I can recognise and use understatement, irony and implied criticism, and I can read a writer's real attitude when it differs from the literal meaning of their words.",
+        "bg": "Мога да разпознавам и използвам недоизказване, ирония и скрита критика и да разчитам истинското отношение на автора, когато то се различава от буквалния смисъл на думите му."
+      },
+      "skills": [
+        "reading",
+        "vocabulary",
+        "speaking"
+      ],
+      "prerequisites": [
+        "c1.stance",
+        "c1.emphasis"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "c2.implication.note-understatement",
+      "competence": "c2.implication",
+      "title": {
+        "en": "Understatement and litotes",
+        "bg": "Недоизказване и литота"
+      },
+      "body": {
+        "en": "English speakers, especially British ones, often express strong views by saying less than they mean. \"It wasn't exactly cheap\" means it was very expensive; \"I've had better\" means it was poor; \"That could have gone better\" after a disaster is an understatement. Litotes uses a negative to affirm the opposite: \"not bad\" (= quite good), \"not unlike\" (= similar to), \"no small achievement\" (= a big achievement). Taking these literally — or answering them literally — is a classic way for even advanced learners to misread tone. Bulgarian has similar devices (\"не е зле\"), but they are less frequent and less loaded.",
+        "bg": "Носителите на английския, особено британците, често изразяват силни мнения, като казват по-малко, отколкото мислят. \"It wasn't exactly cheap\" значи, че е било много скъпо; \"I've had better\" значи, че е било слабо; \"That could have gone better\" след провал е недоизказване. Литотата използва отрицание, за да утвърди обратното: \"not bad\" (= доста добре), \"not unlike\" (= подобен на), \"no small achievement\" (= голямо постижение). Буквалното тълкуване — или буквален отговор — е класически начин дори напреднали да разчетат тона погрешно. В българския има подобни похвати (\"не е зле\"), но са по-редки и по-малко натоварени."
+      },
+      "examples": [
+        "It wasn't exactly cheap.",
+        "Finishing a marathon at seventy is no small achievement.",
+        "Well, that could have gone better.",
+        "The new design is not unlike the old one."
+      ]
+    },
+    {
+      "id": "c2.implication.note-irony",
+      "competence": "c2.implication",
+      "title": {
+        "en": "Irony and implied criticism",
+        "bg": "Ирония и скрита критика"
+      },
+      "body": {
+        "en": "Irony says the opposite of, or something very different from, what is meant, and relies on the listener to notice the gap: \"Oh, wonderful — another meeting\". In writing, it is often signalled by over-precise or overly formal praise (\"a mere fifty minutes\"), by damning with faint praise (\"the parking was excellent\" as the only compliment for a hotel), or by a pointed short sentence after a quotation (\"It was certainly bold\"). Implied criticism also hides in polite formulas: \"With respect…\" often introduces disagreement, and \"I hear what you're saying\" may mean \"I don't accept it\". To read tone, ask: is the literal meaning plausible in this context?",
+        "bg": "Иронията казва обратното или нещо много различно от това, което се има предвид, и разчита слушателят да забележи разминаването: \"Oh, wonderful — another meeting\". Писмено тя често се сигнализира с прекалено прецизна или прекалено официална похвала (\"a mere fifty minutes\"), с \"убийствено сдържана похвала\" (\"the parking was excellent\" като единствен комплимент за хотел) или с кратко, остро изречение след цитат (\"It was certainly bold\"). Скритата критика се крие и в учтиви формули: \"With respect…\" често въвежда несъгласие, а \"I hear what you're saying\" може да значи \"Не го приемам\". За да разчетеш тона, питай се: правдоподобен ли е буквалният смисъл в този контекст?"
+      },
+      "examples": [
+        "Oh, wonderful — another meeting.",
+        "With respect, I think the figures tell a different story.",
+        "I hear what you're saying.",
+        "The hotel's parking was excellent."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "achievement",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something done successfully, usually with effort.",
+        "bg": "Постижение."
+      },
+      "example": "Finishing a marathon at seventy is no small achievement.",
+      "forms": [
+        "achievements"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "admire",
+      "pos": "verb",
+      "meaning": {
+        "en": "To look at with pleasure; to respect.",
+        "bg": "Възхищавам се на, любувам се."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [
+        "admires",
+        "admired",
+        "admiring"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "ambitious",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Wanting great success; requiring a lot of effort.",
+        "bg": "Амбициозен."
+      },
+      "example": "Still, I am told the chef has ambitious plans.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "arrive",
+      "pos": "verb",
+      "meaning": {
+        "en": "To reach a place.",
+        "bg": "Пристигам."
+      },
+      "example": "Our first courses arrived a mere fifty minutes after we ordered.",
+      "forms": [
+        "arrives",
+        "arrived",
+        "arriving"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "bargain",
+      "pos": "noun",
+      "meaning": {
+        "en": "Something bought for less than its usual value.",
+        "bg": "Изгодна покупка, добра сделка."
+      },
+      "example": "At ninety pounds a head before wine, the Gilded Fork is not exactly a bargain.",
+      "forms": [
+        "bargains"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "because",
+      "pos": "conjunction",
+      "meaning": {
+        "en": "For the reason that.",
+        "bg": "Защото."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "bold",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Brave and confident; daring (can be ironic).",
+        "bg": "Смел, дързък (може и иронично)."
+      },
+      "example": "It was certainly bold.",
+      "forms": [
+        "bolder",
+        "boldest"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "brass",
+      "pos": "noun",
+      "meaning": {
+        "en": "A shiny yellow metal.",
+        "bg": "Месинг."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "certainly",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Without doubt.",
+        "bg": "Безспорно, със сигурност."
+      },
+      "example": "It was certainly bold.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "cheap",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Not costing much money.",
+        "bg": "Евтин."
+      },
+      "example": "It wasn't exactly cheap.",
+      "forms": [
+        "cheaper",
+        "cheapest"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "chef",
+      "pos": "noun",
+      "meaning": {
+        "en": "The main cook in a restaurant.",
+        "bg": "Главен готвач."
+      },
+      "example": "Still, I am told the chef has ambitious plans.",
+      "forms": [
+        "chefs"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "component",
+      "pos": "noun",
+      "meaning": {
+        "en": "One of the parts of something.",
+        "bg": "Съставна част, компонент."
+      },
+      "example": "Dessert, a deconstructed lemon tart, had been deconstructed so thoroughly that some of its components appeared never to have been introduced to one another.",
+      "forms": [
+        "components"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "deconstruct",
+      "pos": "verb",
+      "meaning": {
+        "en": "To take something apart; in cooking, to serve a dish's parts separately.",
+        "bg": "Разглобявам; в кулинарията — сервирам съставките поотделно."
+      },
+      "example": "Dessert, a deconstructed lemon tart, had been deconstructed so thoroughly that some of its components appeared never to have been introduced to one another.",
+      "forms": [
+        "deconstructs",
+        "deconstructed",
+        "deconstructing"
+      ],
+      "band": "C2"
+    },
+    {
+      "word": "design",
+      "pos": "noun",
+      "meaning": {
+        "en": "The way something is planned and made to look.",
+        "bg": "Дизайн."
+      },
+      "example": "The new design is not unlike the old one.",
+      "forms": [
+        "designs"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "dessert",
+      "pos": "noun",
+      "meaning": {
+        "en": "Sweet food eaten at the end of a meal.",
+        "bg": "Десерт."
+      },
+      "example": "Dessert, a deconstructed lemon tart, had been deconstructed so thoroughly that some of its components appeared never to have been introduced to one another.",
+      "forms": [
+        "desserts"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "different",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Not the same.",
+        "bg": "Различен."
+      },
+      "example": "With respect, I think the figures tell a different story.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "dining",
+      "pos": "noun",
+      "meaning": {
+        "en": "Eating a meal; \"dining room\" = room for eating.",
+        "bg": "Хранене; \"dining room\" = трапезария."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "evening",
+      "pos": "noun",
+      "meaning": {
+        "en": "The part of the day between afternoon and night.",
+        "bg": "Вечер."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [
+        "evenings"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "exactly",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Precisely. \"Not exactly…\" = an understatement meaning \"not at all\".",
+        "bg": "Точно. \"Not exactly…\" = недоизказване, значи \"съвсем не\"."
+      },
+      "example": "It wasn't exactly cheap.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "excellent",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Extremely good.",
+        "bg": "Отличен."
+      },
+      "example": "The hotel's parking was excellent.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "fanfare",
+      "pos": "noun",
+      "meaning": {
+        "en": "Great publicity and excitement about something new.",
+        "bg": "Шумна реклама, фанфари."
+      },
+      "example": "The Gilded Fork opened last month to considerable fanfare, and it is not hard to see where the money went.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "fitting",
+      "pos": "noun",
+      "meaning": {
+        "en": "A fixed part such as a lamp (light fittings).",
+        "bg": "Тяло, арматура (light fittings = осветителни тела)."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [
+        "fittings"
+      ],
+      "band": "C2"
+    },
+    {
+      "word": "fortunate",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Lucky.",
+        "bg": "Щастлив, благоприятен (за късмет)."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "happily",
+      "pos": "adverb",
+      "meaning": {
+        "en": "In a happy way; willingly.",
+        "bg": "Щастливо, с удоволствие."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "hard",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Difficult.",
+        "bg": "Труден."
+      },
+      "example": "The Gilded Fork opened last month to considerable fanfare, and it is not hard to see where the money went.",
+      "forms": [
+        "harder",
+        "hardest"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "head",
+      "pos": "noun",
+      "meaning": {
+        "en": "The top part of the body. \"A head\" = per person.",
+        "bg": "Глава. \"A head\" = на човек."
+      },
+      "example": "At ninety pounds a head before wine, the Gilded Fork is not exactly a bargain.",
+      "forms": [
+        "heads"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "hear",
+      "pos": "verb",
+      "meaning": {
+        "en": "To notice sounds with your ears. \"I hear what you're saying\" may imply polite disagreement.",
+        "bg": "Чувам. \"I hear what you're saying\" може да изразява учтиво несъгласие."
+      },
+      "example": "I hear what you're saying.",
+      "forms": [
+        "hears",
+        "heard",
+        "hearing"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "introduce",
+      "pos": "verb",
+      "meaning": {
+        "en": "To make people meet for the first time; to bring in something new.",
+        "bg": "Запознавам; въвеждам."
+      },
+      "example": "Dessert, a deconstructed lemon tart, had been deconstructed so thoroughly that some of its components appeared never to have been introduced to one another.",
+      "forms": [
+        "introduces",
+        "introduced",
+        "introducing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "lamb",
+      "pos": "noun",
+      "meaning": {
+        "en": "Meat from a young sheep.",
+        "bg": "Агнешко."
+      },
+      "example": "The lamb was described by our waiter as \"a bold reinterpretation\".",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "lemon",
+      "pos": "noun",
+      "meaning": {
+        "en": "A sour yellow fruit.",
+        "bg": "Лимон."
+      },
+      "example": "Dessert, a deconstructed lemon tart, had been deconstructed so thoroughly that some of its components appeared never to have been introduced to one another.",
+      "forms": [
+        "lemons"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "light",
+      "pos": "noun",
+      "meaning": {
+        "en": "Brightness; a lamp.",
+        "bg": "Светлина; лампа."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [
+        "lights"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "marathon",
+      "pos": "noun",
+      "meaning": {
+        "en": "A running race of about 42 km.",
+        "bg": "Маратон."
+      },
+      "example": "Finishing a marathon at seventy is no small achievement.",
+      "forms": [
+        "marathons"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "mere",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Only; used to make something seem small or unimportant.",
+        "bg": "Едва, само (омаловажава)."
+      },
+      "example": "Our first courses arrived a mere fifty minutes after we ordered.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "minute",
+      "pos": "noun",
+      "meaning": {
+        "en": "Sixty seconds.",
+        "bg": "Минута."
+      },
+      "example": "Our first courses arrived a mere fifty minutes after we ordered.",
+      "forms": [
+        "minutes"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "open",
+      "pos": "verb",
+      "meaning": {
+        "en": "To start operating, e.g. a new restaurant.",
+        "bg": "Отварям; открива се (нов ресторант)."
+      },
+      "example": "The Gilded Fork opened last month to considerable fanfare, and it is not hard to see where the money went.",
+      "forms": [
+        "opens",
+        "opened",
+        "opening"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "order",
+      "pos": "verb",
+      "meaning": {
+        "en": "To ask for food or goods.",
+        "bg": "Поръчвам."
+      },
+      "example": "Our first courses arrived a mere fifty minutes after we ordered.",
+      "forms": [
+        "orders",
+        "ordered",
+        "ordering"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "parking",
+      "pos": "noun",
+      "meaning": {
+        "en": "Space for leaving cars; \"car park\" in British English.",
+        "bg": "Паркинг, паркиране."
+      },
+      "example": "The hotel's parking was excellent.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "patience",
+      "pos": "noun",
+      "meaning": {
+        "en": "The ability to wait calmly.",
+        "bg": "Търпение."
+      },
+      "example": "I wish him every success with them, and I shall wait, with some patience, to see how they turn out.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "perfectly",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Completely; \"perfectly pleasant\" = fine but unremarkable.",
+        "bg": "Напълно; \"perfectly pleasant\" = приятно, но нищо особено."
+      },
+      "example": "The scallops were, to be fair, perfectly pleasant, though I suspect they would have been more pleasant still had they been warm.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "pleasant",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Nice, enjoyable.",
+        "bg": "Приятен."
+      },
+      "example": "The scallops were, to be fair, perfectly pleasant, though I suspect they would have been more pleasant still had they been warm.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "pound",
+      "pos": "noun",
+      "meaning": {
+        "en": "The money of the UK (£).",
+        "bg": "Паунд, лира стерлинг."
+      },
+      "example": "At ninety pounds a head before wine, the Gilded Fork is not exactly a bargain.",
+      "forms": [
+        "pounds"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "reinterpretation",
+      "pos": "noun",
+      "meaning": {
+        "en": "A new way of presenting or understanding something.",
+        "bg": "Нова интерпретация, преосмисляне."
+      },
+      "example": "The lamb was described by our waiter as \"a bold reinterpretation\".",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "respect",
+      "pos": "noun",
+      "meaning": {
+        "en": "Admiration; \"With respect…\" often introduces disagreement.",
+        "bg": "Уважение; \"With respect…\" често въвежда несъгласие."
+      },
+      "example": "With respect, I think the figures tell a different story.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "room",
+      "pos": "noun",
+      "meaning": {
+        "en": "A part of a building with walls.",
+        "bg": "Стая, зала."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [
+        "rooms"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "scallop",
+      "pos": "noun",
+      "meaning": {
+        "en": "A shellfish with a round shell.",
+        "bg": "Миди Сен Жак."
+      },
+      "example": "The scallops were, to be fair, perfectly pleasant, though I suspect they would have been more pleasant still had they been warm.",
+      "forms": [
+        "scallops"
+      ],
+      "band": "C2"
+    },
+    {
+      "word": "story",
+      "pos": "noun",
+      "meaning": {
+        "en": "An account of events. \"Tell a different story\" = suggest something different.",
+        "bg": "История. \"Tell a different story\" = показват нещо различно."
+      },
+      "example": "With respect, I think the figures tell a different story.",
+      "forms": [
+        "stories"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "suspect",
+      "pos": "verb",
+      "meaning": {
+        "en": "To think something is probably true.",
+        "bg": "Подозирам."
+      },
+      "example": "The scallops were, to be fair, perfectly pleasant, though I suspect they would have been more pleasant still had they been warm.",
+      "forms": [
+        "suspects",
+        "suspected",
+        "suspecting"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "tart",
+      "pos": "noun",
+      "meaning": {
+        "en": "An open pastry with a sweet filling.",
+        "bg": "Тарт, сладкиш."
+      },
+      "example": "Dessert, a deconstructed lemon tart, had been deconstructed so thoroughly that some of its components appeared never to have been introduced to one another.",
+      "forms": [
+        "tarts"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "tell",
+      "pos": "verb",
+      "meaning": {
+        "en": "To give information to someone.",
+        "bg": "Казвам, разказвам."
+      },
+      "example": "Still, I am told the chef has ambitious plans.",
+      "forms": [
+        "tells",
+        "told",
+        "telling"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "thoroughly",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Completely, in every detail.",
+        "bg": "Изцяло, щателно."
+      },
+      "example": "Dessert, a deconstructed lemon tart, had been deconstructed so thoroughly that some of its components appeared never to have been introduced to one another.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "triumph",
+      "pos": "noun",
+      "meaning": {
+        "en": "A great success.",
+        "bg": "Триумф."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [
+        "triumphs"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "unlike",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Different from. \"Not unlike\" = quite similar to.",
+        "bg": "За разлика от. \"Not unlike\" = доста подобен на."
+      },
+      "example": "The new design is not unlike the old one.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "velvet",
+      "pos": "noun",
+      "meaning": {
+        "en": "A soft, thick, expensive fabric.",
+        "bg": "Кадифе."
+      },
+      "example": "The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "waiter",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person who serves food in a restaurant.",
+        "bg": "Сервитьор."
+      },
+      "example": "The lamb was described by our waiter as \"a bold reinterpretation\".",
+      "forms": [
+        "waiters"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "warm",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Slightly hot.",
+        "bg": "Топъл."
+      },
+      "example": "The scallops were, to be fair, perfectly pleasant, though I suspect they would have been more pleasant still had they been warm.",
+      "forms": [
+        "warmer",
+        "warmest"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "well",
+      "pos": "adverb",
+      "meaning": {
+        "en": "In a good way; \"may well\" = will probably.",
+        "bg": "Добре; \"may well\" = вероятно."
+      },
+      "example": "Well, that could have gone better.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "well",
+      "pos": "interjection",
+      "meaning": {
+        "en": "Used to start a comment, often hesitantly.",
+        "bg": "Е, ами (в началото на реплика)."
+      },
+      "example": "Well, that could have gone better.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "shall",
+      "pos": "verb",
+      "meaning": {
+        "en": "Formal \"will\" with I/we.",
+        "bg": "Ще (официално, с I/we)."
+      },
+      "example": "I wish him every success with them, and I shall wait, with some patience, to see how they turn out.",
+      "forms": [],
+      "band": "B2"
+    },
+    {
+      "word": "wait",
+      "pos": "verb",
+      "meaning": {
+        "en": "To stay until something happens.",
+        "bg": "Чакам."
+      },
+      "example": "I wish him every success with them, and I shall wait, with some patience, to see how they turn out.",
+      "forms": [
+        "waits",
+        "waited",
+        "waiting"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "wine",
+      "pos": "noun",
+      "meaning": {
+        "en": "An alcoholic drink made from grapes.",
+        "bg": "Вино."
+      },
+      "example": "At ninety pounds a head before wine, the Gilded Fork is not exactly a bargain.",
+      "forms": [
+        "wines"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "wish",
+      "pos": "verb",
+      "meaning": {
+        "en": "To hope something good for someone: I wish you success.",
+        "bg": "Пожелавам."
+      },
+      "example": "I wish him every success with them, and I shall wait, with some patience, to see how they turn out.",
+      "forms": [
+        "wishes",
+        "wished",
+        "wishing"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "wonderful",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Extremely good (can be ironic).",
+        "bg": "Прекрасен (може и иронично)."
+      },
+      "example": "Oh, wonderful — another meeting.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "apologise",
+      "pos": "verb",
+      "meaning": {
+        "en": "To say sorry.",
+        "bg": "Извинявам се."
+      },
+      "example": "Our waiter apologised twice for the delay and once, rather touchingly, for the lamb.",
+      "forms": [
+        "apologises",
+        "apologised",
+        "apologising",
+        "apologize",
+        "apologized"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "courteous",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Polite and respectful.",
+        "bg": "Учтив, вежлив."
+      },
+      "example": "Service, it must be said, was unfailingly courteous, if somewhat elusive.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "elusive",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Difficult to find or catch.",
+        "bg": "Неуловим."
+      },
+      "example": "Service, it must be said, was unfailingly courteous, if somewhat elusive.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "somewhat",
+      "pos": "adverb",
+      "meaning": {
+        "en": "To some degree; rather.",
+        "bg": "Донякъде, малко."
+      },
+      "example": "Service, it must be said, was unfailingly courteous, if somewhat elusive.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "touchingly",
+      "pos": "adverb",
+      "meaning": {
+        "en": "In a way that causes feelings of sympathy (sometimes ironic).",
+        "bg": "Трогателно (понякога иронично)."
+      },
+      "example": "Our waiter apologised twice for the delay and once, rather touchingly, for the lamb.",
+      "forms": [],
+      "band": "C2"
+    },
+    {
+      "word": "unfailingly",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Always, without ever failing.",
+        "bg": "Неизменно."
+      },
+      "example": "Service, it must be said, was unfailingly courteous, if somewhat elusive.",
+      "forms": [],
+      "band": "C2"
+    }
+  ],
+  "texts": [
+    {
+      "id": "c2.implication.text-review",
+      "competence": "c2.implication",
+      "band": "C2",
+      "title": "Restaurant review: The Gilded Fork",
+      "paragraphs": [
+        "The Gilded Fork opened last month to considerable fanfare, and it is not hard to see where the money went. The dining room is a triumph of velvet and brass; one could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.",
+        "Our first courses arrived a mere fifty minutes after we ordered. The scallops were, to be fair, perfectly pleasant, though I suspect they would have been more pleasant still had they been warm. The lamb was described by our waiter as \"a bold reinterpretation\". It was certainly bold.",
+        "Dessert, a deconstructed lemon tart, had been deconstructed so thoroughly that some of its components appeared never to have been introduced to one another.",
+        "Service, it must be said, was unfailingly courteous, if somewhat elusive. Our waiter apologised twice for the delay and once, rather touchingly, for the lamb.",
+        "At ninety pounds a head before wine, the Gilded Fork is not exactly a bargain. Still, I am told the chef has ambitious plans. I wish him every success with them, and I shall wait, with some patience, to see how they turn out."
+      ]
+    }
+  ],
+  "names": [
+    "Gilded",
+    "Fork"
+  ],
+  "items": [
+    {
+      "id": "c2.implication.not-exactly-cheap",
+      "type": "choice",
+      "band": "C2",
+      "skill": "vocabulary",
+      "competence": "c2.implication",
+      "objective": {
+        "en": "Interpret understatement.",
+        "bg": "Да тълкуваш недоизказване."
+      },
+      "difficulty": 3.1,
+      "prompt": "A friend comes back from a holiday in Switzerland and says: \"Well, it wasn't exactly cheap.\" What does she mean?",
+      "options": [
+        "The prices were reasonable.",
+        "It was quite cheap, but not very cheap.",
+        "She doesn't remember the prices.",
+        "It was very expensive."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "\"Not exactly + positive adjective\" is a common understatement that usually means the opposite, strongly: not exactly cheap = very expensive. The mild wording makes the point more humorously.",
+        "bg": "\"Not exactly + положително прилагателно\" е често недоизказване, което обикновено означава силно обратното: not exactly cheap = много скъпо. Мекият изказ прави забележката по-хумористична."
+      },
+      "hints": [
+        {
+          "en": "This is an understatement. Think of the strong opposite.",
+          "bg": "Това е недоизказване. Помисли за силното обратно."
+        }
+      ],
+      "words": [
+        "exactly",
+        "cheap"
+      ],
+      "structures": [
+        "understatement"
+      ],
+      "tags": [
+        "understatement"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.implication.no-small-achievement",
+      "type": "choice",
+      "band": "C2",
+      "skill": "vocabulary",
+      "competence": "c2.implication",
+      "objective": {
+        "en": "Interpret litotes.",
+        "bg": "Да тълкуваш литота."
+      },
+      "difficulty": 3.3,
+      "prompt": "\"Getting both parties to sign the agreement was no small achievement.\" What is the speaker saying?",
+      "options": [
+        "The achievement was minor.",
+        "It was a significant achievement.",
+        "It was not an achievement at all.",
+        "The agreement was small."
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "\"No small achievement\" is litotes: denying the opposite to emphasise the point. It means a considerable achievement, and it often sounds more admiring than simply saying \"a big achievement\".",
+        "bg": "\"No small achievement\" е литота: отрича се обратното, за да се подчертае казаното. Значи значително постижение и често звучи по-възхитено от простото \"a big achievement\"."
+      },
+      "hints": [
+        {
+          "en": "Two negatives: \"no\" + \"small\".",
+          "bg": "Две отрицания: \"no\" + \"small\"."
+        }
+      ],
+      "words": [
+        "achievement"
+      ],
+      "structures": [
+        "litotes"
+      ],
+      "tags": [
+        "understatement"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.implication.oh-great",
+      "type": "choice",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.implication",
+      "objective": {
+        "en": "Recognise irony in speech.",
+        "bg": "Да разпознаеш ирония в реч."
+      },
+      "difficulty": 3.2,
+      "prompt": "Your colleague reads an email, sighs, and says: \"Oh, wonderful. The deadline's been moved forward again.\" How does she feel?",
+      "options": [
+        "Delighted that the work will finish sooner.",
+        "Indifferent; it's just information.",
+        "Annoyed — \"wonderful\" is ironic.",
+        "Confused about the new date."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The sigh and the situation (an earlier deadline is usually bad news) show that \"wonderful\" is ironic and means the opposite. \"Again\" adds to the frustration.",
+        "bg": "Въздишката и ситуацията (по-ранен краен срок обикновено е лоша новина) показват, че \"wonderful\" е иронично и значи обратното. \"Again\" засилва раздразнението."
+      },
+      "hints": [
+        {
+          "en": "Is a deadline moving forward usually good news?",
+          "bg": "Обикновено добра новина ли е, когато срокът се изтегли по-рано?"
+        }
+      ],
+      "words": [
+        "wonderful",
+        "deadline"
+      ],
+      "structures": [
+        "irony"
+      ],
+      "tags": [
+        "irony"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.implication.ive-had-better",
+      "type": "cloze",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.implication",
+      "objective": {
+        "en": "Use understatement to criticise.",
+        "bg": "Да използваш недоизказване за критика."
+      },
+      "difficulty": 3.4,
+      "sentence": "A: How was the concert? B: Hmm. I've ___ better.",
+      "accept": [
+        "had",
+        "heard",
+        "seen",
+        "been to"
+      ],
+      "explanation": {
+        "en": "\"I've had better\" (or \"heard better\", \"seen better\", \"been to better\") is a mild-sounding way to say something was poor. The speaker avoids saying \"It was bad\" directly but makes their opinion clear.",
+        "bg": "\"I've had better\" (или \"heard better\", \"seen better\", \"been to better\") е меко звучащ начин да кажеш, че нещо е било слабо. Говорещият избягва прякото \"It was bad\", но мнението му е ясно."
+      },
+      "hints": [
+        {
+          "en": "Present perfect: I've ___ + better.",
+          "bg": "Present perfect: I've ___ + better."
+        }
+      ],
+      "words": [
+        "better"
+      ],
+      "structures": [
+        "understatement"
+      ],
+      "tags": [
+        "understatement"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.implication.faint-praise",
+      "type": "choice",
+      "band": "C2",
+      "skill": "reading",
+      "competence": "c2.implication",
+      "objective": {
+        "en": "Recognise damning with faint praise.",
+        "bg": "Да разпознаеш \"убийствено сдържана похвала\"."
+      },
+      "difficulty": 3.8,
+      "prompt": "An online review of a hotel says only: \"The car park was spacious and well lit.\" What is the reviewer most likely implying?",
+      "options": [
+        "There was little else worth praising about the hotel.",
+        "The reviewer only used the car park.",
+        "The hotel was excellent overall.",
+        "The hotel is mainly a car park."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Praising a minor, peripheral feature and ignoring the essentials (rooms, service, food) is \"damning with faint praise\": the silence about everything else is the criticism.",
+        "bg": "Да похвалиш второстепенна подробност и да премълчиш основното (стаи, обслужване, храна) е \"damning with faint praise\": мълчанието за всичко останало е критиката."
+      },
+      "hints": [
+        {
+          "en": "What does the review NOT mention?",
+          "bg": "Какво НЕ споменава ревюто?"
+        }
+      ],
+      "words": [
+        "praise",
+        "spacious"
+      ],
+      "structures": [
+        "implicature"
+      ],
+      "tags": [
+        "irony",
+        "reading"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.implication.with-respect",
+      "type": "choice",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.implication",
+      "objective": {
+        "en": "Read implied disagreement in a polite formula.",
+        "bg": "Да разчетеш скрито несъгласие в учтива формула."
+      },
+      "difficulty": 3.5,
+      "prompt": "In a debate, a politician begins: \"With the greatest respect to my honourable colleague…\" What is probably coming next?",
+      "options": [
+        "Strong agreement with the colleague.",
+        "A thank-you speech.",
+        "A change of topic.",
+        "A firm disagreement or criticism."
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Paradoxically, \"With (the greatest) respect…\" is a conventional signal that the speaker is about to disagree strongly. The more elaborate the respect, the sharper the disagreement tends to be.",
+        "bg": "Парадоксално, \"With (the greatest) respect…\" е утвърден сигнал, че говорещият ще изрази силно несъгласие. Колкото по-изящно е уважението, толкова по-остро обикновено е несъгласието."
+      },
+      "hints": [
+        {
+          "en": "Polite formulas don't always mean what they say.",
+          "bg": "Учтивите формули не винаги значат буквално това, което казват."
+        }
+      ],
+      "words": [
+        "respect"
+      ],
+      "structures": [
+        "implicature"
+      ],
+      "tags": [
+        "tact",
+        "irony"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.implication.could-have-gone-better",
+      "type": "build",
+      "band": "C2",
+      "skill": "speaking",
+      "competence": "c2.implication",
+      "objective": {
+        "en": "Use understatement about a failure.",
+        "bg": "Да използваш недоизказване за провал."
+      },
+      "difficulty": 3.1,
+      "tiles": [
+        "Well,",
+        "that",
+        "could",
+        "have",
+        "gone",
+        "better"
+      ],
+      "accept": [
+        "Well, that could have gone better."
+      ],
+      "explanation": {
+        "en": "Said after an obvious failure, this is classic British understatement: everyone knows it went badly, and the dry wording acknowledges this with humour.",
+        "bg": "Казано след очевиден провал, това е класическо британско недоизказване: всички знаят, че е минало зле, а сухата формулировка го признава с хумор."
+      },
+      "hints": [
+        {
+          "en": "Start with \"Well, that…\".",
+          "bg": "Започни с \"Well, that…\"."
+        }
+      ],
+      "words": [
+        "well"
+      ],
+      "structures": [
+        "understatement",
+        "modals.past"
+      ],
+      "tags": [
+        "understatement"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.implication.text-light-fittings",
+      "type": "choice",
+      "band": "C2",
+      "skill": "reading",
+      "competence": "c2.implication",
+      "objective": {
+        "en": "Interpret irony in a review.",
+        "bg": "Да тълкуваш ирония в ревю."
+      },
+      "difficulty": 4.0,
+      "prompt": "\"One could happily spend an evening admiring the light fittings, which is fortunate, because you may well have to.\" What is the reviewer's point?",
+      "options": [
+        "The service is so slow that you'll have plenty of time with nothing to do but look at the décor.",
+        "The lighting is the best feature, and the food is equally good.",
+        "The restaurant is too dark to see the food.",
+        "Diners are encouraged to stay all evening."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The sentence begins as praise and then turns: \"which is fortunate, because you may well have to\" implies you will have nothing else to do — a sharp hint at slow service, confirmed by the \"mere fifty minutes\" wait in the next paragraph.",
+        "bg": "Изречението започва като похвала и после рязко се обръща: \"which is fortunate, because you may well have to\" намеква, че няма да имаш какво друго да правиш — остър намек за бавно обслужване, потвърден от чакането \"a mere fifty minutes\" в следващия абзац."
+      },
+      "hints": [
+        {
+          "en": "Why would you HAVE TO look at the lights all evening?",
+          "bg": "Защо би ТРЯБВАЛО да гледаш лампите цяла вечер?"
+        }
+      ],
+      "words": [
+        "fortunate",
+        "fitting"
+      ],
+      "structures": [
+        "irony"
+      ],
+      "tags": [
+        "reading",
+        "irony"
+      ],
+      "textId": "c2.implication.text-review",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.implication.text-mere",
+      "type": "choice",
+      "band": "C2",
+      "skill": "reading",
+      "competence": "c2.implication",
+      "objective": {
+        "en": "Recognise irony created by a single word.",
+        "bg": "Да разпознаеш ирония, създадена с една дума."
+      },
+      "difficulty": 3.6,
+      "prompt": "In \"Our first courses arrived a mere fifty minutes after we ordered\", what is the effect of \"a mere\"?",
+      "options": [
+        "It shows that fifty minutes is a reasonable wait.",
+        "It shows the reviewer is uncertain about the time.",
+        "It ironically presents a very long wait as if it were short.",
+        "It suggests the food arrived too early."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "\"A mere\" normally minimises something (a mere five euros). Applying it to an excessive wait makes the complaint ironic and sharper than a direct statement like \"We waited far too long\".",
+        "bg": "\"A mere\" обикновено омаловажава нещо (a mere five euros = едва пет евро). Приложено към прекалено дълго чакане, прави оплакването иронично и по-остро от прякото \"We waited far too long\"."
+      },
+      "hints": [
+        {
+          "en": "Is fifty minutes for a starter short or long?",
+          "bg": "Петдесет минути за предястие кратко ли е, или дълго?"
+        }
+      ],
+      "words": [
+        "mere"
+      ],
+      "structures": [
+        "irony"
+      ],
+      "tags": [
+        "reading",
+        "irony"
+      ],
+      "textId": "c2.implication.text-review",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "c2.implication.text-not-exactly-bargain",
+      "type": "cloze",
+      "band": "C2",
+      "skill": "reading",
+      "competence": "c2.implication",
+      "objective": {
+        "en": "Find understatement in a text.",
+        "bg": "Да откриеш недоизказване в текст."
+      },
+      "difficulty": 3.9,
+      "sentence": "The reviewer uses understatement about the price, saying the restaurant is not exactly a ___.",
+      "accept": [
+        "bargain"
+      ],
+      "explanation": {
+        "en": "The last paragraph: \"At ninety pounds a head before wine, the Gilded Fork is not exactly a bargain.\" Like \"not exactly cheap\", this means it is very overpriced — especially given the rest of the review.",
+        "bg": "Последният абзац: \"At ninety pounds a head before wine, the Gilded Fork is not exactly a bargain.\" Като \"not exactly cheap\", това значи, че е силно надценено — особено на фона на останалото ревю."
+      },
+      "hints": [
+        {
+          "en": "Read the last paragraph.",
+          "bg": "Прочети последния абзац."
+        }
+      ],
+      "words": [
+        "bargain",
+        "exactly"
+      ],
+      "structures": [
+        "understatement"
+      ],
+      "tags": [
+        "reading",
+        "understatement"
+      ],
+      "textId": "c2.implication.text-review",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}

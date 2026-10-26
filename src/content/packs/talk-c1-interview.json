@@ -1,0 +1,846 @@
+{
+  "id": "talk-c1-interview",
+  "version": 1,
+  "band": "C1",
+  "competences": [
+    {
+      "id": "c1.talk-interview",
+      "band": "C1",
+      "title": {
+        "en": "Job interview",
+        "bg": "Интервю за работа"
+      },
+      "canDo": {
+        "en": "I can present my achievements with concrete evidence, handle awkward questions with composure, and hedge claims about my abilities without underselling myself.",
+        "bg": "Мога да представя постиженията си с конкретни доказателства, да се справя спокойно с неудобни въпроси и да смекчавам твърденията за уменията си, без да се подценявам."
+      },
+      "skills": [
+        "speaking",
+        "listening",
+        "grammar"
+      ],
+      "prerequisites": [
+        "a1.hello"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "c1.talk-interview.note-selling-yourself",
+      "competence": "c1.talk-interview",
+      "title": {
+        "en": "Selling yourself without overselling",
+        "bg": "Как да се представиш, без да преувеличаваш"
+      },
+      "body": {
+        "en": "Strong interview answers are specific: what you did, and what changed as a result (\"we cut waiting times by almost a third\"). When a question is difficult, it's fine to buy a moment (\"That's a good question — let me think about that\"). Hedging makes claims credible rather than weak: \"I'd say…\", \"It's fair to say…\", \"I wouldn't go as far as to call myself…\". \"Admittedly\" signals that you're conceding a weakness — interviewers usually respect honesty followed by what you learnt. Avoid two extremes: bragging without evidence, and apologising for yourself.",
+        "bg": "Силните отговори на интервю са конкретни: какво си направил/а и какво се е променило в резултат (\"we cut waiting times by almost a third\" — намалихме времето за чакане с почти една трета). Когато въпросът е труден, спокойно можеш да си дадеш секунда (\"That's a good question — let me think about that\"). Смекчаването (hedging) прави твърденията по-убедителни, а не по-слаби: \"I'd say…\", \"It's fair to say…\", \"I wouldn't go as far as to call myself…\". \"Admittedly\" показва, че признаваш слабост — интервюиращите обикновено ценят честността, последвана от това какво си научил/а. Избягвай двете крайности: хвалби без доказателства и извинения за самия себе си."
+      },
+      "examples": [
+        "I was responsible for rolling out a new booking system across three offices.",
+        "As a result, we cut waiting times by almost a third.",
+        "That's a good question — let me think about that for a moment.",
+        "I'd say my main weakness is that I tend to take on too much.",
+        "It's fair to say the project didn't go entirely to plan.",
+        "Admittedly, I underestimated how long it would take."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "responsible",
+      "pos": "adjective",
+      "ipa": "/rɪˈspɒnsəbəl/",
+      "meaning": {
+        "en": "Having the job of looking after something or making sure it happens.",
+        "bg": "Отговорен; отговарящ за нещо."
+      },
+      "example": "I was responsible for the budget.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "roll out",
+      "pos": "phrase",
+      "ipa": "/roʊl aʊt/",
+      "meaning": {
+        "en": "To introduce a new system, product or service, usually in stages.",
+        "bg": "Въвеждам (нова система, продукт или услуга), обикновено поетапно."
+      },
+      "example": "We rolled out the system in three months.",
+      "forms": [
+        "roll",
+        "rolls",
+        "rolled",
+        "rolling"
+      ],
+      "band": "C1"
+    },
+    {
+      "word": "booking",
+      "pos": "noun",
+      "ipa": "/ˈbʊkɪŋ/",
+      "meaning": {
+        "en": "An arrangement to have a table, room, ticket or appointment.",
+        "bg": "Резервация."
+      },
+      "example": "I made a booking for two.",
+      "forms": [
+        "bookings"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "across",
+      "pos": "preposition",
+      "ipa": "/əˈkrɒs/",
+      "meaning": {
+        "en": "In every part of a group or area.",
+        "bg": "Във всички (части на); из."
+      },
+      "example": "The change was rolled out across all offices.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "cut",
+      "pos": "verb",
+      "ipa": "/kʌt/",
+      "meaning": {
+        "en": "To reduce an amount, such as a cost or a time.",
+        "bg": "Съкращавам, намалявам (разходи, време)."
+      },
+      "example": "We cut costs by a third.",
+      "forms": [
+        "cuts",
+        "cutting"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "third",
+      "pos": "noun",
+      "ipa": "/θɜːrd/",
+      "meaning": {
+        "en": "One of three equal parts of something.",
+        "bg": "Една трета."
+      },
+      "example": "Almost a third of the team left.",
+      "forms": [
+        "thirds"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "moment",
+      "pos": "noun",
+      "ipa": "/ˈmoʊmənt/",
+      "meaning": {
+        "en": "A very short period of time.",
+        "bg": "Момент, миг."
+      },
+      "example": "Let me think for a moment.",
+      "forms": [
+        "moments"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "weakness",
+      "pos": "noun",
+      "ipa": "/ˈwiːknəs/",
+      "meaning": {
+        "en": "Something you are not good at, or a part of something that is not strong.",
+        "bg": "Слабост, слабо място."
+      },
+      "example": "Everyone has a weakness.",
+      "forms": [
+        "weaknesses"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "tend",
+      "pos": "verb",
+      "ipa": "/tɛnd/",
+      "meaning": {
+        "en": "\"Tend to\" + verb: to usually do something, or be likely to do it.",
+        "bg": "\"Tend to\" + глагол: обикновено правя нещо, склонен/склонна съм да правя нещо."
+      },
+      "example": "I tend to work late.",
+      "forms": [
+        "tends",
+        "tended",
+        "tending"
+      ],
+      "band": "B2"
+    },
+    {
+      "word": "project",
+      "pos": "noun",
+      "ipa": "/ˈprɒdʒɛkt/",
+      "meaning": {
+        "en": "A planned piece of work with a particular aim.",
+        "bg": "Проект."
+      },
+      "example": "The project took a year.",
+      "forms": [
+        "projects"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "admittedly",
+      "pos": "adverb",
+      "ipa": "/ədˈmɪtɪdli/",
+      "meaning": {
+        "en": "Used when you accept that something is true, often something that weakens your point.",
+        "bg": "Признавам, трябва да призная — когато приемаш нещо, което отслабва позицията ти."
+      },
+      "example": "Admittedly, it was a risk.",
+      "forms": [],
+      "band": "C1"
+    },
+    {
+      "word": "underestimate",
+      "pos": "verb",
+      "ipa": "/ˌʌndərˈɛstɪmeɪt/",
+      "meaning": {
+        "en": "To think something is smaller, easier or less important than it really is.",
+        "bg": "Подценявам."
+      },
+      "example": "We underestimated the costs.",
+      "forms": [
+        "underestimates",
+        "underestimated",
+        "underestimating"
+      ],
+      "band": "C1"
+    }
+  ],
+  "texts": [],
+  "names": [
+    "Mila",
+    "Margaret",
+    "David",
+    "Aisha",
+    "Jonathan",
+    "Stefan",
+    "Rachel",
+    "Owen",
+    "Gareth",
+    "Nadia",
+    "Spanish",
+    "IT"
+  ],
+  "items": [
+    {
+      "id": "c1.talk-interview.dlg-achievement-gap",
+      "type": "dialogue",
+      "band": "C1",
+      "skill": "speaking",
+      "competence": "c1.talk-interview",
+      "objective": {
+        "en": "Describe an achievement with evidence, admit a mistake constructively, and explain a career gap with composure.",
+        "bg": "Да опишеш постижение с доказателства, да признаеш грешка градивно и спокойно да обясниш прекъсване в кариерата."
+      },
+      "difficulty": 2.0,
+      "explanation": {
+        "en": "The best answers follow a pattern: specific action + measurable result; honest admission + what you changed; brief, unapologetic explanation + a positive bridge back to the job. Bragging, blaming others and evasive vagueness all lose trust.",
+        "bg": "Най-добрите отговори следват модел: конкретно действие + измерим резултат; честно признание + какво си променил/а; кратко обяснение без извинения + положителен мост обратно към работата. Хвалбите, обвиняването на други и мъглявите отговори подкопават доверието."
+      },
+      "hints": [
+        {
+          "en": "Ask yourself: does this answer give evidence, or just an opinion?",
+          "bg": "Запитай се: този отговор дава ли доказателство, или само мнение?"
+        }
+      ],
+      "words": [
+        "admittedly",
+        "underestimate",
+        "booking",
+        "cut",
+        "third",
+        "project"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "interview",
+        "achievements",
+        "hedging"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "A panel interview for a project manager role. Margaret and David are interviewing you.",
+        "bg": "Интервю пред комисия за позиция мениджър проекти. Интервюират те Маргарет и Дейвид."
+      },
+      "characters": [
+        {
+          "id": "margaret",
+          "name": "Margaret",
+          "presents": "female",
+          "accent": "GB",
+          "tone": 1
+        },
+        {
+          "id": "david",
+          "name": "David",
+          "presents": "male",
+          "accent": "US",
+          "tone": 3
+        },
+        {
+          "id": "mila",
+          "name": "Mila",
+          "presents": "female",
+          "accent": "GB",
+          "tone": 5
+        }
+      ],
+      "learnerAs": "mila",
+      "lines": [
+        {
+          "by": "margaret",
+          "text": "Thanks for coming in, Mila. Perhaps you could start by telling us about an achievement you're particularly proud of."
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Certainly. In my last role I led the move to a new booking system. It took eight months, but we ended up cutting waiting times by almost a third.",
+              "correct": true
+            },
+            {
+              "text": "Well, I'm basically the best project manager I've ever worked with, so it's hard to pick just one.",
+              "correct": false,
+              "why": {
+                "en": "A sweeping claim with no evidence comes across as arrogant — and it dodges the question.",
+                "bg": "Голямо твърдение без никакво доказателство звучи арогантно — и заобикаля въпроса."
+              }
+            },
+            {
+              "text": "Certainly. In my last role I was leading the move to a new booking system during eight months.",
+              "correct": false,
+              "why": {
+                "en": "For a finished achievement, use the past simple (\"I led\"), and duration takes \"for\", not \"during\".",
+                "bg": "За завършено постижение използвай минало просто време (\"I led\"), а продължителността се изразява с \"for\", не с \"during\"."
+              }
+            }
+          ]
+        },
+        {
+          "by": "david",
+          "text": "Impressive. And what would you say didn't go so well on that project?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Admittedly, I underestimated how much training staff would need, so the first few weeks were rougher than they should have been. I now build training into every plan from day one.",
+              "correct": true
+            },
+            {
+              "text": "Honestly? Nothing. It went perfectly from start to finish.",
+              "correct": false,
+              "why": {
+                "en": "Nobody believes a project went perfectly. It sounds either naive or evasive.",
+                "bg": "Никой не вярва, че проект е минал перфектно. Звучи или наивно, или уклончиво."
+              }
+            },
+            {
+              "text": "Admittedly, most of the problems were caused by my colleagues in IT.",
+              "correct": false,
+              "why": {
+                "en": "Blaming others is a red flag in interviews. Own your part and say what you learnt.",
+                "bg": "Да обвиняваш други е тревожен сигнал на интервю. Поеми своята част и кажи какво си научил/а."
+              }
+            }
+          ]
+        },
+        {
+          "by": "margaret",
+          "text": "That's refreshingly honest. Now, a slightly awkward one: there's a two-year gap on your CV. Could you talk us through it?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Of course. I took time out to care for a family member. It was the right decision, and I'm now in a position to commit fully to a new role.",
+              "correct": true
+            },
+            {
+              "text": "I'd rather not discuss that. It's personal.",
+              "correct": false,
+              "why": {
+                "en": "You're entitled to privacy, but shutting the question down sounds defensive. A one-line answer keeps your privacy and their trust.",
+                "bg": "Имаш право на лично пространство, но рязкото отказване звучи защитно. Едно изречение запазва и личното ти пространство, и доверието им."
+              }
+            },
+            {
+              "text": "Oh, that? I wasn't really doing much, to be honest.",
+              "correct": false,
+              "why": {
+                "en": "Vague and casual — it undersells you. Name the reason briefly and link it back to the job.",
+                "bg": "Мъгляво и небрежно — подценяваш се. Посочи накратко причината и я свържи с работата."
+              }
+            }
+          ]
+        },
+        {
+          "by": "david",
+          "text": "Thank you, that's helpful."
+        }
+      ]
+    },
+    {
+      "id": "c1.talk-interview.dlg-tough-questions",
+      "type": "dialogue",
+      "band": "C1",
+      "skill": "speaking",
+      "competence": "c1.talk-interview",
+      "objective": {
+        "en": "Answer questions about leaving, salary and your own questions diplomatically.",
+        "bg": "Да отговориш дипломатично на въпроси за напускане, заплата и твоите собствени въпроси."
+      },
+      "difficulty": 2.4,
+      "explanation": {
+        "en": "Explain a move in terms of what you're going towards, not what you're escaping. On salary, anchor a researched range while keeping room to negotiate. At the end, ask a question that shows you're thinking about doing the job well.",
+        "bg": "Обясни смяната с това към какво се стремиш, а не от какво бягаш. За заплатата посочи проучен диапазон, като оставиш място за преговори. Накрая задай въпрос, който показва, че мислиш как да вършиш работата добре."
+      },
+      "hints": [
+        {
+          "en": "Each wrong option either complains, gives too much away, or shows the wrong priorities.",
+          "bg": "Всеки грешен вариант или се оплаква, или издава твърде много, или показва грешни приоритети."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "interview",
+        "salary",
+        "difficult-questions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "scene": {
+        "en": "A second-round interview for a strategy role. Aisha is from HR; Jonathan would be your manager.",
+        "bg": "Втори кръг на интервю за позиция в стратегически отдел. Айша е от човешки ресурси, а Джонатан ще ти бъде мениджър."
+      },
+      "characters": [
+        {
+          "id": "aisha",
+          "name": "Aisha",
+          "presents": "female",
+          "accent": "US",
+          "tone": 6
+        },
+        {
+          "id": "jonathan",
+          "name": "Jonathan",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 2
+        },
+        {
+          "id": "stefan",
+          "name": "Stefan",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 4
+        }
+      ],
+      "learnerAs": "stefan",
+      "lines": [
+        {
+          "by": "aisha",
+          "text": "So, Stefan, why are you looking to move on after only eighteen months?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "It's a fair question. I've learnt a great deal there, but the role has become fairly narrow, and I'm keen to take on more strategic work — which is exactly what this position offers.",
+              "correct": true
+            },
+            {
+              "text": "Honestly, my manager is impossible and the whole place is a mess.",
+              "correct": false,
+              "why": {
+                "en": "Criticising your current employer makes interviewers wonder what you'll say about them one day.",
+                "bg": "Критиката към сегашния работодател кара интервюиращите да се чудят какво някой ден ще говориш за тях."
+              }
+            },
+            {
+              "text": "It's a fair question. I want to leave because I've been there since eighteen months.",
+              "correct": false,
+              "why": {
+                "en": "Duration takes \"for\": \"for eighteen months\". \"Since\" needs a starting point, like \"since 2024\".",
+                "bg": "Продължителността се изразява с \"for\": \"for eighteen months\". \"Since\" изисква начален момент, напр. \"since 2024\"."
+              }
+            }
+          ]
+        },
+        {
+          "by": "jonathan",
+          "text": "And what sort of salary are you expecting?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "I'd want to understand the full package first, but based on my research, something in the region of sixty to sixty-five thousand would seem reasonable.",
+              "correct": true
+            },
+            {
+              "text": "As much as possible, obviously.",
+              "correct": false,
+              "why": {
+                "en": "Flippant. It sounds like a joke and gives them nothing to work with.",
+                "bg": "Несериозно. Звучи като шега и не им дава нищо конкретно."
+              }
+            },
+            {
+              "text": "Anything is fine, really — I'd just be grateful for the job.",
+              "correct": false,
+              "why": {
+                "en": "This undersells you and throws away your negotiating position.",
+                "bg": "Така се подценяваш и се отказваш от позицията си за преговори."
+              }
+            }
+          ]
+        },
+        {
+          "by": "jonathan",
+          "text": "That's within our range. Finally, is there anything you'd like to ask us?"
+        },
+        {
+          "learner": true,
+          "options": [
+            {
+              "text": "Yes, actually — how would you measure success in this role after the first six months?",
+              "correct": true
+            },
+            {
+              "text": "No, I think you've covered everything.",
+              "correct": false,
+              "why": {
+                "en": "A missed opportunity: having no questions can signal low interest.",
+                "bg": "Пропусната възможност: липсата на въпроси може да изглежда като слаб интерес."
+              }
+            },
+            {
+              "text": "Yes — how much holiday can I take in my first month?",
+              "correct": false,
+              "why": {
+                "en": "Premature. Asking about time off first suggests your priorities lie elsewhere.",
+                "bg": "Прибързано. Ако първо питаш за отпуска, изглежда, че приоритетите ти са другаде."
+              }
+            }
+          ]
+        },
+        {
+          "by": "aisha",
+          "text": "Great question. Jonathan, do you want to take that one?"
+        }
+      ]
+    },
+    {
+      "id": "c1.talk-interview.listen-difficult-client",
+      "type": "listen",
+      "band": "C1",
+      "skill": "listening",
+      "competence": "c1.talk-interview",
+      "objective": {
+        "en": "Understand a candidate's reflection on a past mistake.",
+        "bg": "Да разбереш как кандидат анализира минала грешка."
+      },
+      "difficulty": 2.2,
+      "explanation": {
+        "en": "Asked what he'd do differently, Owen says: \"Flag the risk much earlier, frankly.\" To flag a risk = to warn people about it. Flying out, the revised schedule and the check-ins are what he actually did.",
+        "bg": "На въпроса какво би направил различно Оуен казва: \"Flag the risk much earlier, frankly.\" To flag a risk = да предупредиш за риск. Пътуването, новият график и седмичните срещи са неща, които той наистина е направил."
+      },
+      "hints": [
+        {
+          "en": "Focus on Owen's final answer.",
+          "bg": "Съсредоточи се върху последния отговор на Оуен."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "interview",
+        "achievements"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "Rachel: Tell me about a time you had to deal with a difficult client.\nOwen: A few years back, a major client threatened to pull out of a contract over a missed deadline. Rather than get defensive, I flew out to see them, owned the mistake, and proposed a revised schedule with weekly check-ins. Not only did we keep the account, but they've since doubled their order.\nRachel: And what would you do differently now?\nOwen: Flag the risk much earlier, frankly.",
+      "characters": [
+        {
+          "id": "rachel",
+          "name": "Rachel",
+          "presents": "female",
+          "accent": "US",
+          "tone": 1
+        },
+        {
+          "id": "owen",
+          "name": "Owen",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 3
+        }
+      ],
+      "question": "What does Owen think he should have done?",
+      "options": [
+        "Warned about the risk much earlier",
+        "Flown out to meet the client sooner",
+        "Offered weekly check-ins from the beginning",
+        "Refused to accept a revised schedule"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "c1.talk-interview.listen-spanish-level",
+      "type": "listen",
+      "band": "C1",
+      "skill": "listening",
+      "competence": "c1.talk-interview",
+      "objective": {
+        "en": "Interpret hedged self-assessment.",
+        "bg": "Да тълкуваш смекчена самооценка."
+      },
+      "difficulty": 2.6,
+      "explanation": {
+        "en": "\"I wouldn't go as far as to call myself fluent\" plus \"I can hold my own in meetings\" means confident speaking without claiming perfection; \"written Spanish is more of a work in progress\" means her writing is weaker.",
+        "bg": "\"I wouldn't go as far as to call myself fluent\" (не бих казала, че говоря свободно) плюс \"I can hold my own in meetings\" (справям се на срещи) значи увереност в говоренето без претенции за съвършенство; \"written Spanish is more of a work in progress\" значи, че писането ѝ е по-слабо."
+      },
+      "hints": [
+        {
+          "en": "Listen for how she contrasts speaking and writing.",
+          "bg": "Слушай как противопоставя говоренето и писането."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation",
+        "interview",
+        "hedging"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "audio": "Gareth: How would you rate your Spanish?\nNadia: I wouldn't go as far as to call myself fluent, but I can hold my own in meetings, and I've handled supplier negotiations in Spanish — albeit with the odd slip. Written Spanish is more of a work in progress, if I'm honest.\nGareth: That's useful to know. Most of the role is spoken, anyway.",
+      "characters": [
+        {
+          "id": "gareth",
+          "name": "Gareth",
+          "presents": "male",
+          "accent": "GB",
+          "tone": 2
+        },
+        {
+          "id": "nadia",
+          "name": "Nadia",
+          "presents": "female",
+          "accent": "US",
+          "tone": 5
+        }
+      ],
+      "question": "How does Nadia describe her Spanish?",
+      "options": [
+        "Confident in speaking, weaker in writing",
+        "Fluent in both speaking and writing",
+        "Good in writing, but she avoids meetings",
+        "Too weak for negotiations"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "c1.talk-interview.say-picked-up",
+      "type": "speak",
+      "band": "C1",
+      "skill": "speaking",
+      "competence": "c1.talk-interview",
+      "objective": {
+        "en": "Repeat a modest but confident claim.",
+        "bg": "Да повториш скромно, но уверено твърдение."
+      },
+      "difficulty": 1.7,
+      "explanation": {
+        "en": "\"I wouldn't say I'm an expert, but…\" lowers the claim slightly so that what follows sounds credible.",
+        "bg": "\"I wouldn't say I'm an expert, but…\" леко смекчава твърдението, за да звучи следващото убедително."
+      },
+      "hints": [
+        {
+          "en": "\"Picked up\" here means \"learnt without formal study\".",
+          "bg": "\"Picked up\" тук значи \"научил/а съм в движение, без официално обучение\"."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "repeat",
+      "prompt": "I wouldn't say I'm an expert, but I've picked up a fair amount along the way.",
+      "model": "I wouldn't say I'm an expert, but I've picked up a fair amount along the way.",
+      "keywords": [],
+      "target": "I wouldn't say I'm an expert, but I've picked up a fair amount along the way.",
+      "voice": {
+        "presents": "female",
+        "accent": "GB"
+      }
+    },
+    {
+      "id": "c1.talk-interview.read-hindsight",
+      "type": "speak",
+      "band": "C1",
+      "skill": "speaking",
+      "competence": "c1.talk-interview",
+      "objective": {
+        "en": "Read a reflective answer aloud.",
+        "bg": "Да прочетеш на глас отговор с поглед назад."
+      },
+      "difficulty": 1.9,
+      "explanation": {
+        "en": "\"With hindsight, I'd have…\" (third conditional meaning) shows reflection without dramatic self-criticism.",
+        "bg": "\"With hindsight, I'd have…\" (значение на трето условно) показва самоанализ без драматична самокритика."
+      },
+      "hints": [
+        {
+          "en": "\"I'd have\" is pronounced like \"I'd've\".",
+          "bg": "\"I'd have\" се произнася като \"I'd've\"."
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "read",
+      "prompt": "With hindsight, I'd have delegated more; at the time, I felt I had to oversee every detail myself.",
+      "model": "With hindsight, I'd have delegated more; at the time, I felt I had to oversee every detail myself.",
+      "keywords": [],
+      "target": "With hindsight, I'd have delegated more; at the time, I felt I had to oversee every detail myself."
+    },
+    {
+      "id": "c1.talk-interview.answer-greatest-strength",
+      "type": "speak",
+      "band": "C1",
+      "skill": "speaking",
+      "competence": "c1.talk-interview",
+      "objective": {
+        "en": "Name a strength and back it up with an example.",
+        "bg": "Да назовеш силна страна и да я подкрепиш с пример."
+      },
+      "difficulty": 2.8,
+      "explanation": {
+        "en": "Name one strength, then prove it with a short real example: the situation, what you did and the result. An example is far more convincing than a list of adjectives.",
+        "bg": "Назови една силна страна и я докажи с кратък истински пример: ситуацията, какво направи и резултата. Един пример убеждава много повече от списък с прилагателни."
+      },
+      "hints": [
+        {
+          "en": "Try: \"I'd say my greatest strength is… For example, when…\"",
+          "bg": "Опитай: \"I'd say my greatest strength is… For example, when…\""
+        }
+      ],
+      "words": [],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "mode": "answer",
+      "prompt": "What would you say is your greatest strength? Give an example.",
+      "model": "I'd say my greatest strength is staying calm under pressure. For example, when our main supplier went bust last year, I found two alternatives within a week.",
+      "keywords": [
+        [
+          "strength",
+          "strong",
+          "good at",
+          "skill",
+          "skilled",
+          "ability",
+          "able",
+          "best"
+        ],
+        [
+          "example",
+          "instance",
+          "when",
+          "once",
+          "time",
+          "project",
+          "last",
+          "recently"
+        ]
+      ],
+      "voice": {
+        "presents": "male",
+        "accent": "US"
+      }
+    },
+    {
+      "id": "c1.talk-interview.fix-despite-of",
+      "type": "fix",
+      "band": "C1",
+      "skill": "grammar",
+      "competence": "c1.talk-interview",
+      "objective": {
+        "en": "Use \"despite\" correctly.",
+        "bg": "Да използваш \"despite\" правилно."
+      },
+      "difficulty": 1.8,
+      "explanation": {
+        "en": "\"Despite\" is never followed by \"of\". Say \"despite the deadline\" or \"in spite of the deadline\" — the \"of\" belongs only to \"in spite of\".",
+        "bg": "След \"despite\" никога не идва \"of\". Казва се \"despite the deadline\" или \"in spite of the deadline\" — \"of\" има само в \"in spite of\"."
+      },
+      "hints": [
+        {
+          "en": "Which expression needs \"of\": \"despite\" or \"in spite\"?",
+          "bg": "Кой израз изисква \"of\": \"despite\" или \"in spite\"?"
+        }
+      ],
+      "words": [
+        "project"
+      ],
+      "structures": [],
+      "tags": [
+        "conversation"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      },
+      "sentence": "Despite of the tight deadline, we delivered the project on budget.",
+      "wrong": "Despite of",
+      "accept": [
+        "Despite the tight deadline, we delivered the project on budget.",
+        "In spite of the tight deadline, we delivered the project on budget."
+      ]
+    }
+  ]
+}

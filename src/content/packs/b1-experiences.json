@@ -1,0 +1,1329 @@
+{
+  "id": "b1-experiences",
+  "version": 1,
+  "band": "B1",
+  "competences": [
+    {
+      "id": "b1.experiences",
+      "band": "B1",
+      "title": {
+        "en": "Life experiences",
+        "bg": "Житейски преживявания"
+      },
+      "canDo": {
+        "en": "I can talk about my life experiences and how long things have lasted, choosing between the present perfect and the past simple.",
+        "bg": "Мога да говоря за преживяванията си и за това откога трае нещо, като избирам между present perfect и past simple."
+      },
+      "skills": [
+        "grammar",
+        "speaking",
+        "reading"
+      ],
+      "prerequisites": [
+        "a2.past-weekend"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "b1.experiences.note-pp-vs-ps",
+      "competence": "b1.experiences",
+      "title": {
+        "en": "Have you ever…? vs When did you…?",
+        "bg": "Have you ever…? или When did you…?"
+      },
+      "body": {
+        "en": "Use the present perfect (have/has + past participle) for experiences in your life up to now, when the exact time isn't important: I've been to Rome. Have you ever tried sushi? As soon as you say or ask when it happened (in 2019, last year, two days ago, When…?), switch to the past simple: I went to Rome in 2019. Bulgarian uses the same past tense in both situations (\"Ходил съм в Рим\" / \"Ходих в Рим миналата година\"), so English learners often mix them up — the time word decides.",
+        "bg": "Използвай present perfect (have/has + трето причастие) за преживявания в живота ти досега, когато точното време не е важно: I've been to Rome. Have you ever tried sushi? Щом кажеш или попиташ кога е станало (in 2019, last year, two days ago, When…?), минаваш на past simple: I went to Rome in 2019. На български и в двата случая използваш минало време (\"Ходил съм в Рим\" / \"Ходих в Рим миналата година\"), затова лесно се бъркат — решава думата за време."
+      },
+      "examples": [
+        "Have you ever tried sushi?",
+        "I've been to Rome twice.",
+        "I went to Rome in 2019.",
+        "She has never driven a car.",
+        "When did you start working here?"
+      ]
+    },
+    {
+      "id": "b1.experiences.note-for-since",
+      "competence": "b1.experiences",
+      "title": {
+        "en": "for and since",
+        "bg": "for и since"
+      },
+      "body": {
+        "en": "For something that started in the past and is still true, English uses the present perfect, not the present: I've lived here for three years (not \"I live here for three years\"). In Bulgarian you say \"Живея тук от три години\" in the present, which is why this is a classic mistake. Use \"for\" + a period of time (for ten minutes, for ages) and \"since\" + the starting point (since Monday, since 2015, since I was a child).",
+        "bg": "За нещо, което е започнало в миналото и още продължава, английският използва present perfect, а не сегашно време: I've lived here for three years (не \"I live here for three years\"). На български казваш \"Живея тук от три години\" в сегашно време — затова това е класическа грешка. \"For\" + период (for ten minutes, for ages), а \"since\" + начална точка (since Monday, since 2015, since I was a child)."
+      },
+      "examples": [
+        "I've lived here for three years.",
+        "We've known each other since school.",
+        "He hasn't called me since Monday.",
+        "How long have you worked here?"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "word": "about",
+      "pos": "preposition",
+      "meaning": {
+        "en": "On the subject of.",
+        "bg": "За, относно."
+      },
+      "example": "Maybe that's the best thing about travel: there's always something new.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "after",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Later than something.",
+        "bg": "След."
+      },
+      "example": "I went there with a friend after university, and we spent two months travelling by train and bus.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "always",
+      "pos": "adverb",
+      "meaning": {
+        "en": "At all times; every time.",
+        "bg": "Винаги."
+      },
+      "example": "Maybe that's the best thing about travel: there's always something new.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "amazing",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Very surprising and very good.",
+        "bg": "Невероятен, удивителен."
+      },
+      "example": "I had never eaten such amazing food before.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "ask",
+      "pos": "verb",
+      "meaning": {
+        "en": "To say a question to someone.",
+        "bg": "Питам."
+      },
+      "example": "People often ask me how many countries I've visited.",
+      "forms": [
+        "asks",
+        "asked",
+        "asking"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "back",
+      "pos": "adverb",
+      "meaning": {
+        "en": "To the place where something was before.",
+        "bg": "Обратно."
+      },
+      "example": "Luckily, a kind taxi driver found it and brought it back to my hotel.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "before",
+      "pos": "adverb",
+      "meaning": {
+        "en": "At an earlier time.",
+        "bg": "Преди, по-рано."
+      },
+      "example": "I had never eaten such amazing food before.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "best",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Better than all the others (good – better – best).",
+        "bg": "Най-добър."
+      },
+      "example": "Maybe that's the best thing about travel: there's always something new.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "blogger",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person who writes a blog on the internet.",
+        "bg": "Блогър."
+      },
+      "example": "I've been a travel blogger since 2015, and I've stayed in small villages and huge cities on four continents.",
+      "forms": [
+        "bloggers"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "bus",
+      "pos": "noun",
+      "meaning": {
+        "en": "A big vehicle that carries many passengers on roads.",
+        "bg": "Автобус."
+      },
+      "example": "I went there with a friend after university, and we spent two months travelling by train and bus.",
+      "forms": [
+        "buses"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "by",
+      "pos": "preposition",
+      "meaning": {
+        "en": "Shows how you travel (by train) or who does something.",
+        "bg": "С (by train = с влак); от (кой е направил нещо)."
+      },
+      "example": "I went there with a friend after university, and we spent two months travelling by train and bus.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "call",
+      "pos": "verb",
+      "meaning": {
+        "en": "To phone someone.",
+        "bg": "Обаждам се, звъня."
+      },
+      "example": "He hasn't called me since Monday.",
+      "forms": [
+        "calls",
+        "called",
+        "calling"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "car",
+      "pos": "noun",
+      "meaning": {
+        "en": "A vehicle with four wheels for a few people.",
+        "bg": "Кола."
+      },
+      "example": "She has never driven a car.",
+      "forms": [
+        "cars"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "continent",
+      "pos": "noun",
+      "meaning": {
+        "en": "One of the large areas of land on Earth, like Europe or Asia.",
+        "bg": "Континент."
+      },
+      "example": "I've been a travel blogger since 2015, and I've stayed in small villages and huge cities on four continents.",
+      "forms": [
+        "continents"
+      ],
+      "band": "B1"
+    },
+    {
+      "word": "count",
+      "pos": "verb",
+      "meaning": {
+        "en": "To find the total number of something.",
+        "bg": "Броя."
+      },
+      "example": "Honestly, I've never counted.",
+      "forms": [
+        "counts",
+        "counted",
+        "counting"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "country",
+      "pos": "noun",
+      "meaning": {
+        "en": "An area of land with its own government, like Bulgaria.",
+        "bg": "Страна, държава."
+      },
+      "example": "People often ask me how many countries I've visited.",
+      "forms": [
+        "countries"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "danger",
+      "pos": "noun",
+      "meaning": {
+        "en": "The possibility that something bad will happen to you.",
+        "bg": "Опасност."
+      },
+      "example": "Have I ever been in danger?",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "drive",
+      "pos": "verb",
+      "meaning": {
+        "en": "To control a car or other vehicle.",
+        "bg": "Карам (кола)."
+      },
+      "example": "She has never driven a car.",
+      "forms": [
+        "drives",
+        "drove",
+        "driven",
+        "driving"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "driver",
+      "pos": "noun",
+      "meaning": {
+        "en": "A person who drives a car, bus or taxi.",
+        "bg": "Шофьор."
+      },
+      "example": "Luckily, a kind taxi driver found it and brought it back to my hotel.",
+      "forms": [
+        "drivers"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "each",
+      "pos": "determiner",
+      "meaning": {
+        "en": "Every one of two or more, seen separately. \"Each other\" = one another.",
+        "bg": "Всеки. \"Each other\" = един друг."
+      },
+      "example": "We've known each other since school.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "eat",
+      "pos": "verb",
+      "meaning": {
+        "en": "To put food in your mouth and swallow it.",
+        "bg": "Ям."
+      },
+      "example": "I had never eaten such amazing food before.",
+      "forms": [
+        "eats",
+        "ate",
+        "eaten",
+        "eating"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "ever",
+      "pos": "adverb",
+      "meaning": {
+        "en": "At any time. Common in questions: Have you ever…?",
+        "bg": "Някога. Често във въпроси: Have you ever…?"
+      },
+      "example": "Have you ever tried sushi?",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "everything",
+      "pos": "pronoun",
+      "meaning": {
+        "en": "All things.",
+        "bg": "Всичко."
+      },
+      "example": "I've lived in Lisbon for three years now, and I still haven't seen everything here.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "flight",
+      "pos": "noun",
+      "meaning": {
+        "en": "A journey by plane.",
+        "bg": "Полет."
+      },
+      "example": "In 2019 I lost my passport in Peru and nearly missed my flight home.",
+      "forms": [
+        "flights"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "food",
+      "pos": "noun",
+      "meaning": {
+        "en": "Things that people and animals eat.",
+        "bg": "Храна."
+      },
+      "example": "I had never eaten such amazing food before.",
+      "forms": [
+        "foods"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "find",
+      "pos": "verb",
+      "meaning": {
+        "en": "To discover something you were looking for.",
+        "bg": "Намирам."
+      },
+      "example": "Luckily, a kind taxi driver found it and brought it back to my hotel.",
+      "forms": [
+        "finds",
+        "found",
+        "finding"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "honestly",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Used to show you are telling the truth.",
+        "bg": "Честно казано, наистина."
+      },
+      "example": "Honestly, I've never counted.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "hotel",
+      "pos": "noun",
+      "meaning": {
+        "en": "A building where you pay to sleep and eat when you travel.",
+        "bg": "Хотел."
+      },
+      "example": "Luckily, a kind taxi driver found it and brought it back to my hotel.",
+      "forms": [
+        "hotels",
+        "hotel's"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "huge",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Very big.",
+        "bg": "Огромен."
+      },
+      "example": "I've been a travel blogger since 2015, and I've stayed in small villages and huge cities on four continents.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "know",
+      "pos": "verb",
+      "meaning": {
+        "en": "To have information about something; to be familiar with a person.",
+        "bg": "Знам; познавам (човек)."
+      },
+      "example": "We've known each other since school.",
+      "forms": [
+        "knows",
+        "knew",
+        "known",
+        "knowing"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "long",
+      "pos": "adjective",
+      "meaning": {
+        "en": "Lasting a lot of time. \"How long?\" asks about time.",
+        "bg": "Дълъг. \"How long?\" = колко време? откога?"
+      },
+      "example": "How long have you worked here?",
+      "forms": [
+        "longer",
+        "longest"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "luckily",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Fortunately; because of good luck.",
+        "bg": "За щастие."
+      },
+      "example": "Luckily, a kind taxi driver found it and brought it back to my hotel.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "many",
+      "pos": "determiner",
+      "meaning": {
+        "en": "A large number of. \"How many?\" asks about number.",
+        "bg": "Много (за броими неща). \"How many?\" = колко?"
+      },
+      "example": "People often ask me how many countries I've visited.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "miss",
+      "pos": "verb",
+      "meaning": {
+        "en": "To be too late for a train, plane, etc.",
+        "bg": "Изпускам (влак, полет)."
+      },
+      "example": "In 2019 I lost my passport in Peru and nearly missed my flight home.",
+      "forms": [
+        "misses",
+        "missed",
+        "missing"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "month",
+      "pos": "noun",
+      "meaning": {
+        "en": "One of the twelve parts of a year.",
+        "bg": "Месец."
+      },
+      "example": "I went there with a friend after university, and we spent two months travelling by train and bus.",
+      "forms": [
+        "months"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "nearly",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Almost.",
+        "bg": "Почти, едва не."
+      },
+      "example": "In 2019 I lost my passport in Peru and nearly missed my flight home.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "never",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Not at any time. English uses only one negative: I've never been (not \"I haven't never\").",
+        "bg": "Никога. В английския има само едно отрицание: I've never been (не \"I haven't never\")."
+      },
+      "example": "She has never driven a car.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "now",
+      "pos": "adverb",
+      "meaning": {
+        "en": "At this moment.",
+        "bg": "Сега."
+      },
+      "example": "I've lived in Lisbon for three years now, and I still haven't seen everything here.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "often",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Many times.",
+        "bg": "Често."
+      },
+      "example": "People often ask me how many countries I've visited.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "once",
+      "pos": "adverb",
+      "meaning": {
+        "en": "One time.",
+        "bg": "Веднъж."
+      },
+      "example": "Only once.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "only",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Not more than; just.",
+        "bg": "Само."
+      },
+      "example": "Only once.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "other",
+      "pos": "determiner",
+      "meaning": {
+        "en": "Different; the second of two. \"Each other\" = one another.",
+        "bg": "Друг. \"Each other\" = един друг."
+      },
+      "example": "We've known each other since school.",
+      "forms": [
+        "others"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "passport",
+      "pos": "noun",
+      "meaning": {
+        "en": "An official document you need to travel to other countries.",
+        "bg": "Паспорт."
+      },
+      "example": "In 2019 I lost my passport in Peru and nearly missed my flight home.",
+      "forms": [
+        "passports"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "people",
+      "pos": "noun",
+      "meaning": {
+        "en": "Men, women and children; more than one person.",
+        "bg": "Хора."
+      },
+      "example": "People often ask me how many countries I've visited.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "school",
+      "pos": "noun",
+      "meaning": {
+        "en": "A place where children learn.",
+        "bg": "Училище."
+      },
+      "example": "We've known each other since school.",
+      "forms": [
+        "schools"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "since",
+      "pos": "preposition",
+      "meaning": {
+        "en": "From a point in the past until now: since 2015, since Monday.",
+        "bg": "От (начална точка до сега): since 2015 (от 2015 г.)."
+      },
+      "example": "He hasn't called me since Monday.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "something",
+      "pos": "pronoun",
+      "meaning": {
+        "en": "A thing that is not named.",
+        "bg": "Нещо."
+      },
+      "example": "Maybe that's the best thing about travel: there's always something new.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "spend",
+      "pos": "verb",
+      "meaning": {
+        "en": "To use time (or money) on something.",
+        "bg": "Прекарвам (време); харча (пари)."
+      },
+      "example": "I went there with a friend after university, and we spent two months travelling by train and bus.",
+      "forms": [
+        "spends",
+        "spent",
+        "spending"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "still",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Continuing until now.",
+        "bg": "Още, все още."
+      },
+      "example": "I've lived in Lisbon for three years now, and I still haven't seen everything here.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "such",
+      "pos": "determiner",
+      "meaning": {
+        "en": "Used for emphasis: such amazing food = food that was so amazing.",
+        "bg": "Такъв (за подчертаване): such amazing food = толкова невероятна храна."
+      },
+      "example": "I had never eaten such amazing food before.",
+      "forms": [],
+      "band": "B1"
+    },
+    {
+      "word": "sushi",
+      "pos": "noun",
+      "meaning": {
+        "en": "Japanese food made of rice and raw fish.",
+        "bg": "Суши."
+      },
+      "example": "Have you ever tried sushi?",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "taxi",
+      "pos": "noun",
+      "meaning": {
+        "en": "A car with a driver that you pay to take you somewhere.",
+        "bg": "Такси."
+      },
+      "example": "Luckily, a kind taxi driver found it and brought it back to my hotel.",
+      "forms": [
+        "taxis"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "there",
+      "pos": "pronoun",
+      "meaning": {
+        "en": "Used with \"be\" to say something exists: there's (there is) always something new.",
+        "bg": "Използва се с \"be\" за да кажеш, че нещо съществува: there's = има."
+      },
+      "example": "Maybe that's the best thing about travel: there's always something new.",
+      "forms": [
+        "there's"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "there",
+      "pos": "adverb",
+      "meaning": {
+        "en": "In or to that place.",
+        "bg": "Там."
+      },
+      "example": "I went there with a friend after university, and we spent two months travelling by train and bus.",
+      "forms": [],
+      "band": "A1"
+    },
+    {
+      "word": "thing",
+      "pos": "noun",
+      "meaning": {
+        "en": "An object, idea, or fact.",
+        "bg": "Нещо, вещ."
+      },
+      "example": "Maybe that's the best thing about travel: there's always something new.",
+      "forms": [
+        "things"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "train",
+      "pos": "noun",
+      "meaning": {
+        "en": "A vehicle that runs on rails.",
+        "bg": "Влак."
+      },
+      "example": "I went there with a friend after university, and we spent two months travelling by train and bus.",
+      "forms": [
+        "trains"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "travel",
+      "pos": "verb",
+      "meaning": {
+        "en": "To go from one place to another, especially far away.",
+        "bg": "Пътувам."
+      },
+      "example": "Maybe that's the best thing about travel: there's always something new.",
+      "forms": [
+        "travels",
+        "travelled",
+        "travelling",
+        "traveled",
+        "traveling"
+      ],
+      "band": "A1"
+    },
+    {
+      "word": "travel",
+      "pos": "noun",
+      "meaning": {
+        "en": "The activity of travelling.",
+        "bg": "Пътуване, пътешествия."
+      },
+      "example": "Maybe that's the best thing about travel: there's always something new.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "try",
+      "pos": "verb",
+      "meaning": {
+        "en": "To do or taste something to see what it is like.",
+        "bg": "Опитвам."
+      },
+      "example": "Have you ever tried sushi?",
+      "forms": [
+        "tries",
+        "tried",
+        "trying"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "trip",
+      "pos": "noun",
+      "meaning": {
+        "en": "A journey to a place and back again.",
+        "bg": "Пътуване, екскурзия."
+      },
+      "example": "My first big trip was to Vietnam.",
+      "forms": [
+        "trips"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "twice",
+      "pos": "adverb",
+      "meaning": {
+        "en": "Two times.",
+        "bg": "Два пъти."
+      },
+      "example": "I've been to Rome twice.",
+      "forms": [],
+      "band": "A2"
+    },
+    {
+      "word": "university",
+      "pos": "noun",
+      "meaning": {
+        "en": "A place where people study for a degree.",
+        "bg": "Университет."
+      },
+      "example": "I went there with a friend after university, and we spent two months travelling by train and bus.",
+      "forms": [
+        "universities"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "village",
+      "pos": "noun",
+      "meaning": {
+        "en": "A very small town in the country.",
+        "bg": "Село."
+      },
+      "example": "I've been a travel blogger since 2015, and I've stayed in small villages and huge cities on four continents.",
+      "forms": [
+        "villages"
+      ],
+      "band": "A2"
+    },
+    {
+      "word": "when",
+      "pos": "adverb",
+      "meaning": {
+        "en": "A question word for time.",
+        "bg": "Кога."
+      },
+      "example": "When did you start working here?",
+      "forms": [],
+      "band": "A1"
+    }
+  ],
+  "texts": [
+    {
+      "id": "b1.experiences.text-blog",
+      "competence": "b1.experiences",
+      "band": "B1",
+      "title": "Ten years on the road",
+      "paragraphs": [
+        "People often ask me how many countries I've visited. Honestly, I've never counted. I've been a travel blogger since 2015, and I've stayed in small villages and huge cities on four continents.",
+        "My first big trip was to Vietnam. I went there with a friend after university, and we spent two months travelling by train and bus. I had never eaten such amazing food before.",
+        "Have I ever been in danger? Only once. In 2019 I lost my passport in Peru and nearly missed my flight home. Luckily, a kind taxi driver found it and brought it back to my hotel.",
+        "I've lived in Lisbon for three years now, and I still haven't seen everything here. Maybe that's the best thing about travel: there's always something new."
+      ]
+    }
+  ],
+  "names": [
+    "Vietnam",
+    "Peru",
+    "Lisbon",
+    "Rome",
+    "Japan",
+    "London",
+    "Sofia",
+    "Monday"
+  ],
+  "items": [
+    {
+      "id": "b1.experiences.ever-tried",
+      "type": "choice",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.experiences",
+      "objective": {
+        "en": "Ask about life experience.",
+        "bg": "Да попиташ за житейски опит."
+      },
+      "difficulty": -1.3,
+      "prompt": "You want to know if your new friend has had this experience at any time in their life. What do you ask?",
+      "options": [
+        "Have you ever try Japanese food?",
+        "Are you ever trying Japanese food?",
+        "Do you ever tried Japanese food?",
+        "Have you ever tried Japanese food?"
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "For experiences at any time up to now, the question is \"Have you ever + past participle?\": tried, not try. \"Do you ever tried\" mixes present and past, and \"Are you ever trying\" is about habits now, not life experience.",
+        "bg": "За опит в който и да е момент досега въпросът е \"Have you ever + трето причастие?\": tried, а не try. \"Do you ever tried\" смесва сегашно и минало, а \"Are you ever trying\" е за навици сега, не за житейски опит."
+      },
+      "hints": [
+        {
+          "en": "Which tense connects the past with now?",
+          "bg": "Кое време свързва миналото със сега?"
+        }
+      ],
+      "words": [
+        "ever",
+        "try"
+      ],
+      "structures": [
+        "present-perfect.experience"
+      ],
+      "tags": [
+        "present-perfect",
+        "questions"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.experiences.went-in-2019",
+      "type": "cloze",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.experiences",
+      "objective": {
+        "en": "Use the past simple with a finished time.",
+        "bg": "Да използваш past simple с приключило време."
+      },
+      "difficulty": -1.0,
+      "sentence": "I ___ (go) to Japan in 2019, and I loved it.",
+      "accept": [
+        "went"
+      ],
+      "explanation": {
+        "en": "\"In 2019\" is a finished time, so we need the past simple: went. \"I've been to Japan in 2019\" is wrong — the present perfect can't go with a specific past time.",
+        "bg": "\"In 2019\" е приключило време, затова трябва past simple: went. \"I've been to Japan in 2019\" е грешно — present perfect не може с конкретно минало време."
+      },
+      "hints": [
+        {
+          "en": "Is there a time word that tells you when?",
+          "bg": "Има ли дума, която казва кога?"
+        }
+      ],
+      "words": [
+        "go"
+      ],
+      "structures": [
+        "past-simple",
+        "present-perfect.contrast"
+      ],
+      "tags": [
+        "present-perfect",
+        "past-simple"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.experiences.for-six-years",
+      "type": "cloze",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.experiences",
+      "objective": {
+        "en": "Use \"for\" with a period of time.",
+        "bg": "Да използваш \"for\" с период от време."
+      },
+      "difficulty": -1.2,
+      "sentence": "My brother has worked at the bank ___ six years.",
+      "accept": [
+        "for"
+      ],
+      "explanation": {
+        "en": "\"Six years\" is a length of time, so we use \"for\". \"Since\" needs a starting point: since 2019. Bulgarian \"от\" covers both, which is why learners say \"since six years\" by mistake.",
+        "bg": "\"Six years\" е продължителност, затова използваме \"for\". \"Since\" изисква начална точка: since 2019. Българското \"от\" покрива и двете, затова често се греши \"since six years\"."
+      },
+      "hints": [
+        {
+          "en": "Is \"six years\" a period or a starting point?",
+          "bg": "\"Six years\" период ли е, или начална точка?"
+        }
+      ],
+      "words": [
+        "work",
+        "bank"
+      ],
+      "structures": [
+        "for-since"
+      ],
+      "tags": [
+        "for-since"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.experiences.since-monday",
+      "type": "cloze",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.experiences",
+      "objective": {
+        "en": "Use \"since\" with a starting point.",
+        "bg": "Да използваш \"since\" с начална точка."
+      },
+      "difficulty": -1.1,
+      "sentence": "It has rained every day ___ Monday.",
+      "accept": [
+        "since"
+      ],
+      "explanation": {
+        "en": "\"Monday\" is the moment when the rain started, so we use \"since\". With a length of time (four days) you would use \"for\".",
+        "bg": "\"Monday\" е моментът, в който е започнал дъждът, затова използваме \"since\". С продължителност (four days) би било \"for\"."
+      },
+      "hints": [
+        {
+          "en": "Monday is a starting point.",
+          "bg": "Понеделник е начална точка."
+        }
+      ],
+      "words": [
+        "rain"
+      ],
+      "structures": [
+        "for-since"
+      ],
+      "tags": [
+        "for-since"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.experiences.lived-here",
+      "type": "choice",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.experiences",
+      "objective": {
+        "en": "Avoid the present tense for duration up to now.",
+        "bg": "Да избягваш сегашно време за продължителност досега."
+      },
+      "difficulty": -0.6,
+      "prompt": "You moved to Sofia in 2020 and you still live there. Which sentence is correct?",
+      "options": [
+        "I live in Sofia since 2020.",
+        "I've lived in Sofia since 2020.",
+        "I am living in Sofia since 2020.",
+        "I lived in Sofia since 2020."
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Something that started in the past and continues now needs the present perfect: I've lived in Sofia since 2020. In Bulgarian \"Живея в София от 2020\" is present, but English doesn't allow the present with \"since\". \"I lived\" would mean you don't live there any more — and then \"since\" doesn't work.",
+        "bg": "Нещо, което е започнало в миналото и продължава сега, изисква present perfect: I've lived in Sofia since 2020. На български \"Живея в София от 2020\" е сегашно време, но английският не допуска сегашно време със \"since\". \"I lived\" би значело, че вече не живееш там — и тогава \"since\" не пасва."
+      },
+      "hints": [
+        {
+          "en": "Do you still live there? Which tense joins past and present?",
+          "bg": "Още ли живееш там? Кое време свързва минало и настояще?"
+        }
+      ],
+      "words": [
+        "live"
+      ],
+      "structures": [
+        "present-perfect.duration",
+        "for-since"
+      ],
+      "tags": [
+        "present-perfect",
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.experiences.how-long-known",
+      "type": "build",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.experiences",
+      "objective": {
+        "en": "Ask how long a situation has lasted.",
+        "bg": "Да попиташ откога трае нещо."
+      },
+      "difficulty": -0.8,
+      "tiles": [
+        "How",
+        "long",
+        "have",
+        "you",
+        "known",
+        "Elena"
+      ],
+      "accept": [
+        "How long have you known Elena?"
+      ],
+      "explanation": {
+        "en": "To ask about duration up to now: How long + have/has + subject + past participle? Bulgarian says \"Откога познаваш Елена?\" in the present, but English needs \"have you known\".",
+        "bg": "За да попиташ за продължителност досега: How long + have/has + подлог + трето причастие? На български \"Откога познаваш Елена?\" е в сегашно време, а на английски трябва \"have you known\"."
+      },
+      "hints": [
+        {
+          "en": "Start with \"How long\".",
+          "bg": "Започни с \"How long\"."
+        },
+        {
+          "en": "Then the helper verb, then \"you\".",
+          "bg": "После помощният глагол, после \"you\"."
+        }
+      ],
+      "words": [
+        "how",
+        "long",
+        "know"
+      ],
+      "structures": [
+        "present-perfect.duration"
+      ],
+      "tags": [
+        "questions",
+        "present-perfect"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.experiences.never-been",
+      "type": "build",
+      "band": "B1",
+      "skill": "grammar",
+      "competence": "b1.experiences",
+      "objective": {
+        "en": "Say you have never done something.",
+        "bg": "Да кажеш, че никога не си правил нещо."
+      },
+      "difficulty": -0.9,
+      "tiles": [
+        "I've",
+        "never",
+        "been",
+        "to",
+        "London"
+      ],
+      "accept": [
+        "I've never been to London."
+      ],
+      "explanation": {
+        "en": "\"Never\" goes between \"have\" and the past participle: I've never been… Notice \"been to\" (gone and come back), not \"gone to\". Also, English uses only one negative: \"I've never been\", not \"I haven't never been\" — unlike Bulgarian \"никога не съм ходил\".",
+        "bg": "\"Never\" стои между \"have\" и третото причастие: I've never been… Обърни внимание: \"been to\" (ходил и върнал се), а не \"gone to\". И в английския има само едно отрицание: \"I've never been\", а не \"I haven't never been\" — за разлика от \"никога не съм ходил\"."
+      },
+      "hints": [
+        {
+          "en": "\"Never\" comes right after \"I've\".",
+          "bg": "\"Never\" идва веднага след \"I've\"."
+        }
+      ],
+      "words": [
+        "never",
+        "been"
+      ],
+      "structures": [
+        "present-perfect.experience"
+      ],
+      "tags": [
+        "present-perfect",
+        "bg-transfer"
+      ],
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.experiences.text-since",
+      "type": "choice",
+      "band": "B1",
+      "skill": "reading",
+      "competence": "b1.experiences",
+      "objective": {
+        "en": "Understand duration in a text.",
+        "bg": "Да разбереш продължителност в текст."
+      },
+      "difficulty": -0.7,
+      "prompt": "What do we know about the writer and Lisbon?",
+      "options": [
+        "The writer visited Lisbon for three years and then left.",
+        "The writer has never been to Lisbon.",
+        "The writer moved to Lisbon three years ago and still lives there.",
+        "The writer lived in Lisbon before 2015."
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "\"I've lived in Lisbon for three years now\" — the present perfect with \"for… now\" means it started three years ago and is still true.",
+        "bg": "\"I've lived in Lisbon for three years now\" — present perfect с \"for… now\" значи, че е започнало преди три години и още е вярно."
+      },
+      "hints": [
+        {
+          "en": "Look at the tense in the last paragraph.",
+          "bg": "Виж времето в последния абзац."
+        }
+      ],
+      "words": [
+        "live"
+      ],
+      "structures": [
+        "present-perfect.duration"
+      ],
+      "tags": [
+        "reading"
+      ],
+      "textId": "b1.experiences.text-blog",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.experiences.text-why-past",
+      "type": "choice",
+      "band": "B1",
+      "skill": "reading",
+      "competence": "b1.experiences",
+      "objective": {
+        "en": "Notice why a text uses the past simple.",
+        "bg": "Да забележиш защо текстът използва past simple."
+      },
+      "difficulty": -0.3,
+      "prompt": "Why does the writer say \"In 2019 I lost my passport\" and not \"In 2019 I've lost my passport\"?",
+      "options": [
+        "Because the sentence gives a finished time, so the past simple is needed.",
+        "Because the passport is still lost.",
+        "Because \"lose\" is an irregular verb.",
+        "Because it happened more than once."
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "\"In 2019\" is a specific finished time, and the present perfect can't be used with it. The passport was found, and it happened only once, so the other answers are wrong.",
+        "bg": "\"In 2019\" е конкретно приключило време и present perfect не може да се използва с него. Паспортът е намерен и се е случило само веднъж, така че другите отговори са грешни."
+      },
+      "hints": [
+        {
+          "en": "Look at the first two words of the sentence.",
+          "bg": "Виж първите две думи в изречението."
+        }
+      ],
+      "words": [
+        "lose",
+        "passport"
+      ],
+      "structures": [
+        "present-perfect.contrast"
+      ],
+      "tags": [
+        "reading",
+        "grammar-in-context"
+      ],
+      "textId": "b1.experiences.text-blog",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "b1.experiences.text-first-trip",
+      "type": "cloze",
+      "band": "B1",
+      "skill": "reading",
+      "competence": "b1.experiences",
+      "objective": {
+        "en": "Find a detail in a blog post.",
+        "bg": "Да намериш подробност в блог пост."
+      },
+      "difficulty": -1.0,
+      "sentence": "The writer's first big trip was to ___.",
+      "accept": [
+        "Vietnam"
+      ],
+      "explanation": {
+        "en": "The second paragraph says: \"My first big trip was to Vietnam.\"",
+        "bg": "Във втория абзац пише: \"My first big trip was to Vietnam.\""
+      },
+      "hints": [
+        {
+          "en": "Read the beginning of the second paragraph.",
+          "bg": "Прочети началото на втория абзац."
+        }
+      ],
+      "words": [
+        "trip"
+      ],
+      "structures": [],
+      "tags": [
+        "reading"
+      ],
+      "textId": "b1.experiences.text-blog",
+      "review": {
+        "author": "claude",
+        "status": "draft"
+      }
+    }
+  ]
+}
