@@ -1,0 +1,22 @@
+name: Content error
+description: A wrong answer key, a misleading explanation, or an unnatural sentence
+labels: [content]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Exercise or text
+      description: The exercise id if you have it, otherwise the level, lesson and the sentence.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: e.g. "'have had' should also be accepted", or "the Bulgarian explanation is unclear".
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested correction

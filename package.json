@@ -1,8 +1,18 @@
 {
   "name": "wayline",
+  "version": "0.2.0",
+  "description": "Free, local-first English course from Pre-A1 to C2: adaptive level test, personal daily plan, speaking practice and a growing library.",
   "private": true,
-  "version": "0.1.0",
   "type": "module",
+  "license": "UNLICENSED",
+  "author": "Daniel Yanchev <daniel.aisystems@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dani-aisystems/wayline.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -12,7 +22,7 @@
     "test": "vitest run",
     "test:content": "vitest run src/content",
     "test:e2e": "playwright test",
-    "brand": "node scripts/build-brand.mjs",
+    "brand": "python3 scripts/build-brand.py",
     "check": "npm run typecheck && npm run lint && npm run test && npm run build",
     "build:artifact": "vite build --mode artifact && python3 scripts/make-artifact.py dist-artifact/wayline.html"
   },
@@ -41,8 +51,5 @@
     "vite-plugin-pwa": "^2.0.0",
     "vite-plugin-singlefile": "^2.3.4",
     "vitest": "^5.0.5"
-  },
-  "engines": {
-    "node": ">=20"
   }
 }

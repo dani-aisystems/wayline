@@ -1,61 +1,98 @@
-# Wayline
+<p align="center">
+  <img src="public/brand/logo-on-light.png" alt="Wayline" width="280">
+</p>
 
-A free, local-first English course from Pre-A1 to C2. Learners pick the language they learn from (English or Bulgarian for now), get placed, and follow a personal route across a map of competences. Everything runs in the browser: no accounts, no paid APIs, progress stored on the device.
+<p align="center"><strong>A free, local-first English course from Pre-A1 to C2.</strong><br>
+Adaptive level test · personal daily plan · speaking practice · a library that grows as you learn.</p>
 
-Status: **Milestone 1 (foundation)**. Strategy and milestones: see the Phase 1 strategy doc.
+---
 
-## Run it
+Wayline places each learner with an adaptive test, then builds a daily plan around their level, goals and mistakes. It runs entirely in the browser: no account, no server, no paid APIs. Progress is stored on the learner's device and can be backed up to a file.
+
+Explanations are available in **English** and **Bulgarian**; the learner picks which one at the start.
+
+## What's inside
+
+| Area | What it does |
+| --- | --- |
+| **Level test** | Adaptive A1–C2 test (Rasch model, 12–30 questions) across grammar, vocabulary, reading, listening and functional language. Reports a level, a range, per-skill estimates and what wasn't assessed. An extended test is available when the result is uncertain. |
+| **Daily plan** | Warm-up reviews → one new idea → practice → reinforcement of the learner's own mistakes → listening, reading or speaking. Sized to 10, 20, 30 or 45 minutes. Every step has a stated reason. |
+| **Learner model** | Tracks accuracy per skill, placement results, goals, focus skills and recurring mistake topics, and uses them to choose what comes next. Deterministic: the same data gives the same plan. |
+| **Review** | FSRS-6 spaced repetition for words, expressions and exercises. Words move New → Learning → Reviewing → Strong → Mastered by recall over time, never after one answer. After a break, reviews are capped so nothing piles up. |
+| **Speaking** | Listen-and-repeat, read aloud, answer a question, and dialogues with distinct character voices. Records with the microphone, plays your recording next to the model, and can check which words were recognised. |
+| **Library** | Search; My vocabulary with history; 36 curated expressions with register and usage; grammar by level; interactive alphabet; mistake notebook; reading and listening; CEFR reference. Any exercise can be practised from here. |
+| **Dashboard** | Today's plan, revision due, XP and achievements, skill profile, journey, weekly activity and insights — all from real activity. |
+| **XP** | An idempotent ledger: reloading or repeating never pays twice. XP measures practice; it never changes your English level. |
+
+## Privacy
+
+- Everything is stored in the browser (IndexedDB). There are no accounts, analytics or third-party requests.
+- Microphone recordings stay in memory for the current exercise and are discarded when you leave it.
+- **Speech recognition is opt-in.** Wayline uses on-device recognition where the browser offers it (Chrome 139+ desktop). Where the only option sends audio to the browser maker's servers, it asks for explicit consent first, and works without recognition if you say no.
+- Word checks report which words were recognised. They are **not** a pronunciation score.
+
+## Run it locally
+
+Requires Node 22.
 
 ```bash
 npm install
 npm run dev          # http://localhost:5173
 ```
 
-## Commands
-
 | Command | What it does |
 | --- | --- |
 | `npm run check` | Typecheck, lint, unit tests, production build |
-| `npm test` | Unit tests: spaced repetition, backup/restore, content validation, colour contrast |
-| `npm run test:content` | Validate every content pack in `src/content/packs` |
-| `npm run test:e2e` | Playwright on Chromium, Firefox, WebKit, Pixel 7, iPhone 15 (builds must exist: `npm run build`) |
-| `npm run brand` | Regenerate logo, icons and favicon from `src/components/Logo.tsx` |
+| `npm test` | Unit tests: placement, planner, learner model, XP, FSRS, migrations, backup, content validation, colour contrast |
+| `npm run test:content` | Validate every content pack |
+| `npm run test:e2e` | Playwright on Chromium, Firefox, WebKit, Pixel 7 and iPhone 15 (run `npm run build` first) |
+| `npm run build:artifact` | Single-file HTML build for sharing as a Claude artifact |
+| `npm run brand` | Regenerate logo, icons and favicon from `brand-src/wayline-logo.png` (needs Python + Pillow) |
 
-Run e2e against a deployed site with `BASE_URL=https://… npm run test:e2e`.
+Run the browser tests against a deployed site with `BASE_URL=https://… npm run test:e2e`.
 
-## Structure
+## Project structure
 
 ```
 src/
-  components/   Logo, chart illustration
-  content/      Zod content schema, validator, content packs (JSON)
-  db/           Dexie (IndexedDB) schema, backup export/import
-  i18n/         Interface strings (en, bg)
-  lib/          Spaced repetition (FSRS-6 via ts-fsrs)
-  pages/        Screens
-  state/        Profile context (explanation language, theme)
+  app/          Routes, app shell, update prompt
+  components/   Exercises (classic, speak, listen, dialogue), Word Lens, recorder, logo
+  content/      Content schema + validator, lesson packs (JSON), diagnostic bank,
+                expressions, alphabet, CEFR reference
+  db/           Dexie schema with versioned migrations, backup/restore
+  engine/       Placement, planner, learner model, XP, dashboard data, answer checking
+  i18n/         Interface strings (en, bg), topic names
+  lib/          FSRS, speech synthesis, microphone, speech recognition
+  pages/        Onboarding, placement, dashboard, sessions, library, settings
   styles/       Design tokens (light/dark), global CSS, contrast test
-e2e/            Playwright tests
-scripts/        Brand asset generator
-public/brand/   Generated logo, icons
+e2e/            Playwright journeys
+docs/           Upgrade audit, status and known limitations
+scripts/        Brand assets, artifact build
 ```
 
 ## Content
 
-Each pack is a JSON file validated against `src/content/schema.ts`. Exercises and texts are English. Explanations, hints, objectives and titles are `{ "en": "…", "bg": "…" }`; English is required, other languages fall back to English. The validator fails the build on schema errors, duplicate ids or prompts, unknown competences, prerequisite cycles and out-of-range answers, and warns on missing translations or unreviewed items.
+Lessons are JSON packs in `src/content/packs`, validated against `src/content/schema.ts`. Exercises are in English; explanations, hints and titles are `{ "en": "…", "bg": "…" }` and fall back to English. The validator fails the build on schema errors, duplicate ids, unknown references, prerequisite cycles and out-of-range answers.
 
-Adding a language: add it to `SUPPORTED_LANGUAGES` and `DICTIONARIES` in `src/i18n/strings.ts`, then add that key to content packs.
+Current coverage: Pre-A1 letters, A1 lessons, two lessons per band from A2 to C2, and a speaking/listening/dialogue lesson per band. **All content is marked draft** and needs review by a native-speaker teacher. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Data and privacy
+## Data safety
 
-- Progress lives in IndexedDB in the learner's browser. Backups are versioned JSON, validated with Zod on import and never rendered as HTML.
-- Safari may delete site data after 7 days without a visit unless the app is installed to the home screen. The app reminds learners to back up.
-- No analytics, no third-party requests (checked by an e2e test).
+Schema changes go through versioned Dexie migrations that only add data. A unit test and a browser test open a database from the previous version and check that every profile, card, mistake and activity row survives. Learners can export a backup file and restore it on any device.
+
+## Known limitations
+
+- Voices depend on what the device has installed; some devices have only one English voice. Voices are labelled male or female only when the voice name is on a verified list.
+- On-device speech recognition is limited to recent desktop Chrome. Microphone flows are tested with Chromium's fake audio device and a simulated recogniser, which proves the interface, not real hardware.
+- Writing and speaking are not part of the level test.
+- Content is a representative slice per level, not a full syllabus.
+
+Full list: [docs/UPGRADE.md](docs/UPGRADE.md).
 
 ## Deployment
 
-Static build (`dist/`) on Vercel. Vercel's Hobby plan is non-commercial only; move to Vercel Pro or Cloudflare Pages before any monetization.
+Static build (`dist/`) with SPA rewrites and security headers in `vercel.json`. Vercel's Hobby plan is for non-commercial use; move to Pro (or another static host) before any monetisation.
 
-## Licences
+## Licence
 
-Source code: proprietary, all rights reserved (see `LICENSE`). Third-party fonts and data: see `ATTRIBUTIONS.md`.
+Source code: proprietary, all rights reserved — see [LICENSE](LICENSE). The Wayline name and logo are not licensed for reuse. Third-party fonts and libraries: see [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
