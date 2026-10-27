@@ -7,7 +7,9 @@ on:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
+    # Keep Playwright's multi-browser dependency install on the stable 24.04
+    # image instead of inheriting Ubuntu 26.04 through `latest`.
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
