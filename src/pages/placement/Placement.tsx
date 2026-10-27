@@ -59,8 +59,10 @@ export function Placement() {
   const answer = async (correct: boolean) => {
     if (!state || !item) return;
     const next = { ...state, responses: [...state.responses, { itemId: item.id, correct }] };
-    setState(next);
     await update({ placementDraft: { ...next, startedAt: profile.placementDraft?.startedAt ?? new Date().toISOString() } });
+    // Do not advance the visible question until its answer is durable. A fast
+    // reload after the UI changed could otherwise resume one question behind.
+    setState(next);
   };
 
   if (!state) {

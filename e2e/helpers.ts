@@ -18,8 +18,13 @@ type AnyItem = {
 async function answerOral(page: Page, item: AnyItem, mode: "right" | "wrong-then-right" | "give-up") {
   const ex = page.locator(".exercise");
   if (item.type === "speak") {
-    await ex.getByRole("button", { name: /^(Continue without microphone|Продължи без микрофон)$/ }).click();
-    await ex.getByRole("button", { name: mode === "right" ? /^(I said it clearly|Казах го ясно)$/ : /^(I need more practice|Трябва ми още практика)$/ }).click();
+    const withoutMic = ex.getByRole("button", { name: /^(Continue without microphone|Продължи без микрофон)$/ });
+    const selfAssessment = ex.getByRole("button", { name: mode === "right" ? /^(I said it clearly|Казах го ясно)$/ : /^(I need more practice|Трябва ми още практика)$/ });
+    // Some browsers reach self-assessment immediately when recording is
+    // unavailable; others show the explicit no-microphone step first.
+    await expect(withoutMic.or(selfAssessment)).toBeVisible();
+    if (await withoutMic.isVisible()) await withoutMic.click();
+    await selfAssessment.click();
     return;
   }
   if (item.type === "listen") {
