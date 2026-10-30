@@ -1,5 +1,8 @@
+import { castNatural, findClip, narratorFor, NATURAL_PREFIX, playClip, stopClip } from "./clips";
+
 /**
- * English text-to-speech with the device's own voices (Web Speech API). No network TTS.
+ * English speech. Lines that ship with a natural pre-rendered clip (see clips.ts) play that clip;
+ * everything else uses the device's own voices (Web Speech API). No network TTS.
  *
  * Browsers don't report a voice's gender. We label a voice male- or female-presenting only when its
  * name matches a known system voice (Apple, Microsoft, Google, Android, eSpeak variants listed below);
@@ -68,7 +71,26 @@ async function voices(): Promise<SpeechSynthesisVoice[]> {
   return cached;
 }
 
-export type VoiceWish = { voiceId?: string; presents?: Presentation; accent?: "US" | "GB"; avoid?: string[] };
+/**
+ * `voiceId` is the learner's setting: "natural:<id>" (a natural voice), "device:<uri>" (they chose a device
+ * voice, so natural clips are skipped), or a bare device URI from older versions (natural clips first,
+ * that device voice for anything without a clip). `natural` forces a cast voice for a dialogue character.
+ */
+export type VoiceWish = { voiceId?: string; presents?: Presentation; accent?: "US" | "GB"; avoid?: string[]; natural?: string };
+
+const DEVICE_PREFIX = "device:";
+const deviceId = (id?: string) => (id?.startsWith(DEVICE_PREFIX) ? id.slice(DEVICE_PREFIX.length) : id?.startsWith(NATURAL_PREFIX) ? undefined : id);
+
+/** Which natural voice should say a line, or null when the learner chose a device voice. */
+export function naturalVoiceFor(opts: VoiceWish): string | null {
+  if (opts.natural) return opts.natural;
+  if (opts.voiceId?.startsWith(DEVICE_PREFIX)) return null;
+  if (opts.presents) return castNatural([{ key: "x", presents: opts.presents, accent: opts.accent }]).get("x")!;
+  return narratorFor(opts.voiceId, opts.accent);
+}
+
+/** Natural clips play at 1×; "slow" stretches them without changing pitch. */
+export const CLIP_RATES = { slow: 0.75, normal: 1 } as const;
 
 /** Choose a voice: exact id → wished presentation + accent → presentation → accent → any local → any. */
 export function chooseVoice(list: SpeechSynthesisVoice[], wish: VoiceWish = {}): SpeechSynthesisVoice | undefined {
@@ -92,12 +114,24 @@ let speaking = 0;
 
 /** Speak one utterance and resolve when it ends (or fails). Long text is split by sentence (Chrome cuts off ~15 s). */
 export async function speak(text: string, opts: VoiceWish & { speed?: Speed; rate?: number; cancel?: boolean } = {}): Promise<boolean> {
+  const token = ++speaking;
+  if (opts.cancel !== false) {
+    stopClip();
+    if (speechAvailable()) window.speechSynthesis.cancel();
+  }
+  const natural = naturalVoiceFor(opts);
+  if (natural) {
+    const clip = await findClip(text, natural);
+    if (token !== speaking) {
+      if (clip) URL.revokeObjectURL(clip.url);
+      return false;
+    }
+    if (clip) return playClip(clip.url, CLIP_RATES[opts.speed ?? "normal"]);
+  }
   if (!speechAvailable()) return false;
   const list = await voices();
-  const voice = chooseVoice(list, opts);
+  const voice = chooseVoice(list, { ...opts, voiceId: deviceId(opts.voiceId) });
   const synth = window.speechSynthesis;
-  if (opts.cancel !== false) synth.cancel();
-  const token = ++speaking;
   const parts = text.match(/[^.!?]+[.!?]*/g) ?? [text];
   for (const part of parts) {
     if (token !== speaking) return false;
@@ -118,6 +152,7 @@ export async function speak(text: string, opts: VoiceWish & { speed?: Speed; rat
 
 export function stopSpeaking() {
   speaking++;
+  stopClip();
   if (speechAvailable()) window.speechSynthesis.cancel();
 }
 
@@ -153,19 +188,24 @@ export function castVoices(list: SpeechSynthesisVoice[], speakers: string[], wis
 
 /** Speak a dialogue line by line with one voice per speaker. */
 export async function speakDialogue(text: string, opts: { voiceId?: string; speed?: Speed; wishes?: Record<string, VoiceWish>; onLine?: (i: number) => void } = {}): Promise<boolean> {
-  if (!speechAvailable()) return false;
   const lines = parseDialogue(text);
   if (lines.length === 1 && !lines[0].speaker) return speak(text, { voiceId: opts.voiceId, speed: opts.speed });
-  const list = await voices();
   const speakers = [...new Set(lines.map((l) => l.speaker!))];
-  const cast = castVoices(list, speakers, opts.wishes);
-  window.speechSynthesis.cancel();
+  // Natural cast: authored characters first (in their listed order), then anyone else, as the build script does.
+  const wishes = opts.wishes ?? {};
+  const order = [...Object.keys(wishes).filter((k) => speakers.includes(k)), ...speakers.filter((s) => !(s in wishes))];
+  const natural = castNatural(order.map((k) => ({ key: k, presents: wishes[k]?.presents, accent: wishes[k]?.accent })));
+  const deviceCast = speechAvailable() ? castVoices(await voices(), speakers, opts.wishes) : new Map<string, SpeechSynthesisVoice | undefined>();
+  stopClip();
+  if (speechAvailable()) window.speechSynthesis.cancel();
   const token = ++speaking;
+  const useNatural = !opts.voiceId?.startsWith(DEVICE_PREFIX);
   for (const [i, line] of lines.entries()) {
     if (token !== speaking) return false;
     opts.onLine?.(i);
-    const v = cast.get(line.speaker!);
-    await speak(line.text, { voiceId: v?.voiceURI, speed: opts.speed, cancel: false });
+    const v = deviceCast.get(line.speaker!);
+    await speak(line.text, { voiceId: v ? `${DEVICE_PREFIX}${v.voiceURI}` : undefined, natural: useNatural ? natural.get(line.speaker!) : undefined, speed: opts.speed, cancel: false });
+    if (token !== speaking - 1 && token !== speaking) return false;
     speaking = token; // speak() bumps the counter; keep this dialogue current.
   }
   return true;

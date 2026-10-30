@@ -21,3 +21,11 @@ describe("deployment headers", () => {
     expect(csp).toMatch(/connect-src 'self';/);
   });
 });
+
+describe("natural voice files", () => {
+  it("are served as files, not rewritten to the app", () => {
+    const rewrite = (config as unknown as { rewrites: { source: string }[] }).rewrites[0].source;
+    expect(new RegExp(`^${rewrite}$`).test("/voice/af_heart.json")).toBe(false);
+    expect(new RegExp(`^${rewrite}$`).test("/today")).toBe(true);
+  });
+});

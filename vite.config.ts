@@ -45,8 +45,14 @@ export default defineConfig(({ mode }) => {
         globPatterns: ["**/*.{js,css,html,svg,png,ico,woff2,json}"],
         // Large master logo files are for marketing, not the app shell.
         // Precache only the font subsets English and Bulgarian learners need.
-        globIgnores: ["**/brand/logo-*.png", "**/brand/mark.png", "**/brand/mark-mono.png", "**/*-greek-*.woff2", "**/*-vietnamese-*.woff2", "**/*-cyrillic-ext-*.woff2", "**/*-greek-ext-*.woff2"],
+        // Natural voice clips (~50 MB) are cached as they're played, not precached.
+        globIgnores: ["voice/**", "**/brand/logo-*.png", "**/brand/mark.png", "**/brand/mark-mono.png", "**/*-greek-*.woff2", "**/*-vietnamese-*.woff2", "**/*-cyrillic-ext-*.woff2", "**/*-greek-ext-*.woff2"],
         navigateFallback: "/index.html",
+        navigateFallbackDenylist: [/^\/voice\//],
+        runtimeCaching: [
+          { urlPattern: /\/voice\/.+\.mp3$/, handler: "CacheFirst", options: { cacheName: "voice-clips", expiration: { maxEntries: 400 } } },
+          { urlPattern: /\/voice\/.+\.json$/, handler: "StaleWhileRevalidate", options: { cacheName: "voice-manifests" } },
+        ],
         cleanupOutdatedCaches: true,
       },
     }),

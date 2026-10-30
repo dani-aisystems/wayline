@@ -4,6 +4,8 @@ import { LANGUAGE_NAMES, SUPPORTED_LANGUAGES, type UiLanguage } from "../i18n/st
 import { backupFileName, exportBackup, importBackup } from "../db/backup";
 import { db, requestPersistence, type Profile } from "../db/db";
 import { loadVoices, speak, toOption, type VoiceOption } from "../lib/speech";
+import type { StringKey } from "../i18n/strings";
+import { NARRATORS, NATURAL_PREFIX, narratorFor } from "../lib/clips";
 import { relativeDay } from "../lib/time";
 import "./settings.css";
 
@@ -12,6 +14,8 @@ export function Settings() {
   const [message, setMessage] = useState<{ kind: "good" | "bad"; text: string } | null>(null);
   const [persisted, setPersisted] = useState<boolean | null>(null);
   const [voices, setVoices] = useState<VoiceOption[] | null>(null);
+  // Older versions stored a bare device voice id; natural voices are now the default for those learners.
+  const voiceValue = profile?.voiceId?.startsWith(NATURAL_PREFIX) || profile?.voiceId?.startsWith("device:") ? profile.voiceId : `${NATURAL_PREFIX}${narratorFor(undefined, profile?.accent)}`;
   const fileRef = useRef<HTMLInputElement>(null);
   const [pending, setPending] = useState<{ kind: "restore"; text: string } | { kind: "reset" } | null>(null);
   const [pasted, setPasted] = useState("");
@@ -122,23 +126,30 @@ export function Settings() {
       <section className="setting">
         <label htmlFor={ids.voice} className="setting-label">{t("settings.voice")}</label>
         <p className="setting-hint">{t("settings.voiceHint")}</p>
-        {voices && voices.length === 0 ? (
-          <p>{t("settings.voiceNone")}</p>
-        ) : (
-          <div className="setting-row">
-            <select id={ids.voice} value={profile.voiceId ?? ""} onChange={(e) => update({ voiceId: e.target.value || undefined })}>
-              <option value="">{t("theme.system")}</option>
-              {voices?.map((v) => (
-                <option key={v.id} value={v.id}>
-                  {v.name} ({v.lang}){v.local ? ` · ${t("settings.voiceOffline")}` : ""}
+        <div className="setting-row">
+          <select id={ids.voice} value={voiceValue} onChange={(e) => update({ voiceId: e.target.value || undefined })}>
+            <optgroup label={t("settings.voiceNatural")}>
+              {NARRATORS.map((v) => (
+                <option key={v.id} value={`${NATURAL_PREFIX}${v.id}`}>
+                  {v.name} · {t(`settings.voice.${v.presents}` as StringKey)} · {t(`settings.accent.${v.accent}` as StringKey)}
                 </option>
               ))}
-            </select>
-            <button type="button" className="btn btn-quiet" onClick={() => speak("Hello! Nice to meet you.", { voiceId: profile.voiceId })}>
-              {t("settings.voiceTest")}
-            </button>
-          </div>
-        )}
+            </optgroup>
+            {voices && voices.length > 0 && (
+              <optgroup label={t("settings.voiceDevice")}>
+                {voices.map((v) => (
+                  <option key={v.id} value={`device:${v.id}`}>
+                    {v.name} ({v.lang}){v.local ? ` · ${t("settings.voiceOffline")}` : ""}
+                  </option>
+                ))}
+              </optgroup>
+            )}
+          </select>
+          <button type="button" className="btn btn-quiet" onClick={() => speak("Hello! Nice to meet you.", { voiceId: profile.voiceId, accent: profile.accent })}>
+            {t("settings.voiceTest")}
+          </button>
+        </div>
+        <p className="setting-hint">{t("settings.voiceCredit")}</p>
       </section>
 
       <section className="setting" id="backup" aria-labelledby="backup-title">

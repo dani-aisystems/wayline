@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { localize, type Character, type Item } from "../../content/schema";
 import type { Outcome } from "../../engine/progress";
 import { speak, stopSpeaking, type Speed } from "../../lib/speech";
+import { castNatural } from "../../lib/clips";
 import { useProfile } from "../../state/profile";
 import { Recorder } from "../speaking/Recorder";
 import { SpeedToggle } from "./SpeakExercise";
@@ -28,7 +29,10 @@ export function DialogueExercise({ item, onDone }: { item: Dialogue; onDone: (ou
   const me = cast[item.learnerAs];
   const endRef = useRef<HTMLDivElement>(null);
 
-  const voiceFor = (c?: Character) => ({ presents: c?.presents, accent: c?.accent ?? profile?.accent });
+  // Each character keeps one natural voice for the whole scene (same casting as the build script).
+  const naturalCast = castNatural(item.characters.map((c) => ({ key: c.id, presents: c.presents, accent: c.accent })));
+  const deviceChoice = profile?.voiceId?.startsWith("device:");
+  const voiceFor = (c?: Character) => ({ presents: c?.presents, accent: c?.accent ?? profile?.accent, natural: c && !deviceChoice ? naturalCast.get(c.id) : undefined });
 
   const play = async (i: number) => {
     const line = item.lines[i];

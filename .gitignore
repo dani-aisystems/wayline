@@ -30,3 +30,5 @@ test-results/
 !.env.example
 dist-artifact
 screenshots/
+voice-cache/
+voice/lines.json
