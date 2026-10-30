@@ -69,6 +69,8 @@ test("slow speed stretches the natural clip instead of switching voice", async (
 
 test("if clips can't load, the device voice takes over", async ({ page }) => {
   await recordPlayback(page);
+  await page.goto("/favicon.ico");
+  test.skip(!(await page.evaluate(() => "speechSynthesis" in window)), "This browser build has no device speech");
   await page.route("**/voice/**", (r) => r.abort());
   await onboardA1(page);
   await page.goto("/settings");

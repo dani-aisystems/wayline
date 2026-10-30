@@ -71,5 +71,5 @@ test("a version 0.1 learner keeps all progress after the upgrade", async ({ page
         };
       }),
   );
-  expect(stored).toEqual({ version: 20, source: "reading-check", cards: 3 });
+  expect(stored).toEqual({ version: 30, source: "reading-check", cards: 3 }); // Dexie v3 = IndexedDB 30
 });
