@@ -67,6 +67,14 @@ try {
   }
   group = "placement";
   for (const d of diagnosticItems) if (d.skill === "listening" && d.passage) scene(d.passage, []);
+  // Exam preparation: listening recordings in their speakers' voices, examiner lines in the examiner voice.
+  const { examLibrary } = await load("/src/content/exams/index.ts");
+  const { recordings, EXAMINER_VOICE } = await load("/src/engine/exam/audio.ts");
+  for (const t of examLibrary.tasks.values()) {
+    group = `exam-${t.exam}-${t.paper}`;
+    for (const rec of recordings(t)) for (const l of rec.lines) add(l.voice, l.text);
+    if (t.kind === "speaking") t.examiner.forEach((x) => add(EXAMINER_VOICE, x));
+  }
   group = "library";
   for (const x of EXPRESSIONS) { narrate(x.text); narrate(x.example); }
   for (const l of ALPHABET) {

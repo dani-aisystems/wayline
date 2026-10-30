@@ -33,6 +33,62 @@ export interface Profile {
   /** Preferred accent for single-voice audio. */
   accent?: "US" | "GB";
   placementDraft?: { mode: "quick" | "extended"; priorMean: number; responses: { itemId: string; correct: boolean }[]; skipSkills: string[]; startedAt: string };
+  /** Learning pathway. "exam" = certification preparation; switching back keeps all exam data. */
+  track?: "general" | "exam";
+  /** Certification target, kept even when the learner switches back to general English. */
+  cert?: CertGoal;
+}
+
+export type CertExam = "b2-first" | "c1-advanced";
+export interface CertGoal {
+  exam: CertExam;
+  /** YYYY-MM-DD, if booked. */
+  date?: string;
+  /** Target Cambridge English Scale score (e.g. 180 = C1 Advanced Grade C). */
+  target?: number;
+  format?: "digital" | "paper";
+  setAt: string;
+}
+
+export type ExamSkill = "reading" | "useOfEnglish" | "writing" | "listening" | "speaking";
+
+/** One exam practice session: a single part, a whole paper, a full mock or the exam diagnostic. */
+export interface ExamAttemptRow {
+  id?: number;
+  exam: CertExam;
+  mode: "topic" | "section" | "paper" | "mock" | "diagnostic";
+  paper?: "reading" | "writing" | "listening" | "speaking";
+  set?: string;
+  taskIds: string[];
+  startedAt: string;
+  finishedAt?: string;
+  timed: boolean;
+  limitSeconds?: number;
+  seconds: number;
+  /** Answers in progress (taskId → question number → text), so an interrupted test resumes. */
+  draft?: Record<string, Record<string, string>>;
+  skills?: Partial<Record<ExamSkill, { raw: number; max: number }>>;
+}
+
+/** One scored question (or one writing/speaking criterion) — the evidence for readiness and weaknesses. */
+export interface ExamAnswerRow {
+  id?: number;
+  attemptId: number;
+  exam: CertExam;
+  taskId: string;
+  paper: "reading" | "writing" | "listening" | "speaking";
+  part: number;
+  skill: ExamSkill;
+  n: number;
+  tag: string;
+  marks: number;
+  max: number;
+  given: string;
+  at: string;
+  timed: boolean;
+  seconds?: number;
+  /** For writing/speaking: how the mark was given. */
+  source?: "auto" | "self";
 }
 
 /** One completed placement test, kept so results can be compared and nothing is overwritten. */
@@ -126,9 +182,12 @@ export class WaylineDB extends Dexie {
   placements!: EntityTable<PlacementRow, "id">;
   xp!: EntityTable<XpRow, "id">;
   achievements!: EntityTable<AchievementRow, "id">;
+  examAttempts!: EntityTable<ExamAttemptRow, "id">;
+  examAnswers!: EntityTable<ExamAnswerRow, "id">;
 
   constructor(name = "wayline") {
-    super(name);
+    // Dexie 4's query cache served stale results after updates (exam dashboard right after a practice); correctness first.
+    super(name, { cache: "disabled" });
     this.version(1).stores({
       profile: "id",
       cards: "id, kind, ref, fsrs.due",
@@ -153,12 +212,17 @@ export class WaylineDB extends Dexie {
           p.interests ??= [];
         });
       });
+    // v3 (Wayline 0.3): certification preparation. Adds tables only.
+    this.version(3).stores({
+      examAttempts: "++id, exam, mode, startedAt",
+      examAnswers: "++id, attemptId, exam, taskId, tag, skill, at",
+    });
   }
 }
 
 export const db = new WaylineDB();
 
-export const TABLES = ["profile", "cards", "reviews", "mastery", "mistakes", "activity", "placements", "xp", "achievements"] as const;
+export const TABLES = ["profile", "cards", "reviews", "mastery", "mistakes", "activity", "placements", "xp", "achievements", "examAttempts", "examAnswers"] as const;
 export type TableName = (typeof TABLES)[number];
 
 /** Ask the browser not to evict our data. Only call after the learner has engaged (Dexie's advice). */

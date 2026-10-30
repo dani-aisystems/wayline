@@ -29,3 +29,9 @@ describe("natural voice files", () => {
     expect(new RegExp(`^${rewrite}$`).test("/today")).toBe(true);
   });
 });
+
+describe("embedded videos", () => {
+  it("allow only privacy-enhanced YouTube frames", () => {
+    expect(header("Content-Security-Policy")).toMatch(/frame-src https:\/\/www\.youtube-nocookie\.com;/);
+  });
+});

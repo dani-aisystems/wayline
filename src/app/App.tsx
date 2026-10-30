@@ -1,5 +1,5 @@
 import { BrowserRouter, MemoryRouter, Navigate, Route, Routes } from "react-router-dom";
-import type { ReactNode } from "react";
+import { lazy, Suspense, type ReactNode } from "react";
 import { useProfile } from "../state/profile";
 import { LensProvider } from "../components/lens/Lens";
 import { Shell } from "./Shell";
@@ -10,6 +10,12 @@ import { Today } from "../pages/Today";
 import { Review } from "../pages/Review";
 import { LibraryAlphabet, LibraryCefr, LibraryExpressions, LibraryGrammar, LibraryHome, LibraryMistakes, LibraryReading, LibraryWords } from "../pages/library/Library";
 import { Practice } from "../pages/session/Practice";
+// Exam preparation (and its content) loads only when a learner opens it.
+const ExamHome = lazy(() => import("../pages/exam/ExamHome").then((m) => ({ default: m.ExamHome })));
+const ExamRunner = lazy(() => import("../pages/exam/ExamRunner").then((m) => ({ default: m.ExamRunner })));
+const ExamGuide = lazy(() => import("../pages/exam/ExamPages").then((m) => ({ default: m.ExamGuide })));
+const ExamLesson = lazy(() => import("../pages/exam/ExamPages").then((m) => ({ default: m.ExamLesson })));
+const ExamResult = lazy(() => import("../pages/exam/ExamPages").then((m) => ({ default: m.ExamResult })));
 import { Settings } from "../pages/Settings";
 import { Session } from "../pages/session/Session";
 import { Placement } from "../pages/placement/Placement";
@@ -51,9 +57,14 @@ export function App() {
           <Route path="/session" element={<RequireOnboarded><Session /></RequireOnboarded>} />
           <Route path="/review/session" element={<RequireOnboarded><Session reviewOnly /></RequireOnboarded>} />
           <Route path="/practice" element={<RequireOnboarded><Practice /></RequireOnboarded>} />
+          <Route path="/exam/run" element={<RequireOnboarded><Suspense fallback={<div className="page" aria-busy="true" />}><ExamRunner /></Suspense></RequireOnboarded>} />
           <Route element={<RequireOnboarded><Shell /></RequireOnboarded>}>
             <Route path="/today" element={<Today />} />
             <Route path="/review" element={<Review />} />
+            <Route path="/exam" element={<Suspense fallback={<div className="page" aria-busy="true" />}><ExamHome /></Suspense>} />
+            <Route path="/exam/guide/:paper/:part" element={<Suspense fallback={<div className="page" aria-busy="true" />}><ExamGuide /></Suspense>} />
+            <Route path="/exam/lesson/:tag" element={<Suspense fallback={<div className="page" aria-busy="true" />}><ExamLesson /></Suspense>} />
+            <Route path="/exam/result/:id" element={<Suspense fallback={<div className="page" aria-busy="true" />}><ExamResult /></Suspense>} />
             <Route path="/library" element={<LibraryHome />} />
             <Route path="/library/words" element={<LibraryWords />} />
             <Route path="/library/expressions" element={<LibraryExpressions />} />

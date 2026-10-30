@@ -68,3 +68,28 @@ Baseline: commit `17bfea3`. React 19 + TS + Vite, Dexie (IndexedDB) v1 schema, F
 - Writing is not assessed. Speaking placement is not assessed.
 - Content is a representative slice per band, not a full A1–C2 syllabus; all of it is draft.
 - Headless WebKit on Linux has no recording APIs, so the denied-permission test is skipped there.
+
+## Certification preparation (30 Oct 2026)
+
+**Scope.** Cambridge B2 First and C1 Advanced only. Built on the existing engine: profile, Dexie (schema v3 adds `examAttempts` and `examAnswers` only), XP ledger, voices, recorder, Word Lens.
+
+**Verified against official Cambridge sources** (links in `src/content/exams/spec.ts`):
+- Paper structure, part types, question numbering and counts, marks per question, timings, writing word ranges and genres (format pages + C1 handbook).
+- Grade boundaries on the Cambridge English Scale (statement-of-results factsheets).
+- Raw → scale conversion points for practice tests (Cambridge's "Converting practice test scores" PDF). Between points Wayline interpolates in a straight line; Cambridge doesn't publish that step, so every score is labelled an estimate.
+
+**What exists**
+- Learning goal: general English or exam preparation, chosen in onboarding or Settings; switching keeps all data. Exam date, target grade and format are stored.
+- Content: 104 original tasks (2 full mocks per exam + drills), 34 part guides, 51 theory lessons tied to weakness tags. All drafts for expert review.
+- Practice modes: topic retest, section (one part), timed paper (official time, ends when time is up, resumable), full mock, and a diagnostic.
+- Marking: automatic for objective parts (key word transformations marked in two halves, with key-word and word-count rules); Writing has counted indicators plus learner self-marking on the four official subscales; Speaking is self-assessed on the official criteria. Neither is presented as an examiner's mark.
+- Readiness: per-skill scale estimate with a range, only when there is enough evidence; overall score only when all five skills have evidence.
+- Weakness loop: tags with < 70% after ≥ 3 questions → theory lesson → a fresh task on the same point (never the same questions straight away; the last mock is kept unseen).
+- Roadmap: five phases completed by evidence; weeks spread over the time to the exam; the last two weeks move to mocks.
+- Resources: official handbooks, sample-test pages, results guides and two official Speaking-test videos (loaded only on request).
+
+**Limitations**
+- No exam photographs: Speaking Part 2 uses written picture descriptions.
+- Writing and Speaking marks are self-assessed with support; they can be optimistic.
+- Two mocks per exam is enough to practise the format, not to measure small changes reliably.
+- The diagnostic uses Reading and Use of English only; Listening, Writing and Speaking are measured as the learner practises.

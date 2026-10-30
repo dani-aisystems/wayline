@@ -4,8 +4,8 @@ import { BANDS } from "../content/schema";
 import { SUPPORTED_LANGUAGES } from "../i18n/strings";
 
 export const BACKUP_FORMAT = "wayline-backup";
-/** 2 adds placements, xp and achievements. Version 1 backups still restore (those tables start empty). */
-export const BACKUP_SCHEMA_VERSION = 2;
+/** 2 adds placements, xp and achievements; 3 adds exam preparation. Older backups still restore (new tables start empty). */
+export const BACKUP_SCHEMA_VERSION = 3;
 const MAX_ROWS = 200_000;
 const str = z.string().max(2000);
 const date = z.coerce.date().refine((d) => !Number.isNaN(d.getTime()), "invalid date");
@@ -50,6 +50,16 @@ const Rows = {
           mode: z.enum(["quick", "extended"]), priorMean: z.number().finite(),
           responses: z.array(z.object({ itemId: str, correct: z.boolean() })).max(200),
           skipSkills: z.array(str).max(10), startedAt: str,
+        })
+        .optional(),
+      track: z.enum(["general", "exam"]).optional(),
+      cert: z
+        .object({
+          exam: z.enum(["b2-first", "c1-advanced"]),
+          date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+          target: z.number().int().min(100).max(230).optional(),
+          format: z.enum(["digital", "paper"]).optional(),
+          setAt: str,
         })
         .optional(),
     }),
@@ -135,11 +145,48 @@ const Rows = {
     }),
   ).default([]),
   achievements: z.array(z.object({ id: str, at: str })).default([]),
+  examAttempts: z.array(
+    z.object({
+      id: z.number().int().optional(),
+      exam: z.enum(["b2-first", "c1-advanced"]),
+      mode: z.enum(["topic", "section", "paper", "mock", "diagnostic"]),
+      paper: z.enum(["reading", "writing", "listening", "speaking"]).optional(),
+      set: str.optional(),
+      taskIds: z.array(str).max(100),
+      startedAt: str,
+      finishedAt: str.optional(),
+      timed: z.boolean(),
+      limitSeconds: z.number().min(0).optional(),
+      seconds: z.number().min(0),
+      draft: z.record(str, z.record(str, z.string().max(5000))).optional(),
+      skills: z.record(z.enum(["reading", "useOfEnglish", "writing", "listening", "speaking"]), z.object({ raw: z.number().min(0), max: z.number().min(0) })).optional(),
+    }),
+  ).default([]),
+  examAnswers: z.array(
+    z.object({
+      id: z.number().int().optional(),
+      attemptId: z.number().int(),
+      exam: z.enum(["b2-first", "c1-advanced"]),
+      taskId: str,
+      paper: z.enum(["reading", "writing", "listening", "speaking"]),
+      part: z.number().int().min(1).max(8),
+      skill: z.enum(["reading", "useOfEnglish", "writing", "listening", "speaking"]),
+      n: z.number().int(),
+      tag: str,
+      marks: z.number().min(0),
+      max: z.number().min(0),
+      given: z.string().max(5000),
+      at: str,
+      timed: z.boolean(),
+      seconds: z.number().min(0).optional(),
+      source: z.enum(["auto", "self"]).optional(),
+    }),
+  ).default([]),
 };
 
 export const Backup = z.object({
   format: z.literal(BACKUP_FORMAT),
-  schemaVersion: z.union([z.literal(1), z.literal(2)]),
+  schemaVersion: z.union([z.literal(1), z.literal(2), z.literal(3)]),
   appVersion: str,
   exportedAt: str,
   data: z.object(Rows).refine(

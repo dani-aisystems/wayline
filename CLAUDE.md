@@ -21,6 +21,14 @@ Free, local-first English course (Pre-A1 → C2). React 19 + TypeScript (strict)
 - `src/i18n/strings.ts` — every interface string, English and Bulgarian.
 - `e2e/helpers.ts` — onboarding, level test and exercise-answering helpers for Playwright.
 
+## Exam preparation (B2 First, C1 Advanced)
+
+- Official structure, timings, marks, grade boundaries and the practice-test conversion table live in `src/content/exams/spec.ts`, with sources. Change them only from Cambridge's own documents.
+- Tasks are original JSON in `src/content/exams/packs/` (schema `src/content/exams/schema.ts`, closed tag list `tags.ts`). Check a pack with `node scripts/check-exam-pack.mjs <file>`; `npx vitest run src/content/exams` also checks that each mock set is complete and that multiple-choice keys aren't predictable by length or position.
+- Engine: `src/engine/exam/` — `scoring.ts` (incl. two-mark key word transformations), `record.ts` (attempts, evidence rows, XP once per attempt), `readiness.ts` (scale estimates with ranges), `plan.ts` (weakness → lesson → fresh task; five-phase roadmap; diagnostic), `writing.ts` (rule-based indicators only — learners confirm marks).
+- Every score shown is an estimate. Never present it as an official result; never present writing/speaking indicators as examiner marks.
+- Adding another exam: add its spec to `EXAMS`, its id to `ExamId`/`CertExam`, and packs.
+
 ## Natural voices
 
 Every English line the app speaks is pre-rendered, so learners hear the same natural voices on any device. After changing lesson text, expressions, alphabet or anything passed to `speak()`:

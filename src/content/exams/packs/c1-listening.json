@@ -1,0 +1,1483 @@
+{
+  "id": "c1-listening",
+  "tasks": [
+    {
+      "id": "c1.listen.m1.p1",
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 1,
+      "set": "mock-1",
+      "title": "Three conversations",
+      "topic": "Public life and ideas",
+      "instructions": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+      "status": "draft",
+      "kind": "listen-mc",
+      "extracts": [
+        {
+          "context": "You hear two colleagues discussing a public consultation about redesigning a city library.",
+          "speakers": [
+            {
+              "name": "Alicia",
+              "presents": "female",
+              "accent": "US"
+            },
+            {
+              "name": "Hugo",
+              "presents": "male",
+              "accent": "GB"
+            }
+          ],
+          "script": "Alicia: So, did you get through the consultation responses on the library redesign?\nHugo: Most of them. I have to say, I came to it fairly cynical. These exercises usually feel like a box-ticking job — the decisions have been made long before anyone's asked.\nAlicia: And this time?\nHugo: Grudgingly, I'd say it was different. People weren't just saying \"keep the books\". There were some genuinely sharp points about the lighting and the lack of anywhere for teenagers to go. Ideas the architects simply hadn't considered.\nAlicia: That chimes with what I saw. Though I'm uneasy about how few responses came from the east side of town. The people who rely on the library most are the ones who never fill in these forms.\nHugo: True. We could end up redesigning it for the people who need it least.\nAlicia: Which is why I think we should go out and talk to people there directly, rather than waiting for another online survey.\nHugo: I'd back you on that.",
+          "questions": [
+            {
+              "n": 1,
+              "question": "What does Hugo say about the consultation?",
+              "options": [
+                "It merely confirmed the architects' existing plans.",
+                "It produced more valuable input than he had anticipated.",
+                "It focused too heavily on preserving the book collection."
+              ],
+              "correct": 1,
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "Hugo \"came to it fairly cynical\" but admits \"Grudgingly, I'd say it was different\" — there were \"genuinely sharp points\" the architects \"hadn't considered\". A is his usual expectation (\"decisions ... made long before\"), which this time proved wrong. C: he says people were NOT \"just saying 'keep the books'\".",
+                "bg": "Хюго \"came to it fairly cynical\", но признава \"Grudgingly, I'd say it was different\" — имало е \"genuinely sharp points\", за които архитектите \"hadn't considered\". A е обичайното му очакване (\"decisions ... made long before\"), което този път не се оправдава. C: той казва, че хората НЕ са казвали само \"keep the books\"."
+              }
+            },
+            {
+              "n": 2,
+              "question": "What do the speakers agree about?",
+              "options": [
+                "The library needs more space for teenagers.",
+                "Online surveys should be abandoned altogether.",
+                "Some key groups were under-represented."
+              ],
+              "correct": 2,
+              "tag": "listen.agreement",
+              "why": {
+                "en": "Alicia is \"uneasy about how few responses came from the east side\", where people \"rely on the library most\"; Hugo replies \"True\" and adds they could redesign it \"for the people who need it least\". A is one point Hugo reports from the responses, not something they discuss and agree on. B overstates Alicia's idea: she wants to talk to people \"rather than waiting for another online survey\", not to abolish surveys.",
+                "bg": "Алиша е \"uneasy about how few responses came from the east side\", където хората \"rely on the library most\"; Хюго отговаря \"True\" и добавя, че може да я преустроят \"for the people who need it least\". A е само една от идеите в отговорите, които Хюго цитира. B преувеличава: Алиша иска да говорят с хората \"rather than waiting for another online survey\", а не да премахнат анкетите изобщо."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear two friends discussing a documentary about minimalism.",
+          "speakers": [
+            {
+              "name": "Nate",
+              "presents": "male",
+              "accent": "US"
+            },
+            {
+              "name": "Freya",
+              "presents": "female",
+              "accent": "GB"
+            }
+          ],
+          "script": "Nate: Did you watch that documentary on minimalism I sent you?\nFreya: I did. It was beautifully shot, I'll give it that. All those white rooms and single chairs, everything bathed in morning light.\nNate: But?\nFreya: But there was something a bit smug about it. Every person they interviewed had given up a well-paid job and moved somewhere idyllic. Owning less is a lot easier when you could buy it all back tomorrow.\nNate: That's a fair point, but I don't think it cancels out the main idea. I've been clearing out my flat since I watched it, and honestly, I feel lighter.\nFreya: Oh, I'm not knocking decluttering. I just bristle at it being sold as a philosophy when it's really a lifestyle option for people with money.\nNate: Mm. I'd say it can be both. Anyway, I've filled six bags for the charity shop, and I haven't missed a single thing.\nFreya: Then the film's done more good than I gave it credit for.",
+          "questions": [
+            {
+              "n": 3,
+              "question": "What is Freya's main criticism of the documentary?",
+              "options": [
+                "It treated a privileged choice as a universal ideal.",
+                "Its visual style distracted from its central message.",
+                "It exaggerated the practical benefits of owning less."
+              ],
+              "correct": 0,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "Freya objects to minimalism \"being sold as a philosophy when it's really a lifestyle option for people with money\" — everyone interviewed could \"buy it all back tomorrow\". B: she praises the filming (\"beautifully shot\"). C: she is \"not knocking decluttering\".",
+                "bg": "Фрея възразява, че минимализмът е \"sold as a philosophy when it's really a lifestyle option for people with money\" — всички интервюирани биха могли да \"buy it all back tomorrow\". B: тя хвали заснемането (\"beautifully shot\"). C: тя е \"not knocking decluttering\"."
+              }
+            },
+            {
+              "n": 4,
+              "question": "How does Nate respond to Freya's criticism?",
+              "options": [
+                "He accepts it partly but still values the film.",
+                "He suggests she has misread the film's intentions.",
+                "He admits it makes him doubt his own clear-out."
+              ],
+              "correct": 0,
+              "tag": "listen.agreement",
+              "why": {
+                "en": "\"That's a fair point, but I don't think it cancels out the main idea\" — he partly accepts her view and still finds the film worthwhile (he \"feel[s] lighter\"). B: he never says she misunderstood. C: he has \"filled six bags\" — no doubts.",
+                "bg": "\"That's a fair point, but I don't think it cancels out the main idea\" — частично приема мнението ѝ, но филмът пак му е полезен (\"feel lighter\"). B: той не казва, че тя не е разбрала. C: напълнил е \"six bags\" — никакви съмнения."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear two podcast hosts discussing a trial of the four-day working week.",
+          "speakers": [
+            {
+              "name": "Kofi",
+              "presents": "male",
+              "accent": "GB"
+            },
+            {
+              "name": "Ruth",
+              "presents": "female",
+              "accent": "US"
+            }
+          ],
+          "script": "Kofi: So the results of that trial are in — companies trying a four-day week with no cut in pay.\nRuth: And the headline is that productivity held up, which the sceptics said was impossible.\nKofi: It's striking. Though I'd want to know which companies volunteered. If you're the kind of firm that signs up for an experiment like this, you're probably already well run.\nRuth: That's the elephant in the room, isn't it? It's hardly a random sample.\nKofi: Exactly. And I'm not sure the results would transfer neatly to, say, hospitals or schools, where you can't just compress the work.\nRuth: Maybe not. But what interests me is something the report almost buries — staff said they'd stopped dreading Sunday evenings. That's not a productivity figure, but it might matter more.\nKofi: You think wellbeing should be the point, not a side effect?\nRuth: I think if we only judge it on output, we're asking the wrong question.",
+          "questions": [
+            {
+              "n": 5,
+              "question": "What concern do both speakers express about the trial?",
+              "options": [
+                "It lasted too short a time to be reliable.",
+                "Its results were reported in a misleading way.",
+                "The firms involved may not have been typical."
+              ],
+              "correct": 2,
+              "tag": "listen.agreement",
+              "why": {
+                "en": "Kofi suspects volunteer firms are \"probably already well run\"; Ruth agrees: \"It's hardly a random sample.\" A is never mentioned. B: Ruth says the report \"almost buries\" one finding — that's about emphasis, and Kofi doesn't share the point.",
+                "bg": "Кофи подозира, че фирмите доброволци са \"probably already well run\"; Рут се съгласява: \"It's hardly a random sample.\" A не се споменава. B: Рут казва, че докладът \"almost buries\" един резултат — става дума за акцент и Кофи не споделя тази мисъл."
+              }
+            },
+            {
+              "n": 6,
+              "question": "What point does Ruth make about the trial?",
+              "options": [
+                "It shows shorter weeks suit every sector.",
+                "It should be judged on more than output.",
+                "It has failed to win over the sceptics."
+              ],
+              "correct": 1,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "\"If we only judge it on output, we're asking the wrong question\" — wellbeing \"might matter more\". A: Kofi doubts the results transfer to hospitals or schools, and Ruth answers \"Maybe not\". C: she says productivity held up, \"which the sceptics said was impossible\" — nothing about whether they are now convinced.",
+                "bg": "\"If we only judge it on output, we're asking the wrong question\" — благосъстоянието \"might matter more\". A: Кофи се съмнява, че резултатите важат за болници и училища, а Рут отговаря \"Maybe not\". C: тя казва, че производителността се е запазила, \"which the sceptics said was impossible\" — нищо за това дали скептиците са убедени."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1.listen.m1.p2",
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 2,
+      "set": "mock-1",
+      "title": "Sound design for video games",
+      "topic": "Creative careers",
+      "instructions": "You will hear a sound designer called Imogen Clarke talking about her work on video games. For questions 7–14, complete the sentences with a word or short phrase.",
+      "status": "draft",
+      "kind": "listen-sentence",
+      "context": "You will hear a sound designer called Imogen Clarke talking about her work on video games.",
+      "speakers": [
+        {
+          "name": "Imogen",
+          "presents": "female",
+          "accent": "GB"
+        }
+      ],
+      "script": "I'm often asked how I ended up designing sound for video games, and the honest answer is that I backed into it. I trained as a cellist, and for years I assumed I'd spend my life in orchestras. It was a part-time job recording footsteps for a small studio that changed everything. I discovered I was far more excited by the creak of a floorboard than by anything in the classical repertoire.\n\nPeople tend to imagine the job is mainly about composing music, but music is often handled by someone else entirely. What I create are the sounds of the world itself: doors, weather, creatures, the hum of a spaceship engine. A single game can contain upwards of forty thousand individual sound files.\n\nA surprising amount of it is recorded in very ordinary ways. For a recent fantasy game, the beating of a dragon's wings came from me shaking a wet umbrella open and shut in front of a microphone. The crunch of bones, I'm slightly embarrassed to admit, is celery. Players never guess, and that's rather the point.\n\nThe real challenge, though, isn't making sounds. It's that in a game nothing happens the same way twice. In a film, a door slams once and you design that moment. In a game, the player might slam the same door a hundred times, and if it sounds identical every time, the brain notices almost immediately. So we record dozens of variations and the game picks between them at random. Repetition, more than anything else, is what breaks the illusion.\n\nThen there's silence, which I think is the most underrated tool we have. Before something frightening happens, I'll often strip away all the background sound for a few seconds. Players feel uneasy without knowing why. It's far more effective than a loud crash.\n\nOne thing that has changed enormously is accessibility. We now design with deaf and hard-of-hearing players in mind, which means every important sound needs a visual equivalent on screen — an arrow showing which direction an enemy is approaching from, for instance. It has made me much more disciplined about deciding which sounds actually matter to the player, and which are just decoration.\n\nIf there's a downside to the job, it's that I can no longer switch off. I'll be sitting in a café and find myself analysing the clatter of cups instead of listening to my friends. My partner has banned me from recording in restaurants.\n\nFor anyone hoping to get into the field, I'd say the most valuable thing isn't expensive equipment; a basic portable recorder will do. It's building a library of your own recordings. Studios want to hear that you notice the world, and the only way to prove that is to have captured it yourself.",
+      "questions": [
+        {
+          "n": 7,
+          "sentence": "Imogen's original training was as a ___.",
+          "accept": [
+            "cellist"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"I trained as a cellist.\" \"Orchestras\" is where she expected to work, not what she trained as.",
+            "bg": "\"I trained as a cellist.\" \"Orchestras\" е мястото, където е очаквала да работи, а не професията ѝ."
+          }
+        },
+        {
+          "n": 8,
+          "sentence": "A part-time job recording ___ led Imogen into her current career.",
+          "accept": [
+            "footsteps"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"It was a part-time job recording footsteps for a small studio that changed everything.\" \"The creak of a floorboard\" comes after and is an example of what excited her.",
+            "bg": "\"It was a part-time job recording footsteps for a small studio that changed everything.\" \"The creak of a floorboard\" идва след това и е пример за това, което я е вълнувало."
+          }
+        },
+        {
+          "n": 9,
+          "sentence": "One game may include more than ___ separate sound files.",
+          "accept": [
+            "forty thousand",
+            "40,000",
+            "40000",
+            "40 000"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"A single game can contain upwards of forty thousand individual sound files.\" \"Upwards of\" = \"more than\".",
+            "bg": "\"A single game can contain upwards of forty thousand individual sound files.\" \"Upwards of\" = \"more than\"."
+          }
+        },
+        {
+          "n": 10,
+          "sentence": "Imogen created the sound of a dragon's wings using a ___.",
+          "accept": [
+            "wet umbrella",
+            "umbrella"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"The beating of a dragon's wings came from me shaking a wet umbrella.\" Celery was used for a different sound (bones).",
+            "bg": "\"The beating of a dragon's wings came from me shaking a wet umbrella.\" Целината е за друг звук (кости)."
+          }
+        },
+        {
+          "n": 11,
+          "sentence": "According to Imogen, ___ is what most often destroys the player's sense that the game world is real.",
+          "accept": [
+            "repetition"
+          ],
+          "tag": "listen.opinion",
+          "why": {
+            "en": "\"Repetition, more than anything else, is what breaks the illusion.\" \"Destroys the player's sense that the world is real\" paraphrases \"breaks the illusion\".",
+            "bg": "\"Repetition, more than anything else, is what breaks the illusion.\" \"Destroys the player's sense that the world is real\" перифразира \"breaks the illusion\"."
+          }
+        },
+        {
+          "n": 12,
+          "sentence": "Imogen thinks ___ is the most underrated tool available to sound designers.",
+          "accept": [
+            "silence"
+          ],
+          "tag": "listen.opinion",
+          "why": {
+            "en": "\"Then there's silence, which I think is the most underrated tool we have.\" \"A loud crash\" is what she compares it with.",
+            "bg": "\"Then there's silence, which I think is the most underrated tool we have.\" \"A loud crash\" е това, с което я сравнява."
+          }
+        },
+        {
+          "n": 13,
+          "sentence": "Designing for deaf players has made Imogen more ___ in deciding which sounds matter.",
+          "accept": [
+            "disciplined"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"It has made me much more disciplined about deciding which sounds actually matter.\" The sentence reuses \"deciding which sounds matter\", so listen for the adjective just before it.",
+            "bg": "\"It has made me much more disciplined about deciding which sounds actually matter.\" Изречението повтаря \"deciding which sounds matter\", така че слушай за прилагателното точно преди това."
+          }
+        },
+        {
+          "n": 14,
+          "sentence": "Imogen recommends that newcomers build up a ___ of their own recordings.",
+          "accept": [
+            "library"
+          ],
+          "tag": "listen.opinion",
+          "why": {
+            "en": "\"It's building a library of your own recordings.\" She first rejects \"expensive equipment\" — the distractor.",
+            "bg": "\"It's building a library of your own recordings.\" Първо отхвърля \"expensive equipment\" — това е капанът."
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1.listen.m1.p3",
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 3,
+      "set": "mock-1",
+      "title": "Have we forgotten how to be bored?",
+      "topic": "Psychology and everyday life",
+      "instructions": "You will hear part of a radio programme in which a psychologist, Helena Price, and a novelist, Marcus Bell, are talking about boredom. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+      "status": "draft",
+      "kind": "listen-mc",
+      "extracts": [
+        {
+          "context": "You will hear part of a radio programme in which a psychologist, Helena Price, and a novelist, Marcus Bell, are talking about boredom.",
+          "speakers": [
+            {
+              "name": "Presenter",
+              "presents": "female",
+              "accent": "US"
+            },
+            {
+              "name": "Helena",
+              "presents": "female",
+              "accent": "GB"
+            },
+            {
+              "name": "Marcus",
+              "presents": "male",
+              "accent": "US"
+            }
+          ],
+          "script": "Presenter: With me today are the psychologist Helena Price and the novelist Marcus Bell, to talk about boredom — and whether we've forgotten how to be bored. Helena, is that actually a problem?\nHelena: I think it's a real one, though not in the way it's usually framed. The common story is that phones have destroyed our attention spans. I'm not convinced the evidence supports that. What I do see is that people have lost their tolerance for the feeling itself. The moment boredom arrives, we reach for something to make it go away, so we never find out what it might have led to.\nMarcus: Which, for a writer, is fatal. Nearly every idea I've had that was worth keeping arrived when I was doing something tedious — queuing at the post office, waiting for a train that was late. I used to resent those moments. Now I almost go looking for them.\nPresenter: Go looking for boredom?\nMarcus: Well, I leave my phone at home when I walk the dog, for instance. The first ten minutes are genuinely uncomfortable — I'm itching to check something. And then my mind starts wandering, and that's when the work happens. Though I'd be lying if I said I always managed it. Most days, I take the phone.\nHelena: That discomfort Marcus mentions is important. In one well-known set of studies, people left alone in a room with nothing to do often chose to give themselves a mild electric shock rather than just sit with their thoughts.\nMarcus: That's extraordinary. I'd have assumed almost anyone would choose the quiet.\nHelena: It is. But I'd be cautious about reading too much into it. People in a laboratory know they're being watched, and simple curiosity about the button plays a part. What it does suggest is that sitting with your own mind is a skill — and like any skill, it weakens if you never use it.\nPresenter: So should schools, say, be building boredom into the day?\nMarcus: I'm wary of that. The minute you timetable it, it stops being boredom and becomes an activity. \"Right, children, fifteen minutes of daydreaming.\" It defeats the purpose.\nHelena: I see the irony, but I'd push back a little. Not everyone has the luxury of long walks without a phone. For a lot of children, school is the only place an adult might protect some empty time for them. I'd rather it were a bit artificial than not there at all.\nMarcus: Fair enough. I suppose I'm thinking of my own childhood, which was boring in a very unplanned way.\nPresenter: Marcus, your new novel has a character who's deliberately cut herself off from all technology. Was that a kind of argument?\nMarcus: People keep reading it that way, and I understand why. But honestly, I was more interested in her loneliness than in the technology. She's not some heroic figure who's escaped the modern world. She's quite lost, actually. If readers come away thinking we should all throw our phones in the river, I've rather failed.\nPresenter: Helena, last word — what would you say to listeners who'd like to be bored a little more?\nHelena: Start small. Don't try to give up your phone for a week; you'll fail and feel worse. Just notice the next time you reach for it out of boredom — in a queue, say, or during an advert — and wait thirty seconds before you do. Often the urge passes. And occasionally, something interesting fills the gap.",
+          "questions": [
+            {
+              "n": 15,
+              "question": "What is Helena's view of the usual argument about boredom?",
+              "options": [
+                "It exaggerates how often people use their phones.",
+                "It rightly blames shrinking attention spans.",
+                "It overlooks the benefits technology has brought.",
+                "It mistakes what has really changed."
+              ],
+              "correct": 3,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "Helena says the problem is real \"though not in the way it's usually framed\": not damaged attention spans (\"I'm not convinced the evidence supports that\") but lost \"tolerance for the feeling itself\". B states the very idea she doubts. A and C are never discussed.",
+                "bg": "Хелена казва, че проблемът е реален, \"though not in the way it's usually framed\": не става дума за увредено внимание (\"I'm not convinced the evidence supports that\"), а за загубена \"tolerance for the feeling itself\". B е точно идеята, в която тя се съмнява. A и C не се обсъждат."
+              }
+            },
+            {
+              "n": 16,
+              "question": "What does Marcus admit about his efforts to seek out boredom?",
+              "options": [
+                "They are less productive than he had hoped.",
+                "He doesn't keep to them as often as he'd like.",
+                "He resents the time they take from writing.",
+                "He has given them up since getting a dog."
+              ],
+              "correct": 1,
+              "tag": "listen.inference",
+              "why": {
+                "en": "\"I'd be lying if I said I always managed it. Most days, I take the phone.\" A: when he manages it, \"that's when the work happens\". C: he \"used to resent\" boring moments — not any more. D: walking the dog is exactly when he tries it.",
+                "bg": "\"I'd be lying if I said I always managed it. Most days, I take the phone.\" A: когато успее, \"that's when the work happens\". C: той \"used to resent\" скучните моменти — вече не. D: разходката с кучето е точно моментът, в който опитва."
+              }
+            },
+            {
+              "n": 17,
+              "question": "Why does Helena mention the studies involving electric shocks?",
+              "options": [
+                "to support a claim she then qualifies",
+                "to show that laboratory research is unreliable",
+                "to prove that boredom can cause harm",
+                "to explain why people dislike being observed"
+              ],
+              "correct": 0,
+              "tag": "listen.purpose-function",
+              "why": {
+                "en": "She uses the studies to show how uncomfortable people find their own thoughts, then adds \"I'd be cautious about reading too much into it\" — a qualification. B goes too far: she lists limits of the study, but still says \"What it does suggest is…\". C and D twist details (the shock, being watched) into claims she doesn't make.",
+                "bg": "Тя използва изследванията, за да покаже колко неприятни са на хората собствените им мисли, а после добавя \"I'd be cautious about reading too much into it\" — уточнение. B е прекалено: тя посочва ограничения, но пак казва \"What it does suggest is…\". C и D изкривяват детайли (тока, наблюдението) в твърдения, които тя не прави."
+              }
+            },
+            {
+              "n": 18,
+              "question": "What do Marcus and Helena disagree about?",
+              "options": [
+                "whether children get bored more easily than adults",
+                "whether schools already give pupils too much free time",
+                "whether empty time can usefully be scheduled",
+                "whether daydreaming improves results at school"
+              ],
+              "correct": 2,
+              "tag": "listen.agreement",
+              "why": {
+                "en": "Marcus thinks that if you \"timetable\" boredom, \"it defeats the purpose\"; Helena would \"rather it were a bit artificial than not there at all\". A, B and D are not discussed — the children are mentioned only as the people who might get protected empty time.",
+                "bg": "Маркъс смята, че ако \"timetable\" скуката, \"it defeats the purpose\"; Хелена би \"rather it were a bit artificial than not there at all\". A, B и D не се обсъждат — децата се споменават само като тези, за които може да се пази свободно време."
+              }
+            },
+            {
+              "n": 19,
+              "question": "What does Marcus say about the character in his novel?",
+              "options": [
+                "She was based on his own break from technology.",
+                "She is meant as an example for readers to follow.",
+                "Readers have criticised her as unrealistic.",
+                "She has been read in a way he didn't intend."
+              ],
+              "correct": 3,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "\"People keep reading it that way\" (as an argument against technology), but \"I was more interested in her loneliness\". B is precisely the reading he rejects (\"not some heroic figure\"). A and C are not mentioned.",
+                "bg": "\"People keep reading it that way\" (като аргумент срещу технологиите), но \"I was more interested in her loneliness\". B е точно тълкуването, което отхвърля (\"not some heroic figure\"). A и C не се споменават."
+              }
+            },
+            {
+              "n": 20,
+              "question": "What does Helena recommend to listeners?",
+              "options": [
+                "briefly delaying their reaction to boredom",
+                "giving up their phones for a fixed period",
+                "keeping a written record of when they get bored",
+                "replacing phone use with an absorbing hobby"
+              ],
+              "correct": 0,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"Wait thirty seconds before you do. Often the urge passes.\" B is what she warns against: \"Don't try to give up your phone for a week\". C twists \"notice\": she says to notice, not to write anything down. D is not mentioned.",
+                "bg": "\"Wait thirty seconds before you do. Often the urge passes.\" B е точно това, срещу което предупреждава: \"Don't try to give up your phone for a week\". C изкривява \"notice\": тя казва да забележиш, не да записваш. D не се споменава."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1.listen.m1.p4",
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 4,
+      "set": "mock-1",
+      "title": "Changing career",
+      "topic": "Work and life choices",
+      "instructions": "You will hear five short extracts in which people are talking about changing career. While you listen, you must complete both tasks. For questions 21–25, choose from the list (A–H) the main reason each speaker gives for changing career. For questions 26–30, choose from the list (A–H) what each speaker has found most challenging about the change.",
+      "status": "draft",
+      "kind": "listen-matching",
+      "context": "You will hear five short extracts in which people are talking about changing career.",
+      "monologues": [
+        {
+          "speaker": {
+            "name": "Gwen",
+            "presents": "female",
+            "accent": "GB"
+          },
+          "script": "For twelve years I was a corporate lawyer, and I was good at it, but I'd go home some evenings wondering who exactly I'd helped, apart from shareholders. I wanted to see the difference I made in someone's face, not on a balance sheet. So I retrained as a primary teacher. The drop in salary was a shock, but we'd planned for that. What I hadn't anticipated was how much I'd miss being taken seriously at dinner parties. People's eyes glaze over when you say you teach seven-year-olds. Petty of me, I know, but there it is."
+        },
+        {
+          "speaker": {
+            "name": "Rob",
+            "presents": "male",
+            "accent": "US"
+          },
+          "script": "I'd have happily stayed at the plant till I retired, to be honest. I liked the people, liked the routine. Then they announced it was closing and moving production overseas, and suddenly I had six months to figure out what came next. A buddy of mine had gone into web development, so I signed up for a bootcamp. My wife was behind me all the way, which helped. The younger guys on the course couldn't have been friendlier, either. But I'm fifty-two, and some of this stuff just doesn't stick the way it would've at twenty. I'd spend whole weekends on things they'd pick up in an hour."
+        },
+        {
+          "speaker": {
+            "name": "Mei",
+            "presents": "female",
+            "accent": "US"
+          },
+          "script": "Accounting paid well and I never hated it, exactly. But I'd been doing pottery in the evenings for years, and at some point I realized the evenings were where I actually lived. I wanted my days to involve making something, not just checking it. So I opened a small studio. Financially, it's tight, but honestly that bothers me less than I expected. What wears me down is the reaction. My old colleagues still ask when I'm going to come back to a real job, as if this were a midlife crisis that'll blow over."
+        },
+        {
+          "speaker": {
+            "name": "Callum",
+            "presents": "male",
+            "accent": "GB"
+          },
+          "script": "I'd been sitting at a desk in an IT department for fifteen years, and my back finally gave out. The physio was blunt: keep sitting all day and it'll only get worse. So I retrained in landscape gardening. People assume the physical side must be brutal, but actually my back's never been better. And I love being outdoors, though that was a bonus rather than the point. The bit I've struggled with is the solitude. I used to moan about office chatter, but you'd be amazed how much you miss it when the only voice you hear all day is the radio."
+        },
+        {
+          "speaker": {
+            "name": "Leon",
+            "presents": "male",
+            "accent": "US"
+          },
+          "script": "I spent most of my twenties in a bank in Denver, staring out of the window at the mountains. Eventually I thought, why am I looking at them instead of being in them? So I took a pay cut and became a park ranger. My dad thought I'd lost my mind, but he's come around. What nobody warned me about is how physically draining it is. I thought I was fit — I ran marathons — but carrying equipment up trails all day and clearing fallen trees is a completely different thing. For the first year I was asleep by eight."
+        }
+      ],
+      "tasks": [
+        {
+          "prompt": "TASK ONE: For questions 21–25, choose from the list (A–H) the main reason each speaker gives for changing career.",
+          "options": [
+            {
+              "letter": "A",
+              "text": "a wish to do more creative work"
+            },
+            {
+              "letter": "B",
+              "text": "a health problem"
+            },
+            {
+              "letter": "C",
+              "text": "encouragement from someone close"
+            },
+            {
+              "letter": "D",
+              "text": "the desire to work outdoors"
+            },
+            {
+              "letter": "E",
+              "text": "the loss of a previous job"
+            },
+            {
+              "letter": "F",
+              "text": "a wish to help people more directly"
+            },
+            {
+              "letter": "G",
+              "text": "a need for greater financial security"
+            },
+            {
+              "letter": "H",
+              "text": "frustration with a fixed routine"
+            }
+          ],
+          "questions": [
+            {
+              "n": 21,
+              "answer": "F",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Gwen wondered \"who exactly I'd helped\" and wanted to \"see the difference I made in someone's face\". G is wrong: her salary went down, not up.",
+                "bg": "Гуен се е питала \"who exactly I'd helped\" и е искала да \"see the difference I made in someone's face\". G е грешно: заплатата ѝ е намаляла, не се е увеличила."
+              }
+            },
+            {
+              "n": 22,
+              "answer": "E",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Rob's plant was \"closing and moving production overseas\". H is wrong: he \"liked the routine\". C is a trap: his wife \"was behind me\", but that support came after the decision was forced on him.",
+                "bg": "Заводът на Роб е \"closing and moving production overseas\". H е грешно: той \"liked the routine\". C е капан: съпругата му \"was behind me\", но подкрепата идва след като решението му е наложено."
+              }
+            },
+            {
+              "n": 23,
+              "answer": "A",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Mei \"wanted my days to involve making something, not just checking it\" — creative work (pottery). G is wrong: her new life is financially \"tight\".",
+                "bg": "Мей \"wanted my days to involve making something, not just checking it\" — творческа работа (керамика). G е грешно: финансово сега е \"tight\"."
+              }
+            },
+            {
+              "n": 24,
+              "answer": "B",
+              "tag": "listen.gist",
+              "why": {
+                "en": "\"My back finally gave out\" and the physio warned it would \"only get worse\". D is the trap: being outdoors \"was a bonus rather than the point\".",
+                "bg": "\"My back finally gave out\" и физиотерапевтът го предупреждава, че \"only get worse\". D е капанът: да е навън \"was a bonus rather than the point\"."
+              }
+            },
+            {
+              "n": 25,
+              "answer": "D",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Leon looked at the mountains and asked \"why am I looking at them instead of being in them?\" C is wrong: his dad \"thought I'd lost my mind\" — the opposite of encouragement.",
+                "bg": "Леон гледа планините и се пита \"why am I looking at them instead of being in them?\" C е грешно: баща му \"thought I'd lost my mind\" — обратното на насърчение."
+              }
+            }
+          ]
+        },
+        {
+          "prompt": "TASK TWO: For questions 26–30, choose from the list (A–H) what each speaker has found most challenging about the change.",
+          "options": [
+            {
+              "letter": "A",
+              "text": "adjusting to a lower income"
+            },
+            {
+              "letter": "B",
+              "text": "feeling out of place among younger colleagues"
+            },
+            {
+              "letter": "C",
+              "text": "mastering unfamiliar skills"
+            },
+            {
+              "letter": "D",
+              "text": "other people's scepticism about the decision"
+            },
+            {
+              "letter": "E",
+              "text": "coping with irregular working hours"
+            },
+            {
+              "letter": "F",
+              "text": "losing a sense of status"
+            },
+            {
+              "letter": "G",
+              "text": "the physical demands of the job"
+            },
+            {
+              "letter": "H",
+              "text": "spending most of the day alone"
+            }
+          ],
+          "questions": [
+            {
+              "n": 26,
+              "answer": "F",
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "Gwen misses \"being taken seriously at dinner parties\" — people's \"eyes glaze over\". A is rejected: the salary drop was \"a shock, but we'd planned for that\".",
+                "bg": "На Гуен ѝ липсва \"being taken seriously at dinner parties\" — на хората \"eyes glaze over\". A е отхвърлено: спадът на заплатата е \"a shock, but we'd planned for that\"."
+              }
+            },
+            {
+              "n": 27,
+              "answer": "C",
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"Some of this stuff just doesn't stick ... I'd spend whole weekends on things they'd pick up in an hour.\" B is rejected: the younger people \"couldn't have been friendlier\".",
+                "bg": "\"Some of this stuff just doesn't stick ... I'd spend whole weekends on things they'd pick up in an hour.\" B е отхвърлено: по-младите \"couldn't have been friendlier\"."
+              }
+            },
+            {
+              "n": 28,
+              "answer": "D",
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"What wears me down is the reaction\" — ex-colleagues treat it as \"a midlife crisis that'll blow over\". A is rejected: money \"bothers me less than I expected\".",
+                "bg": "\"What wears me down is the reaction\" — бившите колеги го приемат като \"a midlife crisis that'll blow over\". A е отхвърлено: парите \"bothers me less than I expected\"."
+              }
+            },
+            {
+              "n": 29,
+              "answer": "H",
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"The bit I've struggled with is the solitude\" — the only voice he hears is the radio. G is rejected: \"my back's never been better\".",
+                "bg": "\"The bit I've struggled with is the solitude\" — единственият глас, който чува, е радиото. G е отхвърлено: \"my back's never been better\"."
+              }
+            },
+            {
+              "n": 30,
+              "answer": "G",
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"How physically draining it is ... For the first year I was asleep by eight.\" D is rejected: his dad \"has come around\". A: he \"took a pay cut\" but doesn't present it as a problem.",
+                "bg": "\"How physically draining it is ... For the first year I was asleep by eight.\" D е отхвърлено: баща му \"has come around\". A: той \"took a pay cut\", но не го представя като трудност."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1.listen.m2.p1",
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 1,
+      "set": "mock-2",
+      "title": "Three conversations",
+      "topic": "Work, culture and science",
+      "instructions": "You will hear three different extracts. For questions 1–6, choose the answer (A, B or C) which fits best according to what you hear. There are two questions for each extract.",
+      "status": "draft",
+      "kind": "listen-mc",
+      "extracts": [
+        {
+          "context": "You hear two colleagues discussing a new mentoring scheme at their company.",
+          "speakers": [
+            {
+              "name": "Oscar",
+              "presents": "male",
+              "accent": "GB"
+            },
+            {
+              "name": "Diane",
+              "presents": "female",
+              "accent": "US"
+            }
+          ],
+          "script": "Oscar: Have you signed up for the mentoring scheme yet?\nDiane: I've been putting it off. I'm not sure I see the point of being paired with someone senior from a completely different department.\nOscar: That's exactly what appealed to me, though. If my mentor were in finance with me, we'd just end up talking shop. Someone from outside can ask the naive questions.\nDiane: Maybe. My real worry is more practical. Everyone senior is already stretched. I can't imagine they'll give it more than a token half hour a month, and then it's just a box on someone's appraisal form.\nOscar: That's a risk, sure. Though I gather they're only taking mentors who volunteer, not people who've been told to do it.\nDiane: Well, that does change things somewhat. Reluctant mentors would be worse than none at all.\nOscar: So does that mean you'll sign up?\nDiane: Let's say I'll read the details properly before I dismiss it out of hand.",
+          "questions": [
+            {
+              "n": 1,
+              "question": "What is Diane's main reservation about the scheme?",
+              "options": [
+                "Mentors from other departments will lack relevant knowledge.",
+                "Junior staff will be reluctant to get involved.",
+                "Senior staff may not give it enough of their time."
+              ],
+              "correct": 2,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "\"My real worry is more practical. Everyone senior is already stretched ... a token half hour a month.\" A is her first comment, but \"My real worry\" signals that the main point comes next — and Oscar has already given a counter-argument. B: \"reluctant\" is used about mentors, not junior staff.",
+                "bg": "\"My real worry is more practical. Everyone senior is already stretched ... a token half hour a month.\" A е първата ѝ забележка, но \"My real worry\" показва, че главното идва след това — а и Оскар вече я е оборил. B: \"reluctant\" се отнася за менторите, не за младшите служители."
+              }
+            },
+            {
+              "n": 2,
+              "question": "How does Diane react to the information about volunteer mentors?",
+              "options": [
+                "She is partly reassured by it.",
+                "She suspects it isn't accurate.",
+                "She feels it confirms her doubts."
+              ],
+              "correct": 0,
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"Well, that does change things somewhat\" and she'll now \"read the details properly\" — partly reassured. B: she doesn't question whether it's true. C: it weakens her worry rather than confirming it.",
+                "bg": "\"Well, that does change things somewhat\" и вече ще \"read the details properly\" — донякъде е успокоена. B: не се съмнява дали е вярно. C: информацията отслабва тревогата ѝ, вместо да я потвърждава."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear two friends talking about a cinema that has recently been restored.",
+          "speakers": [
+            {
+              "name": "Beth",
+              "presents": "female",
+              "accent": "GB"
+            },
+            {
+              "name": "Nico",
+              "presents": "male",
+              "accent": "US"
+            }
+          ],
+          "script": "Beth: I went to the reopening of the Regent on Saturday. Have you been yet?\nNico: Not yet. I gather they've kept all the original plasterwork.\nBeth: They have, and it's gorgeous — all that gold leaf on the ceiling. But I came away feeling oddly flat.\nNico: Why's that?\nBeth: It's so pristine. I remember it as a slightly shabby, sticky-floored place where you went with your mates on a Friday. Now it feels like a museum of itself. I half expected an usher to tell me not to touch anything.\nNico: I suppose the alternative was letting it fall down. It was a year away from being demolished.\nBeth: Oh, I know. I'm not saying they should have left it to rot. It's more that they've restored the building and lost the atmosphere.\nNico: Give it time. Once there are popcorn stains on the new carpet, it'll feel lived in again.\nBeth: You might be right. I'll go back in a few months and see.",
+          "questions": [
+            {
+              "n": 3,
+              "question": "How does Beth feel about the restored cinema?",
+              "options": [
+                "She thinks the restoration was inaccurate.",
+                "She misses the character it used to have.",
+                "She has doubts about whether it was worth saving."
+              ],
+              "correct": 1,
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"They've restored the building and lost the atmosphere\" — she remembers a \"slightly shabby, sticky-floored place\". A: the plasterwork is original and \"gorgeous\". C: \"I'm not saying they should have left it to rot.\"",
+                "bg": "\"They've restored the building and lost the atmosphere\" — тя помни едно \"slightly shabby, sticky-floored place\". A: гипсовата украса е оригинална и \"gorgeous\". C: \"I'm not saying they should have left it to rot.\""
+              }
+            },
+            {
+              "n": 4,
+              "question": "What does Nico suggest?",
+              "options": [
+                "The building was in worse condition than Beth realises.",
+                "The cinema's atmosphere will return as it gets used.",
+                "Beth's memories of the old cinema are unreliable."
+              ],
+              "correct": 1,
+              "tag": "listen.inference",
+              "why": {
+                "en": "\"Give it time. Once there are popcorn stains on the new carpet, it'll feel lived in again.\" A: he mentions the danger of demolition, but Beth replies \"Oh, I know\" — he isn't telling her something she doesn't realise. C is never implied.",
+                "bg": "\"Give it time. Once there are popcorn stains on the new carpet, it'll feel lived in again.\" A: той споменава опасността от събаряне, но Бет отговаря \"Oh, I know\" — не ѝ казва нещо непознато. C не се подразбира никъде."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear two scientists talking about a public science event.",
+          "speakers": [
+            {
+              "name": "Felix",
+              "presents": "male",
+              "accent": "GB"
+            },
+            {
+              "name": "Tara",
+              "presents": "female",
+              "accent": "US"
+            }
+          ],
+          "script": "Felix: I did one of those public science evenings last night, in a pub.\nTara: How did it go?\nFelix: Better than I'd feared. I'd prepared about forty slides and abandoned most of them after five minutes. Someone asked whether the virus I study could jump to humans, and the whole evening went off in that direction.\nTara: That's the bit I find hard. You plan this careful narrative, and the audience just wants the scary headline.\nFelix: I used to think that too. But actually, their questions were sharper than half the ones I get at conferences. They just weren't the questions I'd planned for.\nTara: Hmm. I suppose I worry about saying something off the cuff that gets quoted out of context.\nFelix: That's fair. But if we only ever talk to the public through press releases, we can hardly complain when they don't trust us.\nTara: Point taken. Maybe I'll sign up for the next one.",
+          "questions": [
+            {
+              "n": 5,
+              "question": "What does Felix say about the audience at the event?",
+              "options": [
+                "They were more perceptive than he'd expected.",
+                "They were mainly interested in alarming stories.",
+                "They found his slides too technical to follow."
+              ],
+              "correct": 0,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "\"Their questions were sharper than half the ones I get at conferences.\" B is Tara's assumption (\"the audience just wants the scary headline\"), which Felix rejects: \"I used to think that too. But…\". C: he dropped the slides because the discussion changed direction, not because they were too hard.",
+                "bg": "\"Their questions were sharper than half the ones I get at conferences.\" B е предположението на Тара (\"the audience just wants the scary headline\"), което Феликс отхвърля: \"I used to think that too. But…\". C: изоставил е слайдовете, защото разговорът е тръгнал в друга посока, не защото са били трудни."
+              }
+            },
+            {
+              "n": 6,
+              "question": "Why does Felix think scientists should take part in such events?",
+              "options": [
+                "to improve their own presentation skills",
+                "to gather ideas for future research",
+                "to build public trust in their work"
+              ],
+              "correct": 2,
+              "tag": "listen.purpose-function",
+              "why": {
+                "en": "\"If we only ever talk to the public through press releases, we can hardly complain when they don't trust us.\" A and B are plausible reasons, but Felix mentions neither.",
+                "bg": "\"If we only ever talk to the public through press releases, we can hardly complain when they don't trust us.\" A и B звучат правдоподобно, но Феликс не споменава нито едното."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1.listen.m2.p2",
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Volunteering on an archaeological dig",
+      "topic": "History and volunteering",
+      "instructions": "You will hear a man called Ethan Brooks talking about volunteering on an archaeological dig. For questions 7–14, complete the sentences with a word or short phrase.",
+      "status": "draft",
+      "kind": "listen-sentence",
+      "context": "You will hear a man called Ethan Brooks talking about his experience as a volunteer on an archaeological dig.",
+      "speakers": [
+        {
+          "name": "Ethan",
+          "presents": "male",
+          "accent": "US"
+        }
+      ],
+      "script": "Last summer I spent four weeks as a volunteer on an archaeological dig in the north of England, at the site of a Roman fort. I'm a software developer by trade, so I had no relevant qualifications whatsoever, and I'd assumed I'd be fetching tea for the professionals. In fact, by the second morning I'd been handed a trowel and a square of earth to call my own.\n\nThe first thing that struck me was how slow it is. Television gives you the impression that archaeologists are constantly pulling gold coins out of the ground. In reality, a good day might mean removing five centimetres of soil from an area the size of a kitchen table. And every single thing is recorded. The director's favourite saying was that digging is destruction, because once you've removed a layer, it's gone forever, and your notes are all that's left.\n\nWhat we were mostly finding was pottery: thousands of fragments, most no bigger than a thumbnail. I'll admit I found that tedious at first. But one of the specialists showed me how a single fragment can be dated to within about twenty years, just from the shape of its rim. After that, every scrap felt like a clue, and I started pestering her with questions about every piece I found.\n\nMy own best moment came in week three. I was working in what turned out to be a rubbish pit, and I uncovered a leather shoe — a child's shoe, still with its little iron nails in the sole. The ground there is waterlogged, which is why leather survives; on dry sites it almost never does. Holding something a Roman child had actually worn was oddly moving. I hadn't expected to feel that.\n\nPhysically, it was harder than I'd anticipated. You spend hours kneeling, and despite the padded mat I'd bought, my knees complained for the whole month. The weather didn't help either: we lost six days to rain, and on the days we did work, the trenches were often ankle-deep in mud.\n\nThe social side, though, was a delight. There were about thirty volunteers, ranging from a retired dentist in her eighties to students who'd never held a trowel either. Evenings in the campsite kitchen were where you really learned things, because the experts would relax and tell stories they'd never put in a published report.\n\nIf you're tempted, the one thing I'd urge you to bring is curiosity rather than any particular skill. They'll teach you technique. What they can't teach is the willingness to ask what something is, and to keep on asking.\n\nAs for me, I've already booked for next year, at a different site further along the old Roman wall. And I've started an evening course in Roman history, which my colleagues find very amusing.",
+      "questions": [
+        {
+          "n": 7,
+          "sentence": "Before the dig, Ethan assumed his main job would be ___.",
+          "accept": [
+            "fetching tea"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"I'd assumed I'd be fetching tea for the professionals.\" In fact, he was given a trowel on the second morning.",
+            "bg": "\"I'd assumed I'd be fetching tea for the professionals.\" Всъщност още на втората сутрин са му дали мистрия."
+          }
+        },
+        {
+          "n": 8,
+          "sentence": "On a good day, volunteers might remove only ___ of soil.",
+          "accept": [
+            "five centimetres",
+            "five centimeters",
+            "5 centimetres",
+            "5 centimeters",
+            "5 cm",
+            "5cm"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"A good day might mean removing five centimetres of soil.\" \"The size of a kitchen table\" describes the area, not the depth.",
+            "bg": "\"A good day might mean removing five centimetres of soil.\" \"The size of a kitchen table\" описва площта, не дълбочината."
+          }
+        },
+        {
+          "n": 9,
+          "sentence": "The dig director liked to say that digging is a form of ___.",
+          "accept": [
+            "destruction"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"The director's favourite saying was that digging is destruction.\" The reason follows: once a layer is removed, \"it's gone forever\".",
+            "bg": "\"The director's favourite saying was that digging is destruction.\" Причината идва след това: щом махнеш един пласт, \"it's gone forever\"."
+          }
+        },
+        {
+          "n": 10,
+          "sentence": "Ethan learned that a piece of pottery can be dated from the shape of its ___.",
+          "accept": [
+            "rim"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"A single fragment can be dated to within about twenty years, just from the shape of its rim.\" \"Thumbnail\" describes the size of the fragments, not the feature used for dating.",
+            "bg": "\"A single fragment can be dated to within about twenty years, just from the shape of its rim.\" \"Thumbnail\" описва размера на парчетата, а не признака за датиране."
+          }
+        },
+        {
+          "n": 11,
+          "sentence": "In a rubbish pit, Ethan found a child's ___.",
+          "accept": [
+            "leather shoe",
+            "shoe"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"I uncovered a leather shoe — a child's shoe.\" The iron nails are part of the shoe, not a separate find.",
+            "bg": "\"I uncovered a leather shoe — a child's shoe.\" Железните гвоздейчета са част от обувката, не отделна находка."
+          }
+        },
+        {
+          "n": 12,
+          "sentence": "Leather has survived on this site because the ground is ___.",
+          "accept": [
+            "waterlogged"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"The ground there is waterlogged, which is why leather survives.\" Contrast: \"on dry sites it almost never does\".",
+            "bg": "\"The ground there is waterlogged, which is why leather survives.\" Контраст: \"on dry sites it almost never does\"."
+          }
+        },
+        {
+          "n": 13,
+          "sentence": "Throughout the dig, Ethan's ___ caused him discomfort.",
+          "accept": [
+            "knees"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"My knees complained for the whole month.\" \"Complained\" is used figuratively = they hurt. The \"padded mat\" did not solve the problem.",
+            "bg": "\"My knees complained for the whole month.\" \"Complained\" е преносно = боляха го. \"Padded mat\" не е решило проблема."
+          }
+        },
+        {
+          "n": 14,
+          "sentence": "Ethan says the most important thing a volunteer can bring is ___.",
+          "accept": [
+            "curiosity"
+          ],
+          "tag": "listen.opinion",
+          "why": {
+            "en": "\"The one thing I'd urge you to bring is curiosity rather than any particular skill.\" \"Skill\" and \"technique\" are what they will teach you.",
+            "bg": "\"The one thing I'd urge you to bring is curiosity rather than any particular skill.\" \"Skill\" и \"technique\" са това, на което ще те научат."
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1.listen.m2.p3",
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 3,
+      "set": "mock-2",
+      "title": "The art of literary translation",
+      "topic": "Literature and language",
+      "instructions": "You will hear an interview with a literary translator called Lucia Ferrante. For questions 15–20, choose the answer (A, B, C or D) which fits best according to what you hear.",
+      "status": "draft",
+      "kind": "listen-mc",
+      "extracts": [
+        {
+          "context": "You will hear an interview with a literary translator called Lucia Ferrante.",
+          "speakers": [
+            {
+              "name": "Host",
+              "presents": "male",
+              "accent": "GB"
+            },
+            {
+              "name": "Lucia",
+              "presents": "female",
+              "accent": "US"
+            }
+          ],
+          "script": "Host: My guest today is Lucia Ferrante, who has translated more than thirty novels from Italian into English. Lucia, translators are often described as invisible. Is that how you see yourself?\nLucia: It used to be the ideal — the translation should read as if it had been written in English, and the reader should forget I exist. I've grown uneasy with that. Every sentence I produce involves dozens of choices that another translator would make differently. Pretending those choices aren't there is a kind of dishonesty, even if it's a well-meant one.\nHost: So you'd like your name on the cover?\nLucia: That's part of it, and things are slowly changing there. But it's less about credit than about readers understanding what they're holding. When someone says \"I loved the style of this book\", they're partly praising me, and they ought to know that — not for the sake of my ego, but because it changes how you read.\nHost: Is there a particular kind of thing that's hardest to translate? People usually say jokes.\nLucia: Jokes are hard, but at least you know when you've failed. What really keeps me up at night is tone — a character who's being very slightly sarcastic, or a narrator whose politeness is a little too elaborate to be sincere. Italian has ways of signalling that through grammar that English simply doesn't, so I have to find other routes. You can get every word right and still lose the person.\nHost: You've worked closely with some of your authors. Does that help?\nLucia: Enormously, usually. Though I had one author who wanted to approve every line, and he read English rather less well than he believed. He kept \"correcting\" things back into very literal phrasing. In the end, his editor had to step in. I'm fond of him now, but that book took twice as long as it should have.\nHost: There's been a lot of talk about machine translation. Should you be worried?\nLucia: For some kinds of work, yes — instruction manuals, contracts. For fiction, I'm less anxious than people expect. The tools are remarkably good at producing something fluent. The trouble is that fluent is not the same as good, and most readers can't tell the difference on the first page. A machine will smooth out exactly the strangeness an author worked hardest to create. Where I do worry is that publishers, under financial pressure, will decide fluent is good enough.\nHost: How did you get into translation in the first place?\nLucia: Through stubbornness, mostly. At university I read an Italian novel that I adored, and I was baffled that nobody had translated it. So I did — badly, it turns out — and sent it to every publisher I could find. They all said no. But one editor wrote back saying the translation was poor and my instincts were good, and offered me a short story to try instead. I've never been so pleased to be told I was bad at something.\nHost: Finally, what would you say to someone thinking of becoming a literary translator?\nLucia: Read far more in your own language than in the one you're translating from. People assume the foreign language is the hard part. It isn't. Understanding the Italian is the easy bit — finding English that's as alive as the original, that's the job. And you only get that from reading widely in English.",
+          "questions": [
+            {
+              "n": 15,
+              "question": "What is Lucia's current view of the idea that translators should be invisible?",
+              "options": [
+                "It is still the best standard to aim for.",
+                "It underestimates how much readers notice.",
+                "It conceals the decisions translators make.",
+                "It was never taken seriously by publishers."
+              ],
+              "correct": 2,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "\"Every sentence ... involves dozens of choices ... Pretending those choices aren't there is a kind of dishonesty.\" A is what it \"used to be\", but she has \"grown uneasy with that\". B and D are not stated.",
+                "bg": "\"Every sentence ... involves dozens of choices ... Pretending those choices aren't there is a kind of dishonesty.\" A е това, което \"used to be\", но тя е \"grown uneasy with that\". B и D не се казват."
+              }
+            },
+            {
+              "n": 16,
+              "question": "What does Lucia find most difficult to translate?",
+              "options": [
+                "jokes that depend on wordplay",
+                "grammar with no English equivalent",
+                "words with several possible meanings",
+                "subtle signs of a speaker's attitude"
+              ],
+              "correct": 3,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"What really keeps me up at night is tone — ... slightly sarcastic ... politeness ... too elaborate to be sincere.\" A: jokes are hard, \"but at least you know when you've failed\". B is a trap: Italian grammar is how tone is signalled, but the difficulty is the tone itself.",
+                "bg": "\"What really keeps me up at night is tone — ... slightly sarcastic ... politeness ... too elaborate to be sincere.\" A: шегите са трудни, \"but at least you know when you've failed\". B е капан: италианската граматика е начинът, по който се предава тонът, но трудността е самият тон."
+              }
+            },
+            {
+              "n": 17,
+              "question": "What does Lucia say about the author she mentions?",
+              "options": [
+                "He refused to answer her questions about the text.",
+                "He overestimated his ability to judge her work.",
+                "He was unhappy with the final published version.",
+                "He insisted on changing the plot for new readers."
+              ],
+              "correct": 1,
+              "tag": "listen.inference",
+              "why": {
+                "en": "\"He read English rather less well than he believed\" and kept \"correcting\" her work into literal phrasing. A, C and D are not mentioned; the editor's intervention is about his corrections, not the plot.",
+                "bg": "\"He read English rather less well than he believed\" и постоянно \"correcting\" превода ѝ към буквални изрази. A, C и D не се споменават; намесата на редактора е заради поправките му, не заради сюжета."
+              }
+            },
+            {
+              "n": 18,
+              "question": "What is Lucia's main concern about machine translation of fiction?",
+              "options": [
+                "Publishers may accept lower standards.",
+                "It will replace most technical translators.",
+                "Its output is often grammatically poor.",
+                "Authors may start writing for machines."
+              ],
+              "correct": 0,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "\"Where I do worry is that publishers ... will decide fluent is good enough.\" B: she says manuals and contracts are at risk, but her question is about fiction, where she is \"less anxious\". C contradicts her: the tools produce \"something fluent\".",
+                "bg": "\"Where I do worry is that publishers ... will decide fluent is good enough.\" B: казва, че ръководствата и договорите са застрашени, но въпросът е за художествената литература, където е \"less anxious\". C ѝ противоречи: инструментите създават \"something fluent\"."
+              }
+            },
+            {
+              "n": 19,
+              "question": "Why was Lucia pleased by the editor's response?",
+              "options": [
+                "It offered to publish her first translation.",
+                "It saw promise in her despite her weaknesses.",
+                "It persuaded her to translate another novel.",
+                "It encouraged her to study translation formally."
+              ],
+              "correct": 1,
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "The editor said \"the translation was poor and my instincts were good\" — she was \"pleased to be told I was bad at something\" because her potential was recognised. A is a trap: the editor offered \"a short story to try instead\", not to publish her novel translation. C: a short story, not a novel.",
+                "bg": "Редакторът казва, че \"the translation was poor and my instincts were good\" — тя е \"pleased to be told I was bad at something\", защото потенциалът ѝ е забелязан. A е капан: редакторът предлага \"a short story to try instead\", а не да издаде превода ѝ. C: разказ, не роман."
+              }
+            },
+            {
+              "n": 20,
+              "question": "What advice does Lucia give to new translators?",
+              "options": [
+                "Spend time living where the source language is spoken.",
+                "Specialise in one kind of literature early on.",
+                "Concentrate on perfecting the foreign language.",
+                "Develop their writing in their own language."
+              ],
+              "correct": 3,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"Read far more in your own language ... finding English that's as alive as the original, that's the job.\" C is the common assumption she rejects: \"People assume the foreign language is the hard part. It isn't.\" A and B are not mentioned.",
+                "bg": "\"Read far more in your own language ... finding English that's as alive as the original, that's the job.\" C е често срещаното мнение, което тя отхвърля: \"People assume the foreign language is the hard part. It isn't.\" A и B не се споменават."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1.listen.m2.p4",
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 4,
+      "set": "mock-2",
+      "title": "Taking a sabbatical",
+      "topic": "Work–life balance",
+      "instructions": "You will hear five short extracts in which people are talking about taking a long break from work. While you listen, you must complete both tasks. For questions 21–25, choose from the list (A–H) what prompted each speaker to take the break. For questions 26–30, choose from the list (A–H) what each speaker says about returning to work.",
+      "status": "draft",
+      "kind": "listen-matching",
+      "context": "You will hear five short extracts in which people are talking about taking a long break from work.",
+      "monologues": [
+        {
+          "speaker": {
+            "name": "Clare",
+            "presents": "female",
+            "accent": "GB"
+          },
+          "script": "It was turning forty that did it, if I'm honest. Not in a dramatic, crisis sort of way — I just looked at the number and thought, if not now, when? My manager was surprisingly relaxed about it, though I suspect he was relieved to have one fewer salary to pay for six months. I spent the time walking and reading and not much else. Going back was fine in most respects; the work itself hadn't changed. But I found I had no tolerance whatsoever for the jockeying in meetings — who gets the credit, whose idea it really was. I used to play along. Now I just can't be bothered."
+        },
+        {
+          "speaker": {
+            "name": "Kieran",
+            "presents": "male",
+            "accent": "GB"
+          },
+          "script": "We'd just launched a product I'd been working on for three years, and in the last six months I'd barely slept. When it finally went live, I felt nothing — not pride, not relief, just empty. That's when I knew I had to stop. I took four months, mostly at my sister's place by the sea. When I came back, I sat down with HR before my first day and agreed I'd work four days a week from then on. They weren't thrilled, but they'd rather have me four days than not at all. I'd never have dared ask before."
+        },
+        {
+          "speaker": {
+            "name": "Jasmine",
+            "presents": "female",
+            "accent": "US"
+          },
+          "script": "A woman on my team took a year off to sail across the Atlantic, and when she came back she was just... different. Calmer, sharper, somehow more herself. I'd always thought sabbaticals were for people with rich parents, but she wasn't one of them, and watching her made me realize it was possible. I spent mine in Mexico, volunteering and learning Spanish from scratch. And that turned out to be useful in ways I hadn't planned: six months after I got back, we took on our first big client in Madrid, and suddenly I was the one they needed in every meeting."
+        },
+        {
+          "speaker": {
+            "name": "Wes",
+            "presents": "male",
+            "accent": "US"
+          },
+          "script": "I'd promised myself since college that one day I'd ride my bike from coast to coast across the States. Every year there was a reason not to — a promotion, a new apartment. Eventually I asked for three months off and just did it. Coming back was the strange part. While I was gone, they'd reorganized the department, and the projects I'd been running had been handed to someone else. Nobody was hostile about it, and I was as keen as ever. I just walked back into a job description I didn't recognize, and it took me months to work out where I fitted in."
+        },
+        {
+          "speaker": {
+            "name": "Nadia",
+            "presents": "female",
+            "accent": "GB"
+          },
+          "script": "My father became ill, and my brother and I agreed someone needed to be with him for a while. My company offered unpaid leave and his didn't, so it fell to me. It wasn't a sabbatical in the restful sense, but it was the first time in fifteen years I'd stepped off the treadmill. When Dad recovered and I went back, I lasted about two months. Not because I couldn't focus — I was perfectly productive — but because I'd realised I wanted to spend my days looking after people. I handed in my notice and retrained as a nurse."
+        }
+      ],
+      "tasks": [
+        {
+          "prompt": "TASK ONE: For questions 21–25, choose from the list (A–H) what prompted each speaker to take a long break from work.",
+          "options": [
+            {
+              "letter": "A",
+              "text": "a sense of no longer developing professionally"
+            },
+            {
+              "letter": "B",
+              "text": "the example set by a colleague"
+            },
+            {
+              "letter": "C",
+              "text": "reaching a significant age"
+            },
+            {
+              "letter": "D",
+              "text": "an opportunity that was too good to miss"
+            },
+            {
+              "letter": "E",
+              "text": "a family situation"
+            },
+            {
+              "letter": "F",
+              "text": "exhaustion after an intense project"
+            },
+            {
+              "letter": "G",
+              "text": "the wish to complete a personal challenge"
+            },
+            {
+              "letter": "H",
+              "text": "encouragement from an employer"
+            }
+          ],
+          "questions": [
+            {
+              "n": 21,
+              "answer": "C",
+              "tag": "listen.gist",
+              "why": {
+                "en": "\"It was turning forty that did it.\" H is a trap: her manager was \"relaxed about it\", but only after she had decided, and possibly for his own reasons.",
+                "bg": "\"It was turning forty that did it.\" H е капан: мениджърът ѝ е \"relaxed about it\", но след като тя вече е решила, и може би по свои причини."
+              }
+            },
+            {
+              "n": 22,
+              "answer": "F",
+              "tag": "listen.gist",
+              "why": {
+                "en": "After three years on a product and six months of barely sleeping, he \"felt nothing ... just empty\". E is wrong: his sister's house is where he went, not why.",
+                "bg": "След три години работа по продукт и шест месеца почти без сън той \"felt nothing ... just empty\". E е грешно: къщата на сестра му е къде е отишъл, а не защо."
+              }
+            },
+            {
+              "n": 23,
+              "answer": "B",
+              "tag": "listen.gist",
+              "why": {
+                "en": "\"Watching her made me realize it was possible\" — a woman on her team. G is a trap: the Atlantic crossing was the colleague's challenge, not Jasmine's.",
+                "bg": "\"Watching her made me realize it was possible\" — колежка от екипа ѝ. G е капан: прекосяването на Атлантика е предизвикателство на колежката, не на Жасмин."
+              }
+            },
+            {
+              "n": 24,
+              "answer": "G",
+              "tag": "listen.gist",
+              "why": {
+                "en": "\"I'd promised myself since college that ... I'd ride my bike from coast to coast\" — a personal challenge. A is not suggested: the obstacles were promotions and a new apartment, not a lack of development.",
+                "bg": "\"I'd promised myself since college that ... I'd ride my bike from coast to coast\" — лично предизвикателство. A не се подразбира: пречките са били повишения и нов апартамент, а не липса на развитие."
+              }
+            },
+            {
+              "n": 25,
+              "answer": "E",
+              "tag": "listen.gist",
+              "why": {
+                "en": "\"My father became ill ... someone needed to be with him.\" H is wrong: the company only \"offered unpaid leave\" — a policy, not encouragement.",
+                "bg": "\"My father became ill ... someone needed to be with him.\" H е грешно: фирмата само \"offered unpaid leave\" — правило, а не насърчение."
+              }
+            }
+          ]
+        },
+        {
+          "prompt": "TASK TWO: For questions 26–30, choose from the list (A–H) what each speaker says about returning to work.",
+          "options": [
+            {
+              "letter": "A",
+              "text": "My role had changed while I was away."
+            },
+            {
+              "letter": "B",
+              "text": "I had less patience with office politics."
+            },
+            {
+              "letter": "C",
+              "text": "I readjusted more quickly than I'd expected."
+            },
+            {
+              "letter": "D",
+              "text": "I negotiated a new working pattern."
+            },
+            {
+              "letter": "E",
+              "text": "Colleagues seemed to resent my time away."
+            },
+            {
+              "letter": "F",
+              "text": "Something I'd learned proved unexpectedly useful."
+            },
+            {
+              "letter": "G",
+              "text": "I soon left to do something different."
+            },
+            {
+              "letter": "H",
+              "text": "I found it hard to get my motivation back."
+            }
+          ],
+          "questions": [
+            {
+              "n": 26,
+              "answer": "B",
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"No tolerance whatsoever for the jockeying in meetings — who gets the credit.\" A is rejected: \"the work itself hadn't changed\".",
+                "bg": "\"No tolerance whatsoever for the jockeying in meetings — who gets the credit.\" A е отхвърлено: \"the work itself hadn't changed\"."
+              }
+            },
+            {
+              "n": 27,
+              "answer": "D",
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "He \"agreed I'd work four days a week from then on\" with HR. E: HR \"weren't thrilled\", but that is about the request, not resentment of his time away.",
+                "bg": "Договорил се е с HR \"I'd work four days a week from then on\". E: HR \"weren't thrilled\", но това е за молбата му, не недоволство от отсъствието му."
+              }
+            },
+            {
+              "n": 28,
+              "answer": "F",
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "Her Spanish, learned in Mexico, became essential when they won \"our first big client in Madrid\" — \"useful in ways I hadn't planned\".",
+                "bg": "Испанският, научен в Мексико, става незаменим, когато печелят \"our first big client in Madrid\" — \"useful in ways I hadn't planned\"."
+              }
+            },
+            {
+              "n": 29,
+              "answer": "A",
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "The department was \"reorganized\" and his projects \"handed to someone else\" — \"a job description I didn't recognize\". E is rejected (\"Nobody was hostile\"), and so is H (\"I was as keen as ever\").",
+                "bg": "Отделът е \"reorganized\", а проектите му \"handed to someone else\" — \"a job description I didn't recognize\". E е отхвърлено (\"Nobody was hostile\"), H също (\"I was as keen as ever\")."
+              }
+            },
+            {
+              "n": 30,
+              "answer": "G",
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"I lasted about two months ... I handed in my notice and retrained as a nurse.\" H is rejected: \"Not because I couldn't focus — I was perfectly productive\".",
+                "bg": "\"I lasted about two months ... I handed in my notice and retrained as a nurse.\" H е отхвърлено: \"Not because I couldn't focus — I was perfectly productive\"."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 1,
+      "tests": {
+        "en": "Part 1 has three unrelated conversations of about a minute each, with two three-option questions per extract. It tests feeling, attitude, opinion, purpose, function, agreement and course of action. At C1, much is implied rather than stated: you need to read tone, hedging and concessions (\"That's a fair point, but…\").",
+        "bg": "Част 1 съдържа три несвързани разговора от около минута, с по два въпроса с три отговора към всеки. Проверява чувство, отношение, мнение, цел, функция, съгласие и действие. На ниво C1 много неща се подразбират, а не се казват директно: трябва да улавяш тона, уклончивостта и отстъпките (\"That's a fair point, but…\")."
+      },
+      "strategy": [
+        {
+          "en": "Check whose view each question asks for (the man? the woman? both?). Many distractors are the other speaker's opinion.",
+          "bg": "Провери чие мнение пита въпросът (мъжът? жената? двамата?). Много капани са мнението на другия говорещ."
+        },
+        {
+          "en": "Pay attention to concession patterns: \"I'll give it that, but\", \"Grudgingly, I'd say\", \"That does change things somewhat\". They show partial agreement or a change of mind.",
+          "bg": "Обръщай внимание на отстъпки: \"I'll give it that, but\", \"Grudgingly, I'd say\", \"That does change things somewhat\". Те показват частично съгласие или промяна на мнението."
+        },
+        {
+          "en": "For agreement questions, look for explicit confirmation from the second speaker (\"True\", \"Exactly\", \"That's the elephant in the room\").",
+          "bg": "При въпроси за съгласие търси изрично потвърждение от втория говорещ (\"True\", \"Exactly\", \"That's the elephant in the room\")."
+        },
+        {
+          "en": "Be careful with options that exaggerate: \"altogether\", \"every\", \"universal\". If the speaker hedges, a strong option is usually wrong.",
+          "bg": "Внимавай с отговори, които преувеличават: \"altogether\", \"every\", \"universal\". Ако говорещият е предпазлив, категоричният отговор обикновено е грешен."
+        }
+      ],
+      "example": {
+        "question": "Oscar: \"Though I gather they're only taking mentors who volunteer, not people who've been told to do it.\"\nDiane: \"Well, that does change things somewhat. Reluctant mentors would be worse than none at all.\"\nHow does Diane react to this information? A She is partly reassured by it.  B She suspects it isn't accurate.  C She feels it confirms her doubts.",
+        "steps": [
+          {
+            "en": "\"That does change things\" shows the information affects her view; \"somewhat\" limits it — so she is only partly reassured.",
+            "bg": "\"That does change things\" показва, че информацията влияе на мнението ѝ; \"somewhat\" го ограничава — значи е само частично успокоена."
+          },
+          {
+            "en": "B: nothing suggests she doubts it's true. C: \"reluctant mentors\" was part of her worry, and volunteering removes that problem, so the information doesn't confirm her doubts.",
+            "bg": "B: нищо не показва, че се съмнява дали е вярно. C: неохотните ментори са част от тревогата ѝ, а доброволното участие премахва този проблем, така че информацията не потвърждава съмненията ѝ."
+          }
+        ],
+        "answer": "A"
+      },
+      "pitfalls": [
+        {
+          "en": "Taking a speaker's first reaction as their final position. At C1, opinions often shift during the conversation.",
+          "bg": "Да приемеш първата реакция на говорещия за окончателна позиция. На C1 мненията често се променят по време на разговора."
+        },
+        {
+          "en": "Answering both questions about an extract on the first listening and not checking the second one carefully. Use the second listening for the question you were less sure about.",
+          "bg": "Да отговориш на двата въпроса още при първото слушане и да не провериш внимателно. Използвай второто слушане за въпроса, в който си по-малко сигурен."
+        }
+      ]
+    },
+    {
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 2,
+      "tests": {
+        "en": "Part 2 is a monologue of about three minutes. You complete eight sentences with words you hear (usually 1–3). It tests specific information and stated opinion. The sentences paraphrase the recording, and there are often several possible words that fit before the right one.",
+        "bg": "Част 2 е монолог от около три минути. Допълваш осем изречения с думи, които чуваш (обикновено 1–3). Проверява конкретна информация и изразено мнение. Изреченията перифразират записа и често има няколко подходящи думи преди верния отговор."
+      },
+      "strategy": [
+        {
+          "en": "Read the sentences carefully for their exact meaning: \"original training\", \"most underrated\", \"the main thing that destroys…\". The answer must match that meaning, not just the topic.",
+          "bg": "Чети изреченията внимателно заради точния им смисъл: \"original training\", \"most underrated\", \"the main thing that destroys…\". Отговорът трябва да съответства на този смисъл, не само на темата."
+        },
+        {
+          "en": "Expect paraphrase around the gap: \"upwards of\" = \"more than\", \"breaks the illusion\" = \"stops you believing\". Listen for meaning, then write the exact word.",
+          "bg": "Очаквай перифраза около празното място: \"upwards of\" = \"more than\", \"breaks the illusion\" = \"stops you believing\". Слушай за смисъла, после запиши точната дума."
+        },
+        {
+          "en": "Watch for \"rather than\", \"isn't … it's\", \"more than anything else\" — they separate the distractor from the answer.",
+          "bg": "Внимавай за \"rather than\", \"isn't … it's\", \"more than anything else\" — те отделят капана от отговора."
+        }
+      ],
+      "example": {
+        "question": "\"For anyone hoping to get into the field, I'd say the most valuable thing isn't expensive equipment; a basic portable recorder will do. It's building a library of your own recordings.\"\nImogen recommends that newcomers build up a ___ of their own recordings.",
+        "steps": [
+          {
+            "en": "Grammar: \"a ___ of their own recordings\" needs a countable noun meaning a collection.",
+            "bg": "Граматика: \"a ___ of their own recordings\" изисква броимо съществително със значение \"сбирка\"."
+          },
+          {
+            "en": "\"Equipment\" and \"recorder\" are nouns from the same passage, but they are introduced with \"isn't\" and \"will do\" — they are what is NOT most important.",
+            "bg": "\"Equipment\" и \"recorder\" са съществителни от същия пасаж, но идват с \"isn't\" и \"will do\" — те НЕ са най-важното."
+          },
+          {
+            "en": "\"It's building a library of your own recordings\" — the word after \"a\" is the answer.",
+            "bg": "\"It's building a library of your own recordings\" — думата след \"a\" е отговорът."
+          }
+        ],
+        "answer": "library"
+      },
+      "pitfalls": [
+        {
+          "en": "Changing the word you hear into a synonym. You must write the word from the recording (spelling variants are fine).",
+          "bg": "Да смениш чутата дума със синоним. Трябва да запишеш думата от записа (правописни варианти се приемат)."
+        },
+        {
+          "en": "Losing your place. If you miss an answer, move on: the next sentence comes later in the recording and you can come back on the second listening.",
+          "bg": "Да изгубиш мястото си. Ако изпуснеш отговор, продължи: следващото изречение идва по-късно в записа и можеш да се върнеш при второто слушане."
+        }
+      ]
+    },
+    {
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 3,
+      "tests": {
+        "en": "Part 3 is a longer conversation or interview (about four minutes) with six four-option questions. It tests attitude, opinion, agreement, gist, detail and inference. The options are close in meaning, so you need the speaker's exact position, including how they qualify it.",
+        "bg": "Част 3 е по-дълъг разговор или интервю (около четири минути) с шест въпроса с по четири отговора. Проверява отношение, мнение, съгласие, общ смисъл, детайли и изводи. Отговорите са близки по смисъл, затова трябва точната позиция на говорещия, включително как я уточнява."
+      },
+      "strategy": [
+        {
+          "en": "Read the stems and notice what they ask: \"admit\", \"disagree about\", \"why does she mention\". Purpose questions (\"why mention…\") are about function, not content.",
+          "bg": "Прочети въпросите и виж какво питат: \"admit\", \"disagree about\", \"why does she mention\". Въпросите за цел (\"why mention…\") са за функцията, не за съдържанието."
+        },
+        {
+          "en": "Track positions over time: \"It used to be the ideal … I've grown uneasy with that.\" The question usually asks for the current view.",
+          "bg": "Следи как се променят позициите: \"It used to be the ideal … I've grown uneasy with that.\" Въпросът обикновено пита за настоящото мнение."
+        },
+        {
+          "en": "Eliminate options that are too strong, mention something never said, or turn a detail into a claim the speaker doesn't make.",
+          "bg": "Изключи отговорите, които са твърде категорични, споменават нещо неказано или превръщат детайл в твърдение, което говорещият не прави."
+        }
+      ],
+      "example": {
+        "question": "Helena: \"People left alone in a room with nothing to do often chose to give themselves a mild electric shock rather than just sit with their thoughts. ... But I'd be cautious about reading too much into it. People in a laboratory know they're being watched. ... What it does suggest is that sitting with your own mind is a skill.\"\nWhy does Helena mention the studies? A to support a claim she then qualifies  B to show that laboratory research is unreliable  C to prove that boredom can cause harm  D to explain why people dislike being observed",
+        "steps": [
+          {
+            "en": "This is a function question: what is the example for? She uses it to show how hard people find their own thoughts — support for her claim.",
+            "bg": "Това е въпрос за функция: за какво служи примерът? Тя го използва, за да покаже колко трудно понасят хората собствените си мисли — подкрепа за твърдението ѝ."
+          },
+          {
+            "en": "\"I'd be cautious about reading too much into it\" is a qualification, and \"What it does suggest\" shows she still uses the study. That is A.",
+            "bg": "\"I'd be cautious about reading too much into it\" е уточнение, а \"What it does suggest\" показва, че пак използва изследването. Това е A."
+          },
+          {
+            "en": "B overstates her caution; C and D turn details (the shock, being watched) into claims she never makes.",
+            "bg": "B преувеличава предпазливостта ѝ; C и D превръщат детайли (тока, наблюдението) в твърдения, които тя не прави."
+          }
+        ],
+        "answer": "A"
+      },
+      "pitfalls": [
+        {
+          "en": "Picking the option that repeats a striking detail from the recording. At C1, the key usually paraphrases the idea in general terms.",
+          "bg": "Да избереш отговора, който повтаря ярък детайл от записа. На C1 верният отговор обикновено перифразира идеята с общи думи."
+        },
+        {
+          "en": "Confusing what one speaker says with what the other thinks — especially in questions about agreement and disagreement.",
+          "bg": "Да объркаш казаното от единия говорещ с мнението на другия — особено при въпроси за съгласие и несъгласие."
+        }
+      ]
+    },
+    {
+      "exam": "c1-advanced",
+      "paper": "listening",
+      "part": 4,
+      "tests": {
+        "en": "Part 4 has five short monologues on one theme and two matching tasks, each with eight options (A–H). You do both tasks while you listen, so each speaker gives you two answers. It tests gist, attitude, main points and interpreting context: what each person means, which is often implied.",
+        "bg": "Част 4 има пет кратки монолога на една тема и две задачи за свързване, всяка с осем варианта (A–H). Правиш двете задачи, докато слушаш, така че всеки говорещ ти дава два отговора. Проверява общ смисъл, отношение, основни идеи и тълкуване на контекста: какво има предвид всеки, често индиректно."
+      },
+      "strategy": [
+        {
+          "en": "Before listening, read both lists and group them in your head: Task One is usually about causes or reasons, Task Two about results or feelings.",
+          "bg": "Преди слушането прочети двата списъка и ги групирай наум: Задача 1 обикновено е за причини, а Задача 2 — за резултати или чувства."
+        },
+        {
+          "en": "A common approach: focus on Task One during the first listening and Task Two during the second, checking your Task One answers as you go.",
+          "bg": "Често срещан подход: при първото слушане се съсредоточи върху Задача 1, а при второто — върху Задача 2, като проверяваш и отговорите от Задача 1."
+        },
+        {
+          "en": "Speakers often mention an idea and then dismiss it (\"though that was a bonus rather than the point\", \"but we'd planned for that\"). These dismissed ideas are the distractors.",
+          "bg": "Говорещите често споменават идея и после я отхвърлят (\"though that was a bonus rather than the point\", \"but we'd planned for that\"). Отхвърлените идеи са капаните."
+        }
+      ],
+      "example": {
+        "question": "\"My back finally gave out. The physio was blunt: keep sitting all day and it'll only get worse. So I retrained in landscape gardening. ... And I love being outdoors, though that was a bonus rather than the point. The bit I've struggled with is the solitude.\"\nTask One (reason): B a health problem / D the desire to work outdoors. Task Two (challenge): G the physical demands of the job / H spending most of the day alone.",
+        "steps": [
+          {
+            "en": "Task One: \"my back ... gave out\" + \"So I retrained\" = cause and result, so the reason is B. D is explicitly downgraded: \"a bonus rather than the point\".",
+            "bg": "Задача 1: \"my back ... gave out\" + \"So I retrained\" = причина и следствие, значи причината е B. D е изрично омаловажено: \"a bonus rather than the point\"."
+          },
+          {
+            "en": "Task Two: G is rejected earlier (\"my back's never been better\"); \"The bit I've struggled with is the solitude\" = H.",
+            "bg": "Задача 2: G е отхвърлено по-рано (\"my back's never been better\"); \"The bit I've struggled with is the solitude\" = H."
+          }
+        ],
+        "answer": "B, H"
+      },
+      "pitfalls": [
+        {
+          "en": "Trying to answer both tasks perfectly on the first listening and missing the next speaker. Spread the work across both listenings.",
+          "bg": "Да се опитваш да отговориш перфектно на двете задачи още при първото слушане и да изпуснеш следващия говорещ. Разпредели работата в двете слушания."
+        },
+        {
+          "en": "Picking an option because the speaker mentions it, when they say it was not important or not a problem.",
+          "bg": "Да избереш вариант, защото говорещият го споменава, а той казва, че не е бил важен или не е бил проблем."
+        }
+      ]
+    }
+  ],
+  "lessons": []
+}

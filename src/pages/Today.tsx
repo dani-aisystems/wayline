@@ -9,6 +9,7 @@ import { useProfile } from "../state/profile";
 import { topicName } from "../i18n/topics";
 import type { StringKey, UiLanguage } from "../i18n/strings";
 import { SKILLS } from "../engine/learner";
+import { EXAMS } from "../content/exams/spec";
 import "./today.css";
 
 const BACKUP_EVERY_DAYS = 14;
@@ -64,6 +65,17 @@ export function Today() {
         )}
         {data.doneToday && <p className="setting-hint">{t("dash.planDone")}</p>}
       </section>
+
+      {profile.track === "exam" && profile.cert && (
+        <section className="card ex-today-card" aria-labelledby="dash-exam">
+          <div className="card-head">
+            <h2 id="dash-exam" className="section-title">{t("exam.preparingFor")} {EXAMS[profile.cert.exam].name}</h2>
+            {profile.cert.date && <span className="card-meta">{profile.cert.date}</span>}
+          </div>
+          <p className="setting-hint">{t("dash.examHint")}</p>
+          <Link className="btn btn-primary btn-small" to="/exam">{t("dash.examOpen")}</Link>
+        </section>
+      )}
 
       {profile.placementSource !== "diagnostic" && profile.placedBand !== "preA1" && (
         <div className="banner banner-info" role="note">

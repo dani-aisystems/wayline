@@ -31,7 +31,8 @@ describe("upgrading an existing learner from schema v1", () => {
     expect((await v2.mastery.get("a1.hello"))!.correct).toBe(5);
     expect(await v2.activity.count()).toBe(1);
     expect(await v2.xp.count()).toBe(0);
-    expect(v2.verno).toBe(2);
+    expect(v2.verno).toBe(3);
+    expect(await v2.examAttempts.count()).toBe(0);
     await v2.delete();
   });
 
@@ -46,5 +47,26 @@ describe("upgrading an existing learner from schema v1", () => {
     };
     expect(await importBackup(JSON.stringify(v1Backup), d)).toEqual({ ok: true, rows: 1 });
     await d.delete();
+  });
+
+  it("upgrades a v2 learner to v3 without touching progress or XP", async () => {
+    const name = "migrate-v2";
+    const v2 = new Dexie(name);
+    v2.version(1).stores({ profile: "id", cards: "id, kind, ref, fsrs.due", reviews: "++id, cardId", mastery: "competence", mistakes: "++id, itemId, competence", activity: "day" });
+    v2.version(2).stores({ placements: "++id, at", xp: "id, day, reason", achievements: "id" });
+    const now = new Date("2026-10-25T09:00:00Z");
+    await v2.table("profile").put({ id: "me", createdAt: now.toISOString(), explanationLanguage: "en", theme: "system", interests: [], seenNotes: [], goal: "exam", acceptedBand: "B2", placementSource: "diagnostic", onboardedAt: now.toISOString() });
+    await v2.table("xp").put({ id: "item:x", amount: 5, reason: "lesson", at: now.toISOString(), day: "2026-10-25" });
+    await v2.table("placements").add({ at: now.toISOString(), mode: "quick", responses: [], result: {} });
+    v2.close();
+
+    const v3 = new WaylineDB(name);
+    expect(v3.verno).toBe(3);
+    expect(await v3.profile.get("me")).toMatchObject({ goal: "exam", acceptedBand: "B2", placementSource: "diagnostic" });
+    expect(await v3.xp.count()).toBe(1);
+    expect(await v3.placements.count()).toBe(1);
+    await v3.examAttempts.add({ exam: "c1-advanced", mode: "section", taskIds: ["t"], startedAt: now.toISOString(), timed: false, seconds: 0 });
+    expect(await v3.examAttempts.count()).toBe(1);
+    await v3.delete();
   });
 });

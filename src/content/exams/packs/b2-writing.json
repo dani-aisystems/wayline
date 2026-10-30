@@ -1,0 +1,1048 @@
+{
+  "id": "b2-writing",
+  "tasks": [
+    {
+      "id": "b2.write.m1.p1",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 1,
+      "set": "mock-1",
+      "title": "Working from home",
+      "topic": "Work and lifestyle",
+      "instructions": "You must answer this question. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "essay",
+      "prompt": "In your English class you have been talking about work and how it is changing. Now your English teacher has asked you to write an essay.\n\nWrite an essay using all the notes and give reasons for your point of view.\n\nWorking from home is better than working in an office. Do you agree?\n\nNotes\nWrite about:\n1. travelling to work\n2. working with colleagues\n3. ........ (your own idea)\n\nWrite your essay in 140–190 words in an appropriate style.",
+      "points": [
+        {
+          "label": "Note 1: travelling to work",
+          "keywords": [
+            "commut",
+            "travel",
+            "journey",
+            "traffic",
+            "bus",
+            "train",
+            "drive",
+            "driving",
+            "get to work",
+            "fuel",
+            "tickets"
+          ]
+        },
+        {
+          "label": "Note 2: working with colleagues",
+          "keywords": [
+            "colleague",
+            "teamwork",
+            "team",
+            "co-worker",
+            "coworker",
+            "work together",
+            "face to face",
+            "video call",
+            "meeting"
+          ]
+        },
+        {
+          "label": "Note 3: your own idea (a different point)",
+          "keywords": [
+            "another point",
+            "another",
+            "a further",
+            "in addition",
+            "furthermore",
+            "concentrat",
+            "distract",
+            "focus",
+            "balance",
+            "family",
+            "productiv",
+            "cost"
+          ]
+        },
+        {
+          "label": "A clear overall opinion with reasons",
+          "keywords": [
+            "in my opinion",
+            "i believe",
+            "i think",
+            "in my view",
+            "to sum up",
+            "in conclusion",
+            "overall",
+            "on balance",
+            "all things considered",
+            "personally"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "Since the pandemic, millions of people have discovered that they can do their jobs from their kitchen table. But is working from home really better than going to an office?\n\nThe most obvious advantage is that home workers do not have to travel. Commuting can easily take two hours a day in a big city, and that time could be spent sleeping, exercising or with family. It also saves money on fuel and tickets, and it is better for the environment.\n\nOn the other hand, working with colleagues is much harder at a distance. Video calls are useful, but they cannot replace a quick chat at someone's desk, which is often where problems get solved. New employees, in particular, learn a lot simply by watching more experienced people.\n\nAnother point to consider is concentration. While some people find their home peaceful, others are constantly interrupted by children, pets or housework.\n\nIn conclusion, I believe working from home is better for experienced staff who need to focus, but most people benefit from spending at least part of the week in the office.",
+      "modelNotes": {
+        "en": "Content: all three notes are covered and developed – travel (\"Commuting can easily take two hours a day\"), colleagues (\"cannot replace a quick chat at someone's desk\") and a clear own idea (concentration and interruptions at home). The final paragraph answers the question directly.\nCommunicative Achievement: a neutral, essay-like register throughout; the opening question (\"But is working from home really better…?\") engages the reader without being too chatty, and the balanced conclusion suits an argument essay.\nOrganisation: one paragraph per idea, with clear signposts – \"The most obvious advantage\", \"On the other hand\", \"Another point to consider\", \"In conclusion\". Reference words (\"that time\", \"which is often where…\") link sentences smoothly.\nLanguage: a good range of B2 structures used accurately – relative clauses (\"which is often where problems get solved\"), contrast with \"While…\", \"in particular\", \"benefit from + -ing\" – and topic vocabulary such as \"commuting\", \"at a distance\", \"interrupted\".",
+        "bg": "Съдържание: и трите бележки са покрити и развити – пътуването (\"Commuting can easily take two hours a day\"), колегите (\"cannot replace a quick chat at someone's desk\") и ясна собствена идея (концентрацията и прекъсванията вкъщи). Последният абзац отговаря директно на въпроса.\nКомуникативно постижение: неутрален стил, подходящ за есе, от начало до край; въпросът в началото (\"But is working from home really better…?\") ангажира читателя, без да е прекалено разговорен, а балансираното заключение пасва на аргументативно есе.\nОрганизация: по един абзац за всяка идея с ясни сигнали – \"The most obvious advantage\", \"On the other hand\", \"Another point to consider\", \"In conclusion\". Думи за препратка (\"that time\", \"which is often where…\") свързват изреченията гладко.\nЕзик: добър набор от B2 структури, използвани точно – подчинени изречения (\"which is often where problems get solved\"), контраст с \"While…\", \"in particular\", \"benefit from + -ing\" – и тематична лексика като \"commuting\", \"at a distance\", \"interrupted\"."
+      }
+    },
+    {
+      "id": "b2.write.m1.p2-a",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-1",
+      "title": "A skill I learned outside the classroom",
+      "topic": "Learning and personal growth",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "article",
+      "prompt": "You see this announcement on an English-language website for young adults.\n\nARTICLES WANTED!\nA skill I learned outside the classroom\nWhat useful skill have you learned outside school or university? How did you learn it, and how has it helped you in your life?\nThe best articles will be published on our website next month.\n\nWrite your article.",
+      "points": [
+        {
+          "label": "Say what the skill is",
+          "keywords": [
+            "learn to",
+            "learned to",
+            "learnt to",
+            "skill",
+            "how to"
+          ]
+        },
+        {
+          "label": "Explain how you learned it",
+          "keywords": [
+            "practis",
+            "practic",
+            "taught me",
+            "teach",
+            "course",
+            "video",
+            "watched",
+            "asked",
+            "trial and error",
+            "notebook"
+          ]
+        },
+        {
+          "label": "Explain how it has helped you",
+          "keywords": [
+            "helped",
+            "help me",
+            "made me",
+            "improved",
+            "benefit",
+            "now i",
+            "ways i never expected",
+            "turned"
+          ]
+        },
+        {
+          "label": "Engage the reader (title, questions, direct address)",
+          "keywords": [
+            "?",
+            "you",
+            "your",
+            "imagine",
+            "if you"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "Burnt Pasta and Other Lessons\n\nCan you remember the first meal you cooked on your own? Mine was a disaster. I was nineteen, I had just moved into a shared flat, and I managed to burn pasta – something I still don't fully understand.\n\nAt that point, I decided that I really had to learn to cook. I didn't take a course. Instead, I phoned my grandmother every Sunday and asked her to talk me through one simple dish. I wrote everything down in a notebook, which is now covered in tomato sauce, and I practised the same recipe all week until I got it right.\n\nCooking has helped me in ways I never expected. Obviously, I eat better and spend far less money on takeaways. But it has also made me more patient and organised, because a good meal needs planning. Best of all, inviting people round for dinner turned my flatmates into close friends.\n\nSo if you're looking for a skill that will improve your life, start in the kitchen. Just keep an eye on the pasta!",
+      "modelNotes": {
+        "en": "Content: all three questions are answered – the skill (cooking), how it was learned (weekly phone calls with a grandmother, a notebook, practising one recipe \"all week until I got it right\") and how it has helped (money, patience, friendships).\nCommunicative Achievement: this reads like a real article. The humorous title and opening question (\"Can you remember…?\") hook the reader, the tone is friendly but not careless, and the ending speaks to the reader directly and returns to the joke (\"Just keep an eye on the pasta!\").\nOrganisation: a clear arc – a funny anecdote, how I learned, how it helped, a closing message. Time and sequence markers (\"At that point\", \"Instead\", \"Obviously\", \"Best of all\") guide the reader.\nLanguage: natural, varied B2 language – past perfect (\"I had just moved\"), a non-defining relative clause (\"which is now covered in tomato sauce\"), phrasal verbs (\"talk me through\", \"inviting people round\") and collocations such as \"spend far less money on takeaways\".",
+        "bg": "Съдържание: отговорено е на трите въпроса – умението (готвене), как е научено (обаждания до баба всяка неделя, тетрадка, упражняване на една рецепта \"all week until I got it right\") и как е помогнало (пари, търпение, приятелства).\nКомуникативно постижение: текстът звучи като истинска статия. Забавното заглавие и началният въпрос (\"Can you remember…?\") грабват читателя, тонът е приятелски, но не небрежен, а краят се обръща директно към читателя и се връща към шегата (\"Just keep an eye on the pasta!\").\nОрганизация: ясна линия – смешна случка, как съм се научил, как ми е помогнало, послание накрая. Думи за време и последователност (\"At that point\", \"Instead\", \"Obviously\", \"Best of all\") водят читателя.\nЕзик: естествен и разнообразен B2 език – минало перфектно време (\"I had just moved\"), пояснително подчинено изречение (\"which is now covered in tomato sauce\"), фразови глаголи (\"talk me through\", \"inviting people round\") и колокации като \"spend far less money on takeaways\"."
+      }
+    },
+    {
+      "id": "b2.write.m1.p2-b",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-1",
+      "title": "Advice for a visiting friend",
+      "topic": "Travel on a budget",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "email",
+      "prompt": "You have received this email from your English-speaking friend, Sam.\n\nHi!\nGreat news – I'm coming to your country for a week next month! I don't have much money, so I need to keep costs down. Where's a good place to stay? What can I do that's fun but cheap? And is there any food I really must try?\nThanks!\nSam\n\nWrite your email.",
+      "points": [
+        {
+          "label": "Recommend a place to stay",
+          "keywords": [
+            "stay",
+            "hostel",
+            "hotel",
+            "accommodation",
+            "sofa",
+            "room",
+            "a night",
+            "apartment",
+            "flat"
+          ]
+        },
+        {
+          "label": "Suggest fun, cheap things to do",
+          "keywords": [
+            "free",
+            "cheap",
+            "walk",
+            "visit",
+            "day trip",
+            "hiking",
+            "museum",
+            "gallery",
+            "doesn't cost",
+            "costs nothing"
+          ]
+        },
+        {
+          "label": "Recommend food to try",
+          "keywords": [
+            "try",
+            "food",
+            "eat",
+            "dish",
+            "pastry",
+            "salad",
+            "taste",
+            "bakery",
+            "restaurant"
+          ]
+        },
+        {
+          "label": "Friendly opening and closing",
+          "keywords": [
+            "hi ",
+            "hi,",
+            "hey",
+            "dear",
+            "see you",
+            "love",
+            "take care",
+            "best wishes",
+            "can't wait"
+          ]
+        }
+      ],
+      "register": "informal",
+      "model": "Hi Sam,\n\nThat's fantastic news! I can't wait to see you.\n\nYou don't need to spend much on accommodation here. There are some lovely hostels in the Old Town of Plovdiv, and a bed in a shared room costs about fifteen euros a night. Or, even better, why don't you just stay with me? The sofa is surprisingly comfortable!\n\nAs for things to do, lots of the best experiences are free. You can walk up one of the hills at sunset for an amazing view of the city, and the Kapana district is full of street art and small galleries. If you fancy a day trip, the bus to the mountains is really cheap and the hiking is wonderful.\n\nAnd the food – you absolutely have to try banitsa, a pastry filled with cheese, which you can get for about a euro at any bakery. Shopska salad is another must, especially in summer when the tomatoes are amazing.\n\nLet me know your dates and I'll plan a few things.\n\nSee you soon!\nDaniela",
+      "modelNotes": {
+        "en": "Content: Sam's three questions are all answered with specific, useful detail – where to stay (hostels with a price, or \"stay with me\"), cheap activities (free walks, street art, a day trip) and food (banitsa and shopska salad, each explained for someone who doesn't know them).\nCommunicative Achievement: the informal register is consistent and warm – contractions, exclamations, \"why don't you just stay with me?\", \"If you fancy…\". The writer keeps Sam's budget in mind throughout (\"costs about fifteen euros\", \"for about a euro\"), which shows awareness of the reader's purpose.\nOrganisation: a clear email shape – greeting, reaction, one paragraph per question, a practical closing line and sign-off. Paragraphs are introduced with informal linkers: \"As for things to do\", \"And the food –\".\nLanguage: a good range of informal B2 language – \"surprisingly comfortable\", \"another must\", \"keep costs down\" from the input paraphrased as \"You don't need to spend much\", relative clauses (\"which you can get…\", \"when the tomatoes are amazing\") – with no errors that affect communication.",
+        "bg": "Съдържание: и на трите въпроса на Сам е отговорено с конкретни и полезни детайли – къде да отседне (хостели с цена или \"stay with me\"), евтини занимания (безплатни разходки, улично изкуство, еднодневна екскурзия) и храна (баница и шопска салата, обяснени за човек, който не ги познава).\nКомуникативно постижение: неформалният стил е последователен и топъл – съкращения, възклицания, \"why don't you just stay with me?\", \"If you fancy…\". Авторът постоянно мисли за бюджета на Сам (\"costs about fifteen euros\", \"for about a euro\"), което показва, че се съобразява с целта на читателя.\nОрганизация: ясна форма на имейл – поздрав, реакция, по един абзац за всеки въпрос, практичен финален ред и подпис. Абзаците започват с неформални свързващи думи: \"As for things to do\", \"And the food –\".\nЕзик: добър набор от неформален B2 език – \"surprisingly comfortable\", \"another must\", перифразиране на \"keep costs down\" като \"You don't need to spend much\", подчинени изречения (\"which you can get…\", \"when the tomatoes are amazing\") – без грешки, които пречат на разбирането."
+      }
+    },
+    {
+      "id": "b2.write.m1.p2-c",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-1",
+      "title": "A podcast worth listening to",
+      "topic": "Media and entertainment",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "review",
+      "prompt": "You see this announcement on a website about podcasts.\n\nREVIEWS WANTED\nHave you listened to a podcast that you would recommend to other people? Write a review telling us what the podcast is about, what makes it interesting to listen to and who you think would enjoy it.\nWe will publish the best reviews on our site.\n\nWrite your review.",
+      "points": [
+        {
+          "label": "Say what the podcast is about",
+          "keywords": [
+            "about",
+            "each episode",
+            "features",
+            "episode",
+            "interview",
+            "topic",
+            "stories"
+          ]
+        },
+        {
+          "label": "Explain what makes it interesting",
+          "keywords": [
+            "what makes",
+            "interesting",
+            "enjoyable",
+            "presenter",
+            "host",
+            "honest",
+            "funny",
+            "entertaining",
+            "the best thing"
+          ]
+        },
+        {
+          "label": "Say who would enjoy it (recommendation)",
+          "keywords": [
+            "recommend",
+            "anyone who",
+            "people who",
+            "ideal for",
+            "perfect for",
+            "would enjoy",
+            "for you"
+          ]
+        },
+        {
+          "label": "Give a balanced view (a weakness or criticism)",
+          "keywords": [
+            "criticism",
+            "however",
+            "although",
+            "the only",
+            "downside",
+            "weakness",
+            "disappoint"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "Small Rooms: big stories from tiny businesses\n\nIf you've ever dreamed of opening your own café or shop, Small Rooms is the podcast for you. Each weekly episode, which lasts about forty minutes, features the owner of a tiny business somewhere in the world – a bike repairer in Lisbon, say, or a woman who sells handmade soap from her garage in Toronto.\n\nWhat makes it so enjoyable is the presenter, Maya Kerr. She asks simple, honest questions and, more importantly, she actually listens to the answers. As a result, her guests talk openly about the things most success stories leave out: the money worries, the mistakes and the days when they almost gave up.\n\nMy only criticism is that the sound quality is sometimes poor, because many interviews are recorded over the phone. However, after a few minutes you hardly notice.\n\nI'd recommend Small Rooms to anyone who is thinking about starting a business, but also to people who simply love hearing real stories from ordinary people. Listen to an episode on your next journey to work – you might find it inspiring.",
+      "modelNotes": {
+        "en": "Content: all three parts of the task are covered – what the podcast is about (owners of tiny businesses, with two vivid examples), what makes it interesting (the presenter's honest questions and the guests' openness) and who would enjoy it (would-be business owners and lovers of real stories).\nCommunicative Achievement: a convincing review: a catchy title, a direct opening aimed at the target reader (\"If you've ever dreamed…\"), a fair weakness (\"My only criticism…\") and a clear recommendation. The tone is lively but still informative.\nOrganisation: description → strengths → weakness → recommendation, each in its own paragraph. Linkers such as \"What makes it so enjoyable is…\", \"more importantly\", \"As a result\" and \"However\" show the logic.\nLanguage: a cleft sentence (\"What makes it so enjoyable is the presenter\"), relative clauses, \"the things most success stories leave out\", \"hardly notice\", and accurate review vocabulary (\"weekly episode\", \"features\", \"sound quality\") – confident B2 language without over-complication.",
+        "bg": "Съдържание: и трите части на задачата са покрити – за какво е подкастът (собственици на малки бизнеси, с два живи примера), какво го прави интересен (честните въпроси на водещата и откровеността на гостите) и на кого би харесал (бъдещи предприемачи и хора, които обичат истински истории).\nКомуникативно постижение: убедително ревю: закачливо заглавие, директно начало към целевия читател (\"If you've ever dreamed…\"), честна слабост (\"My only criticism…\") и ясна препоръка. Тонът е жив, но информативен.\nОрганизация: описание → силни страни → слабост → препоръка, всяко в отделен абзац. Свързващи изрази като \"What makes it so enjoyable is…\", \"more importantly\", \"As a result\" и \"However\" показват логиката.\nЕзик: изречение с изнасяне на акцента (\"What makes it so enjoyable is the presenter\"), подчинени изречения, \"the things most success stories leave out\", \"hardly notice\" и точна лексика за ревю (\"weekly episode\", \"features\", \"sound quality\") – уверен B2 език без излишно усложняване."
+      }
+    },
+    {
+      "id": "b2.write.m2.p1",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 1,
+      "set": "mock-2",
+      "title": "Car-free city centres",
+      "topic": "Cities and the environment",
+      "instructions": "You must answer this question. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "essay",
+      "prompt": "In your English class you have been talking about cities and the environment. Now your English teacher has asked you to write an essay.\n\nWrite an essay using all the notes and give reasons for your point of view.\n\nCars should be banned from city centres. Do you agree?\n\nNotes\nWrite about:\n1. air quality\n2. local businesses\n3. ........ (your own idea)\n\nWrite your essay in 140–190 words in an appropriate style.",
+      "points": [
+        {
+          "label": "Note 1: air quality",
+          "keywords": [
+            "air",
+            "pollution",
+            "polluted",
+            "fumes",
+            "emissions",
+            "clean",
+            "breathe",
+            "health"
+          ]
+        },
+        {
+          "label": "Note 2: local businesses",
+          "keywords": [
+            "business",
+            "shop",
+            "customer",
+            "trade",
+            "café",
+            "restaurant",
+            "parking",
+            "shopping"
+          ]
+        },
+        {
+          "label": "Note 3: your own idea (a different point)",
+          "keywords": [
+            "a further",
+            "another",
+            "in addition",
+            "furthermore",
+            "access",
+            "disabled",
+            "elderly",
+            "public transport",
+            "safety",
+            "noise",
+            "delivery"
+          ]
+        },
+        {
+          "label": "A clear overall opinion with reasons",
+          "keywords": [
+            "in my opinion",
+            "i believe",
+            "i think",
+            "in my view",
+            "to sum up",
+            "in conclusion",
+            "overall",
+            "on balance",
+            "all things considered",
+            "personally"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "In many European cities, the centre is now closed to private cars, and the idea is becoming more popular. However, would a complete ban really be a good thing?\n\nThe strongest argument in favour is air quality. Traffic is one of the main causes of pollution in towns, and it is especially harmful to children and older people. Streets without cars are also quieter and safer, so people are more likely to walk or cycle.\n\nOn the other hand, local businesses might suffer. Shop owners often worry that customers will go to out-of-town shopping centres if they cannot park nearby. That said, there is evidence from several cities that pedestrian streets actually attract more shoppers, because people stay longer and enjoy the atmosphere.\n\nA further issue is access for people who cannot walk long distances, such as disabled or elderly residents. Any ban would need exceptions for them, as well as for deliveries and emergency vehicles.\n\nOverall, I believe that banning cars from city centres is the right decision, as long as public transport is cheap and reliable and the people who really need a car are not forgotten.",
+      "modelNotes": {
+        "en": "Content: air quality and local businesses are both discussed with reasons, and the own idea (access for disabled and elderly residents) is clearly different from the two notes. The conclusion gives a clear opinion with conditions.\nCommunicative Achievement: a neutral, objective register suitable for an essay; the writer considers both sides before deciding, which makes the opinion convincing rather than one-sided.\nOrganisation: introduction with a question, three body paragraphs (one per note) and a conclusion. The paragraph openers form a clear chain: \"The strongest argument in favour\", \"On the other hand\", \"A further issue\", \"Overall\". \"That said\" introduces a counter-argument within a paragraph.\nLanguage: varied, accurate B2 language – \"one of the main causes of\", \"more likely to\", \"out-of-town shopping centres\", \"as long as\", \"would need exceptions for\" – and a passive (\"are not forgotten\") in the final sentence.",
+        "bg": "Съдържание: и качеството на въздуха, и местният бизнес са обсъдени с аргументи, а собствената идея (достъп за хора с увреждания и възрастни) ясно се различава от двете бележки. Заключението дава ясно мнение с условия.\nКомуникативно постижение: неутрален, обективен стил, подходящ за есе; авторът разглежда двете страни, преди да реши, и затова мнението звучи убедително, а не едностранчиво.\nОрганизация: увод с въпрос, три абзаца (по един за всяка бележка) и заключение. Началата на абзаците образуват ясна верига: \"The strongest argument in favour\", \"On the other hand\", \"A further issue\", \"Overall\". \"That said\" въвежда контрааргумент вътре в абзаца.\nЕзик: разнообразен и точен B2 език – \"one of the main causes of\", \"more likely to\", \"out-of-town shopping centres\", \"as long as\", \"would need exceptions for\" – и страдателен залог (\"are not forgotten\") в последното изречение."
+      }
+    },
+    {
+      "id": "b2.write.m2.p2-a",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Report on a staff training day",
+      "topic": "Work and training",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "report",
+      "prompt": "Last month the company you work for organised a training day for all staff. Your manager has asked you to write a report about it. In your report you should:\n\n• describe what the training day included\n• say which parts of the day were most useful and why\n• recommend how future training days could be improved.\n\nWrite your report.",
+      "points": [
+        {
+          "label": "Describe what the day included",
+          "keywords": [
+            "included",
+            "consisted of",
+            "the morning",
+            "after lunch",
+            "presentation",
+            "workshop",
+            "session",
+            "activity"
+          ]
+        },
+        {
+          "label": "Say which parts were most useful and why",
+          "keywords": [
+            "useful",
+            "highlight",
+            "most valuable",
+            "helpful",
+            "effective",
+            "practical",
+            "agreed"
+          ]
+        },
+        {
+          "label": "Recommend improvements for the future",
+          "keywords": [
+            "recommend",
+            "suggest",
+            "should",
+            "improve",
+            "in future",
+            "next time",
+            "changes"
+          ]
+        },
+        {
+          "label": "Report format: headings and a clear purpose",
+          "keywords": [
+            "introduction",
+            "aim",
+            "purpose",
+            "this report",
+            "recommendations",
+            "conclusion"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "Report on the staff training day\n\nIntroduction\nThe aim of this report is to evaluate the training day held on 14 March and to suggest improvements for future events. It is based on my own experience and on a short survey completed by 23 colleagues.\n\nWhat the day included\nThe morning consisted of a presentation on our new customer database, followed by a workshop on dealing with difficult customers. After lunch, there was a team-building activity in a local park.\n\nMost useful sessions\nAlmost everyone agreed that the customer workshop was the highlight. The role-plays were realistic, and several people said they had already used the techniques at work. The database presentation, on the other hand, was considered too long and too technical for most staff.\n\nRecommendations\nI would suggest the following changes:\n• replacing the database presentation with short hands-on sessions in small groups\n• keeping the practical workshop format, perhaps with a different topic\n• having an indoor option for the team-building activity, since it rained heavily this time.\n\nIf these changes are made, I am confident that the next training day will be even more useful.",
+      "modelNotes": {
+        "en": "Content: all three bullet points are covered – what the day included (presentation, workshop, team-building), which part was most useful and why (realistic role-plays already used at work) and three concrete recommendations, each linked to a problem mentioned earlier.\nCommunicative Achievement: a formal, impersonal report register suitable for a manager – \"The aim of this report is to evaluate\", \"was considered too long\", \"I would suggest\". Mentioning a survey of 23 colleagues makes the findings sound reliable.\nOrganisation: a title and clear headings that follow the task, a short introduction stating the purpose, and bullet points for the recommendations, which are written in the same grammatical form (replacing / keeping / having). The final sentence rounds the report off.\nLanguage: accurate, appropriate language for a report – passives (\"held on 14 March\", \"was considered\", \"are made\"), \"consisted of… followed by…\", reported speech (\"said they had already used\") and precise vocabulary (\"hands-on sessions\", \"role-plays\", \"the highlight\").",
+        "bg": "Съдържание: и трите точки са покрити – какво включваше денят (презентация, уъркшоп, тиймбилдинг), коя част беше най-полезна и защо (реалистични ролеви игри, които хората вече използват в работата) и три конкретни препоръки, всяка свързана с проблем, споменат по-рано.\nКомуникативно постижение: официален, безличен стил на доклад, подходящ за мениджър – \"The aim of this report is to evaluate\", \"was considered too long\", \"I would suggest\". Споменаването на анкета с 23 колеги прави изводите надеждни.\nОрганизация: заглавие и ясни подзаглавия, които следват задачата, кратко въведение с целта и булети за препоръките, написани в еднаква граматична форма (replacing / keeping / having). Последното изречение закръгля доклада.\nЕзик: точен език, подходящ за доклад – страдателен залог (\"held on 14 March\", \"was considered\", \"are made\"), \"consisted of… followed by…\", непряка реч (\"said they had already used\") и прецизна лексика (\"hands-on sessions\", \"role-plays\", \"the highlight\")."
+      }
+    },
+    {
+      "id": "b2.write.m2.p2-b",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Volunteering at a music festival",
+      "topic": "Volunteering and events",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "letter",
+      "prompt": "You see this advertisement on a festival website.\n\nVOLUNTEERS WANTED – Riverside Music Festival\nWe are looking for friendly volunteers to help at our three-day festival in July. Tasks include welcoming visitors, giving information and helping at the information stand.\nWrite to us explaining:\n• why you would be a suitable volunteer\n• what relevant experience you have\n• which days you are available.\nWrite to Ms Clarke, the volunteer coordinator.\n\nWrite your letter.",
+      "points": [
+        {
+          "label": "Explain why you would be suitable",
+          "keywords": [
+            "suitable",
+            "suited",
+            "sociable",
+            "friendly",
+            "patient",
+            "enjoy",
+            "speak",
+            "languages",
+            "reliable"
+          ]
+        },
+        {
+          "label": "Describe relevant experience",
+          "keywords": [
+            "experience",
+            "worked",
+            "volunteered",
+            "last summer",
+            "last year",
+            "reception",
+            "dealt with"
+          ]
+        },
+        {
+          "label": "Say which days you are available",
+          "keywords": [
+            "available",
+            "all three days",
+            "days",
+            "saturday",
+            "sunday",
+            "friday",
+            "weekend"
+          ]
+        },
+        {
+          "label": "Formal letter conventions",
+          "keywords": [
+            "dear ms clarke",
+            "yours sincerely",
+            "i am writing",
+            "i look forward to hearing from you"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "Dear Ms Clarke,\n\nI am writing to apply for a volunteer position at the Riverside Music Festival, which I saw advertised on your website.\n\nI believe I would be well suited to the role for several reasons. First of all, I am a sociable and patient person who enjoys meeting people from different backgrounds. I also speak English, Spanish and some French, which could be useful for helping international visitors.\n\nAs far as experience is concerned, I worked at the reception desk of a busy hotel last summer, where I dealt with guests' questions and complaints every day. In addition, I volunteered at a charity run in my town last year, giving out water and directing runners, so I know how important it is to stay calm and friendly when things get busy.\n\nI am available on all three days of the festival, although I would prefer to finish by 8 p.m. on the Sunday, as I have to travel home that evening.\n\nI would be very grateful for the opportunity to be part of your team. I look forward to hearing from you.\n\nYours sincerely,\nElena Petrova",
+      "modelNotes": {
+        "en": "Content: all three points in the advertisement are addressed – suitability (sociable, patient, three languages), experience (hotel reception, a charity run) and availability (all three days, with one polite condition).\nCommunicative Achievement: a consistently formal register appropriate for a job application – \"I am writing to apply for\", \"I believe I would be well suited to the role\", \"I would be very grateful for the opportunity\". The writer links each quality to the festival's needs (\"useful for helping international visitors\"), which makes the application persuasive.\nOrganisation: standard letter layout with salutation and sign-off matching (\"Dear Ms Clarke… Yours sincerely\"); one paragraph per point, introduced by \"First of all\", \"As far as experience is concerned\", \"In addition\".\nLanguage: accurate complex sentences – relative clauses (\"which I saw advertised\", \"where I dealt with…\"), participle clauses (\"giving out water and directing runners\"), \"although I would prefer to…\", and appropriate collocations (\"dealt with complaints\", \"from different backgrounds\").",
+        "bg": "Съдържание: и трите точки от обявата са засегнати – защо си подходящ (общителен, търпелив, три езика), опит (рецепция на хотел, благотворително бягане) и кога си свободен (и трите дни, с едно учтиво условие).\nКомуникативно постижение: последователно официален стил, подходящ за кандидатстване – \"I am writing to apply for\", \"I believe I would be well suited to the role\", \"I would be very grateful for the opportunity\". Авторът свързва всяко качество с нуждите на фестивала (\"useful for helping international visitors\"), което прави писмото убедително.\nОрганизация: стандартна форма на писмо с обръщение и завършек, които си съответстват (\"Dear Ms Clarke… Yours sincerely\"); по един абзац за всяка точка, въведен с \"First of all\", \"As far as experience is concerned\", \"In addition\".\nЕзик: точни сложни изречения – подчинени (\"which I saw advertised\", \"where I dealt with…\"), причастни конструкции (\"giving out water and directing runners\"), \"although I would prefer to…\" и подходящи колокации (\"dealt with complaints\", \"from different backgrounds\")."
+      }
+    },
+    {
+      "id": "b2.write.m2.p2-c",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Could you live without it?",
+      "topic": "Everyday habits",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "article",
+      "prompt": "You see this announcement in an English-language magazine.\n\nARTICLES WANTED\nCould you live without it?\nTell us about a time when you had to manage without something you normally use every day. How did you feel, and what did you learn from the experience?\nThe best articles will appear in next month's issue.\n\nWrite your article.",
+      "points": [
+        {
+          "label": "Describe the situation: what you had to manage without",
+          "keywords": [
+            "without",
+            "broke down",
+            "lost",
+            "had to manage",
+            "couldn't use",
+            "no internet",
+            "no phone",
+            "no car"
+          ]
+        },
+        {
+          "label": "Say how you felt",
+          "keywords": [
+            "felt",
+            "frustrat",
+            "annoy",
+            "tired",
+            "sorry for myself",
+            "relieved",
+            "happy",
+            "surprised",
+            "stress"
+          ]
+        },
+        {
+          "label": "Say what you learned",
+          "keywords": [
+            "learned",
+            "learnt",
+            "realised",
+            "realized",
+            "discovered",
+            "now i",
+            "taught me",
+            "noticed"
+          ]
+        },
+        {
+          "label": "Engage the reader (title, direct address, lively style)",
+          "keywords": [
+            "?",
+            "you",
+            "your",
+            "try",
+            "imagine"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "Seven Days on Foot\n\nI've always thought of myself as an active person, so it was embarrassing to realise how much I depend on my car. Last spring, it broke down and the garage needed a week to repair it. Suddenly, I had to manage without it.\n\nThe first two days were frustrating. I had to get up forty minutes earlier to catch the bus to work, and doing the weekly shopping meant carrying heavy bags up a steep hill. I felt tired and, to be honest, a bit sorry for myself.\n\nBy Wednesday, however, something had changed. I started reading on the bus instead of sitting in traffic, and I noticed a little bakery on my street that I'd driven past for years without seeing. I even got to know some of my neighbours.\n\nWhen I got my car back, I didn't want to give up everything I'd discovered. Now I walk or take the bus whenever I can, and I only drive when it's really necessary.\n\nSo here's my advice: try leaving your car at home for a few days. You might be surprised by what you find.",
+      "modelNotes": {
+        "en": "Content: the article tells the story of a week without a car and answers both questions – how the writer felt (frustrated, tired, \"a bit sorry for myself\", then happier) and what they learned (new habits, noticing their neighbourhood).\nCommunicative Achievement: the style suits a magazine article – a short, intriguing title, a personal and slightly self-mocking tone (\"it was embarrassing to realise\"), and a final paragraph that speaks directly to the reader with advice.\nOrganisation: the paragraphs follow the timeline of the week (the problem → the first two days → by Wednesday → afterwards → advice). Time expressions (\"Last spring\", \"Suddenly\", \"By Wednesday, however\", \"When I got my car back\", \"Now\") hold it together.\nLanguage: a good range of narrative tenses (past perfect \"something had changed\", \"I'd driven past for years\"), gerunds (\"doing the weekly shopping meant carrying…\"), phrasal verbs (\"broke down\", \"got to know\", \"give up\") and natural expressions (\"to be honest\", \"whenever I can\").",
+        "bg": "Съдържание: статията разказва за седмица без кола и отговаря и на двата въпроса – какво е чувствал авторът (раздразнение, умора, \"a bit sorry for myself\", после повече радост) и какво е научил (нови навици, забелязване на квартала).\nКомуникативно постижение: стилът пасва на статия за списание – кратко, интригуващо заглавие, личен и леко самоироничен тон (\"it was embarrassing to realise\") и последен абзац, който се обръща директно към читателя със съвет.\nОрганизация: абзаците следват хронологията на седмицата (проблемът → първите два дни → до сряда → след това → съвет). Изрази за време (\"Last spring\", \"Suddenly\", \"By Wednesday, however\", \"When I got my car back\", \"Now\") държат текста цялостен.\nЕзик: добър набор от разказни времена (минало перфектно \"something had changed\", \"I'd driven past for years\"), герундий (\"doing the weekly shopping meant carrying…\"), фразови глаголи (\"broke down\", \"got to know\", \"give up\") и естествени изрази (\"to be honest\", \"whenever I can\")."
+      }
+    },
+    {
+      "id": "b2.write.d1.p1",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 1,
+      "set": "drill",
+      "title": "Learning a skill online",
+      "topic": "Education and technology",
+      "instructions": "You must answer this question. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "essay",
+      "prompt": "In your English class you have been talking about different ways of learning. Now your English teacher has asked you to write an essay.\n\nWrite an essay using all the notes and give reasons for your point of view.\n\nLearning a new skill online is just as effective as learning it in a class with a teacher. Do you agree?\n\nNotes\nWrite about:\n1. cost\n2. motivation\n3. ........ (your own idea)\n\nWrite your essay in 140–190 words in an appropriate style.",
+      "points": [
+        {
+          "label": "Note 1: cost",
+          "keywords": [
+            "cost",
+            "cheap",
+            "expensive",
+            "free",
+            "money",
+            "afford",
+            "pay",
+            "price"
+          ]
+        },
+        {
+          "label": "Note 2: motivation",
+          "keywords": [
+            "motivat",
+            "discipline",
+            "give up",
+            "encourage",
+            "finish",
+            "lazy",
+            "keep going"
+          ]
+        },
+        {
+          "label": "Note 3: your own idea (a different point)",
+          "keywords": [
+            "another",
+            "a further",
+            "in addition",
+            "furthermore",
+            "feedback",
+            "mistakes",
+            "flexib",
+            "time",
+            "social",
+            "practice"
+          ]
+        },
+        {
+          "label": "A clear overall opinion with reasons",
+          "keywords": [
+            "in my opinion",
+            "i believe",
+            "i think",
+            "in my view",
+            "to sum up",
+            "in conclusion",
+            "overall",
+            "on balance",
+            "all things considered",
+            "personally"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "These days, you can learn almost anything online, from playing the guitar to writing computer code. But is an online course really as effective as a class with a teacher?\n\nOne clear advantage of online learning is cost. Many courses are free or much cheaper than lessons at a school, and learners do not have to pay for transport. This means that far more people can afford to develop new skills.\n\nHowever, staying motivated is much more difficult when you study alone. In a class, you have a fixed time, a teacher who expects you to turn up and classmates who encourage you. Online, it is very easy to tell yourself that you will watch the next video tomorrow, and many people never finish the course they started.\n\nFeedback is another important factor. A good teacher can notice your mistakes immediately and explain how to correct them, which a video cannot do.\n\nTo sum up, I think online learning is a great option for organised, self-disciplined people. For most learners, though, especially beginners, a class with a real teacher is still more effective.",
+      "modelNotes": {
+        "en": "Content: cost and motivation are both discussed with clear reasons, and the own idea (feedback on mistakes) adds a genuinely different point. The conclusion answers the question and qualifies it (\"for organised, self-disciplined people\").\nCommunicative Achievement: a neutral essay register; the examples (\"from playing the guitar to writing computer code\", \"watch the next video tomorrow\") make the argument concrete and easy to follow for the teacher reading it.\nOrganisation: one idea per paragraph, signalled by \"One clear advantage\", \"However\", \"another important factor\" and \"To sum up\". \"This means that…\" and \"which a video cannot do\" link ideas inside paragraphs.\nLanguage: accurate B2 grammar and vocabulary – gerund subjects (\"staying motivated is…\"), relative clauses (\"a teacher who expects you to turn up\"), \"far more people can afford to\", \"self-disciplined\" – with natural word order and good control throughout.",
+        "bg": "Съдържание: цената и мотивацията са обсъдени с ясни аргументи, а собствената идея (обратна връзка за грешките) добавя наистина различна гледна точка. Заключението отговаря на въпроса и го уточнява (\"for organised, self-disciplined people\").\nКомуникативно постижение: неутрален стил на есе; примерите (\"from playing the guitar to writing computer code\", \"watch the next video tomorrow\") правят аргументите конкретни и лесни за следване от учителя, който чете.\nОрганизация: по една идея на абзац, отбелязана с \"One clear advantage\", \"However\", \"another important factor\" и \"To sum up\". \"This means that…\" и \"which a video cannot do\" свързват идеите вътре в абзаците.\nЕзик: точна B2 граматика и лексика – герундий като подлог (\"staying motivated is…\"), подчинени изречения (\"a teacher who expects you to turn up\"), \"far more people can afford to\", \"self-disciplined\" – с естествен словоред и добър контрол навсякъде."
+      }
+    },
+    {
+      "id": "b2.write.d2.p1",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 1,
+      "set": "drill",
+      "title": "Tourism in small towns",
+      "topic": "Tourism and local communities",
+      "instructions": "You must answer this question. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "essay",
+      "prompt": "In your English class you have been talking about tourism. Now your English teacher has asked you to write an essay.\n\nWrite an essay using all the notes and give reasons for your point of view.\n\nTourism brings more advantages than disadvantages to a town. Do you agree?\n\nNotes\nWrite about:\n1. jobs\n2. the cost of living\n3. ........ (your own idea)\n\nWrite your essay in 140–190 words in an appropriate style.",
+      "points": [
+        {
+          "label": "Note 1: jobs",
+          "keywords": [
+            "job",
+            "employment",
+            "work",
+            "staff",
+            "income",
+            "economy"
+          ]
+        },
+        {
+          "label": "Note 2: the cost of living",
+          "keywords": [
+            "cost of living",
+            "price",
+            "expensive",
+            "rent",
+            "afford",
+            "housing",
+            "homes"
+          ]
+        },
+        {
+          "label": "Note 3: your own idea (a different point)",
+          "keywords": [
+            "in my view",
+            "another",
+            "a further",
+            "in addition",
+            "culture",
+            "tradition",
+            "crowd",
+            "environment",
+            "noise",
+            "buildings"
+          ]
+        },
+        {
+          "label": "A clear overall opinion with reasons",
+          "keywords": [
+            "in my opinion",
+            "i believe",
+            "i think",
+            "in my view",
+            "to sum up",
+            "in conclusion",
+            "overall",
+            "on balance",
+            "all things considered",
+            "personally"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "Every summer, thousands of visitors arrive in popular towns by the sea or in the mountains. While tourism is often welcomed, local people do not always agree that it improves their lives.\n\nThe main benefit is undoubtedly employment. Hotels, restaurants, tour companies and shops all need staff, and in small towns tourism may be one of the few sources of work. Money spent by visitors also helps local farmers, builders and taxi drivers.\n\nOn the other hand, tourism can make life more expensive for residents. When many flats are rented out to visitors, there are fewer homes available for local families, so rents rise. Prices in cafés and shops often go up as well.\n\nIn addition, tourism can help to protect local culture. Old buildings are restored and traditional festivals continue partly because visitors are interested in them. Without tourists, some of these traditions might disappear.\n\nAll things considered, I believe tourism brings more advantages than disadvantages, provided that the local authorities control short-term rentals so that ordinary people can still afford to live in their own town.",
+      "modelNotes": {
+        "en": "Content: jobs and the cost of living are both developed with examples (who benefits from tourist money; why rents rise), and the own idea – protecting local culture – is clearly separate. The final sentence gives a clear opinion and a realistic condition.\nCommunicative Achievement: an objective, neutral register; the introduction sets up the debate without giving the answer away, so the conclusion feels earned.\nOrganisation: a logical structure – advantage, disadvantage, further advantage, conclusion – with \"The main benefit is undoubtedly\", \"On the other hand\", \"In addition\" and \"All things considered\". The final idea (\"provided that the local authorities control short-term rentals\") links back to the cost-of-living paragraph.\nLanguage: a good range of B2 forms – passives (\"is often welcomed\", \"are restored\", \"are rented out\"), a reduced relative (\"Money spent by visitors\"), \"one of the few sources of\", \"provided that… so that…\" – and topic vocabulary such as \"residents\", \"short-term rentals\", \"local authorities\".",
+        "bg": "Съдържание: работните места и издръжката на живота са развити с примери (кой печели от парите на туристите; защо наемите се вдигат), а собствената идея – опазването на местната култура – е ясно отделна. Последното изречение дава ясно мнение и реалистично условие.\nКомуникативно постижение: обективен, неутрален стил; уводът поставя въпроса, без да издава отговора, така че заключението звучи заслужено.\nОрганизация: логична структура – предимство, недостатък, още едно предимство, заключение – с \"The main benefit is undoubtedly\", \"On the other hand\", \"In addition\" и \"All things considered\". Крайната идея (\"provided that the local authorities control short-term rentals\") се връща към абзаца за цените.\nЕзик: добър набор от B2 форми – страдателен залог (\"is often welcomed\", \"are restored\", \"are rented out\"), съкратено подчинено (\"Money spent by visitors\"), \"one of the few sources of\", \"provided that… so that…\" – и тематична лексика като \"residents\", \"short-term rentals\", \"local authorities\"."
+      }
+    },
+    {
+      "id": "b2.write.d1.p2",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 2,
+      "set": "drill",
+      "title": "Public transport guide for students",
+      "topic": "Transport and city life",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "report",
+      "prompt": "An international student website is preparing a guide for students who are coming to study in your town. You have been asked to write a report about public transport. In your report you should:\n\n• describe the main types of public transport\n• explain which options are best for students and why\n• give some useful tips for new arrivals.\n\nWrite your report.",
+      "points": [
+        {
+          "label": "Describe the main types of transport",
+          "keywords": [
+            "bus",
+            "tram",
+            "metro",
+            "taxi",
+            "bicycle",
+            "bike",
+            "train",
+            "trolleybus"
+          ]
+        },
+        {
+          "label": "Explain which options are best for students",
+          "keywords": [
+            "student",
+            "best",
+            "cheap",
+            "discount",
+            "budget",
+            "monthly",
+            "card",
+            "free"
+          ]
+        },
+        {
+          "label": "Give useful tips",
+          "keywords": [
+            "advise",
+            "advice",
+            "recommend",
+            "tip",
+            "make sure",
+            "download",
+            "app",
+            "suggest"
+          ]
+        },
+        {
+          "label": "Report format: headings and a clear purpose",
+          "keywords": [
+            "introduction",
+            "this report",
+            "purpose",
+            "aim",
+            "recommendations",
+            "conclusion"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "Getting around town: a guide for international students\n\nIntroduction\nThis report describes the public transport available in our town and suggests the best options for students on a limited budget.\n\nBuses\nBuses run from 5.30 a.m. until 11 p.m. The most useful routes for students are numbers 1 and 26, which connect the university with the centre. A single ticket costs one euro, but students can buy a monthly card for just ten euros by showing their student ID.\n\nTaxis\nTaxis are fairly cheap compared with most European cities, especially if you share one with friends. However, make sure you use a licensed company and check that the driver turns on the meter.\n\nBicycles\nThe town is flat, so cycling is a popular choice. There is a bike-sharing scheme with stations near all the main faculties, and the first thirty minutes of each journey are free.\n\nRecommendations\nI would advise new students to get a monthly bus card as soon as they arrive and to download the city transport app, which shows when the next bus is coming. For short trips in good weather, though, shared bikes are best.",
+      "modelNotes": {
+        "en": "Content: all three points are covered – the main types of transport (buses, taxis, bicycles), which are best for students (the discounted monthly card, free bike-share minutes) and practical tips (licensed taxis, the meter, the transport app).\nCommunicative Achievement: the report is genuinely useful for its readers, new international students: it gives times, route numbers and prices. The register is semi-formal and informative, with \"you\" used naturally for advice, as in a real guide.\nOrganisation: a clear title, a one-sentence introduction stating the purpose, one heading per type of transport and a final \"Recommendations\" section. Within sections, \"but\", \"However\" and \"though\" mark contrasts.\nLanguage: precise vocabulary (\"routes\", \"licensed\", \"bike-sharing scheme\", \"faculties\"), comparison (\"fairly cheap compared with\"), \"make sure… and check that…\", \"advise somebody to…\", relative clauses – all used accurately.",
+        "bg": "Съдържание: и трите точки са покрити – основните видове транспорт (автобуси, таксита, велосипеди), кои са най-добри за студенти (месечна карта с отстъпка, безплатни минути за споделени колела) и практични съвети (лицензирани таксита, таксиметърът, приложението за транспорт).\nКомуникативно постижение: докладът е наистина полезен за читателите си, новите чуждестранни студенти: дава часове, номера на линии и цени. Стилът е полуофициален и информативен, а \"you\" се използва естествено за съвети, както в истински пътеводител.\nОрганизация: ясно заглавие, въведение от едно изречение с целта, по едно подзаглавие за всеки вид транспорт и финален раздел \"Recommendations\". Вътре в разделите \"but\", \"However\" и \"though\" отбелязват контраст.\nЕзик: прецизна лексика (\"routes\", \"licensed\", \"bike-sharing scheme\", \"faculties\"), сравнение (\"fairly cheap compared with\"), \"make sure… and check that…\", \"advise somebody to…\", подчинени изречения – всичко използвано точно."
+      }
+    },
+    {
+      "id": "b2.write.d2.p2",
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 2,
+      "set": "drill",
+      "title": "A restaurant for a special occasion",
+      "topic": "Food and celebrations",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 140–190 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "review",
+      "prompt": "You see this notice on an English-language website about your town.\n\nRESTAURANT REVIEWS WANTED\nHave you eaten at a restaurant recently that was good for a special occasion? Write a review describing the food, the atmosphere and the service, and say whether you would recommend the restaurant for celebrations.\n\nWrite your review.",
+      "points": [
+        {
+          "label": "Describe the food",
+          "keywords": [
+            "food",
+            "dish",
+            "starter",
+            "dessert",
+            "tasted",
+            "portion",
+            "menu",
+            "delicious",
+            "tender"
+          ]
+        },
+        {
+          "label": "Describe the atmosphere",
+          "keywords": [
+            "atmosphere",
+            "candles",
+            "music",
+            "cosy",
+            "relaxed",
+            "crowded",
+            "noisy",
+            "decor",
+            "quiet"
+          ]
+        },
+        {
+          "label": "Describe the service",
+          "keywords": [
+            "service",
+            "waiter",
+            "waitress",
+            "staff",
+            "friendly",
+            "attentive",
+            "slow",
+            "polite"
+          ]
+        },
+        {
+          "label": "Recommend (or not) for celebrations",
+          "keywords": [
+            "recommend",
+            "perfect for",
+            "ideal for",
+            "birthday",
+            "anniversar",
+            "celebrat",
+            "book"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "The Olive Tree: perfect for a special night out?\n\nWhen my parents celebrated their thirtieth wedding anniversary last month, we booked a table for eight at The Olive Tree, a small Greek restaurant near the river. I'm glad to say it was an excellent choice.\n\nThe food was the highlight of the evening. We shared a selection of starters, including the best grilled halloumi I have ever tasted, and my father's lamb with lemon potatoes was so tender that it fell off the bone. Portions are generous, so don't order too much!\n\nThe atmosphere is warm and relaxed. There are candles on every table and quiet traditional music in the background, so you can actually hear each other talk. However, the restaurant is quite small, which means it can feel a little crowded on Friday and Saturday nights.\n\nThe service was friendly and attentive. When the waiter found out what we were celebrating, he brought a free dessert with a candle in it, which my mother loved.\n\nI would definitely recommend The Olive Tree for birthdays and anniversaries, but book at least a week in advance.",
+      "modelNotes": {
+        "en": "Content: food, atmosphere and service are each described with specific details (grilled halloumi, candles and quiet music, a free dessert), and the last paragraph gives a clear recommendation for celebrations plus a practical tip.\nCommunicative Achievement: the review informs and entertains – the title asks the reader's question, the opening places the restaurant in a real occasion, and the writer gives a fair weakness (\"can feel a little crowded\"). The tone is friendly but not too informal.\nOrganisation: an introduction, one paragraph each for food, atmosphere and service (in the order of the task) and a recommendation. Linkers (\"However\", \"which means\", \"When the waiter found out…\") are used naturally.\nLanguage: a range of B2 structures – present perfect with superlative (\"the best… I have ever tasted\"), \"so… that…\", \"which means\", imperative advice (\"don't order too much!\") – and precise descriptive vocabulary (\"generous\", \"attentive\", \"tender\", \"in the background\").",
+        "bg": "Съдържание: храната, атмосферата и обслужването са описани с конкретни детайли (халуми на скара, свещи и тиха музика, безплатен десерт), а последният абзац дава ясна препоръка за празненства и практичен съвет.\nКомуникативно постижение: ревюто информира и забавлява – заглавието задава въпроса на читателя, началото поставя ресторанта в реален повод, а авторът посочва честна слабост (\"can feel a little crowded\"). Тонът е приятелски, но не прекалено неформален.\nОрганизация: увод, по един абзац за храна, атмосфера и обслужване (в реда от задачата) и препоръка. Свързващите думи (\"However\", \"which means\", \"When the waiter found out…\") са използвани естествено.\nЕзик: набор от B2 структури – сегашно перфектно с превъзходна степен (\"the best… I have ever tasted\"), \"so… that…\", \"which means\", повелително наклонение за съвет (\"don't order too much!\") – и точна описателна лексика (\"generous\", \"attentive\", \"tender\", \"in the background\")."
+      }
+    }
+  ],
+  "guides": [
+    {
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 1,
+      "tests": {
+        "en": "Part 1 is a compulsory essay of 140–190 words. You get an essay question (often \"Do you agree?\") and three notes: two are given, the third is \"your own idea\". You must write about all three and give your opinion with reasons. Your essay is marked on four subscales, each from 0 to 5 (20 marks in total):\n• Content – have you covered all three notes and answered the question, so a reader is fully informed?\n• Communicative Achievement – does it read like an essay: neutral or formal register, arguments supported, a clear position?\n• Organisation – is it logically ordered in paragraphs, with linking words and reference (this, which, such…) that connect ideas?\n• Language – range and accuracy of grammar and vocabulary; errors are fine if they don't get in the way of meaning.",
+        "bg": "Част 1 е задължително есе от 140–190 думи. Получаваш въпрос (често \"Do you agree?\") и три бележки: две са дадени, третата е \"your own idea\" – твоя собствена идея. Трябва да пишеш и за трите и да дадеш мнението си с аргументи. Есето се оценява по четири критерия, всеки от 0 до 5 (общо 20 точки):\n• Content (съдържание) – покрил ли си и трите бележки и отговорил ли си на въпроса, така че читателят да е напълно информиран?\n• Communicative Achievement (комуникативно постижение) – звучи ли като есе: неутрален или официален стил, подкрепени аргументи, ясна позиция?\n• Organisation (организация) – логично ли е разделено на абзаци, със свързващи думи и препратки (this, which, such…), които свързват идеите?\n• Language (език) – разнообразие и точност на граматиката и лексиката; грешките са допустими, ако не пречат на смисъла."
+      },
+      "strategy": [
+        {
+          "en": "Spend about 5 minutes planning. Underline the question and decide your opinion before you start, so the whole essay points towards it.",
+          "bg": "Отдели около 5 минути за план. Подчертай въпроса и реши мнението си, преди да започнеш, така че цялото есе да води към него."
+        },
+        {
+          "en": "Choose an own idea that is clearly different from notes 1 and 2 (not just another example of them). Write it down in two or three words.",
+          "bg": "Избери собствена идея, която ясно се различава от бележки 1 и 2 (а не просто още един пример за тях). Запиши я с две-три думи."
+        },
+        {
+          "en": "Use a five-paragraph plan: introduction (rephrase the question) → note 1 → note 2 → own idea → conclusion with your opinion. Give each body paragraph a topic sentence, a reason and an example.",
+          "bg": "Използвай план от пет абзаца: увод (перифразирай въпроса) → бележка 1 → бележка 2 → собствена идея → заключение с мнението ти. Всеки абзац в основната част да има водещо изречение, причина и пример."
+        },
+        {
+          "en": "Keep a neutral or slightly formal register: no slang, few contractions, and linkers such as On the other hand, Another point to consider, In conclusion.",
+          "bg": "Пази неутрален или леко официален стил: без жаргон, малко съкращения и свързващи думи като On the other hand, Another point to consider, In conclusion."
+        },
+        {
+          "en": "Leave 5 minutes to check: count roughly (about 10 words a line), and look for your typical errors – tenses, articles, subject–verb agreement.",
+          "bg": "Остави 5 минути за проверка: преброй приблизително (около 10 думи на ред) и търси типичните си грешки – времена, членове, съгласуване на подлог и сказуемо."
+        }
+      ],
+      "example": {
+        "question": "Some people say that everyone should learn to cook at school. Do you agree?\nNotes: 1. health  2. money  3. ........ (your own idea)",
+        "steps": [
+          {
+            "en": "Decide your opinion first: yes, mostly – but cooking should be practical, not just theory. This will be the conclusion.",
+            "bg": "Първо реши мнението си: да, общо взето – но готвенето трябва да е практическо, не само теория. Това ще е заключението."
+          },
+          {
+            "en": "Brainstorm a reason and an example for each note. Health: people who cook eat less processed food. Money: home-cooked meals cost much less than takeaways.",
+            "bg": "Измисли причина и пример за всяка бележка. Здраве: хората, които готвят, ядат по-малко преработени храни. Пари: домашната храна струва много по-малко от храната за вкъщи."
+          },
+          {
+            "en": "Pick an own idea that is new: independence – young people who leave home can look after themselves. (Avoid 'it's cheaper' again – that's note 2.)",
+            "bg": "Избери нова собствена идея: самостоятелност – младите, които напускат дома, могат да се грижат за себе си. (Избягвай пак 'по-евтино е' – това е бележка 2.)"
+          },
+          {
+            "en": "Write a paragraph plan with a linker for each paragraph: Intro (rephrase) → 'The main reason is health…' → 'Cooking also saves money…' → 'Another point to consider is independence…' → 'In conclusion, I believe…'.",
+            "bg": "Напиши план по абзаци със свързваща дума за всеки: Увод (перифраза) → 'The main reason is health…' → 'Cooking also saves money…' → 'Another point to consider is independence…' → 'In conclusion, I believe…'."
+          },
+          {
+            "en": "Budget the words: intro 25, three body paragraphs of about 40, conclusion 30 = about 175 words.",
+            "bg": "Разпредели думите: увод 25, три абзаца по около 40, заключение 30 = около 175 думи."
+          }
+        ],
+        "answer": "Plan: 1) Intro – cooking is rarely taught; should it be? 2) Health – less processed food; example: simple vegetable dishes. 3) Money – home meals vs takeaways. 4) Own idea: independence when leaving home. 5) Conclusion – yes, if lessons are practical."
+      },
+      "pitfalls": [
+        {
+          "en": "Forgetting the third note or making it the same as note 1 or 2 – this lowers your Content mark however good your English is.",
+          "bg": "Да забравиш третата бележка или да я направиш същата като 1 или 2 – това сваля оценката за Content, колкото и добър да е английският ти."
+        },
+        {
+          "en": "Sitting on the fence: describing both sides but never saying what you think. The question asks for your opinion – state it clearly, at least in the conclusion.",
+          "bg": "Да стоиш по средата: описваш двете страни, но не казваш какво мислиш. Въпросът иска мнението ти – кажи го ясно, поне в заключението."
+        },
+        {
+          "en": "Writing far more than 190 words. Long essays usually lose focus and contain more errors; examiners reward relevance, not length.",
+          "bg": "Да пишеш много повече от 190 думи. Дългите есета обикновено губят фокус и имат повече грешки; изпитващите ценят уместността, не дължината."
+        },
+        {
+          "en": "Informal language (gonna, stuff, loads of, !!!) in an essay – it damages Communicative Achievement.",
+          "bg": "Неформален език (gonna, stuff, loads of, !!!) в есе – вреди на Communicative Achievement."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "writing",
+      "part": 2,
+      "tests": {
+        "en": "In Part 2 you choose one of three tasks (questions 2–4) and write 140–190 words. The task types are an article, an email or letter, a report and a review. Each task tells you who will read it and why, and the content points to include. It is marked on the same four subscales, each 0–5:\n• Content – are all the points in the task covered and relevant?\n• Communicative Achievement – does it follow the conventions of the genre (title, headings, greeting…) and use the right register for the reader, so it would have the intended effect?\n• Organisation – clear paragraphs (or headings), linking and a sensible order.\n• Language – range and accuracy of vocabulary and grammar, appropriate to the task.",
+        "bg": "В Част 2 избираш една от три задачи (въпроси 2–4) и пишеш 140–190 думи. Видовете текстове са статия, имейл или писмо, доклад (report) и ревю. Всяка задача казва кой ще чете текста и защо, и кои точки да включиш. Оценява се по същите четири критерия, всеки 0–5:\n• Content – покрити ли са всички точки от задачата и уместни ли са?\n• Communicative Achievement – спазва ли конвенциите на жанра (заглавие, подзаглавия, поздрав…) и подходящ ли е стилът за читателя, така че текстът да постигне целта си?\n• Organisation – ясни абзаци (или подзаглавия), свързване и смислен ред.\n• Language – разнообразие и точност на лексиката и граматиката, подходящи за задачата."
+      },
+      "strategy": [
+        {
+          "en": "Choose the task you have most ideas and vocabulary for – not the one that looks easiest. Spend a minute listing ideas for two tasks if you're unsure.",
+          "bg": "Избери задачата, за която имаш най-много идеи и лексика – не тази, която изглежда най-лесна. Ако се колебаеш, отдели минута да запишеш идеи за две задачи."
+        },
+        {
+          "en": "Underline the reader, the purpose and every content point (questions and bullets). Each one becomes at least one paragraph or section in your plan.",
+          "bg": "Подчертай читателя, целта и всяка точка от съдържанието (въпроси и булети). Всяка от тях става поне един абзац или раздел в плана ти."
+        },
+        {
+          "en": "Fix the register before writing: informal for a friend (contractions, phrasal verbs), formal for a manager or organisation (I am writing to…, I would recommend…), lively and personal for an article or review.",
+          "bg": "Реши стила, преди да пишеш: неформален за приятел (съкращения, фразови глаголи), официален за мениджър или организация (I am writing to…, I would recommend…), жив и личен за статия или ревю."
+        },
+        {
+          "en": "Use the genre's layout: article and review – a catchy title and a direct question to the reader; report – title and headings, Introduction and Recommendations; email/letter – greeting, opening reason for writing, closing line and sign-off that match.",
+          "bg": "Използвай формата на жанра: статия и ревю – закачливо заглавие и директен въпрос към читателя; доклад – заглавие и подзаглавия, Introduction и Recommendations; имейл/писмо – поздрав, причина за писане в началото, финален ред и подпис, които си пасват."
+        },
+        {
+          "en": "Check at the end: every point answered? register consistent? about 140–190 words?",
+          "bg": "Провери накрая: отговорена ли е всяка точка? последователен ли е стилът? около 140–190 думи ли са?"
+        }
+      ],
+      "example": {
+        "question": "Your English teacher has asked you to write a review of a film you have seen recently. Describe the film, say what you liked and didn't like about it, and say who you would recommend it to.",
+        "steps": [
+          {
+            "en": "Identify the reader and purpose: other students; to inform and help them decide whether to watch. Register: neutral, lively.",
+            "bg": "Определи читателя и целта: други ученици; да ги информираш и да им помогнеш да решат дали да го гледат. Стил: неутрален, жив."
+          },
+          {
+            "en": "List the content points from the task: (1) describe the film, (2) likes, (3) dislikes, (4) who to recommend it to. That gives four body paragraphs.",
+            "bg": "Изреди точките от задачата: (1) опиши филма, (2) какво ти хареса, (3) какво не ти хареса, (4) на кого го препоръчваш. Това дава четири абзаца."
+          },
+          {
+            "en": "Write a title with a hook (e.g. 'A slow start, a brilliant ending') and an opening that speaks to the reader: 'Looking for a film that will keep you guessing?'",
+            "bg": "Напиши заглавие с кукичка (напр. 'A slow start, a brilliant ending') и начало, което се обръща към читателя: 'Looking for a film that will keep you guessing?'"
+          },
+          {
+            "en": "Collect review vocabulary for each paragraph: plot, set in, the lead actor, gripping, predictable, the soundtrack, well worth watching.",
+            "bg": "Събери лексика за ревю за всеки абзац: plot, set in, the lead actor, gripping, predictable, the soundtrack, well worth watching."
+          },
+          {
+            "en": "Don't retell the whole story – two or three sentences about the plot are enough. Spend more words on your evaluation.",
+            "bg": "Не преразказвай цялата история – две-три изречения за сюжета стигат. Отдели повече думи на оценката си."
+          }
+        ],
+        "answer": "Plan: Title + hook question → 1) What it is: genre, setting, main character (no spoilers) → 2) Strengths: acting, soundtrack → 3) Weakness: slow first half → 4) Recommendation: fans of thrillers, not young children."
+      },
+      "pitfalls": [
+        {
+          "en": "Wrong register – a chatty email to a festival organiser, or a stiff, formal email to a friend. Match the language to the reader.",
+          "bg": "Грешен стил – разговорен имейл до организатор на фестивал или вдървено, официално писмо до приятел. Съобрази езика с читателя."
+        },
+        {
+          "en": "Writing an essay instead of the genre: a review with no recommendation, a report with no headings, an article with no title or reader engagement.",
+          "bg": "Да напишеш есе вместо жанра: ревю без препоръка, доклад без подзаглавия, статия без заглавие и без връзка с читателя."
+        },
+        {
+          "en": "Leaving out one of the content points (often the last bullet or the last question in the input).",
+          "bg": "Да пропуснеш някоя от точките (често последния булет или последния въпрос в задачата)."
+        }
+      ]
+    }
+  ],
+  "lessons": []
+}

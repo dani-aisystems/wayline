@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useProfile } from "../state/profile";
 import { Wordmark } from "../components/Logo";
-import type { Profile } from "../db/db";
+import type { CertGoal, Profile } from "../db/db";
+import { CertSetup } from "./exam/CertSetup";
 import type { StringKey } from "../i18n/strings";
 import "./onboarding.css";
 
@@ -20,6 +21,7 @@ type Draft = {
   interests: string[];
   minutes: Profile["dailyMinutes"] | null;
   self: (typeof SELF)[number] | null;
+  cert: CertGoal | null;
 };
 
 /** Profile goals predate "academic" and "speaking"; map the new ones onto stored values plus focus skills. */
@@ -37,17 +39,23 @@ export function Onboarding() {
   const { t, update } = useProfile();
   const navigate = useNavigate();
   const [step, setStep] = useState(0);
-  const [d, setD] = useState<Draft>({ canRead: null, goal: null, skills: [], interests: [], minutes: null, self: null });
+  const [d, setD] = useState<Draft>({ canRead: null, goal: null, skills: [], interests: [], minutes: null, self: null, cert: null });
   const headingRef = useRef<HTMLHeadingElement>(null);
 
   // Beginners who can't read skip the self-description step.
-  const steps = d.canRead === false ? (["read", "goal", "skills", "interests", "time"] as const) : (["read", "goal", "skills", "interests", "time", "self"] as const);
+  // Certification preparation (B2/C1) asks for the exam right after the goal.
+  const steps: readonly ("read" | "goal" | "cert" | "skills" | "interests" | "time" | "self")[] =
+    d.canRead === false
+      ? ["read", "goal", "skills", "interests", "time"]
+      : d.goal === "exam"
+        ? ["read", "goal", "cert", "skills", "interests", "time", "self"]
+        : ["read", "goal", "skills", "interests", "time", "self"];
   const total = steps.length;
   const name = steps[Math.min(step, total - 1)];
 
   useEffect(() => headingRef.current?.focus(), [step]);
 
-  const canNext = { read: d.canRead !== null, goal: d.goal !== null, skills: true, interests: true, time: d.minutes !== null, self: d.self !== null }[name];
+  const canNext = { read: d.canRead !== null, goal: d.goal !== null, cert: !!d.cert, skills: true, interests: true, time: d.minutes !== null, self: d.self !== null }[name];
 
   const finish = async () => {
     const goal = d.goal ?? "allround";
@@ -59,6 +67,7 @@ export function Onboarding() {
       focusSkills: [...focus],
       interests: d.interests,
       dailyMinutes: d.minutes ?? 20,
+      ...(d.cert && d.canRead !== false ? { track: "exam" as const, cert: d.cert } : { track: "general" as const }),
     };
     if (d.canRead === false) {
       await update({ ...base, placedBand: "preA1", acceptedBand: "preA1", placementSource: "chosen", onboardedAt: new Date().toISOString() });
@@ -72,6 +81,7 @@ export function Onboarding() {
   const questions: Record<typeof name, StringKey> = {
     read: "onb.read.question",
     goal: "onb.goal.question",
+    cert: "exam.setup.which",
     skills: "onb.skills.question",
     interests: "onb.interests.question",
     time: "onb.time.question",
@@ -93,6 +103,10 @@ export function Onboarding() {
 
       <main className="onb-main">
         <h1 id="onb-q" className="onb-question" tabIndex={-1} ref={headingRef}>{t(questions[name])}</h1>
+
+        {name === "cert" && (
+          <CertSetup initial={d.cert ?? undefined} saveLabel={t("onb.next")} onSave={(c) => { setD({ ...d, cert: c }); setStep((x) => x + 1); }} />
+        )}
 
         {name === "read" && (
           <>

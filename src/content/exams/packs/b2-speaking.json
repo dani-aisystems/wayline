@@ -1,0 +1,687 @@
+{
+  "id": "b2-speaking",
+  "tasks": [
+    {
+      "id": "b2.speak.m1.p1",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 1,
+      "set": "mock-1",
+      "title": "Interview: you and your everyday life",
+      "topic": "Daily life and free time",
+      "instructions": "Answer the examiner's questions about yourself. Give a full answer of two or three sentences to each question.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Good morning. In this first part, I'd like to ask you some questions about yourself. Where are you from, and what do you like about living there?",
+        "Do you work or are you a student? What do you enjoy most about it?",
+        "How do you usually spend your evenings after a busy day?",
+        "Tell me about a skill you'd like to learn in the future.",
+        "Do you prefer spending your free time with a big group of friends or with just one or two people? Why?",
+        "What's the best piece of advice anyone has ever given you?",
+        "How often do you use public transport where you live?"
+      ],
+      "turnSeconds": 20,
+      "usefulLanguage": [
+        "It depends, but generally speaking...",
+        "To be honest, I'm not really into...",
+        "What I enjoy most about it is...",
+        "I tend to... whenever I get the chance.",
+        "That reminds me of a time when...",
+        "I've always wanted to have a go at...",
+        "If I had a bit more time, I'd probably..."
+      ],
+      "sample": "Well, it depends on how tired I am. Most evenings I cook something simple and then go for a short walk around the neighbourhood, because it helps me switch off after work. If I've got a bit more energy, I'll meet a friend for a coffee or watch an episode of a series. I try not to look at my phone too much before bed, although I have to admit I don't always manage it!"
+    },
+    {
+      "id": "b2.speak.m1.p2",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 2,
+      "set": "mock-1",
+      "title": "Long turn: learning new skills",
+      "topic": "Learning new skills",
+      "instructions": "Compare the two photographs and answer the question printed above them. Speak for about one minute. Then answer a short question about your partner's photographs.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "In this part of the test, you're going to talk on your own for about a minute about two photographs. After that, I'll ask you a short question about your partner's photographs.",
+        "Here are your photographs. They show people learning new skills in different ways. I'd like you to compare the photographs, and say what the people might be enjoying about learning in these ways. All right?",
+        "What might the people be enjoying about learning in these ways?",
+        "Thank you. Your partner has just talked about photographs of people learning a sport from a coach. Would you rather learn a sport with a coach or by yourself? Why?"
+      ],
+      "pictures": [
+        {
+          "letter": "A",
+          "description": "A group of adults in aprons stand around a large kitchen counter at an evening cookery class. A chef is showing them how to fold dumplings, and several of them are laughing at their uneven attempts."
+        },
+        {
+          "letter": "B",
+          "description": "A young man sits alone at a desk late at night, wearing headphones and watching a guitar lesson on his laptop. He is frowning slightly as he tries to copy the chord shown on the screen."
+        }
+      ],
+      "turnSeconds": 60,
+      "usefulLanguage": [
+        "Both photographs show..., but in the first one...",
+        "Whereas the people in the first photo..., the man in the second one...",
+        "It looks as if they're finding it quite...",
+        "They might be enjoying the chance to...",
+        "I'd imagine that...",
+        "One big difference between the two situations is that...",
+        "Perhaps the main advantage of... is...",
+        "On the other hand, ..."
+      ],
+      "sample": "Both photographs show people learning a practical skill, but in very different situations. In the first one, there's a group of adults at a cookery class, and they seem to be having a lot of fun, even though their dumplings don't look perfect. In the second photo, a young man is teaching himself the guitar from a video, and he's on his own, late at night. I think the people in the cookery class are probably enjoying the social side of it. They can laugh at their mistakes together and ask the chef for help straight away. The man with the guitar, on the other hand, might be enjoying the freedom of learning at his own pace, whenever he wants. It looks as if he's finding it quite difficult, though, because there's nobody to correct him. Personally, I think learning with other people is more motivating, but online videos are much cheaper and more flexible."
+    },
+    {
+      "id": "b2.speak.m1.p3",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 3,
+      "set": "mock-1",
+      "title": "Collaborative task: getting people outdoors",
+      "topic": "Spending time outdoors",
+      "instructions": "Discuss the question with your partner for about two minutes, using the five ideas. Then you have about a minute to reach a decision together.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Now I'd like you and your partner to talk together for about two minutes. I'm going to give you some ideas and a question to discuss. Take a few seconds to look at the task first. Here are some ideas that a town council could use to encourage people to spend more time outdoors.",
+        "Now, talk to each other about how effective these ideas might be in getting people to spend more time outdoors.",
+        "Thank you. Now you have about a minute to decide which idea would make the biggest difference to people in a town like yours."
+      ],
+      "prompts": [
+        "creating more parks and green spaces",
+        "organising free outdoor sports events",
+        "closing some streets to traffic at weekends",
+        "putting benches and free Wi-Fi in town squares",
+        "building cycle paths across the town"
+      ],
+      "turnSeconds": 120,
+      "usefulLanguage": [
+        "Shall we start with this one?",
+        "What do you think about...?",
+        "That's a good point, but...",
+        "I'm not sure I agree, because...",
+        "Another thing to consider is...",
+        "I see what you mean, although...",
+        "Let's move on to...",
+        "So, are we agreeing that...?"
+      ],
+      "sample": "Shall we start with the parks? I think more green spaces would make a real difference, because a lot of people simply have nowhere pleasant to go near their homes. If there's a nice park five minutes away, you're much more likely to go for a walk after dinner. What do you think? ... Yes, I see what you mean about the cost, although in the long run it might save money on healthcare. Let's move on to closing streets to traffic. That's an interesting one, because it gives families a safe place to cycle, but shop owners might not be very happy about it."
+    },
+    {
+      "id": "b2.speak.m1.p4",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 4,
+      "set": "mock-1",
+      "title": "Discussion: outdoor life and lifestyle",
+      "topic": "Spending time outdoors",
+      "instructions": "Answer the examiner's questions. Give your opinion, explain your reasons and, where you can, add an example.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Do you think people spend less time outdoors than they did in the past? Why?",
+        "Some people say children should spend at least an hour outside every day. What do you think?",
+        "If you enjoy outdoor activities, is it better to live in a city or in the countryside?",
+        "Why do you think some people prefer exercising in a gym rather than outside?",
+        "How important is it for towns to have quiet places where people can relax?",
+        "Does technology help people enjoy nature, or does it get in the way?"
+      ],
+      "turnSeconds": 40,
+      "usefulLanguage": [
+        "Personally, I think...",
+        "As far as I'm concerned, ...",
+        "I'd say that's partly true, because...",
+        "For example, in my country...",
+        "On the one hand..., but on the other hand...",
+        "It's hard to say, but I suppose...",
+        "I'd go along with that, as long as..."
+      ],
+      "sample": "I'd say it does both, actually. On the one hand, apps can be really useful. For example, my friends and I use a hiking app to find new routes and check how difficult they are, so we probably go to places we'd never discover otherwise. On the other hand, a lot of people spend the whole walk taking photos for social media instead of actually looking around them. So I think technology is fine as long as you put your phone away once you get there."
+    },
+    {
+      "id": "b2.speak.m2.p1",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 1,
+      "set": "mock-2",
+      "title": "Interview: home, travel and technology",
+      "topic": "Home, travel and technology",
+      "instructions": "Answer the examiner's questions about yourself. Give a full answer of two or three sentences to each question.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Hello. In this first part, I'd like to find out a little about you. What kind of place do you live in?",
+        "What do you like doing when you have a free day with no plans?",
+        "Tell me about a place you've visited that you'd like to go back to.",
+        "How much do you use your phone during the day? Would you like to use it less?",
+        "Who do you usually talk to when you need some advice?",
+        "Is there anything you'd like to change about your daily routine?"
+      ],
+      "turnSeconds": 20,
+      "usefulLanguage": [
+        "It depends, but generally speaking...",
+        "To be honest, I'm not really into...",
+        "What I enjoy most about it is...",
+        "I tend to... whenever I get the chance.",
+        "That reminds me of a time when...",
+        "I've always wanted to have a go at...",
+        "If I had a bit more time, I'd probably..."
+      ],
+      "sample": "I'd love to go back to a small fishing village on the Greek coast where I spent a week a couple of summers ago. What I enjoyed most was how slow everything was. Nobody was in a hurry, the food was amazing and we swam every morning before breakfast. I've been saying I'll go back ever since, so maybe next year I'll finally book it."
+    },
+    {
+      "id": "b2.speak.m2.p2",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Long turn: working together",
+      "topic": "Teamwork",
+      "instructions": "Compare the two photographs and answer the question printed above them. Speak for about one minute. Then answer a short question about your partner's photographs.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "In this part of the test, you're going to talk on your own for about a minute about two photographs. After that, I'll ask you a short question about your partner's photographs.",
+        "Here are your photographs. They show people working together in different situations. I'd like you to compare the photographs, and say why it might be important for the people to work well together in these situations. All right?",
+        "Why might it be important for the people to work well together in these situations?",
+        "Thank you. Your partner has just talked about photographs of people playing in sports teams. Do you prefer working in a team or on your own? Why?"
+      ],
+      "pictures": [
+        {
+          "letter": "A",
+          "description": "A team of firefighters in heavy uniforms pull a hose together towards a burning barn at dusk. Smoke fills the sky and their faces are serious and tense."
+        },
+        {
+          "letter": "B",
+          "description": "Four colleagues in a bright, modern office stand around a whiteboard covered in coloured sticky notes. One is pointing at a timeline while the others smile and argue good-naturedly."
+        }
+      ],
+      "turnSeconds": 60,
+      "usefulLanguage": [
+        "In the first photo..., while in the second...",
+        "Both pictures show people who...",
+        "The situation in the first photo seems much more...",
+        "They must be feeling...",
+        "If they didn't work together, ...",
+        "It could be that...",
+        "That's why I think...",
+        "The main similarity is that..."
+      ],
+      "sample": "In both photographs, people are working as a team, but the situations are completely different. In the first one, some firefighters are pulling a hose towards a burning building, and they look very tense and serious. In the second, some office workers are planning a project on a whiteboard, and the atmosphere seems relaxed and quite cheerful. For the firefighters, working well together is obviously a matter of life and death. If one of them makes a mistake or doesn't communicate clearly, someone could get badly hurt. For the office workers, the consequences aren't so serious, but they still need to cooperate, otherwise the project might be late or they might waste time arguing. I suppose the main similarity is that in both cases everyone needs to know exactly what their role is and trust the others to do their part."
+    },
+    {
+      "id": "b2.speak.m2.p3",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 3,
+      "set": "mock-2",
+      "title": "Collaborative task: dealing with stress",
+      "topic": "Coping with stress",
+      "instructions": "Discuss the question with your partner for about two minutes, using the five ideas. Then you have about a minute to reach a decision together.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Now I'd like you and your partner to talk together for about two minutes. I'm going to give you some ideas and a question to discuss. Take a few seconds to look at the task first. Here are some things people do to deal with stress in their daily lives.",
+        "Now, talk to each other about how helpful these things might be for people who feel stressed.",
+        "Thank you. Now you have about a minute to decide which of these things would be easiest for a very busy person to start doing."
+      ],
+      "prompts": [
+        "doing regular exercise",
+        "talking to friends or family",
+        "spending less time online",
+        "learning to organise time better",
+        "taking up a creative hobby"
+      ],
+      "turnSeconds": 120,
+      "usefulLanguage": [
+        "Shall we start with this one?",
+        "What do you think about...?",
+        "That's a good point, but...",
+        "I'm not sure I agree, because...",
+        "Another thing to consider is...",
+        "I see what you mean, although...",
+        "Let's move on to...",
+        "So, are we agreeing that...?"
+      ],
+      "sample": "I think talking to friends or family is probably one of the most helpful things, because sometimes you just need someone to listen. But it doesn't work for everyone. Some people find it hard to open up, don't you think? ... Exactly. And what about spending less time online? I'm not sure it would help that much on its own, although checking work emails late at night definitely makes me more stressed. Maybe it's more useful if you combine it with something else, like exercise."
+    },
+    {
+      "id": "b2.speak.m2.p4",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 4,
+      "set": "mock-2",
+      "title": "Discussion: stress and balance",
+      "topic": "Coping with stress",
+      "instructions": "Answer the examiner's questions. Give your opinion, explain your reasons and, where you can, add an example.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Do you think people today are more stressed than their grandparents were? Why?",
+        "Should employers be responsible for helping their staff deal with stress?",
+        "Some people say a little stress is actually good for us. What do you think?",
+        "Why do some people find it difficult to relax, even on holiday?",
+        "Is it a good idea for schools to teach young people how to manage stress?",
+        "How important is it to have a good balance between work and free time?"
+      ],
+      "turnSeconds": 40,
+      "usefulLanguage": [
+        "Personally, I think...",
+        "As far as I'm concerned, ...",
+        "I'd say that's partly true, because...",
+        "For example, in my country...",
+        "On the one hand..., but on the other hand...",
+        "It's hard to say, but I suppose...",
+        "I'd go along with that, as long as..."
+      ],
+      "sample": "I'd go along with that, up to a point. A little bit of pressure before an exam or an interview can help you focus and do your best. I know I work much faster when I have a deadline! But if the stress goes on for weeks or months, it becomes a problem, because you can't sleep properly and you start making mistakes. So I'd say short-term stress can be useful, but long-term stress is definitely harmful."
+    },
+    {
+      "id": "b2.speak.d1.p2",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 2,
+      "set": "drill",
+      "title": "Long turn: celebrations",
+      "topic": "Celebrations",
+      "instructions": "Compare the two photographs and answer the question printed above them. Speak for about one minute. Then answer a short question about your partner's photographs.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "In this part of the test, you're going to talk on your own for about a minute about two photographs. After that, I'll ask you a short question about your partner's photographs.",
+        "Here are your photographs. They show people celebrating special occasions in different ways. I'd like you to compare the photographs, and say what the people might be enjoying about celebrating in these ways. All right?",
+        "What might the people be enjoying about celebrating in these ways?",
+        "Thank you. Your partner has just talked about photographs of national holidays. Do you prefer big celebrations or small ones? Why?"
+      ],
+      "pictures": [
+        {
+          "letter": "A",
+          "description": "A large family sits around a long table in a garden at a summer wedding. Fairy lights hang in the trees and everyone is raising a glass towards the smiling couple."
+        },
+        {
+          "letter": "B",
+          "description": "A young woman blows out the candles on a small cake in a tiny, cluttered flat, while two friends film her on their phones and cheer."
+        }
+      ],
+      "turnSeconds": 60,
+      "usefulLanguage": [
+        "Both photographs show a celebration, but...",
+        "The first one looks much more formal than...",
+        "It looks like some kind of...",
+        "I'd guess that they're celebrating...",
+        "They're probably enjoying...",
+        "In contrast, the second photo...",
+        "What they have in common is..."
+      ],
+      "sample": "Both photographs show people celebrating, but on a very different scale. The first one looks like a summer wedding, with a big family sitting at a long table in a garden. Everyone is raising their glasses, so maybe someone has just made a speech. The second photo is much smaller and more informal. A young woman is blowing out the candles on her birthday cake in what looks like a tiny flat, and two friends are filming her. I think the people at the wedding are probably enjoying being together, because big families don't often get the chance to meet. The woman in the second photo, on the other hand, might prefer a quiet celebration with her closest friends, where she doesn't have to talk to lots of people. What they have in common is that everyone looks genuinely happy."
+    },
+    {
+      "id": "b2.speak.d2.p2",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 2,
+      "set": "drill",
+      "title": "Long turn: ways of shopping",
+      "topic": "Shopping",
+      "instructions": "Compare the two photographs and answer the question printed above them. Speak for about one minute. Then answer a short question about your partner's photographs.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "In this part of the test, you're going to talk on your own for about a minute about two photographs. After that, I'll ask you a short question about your partner's photographs.",
+        "Here are your photographs. They show people shopping in different ways. I'd like you to compare the photographs, and say why the people might have chosen to shop in these ways. All right?",
+        "Why might the people have chosen to shop in these ways?",
+        "Thank you. Your partner has just talked about photographs of people buying presents. Do you enjoy choosing presents for other people? Why or why not?"
+      ],
+      "pictures": [
+        {
+          "letter": "A",
+          "description": "An elderly man chats with a stallholder at a busy open-air market, holding a paper bag of tomatoes while the seller weighs some red peppers."
+        },
+        {
+          "letter": "B",
+          "description": "A woman sits on her sofa scrolling through clothes on a tablet. Several cardboard delivery boxes are piled up beside her, some already opened."
+        }
+      ],
+      "turnSeconds": 60,
+      "usefulLanguage": [
+        "In the first photo there's..., whereas in the second...",
+        "He seems to be enjoying...",
+        "She might have chosen to... because...",
+        "It's much more convenient to...",
+        "One disadvantage of... could be...",
+        "I suppose some people prefer...",
+        "Overall, I'd say..."
+      ],
+      "sample": "In the first photo, an older man is buying vegetables at an open-air market and chatting to the stallholder, whereas in the second, a woman is shopping online from her sofa, with a pile of delivery boxes next to her. I think the man might have chosen the market because he likes to see and touch the food before he buys it, and it's probably fresher than in a supermarket. He also seems to be enjoying the conversation, so maybe it's a social thing for him as well. The woman, on the other hand, has probably chosen to shop online because it's more convenient. She can compare prices quickly and doesn't have to leave the house. One disadvantage, though, is that she can't try the clothes on, so she might have to send some of them back."
+    },
+    {
+      "id": "b2.speak.d3.p3",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 3,
+      "set": "drill",
+      "title": "Collaborative task: choosing a place to live",
+      "topic": "Housing",
+      "instructions": "Discuss the question with your partner for about two minutes, using the five ideas. Then you have about a minute to reach a decision together.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Now I'd like you and your partner to talk together for about two minutes. I'm going to give you some ideas and a question to discuss. Take a few seconds to look at the task first. Here are some things people think about when they are choosing a place to live.",
+        "Now, talk to each other about how important these things are when people are choosing a place to live.",
+        "Thank you. Now you have about a minute to decide which two things are the most important for a young person moving out for the first time."
+      ],
+      "prompts": [
+        "the cost of rent",
+        "how close it is to work or college",
+        "how safe the area is",
+        "having shops and cafés nearby",
+        "how much space there is"
+      ],
+      "turnSeconds": 120,
+      "usefulLanguage": [
+        "Shall we start with this one?",
+        "What do you think about...?",
+        "That's a good point, but...",
+        "I'm not sure I agree, because...",
+        "Another thing to consider is...",
+        "I see what you mean, although...",
+        "Let's move on to...",
+        "So, are we agreeing that...?"
+      ],
+      "sample": "Well, for most people the cost of rent is the first thing they look at, isn't it? If it's too expensive, nothing else matters. ... Yes, I agree, but I think how close it is to work is almost as important. If you spend two hours a day travelling, you lose a lot of free time and money on tickets. What about safety? I'd say that's essential, especially if you live alone and come home late."
+    },
+    {
+      "id": "b2.speak.d4.p3",
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 3,
+      "set": "drill",
+      "title": "Collaborative task: saving money",
+      "topic": "Money",
+      "instructions": "Discuss the question with your partner for about two minutes, using the five ideas. Then you have about a minute to reach a decision together.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Now I'd like you and your partner to talk together for about two minutes. I'm going to give you some ideas and a question to discuss. Take a few seconds to look at the task first. Here are some ways people try to save money.",
+        "Now, talk to each other about how easy it would be for people to save money in these ways.",
+        "Thank you. Now you have about a minute to decide which of these ways would save people the most money over a year."
+      ],
+      "prompts": [
+        "cooking at home instead of eating out",
+        "buying second-hand things",
+        "sharing a car with other people",
+        "cancelling subscriptions they rarely use",
+        "making a monthly budget"
+      ],
+      "turnSeconds": 120,
+      "usefulLanguage": [
+        "Shall we start with this one?",
+        "What do you think about...?",
+        "That's a good point, but...",
+        "I'm not sure I agree, because...",
+        "Another thing to consider is...",
+        "I see what you mean, although...",
+        "Let's move on to...",
+        "So, are we agreeing that...?"
+      ],
+      "sample": "Shall we start with cooking at home? I think it's one of the easiest ways to save money, because eating out has become so expensive. The problem is that it takes time, and a lot of people get home from work too tired to cook. What do you think? ... That's true, you could cook at the weekend for the whole week. What about buying second-hand things? I do it with clothes and furniture, and it saves a lot, but I wouldn't buy second-hand electronics."
+    }
+  ],
+  "guides": [
+    {
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 1,
+      "tests": {
+        "en": "Part 1 (about 2 minutes) checks that you can talk naturally about yourself: your home, work or studies, free time, experiences and plans. Although the questions are simple, the examiner starts assessing all four criteria from your first answer: Grammar and Vocabulary, Discourse Management, Pronunciation and Interactive Communication.",
+        "bg": "Част 1 (около 2 минути) проверява дали можеш да говориш естествено за себе си: дом, работа или учене, свободно време, преживявания и планове. Въпросите са прости, но изпитващият оценява и четирите критерия още от първия ти отговор: граматика и речник, организация на изказа, произношение и комуникация в диалог."
+      },
+      "strategy": [
+        {
+          "en": "Use the pattern answer + reason + example: two or three sentences, about 20 seconds per question.",
+          "bg": "Ползвай схемата отговор + причина + пример: две-три изречения, около 20 секунди на въпрос."
+        },
+        {
+          "en": "Show a range of tenses: a present habit, a past experience, a future plan or a wish ('I'd love to...').",
+          "bg": "Покажи различни времена: навик в сегашно, преживяване в минало, план за бъдещето или желание ('I'd love to...')."
+        },
+        {
+          "en": "Sound natural rather than rehearsed: start with short openers like 'Well,...' or 'It depends, but...', and paraphrase if you can't find a word.",
+          "bg": "Звучи естествено, а не наизустено: започвай с кратки фрази като 'Well,...' или 'It depends, but...', а ако не се сещаш за дума, перифразирай."
+        },
+        {
+          "en": "If you don't understand a question, ask once: 'Sorry, could you say that again, please?' This is not penalised.",
+          "bg": "Ако не разбереш въпроса, помоли веднъж: 'Sorry, could you say that again, please?' За това не губиш точки."
+        }
+      ],
+      "example": {
+        "question": "What do you usually do at the weekend?",
+        "steps": [
+          {
+            "en": "Answer the question directly, with a softener: 'It depends on the week, but I usually...'",
+            "bg": "Отговори директно, с омекотяваща фраза: 'It depends on the week, but I usually...'"
+          },
+          {
+            "en": "Add a reason so the answer develops: '...because I spend all week sitting at a desk.'",
+            "bg": "Добави причина, за да развиеш отговора: '...because I spend all week sitting at a desk.'"
+          },
+          {
+            "en": "Add a specific example in a different tense: 'Last weekend, for example, ...'",
+            "bg": "Добави конкретен пример в друго време: 'Last weekend, for example, ...'"
+          },
+          {
+            "en": "Stop after 20–25 seconds. Part 1 answers should be full but not long speeches.",
+            "bg": "Спри след 20–25 секунди. Отговорите в Част 1 трябва да са пълни, но не и дълги речи."
+          }
+        ],
+        "answer": "It depends on the week, but I usually try to get out of the city on Saturdays, because I spend all week sitting at a desk. Last weekend, for example, a couple of friends and I went hiking in the mountains. On Sundays I tend to take it easy and catch up on sleep."
+      },
+      "pitfalls": [
+        {
+          "en": "One-word or one-sentence answers ('Yes, I do.') give the examiner nothing to assess.",
+          "bg": "Отговори от една дума или едно изречение ('Yes, I do.') не дават на изпитващия какво да оцени."
+        },
+        {
+          "en": "Memorised mini-speeches that don't really answer the question sound unnatural and lower your Discourse Management mark.",
+          "bg": "Наизустени мини-речи, които всъщност не отговарят на въпроса, звучат неестествено и свалят оценката за организация на изказа."
+        },
+        {
+          "en": "Talking for a minute or more: the examiner will interrupt, and you lose the chance to show variety across questions.",
+          "bg": "Да говориш минута и повече: изпитващият ще те прекъсне и губиш шанса да покажеш разнообразие в различните въпроси."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 2,
+      "tests": {
+        "en": "Part 2 is your long turn: one minute alone comparing two photographs and answering the question printed above them. It tests whether you can organise a longer piece of speech, compare, describe and speculate. Then you answer a short question (about 30 seconds) about your partner's photographs.",
+        "bg": "Част 2 е твоето самостоятелно изказване: една минута, в която сравняваш две снимки и отговаряш на въпроса, написан над тях. Проверява дали можеш да организираш по-дълго изказване, да сравняваш, описваш и правиш предположения. След това отговаряш накратко (около 30 секунди) на въпрос за снимките на партньора си."
+      },
+      "strategy": [
+        {
+          "en": "Don't describe each photo separately. Spend about 15–20 seconds on the main similarity and difference, then move on to the printed question.",
+          "bg": "Не описвай всяка снимка поотделно. Отдели 15–20 секунди за основното сходство и разлика, после премини към въпроса над снимките."
+        },
+        {
+          "en": "Speculate instead of just describing: 'They might be...', 'It looks as if...', 'I'd imagine that...'.",
+          "bg": "Прави предположения, вместо само да описваш: 'They might be...', 'It looks as if...', 'I'd imagine that...'."
+        },
+        {
+          "en": "Use comparison linkers: whereas, while, on the other hand, both, neither, unlike.",
+          "bg": "Ползвай свързващи думи за сравнение: whereas, while, on the other hand, both, neither, unlike."
+        },
+        {
+          "en": "Keep going until the examiner says 'Thank you'. If you finish early, add your own opinion or a personal connection.",
+          "bg": "Продължавай, докато изпитващият не каже 'Thank you'. Ако свършиш рано, добави собствено мнение или лична връзка с темата."
+        }
+      ],
+      "example": {
+        "question": "Photo A: a family cooking dinner together at home. Photo B: a couple eating in a busy restaurant. Why might the people have chosen to eat in these places?",
+        "steps": [
+          {
+            "en": "Open with a comparison, not a description: 'Both photos show people having a meal, but in very different settings.'",
+            "bg": "Започни със сравнение, а не с описание: 'Both photos show people having a meal, but in very different settings.'"
+          },
+          {
+            "en": "Pick one clear difference: home and relaxed versus public and lively.",
+            "bg": "Избери една ясна разлика: у дома и спокойно срещу публично и оживено."
+          },
+          {
+            "en": "Answer the printed question for each photo with speculation and a reason: 'The family might want to save money / spend time together...', 'The couple could be celebrating something...'.",
+            "bg": "Отговори на въпроса за всяка снимка с предположение и причина: 'The family might want to save money / spend time together...', 'The couple could be celebrating something...'."
+          },
+          {
+            "en": "Round off with a short personal opinion if time remains.",
+            "bg": "Завърши с кратко лично мнение, ако остане време."
+          }
+        ],
+        "answer": "Both photos show people having a meal, but in very different settings. The family in the first one are cooking together at home, so the atmosphere looks relaxed and informal, whereas the couple in the second photo are in a busy restaurant. I think the family might have chosen to eat at home because it's cheaper and it's a chance to spend time together after a long day. The couple, on the other hand, could be celebrating something special, like an anniversary, so they want someone else to do the cooking for once. Personally, I prefer eating at home, but it's nice to go out now and then."
+      },
+      "pitfalls": [
+        {
+          "en": "Describing everything you see ('There is a table, there is a window...') instead of comparing and speculating.",
+          "bg": "Да описваш всичко, което виждаш ('There is a table, there is a window...'), вместо да сравняваш и да правиш предположения."
+        },
+        {
+          "en": "Forgetting the printed question. Half of your minute should go on answering it.",
+          "bg": "Да забравиш въпроса над снимките. Половината от минутата трябва да отиде за отговора му."
+        },
+        {
+          "en": "Giving a one-word answer to the question about your partner's photos. Say what you think and give a reason.",
+          "bg": "Да отговориш с една дума на въпроса за снимките на партньора. Кажи какво мислиш и дай причина."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 3,
+      "tests": {
+        "en": "Part 3 is a collaborative task. You and your partner discuss a question for about two minutes using five written prompts, then have about one minute to reach a decision. It tests Interactive Communication above all: starting the discussion, responding to your partner, developing ideas, suggesting, agreeing and disagreeing politely, and negotiating.",
+        "bg": "Част 3 е съвместна задача. Ти и партньорът ти обсъждате въпрос около две минути с помощта на пет написани идеи, след което имате около минута да вземете решение. Тук най-важна е комуникацията в диалог: да започнеш разговора, да реагираш на партньора, да развиваш идеи, да предлагаш, да се съгласяваш и несъгласяваш учтиво и да преговаряш."
+      },
+      "strategy": [
+        {
+          "en": "Talk TO your partner, not to the examiner. Ask questions: 'What do you think?', 'Do you agree?'",
+          "bg": "Говори на партньора си, а не на изпитващия. Задавай въпроси: 'What do you think?', 'Do you agree?'"
+        },
+        {
+          "en": "Respond to what your partner says before adding your own idea: 'That's a good point, and also...', 'I see what you mean, but...'.",
+          "bg": "Реагирай на казаното от партньора, преди да добавиш своя идея: 'That's a good point, and also...', 'I see what you mean, but...'."
+        },
+        {
+          "en": "You don't need to cover all five prompts. Three or four discussed properly is better than five mentioned quickly.",
+          "bg": "Не е нужно да обсъдите и петте идеи. Три-четири, обсъдени добре, са по-добре от пет, споменати набързо."
+        },
+        {
+          "en": "Save the decision for the final minute. You may disagree in the end, as long as you discuss it properly.",
+          "bg": "Остави решението за последната минута. Може накрая да не сте съгласни, стига да сте го обсъдили добре."
+        }
+      ],
+      "example": {
+        "question": "How useful are these things for people who want to get fit? (prompts: joining a gym, walking to work, team sports, fitness apps, eating healthily)",
+        "steps": [
+          {
+            "en": "Start the discussion and invite your partner: 'Shall we start with joining a gym? What do you think?'",
+            "bg": "Започни разговора и покани партньора: 'Shall we start with joining a gym? What do you think?'"
+          },
+          {
+            "en": "Develop the idea with a reason and a drawback: it's motivating, but expensive.",
+            "bg": "Развий идеята с причина и недостатък: мотивира, но е скъпо."
+          },
+          {
+            "en": "Link to another prompt naturally: 'That's why walking to work might be better for some people.'",
+            "bg": "Свържи естествено с друга идея: 'That's why walking to work might be better for some people.'"
+          },
+          {
+            "en": "Check your partner's view before moving on: 'Would that work for you?'",
+            "bg": "Попитай за мнението на партньора, преди да продължиш: 'Would that work for you?'"
+          }
+        ],
+        "answer": "Shall we start with joining a gym? I think it can be really motivating, because you've paid for it, so you feel you have to go. But it's quite expensive, isn't it? That's why walking to work might be better for some people. It's free and you don't need to find extra time for it. Would that work for you?"
+      },
+      "pitfalls": [
+        {
+          "en": "Giving a long monologue and ignoring your partner. Interaction is what this part assesses.",
+          "bg": "Да държиш дълъг монолог и да пренебрегваш партньора. Тази част оценява именно взаимодействието."
+        },
+        {
+          "en": "Agreeing immediately with everything ('Yes, I agree.') so the discussion never develops.",
+          "bg": "Да се съгласяваш веднага с всичко ('Yes, I agree.'), така че разговорът изобщо не се развива."
+        },
+        {
+          "en": "Making the decision in the first two minutes, then having nothing to say in the final minute.",
+          "bg": "Да вземете решението още в първите две минути и после да нямате какво да кажете в последната."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "speaking",
+      "part": 4,
+      "tests": {
+        "en": "Part 4 (about 4 minutes) is a discussion of broader questions linked to the Part 3 topic. The examiner may ask you, your partner or both of you. It tests whether you can express and justify opinions, agree and disagree, and develop ideas beyond personal experience.",
+        "bg": "Част 4 (около 4 минути) е дискусия по по-общи въпроси, свързани с темата от Част 3. Изпитващият може да пита теб, партньора или и двама ви. Проверява дали можеш да изразяваш и обосноваваш мнение, да се съгласяваш и несъгласяваш и да развиваш идеи отвъд личния си опит."
+      },
+      "strategy": [
+        {
+          "en": "Give an opinion, a reason and an example or consequence: 'I think..., because... For example...'.",
+          "bg": "Давай мнение, причина и пример или последица: 'I think..., because... For example...'."
+        },
+        {
+          "en": "Consider both sides before concluding: 'On the one hand..., but on the other hand...'.",
+          "bg": "Разгледай и двете страни, преди да заключиш: 'On the one hand..., but on the other hand...'."
+        },
+        {
+          "en": "Use phrases that give you thinking time: 'That's an interesting question...', 'It's hard to say, but...'.",
+          "bg": "Ползвай фрази, които ти дават време да помислиш: 'That's an interesting question...', 'It's hard to say, but...'."
+        },
+        {
+          "en": "If the examiner asks 'What do you think?' after your partner speaks, respond to their idea before giving yours.",
+          "bg": "Ако след партньора изпитващият те попита 'What do you think?', първо реагирай на неговата идея, после дай своята."
+        }
+      ],
+      "example": {
+        "question": "Do you think young people today have enough free time?",
+        "steps": [
+          {
+            "en": "Give a clear, slightly hedged opinion: 'Not really, at least not in my country.'",
+            "bg": "Дай ясно, леко омекотено мнение: 'Not really, at least not in my country.'"
+          },
+          {
+            "en": "Justify it with reasons: school, extra classes, part-time jobs.",
+            "bg": "Обоснови го с причини: училище, допълнителни уроци, почасова работа."
+          },
+          {
+            "en": "Show the other side: much of their 'free' time goes on phones.",
+            "bg": "Покажи другата страна: голяма част от 'свободното' им време отива в телефона."
+          },
+          {
+            "en": "Conclude briefly, linking back to the question.",
+            "bg": "Заключи кратко, като се върнеш към въпроса."
+          }
+        ],
+        "answer": "Not really, at least not in my country. Most teenagers have school all day and then extra lessons in the evening, and some also have part-time jobs. On the other hand, a lot of the free time they do have is spent scrolling on their phones, so maybe the problem isn't only how much free time they have, but how they use it."
+      },
+      "pitfalls": [
+        {
+          "en": "Answering only 'Yes' or 'I agree' without a reason.",
+          "bg": "Да отговориш само с 'Yes' или 'I agree' без причина."
+        },
+        {
+          "en": "Talking only about yourself. Part 4 questions are general, so talk about people and society, too.",
+          "bg": "Да говориш само за себе си. Въпросите в Част 4 са общи, затова говори и за хората и обществото."
+        },
+        {
+          "en": "Dominating the discussion and not letting your partner answer.",
+          "bg": "Да доминираш в дискусията и да не оставяш партньора да отговори."
+        }
+      ]
+    }
+  ],
+  "lessons": []
+}

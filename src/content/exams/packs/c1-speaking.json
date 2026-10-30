@@ -1,0 +1,713 @@
+{
+  "id": "c1-speaking",
+  "tasks": [
+    {
+      "id": "c1.speak.m1.p1",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 1,
+      "set": "mock-1",
+      "title": "Interview: choices and changes",
+      "topic": "Personal life and decisions",
+      "instructions": "Answer the examiner's questions about yourself. Develop each answer with reasons or an example, in two to four sentences.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Good afternoon. In this first part, I'd like to find out a little about you. What do you do, and how did you end up doing it?",
+        "What do you find most rewarding about the way you spend your time at the moment?",
+        "If you could spend a year living in another country, where would you choose, and why?",
+        "How do you usually go about making an important decision?",
+        "Is there a tradition in your family that you particularly value?",
+        "How has the way you keep in touch with friends changed over the last few years?",
+        "What's something you've changed your mind about recently?"
+      ],
+      "turnSeconds": 20,
+      "usefulLanguage": [
+        "I suppose it all started when...",
+        "What I find particularly rewarding is...",
+        "I'd be tempted to go for..., mainly because...",
+        "I'm the kind of person who tends to...",
+        "Looking back, I'd say...",
+        "It's something I've come to appreciate more and more.",
+        "If I'm completely honest, ...",
+        "I used to think..., but these days..."
+      ],
+      "sample": "I'm the kind of person who needs time to think things through, so I tend to write down the pros and cons and then sleep on it. Looking back, the decisions I've regretted were almost always the ones I rushed, like accepting a job offer on the spot without asking enough questions. These days I also talk things over with a couple of close friends, because they often notice things I've overlooked."
+    },
+    {
+      "id": "c1.speak.m1.p2",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 2,
+      "set": "mock-1",
+      "title": "Long turn: taking risks",
+      "topic": "Risk",
+      "instructions": "Choose two of the three pictures. Compare them and answer both questions printed above them. Speak for about one minute. Then answer a short question about your partner's pictures.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "In this part of the test, you're going to talk on your own for about a minute about some pictures. Choose two of the three pictures. Afterwards, I'll ask you a short question about your partner's pictures.",
+        "Here are your pictures. They show people taking risks. I'd like you to compare two of the pictures, and say why the people might have decided to take these risks, and how they might be feeling. All right?",
+        "Why might the people have decided to take these risks? How might they be feeling?",
+        "Thank you. Your partner has just talked about pictures of people trying something for the first time. Which do you think takes more courage: a physical risk or a financial one?"
+      ],
+      "pictures": [
+        {
+          "letter": "A",
+          "description": "A rock climber hangs from an overhanging cliff high above a stormy sea, reaching for the next hold with one hand. His face is calm and intensely focused."
+        },
+        {
+          "letter": "B",
+          "description": "A woman in a flour-dusted apron unlocks the door of her small, newly opened bakery at dawn. The street is empty, and she glances anxiously at the 'Grand opening' sign in the window."
+        },
+        {
+          "letter": "C",
+          "description": "A young man stands at a lectern in front of a packed lecture hall, gripping a set of notes. Hundreds of faces are turned towards him as he prepares to speak."
+        }
+      ],
+      "turnSeconds": 60,
+      "usefulLanguage": [
+        "I'm going to talk about the first and the third pictures.",
+        "What these two situations have in common is...",
+        "In stark contrast to..., the woman in this picture...",
+        "Judging by her expression, she must be feeling...",
+        "He may well have decided to... in order to...",
+        "I'd imagine there's a fair amount of... involved.",
+        "Whereas the climber is probably driven by..., the woman...",
+        "Of the two, I'd say... is likely to be..."
+      ],
+      "sample": "I'm going to talk about the climber and the woman opening her bakery. What these two situations have in common is that both people are risking something they can't easily get back, although the stakes are very different. The climber is literally putting his life on the line, whereas the woman is probably risking her savings, and perhaps her reputation too. I'd imagine the climber is driven largely by the thrill of pushing his limits; for someone like him, the danger may well be part of the appeal. The woman, on the other hand, has most likely taken the risk because she wants to be her own boss and turn a passion into a living. As for how they're feeling, the climber looks utterly focused, almost calm, while she seems rather apprehensive, which is hardly surprising, as the first few months will decide whether the business survives. Of the two, I'd say her risk is the more nerve-racking, simply because it drags on for so much longer."
+    },
+    {
+      "id": "c1.speak.m1.p3",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 3,
+      "set": "mock-1",
+      "title": "Collaborative task: the future of work",
+      "topic": "Work and the future",
+      "instructions": "Discuss the question with your partner for about two minutes, using the five prompts. Then you have about a minute to reach a decision together.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Now I'd like you and your partner to talk together for about two minutes. Here are some ideas and a question for you to discuss. Take a few seconds to look at the task first. Here are some developments that could change the way people work in the future.",
+        "Now, talk to each other about how these developments might change the way people work.",
+        "Thank you. Now you have about a minute to decide which development is likely to have the greatest impact on young people starting their careers."
+      ],
+      "prompts": [
+        "artificial intelligence",
+        "working from home",
+        "a four-day working week",
+        "short-term freelance contracts",
+        "retraining throughout your career"
+      ],
+      "turnSeconds": 120,
+      "usefulLanguage": [
+        "Shall we kick off with...?",
+        "Where do you stand on...?",
+        "I take your point, but wouldn't you say that...?",
+        "That ties in with what you said earlier about...",
+        "I'm inclined to think that...",
+        "It could be argued that...",
+        "Shall we try to narrow it down?",
+        "So, are we in agreement that...?",
+        "We'll have to agree to differ on that one."
+      ],
+      "sample": "Shall we kick off with artificial intelligence, since it's the one everybody's talking about? I'm inclined to think it'll change the nature of many jobs rather than simply wipe them out. Routine tasks like drafting reports might be automated, which could free people up for more creative work, but only if they're given the training to adapt. That ties in with retraining throughout your career, actually. Where do you stand on that? Do you think employers will be willing to pay for it, or will it fall on individuals?"
+    },
+    {
+      "id": "c1.speak.m1.p4",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 4,
+      "set": "mock-1",
+      "title": "Discussion: work, technology and careers",
+      "topic": "Work and the future",
+      "instructions": "Answer the examiner's questions. Express and justify your opinions, consider other points of view and, where relevant, speculate.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Some people believe that a job for life no longer exists. How far do you agree?",
+        "Is it more important to enjoy your work or to be well paid for it?",
+        "How might working from home affect relationships between colleagues in the long term?",
+        "Should governments do more to protect workers whose jobs are replaced by technology?",
+        "Why do you think some people find it hard to switch off from work?",
+        "To what extent should schools prepare young people for jobs that don't exist yet?"
+      ],
+      "turnSeconds": 40,
+      "usefulLanguage": [
+        "It's a complex issue, but on balance I'd say...",
+        "There's a lot to be said for...",
+        "That may be true to some extent, but...",
+        "I'd argue that the real issue is...",
+        "It largely depends on...",
+        "A case in point would be...",
+        "In the long run, I suspect that...",
+        "I can see both sides of the argument."
+      ],
+      "sample": "It's a complex issue, but on balance I'd say yes, governments do have a responsibility here. When a factory automates its production line, the company saves money, but the cost falls on the workers and their communities. A case in point would be the towns that lost their mines decades ago and never really recovered. That said, protection shouldn't just mean benefits; I'd argue the real issue is funding proper retraining, so that people can move into jobs with a future rather than simply being compensated for losing the old ones."
+    },
+    {
+      "id": "c1.speak.m2.p1",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 1,
+      "set": "mock-2",
+      "title": "Interview: habits, places and people",
+      "topic": "Personal life and habits",
+      "instructions": "Answer the examiner's questions about yourself. Develop each answer with reasons or an example, in two to four sentences.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Hello. In this first part, I'd like to ask you some questions about yourself. Where do you live, and how long have you lived there?",
+        "What do you enjoy doing when you want to recharge your batteries?",
+        "Who has had the greatest influence on the way you think, and in what way?",
+        "Are you someone who likes to plan ahead, or do you prefer to be spontaneous?",
+        "What's a skill you've picked up recently, and how did you learn it?",
+        "How important is it to you to live close to your family?"
+      ],
+      "turnSeconds": 20,
+      "usefulLanguage": [
+        "I suppose it all started when...",
+        "What I find particularly rewarding is...",
+        "I'd be tempted to go for..., mainly because...",
+        "I'm the kind of person who tends to...",
+        "Looking back, I'd say...",
+        "It's something I've come to appreciate more and more.",
+        "If I'm completely honest, ...",
+        "I used to think..., but these days..."
+      ],
+      "sample": "It's probably my grandfather. He was a carpenter who never had much formal education, but he read constantly and questioned everything. I used to think his habit of asking 'How do you know that?' was just stubbornness, but these days I find myself doing exactly the same thing whenever I read the news. It's something I've come to appreciate more and more."
+    },
+    {
+      "id": "c1.speak.m2.p2",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Long turn: staying focused",
+      "topic": "Concentration",
+      "instructions": "Choose two of the three pictures. Compare them and answer both questions printed above them. Speak for about one minute. Then answer a short question about your partner's pictures.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "In this part of the test, you're going to talk on your own for about a minute about some pictures. Choose two of the three pictures. Afterwards, I'll ask you a short question about your partner's pictures.",
+        "Here are your pictures. They show people concentrating in different situations. I'd like you to compare two of the pictures, and say what the people might need to concentrate on, and how easy it might be for them to stay focused. All right?",
+        "What might the people need to concentrate on? How easy might it be for them to stay focused?",
+        "Thank you. Your partner has just talked about pictures of people relaxing. Do you find it easy to switch off after a demanding day?"
+      ],
+      "pictures": [
+        {
+          "letter": "A",
+          "description": "A team of surgeons in green gowns and masks lean over a patient under bright operating lights. One is holding a fine instrument completely still while the others watch a monitor."
+        },
+        {
+          "letter": "B",
+          "description": "A teenage girl sits in a busy, noisy café surrounded by textbooks and highlighter pens, wearing large headphones and staring intently at her notes."
+        },
+        {
+          "letter": "C",
+          "description": "Two chess players face each other across a board in a silent tournament hall. One rests his chin on his hands, while a clock ticks beside them."
+        }
+      ],
+      "turnSeconds": 60,
+      "usefulLanguage": [
+        "I'm going to talk about the first and the third pictures.",
+        "What these two situations have in common is...",
+        "In stark contrast to..., the woman in this picture...",
+        "Judging by her expression, she must be feeling...",
+        "He may well have decided to... in order to...",
+        "I'd imagine there's a fair amount of... involved.",
+        "Whereas the climber is probably driven by..., the woman...",
+        "Of the two, I'd say... is likely to be..."
+      ],
+      "sample": "I'll compare the surgeons and the student in the café. In both cases, the people need to concentrate intensely, but for rather different reasons. The surgeons have to focus on every tiny movement, because even a minor slip could have serious consequences for the patient. The student, by contrast, is presumably trying to memorise information for an exam, and the stakes are personal rather than life or death. As for how easy it is, I'd imagine the surgeons find it surprisingly manageable: they're highly trained, the room is quiet and everything is designed to minimise distractions. The student, meanwhile, has chosen a noisy, crowded café, so even with headphones on, she must be battling constant interruptions. Then again, some people actually work better with a bit of background noise, so it may well suit her. Of the two, though, I suspect she's the one whose attention will wander first."
+    },
+    {
+      "id": "c1.speak.m2.p3",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 3,
+      "set": "mock-2",
+      "title": "Collaborative task: preserving local culture",
+      "topic": "Culture and tradition",
+      "instructions": "Discuss the question with your partner for about two minutes, using the five prompts. Then you have about a minute to reach a decision together.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Now I'd like you and your partner to talk together for about two minutes. Here are some ideas and a question for you to discuss. Take a few seconds to look at the task first. Here are some aspects of local culture that communities often try to preserve.",
+        "Now, talk to each other about why it might be important to preserve these aspects of local culture.",
+        "Thank you. Now you have about a minute to decide which of these will be the hardest to preserve in the future."
+      ],
+      "prompts": [
+        "traditional festivals",
+        "regional dialects",
+        "historic buildings",
+        "local crafts",
+        "traditional recipes"
+      ],
+      "turnSeconds": 120,
+      "usefulLanguage": [
+        "Shall we kick off with...?",
+        "Where do you stand on...?",
+        "I take your point, but wouldn't you say that...?",
+        "That ties in with what you said earlier about...",
+        "I'm inclined to think that...",
+        "It could be argued that...",
+        "Shall we try to narrow it down?",
+        "So, are we in agreement that...?",
+        "We'll have to agree to differ on that one."
+      ],
+      "sample": "I take your point about festivals bringing in tourists, but wouldn't you say there's a danger they turn into a show for visitors rather than something the community actually believes in? I'm inclined to think regional dialects are more important in a way, because once a dialect disappears, a whole way of seeing the world goes with it, and you can't really rebuild it from recordings. It could be argued that it's a natural process, of course. What's your view on that?"
+    },
+    {
+      "id": "c1.speak.m2.p4",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 4,
+      "set": "mock-2",
+      "title": "Discussion: culture in a connected world",
+      "topic": "Culture and tradition",
+      "instructions": "Answer the examiner's questions. Express and justify your opinions, consider other points of view and, where relevant, speculate.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Do you think globalisation is making countries more and more alike?",
+        "Who should be responsible for protecting a country's cultural heritage: the government or local communities?",
+        "Is mass tourism a threat to local traditions, or does it help to keep them alive?",
+        "Why do you think many young people show renewed interest in traditional crafts and music?",
+        "Should historic buildings ever be demolished to make way for new housing?",
+        "How might the way we celebrate traditions change over the next few decades?"
+      ],
+      "turnSeconds": 40,
+      "usefulLanguage": [
+        "It's a complex issue, but on balance I'd say...",
+        "There's a lot to be said for...",
+        "That may be true to some extent, but...",
+        "I'd argue that the real issue is...",
+        "It largely depends on...",
+        "A case in point would be...",
+        "In the long run, I suspect that...",
+        "I can see both sides of the argument."
+      ],
+      "sample": "I can see both sides of the argument. Tourism certainly brings in money that can be used to restore old buildings or support craftspeople, and without it some traditions would simply die out. That said, there's a risk that customs become a kind of performance staged for visitors. A case in point would be villages where the 'traditional' dance now only happens when the tour buses arrive. So it largely depends on whether the local community stays in control of how its culture is presented."
+    },
+    {
+      "id": "c1.speak.d1.p2",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 2,
+      "set": "drill",
+      "title": "Long turn: waiting",
+      "topic": "Patience",
+      "instructions": "Choose two of the three pictures. Compare them and answer both questions printed above them. Speak for about one minute. Then answer a short question about your partner's pictures.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "In this part of the test, you're going to talk on your own for about a minute about some pictures. Choose two of the three pictures. Afterwards, I'll ask you a short question about your partner's pictures.",
+        "Here are your pictures. They show people waiting in different situations. I'd like you to compare two of the pictures, and say why the people might be waiting, and how they might be feeling. All right?",
+        "Why might the people be waiting? How might they be feeling?",
+        "Thank you. Your partner has just talked about pictures of people in a hurry. Do you think people today have become less patient?"
+      ],
+      "pictures": [
+        {
+          "letter": "A",
+          "description": "Passengers sleep on rows of metal chairs in an airport terminal at night, beneath a departures board showing a long column of cancelled flights."
+        },
+        {
+          "letter": "B",
+          "description": "A man in a crumpled shirt paces up and down a hospital corridor holding an untouched cup of coffee, glancing repeatedly at a closed door."
+        },
+        {
+          "letter": "C",
+          "description": "A long line of young people in sleeping bags and folding chairs queue overnight outside a shop, chatting and laughing, the night before a new phone goes on sale."
+        }
+      ],
+      "turnSeconds": 60,
+      "usefulLanguage": [
+        "I'm going to talk about the first and the third pictures.",
+        "What these two situations have in common is...",
+        "In stark contrast to..., the woman in this picture...",
+        "Judging by her expression, she must be feeling...",
+        "He may well have decided to... in order to...",
+        "I'd imagine there's a fair amount of... involved.",
+        "Whereas the climber is probably driven by..., the woman...",
+        "Of the two, I'd say... is likely to be..."
+      ],
+      "sample": "I'll talk about the airport and the queue outside the shop. Although both groups are waiting for a long time, the circumstances couldn't be more different. The people at the airport are clearly stranded against their will; judging by the board, their flights have been cancelled, so they're probably exhausted and frustrated, and perhaps worried about missing something important at the other end. The people outside the shop, on the other hand, have chosen to wait. They're presumably queuing for some new product, and for them the waiting may well be part of the fun, a sort of shared adventure. That said, by the early hours of the morning I suspect even the keenest of them are wondering whether it was really worth it. Of the two, the airport passengers are undoubtedly having the worse time, simply because they have no control over when it'll end."
+    },
+    {
+      "id": "c1.speak.d2.p2",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 2,
+      "set": "drill",
+      "title": "Long turn: making a fresh start",
+      "topic": "Life changes",
+      "instructions": "Choose two of the three pictures. Compare them and answer both questions printed above them. Speak for about one minute. Then answer a short question about your partner's pictures.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "In this part of the test, you're going to talk on your own for about a minute about some pictures. Choose two of the three pictures. Afterwards, I'll ask you a short question about your partner's pictures.",
+        "Here are your pictures. They show people making big changes in their lives. I'd like you to compare two of the pictures, and say why the people might have decided to make these changes, and how their lives might be different as a result. All right?",
+        "Why might the people have decided to make these changes? How might their lives be different as a result?",
+        "Thank you. Your partner has just talked about pictures of people following daily routines. Do you think people become more afraid of change as they get older?"
+      ],
+      "pictures": [
+        {
+          "letter": "A",
+          "description": "A grey-haired woman takes notes in the front row of a university lecture theatre, surrounded by students in their late teens. She looks absorbed and slightly amused."
+        },
+        {
+          "letter": "B",
+          "description": "A family carry cardboard boxes from a removal van into an old stone farmhouse in the countryside, while their dog runs around the overgrown garden."
+        },
+        {
+          "letter": "C",
+          "description": "A man in a suit hands an envelope marked 'Resignation' across a desk to his surprised manager in a glass-walled office. He looks nervous but determined."
+        }
+      ],
+      "turnSeconds": 60,
+      "usefulLanguage": [
+        "I'm going to talk about the first and the third pictures.",
+        "What these two situations have in common is...",
+        "In stark contrast to..., the woman in this picture...",
+        "Judging by her expression, she must be feeling...",
+        "He may well have decided to... in order to...",
+        "I'd imagine there's a fair amount of... involved.",
+        "Whereas the climber is probably driven by..., the woman...",
+        "Of the two, I'd say... is likely to be..."
+      ],
+      "sample": "I'm going to compare the woman at university and the man resigning from his job. What strikes me first is that both of them are walking away from something safe. The woman, who looks to be in her sixties, may have always regretted not studying when she was younger, and now that she's retired, she finally has the time. Her life will probably become far more stimulating, and she'll be mixing with people of a completely different generation. The man, by contrast, appears to be leaving a secure office job, possibly because he's burnt out or has a plan to do something more meaningful. In the short term, his life might become a lot less comfortable financially, but I'd imagine he'll feel a huge sense of relief. If anything, I think his decision takes more nerve, because he's got more to lose."
+    },
+    {
+      "id": "c1.speak.d3.p3",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 3,
+      "set": "drill",
+      "title": "Collaborative task: what makes a city liveable",
+      "topic": "Cities",
+      "instructions": "Discuss the question with your partner for about two minutes, using the five prompts. Then you have about a minute to reach a decision together.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Now I'd like you and your partner to talk together for about two minutes. Here are some ideas and a question for you to discuss. Take a few seconds to look at the task first. Here are some factors that can make a city a good place to live.",
+        "Now, talk to each other about how important these factors are in making a city a good place to live.",
+        "Thank you. Now you have about a minute to decide which factor city planners should make their top priority."
+      ],
+      "prompts": [
+        "affordable housing",
+        "efficient public transport",
+        "access to green spaces",
+        "a lively cultural scene",
+        "job opportunities"
+      ],
+      "turnSeconds": 120,
+      "usefulLanguage": [
+        "Shall we kick off with...?",
+        "Where do you stand on...?",
+        "I take your point, but wouldn't you say that...?",
+        "That ties in with what you said earlier about...",
+        "I'm inclined to think that...",
+        "It could be argued that...",
+        "Shall we try to narrow it down?",
+        "So, are we in agreement that...?",
+        "We'll have to agree to differ on that one."
+      ],
+      "sample": "Shall we kick off with affordable housing? I'd argue it underpins almost everything else, because if ordinary people can't afford to live in the centre, they end up commuting for hours and the city loses its mix of people. I take your point that job opportunities attract people in the first place, but there's not much point in a well-paid job if half your salary goes on rent. Where do you stand on public transport? I suppose that could partly solve the housing problem by making the suburbs more accessible."
+    },
+    {
+      "id": "c1.speak.d4.p3",
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 3,
+      "set": "drill",
+      "title": "Collaborative task: where opinions come from",
+      "topic": "Influence and opinion",
+      "instructions": "Discuss the question with your partner for about two minutes, using the five prompts. Then you have about a minute to reach a decision together.",
+      "status": "draft",
+      "kind": "speaking",
+      "examiner": [
+        "Now I'd like you and your partner to talk together for about two minutes. Here are some ideas and a question for you to discuss. Take a few seconds to look at the task first. Here are some things that can influence the opinions people form.",
+        "Now, talk to each other about how much influence these things have on the opinions people form.",
+        "Thank you. Now you have about a minute to decide which of these has the most lasting influence on people's opinions."
+      ],
+      "prompts": [
+        "family",
+        "friends",
+        "social media",
+        "teachers",
+        "news organisations"
+      ],
+      "turnSeconds": 120,
+      "usefulLanguage": [
+        "Shall we kick off with...?",
+        "Where do you stand on...?",
+        "I take your point, but wouldn't you say that...?",
+        "That ties in with what you said earlier about...",
+        "I'm inclined to think that...",
+        "It could be argued that...",
+        "Shall we try to narrow it down?",
+        "So, are we in agreement that...?",
+        "We'll have to agree to differ on that one."
+      ],
+      "sample": "I'm inclined to think family has the deepest influence, at least at first, because we absorb our parents' views long before we can question them. That said, a lot of people rebel against those views as teenagers, don't they? That ties in with friends, actually. During adolescence, fitting in with your peers often matters far more than anything your parents say. What about social media? I'd say its influence is huge but quite shallow; it can change what people talk about very quickly, but I'm not sure it changes their deeper values. Would you agree?"
+    }
+  ],
+  "guides": [
+    {
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 1,
+      "tests": {
+        "en": "Part 1 (2 minutes) is a short interview about you: your background, habits, opinions and plans. It looks simple, but it sets the examiner's first impression across all five analytical criteria: Grammatical Resource, Lexical Resource, Discourse Management, Pronunciation and Interactive Communication. At C1, they expect developed answers with natural, idiomatic language, not just correct sentences.",
+        "bg": "Част 1 (2 минути) е кратко интервю за теб: произход, навици, мнения и планове. Изглежда лесно, но създава първото впечатление по всичките пет критерия: граматически ресурс, лексикален ресурс, организация на изказа, произношение и комуникация в диалог. На ниво C1 се очакват развити отговори с естествен, идиоматичен език, а не просто правилни изречения."
+      },
+      "strategy": [
+        {
+          "en": "Develop each answer with a reason, an example or a contrast (then vs now), in two to four sentences.",
+          "bg": "Развивай всеки отговор с причина, пример или контраст (тогава срещу сега) в две до четири изречения."
+        },
+        {
+          "en": "Show range naturally: 'I used to..., but these days...', 'If I'd known..., I would have...', 'What I find...is...'.",
+          "bg": "Показвай богатство естествено: 'I used to..., but these days...', 'If I'd known..., I would have...', 'What I find...is...'."
+        },
+        {
+          "en": "Use precise, idiomatic vocabulary instead of basic words: 'recharge my batteries', 'a steep learning curve', 'sleep on it'.",
+          "bg": "Ползвай точна, идиоматична лексика вместо основни думи: 'recharge my batteries', 'a steep learning curve', 'sleep on it'."
+        },
+        {
+          "en": "Answer the question you were asked. Relevance matters more than impressive vocabulary.",
+          "bg": "Отговаряй на въпроса, който ти е зададен. Уместността е по-важна от впечатляващата лексика."
+        }
+      ],
+      "example": {
+        "question": "How has the way you keep in touch with friends changed over the last few years?",
+        "steps": [
+          {
+            "en": "Identify the structure the question invites: a change over time, so contrast past and present.",
+            "bg": "Определи каква структура предполага въпросът: промяна във времето, затова противопостави минало и настояще."
+          },
+          {
+            "en": "Give the main change with a used to / these days contrast.",
+            "bg": "Посочи основната промяна чрез контраст used to / these days."
+          },
+          {
+            "en": "Add a reason or evaluation to show depth: is the change good or bad, and why?",
+            "bg": "Добави причина или оценка, за да покажеш дълбочина: добра или лоша е промяната и защо?"
+          },
+          {
+            "en": "Finish naturally in about 20–25 seconds.",
+            "bg": "Приключи естествено за около 20–25 секунди."
+          }
+        ],
+        "answer": "I used to see my friends almost every day, because we were at university together, but these days we're scattered across three countries, so it's mostly voice messages and the occasional video call. If I'm honest, it's made me value the time we do spend together far more; when we meet up now, we make a real effort to make it count."
+      },
+      "pitfalls": [
+        {
+          "en": "Short, B1-style answers ('I live in Plovdiv. It's nice.'): at C1 you need to develop and extend.",
+          "bg": "Кратки отговори в стил B1 ('I live in Plovdiv. It's nice.'): на C1 трябва да развиваш и разширяваш."
+        },
+        {
+          "en": "Forcing rehearsed idioms into answers where they don't fit; it sounds unnatural and can be inaccurate.",
+          "bg": "Да набутваш наизустени идиоми там, където не пасват: звучи неестествено и може да е неточно."
+        },
+        {
+          "en": "Talking for so long that the examiner has to cut you off.",
+          "bg": "Да говориш толкова дълго, че изпитващият да трябва да те прекъсне."
+        }
+      ]
+    },
+    {
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 2,
+      "tests": {
+        "en": "Part 2 is a one-minute long turn. You see three pictures, choose two, compare them and answer TWO printed questions, usually one about reasons or purpose and one about feelings or consequences. Then you answer a short question (about 30 seconds) about your partner's pictures. It tests organising extended speech, comparing, speculating and evaluating with a wide range of language.",
+        "bg": "Част 2 е едноминутно самостоятелно изказване. Виждаш три картинки, избираш две, сравняваш ги и отговаряш на ДВА написани въпроса, обикновено един за причини или цел и един за чувства или последици. След това отговаряш накратко (около 30 секунди) на въпрос за картинките на партньора. Проверява дали можеш да организираш по-дълго изказване, да сравняваш, да правиш предположения и да оценяваш с богат език."
+      },
+      "strategy": [
+        {
+          "en": "Choose quickly (within a couple of seconds) the two pictures that give you the most to say, and announce them: 'I'll talk about A and C.'",
+          "bg": "Избери бързо (за няколко секунди) двете картинки, за които имаш най-много да кажеш, и ги назови: 'I'll talk about A and C.'"
+        },
+        {
+          "en": "Answer BOTH questions. A good shape: brief comparison, question 1 for both pictures, question 2 for both pictures, short evaluation.",
+          "bg": "Отговори и на ДВАТА въпроса. Добра структура: кратко сравнение, въпрос 1 за двете картинки, въпрос 2 за двете, кратка оценка."
+        },
+        {
+          "en": "Speculate with a range of forms: may well, must be, can't be, presumably, judging by..., I'd imagine.",
+          "bg": "Прави предположения с разнообразни форми: may well, must be, can't be, presumably, judging by..., I'd imagine."
+        },
+        {
+          "en": "Compare throughout, not only at the start: whereas, by contrast, in much the same way, unlike...",
+          "bg": "Сравнявай през цялото време, не само в началото: whereas, by contrast, in much the same way, unlike..."
+        }
+      ],
+      "example": {
+        "question": "Pictures: A a nurse on a night shift, B a farmer harvesting at sunrise, C a DJ playing at a festival. Why might the people have chosen to work at these times? How might the hours affect their lives?",
+        "steps": [
+          {
+            "en": "Pick the two pictures that contrast most clearly: B (early morning, outdoors, by necessity) and C (late night, entertainment, by choice).",
+            "bg": "Избери двете картинки с най-ясен контраст: B (рано сутрин, навън, по необходимост) и C (късно вечер, забавление, по избор)."
+          },
+          {
+            "en": "Question 1 for both: the farmer works with the seasons and daylight; the DJ works when the audience is free.",
+            "bg": "Въпрос 1 за двете: фермерът работи според сезоните и светлината; диджеят работи, когато публиката е свободна."
+          },
+          {
+            "en": "Question 2 for both: early nights and physical fatigue versus a disrupted sleep pattern and social life out of step with friends.",
+            "bg": "Въпрос 2 за двете: ранно лягане и физическа умора срещу нарушен сън и социален живот, разминаващ се с приятелите."
+          },
+          {
+            "en": "End with a brief evaluation that compares the two.",
+            "bg": "Завърши с кратка оценка, която сравнява двете."
+          }
+        ],
+        "answer": "I'll talk about the farmer and the DJ. Neither of them works a typical nine-to-five, but for quite different reasons. The farmer presumably has little choice: harvests depend on the weather and the daylight, so he has to start at sunrise. The DJ, by contrast, works at night simply because that's when his audience is free to party. As for how it affects them, the farmer is probably in bed by nine and physically exhausted, whereas the DJ's whole body clock must be turned upside down, which could make it hard to keep up with friends who work normal hours. Of the two, I'd say the DJ's lifestyle is the harder one to sustain in the long term."
+      },
+      "pitfalls": [
+        {
+          "en": "Talking about all three pictures. You lose time and the comparison becomes superficial.",
+          "bg": "Да говориш и за трите картинки. Губиш време и сравнението става повърхностно."
+        },
+        {
+          "en": "Answering only the first question, or describing the pictures instead of answering the questions.",
+          "bg": "Да отговориш само на първия въпрос или да описваш картинките, вместо да отговаряш на въпросите."
+        },
+        {
+          "en": "Relying on 'maybe' for every speculation. Vary it: 'may well', 'I'd imagine', 'it's likely that'.",
+          "bg": "Да ползваш само 'maybe' за всяко предположение. Разнообразявай: 'may well', 'I'd imagine', 'it's likely that'."
+        }
+      ]
+    },
+    {
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 3,
+      "tests": {
+        "en": "Part 3 is a collaborative task: a central question with five written prompts, discussed with your partner for about two minutes, followed by about a minute to reach a decision. It mainly tests Interactive Communication and Discourse Management at C1: sustaining the interaction, linking contributions, building on your partner's ideas, evaluating, and negotiating towards an outcome.",
+        "bg": "Част 3 е съвместна задача: централен въпрос с пет написани идеи, които обсъждаш с партньора около две минути, последвано от около минута за вземане на решение. На C1 проверява главно комуникацията в диалог и организацията на изказа: да поддържаш разговора, да свързваш репликите, да надграждаш идеите на партньора, да оценяваш и да преговаряш към решение."
+      },
+      "strategy": [
+        {
+          "en": "Build on your partner's points explicitly: 'That ties in with what you said about...', 'Following on from that...'.",
+          "bg": "Надграждай изрично идеите на партньора: 'That ties in with what you said about...', 'Following on from that...'."
+        },
+        {
+          "en": "Go into depth: evaluate, compare prompts with each other, consider who is affected and in what way.",
+          "bg": "Задълбочавай: оценявай, сравнявай идеите помежду им, обмисли кого засягат и как."
+        },
+        {
+          "en": "Disagree diplomatically with hedging: 'I take your point, but wouldn't you say...?', 'I'm not entirely convinced that...'.",
+          "bg": "Несъгласявай се дипломатично с омекотяване: 'I take your point, but wouldn't you say...?', 'I'm not entirely convinced that...'."
+        },
+        {
+          "en": "In the decision minute, narrow down by eliminating options, then try to agree, or agree to differ, with reasons.",
+          "bg": "В минутата за решение стеснявай избора, като отхвърляш варианти, после се опитай да се съгласите или да останете на различни мнения, но с аргументи."
+        }
+      ],
+      "example": {
+        "question": "How might these things help people lead healthier lives? (prompts: workplace gyms, food labelling, sugar taxes, cycle lanes, health apps)",
+        "steps": [
+          {
+            "en": "Open with a prompt and a clear, hedged view: 'Shall we kick off with food labelling? I'm inclined to think...'",
+            "bg": "Започни с една идея и ясна, омекотена позиция: 'Shall we kick off with food labelling? I'm inclined to think...'"
+          },
+          {
+            "en": "Evaluate it, including a limitation: people may not read labels.",
+            "bg": "Оцени я, включително ограничение: хората може да не четат етикетите."
+          },
+          {
+            "en": "Link it to another prompt to keep the discussion flowing: labels only inform, whereas a sugar tax changes behaviour through price.",
+            "bg": "Свържи я с друга идея, за да тече разговорът: етикетите само информират, а данъкът върху захарта променя поведението чрез цената."
+          },
+          {
+            "en": "Hand over with an open question that invites a real opinion.",
+            "bg": "Предай думата с отворен въпрос, който кани истинско мнение."
+          }
+        ],
+        "answer": "Shall we kick off with food labelling? I'm inclined to think it's useful, but only up to a point, because most people are in too much of a hurry to read the small print. A sugar tax, on the other hand, works whether you read anything or not, since it hits you in the wallet. Where do you stand on that? Is it fair, or is it the government interfering too much?"
+      },
+      "pitfalls": [
+        {
+          "en": "Taking turns to make mini-speeches about each prompt without reacting to each other.",
+          "bg": "Да се редувате с мини-речи за всяка идея, без да реагирате един на друг."
+        },
+        {
+          "en": "Rushing through all five prompts superficially. Depth and interaction score higher than coverage.",
+          "bg": "Да минете повърхностно през всичките пет идеи. Задълбочаването и взаимодействието носят повече точки от обхвата."
+        },
+        {
+          "en": "Forcing an agreement in the first ten seconds of the decision minute, then falling silent.",
+          "bg": "Да се насилите да се съгласите още в първите десет секунди от минутата за решение и после да замълчите."
+        }
+      ]
+    },
+    {
+      "exam": "c1-advanced",
+      "paper": "speaking",
+      "part": 4,
+      "tests": {
+        "en": "Part 4 (5 minutes) is a discussion of more abstract questions related to the Part 3 topic. Questions may go to you, your partner or both. It tests your ability to express and justify opinions on complex issues, speculate, agree and disagree, and handle ideas beyond your own experience, with a wide range of grammar and vocabulary.",
+        "bg": "Част 4 (5 минути) е дискусия по по-абстрактни въпроси, свързани с темата от Част 3. Въпросите може да са към теб, към партньора или към двамата. Проверява дали можеш да изразяваш и обосноваваш мнение по сложни въпроси, да правиш предположения, да се съгласяваш и несъгласяваш и да работиш с идеи отвъд личния си опит, с богата граматика и лексика."
+      },
+      "strategy": [
+        {
+          "en": "Show nuance: avoid absolute yes/no answers. 'On balance...', 'To some extent...', 'It largely depends on...'.",
+          "bg": "Покажи нюанс: избягвай категорични да/не отговори. 'On balance...', 'To some extent...', 'It largely depends on...'."
+        },
+        {
+          "en": "Structure each answer: position, reason, example or 'case in point', concession, conclusion.",
+          "bg": "Структурирай всеки отговор: позиция, причина, пример или 'case in point', отстъпка, заключение."
+        },
+        {
+          "en": "Think about society, not only yourself: different groups, the short and long term, causes and consequences.",
+          "bg": "Мисли за обществото, не само за себе си: различни групи, краткосрочно и дългосрочно, причини и последици."
+        },
+        {
+          "en": "When the examiner asks you to react to your partner, engage with their argument specifically.",
+          "bg": "Когато изпитващият те помоли да реагираш на партньора, отговори конкретно на неговия аргумент."
+        }
+      ],
+      "example": {
+        "question": "Is it the responsibility of individuals or governments to tackle climate change?",
+        "steps": [
+          {
+            "en": "Reject the false choice with a nuanced position: both, but not equally.",
+            "bg": "Отхвърли фалшивия избор с нюансирана позиция: и двете, но не в еднаква степен."
+          },
+          {
+            "en": "Justify the main point: governments control energy, transport and regulation.",
+            "bg": "Обоснови основната теза: правителствата контролират енергетиката, транспорта и регулациите."
+          },
+          {
+            "en": "Add a concession: individual choices still matter and can push governments to act.",
+            "bg": "Добави отстъпка: личният избор все пак има значение и може да подтикне правителствата към действие."
+          },
+          {
+            "en": "Conclude briefly, tying the two together.",
+            "bg": "Заключи кратко, като свържеш двете."
+          }
+        ],
+        "answer": "I'd argue it's both, but not in equal measure. Governments have far more power: they decide how energy is produced and whether public transport is a realistic alternative to driving. Telling individuals to recycle while building new motorways seems rather hypocritical. That said, individual choices aren't meaningless; when enough people change their habits, it puts pressure on politicians to act. So on balance, governments have to lead, but people can push them in the right direction."
+      },
+      "pitfalls": [
+        {
+          "en": "Short, unsupported answers ('Yes, definitely.') that don't show C1 range or reasoning.",
+          "bg": "Кратки, необосновани отговори ('Yes, definitely.'), които не показват богатство и разсъждение на ниво C1."
+        },
+        {
+          "en": "Drifting off the question into a prepared speech on a related topic.",
+          "bg": "Да се отклоняваш от въпроса към подготвена реч на сходна тема."
+        },
+        {
+          "en": "Ignoring your partner's contributions when asked to respond to them.",
+          "bg": "Да пренебрегваш казаното от партньора, когато те помолят да му отговориш."
+        }
+      ]
+    }
+  ],
+  "lessons": []
+}

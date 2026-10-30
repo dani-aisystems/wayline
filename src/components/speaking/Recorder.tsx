@@ -19,7 +19,7 @@ type Phase =
  * Microphone panel. States are explicit so the UI never says "Recording…" unless MediaRecorder actually started.
  * Recognition runs alongside the recording only when it's on-device, or when the learner has agreed to cloud recognition.
  */
-export function Recorder({ onTake, onSkip, compact = false }: { onTake: (t: Take) => void; onSkip: () => void; compact?: boolean }) {
+export function Recorder({ onTake, onSkip, compact = false, maxSeconds = 30 }: { onTake: (t: Take) => void; onSkip: () => void; compact?: boolean; maxSeconds?: number }) {
   const { t, profile, update } = useProfile();
   const [phase, setPhase] = useState<Phase>({ kind: "off" });
   const [devices, setDevices] = useState<{ id: string; label: string }[]>([]);
@@ -68,11 +68,11 @@ export function Recorder({ onTake, onSkip, compact = false }: { onTake: (t: Take
 
   const begin = () => {
     if (!stream.current) return;
-    const r = record(stream.current);
+    const r = record(stream.current, maxSeconds * 1000);
     stopRec.current = r.stop;
     let recog: Promise<RecognitionResult> | null = null;
     if (wantCheck && recognitionAllowed) {
-      const s = recognizeOnce({ local: support === "local", timeoutMs: 30_000 });
+      const s = recognizeOnce({ local: support === "local", timeoutMs: (maxSeconds + 2) * 1000 });
       stopRecog.current = s.stop;
       recog = s.result;
     }

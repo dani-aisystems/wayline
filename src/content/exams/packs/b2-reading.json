@@ -1,0 +1,3173 @@
+{
+  "id": "b2-reading",
+  "tasks": [
+    {
+      "id": "b2.read.m1.p1",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 1,
+      "set": "mock-1",
+      "title": "The return of the night train",
+      "topic": "sleeper trains",
+      "status": "draft",
+      "kind": "mc-cloze",
+      "instructions": "For questions 1–8, read the text below and decide which answer (A, B, C or D) best fits each gap.",
+      "text": "The return of the night train\n\nNot long ago, most people would have laughed at the idea of spending twelve hours on a train when a plane could get them to the same city in two. Night services were expensive to run, and one by one, rail companies phased them {{1}}. Today, however, the picture looks very different. A growing number of travellers are {{2}} to the sleeper train as a greener alternative to flying, and new routes are launched almost every season.\n\nFor many passengers, the real {{3}} of the night train is not its speed but the experience itself. You board in the evening, have dinner {{4}} the countryside slips past the window, and wake up in the centre of another country. There is no need to {{5}} in at an airport two hours early or to pay for a taxi from a terminal miles outside the city.\n\nThat is not to say the journey is always comfortable. Cabins can be cramped, and on older trains it is {{6}} to get a good night's sleep. Prices, too, can be surprisingly high, especially if you want a cabin to yourself. Still, operators say demand is so strong that tickets on popular routes often sell {{7}} within hours. If the trend continues, the night train may soon be {{8}} as an ordinary way to travel rather than a romantic adventure.",
+      "questions": [
+        {
+          "n": 1,
+          "options": [
+            "off",
+            "out",
+            "away",
+            "down"
+          ],
+          "correct": 1,
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "'Phase out' means to stop using something gradually, step by step. 'Phase off' and 'phase away' don't exist; 'phase down' is rare and means 'reduce', not 'stop'.",
+            "bg": "'Phase out' значи постепенно да спреш нещо. 'Phase off' и 'phase away' не съществуват, а 'phase down' е рядко и значи 'намалявам', не 'спирам'."
+          }
+        },
+        {
+          "n": 2,
+          "options": [
+            "turning",
+            "getting",
+            "bringing",
+            "coming"
+          ],
+          "correct": 0,
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "'Turn to something' means to start using it as an alternative or for help. 'Get to' means 'reach', and 'come to' means 'arrive at' – neither fits the idea of choosing an alternative.",
+            "bg": "'Turn to something' значи да се обърнеш към нещо като алтернатива. 'Get to' е 'стигам до', а 'come to' е 'пристигам' – нито едно не предава идеята за избор на алтернатива."
+          }
+        },
+        {
+          "n": 3,
+          "options": [
+            "desire",
+            "fondness",
+            "taste",
+            "appeal"
+          ],
+          "correct": 3,
+          "tag": "uoe.complementation",
+          "why": {
+            "en": "'The appeal of something' = what makes it attractive. 'Desire', 'fondness' and 'taste' describe a person's feeling and are followed by 'for' (a taste for travel), so 'the taste of the night train' means something else.",
+            "bg": "'The appeal of something' = какво го прави привлекателно. 'Desire', 'fondness' и 'taste' описват чувство на човек и вървят с 'for' (a taste for travel), затова 'the taste of the night train' значи нещо друго."
+          }
+        },
+        {
+          "n": 4,
+          "options": [
+            "during",
+            "meanwhile",
+            "while",
+            "throughout"
+          ],
+          "correct": 2,
+          "tag": "uoe.linking",
+          "why": {
+            "en": "A full clause follows (the countryside slips past), so you need a conjunction: 'while'. 'During' and 'throughout' are prepositions and need a noun; 'meanwhile' is an adverb that starts a new sentence.",
+            "bg": "След празнината идва цяло изречение (the countryside slips past), затова ти трябва съюз: 'while'. 'During' и 'throughout' са предлози и искат съществително, а 'meanwhile' е наречие, което започва ново изречение."
+          }
+        },
+        {
+          "n": 5,
+          "options": [
+            "clock",
+            "check",
+            "fill",
+            "sign"
+          ],
+          "correct": 1,
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "At an airport you 'check in'. You 'sign in' at a reception desk, 'clock in' when you arrive at work and 'fill in' a form.",
+            "bg": "На летище се 'check in'. 'Sign in' е на рецепция, 'clock in' – когато отиваш на работа, а 'fill in' – попълваш формуляр."
+          }
+        },
+        {
+          "n": 6,
+          "options": [
+            "unlikely",
+            "seldom",
+            "hard",
+            "barely"
+          ],
+          "correct": 2,
+          "tag": "uoe.complementation",
+          "why": {
+            "en": "'It is hard to + infinitive' is the right pattern. 'Unlikely' needs 'that…' after 'it is' (it is unlikely that you will sleep), and 'seldom'/'barely' are adverbs, so they can't follow 'it is' like this.",
+            "bg": "Правилната конструкция е 'it is hard to + инфинитив'. След 'it is unlikely' трябва 'that…' (it is unlikely that you will sleep), а 'seldom' и 'barely' са наречия и не могат да стоят така след 'it is'."
+          }
+        },
+        {
+          "n": 7,
+          "options": [
+            "out",
+            "over",
+            "up",
+            "off"
+          ],
+          "correct": 0,
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "Tickets 'sell out' when there are none left. 'Sell up' means to sell your house or business, and 'sell off' means to sell things cheaply to get rid of them.",
+            "bg": "Билетите 'sell out', когато свършат. 'Sell up' значи да продадеш дома или бизнеса си, а 'sell off' – да разпродадеш евтино."
+          }
+        },
+        {
+          "n": 8,
+          "options": [
+            "thought",
+            "supposed",
+            "reckoned",
+            "regarded"
+          ],
+          "correct": 3,
+          "tag": "uoe.complementation",
+          "why": {
+            "en": "'Be regarded as' is the correct pattern. 'Thought' would need 'of' (thought of as), and 'supposed' and 'reckoned' are followed by 'to be', not 'as'.",
+            "bg": "Правилно е 'be regarded as'. 'Thought' иска 'of' (thought of as), а след 'supposed' и 'reckoned' идва 'to be', не 'as'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m1.p2",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 2,
+      "set": "mock-1",
+      "title": "Why we put things off",
+      "topic": "procrastination",
+      "status": "draft",
+      "kind": "open-cloze",
+      "instructions": "For questions 9–16, read the text below and think of the word which best fits each gap. Use only one word in each gap.",
+      "text": "Why we put things off\n\nAlmost everyone has sat down to work on an important task and found, an hour later, that they have done nothing {{9}} check their messages and tidy their desk. For a long time, putting things off in this way was seen simply as a sign of laziness, but psychologists now believe it has more to do {{10}} our emotions than with poor time management.\n\nAccording to this view, we delay tasks not because we do not care about them, but precisely {{11}} we do. A difficult report or an unfamiliar form makes us feel anxious or bored, and avoiding it gives us a quick sense of relief. The problem is that the relief does not last, and the task is still waiting for us, now more urgent {{12}} ever.\n\nThe good news is that the habit can be broken. Experts suggest starting with a task {{13}} small that it feels almost silly to avoid it – writing just one sentence of the report, for example. Once you have started, it is much easier to keep {{14}}. It also helps to be kind to yourself. In one study, students who forgave {{15}} for putting off revision before one exam were less likely to do the same before the next. Feeling guilty, it seems, does not make us work harder; {{16}} anything, it makes the problem worse.",
+      "questions": [
+        {
+          "n": 9,
+          "accept": [
+            "but",
+            "except"
+          ],
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'Nothing but / nothing except + verb' = only. The bare verb 'check' after the gap is the clue: 'nothing more than' would need two words.",
+            "bg": "'Nothing but / nothing except + глагол' = само. Голият глагол 'check' след празнината е подсказката; 'nothing more than' би изисквало две думи."
+          }
+        },
+        {
+          "n": 10,
+          "accept": [
+            "with"
+          ],
+          "tag": "uoe.dependent-prepositions",
+          "why": {
+            "en": "'Have (more) to do with' = be connected with. The parallel 'than with poor time management' later in the sentence confirms the preposition.",
+            "bg": "'Have (more) to do with' = свързано е с. Паралелът 'than with poor time management' по-нататък в изречението потвърждава предлога."
+          }
+        },
+        {
+          "n": 11,
+          "accept": [
+            "because"
+          ],
+          "tag": "uoe.linking",
+          "why": {
+            "en": "The sentence contrasts two reasons: 'not because we do not care… but precisely because we do'. The second half repeats 'because'.",
+            "bg": "Изречението противопоставя две причини: 'not because we do not care… but precisely because we do'. Втората част повтаря 'because'."
+          }
+        },
+        {
+          "n": 12,
+          "accept": [
+            "than"
+          ],
+          "tag": "uoe.comparison",
+          "why": {
+            "en": "'More urgent than ever' – a comparative needs 'than'. 'As ever' would need 'as urgent', not 'more urgent'.",
+            "bg": "'More urgent than ever' – сравнителната степен иска 'than'. 'As ever' би изисквало 'as urgent', не 'more urgent'."
+          }
+        },
+        {
+          "n": 13,
+          "accept": [
+            "so"
+          ],
+          "tag": "uoe.linking",
+          "why": {
+            "en": "'So + adjective + that…' expresses a result. 'Such' must be followed by a noun phrase (such a small task that…), and here the adjective 'small' comes straight after the gap.",
+            "bg": "'So + прилагателно + that…' изразява резултат. След 'such' трябва съществително (such a small task that…), а тук прилагателното 'small' идва веднага след празнината."
+          }
+        },
+        {
+          "n": 14,
+          "accept": [
+            "going"
+          ],
+          "tag": "uoe.verb-patterns",
+          "why": {
+            "en": "'Keep going' = continue. 'Keep' is followed by an -ing form, and 'going' is the natural verb when nothing follows.",
+            "bg": "'Keep going' = продължавам. След 'keep' идва -ing форма, а 'going' е естественият глагол, когато нищо не следва."
+          }
+        },
+        {
+          "n": 15,
+          "accept": [
+            "themselves"
+          ],
+          "tag": "uoe.pronouns-reference",
+          "why": {
+            "en": "The students forgave the students – the same people – so you need the reflexive pronoun 'themselves'. 'Them' would mean other people.",
+            "bg": "Студентите са простили на себе си – едни и същи хора – затова ти трябва възвратно местоимение 'themselves'. 'Them' би означавало други хора."
+          }
+        },
+        {
+          "n": 16,
+          "accept": [
+            "if"
+          ],
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'If anything' introduces a statement that is the opposite of what you might expect: guilt doesn't help – if anything, it makes things worse.",
+            "bg": "'If anything' въвежда твърдение, обратно на очакваното: вината не помага – ако изобщо прави нещо, то е да влоши нещата."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m1.p3",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 3,
+      "set": "mock-1",
+      "title": "Wild swimming",
+      "topic": "wild swimming",
+      "status": "draft",
+      "kind": "word-formation",
+      "instructions": "For questions 17–24, read the text below. Use the word given in capitals after each gap to form a word that fits in the gap.",
+      "text": "Wild swimming\n\nSwimming in rivers, lakes and the sea – often called 'wild swimming' – has seen a remarkable rise in {{17}} (POPULAR) over the past ten years. Many swimmers say the cold water gives them a sense of {{18}} (FREE) that they never feel in an indoor pool, and some claim it has improved their mental health, although scientists point out that the evidence is still {{19}} (LIMIT).\n\nWhat is certain is that wild swimming carries risks. Water temperatures can be {{20}} (DANGER) low, even in summer, and currents are often far stronger than they look. Every year, rescue services are called out to swimmers who have {{21}} (JUDGE) the distance back to the shore. Experts recommend never swimming alone, and a brightly coloured float greatly improves your {{22}} (VISIBLE) to boats.\n\nFinally, there is the question of water quality. In some areas, pollution from farms and towns has made rivers {{23}} (SUIT) for swimming, and local campaigners are calling for stricter {{24}} (REGULATE).",
+      "questions": [
+        {
+          "n": 17,
+          "accept": [
+            "popularity"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "'A rise in' needs a noun: popular → popularity (-ity).",
+            "bg": "След 'a rise in' трябва съществително: popular → popularity (-ity)."
+          },
+          "stem": "POPULAR"
+        },
+        {
+          "n": 18,
+          "accept": [
+            "freedom"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "'A sense of' needs a noun: free → freedom (-dom).",
+            "bg": "След 'a sense of' трябва съществително: free → freedom (-dom)."
+          },
+          "stem": "FREE"
+        },
+        {
+          "n": 19,
+          "accept": [
+            "limited"
+          ],
+          "tag": "wf.adjective-suffix",
+          "why": {
+            "en": "After 'is still' you need an adjective meaning 'not much': limited. 'Limitless' would mean the opposite and contradict 'scientists point out'.",
+            "bg": "След 'is still' трябва прилагателно със значение 'малко, недостатъчно': limited. 'Limitless' значи обратното и противоречи на 'scientists point out'."
+          },
+          "stem": "LIMIT"
+        },
+        {
+          "n": 20,
+          "accept": [
+            "dangerously"
+          ],
+          "tag": "wf.adverb",
+          "why": {
+            "en": "The word modifies the adjective 'low', so it must be an adverb: danger → dangerous → dangerously.",
+            "bg": "Думата определя прилагателното 'low', затова трябва наречие: danger → dangerous → dangerously."
+          },
+          "stem": "DANGER"
+        },
+        {
+          "n": 21,
+          "accept": [
+            "misjudged"
+          ],
+          "tag": "wf.negative-prefix",
+          "why": {
+            "en": "The swimmers judged the distance wrongly, so you need the prefix mis- (= wrongly) and a past participle after 'have': misjudged.",
+            "bg": "Плувците са преценили разстоянието погрешно, затова трябва представка mis- (= погрешно) и минало причастие след 'have': misjudged."
+          },
+          "stem": "JUDGE"
+        },
+        {
+          "n": 22,
+          "accept": [
+            "visibility"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "After 'your' you need a noun: visible → visibility. Note the spelling change -ble → -bility.",
+            "bg": "След 'your' трябва съществително: visible → visibility. Обърни внимание на промяната -ble → -bility."
+          },
+          "stem": "VISIBLE"
+        },
+        {
+          "n": 23,
+          "accept": [
+            "unsuitable"
+          ],
+          "tag": "wf.negative-prefix",
+          "why": {
+            "en": "Pollution makes rivers bad for swimming, so you need a negative adjective: suit → suitable → unsuitable.",
+            "bg": "Замърсяването прави реките неподходящи за плуване, затова трябва отрицателно прилагателно: suit → suitable → unsuitable."
+          },
+          "stem": "SUIT"
+        },
+        {
+          "n": 24,
+          "accept": [
+            "regulations",
+            "regulation"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "'Stricter' describes a noun: regulate → regulation. Both the plural 'regulations' (rules) and the uncountable 'regulation' are correct.",
+            "bg": "'Stricter' описва съществително: regulate → regulation. Вярно е и множественото 'regulations' (правила), и неброимото 'regulation'."
+          },
+          "stem": "REGULATE"
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m1.p4",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 4,
+      "set": "mock-1",
+      "title": "Key word transformations 1",
+      "topic": "mixed grammar",
+      "status": "draft",
+      "kind": "kwt",
+      "instructions": "For questions 25–30, complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.",
+      "questions": [
+        {
+          "n": 25,
+          "first": "People say that the new bridge cost twice as much as planned.",
+          "keyword": "SAID",
+          "before": "The new bridge",
+          "after": "twice as much as planned.",
+          "accept": [
+            "is said to have cost"
+          ],
+          "chunks": [
+            [
+              "is said"
+            ],
+            [
+              "to have cost"
+            ]
+          ],
+          "tag": "uoe.passive",
+          "why": {
+            "en": "Impersonal passive: 'People say that…' → 'X is said to…'. The cost is in the past, so you need the perfect infinitive 'to have cost'.",
+            "bg": "Безличен страдателен залог: 'People say that…' → 'X is said to…'. Цената е в миналото, затова трябва перфектен инфинитив 'to have cost'."
+          }
+        },
+        {
+          "n": 26,
+          "first": "'You should take a break, Tom,' said the coach.",
+          "keyword": "ADVISED",
+          "before": "The coach",
+          "after": "a break.",
+          "accept": [
+            "advised Tom to take"
+          ],
+          "chunks": [
+            [
+              "advised Tom"
+            ],
+            [
+              "to take"
+            ]
+          ],
+          "tag": "uoe.reported-speech",
+          "why": {
+            "en": "'Advise + person + to-infinitive' reports advice. You must name the person (Tom) after 'advised' – 'advised to take' alone is wrong.",
+            "bg": "'Advise + човек + to-инфинитив' предава съвет. Трябва да назовеш човека (Tom) след 'advised' – само 'advised to take' е грешно."
+          }
+        },
+        {
+          "n": 27,
+          "first": "I'm sorry I didn't accept that job offer.",
+          "keyword": "WISH",
+          "before": "I",
+          "after": "that job offer.",
+          "accept": [
+            "wish I had accepted",
+            "wish I'd accepted"
+          ],
+          "chunks": [
+            [
+              "wish I had",
+              "wish I'd"
+            ],
+            [
+              "accepted"
+            ]
+          ],
+          "tag": "uoe.wish-regret",
+          "why": {
+            "en": "Regret about the past: 'wish + past perfect'. 'Wish I accepted' would be about the present, not the past.",
+            "bg": "Съжаление за миналото: 'wish + минало перфектно'. 'Wish I accepted' се отнася до настоящето, не до миналото."
+          }
+        },
+        {
+          "n": 28,
+          "first": "The water was so cold that we couldn't swim in it.",
+          "keyword": "TOO",
+          "before": "The water was",
+          "after": "swim in.",
+          "accept": [
+            "too cold for us to"
+          ],
+          "chunks": [
+            [
+              "too cold"
+            ],
+            [
+              "for us to"
+            ]
+          ],
+          "tag": "uoe.comparison",
+          "why": {
+            "en": "'Too + adjective + for + person + to-infinitive'. Note that 'it' disappears because the subject of the sentence (the water) is the object of 'swim in'.",
+            "bg": "'Too + прилагателно + for + човек + to-инфинитив'. Забележи, че 'it' изчезва, защото подлогът (the water) е допълнението на 'swim in'."
+          }
+        },
+        {
+          "n": 29,
+          "first": "We had to postpone the meeting because the manager was ill.",
+          "keyword": "PUT",
+          "before": "The meeting had",
+          "after": "because the manager was ill.",
+          "accept": [
+            "to be put off",
+            "to be put back"
+          ],
+          "chunks": [
+            [
+              "to be"
+            ],
+            [
+              "put off",
+              "put back"
+            ]
+          ],
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "'Postpone' = 'put off' (or 'put back'). The meeting is the subject, so you need the passive infinitive: 'had to be put off'.",
+            "bg": "'Postpone' = 'put off' (или 'put back'). Срещата е подлог, затова трябва страдателен инфинитив: 'had to be put off'."
+          }
+        },
+        {
+          "n": 30,
+          "first": "Unless we leave now, we'll miss the train.",
+          "keyword": "IF",
+          "before": "We'll miss the train",
+          "after": "now.",
+          "accept": [
+            "if we don't leave",
+            "if we do not leave"
+          ],
+          "chunks": [
+            [
+              "if we"
+            ],
+            [
+              "don't leave",
+              "do not leave"
+            ]
+          ],
+          "tag": "uoe.conditionals",
+          "why": {
+            "en": "'Unless' = 'if… not'. Keep the present simple after 'if' in a first conditional: 'if we don't leave'.",
+            "bg": "'Unless' = 'if… not'. В първо условно след 'if' остава сегашно просто: 'if we don't leave'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m1.p5",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 5,
+      "set": "mock-1",
+      "title": "The repair shop",
+      "topic": "a family bicycle shop",
+      "status": "draft",
+      "kind": "reading-mc",
+      "instructions": "You are going to read an extract from a magazine article in which a young woman describes working in her grandfather's bicycle repair shop. For questions 31–36, choose the answer (A, B, C or D) which you think fits best according to the text.",
+      "text": "The repair shop\n\nThe first thing I noticed about my grandfather's workshop was the smell: oil, rubber and something faintly sweet that I later learned was the polish he used on old leather saddles. I was twenty-three, had recently graduated with a degree in graphic design, and was – if I'm honest – slightly desperate. The agency job I had been promised had fallen through at the last minute, and when Grandpa phoned to say his assistant had moved to another city, I said yes before I had really thought about it.\n\n'You'll be bored within a week,' my mother warned me. She had grown up in the flat above the shop and had spent most of her teenage years trying to escape it. I assumed she was right. I planned to stay a month, maybe two, while I sent applications to every design studio in the country.\n\nGrandpa did not waste time on introductions. On my first morning he handed me a bicycle with a flat tyre and a box of tools, then went back to his own work without another word. It took me nearly an hour to find the hole in the inner tube. When I finally fixed it, he looked up, nodded once and said, 'Now do it in ten minutes.' At the time I thought he was being unkind. It was only months later that I understood he had been watching me the whole time, ready to step in if I got anything badly wrong.\n\nThe customers were a mixed group. There were students who needed their bikes fixed by tomorrow and could barely afford it, elderly men who came in mainly to talk, and serious cyclists in expensive clothing who knew exactly what they wanted and expected it to be done perfectly. Grandpa treated them all in the same way: politely, patiently, and without ever pretending to know something he didn't. 'If you don't know, say so,' he told me. 'People forgive ignorance. They don't forgive being lied to.'\n\nSlowly, and somewhat to my surprise, I began to enjoy myself. There was a deep satisfaction in taking something that didn't work and making it work again – a satisfaction I had rarely felt on my design course, where projects were judged on opinions rather than results. A wheel either runs true or it doesn't. Brakes either stop the bike or they don't. I found that I liked being measured in such an uncomplicated way.\n\nI also discovered that my design training was not as useless as I had feared. The shop's sign was faded and its window display hadn't changed in twenty years. With Grandpa's reluctant permission, I repainted the sign, rearranged the window and set up a simple website where people could book repairs. He grumbled about 'computers' for weeks, but he stopped grumbling when the bookings started coming in. By the end of my first year, we were busier than the shop had been in a decade.\n\nThe applications I had meant to send never went out. I kept telling myself I would get round to them, and then one day I realised I no longer wanted to. When I told my mother, she laughed – not unkindly – and said she had seen it coming since the week I started.\n\nGrandpa retired last spring. He still comes in most mornings, supposedly to collect his post, and stays until lunchtime. He sits in the corner and watches me work, and every so often, when I finish a job faster than he would have done, he nods once, exactly as he did on my first day.",
+      "questions": [
+        {
+          "n": 31,
+          "question": "What does the writer say about her decision to work in the shop?",
+          "options": [
+            "She made it after a long discussion with her family.",
+            "She hoped it would lead to a job in graphic design.",
+            "She made it without considering it properly.",
+            "She was persuaded to make it by her mother."
+          ],
+          "correct": 2,
+          "tag": "read.detail",
+          "why": {
+            "en": "She 'said yes before I had really thought about it'. Her mother actually warned her against it, so she didn't persuade her, and the shop job was a stop-gap while she applied elsewhere, not a route into design.",
+            "bg": "Тя 'said yes before I had really thought about it'. Майка ѝ всъщност я предупреждава, т.е. не я убеждава, а работата в магазина е временно решение, докато кандидатства другаде, не път към дизайна."
+          }
+        },
+        {
+          "n": 32,
+          "question": "What does the writer suggest about her grandfather's behaviour on her first morning?",
+          "options": [
+            "He was less interested in her than she had expected.",
+            "He was paying more attention to her than she realised.",
+            "He wanted to prove that the job was harder than it looked.",
+            "He was beginning to regret asking her to work for him."
+          ],
+          "correct": 1,
+          "tag": "read.inference",
+          "why": {
+            "en": "She later understood 'he had been watching me the whole time, ready to step in'. It looked as if he wasn't interested, which is the trap – that was only her impression at the time.",
+            "bg": "По-късно тя разбира, че 'he had been watching me the whole time, ready to step in'. Изглеждало е, че не се интересува – това е капанът, но то е само първото ѝ впечатление."
+          }
+        },
+        {
+          "n": 33,
+          "question": "Why does the writer describe the different types of customer in the fourth paragraph?",
+          "options": [
+            "to show that some customers were harder to please than others",
+            "to explain why the shop was busier than she had imagined",
+            "to suggest that most people came to the shop to chat",
+            "to show that her grandfather treated everyone equally"
+          ],
+          "correct": 3,
+          "tag": "read.purpose",
+          "why": {
+            "en": "The list leads to the key sentence 'Grandpa treated them all in the same way'. The demanding cyclists are mentioned, but the point is not that they were difficult – it's how he treated them.",
+            "bg": "Изброяването води до ключовото изречение 'Grandpa treated them all in the same way'. Взискателните колоездачи се споменават, но целта не е да покаже, че са трудни, а как той се отнася към всички."
+          }
+        },
+        {
+          "n": 34,
+          "question": "What did the writer enjoy about repair work?",
+          "options": [
+            "She could work without anyone checking on her.",
+            "It was possible to judge her success clearly.",
+            "It was more creative than she had expected.",
+            "She got to know a lot of interesting people."
+          ],
+          "correct": 1,
+          "tag": "read.detail",
+          "why": {
+            "en": "'A wheel either runs true or it doesn't… I liked being measured in such an uncomplicated way.' She contrasts this with her design course, where work was judged on opinions – so it was less, not more, about creativity.",
+            "bg": "'A wheel either runs true or it doesn't… I liked being measured in such an uncomplicated way.' Тя го противопоставя на курса по дизайн, където работата се оценява по мнения – т.е. въпросът не е в креативността."
+          }
+        },
+        {
+          "n": 35,
+          "question": "How did the grandfather react to the changes the writer made to the shop?",
+          "options": [
+            "He complained until he saw they were working.",
+            "He refused at first but was eventually persuaded.",
+            "He liked the new sign but not the new website.",
+            "He agreed because the shop was losing money."
+          ],
+          "correct": 0,
+          "tag": "read.opinion-attitude",
+          "why": {
+            "en": "'He grumbled about computers for weeks, but he stopped grumbling when the bookings started coming in.' He gave 'reluctant permission', so he never actually refused.",
+            "bg": "'He grumbled about computers for weeks, but he stopped grumbling when the bookings started coming in.' Той дава 'reluctant permission', значи никога не е отказвал."
+          }
+        },
+        {
+          "n": 36,
+          "question": "What does the word 'supposedly' in the final paragraph suggest?",
+          "options": [
+            "The grandfather does not trust her to run the shop alone.",
+            "The grandfather no longer receives any post at home.",
+            "The writer doubts the reason he gives for coming in.",
+            "The writer would prefer him to spend his mornings elsewhere."
+          ],
+          "correct": 2,
+          "tag": "read.vocabulary-context",
+          "why": {
+            "en": "'Supposedly' means 'according to what is said, though it may not be true': he says he comes for the post, but he really comes to watch her work. Nothing suggests he doesn't trust her – he nods with approval.",
+            "bg": "'Supposedly' значи 'уж, според казаното, но може да не е вярно': той казва, че идва за пощата, но всъщност идва да я гледа как работи. Нищо не подсказва, че не ѝ вярва – той кима одобрително."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m1.p6",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 6,
+      "set": "mock-1",
+      "title": "Seven days offline",
+      "topic": "a week without a smartphone",
+      "status": "draft",
+      "kind": "gapped-text",
+      "instructions": "You are going to read an article in which a journalist describes spending a week without her smartphone. Six sentences have been removed from the article. Choose from the sentences A–G the one which fits each gap (37–42). There is one extra sentence which you do not need to use.",
+      "text": "Seven days offline\n\nLike most people I know, I check my phone constantly. According to the app that tracks my screen time, I was picking it up around ninety times a day – often, I suspect, without even being aware of it. So when my editor suggested I spend a week without it and write about the experience, I agreed, partly out of curiosity and partly because it is hard to say no to your editor. {{37}} I would keep an old-fashioned mobile for calls and texts, but nothing that could connect to the internet. My smartphone would go into a drawer, and my laptop would be used for work only.\n\nThe first morning was the strangest. I woke up and reached for my phone out of habit, only to find the old mobile lying on the bedside table, with nothing on its screen except the time. {{38}} Normally I spend the first half hour of the day in bed, reading the news, checking the weather and replying to messages. Without any of that, I was dressed and out of the house twenty minutes earlier than usual.\n\nBy the second day, I had started to notice how often I wanted to look something up. Who was the actor in that film? What time did the chemist close? How far was it to the station? {{39}} By the end of the week the list was two pages long, yet when I finally sat down to go through it, I found that most of the questions did not really need answering. The ones that did could usually be solved by asking someone – a surprisingly pleasant experience, once I got over the embarrassment.\n\nNot everything was easy. Without a map app, I got lost twice on the way to a meeting in an unfamiliar part of the city, and arrived late and flustered. {{40}} Several friends also complained that I was impossible to reach. They had stopped sending ordinary text messages years ago and assumed I was simply ignoring their group chats.\n\nThen, around the fourth day, something changed. I stopped feeling the urge to reach into my pocket every few minutes. I read two novels – something I had not done in months – and found that I could concentrate on them for an hour or more at a time. {{41}} I hadn't realised how tired I had been until I wasn't any more.\n\nWhen the week ended, I took my smartphone out of the drawer with mixed feelings. {{42}} Within an hour I had answered forty messages, read the news and checked the weather for a city I wasn't even visiting. Old habits, it seems, return quickly. But I have made some changes. The phone now stays in the kitchen at night, and I have deleted the two apps I used most. It is not a revolution, but it is a start.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "For a moment, I had no idea what to do with myself."
+        },
+        {
+          "letter": "B",
+          "text": "My colleagues, who had been told about the experiment, found this rather more amusing than I did."
+        },
+        {
+          "letter": "C",
+          "text": "We did, however, agree on a few ground rules first."
+        },
+        {
+          "letter": "D",
+          "text": "Some of them even said they were thinking of trying the same thing themselves."
+        },
+        {
+          "letter": "E",
+          "text": "Part of me had been looking forward to the moment; another part had been dreading it."
+        },
+        {
+          "letter": "F",
+          "text": "I started writing them down in a notebook, intending to look them up when the week was over."
+        },
+        {
+          "letter": "G",
+          "text": "I was also sleeping better than I had in years, probably because I no longer read the news in bed."
+        }
+      ],
+      "questions": [
+        {
+          "n": 37,
+          "answer": "C",
+          "tag": "read.cohesion",
+          "why": {
+            "en": "'A few ground rules' is explained by the next sentences: 'I would keep an old-fashioned mobile… my laptop would be used for work only.' 'However' contrasts with her simply agreeing.",
+            "bg": "'A few ground rules' се обяснява в следващите изречения: 'I would keep an old-fashioned mobile… my laptop would be used for work only.' 'However' контрастира с простото ѝ съгласие."
+          }
+        },
+        {
+          "n": 38,
+          "answer": "A",
+          "tag": "read.cohesion",
+          "why": {
+            "en": "Not knowing what to do fits the moment she finds nothing on the screen, and the next sentence explains why: normally she spends half an hour on her phone in bed.",
+            "bg": "Това, че не знае какво да прави, пасва на момента, в който вижда празния екран, а следващото изречение обяснява защо: обикновено прекарва половин час с телефона в леглото."
+          }
+        },
+        {
+          "n": 39,
+          "answer": "F",
+          "tag": "read.reference",
+          "why": {
+            "en": "'Them' refers to the questions just listed, and 'a notebook' prepares for 'the list was two pages long'. Without F, 'the list' has nothing to refer to.",
+            "bg": "'Them' се отнася към току-що изброените въпроси, а 'a notebook' подготвя 'the list was two pages long'. Без F 'the list' няма към какво да препраща."
+          }
+        },
+        {
+          "n": 40,
+          "answer": "B",
+          "tag": "read.reference",
+          "why": {
+            "en": "'This' refers to her arriving late and flustered, and 'colleagues' fits a work meeting. The extra sentence D also begins with 'them', but 'thinking of trying the same thing' makes no sense after a story about getting lost.",
+            "bg": "'This' се отнася до закъснението ѝ, а 'colleagues' пасва на работна среща. Излишното изречение D също започва с 'them', но 'thinking of trying the same thing' няма смисъл след история за изгубване."
+          }
+        },
+        {
+          "n": 41,
+          "answer": "G",
+          "tag": "read.cohesion",
+          "why": {
+            "en": "'Also' adds another positive change after the novels, and 'sleeping better' leads directly to 'I hadn't realised how tired I had been'.",
+            "bg": "'Also' добавя още една положителна промяна след романите, а 'sleeping better' води директно към 'I hadn't realised how tired I had been'."
+          }
+        },
+        {
+          "n": 42,
+          "answer": "E",
+          "tag": "read.cohesion",
+          "why": {
+            "en": "'Looking forward… dreading' explains her 'mixed feelings' about taking the phone out of the drawer ('the moment').",
+            "bg": "'Looking forward… dreading' обяснява 'mixed feelings' – смесените ѝ чувства, когато вади телефона от чекмеджето ('the moment')."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m1.p7",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 7,
+      "set": "mock-1",
+      "title": "Starting again",
+      "topic": "changing career",
+      "status": "draft",
+      "kind": "matching",
+      "instructions": "You are going to read an article in which four people talk about changing career. For questions 43–52, choose from the people (A–D). The people may be chosen more than once.",
+      "sections": [
+        {
+          "letter": "A",
+          "heading": "Lena – from accountant to baker",
+          "text": "For twelve years I worked as an accountant for a large insurance company. It was a secure job and I was good at it, but I spent most weekends baking bread for friends, and eventually I started wondering why I only did what I loved on Saturdays. I expected my father, who is an accountant himself, to tell me I was making a terrible mistake. Instead, he asked whether he could invest in the business – I still don't quite know what to make of that. Running a bakery is far more about numbers than people imagine: costs, margins, suppliers' invoices. My years with spreadsheets have saved me from several expensive errors. The hours are long and my back aches most evenings, but there is nothing like pulling a tray of loaves out of the oven at five in the morning and knowing that, two hours later, people will be queuing for them. In my old job, I sometimes waited months to find out whether a project had been worth it."
+        },
+        {
+          "letter": "B",
+          "heading": "Tomás – from footballer to physiotherapist",
+          "text": "I never planned to leave football. I was twenty-six and playing in the second division when I damaged my knee so badly that the doctors told me I would never play professionally again. For a while I was angry with everyone, including the physiotherapist who was helping me to walk properly again. But watching her work, I became fascinated by what she was doing, and when I was well enough, I asked if I could spend a few weeks shadowing her at the clinic. Those weeks convinced me, and I went on to do a degree. I tell anyone considering a similar change to do what I did: spend some time in the job before you sign up for years of study. Some people discover very quickly that it isn't for them, and that's far better than finding out halfway through a course. Financially, I'm actually better off now than I was as a player, which surprises people."
+        },
+        {
+          "letter": "C",
+          "heading": "Priya – from lawyer to teacher",
+          "text": "People assume I left the law because I was unhappy, but in fact I enjoyed most of it. What I wanted was work that felt more useful, and teaching maths seemed the obvious choice, since it had always been my favourite subject. I won't pretend the move was easy. My salary is now less than half what it was, and we've had to move to a smaller flat. My training year was the hardest of my life. There were several evenings when I sat at the bus stop after a difficult lesson and seriously asked myself whether I had thrown away a good career for nothing. My husband was very patient with me during that time, as he always is. It did get easier, though, and these days I can't imagine going back."
+        },
+        {
+          "letter": "D",
+          "heading": "Mark – from IT manager to forest ranger",
+          "text": "I'd been thinking about leaving my job in IT for at least five years before I actually did anything about it. There was always a reason to wait – a promotion, a mortgage, a project that needed finishing. In the end it was my wife who said that if I didn't apply for the ranger post that had just been advertised, she would fill in the form for me. Now I spend most of my days outdoors, repairing paths, clearing fallen trees and checking on wildlife, and I come home tired in a way that feels completely different from the exhaustion of sitting at a desk all day. I love that. I won't pretend everything is better, though. We had a great team in my old company, and I miss the jokes and the lunches together. The forest can be a lonely place in winter."
+        }
+      ],
+      "questions": [
+        {
+          "n": 43,
+          "statement": "took a significant cut in pay?",
+          "answer": "C",
+          "tag": "read.specific-info",
+          "why": {
+            "en": "Priya: 'My salary is now less than half what it was.' Tomás mentions money too, but says he is 'better off now'.",
+            "bg": "Прия: 'My salary is now less than half what it was.' Томаш също говори за пари, но казва, че сега е 'better off'."
+          }
+        },
+        {
+          "n": 44,
+          "statement": "was surprised by a relative's response to their plans?",
+          "answer": "A",
+          "tag": "read.opinion-attitude",
+          "why": {
+            "en": "Lena expected her father to disapprove, but 'instead, he asked whether he could invest'. Mark's wife encourages him, but nothing suggests he was surprised.",
+            "bg": "Лена очаква баща ѝ да не одобри, но 'instead, he asked whether he could invest'. Жената на Марк го насърчава, но нищо не показва, че той е изненадан."
+          }
+        },
+        {
+          "n": 45,
+          "statement": "did not choose to leave their previous career?",
+          "answer": "B",
+          "tag": "read.detail",
+          "why": {
+            "en": "Tomás 'never planned to leave football' – a knee injury ended his career.",
+            "bg": "Томаш 'never planned to leave football' – контузия в коляното слага край на кариерата му."
+          }
+        },
+        {
+          "n": 46,
+          "statement": "misses the company of former colleagues?",
+          "answer": "D",
+          "tag": "read.detail",
+          "why": {
+            "en": "Mark: 'We had a great team… I miss the jokes and the lunches together.' Priya says she enjoyed most of her old job, but doesn't say she misses anything.",
+            "bg": "Марк: 'We had a great team… I miss the jokes and the lunches together.' Прия казва, че ѝ е харесвала старата работа, но не че ѝ липсва нещо."
+          }
+        },
+        {
+          "n": 47,
+          "statement": "has found experience from their old job useful in their new one?",
+          "answer": "A",
+          "tag": "read.detail",
+          "why": {
+            "en": "Lena: 'My years with spreadsheets have saved me from several expensive errors.'",
+            "bg": "Лена: 'My years with spreadsheets have saved me from several expensive errors.'"
+          }
+        },
+        {
+          "n": 48,
+          "statement": "seriously doubted the decision while they were training?",
+          "answer": "C",
+          "tag": "read.detail",
+          "why": {
+            "en": "Priya asked herself during her training year 'whether I had thrown away a good career for nothing'. Tomás was angry, but that was before he decided to retrain.",
+            "bg": "Прия се пита по време на обучението си 'whether I had thrown away a good career for nothing'. Томаш е бил ядосан, но преди да реши да се преквалифицира."
+          }
+        },
+        {
+          "n": 49,
+          "statement": "put off making the change for a long time?",
+          "answer": "D",
+          "tag": "read.detail",
+          "why": {
+            "en": "Mark had been thinking about it 'for at least five years before I actually did anything about it'.",
+            "bg": "Марк мисли за промяната 'for at least five years before I actually did anything about it'."
+          }
+        },
+        {
+          "n": 50,
+          "statement": "enjoys the physical demands of their new job?",
+          "answer": "D",
+          "tag": "read.opinion-attitude",
+          "why": {
+            "en": "Mark comes home tired from outdoor work 'and I love that'. Lena's job is physical too, but she mentions her aching back as a drawback, not something she enjoys.",
+            "bg": "Марк се прибира уморен от работата навън 'and I love that'. Работата на Лена също е физическа, но тя споменава болките в гърба като недостатък, а не като нещо приятно."
+          }
+        },
+        {
+          "n": 51,
+          "statement": "recommends trying out a job before retraining for it?",
+          "answer": "B",
+          "tag": "read.opinion-attitude",
+          "why": {
+            "en": "Tomás: 'spend some time in the job before you sign up for years of study'.",
+            "bg": "Томаш: 'spend some time in the job before you sign up for years of study'."
+          }
+        },
+        {
+          "n": 52,
+          "statement": "now sees the results of their work much sooner than before?",
+          "answer": "A",
+          "tag": "read.inference",
+          "why": {
+            "en": "Lena's bread is queued for two hours after it leaves the oven, whereas 'in my old job, I sometimes waited months to find out whether a project had been worth it'.",
+            "bg": "Хлябът на Лена има опашка два часа след като излезе от фурната, докато 'in my old job, I sometimes waited months to find out whether a project had been worth it'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m2.p1",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 1,
+      "set": "mock-2",
+      "title": "Is coffee in danger?",
+      "topic": "coffee and climate change",
+      "status": "draft",
+      "kind": "mc-cloze",
+      "instructions": "For questions 1–8, read the text below and decide which answer (A, B, C or D) best fits each gap.",
+      "text": "Is coffee in danger?\n\nEvery day, people around the world drink more than two billion cups of coffee, so it may come as a {{1}} to learn that the drink's future is far from certain. Most of the coffee we drink comes from a plant called arabica, which is extremely {{2}} to changes in temperature. As the climate warms, many of the regions where it grows today will no longer be {{3}} for it. Scientists {{4}} that by 2050 the land available for growing arabica could be cut by half.\n\nSmall farmers, who produce most of the world's coffee, are already feeling the effects. Harvests in some areas have become smaller and less reliable, and many farmers have {{5}} up coffee altogether in favour of other crops.\n\nOne possible answer {{6}} in the forests of West Africa, where a little-known species called stenophylla grows wild. It can survive in temperatures several degrees higher than arabica, and in blind tests most tasters could not tell the {{7}} between the two. It is too early to say whether the new coffee will {{8}} on with growers and consumers, but it gives coffee lovers a reason for cautious hope.",
+      "questions": [
+        {
+          "n": 1,
+          "options": [
+            "surprise",
+            "wonder",
+            "astonishment",
+            "miracle"
+          ],
+          "correct": 0,
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'Come as a surprise' is a fixed phrase. 'Wonder' appears in 'no wonder', not after 'come as a'; 'astonishment' would need 'an', and 'miracle' doesn't form this phrase.",
+            "bg": "'Come as a surprise' е устойчив израз. 'Wonder' се ползва в 'no wonder', не след 'come as a'; 'astonishment' би изисквало 'an', а 'miracle' не образува този израз."
+          }
+        },
+        {
+          "n": 2,
+          "options": [
+            "sensible",
+            "delicate",
+            "sensitive",
+            "emotional"
+          ],
+          "correct": 2,
+          "tag": "uoe.word-choice",
+          "why": {
+            "en": "'Sensitive to' = easily affected by. 'Sensible' is a false friend – it means 'practical, reasonable'. 'Delicate' and 'emotional' are not followed by 'to changes' in this meaning.",
+            "bg": "'Sensitive to' = лесно се влияе от. 'Sensible' е фалшив приятел – значи 'разумен'. 'Delicate' и 'emotional' не вървят с 'to changes' в това значение."
+          }
+        },
+        {
+          "n": 3,
+          "options": [
+            "convenient",
+            "suitable",
+            "capable",
+            "proper"
+          ],
+          "correct": 1,
+          "tag": "uoe.word-choice",
+          "why": {
+            "en": "Land that is right for growing something is 'suitable for' it. 'Convenient' is about saving time or effort, 'capable' needs 'of' and describes ability, and 'proper' means 'correct'.",
+            "bg": "Земя, подходяща за отглеждане на нещо, е 'suitable for' него. 'Convenient' е 'удобен' (спестява време), 'capable' иска 'of' и описва способност, а 'proper' значи 'правилен'."
+          }
+        },
+        {
+          "n": 4,
+          "options": [
+            "evaluate",
+            "value",
+            "estimate",
+            "measure"
+          ],
+          "correct": 2,
+          "tag": "uoe.word-choice",
+          "why": {
+            "en": "Scientists 'estimate that…' when they calculate a likely future figure. 'Evaluate', 'value' and 'measure' can't be followed by a 'that' clause like this.",
+            "bg": "Учените 'estimate that…', когато изчисляват вероятна бъдеща стойност. 'Evaluate', 'value' и 'measure' не могат да бъдат последвани от подчинено с 'that' по този начин."
+          }
+        },
+        {
+          "n": 5,
+          "options": [
+            "given",
+            "taken",
+            "put",
+            "set"
+          ],
+          "correct": 0,
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "'Give up' = stop doing something, which fits 'in favour of other crops'. 'Take up' means the opposite – to start something new – so it is the tempting trap.",
+            "bg": "'Give up' = спирам да правя нещо, което пасва на 'in favour of other crops'. 'Take up' значи точно обратното – започвам нещо ново – и затова е капанът."
+          }
+        },
+        {
+          "n": 6,
+          "options": [
+            "rests",
+            "sits",
+            "stays",
+            "lies"
+          ],
+          "correct": 3,
+          "tag": "uoe.collocations",
+          "why": {
+            "en": "An answer or solution 'lies in' something – a fixed collocation. 'Rests', 'sits' and 'stays' don't collocate with 'answer' in this meaning.",
+            "bg": "Отговорът или решението 'lies in' нещо – устойчиво словосъчетание. 'Rests', 'sits' и 'stays' не се свързват така с 'answer'."
+          }
+        },
+        {
+          "n": 7,
+          "options": [
+            "contrast",
+            "variation",
+            "distinction",
+            "difference"
+          ],
+          "correct": 3,
+          "tag": "uoe.collocations",
+          "why": {
+            "en": "'Tell the difference (between)' is the fixed collocation. You 'draw/make a distinction', and 'contrast' and 'variation' don't go with 'tell'.",
+            "bg": "'Tell the difference (between)' е устойчиво словосъчетание. 'Distinction' върви с 'draw/make', а 'contrast' и 'variation' не се свързват с 'tell'."
+          }
+        },
+        {
+          "n": 8,
+          "options": [
+            "take",
+            "catch",
+            "carry",
+            "get"
+          ],
+          "correct": 1,
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "'Catch on (with)' = become popular with people. 'Carry on' means 'continue', 'get on with' means 'have a good relationship with', and 'take on' means 'employ' or 'accept a task'.",
+            "bg": "'Catch on (with)' = ставам популярен сред хората. 'Carry on' е 'продължавам', 'get on with' е 'разбирам се с', а 'take on' е 'наемам' или 'поемам задача'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m2.p2",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Going it alone",
+      "topic": "solo travel",
+      "status": "draft",
+      "kind": "open-cloze",
+      "instructions": "For questions 9–16, read the text below and think of the word which best fits each gap. Use only one word in each gap.",
+      "text": "Going it alone\n\nA few years ago, I would never have dreamed of going on holiday by {{9}}. The idea of eating alone in restaurants, with no one to talk to, seemed {{10}} lonely than relaxing. But when my friends cancelled a trip at the last minute, I decided to go anyway, and it turned {{11}} to be one of the best decisions I have ever made.\n\nThe biggest advantage of travelling solo is freedom. You can get up {{12}} you like, change your plans without asking anyone, and spend a whole afternoon in a museum {{13}} anyone complaining that they are bored. You also tend to meet more people. When you are with a friend, you rarely bother to talk to strangers. On your own, you have {{14}} choice but to start conversations, and I have lost count of the meals I have shared with people I had met only an hour {{15}}.\n\nOf course, there are moments when it would be nice to have someone to share a view with. But {{16}} anyone asked me whether I would travel alone again, my answer would be an immediate yes.",
+      "questions": [
+        {
+          "n": 9,
+          "accept": [
+            "myself"
+          ],
+          "tag": "uoe.pronouns-reference",
+          "why": {
+            "en": "'By myself' = alone. The writer is talking about herself ('I would never have dreamed'), so the reflexive pronoun must be 'myself'.",
+            "bg": "'By myself' = сам/сама. Авторката говори за себе си ('I would never have dreamed'), затова възвратното местоимение е 'myself'."
+          }
+        },
+        {
+          "n": 10,
+          "accept": [
+            "more"
+          ],
+          "tag": "uoe.comparison",
+          "why": {
+            "en": "'More lonely than relaxing' compares two qualities of the same thing. With this pattern you use 'more', not the -er form, and 'than' after the gap confirms a comparative.",
+            "bg": "'More lonely than relaxing' сравнява две качества на едно и също нещо. При тази конструкция се ползва 'more', не -er, а 'than' след празнината потвърждава сравнителна степен."
+          }
+        },
+        {
+          "n": 11,
+          "accept": [
+            "out"
+          ],
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "'Turn out to be' = prove to be in the end. 'Turned into' would not be followed by 'to be'.",
+            "bg": "'Turn out to be' = в крайна сметка се оказва. След 'turned into' не би последвало 'to be'."
+          }
+        },
+        {
+          "n": 12,
+          "accept": [
+            "whenever",
+            "when"
+          ],
+          "tag": "uoe.linking",
+          "why": {
+            "en": "'Get up whenever you like' = at any time you choose. 'When' is also acceptable. 'However' or 'wherever' don't fit with 'get up'.",
+            "bg": "'Get up whenever you like' = когато поискаш. 'When' също се приема. 'However' или 'wherever' не пасват на 'get up'."
+          }
+        },
+        {
+          "n": 13,
+          "accept": [
+            "without"
+          ],
+          "tag": "uoe.prepositions",
+          "why": {
+            "en": "'Without + someone + -ing' = with nobody doing it. The word 'anyone' (not 'someone') shows the meaning is negative.",
+            "bg": "'Without + някой + -ing' = без никой да го прави. Думата 'anyone' (а не 'someone') показва, че смисълът е отрицателен."
+          }
+        },
+        {
+          "n": 14,
+          "accept": [
+            "no",
+            "little"
+          ],
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'Have no choice but to' = be forced to. 'Little choice but to' is also correct. 'Any' would need a negative verb.",
+            "bg": "'Have no choice but to' = нямам избор, освен да. 'Little choice but to' също е вярно. 'Any' би изисквало отрицателен глагол."
+          }
+        },
+        {
+          "n": 15,
+          "accept": [
+            "before",
+            "earlier"
+          ],
+          "tag": "uoe.tenses",
+          "why": {
+            "en": "The past perfect 'had met' measures time back from a past moment, so you need 'before' or 'earlier'. 'Ago' only measures back from now.",
+            "bg": "Минало перфектно 'had met' брои времето назад от момент в миналото, затова трябва 'before' или 'earlier'. 'Ago' брои само назад от сега."
+          }
+        },
+        {
+          "n": 16,
+          "accept": [
+            "if"
+          ],
+          "tag": "uoe.conditionals",
+          "why": {
+            "en": "A second conditional: 'if + past simple (asked), … would be'. 'Should' or 'were' can't be used here because 'asked' is already in the past simple.",
+            "bg": "Второ условно: 'if + минало просто (asked), … would be'. 'Should' или 'were' не стават, защото 'asked' вече е в минало просто."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m2.p3",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 3,
+      "set": "mock-2",
+      "title": "A shorter week",
+      "topic": "the four-day working week",
+      "status": "draft",
+      "kind": "word-formation",
+      "instructions": "For questions 17–24, read the text below. Use the word given in capitals after each gap to form a word that fits in the gap.",
+      "text": "A shorter week\n\nIn recent years, a growing number of companies have experimented with a four-day working week. The idea is simple: staff work fewer hours for the same pay, on the {{17}} (ASSUME) that they will be just as productive. Supporters argue that a shorter week reduces stress and leads to greater job {{18}} (SATISFY).\n\nResults from several trials have been {{19}} (COURAGE). Most companies reported that output stayed the same, and some even saw a slight {{20}} (IMPROVE). Employees said they felt more {{21}} (ENERGY) and took fewer days off sick.\n\nHowever, critics point out that the model does not suit every {{22}} (OCCUPY). Hospitals, schools and shops cannot {{23}} (SIMPLE) close one day a week, and in some trials staff found the pressure of fitting five days' work into four almost {{24}} (BEAR).",
+      "questions": [
+        {
+          "n": 17,
+          "accept": [
+            "assumption"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "'On the assumption that' is a fixed phrase and needs a noun: assume → assumption (note the added 'p').",
+            "bg": "'On the assumption that' е устойчив израз и иска съществително: assume → assumption (обърни внимание на добавеното 'p')."
+          },
+          "stem": "ASSUME"
+        },
+        {
+          "n": 18,
+          "accept": [
+            "satisfaction"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "'Job satisfaction' is a common compound noun: satisfy → satisfaction.",
+            "bg": "'Job satisfaction' е често срещано съставно съществително: satisfy → satisfaction."
+          },
+          "stem": "SATISFY"
+        },
+        {
+          "n": 19,
+          "accept": [
+            "encouraging"
+          ],
+          "tag": "wf.adjective-suffix",
+          "why": {
+            "en": "You need an adjective describing the results, which made people feel hopeful: courage → encourage → encouraging. 'Encouraged' would describe people, not results.",
+            "bg": "Трябва прилагателно, което описва резултатите и вдъхва надежда: courage → encourage → encouraging. 'Encouraged' описва хора, не резултати."
+          },
+          "stem": "COURAGE"
+        },
+        {
+          "n": 20,
+          "accept": [
+            "improvement"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "After 'a slight' you need a singular noun: improve → improvement.",
+            "bg": "След 'a slight' трябва съществително в единствено число: improve → improvement."
+          },
+          "stem": "IMPROVE"
+        },
+        {
+          "n": 21,
+          "accept": [
+            "energetic"
+          ],
+          "tag": "wf.adjective-suffix",
+          "why": {
+            "en": "After 'felt more' you need an adjective: energy → energetic.",
+            "bg": "След 'felt more' трябва прилагателно: energy → energetic."
+          },
+          "stem": "ENERGY"
+        },
+        {
+          "n": 22,
+          "accept": [
+            "occupation"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "After 'every' you need a singular noun meaning 'job': occupy → occupation.",
+            "bg": "След 'every' трябва съществително в единствено число със значение 'професия': occupy → occupation."
+          },
+          "stem": "OCCUPY"
+        },
+        {
+          "n": 23,
+          "accept": [
+            "simply"
+          ],
+          "tag": "wf.adverb",
+          "why": {
+            "en": "The word modifies the verb 'close', so it must be an adverb: simple → simply (not 'simplely').",
+            "bg": "Думата определя глагола 'close', затова трябва наречие: simple → simply (не 'simplely')."
+          },
+          "stem": "SIMPLE"
+        },
+        {
+          "n": 24,
+          "accept": [
+            "unbearable"
+          ],
+          "tag": "wf.negative-prefix",
+          "why": {
+            "en": "The pressure was too great to cope with, so you need a negative adjective: bear → bearable → unbearable. 'Almost' fits an extreme adjective like this.",
+            "bg": "Натискът е бил прекалено голям, затова трябва отрицателно прилагателно: bear → bearable → unbearable. 'Almost' пасва на такова крайно прилагателно."
+          },
+          "stem": "BEAR"
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m2.p4",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 4,
+      "set": "mock-2",
+      "title": "Key word transformations 2",
+      "topic": "mixed grammar",
+      "status": "draft",
+      "kind": "kwt",
+      "instructions": "For questions 25–30, complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.",
+      "questions": [
+        {
+          "n": 25,
+          "first": "The film was less interesting than I'd expected.",
+          "keyword": "AS",
+          "before": "The film was",
+          "after": "I'd expected.",
+          "accept": [
+            "not as interesting as",
+            "not so interesting as"
+          ],
+          "chunks": [
+            [
+              "not as",
+              "not so"
+            ],
+            [
+              "interesting as"
+            ]
+          ],
+          "tag": "uoe.comparison",
+          "why": {
+            "en": "'Less… than' = 'not as… as'. You need 'as' twice: once with the key word and once before 'I'd expected'.",
+            "bg": "'Less… than' = 'not as… as'. Трябва 'as' два пъти: веднъж като ключова дума и веднъж преди 'I'd expected'."
+          }
+        },
+        {
+          "n": 26,
+          "first": "A mechanic is repairing my car at the moment.",
+          "keyword": "HAVING",
+          "before": "I",
+          "after": "at the moment.",
+          "accept": [
+            "am having my car repaired"
+          ],
+          "chunks": [
+            [
+              "am having"
+            ],
+            [
+              "my car repaired"
+            ]
+          ],
+          "tag": "uoe.causative",
+          "why": {
+            "en": "Causative: 'have + object + past participle' when someone does a service for you. The present continuous 'am having' keeps the time 'at the moment'.",
+            "bg": "Каузатив: 'have + допълнение + минало причастие', когато някой ти прави услуга. Сегашно продължително 'am having' запазва 'at the moment'."
+          }
+        },
+        {
+          "n": 27,
+          "first": "I'm sure Anna forgot about the meeting.",
+          "keyword": "MUST",
+          "before": "Anna",
+          "after": "about the meeting.",
+          "accept": [
+            "must have forgotten",
+            "must've forgotten"
+          ],
+          "chunks": [
+            [
+              "must have",
+              "must've"
+            ],
+            [
+              "forgotten"
+            ]
+          ],
+          "tag": "uoe.modals",
+          "why": {
+            "en": "Certainty about the past: 'must have + past participle'. 'Must forget' would be about the present or an obligation.",
+            "bg": "Сигурност за минало: 'must have + минало причастие'. 'Must forget' би било за настоящето или задължение."
+          }
+        },
+        {
+          "n": 28,
+          "first": "I'm sorry that I lent him so much money.",
+          "keyword": "REGRET",
+          "before": "I",
+          "after": "him so much money.",
+          "accept": [
+            "regret lending",
+            "regret having lent",
+            "regret that I lent"
+          ],
+          "chunks": [
+            [
+              "regret"
+            ],
+            [
+              "lending",
+              "having lent",
+              "that I lent"
+            ]
+          ],
+          "tag": "uoe.verb-patterns",
+          "why": {
+            "en": "'Regret + -ing' = be sorry about something you did. 'Regret to lend' would mean being sorry about something you are about to do.",
+            "bg": "'Regret + -ing' = съжалявам за нещо, което съм направил. 'Regret to lend' значи да съжаляваш за нещо, което тепърва ще направиш."
+          }
+        },
+        {
+          "n": 29,
+          "first": "Although she was tired, Ella finished the report.",
+          "keyword": "DESPITE",
+          "before": "Ella finished the report",
+          "after": "tired.",
+          "accept": [
+            "despite being",
+            "despite feeling",
+            "despite the fact she was"
+          ],
+          "chunks": [
+            [
+              "despite"
+            ],
+            [
+              "being",
+              "feeling",
+              "the fact she was"
+            ]
+          ],
+          "tag": "uoe.linking",
+          "why": {
+            "en": "'Despite' is followed by a noun or -ing form, not a clause: 'despite being tired'. 'Despite she was' is wrong; 'despite the fact (that)' is needed before a clause.",
+            "bg": "След 'despite' идва съществително или -ing форма, не изречение: 'despite being tired'. 'Despite she was' е грешно; пред изречение трябва 'despite the fact (that)'."
+          }
+        },
+        {
+          "n": 30,
+          "first": "I can't tolerate his rudeness any longer.",
+          "keyword": "UP",
+          "before": "I can't",
+          "after": "his rudeness any longer.",
+          "accept": [
+            "put up with"
+          ],
+          "chunks": [
+            [
+              "put up"
+            ],
+            [
+              "with"
+            ]
+          ],
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "'Put up with' = tolerate. Don't forget the preposition 'with' – the phrasal verb has three parts.",
+            "bg": "'Put up with' = търпя. Не забравяй предлога 'with' – фразовият глагол има три части."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m2.p5",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 5,
+      "set": "mock-2",
+      "title": "The sound collector",
+      "topic": "recording natural soundscapes",
+      "status": "draft",
+      "kind": "reading-mc",
+      "instructions": "You are going to read an article about a woman who records the sounds of nature. For questions 31–36, choose the answer (A, B, C or D) which you think fits best according to the text.",
+      "text": "The sound collector\n\nRuth Calder has spent thirty years recording the sounds of wild places, and she is worried. 'When I started, I could go almost anywhere in the countryside and record an hour of birdsong, wind and water without hearing a single engine,' she says. 'Now I'm lucky if I get fifteen minutes.' Her archive, which fills two rooms of her small house in the Scottish Highlands, contains more than five thousand hours of recordings from forty countries. Some of the places in it no longer sound the way they did when she visited them. A few no longer exist at all.\n\nCalder did not set out to become what she calls 'a kind of librarian of noise'. She trained as a sound engineer and spent her twenties working in recording studios in London, helping to produce albums for bands whose names she prefers not to mention. 'It was well paid and I learned a great deal,' she says, 'but I spent all day in rooms with no windows, trying to make music sound natural. At some point it struck me that I'd rather record things that were natural to begin with.' She left the studio at thirty-one with a second-hand microphone and enough savings to last a year.\n\nThe first year was not a success. Most of her early recordings were ruined by the noise of her own movements, and she had to learn to sit absolutely still for hours at a time, often in freezing conditions. 'People imagine it's a peaceful, almost spiritual activity,' she says, laughing. 'Mostly it's about being cold and having cramp in your legs.' But slowly the recordings improved, and she began selling them to film-makers and radio producers who needed authentic natural sound.\n\nWhat turned her work from a business into a mission was a return visit, in 2009, to a valley in Borneo she had first recorded ten years earlier. In her original recording, the dawn chorus is so dense that it is almost impossible to pick out individual birds. By the time she returned, much of the surrounding forest had been cleared for plantations. 'I set up in exactly the same spot, at exactly the same time of year,' she says. 'And there was almost nothing. A few insects, and in the distance, a chainsaw.' She played the two recordings to me one after the other. The difference was shocking – far more so, I thought, than any photograph could have been.\n\nSince then, Calder has made a point of returning to the places she has recorded, wherever she can afford to. Scientists have begun to take an interest in her archive, because sound turns out to be a surprisingly good measure of the health of an environment. A rich, varied soundscape usually means a rich, varied population of animals; a thin one often signals trouble long before it shows up in other data. Several universities now use her recordings in their research, though Calder is careful not to overstate her role. 'I'm not a scientist,' she says. 'I just have a lot of very good tapes.'\n\nShe is less modest about what she hopes the recordings might achieve. Statistics about habitat loss, she argues, are easy to ignore because they are abstract. A recording is different. 'You can't argue with your own ears,' she says. 'When people hear what a place has lost, they feel it in a way that numbers can never make them feel.' She is currently working with a museum in Edinburgh on an exhibition in which visitors will walk through a series of rooms that recreate the same location at different points in time.\n\nAsked whether she is optimistic, she pauses for a long time. 'Some days,' she says eventually. 'Places can recover, if they're given the chance. I've recorded that too. It just takes much longer to come back than it does to disappear.'",
+      "questions": [
+        {
+          "n": 31,
+          "question": "What does Calder say about her years in recording studios?",
+          "options": [
+            "They taught her skills she has never needed since.",
+            "They made her want to record natural sounds.",
+            "They were less rewarding financially than she had hoped.",
+            "They brought her into contact with musicians she admired."
+          ],
+          "correct": 1,
+          "tag": "read.detail",
+          "why": {
+            "en": "'It struck me that I'd rather record things that were natural to begin with.' She says the job 'was well paid', so the point about money is the opposite of what she says.",
+            "bg": "'It struck me that I'd rather record things that were natural to begin with.' Тя казва, че работата 'was well paid', така че твърдението за парите е обратното на казаното."
+          }
+        },
+        {
+          "n": 32,
+          "question": "What point does Calder make about her early recording work?",
+          "options": [
+            "Her equipment was not good enough for the job.",
+            "She often chose the wrong places to record.",
+            "It was much less comfortable than people imagine.",
+            "She almost gave up because she ran out of money."
+          ],
+          "correct": 2,
+          "tag": "read.opinion-attitude",
+          "why": {
+            "en": "'People imagine it's a peaceful, almost spiritual activity… Mostly it's about being cold and having cramp.' The recordings were spoiled by her own movements, not by poor equipment.",
+            "bg": "'People imagine it's a peaceful, almost spiritual activity… Mostly it's about being cold and having cramp.' Записите са развалени от собствените ѝ движения, а не от лоша техника."
+          }
+        },
+        {
+          "n": 33,
+          "question": "What does the writer suggest about the two Borneo recordings?",
+          "options": [
+            "They affected the writer more than photos could.",
+            "They showed how much Calder's technique had improved.",
+            "They were hard to compare because of the background noise.",
+            "They were made at different times of the year."
+          ],
+          "correct": 0,
+          "tag": "read.inference",
+          "why": {
+            "en": "'The difference was shocking – far more so, I thought, than any photograph could have been.' Calder stresses she recorded 'at exactly the same time of year', which rules out the last option.",
+            "bg": "'The difference was shocking – far more so, I thought, than any photograph could have been.' Калдър подчертава, че е записвала 'at exactly the same time of year', което изключва последния вариант."
+          }
+        },
+        {
+          "n": 34,
+          "question": "Why are scientists interested in Calder's archive?",
+          "options": [
+            "It includes recordings of species that are now extinct.",
+            "It can show environmental problems at an early stage.",
+            "It is the largest collection of its kind in the world.",
+            "It was made using the same methods that scientists use."
+          ],
+          "correct": 1,
+          "tag": "read.detail",
+          "why": {
+            "en": "A thin soundscape 'signals trouble long before it shows up in other data'. The text never says her collection is the largest, or mentions extinct species.",
+            "bg": "Бедният звуков пейзаж 'signals trouble long before it shows up in other data'. Текстът никъде не казва, че колекцията е най-голямата, нито споменава изчезнали видове."
+          }
+        },
+        {
+          "n": 35,
+          "question": "When Calder says 'I'm not a scientist', she is",
+          "options": [
+            "apologising for her lack of formal training.",
+            "criticising the way universities use her work.",
+            "explaining why she rarely works with researchers.",
+            "playing down the importance of her own role."
+          ],
+          "correct": 3,
+          "tag": "read.purpose",
+          "why": {
+            "en": "The writer introduces the quote with 'Calder is careful not to overstate her role' – she is being modest. She isn't apologising: 'I just have a lot of very good tapes' is said with quiet confidence, not regret.",
+            "bg": "Авторът въвежда цитата с 'Calder is careful not to overstate her role' – тя е скромна. Не се извинява: 'I just have a lot of very good tapes' звучи спокойно и уверено, а не със съжаление."
+          }
+        },
+        {
+          "n": 36,
+          "question": "What does Calder believe about recordings compared with statistics?",
+          "options": [
+            "They are more reliable as scientific evidence.",
+            "They are easier for researchers to analyse.",
+            "They have a stronger emotional effect.",
+            "They reach a much wider audience than reports."
+          ],
+          "correct": 2,
+          "tag": "read.opinion-attitude",
+          "why": {
+            "en": "'When people hear what a place has lost, they feel it in a way that numbers can never make them feel.' She says statistics are easy to ignore because they are abstract – not that they are less reliable.",
+            "bg": "'When people hear what a place has lost, they feel it in a way that numbers can never make them feel.' Тя казва, че статистиките лесно се пренебрегват, защото са абстрактни – не че са по-малко надеждни."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m2.p6",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 6,
+      "set": "mock-2",
+      "title": "Climbing the walls",
+      "topic": "taking up climbing in middle age",
+      "status": "draft",
+      "kind": "gapped-text",
+      "instructions": "You are going to read an article in which a parent describes taking up indoor climbing. Six sentences have been removed from the article. Choose from the sentences A–G the one which fits each gap (37–42). There is one extra sentence which you do not need to use.",
+      "text": "Climbing the walls\n\nI took up climbing at the age of forty-two, which, judging by the faces at my local climbing centre, is about twenty years later than most people. I had never been particularly sporty. At school I was usually the last to be picked for any team, and as an adult my exercise consisted mainly of walking to the station and, on good days, taking the stairs. {{37}}\n\nIt started almost by accident. My daughter, then fourteen, had been climbing for a year and needed a lift to the centre every Saturday morning. Rather than spend two hours drinking coffee in the café, I signed up for a beginners' course. I assumed it would be gentle – a little stretching, perhaps, and some climbing on the easiest walls. {{38}} Within ten minutes of the first session, I was clinging to a wall three metres off the ground, my arms shaking, while a cheerful instructor called out advice I was too frightened to follow.\n\nWhat surprised me most was how little climbing depends on strength. {{39}} Good climbers, I learned, use their legs far more than their arms, and spend as much time thinking as moving. Each route on the wall is a kind of puzzle, and the best way up is rarely the most obvious one.\n\nThis suited me surprisingly well. I may not be strong or fast, but I am patient, and I am stubborn. {{40}} I would stand at the bottom of a route for minutes at a time, working out where each hand and foot should go, while younger climbers flew past me. Sometimes my plan worked; more often it didn't, and I fell off – safely, onto thick mats – and started again.\n\nThere is also a social side I had not expected. Climbing centres are friendly places, and people are always ready to share advice, even with a nervous beginner. {{41}} Within a few months I had a regular group of climbing partners, most of them half my age, who seemed to find my slow, careful approach both amusing and, occasionally, impressive.\n\nMy daughter's feelings about all this have been mixed. {{42}} On the other hand, I suspect she was not entirely pleased when I started turning up at the centre on days when she wasn't there. Last month, for the first time, I completed a route that she had not yet managed. She told me it was a fluke. She may well be right, but I have been smiling about it ever since.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I could not have been more wrong."
+        },
+        {
+          "letter": "B",
+          "text": "Unfortunately, neither of these qualities was much use to me at first."
+        },
+        {
+          "letter": "C",
+          "text": "On the one hand, she is proud that I have stuck with something she introduced me to."
+        },
+        {
+          "letter": "D",
+          "text": "So it is fair to say that nobody, least of all me, expected me to become hooked on a sport."
+        },
+        {
+          "letter": "E",
+          "text": "Both of these qualities turn out to be extremely valuable on a climbing wall."
+        },
+        {
+          "letter": "F",
+          "text": "Like most beginners, I had assumed the whole point was to pull yourself up with your arms."
+        },
+        {
+          "letter": "G",
+          "text": "One regular spent twenty minutes showing me how to place my feet properly, and refused to accept any thanks."
+        }
+      ],
+      "questions": [
+        {
+          "n": 37,
+          "answer": "D",
+          "tag": "read.cohesion",
+          "why": {
+            "en": "'So' draws a conclusion from the description of how unsporty the writer was, and 'become hooked on a sport' prepares for the story of how it happened ('It started almost by accident').",
+            "bg": "'So' прави извод от описанието колко неспортен е авторът, а 'become hooked on a sport' подготвя историята как е станало ('It started almost by accident')."
+          }
+        },
+        {
+          "n": 38,
+          "answer": "A",
+          "tag": "read.cohesion",
+          "why": {
+            "en": "'I could not have been more wrong' answers 'I assumed it would be gentle', and the next sentence shows how wrong: clinging to the wall within ten minutes.",
+            "bg": "'I could not have been more wrong' отговаря на 'I assumed it would be gentle', а следващото изречение показва колко е сгрешил: след десет минути вече виси на стената."
+          }
+        },
+        {
+          "n": 39,
+          "answer": "F",
+          "tag": "read.cohesion",
+          "why": {
+            "en": "The writer contrasts a wrong assumption (climbing is about pulling with your arms) with what the writer learned: good climbers 'use their legs far more than their arms'.",
+            "bg": "Авторът противопоставя погрешно предположение (катеренето е да се дърпаш с ръце) на наученото: добрите катерачи 'use their legs far more than their arms'."
+          }
+        },
+        {
+          "n": 40,
+          "answer": "E",
+          "tag": "read.reference",
+          "why": {
+            "en": "'Both of these qualities' refers to 'patient' and 'stubborn', and fits 'This suited me surprisingly well'. B also refers to the two qualities, but 'neither… was much use' contradicts the paragraph, which shows patience helping the writer.",
+            "bg": "'Both of these qualities' се отнася към 'patient' и 'stubborn' и пасва на 'This suited me surprisingly well'. B също препраща към двете качества, но 'neither… was much use' противоречи на абзаца, който показва как търпението му помага."
+          }
+        },
+        {
+          "n": 41,
+          "answer": "G",
+          "tag": "read.cohesion",
+          "why": {
+            "en": "G gives an example of people being 'ready to share advice, even with a nervous beginner', and leads on to making a group of climbing partners.",
+            "bg": "G дава пример как хората са 'ready to share advice, even with a nervous beginner', и води към създаването на група партньори за катерене."
+          }
+        },
+        {
+          "n": 42,
+          "answer": "C",
+          "tag": "read.cohesion",
+          "why": {
+            "en": "'On the one hand' is answered by 'On the other hand' in the next sentence, and both explain the daughter's 'mixed' feelings.",
+            "bg": "'On the one hand' получава отговор с 'On the other hand' в следващото изречение, а двете обясняват 'смесените' чувства на дъщерята."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.m2.p7",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 7,
+      "set": "mock-2",
+      "title": "Working from anywhere",
+      "topic": "remote work abroad",
+      "status": "draft",
+      "kind": "matching",
+      "instructions": "You are going to read an article in which four people talk about working remotely while living abroad. For questions 43–52, choose from the people (A–D). The people may be chosen more than once.",
+      "sections": [
+        {
+          "letter": "A",
+          "heading": "Marta, marketing analyst, Valencia",
+          "text": "When I first suggested working from Spain for a year, I was convinced my manager would say no – or worse, start wondering whether I was serious about my career. In fact she agreed almost immediately, on condition that I kept the same hours as the rest of the team. I signed up for Spanish classes three evenings a week, and after eight months I could hold a proper conversation with my neighbours, which made an enormous difference to how at home I felt. I'd argue the company has done well out of the arrangement too. I'm working longer and more productively than I ever did in the office, partly because I'm so grateful for the opportunity. Two of my colleagues have since asked to do the same thing, and I think that says a lot. I'm due back in the office in March, and I'm already wondering whether I could ask for another year."
+        },
+        {
+          "letter": "B",
+          "heading": "Jonas, freelance journalist, Chiang Mai",
+          "text": "If you look at social media, you'd think working abroad means typing on a laptop beside a swimming pool all day. The reality is that I spend most of my time in a rented room with the curtains closed, because you can't see a screen properly in bright sunshine. My biggest problem has been knowing when to stop. At home, leaving the office meant the working day was over. Here, my office is wherever I happen to be, so I find myself answering emails at ten at night or on a Sunday afternoon at the beach. I've started switching my phone off at seven, which helps, but I'm still not very good at it. Don't misunderstand me – I'm glad I came. I just wish someone had told me the truth before I did, so I could have planned my days differently from the start."
+        },
+        {
+          "letter": "C",
+          "heading": "Amira, translator, Tbilisi",
+          "text": "I'll be honest: I came to Tbilisi because I could afford a much nicer flat here than I ever could at home, and still save money every month. The first few weeks were harder than I'd expected. I didn't know anyone, and since I work alone anyway, I could go several days without a real conversation. Joining a running club changed that completely, and some of the members are now close friends. The other thing nobody warned me about was the internet. The connection in my building kept failing in the middle of video calls with clients, which was embarrassing and bad for business. In the end I paid for a second connection from a different provider as a backup, and I haven't had a problem since. It was expensive, but cheaper than losing clients."
+        },
+        {
+          "letter": "D",
+          "heading": "Ben, project manager, Mexico City",
+          "text": "I spent three years moving between countries every few months, and I loved it, but I've recently signed a long-term lease here in Mexico City. Moving constantly was exciting, but it was also exhausting, and I wanted a proper home again – somewhere I could leave my books on a shelf. One unexpected benefit of those years is that I'm far better at planning than I used to be. When you're dealing with different time zones, visas and travel arrangements all at once, you have no choice but to keep careful track of everything, and that habit has stayed with me. These days I even plan my weekends, which my friends find very funny. I do sometimes miss the excitement of arriving somewhere new, but not enough to pack my bags again. For now, short trips are enough."
+        }
+      ],
+      "questions": [
+        {
+          "n": 43,
+          "statement": "finds it difficult to keep work and free time separate?",
+          "answer": "B",
+          "tag": "read.detail",
+          "why": {
+            "en": "Jonas: 'My biggest problem has been knowing when to stop… I find myself answering emails at ten at night.'",
+            "bg": "Йонас: 'My biggest problem has been knowing when to stop… I find myself answering emails at ten at night.'"
+          }
+        },
+        {
+          "n": 44,
+          "statement": "chose where to live largely for financial reasons?",
+          "answer": "C",
+          "tag": "read.specific-info",
+          "why": {
+            "en": "Amira came to Tbilisi 'because I could afford a much nicer flat here… and still save money'.",
+            "bg": "Амира идва в Тбилиси 'because I could afford a much nicer flat here… and still save money'."
+          }
+        },
+        {
+          "n": 45,
+          "statement": "expected their request to be turned down?",
+          "answer": "A",
+          "tag": "read.detail",
+          "why": {
+            "en": "Marta 'was convinced my manager would say no'.",
+            "bg": "Марта 'was convinced my manager would say no'."
+          }
+        },
+        {
+          "n": 46,
+          "statement": "says the experience has made them better at organising things?",
+          "answer": "D",
+          "tag": "read.detail",
+          "why": {
+            "en": "Ben: 'I'm far better at planning than I used to be… that habit has stayed with me.' Marta says she is more productive, which is about effort, not organisation.",
+            "bg": "Бен: 'I'm far better at planning than I used to be… that habit has stayed with me.' Марта казва, че е по-продуктивна – това е за усилието, не за организацията."
+          }
+        },
+        {
+          "n": 47,
+          "statement": "had to find a solution to a technical problem?",
+          "answer": "C",
+          "tag": "read.detail",
+          "why": {
+            "en": "Amira's internet kept failing, so she 'paid for a second connection… as a backup'. Jonas's problem with sunlight on his screen is not technical, and he simply stays indoors.",
+            "bg": "Интернетът на Амира прекъсва, затова тя 'paid for a second connection… as a backup'. Проблемът на Йонас със слънцето върху екрана не е технически и той просто стои вътре."
+          }
+        },
+        {
+          "n": 48,
+          "statement": "feels that the lifestyle is presented misleadingly online?",
+          "answer": "B",
+          "tag": "read.opinion-attitude",
+          "why": {
+            "en": "Jonas: 'If you look at social media, you'd think… The reality is that…'",
+            "bg": "Йонас: 'If you look at social media, you'd think… The reality is that…'"
+          }
+        },
+        {
+          "n": 49,
+          "statement": "has given up a less settled way of life?",
+          "answer": "D",
+          "tag": "read.detail",
+          "why": {
+            "en": "Ben stopped 'moving between countries every few months' and has 'signed a long-term lease'.",
+            "bg": "Бен спира да се мести 'between countries every few months' и 'signed a long-term lease'."
+          }
+        },
+        {
+          "n": 50,
+          "statement": "made a real effort to learn the local language?",
+          "answer": "A",
+          "tag": "read.specific-info",
+          "why": {
+            "en": "Marta took 'Spanish classes three evenings a week' and can now talk to her neighbours.",
+            "bg": "Марта ходи на 'Spanish classes three evenings a week' и вече може да говори със съседите си."
+          }
+        },
+        {
+          "n": 51,
+          "statement": "felt isolated when they first arrived?",
+          "answer": "C",
+          "tag": "read.detail",
+          "why": {
+            "en": "Amira: 'I didn't know anyone… I could go several days without a real conversation.'",
+            "bg": "Амира: 'I didn't know anyone… I could go several days without a real conversation.'"
+          }
+        },
+        {
+          "n": 52,
+          "statement": "believes their employer has also benefited from the arrangement?",
+          "answer": "A",
+          "tag": "read.opinion-attitude",
+          "why": {
+            "en": "Marta: 'the company has done well out of the arrangement too' because she works longer and more productively.",
+            "bg": "Марта: 'the company has done well out of the arrangement too', защото работи повече и по-продуктивно."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.d.p1-1",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 1,
+      "set": "drill",
+      "title": "Listening to books",
+      "topic": "audiobooks",
+      "status": "draft",
+      "kind": "mc-cloze",
+      "instructions": "For questions 1–8, read the text below and decide which answer (A, B, C or D) best fits each gap.",
+      "text": "Listening to books\n\nAudiobooks were once {{1}} mainly as a tool for people with poor eyesight, but in the last decade they have become one of the fastest-growing areas of publishing. Many listeners say audiobooks have {{2}} them to enjoy books again after years of being too busy to read.\n\nSome critics, however, {{3}} that listening to a book is not really the same as reading it. They argue that when you are listening, especially while doing something else, it is easy to lose {{4}} of the plot. Research, on the other hand, {{5}} to suggest that our brains process stories in much the same way whether we hear them or see them on a page. Listeners may remember fewer exact details, but their overall {{6}} of the story is very similar.\n\nPublishers have {{7}} the opportunity, and many now hire well-known actors to read their books aloud. For some fans, a great performance can even {{8}} a story to life in a way that silent reading cannot.",
+      "questions": [
+        {
+          "n": 1,
+          "options": [
+            "watched",
+            "seen",
+            "noticed",
+            "looked"
+          ],
+          "correct": 1,
+          "tag": "uoe.complementation",
+          "why": {
+            "en": "'Be seen as' = be considered. 'Looked' would need 'upon/on' (looked on as), and 'watched' and 'noticed' are not used with 'as' in this meaning.",
+            "bg": "'Be seen as' = смятан за. 'Looked' иска 'on/upon' (looked on as), а 'watched' и 'noticed' не се използват с 'as' в това значение."
+          }
+        },
+        {
+          "n": 2,
+          "options": [
+            "let",
+            "made",
+            "allowed",
+            "suggested"
+          ],
+          "correct": 2,
+          "tag": "uoe.verb-patterns",
+          "why": {
+            "en": "'Allow someone to do' uses 'to'. 'Let' and 'made' (active) are followed by the infinitive without 'to' (let them enjoy), so 'let them to enjoy' is wrong; 'suggest' can never be followed by object + to-infinitive.",
+            "bg": "'Allow someone to do' е с 'to'. След 'let' и 'made' (деятелен залог) идва инфинитив без 'to' (let them enjoy), затова 'let them to enjoy' е грешно; след 'suggest' никога не идва допълнение + to-инфинитив."
+          }
+        },
+        {
+          "n": 3,
+          "options": [
+            "insist",
+            "persist",
+            "resist",
+            "consist"
+          ],
+          "correct": 0,
+          "tag": "uoe.complementation",
+          "why": {
+            "en": "'Insist that…' = say firmly that something is true. 'Persist' and 'resist' aren't followed by 'that', and 'consist' needs 'of'.",
+            "bg": "'Insist that…' = твърдя настойчиво. След 'persist' и 'resist' не може 'that', а 'consist' иска 'of'."
+          }
+        },
+        {
+          "n": 4,
+          "options": [
+            "trace",
+            "track",
+            "hold",
+            "grip"
+          ],
+          "correct": 1,
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'Lose track of' = stop following or understanding something. You 'lose your grip on' something and 'lose hold of' an object; 'lose trace of' doesn't exist.",
+            "bg": "'Lose track of' = изгубвам нишката. Казва се 'lose your grip on' и 'lose hold of' за предмет, а 'lose trace of' не съществува."
+          }
+        },
+        {
+          "n": 5,
+          "options": [
+            "tends",
+            "leans",
+            "inclines",
+            "bends"
+          ],
+          "correct": 0,
+          "tag": "uoe.word-choice",
+          "why": {
+            "en": "'Tend to + infinitive' = usually or generally do something. 'Lean' and 'bend' are physical movements, and 'incline to' is very formal and is about a person's preference, not evidence.",
+            "bg": "'Tend to + инфинитив' = обикновено правя нещо. 'Lean' и 'bend' са физически движения, а 'incline to' е много официално и описва предпочитание на човек, не доказателства."
+          }
+        },
+        {
+          "n": 6,
+          "options": [
+            "acknowledgement",
+            "awareness",
+            "recognition",
+            "understanding"
+          ],
+          "correct": 3,
+          "tag": "uoe.word-choice",
+          "why": {
+            "en": "You have an 'understanding of a story' when you follow what happens. 'Awareness' means knowing something exists, 'recognition' means identifying something, and 'acknowledgement' means admitting that something is true.",
+            "bg": "'Understanding of a story' е колко добре следиш историята. 'Awareness' е да знаеш, че нещо съществува, 'recognition' е разпознаване, а 'acknowledgement' е признаване, че нещо е вярно."
+          }
+        },
+        {
+          "n": 7,
+          "options": [
+            "seized",
+            "held",
+            "caught",
+            "kept"
+          ],
+          "correct": 0,
+          "tag": "uoe.collocations",
+          "why": {
+            "en": "'Seize the opportunity' = act quickly to use a chance. You can 'catch' a train or a cold, but not an opportunity, and 'hold/keep the opportunity' aren't used.",
+            "bg": "'Seize the opportunity' = бързо се възползвам от шанс. 'Catch' се ползва за влак или настинка, не за възможност, а 'hold/keep the opportunity' не се казват."
+          }
+        },
+        {
+          "n": 8,
+          "options": [
+            "bring",
+            "carry",
+            "give",
+            "take"
+          ],
+          "correct": 0,
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'Bring something to life' = make it feel real and exciting. 'Come to life' exists, but there is no 'give/carry/take something to life'.",
+            "bg": "'Bring something to life' = вдъхвам живот на нещо. Има 'come to life', но не 'give/carry/take something to life'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.d.p1-2",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 1,
+      "set": "drill",
+      "title": "Walk this way",
+      "topic": "walking for health",
+      "status": "draft",
+      "kind": "mc-cloze",
+      "instructions": "For questions 1–8, read the text below and decide which answer (A, B, C or D) best fits each gap.",
+      "text": "Walk this way\n\nWhen people decide it is time to {{1}} fit, they usually think of joining a gym or taking up running. Walking rarely {{2}} their minds, yet doctors increasingly describe it as one of the best things we can do for our health. A brisk thirty-minute walk each day can significantly {{3}} the risk of heart disease, and it often improves mood almost immediately. Unlike many sports, it requires no special equipment and is suitable for people of all ages and {{4}} of fitness.\n\nExperts say the key is to {{5}} walking part of your daily routine rather than something you do only when you have spare time. Small changes, such as getting off the bus a stop early or taking the stairs instead of the lift, soon {{6}} up. Walking with a friend also makes it more likely that you will {{7}} to the habit. And, {{8}} of all, it is completely free.",
+      "questions": [
+        {
+          "n": 1,
+          "options": [
+            "turn",
+            "get",
+            "grow",
+            "come"
+          ],
+          "correct": 1,
+          "tag": "uoe.collocations",
+          "why": {
+            "en": "'Get fit' is the natural collocation for becoming healthier. 'Turn' and 'grow' combine with other adjectives (turn red, grow old), but not with 'fit'.",
+            "bg": "'Get fit' е естественото словосъчетание за 'ставам във форма'. 'Turn' и 'grow' вървят с други прилагателни (turn red, grow old), но не с 'fit'."
+          }
+        },
+        {
+          "n": 2,
+          "options": [
+            "crosses",
+            "passes",
+            "reaches",
+            "occurs"
+          ],
+          "correct": 0,
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'Something crosses your mind' = you think of it. 'Occur' needs 'to' (it rarely occurs to them), and 'pass/reach their minds' isn't the fixed phrase.",
+            "bg": "'Something crosses your mind' = хрумва ти. 'Occur' иска 'to' (it rarely occurs to them), а 'pass/reach their minds' не е устойчивият израз."
+          }
+        },
+        {
+          "n": 3,
+          "options": [
+            "fall",
+            "decline",
+            "drop",
+            "lower"
+          ],
+          "correct": 3,
+          "tag": "uoe.word-choice",
+          "why": {
+            "en": "You need a transitive verb with 'the risk' as its object: 'lower the risk'. 'Fall' has no object, 'decline the risk' would mean 'refuse' it, and 'drop the risk' isn't used in this meaning.",
+            "bg": "Трябва ти преходен глагол с допълнение 'the risk': 'lower the risk'. 'Fall' няма допълнение, 'decline the risk' би значело 'отказвам' риска, а 'drop the risk' не се използва в това значение."
+          }
+        },
+        {
+          "n": 4,
+          "options": [
+            "grades",
+            "ranks",
+            "stages",
+            "levels"
+          ],
+          "correct": 3,
+          "tag": "uoe.collocations",
+          "why": {
+            "en": "'Levels of fitness' is the standard collocation. 'Grades' are marks at school, 'ranks' are positions in the army or a list, and 'stages' are steps in a process.",
+            "bg": "'Levels of fitness' е стандартното словосъчетание. 'Grades' са оценки, 'ranks' – чинове или места в класиране, а 'stages' – етапи в процес."
+          }
+        },
+        {
+          "n": 5,
+          "options": [
+            "do",
+            "have",
+            "make",
+            "get"
+          ],
+          "correct": 2,
+          "tag": "uoe.collocations",
+          "why": {
+            "en": "'Make something part of your routine' uses 'make + object + noun'. 'Do', 'have' and 'get' don't work in this pattern.",
+            "bg": "'Make something part of your routine' – конструкцията е 'make + допълнение + съществително'. 'Do', 'have' и 'get' не работят така."
+          }
+        },
+        {
+          "n": 6,
+          "options": [
+            "count",
+            "sum",
+            "total",
+            "add"
+          ],
+          "correct": 3,
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "Small things 'add up' when together they become significant. 'Sum up' means 'summarise', and 'count up' and 'total up' need an object (count up the money).",
+            "bg": "Малките неща 'add up', когато заедно стават значими. 'Sum up' значи 'обобщавам', а 'count up' и 'total up' искат допълнение (count up the money)."
+          }
+        },
+        {
+          "n": 7,
+          "options": [
+            "hold",
+            "stay",
+            "stand",
+            "stick"
+          ],
+          "correct": 3,
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "'Stick to a habit/plan' = continue doing it. 'Hold to' is used with promises or beliefs, and 'stay to' and 'stand to' don't carry this meaning.",
+            "bg": "'Stick to a habit/plan' = придържам се към него. 'Hold to' се ползва за обещания или убеждения, а 'stay to' и 'stand to' нямат това значение."
+          }
+        },
+        {
+          "n": 8,
+          "options": [
+            "better",
+            "greatest",
+            "best",
+            "finest"
+          ],
+          "correct": 2,
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'Best of all' is a fixed phrase introducing the most positive point. 'Greatest of all' and 'finest of all' describe a person or thing, not an extra argument, and 'better of all' is ungrammatical.",
+            "bg": "'Best of all' е устойчив израз, който въвежда най-хубавото. 'Greatest of all' и 'finest of all' описват човек или нещо, не допълнителен аргумент, а 'better of all' е граматически грешно."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.d.p2-1",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 2,
+      "set": "drill",
+      "title": "Never too late",
+      "topic": "learning an instrument",
+      "status": "draft",
+      "kind": "open-cloze",
+      "instructions": "For questions 9–16, read the text below and think of the word which best fits each gap. Use only one word in each gap.",
+      "text": "Never too late\n\nMany adults who learned an instrument as children gave it up as teenagers and have regretted it {{9}} since. Others never had the chance to learn {{10}} all. The good news is that it is never too late to start. Although children may pick up new skills more quickly, adults have several advantages. For one thing, they usually learn because they want to, rather {{11}} because their parents insist on it. For {{12}}, they tend to be better at organising their practice and setting realistic goals.\n\nThe main challenge for adult learners is finding the time. Teachers recommend practising little and often: twenty minutes {{13}} day is far more effective than two hours once a week. It is also important not to compare yourself with people {{14}} have been playing for years. Progress may feel slow at first, but it is real, {{15}} if you don't notice it from one day to the next. And the benefits may go beyond music. {{16}} to some researchers, playing an instrument can improve memory and concentration at any age.",
+      "questions": [
+        {
+          "n": 9,
+          "accept": [
+            "ever"
+          ],
+          "tag": "uoe.tenses",
+          "why": {
+            "en": "'Ever since' = continuously from that time until now, which goes with the present perfect 'have regretted'.",
+            "bg": "'Ever since' = оттогава досега, което върви със сегашно перфектно 'have regretted'."
+          }
+        },
+        {
+          "n": 10,
+          "accept": [
+            "at"
+          ],
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'At all' strengthens a negative: 'never… at all' = not even once.",
+            "bg": "'At all' засилва отрицанието: 'never… at all' = нито веднъж."
+          }
+        },
+        {
+          "n": 11,
+          "accept": [
+            "than"
+          ],
+          "tag": "uoe.linking",
+          "why": {
+            "en": "'Rather than' compares two reasons: because they want to, not because their parents insist.",
+            "bg": "'Rather than' сравнява две причини: защото искат, а не защото родителите им настояват."
+          }
+        },
+        {
+          "n": 12,
+          "accept": [
+            "another"
+          ],
+          "tag": "uoe.articles-determiners",
+          "why": {
+            "en": "'For one thing… For another…' is a fixed way of listing two reasons. 'Other' would need 'the' or a noun.",
+            "bg": "'For one thing… For another…' е устойчив начин да изброиш две причини. 'Other' би изисквало 'the' или съществително."
+          }
+        },
+        {
+          "n": 13,
+          "accept": [
+            "a",
+            "per",
+            "each",
+            "every"
+          ],
+          "tag": "uoe.articles-determiners",
+          "why": {
+            "en": "'Twenty minutes a day' – 'a' means 'per' in expressions of frequency. 'Per', 'each' and 'every' are also correct; 'the' is not.",
+            "bg": "'Twenty minutes a day' – тук 'a' значи 'на' (всеки ден). 'Per', 'each' и 'every' също са верни, но 'the' – не."
+          }
+        },
+        {
+          "n": 14,
+          "accept": [
+            "who",
+            "that"
+          ],
+          "tag": "uoe.relative-clauses",
+          "why": {
+            "en": "A relative pronoun for people is needed as the subject of 'have been playing': 'who' or 'that'. It can't be left out because it is the subject.",
+            "bg": "Трябва относително местоимение за хора, което е подлог на 'have been playing': 'who' или 'that'. Не може да се изпусне, защото е подлог."
+          }
+        },
+        {
+          "n": 15,
+          "accept": [
+            "even"
+          ],
+          "tag": "uoe.linking",
+          "why": {
+            "en": "'Even if' = whether or not this is true. Plain 'if' would change the meaning: progress isn't real only when you don't notice it.",
+            "bg": "'Even if' = дори ако. Само 'if' би променило смисъла: напредъкът не е реален само когато не го забелязваш."
+          }
+        },
+        {
+          "n": 16,
+          "accept": [
+            "according"
+          ],
+          "tag": "uoe.dependent-prepositions",
+          "why": {
+            "en": "'According to' introduces the source of information. The 'to' after the gap is the clue.",
+            "bg": "'According to' въвежда източника на информация. Подсказка е 'to' след празнината."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.d.p2-2",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 2,
+      "set": "drill",
+      "title": "Six weeks at sea",
+      "topic": "working on a research ship",
+      "status": "draft",
+      "kind": "open-cloze",
+      "instructions": "For questions 9–16, read the text below and think of the word which best fits each gap. Use only one word in each gap.",
+      "text": "Six weeks at sea\n\nWhen people ask me what it is like to work on a research ship, I usually tell them it is a {{9}} like living in a small village that happens to float. There are around forty of us on board, and by the {{10}} of a six-week voyage you know everyone extremely well. Some people find this difficult, {{11}} there is nowhere to escape to if you don't get on with someone.\n\nThe work itself goes on day and night. Scientists take turns to collect samples, {{12}} means that someone is always awake. I work mainly on the night shift, which I actually prefer. The ship is quiet, and on clear nights the stars are brighter than anything you will {{13}} see on land.\n\nOf course, the weather is not always kind. In a storm it can be almost impossible to sleep, and even making a cup of tea becomes a challenge. I was seasick for the first three days of my first voyage, but I soon got used {{14}} the movement. What I miss most is fresh food. {{15}} the time we have been at sea for two weeks, the fruit and vegetables have usually run out, and we have to make do {{16}} tinned and frozen food.",
+      "questions": [
+        {
+          "n": 9,
+          "accept": [
+            "bit",
+            "little"
+          ],
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'A bit like' / 'a little like' = slightly similar to. The article 'a' before the gap and 'like' after it point to this phrase.",
+            "bg": "'A bit like' / 'a little like' = малко като. Членът 'a' преди празнината и 'like' след нея сочат към този израз."
+          }
+        },
+        {
+          "n": 10,
+          "accept": [
+            "end"
+          ],
+          "tag": "uoe.fixed-phrases",
+          "why": {
+            "en": "'By the end of' = no later than the final part of a period. 'Middle' would make no sense with 'you know everyone extremely well'.",
+            "bg": "'By the end of' = до края на. 'Middle' не пасва на 'you know everyone extremely well'."
+          }
+        },
+        {
+          "n": 11,
+          "accept": [
+            "as",
+            "because",
+            "since"
+          ],
+          "tag": "uoe.linking",
+          "why": {
+            "en": "The second clause gives the reason why people find it difficult, so you need a word of reason: 'as', 'because' or 'since'.",
+            "bg": "Втората част дава причината, поради която е трудно, затова трябва дума за причина: 'as', 'because' или 'since'."
+          }
+        },
+        {
+          "n": 12,
+          "accept": [
+            "which"
+          ],
+          "tag": "uoe.relative-clauses",
+          "why": {
+            "en": "'Which' after a comma refers back to the whole previous idea (scientists taking turns). 'That' can't be used after a comma, and 'what' doesn't refer back.",
+            "bg": "'Which' след запетая се отнася към цялата предишна идея (учените се редуват). 'That' не може след запетая, а 'what' не препраща назад."
+          }
+        },
+        {
+          "n": 13,
+          "accept": [
+            "ever"
+          ],
+          "tag": "uoe.comparison",
+          "why": {
+            "en": "'Brighter than anything you will ever see' – 'ever' emphasises 'at any time' after a comparison.",
+            "bg": "'Brighter than anything you will ever see' – 'ever' подчертава 'някога' след сравнение."
+          }
+        },
+        {
+          "n": 14,
+          "accept": [
+            "to"
+          ],
+          "tag": "uoe.dependent-prepositions",
+          "why": {
+            "en": "'Get used to + noun/-ing' = become familiar with. Don't confuse it with 'used to + infinitive' for past habits.",
+            "bg": "'Get used to + съществително/-ing' = свиквам с. Не го бъркай с 'used to + инфинитив' за минали навици."
+          }
+        },
+        {
+          "n": 15,
+          "accept": [
+            "by"
+          ],
+          "tag": "uoe.prepositions",
+          "why": {
+            "en": "'By the time…' = not later than the moment when. It goes naturally with the present perfect 'have usually run out'.",
+            "bg": "'By the time…' = докато дойде моментът. Върви естествено със сегашно перфектно 'have usually run out'."
+          }
+        },
+        {
+          "n": 16,
+          "accept": [
+            "with"
+          ],
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "'Make do with' = manage with something that is not ideal.",
+            "bg": "'Make do with' = справям се с нещо, което не е идеално."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.d.p3-1",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 3,
+      "set": "drill",
+      "title": "Gardens in the sky",
+      "topic": "rooftop gardens",
+      "status": "draft",
+      "kind": "word-formation",
+      "instructions": "For questions 17–24, read the text below. Use the word given in capitals after each gap to form a word that fits in the gap.",
+      "text": "Gardens in the sky\n\nIn cities around the world, flat roofs that were once empty are being turned into gardens. For many residents, these green spaces offer a {{17}} (PEACE) escape from the noise of the streets below. But it would be {{18}} (FAIR) to see rooftop gardens as mere decoration. They help to cool buildings in summer, which reduces the need for air {{19}} (CONDITION), and they are home to a surprising {{20}} (VARY) of insects and birds. Some even grow food, and a few are {{21}} (PROFIT) enough to supply local restaurants.\n\nCreating a roof garden is not always {{22}} (STRAIGHT), however. Engineers must first check that the roof is strong enough to carry the {{23}} (WEIGH) of soil, plants and water. And owners need to accept that a garden on a roof is a {{24}} (RESPONSIBLE) that never really ends.",
+      "questions": [
+        {
+          "n": 17,
+          "accept": [
+            "peaceful"
+          ],
+          "tag": "wf.adjective-suffix",
+          "why": {
+            "en": "Between 'a' and the noun 'escape' you need an adjective: peace → peaceful.",
+            "bg": "Между 'a' и съществителното 'escape' трябва прилагателно: peace → peaceful."
+          },
+          "stem": "PEACE"
+        },
+        {
+          "n": 18,
+          "accept": [
+            "unfair"
+          ],
+          "tag": "wf.negative-prefix",
+          "why": {
+            "en": "'But' signals that the writer disagrees with seeing gardens as mere decoration, so the meaning is negative: unfair.",
+            "bg": "'But' показва, че авторът не е съгласен градините да се смятат за украса, затова смисълът е отрицателен: unfair."
+          },
+          "stem": "FAIR"
+        },
+        {
+          "n": 19,
+          "accept": [
+            "conditioning"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "'Air conditioning' is the fixed compound for the cooling system. 'Air conditioner' is the machine, but the stem gives 'condition', and 'the need for air conditioning' is the natural phrase.",
+            "bg": "'Air conditioning' е устойчивото съставно за охладителната система. 'Air conditioner' е самият уред, но изразът 'the need for air conditioning' е естественият."
+          },
+          "stem": "CONDITION"
+        },
+        {
+          "n": 20,
+          "accept": [
+            "variety"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "'A variety of' = many different kinds. vary → variety (y changes to i).",
+            "bg": "'A variety of' = много различни видове. vary → variety (y става i)."
+          },
+          "stem": "VARY"
+        },
+        {
+          "n": 21,
+          "accept": [
+            "profitable"
+          ],
+          "tag": "wf.adjective-suffix",
+          "why": {
+            "en": "After 'are' and before 'enough' you need an adjective: profit → profitable.",
+            "bg": "След 'are' и преди 'enough' трябва прилагателно: profit → profitable."
+          },
+          "stem": "PROFIT"
+        },
+        {
+          "n": 22,
+          "accept": [
+            "straightforward"
+          ],
+          "tag": "wf.compound",
+          "why": {
+            "en": "'Straightforward' = simple, easy. It is a compound (straight + forward). The 'however' shows the writer means it is not always easy.",
+            "bg": "'Straightforward' = лесен, ясен. Това е сложна дума (straight + forward). 'However' показва, че не винаги е лесно."
+          },
+          "stem": "STRAIGHT"
+        },
+        {
+          "n": 23,
+          "accept": [
+            "weight"
+          ],
+          "tag": "wf.internal-change",
+          "why": {
+            "en": "After 'the' you need the noun: weigh (verb) → weight (noun).",
+            "bg": "След 'the' трябва съществително: weigh (глагол) → weight (съществително)."
+          },
+          "stem": "WEIGH"
+        },
+        {
+          "n": 24,
+          "accept": [
+            "responsibility"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "After 'a' you need a noun: responsible → responsibility (-ble → -bility).",
+            "bg": "След 'a' трябва съществително: responsible → responsibility (-ble → -bility)."
+          },
+          "stem": "RESPONSIBLE"
+        }
+      ]
+    },
+    {
+      "id": "b2.read.d.p3-2",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 3,
+      "set": "drill",
+      "title": "Playing for a living",
+      "topic": "esports",
+      "status": "draft",
+      "kind": "word-formation",
+      "instructions": "For questions 17–24, read the text below. Use the word given in capitals after each gap to form a word that fits in the gap.",
+      "text": "Playing for a living\n\nTwenty years ago, few people would have believed that video games could become a {{17}} (PROFESSION) sport. Today, competitive gaming, or esports, attracts {{18}} (MILLION) of viewers, and the biggest tournaments fill entire stadiums. {{19}} (COMPETE) for places in the top teams is fierce. Players often train for ten hours a day, and the best teams employ coaches, data analysts and even {{20}} (PSYCHOLOGY) to help them perform under pressure.\n\nDespite this, many people remain {{21}} (CONVINCE) that gaming deserves to be called a sport. They argue that it lacks the {{22}} (PHYSICS) effort of football or tennis. Supporters reply that the speed and {{23}} (ACCURATE) required are just as demanding. Careers are also short: most players are past their best by twenty-five, and {{24}} (RETIRE) can come as a shock.",
+      "questions": [
+        {
+          "n": 17,
+          "accept": [
+            "professional"
+          ],
+          "tag": "wf.adjective-suffix",
+          "why": {
+            "en": "Between 'a' and 'sport' you need an adjective: profession → professional.",
+            "bg": "Между 'a' и 'sport' трябва прилагателно: profession → professional."
+          },
+          "stem": "PROFESSION"
+        },
+        {
+          "n": 18,
+          "accept": [
+            "millions"
+          ],
+          "tag": "wf.plural-agreement",
+          "why": {
+            "en": "'Millions of' = a very large, unspecified number. Without a number before it, 'million' must be plural with 'of'.",
+            "bg": "'Millions of' = огромен, неопределен брой. Без число пред нея 'million' трябва да е в множествено число с 'of'."
+          },
+          "stem": "MILLION"
+        },
+        {
+          "n": 19,
+          "accept": [
+            "competition"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "The gap is the subject of 'is fierce', so you need a noun: compete → competition. 'Competitor' would be a person and doesn't fit 'for places… is fierce'.",
+            "bg": "Празнината е подлог на 'is fierce', затова трябва съществително: compete → competition. 'Competitor' е човек и не пасва на 'for places… is fierce'."
+          },
+          "stem": "COMPETE"
+        },
+        {
+          "n": 20,
+          "accept": [
+            "psychologists"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "The list is of people the teams employ (coaches, analysts), so you need a plural person noun: psychology → psychologists.",
+            "bg": "Изброяват се хора, които отборите наемат (coaches, analysts), затова трябва съществително за човек в множествено число: psychology → psychologists."
+          },
+          "stem": "PSYCHOLOGY"
+        },
+        {
+          "n": 21,
+          "accept": [
+            "unconvinced"
+          ],
+          "tag": "wf.negative-prefix",
+          "why": {
+            "en": "'Despite this' shows doubt, so the meaning is negative: convince → convinced → unconvinced. 'Unconvincing' describes an argument, not people.",
+            "bg": "'Despite this' показва съмнение, затова смисълът е отрицателен: convince → convinced → unconvinced. 'Unconvincing' описва аргумент, не хора."
+          },
+          "stem": "CONVINCE"
+        },
+        {
+          "n": 22,
+          "accept": [
+            "physical"
+          ],
+          "tag": "wf.adjective-suffix",
+          "why": {
+            "en": "Before the noun 'effort' you need an adjective: physics → physical.",
+            "bg": "Пред съществителното 'effort' трябва прилагателно: physics → physical."
+          },
+          "stem": "PHYSICS"
+        },
+        {
+          "n": 23,
+          "accept": [
+            "accuracy"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "'The speed and ___' – the gap is joined to a noun by 'and', so it must be a noun too: accurate → accuracy.",
+            "bg": "'The speed and ___' – празнината е свързана със съществително чрез 'and', затова също трябва съществително: accurate → accuracy."
+          },
+          "stem": "ACCURATE"
+        },
+        {
+          "n": 24,
+          "accept": [
+            "retirement"
+          ],
+          "tag": "wf.noun-suffix",
+          "why": {
+            "en": "The gap is the subject of 'can come', so you need a noun: retire → retirement.",
+            "bg": "Празнината е подлог на 'can come', затова трябва съществително: retire → retirement."
+          },
+          "stem": "RETIRE"
+        }
+      ]
+    },
+    {
+      "id": "b2.read.d.p4-1",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 4,
+      "set": "drill",
+      "title": "Key word transformations 3",
+      "topic": "mixed grammar",
+      "status": "draft",
+      "kind": "kwt",
+      "instructions": "For questions 25–30, complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.",
+      "questions": [
+        {
+          "n": 25,
+          "first": "They have just opened a new gym near my house.",
+          "keyword": "BEEN",
+          "before": "A new gym",
+          "after": "near my house.",
+          "accept": [
+            "has just been opened"
+          ],
+          "chunks": [
+            [
+              "has just been"
+            ],
+            [
+              "opened"
+            ]
+          ],
+          "tag": "uoe.passive",
+          "why": {
+            "en": "Present perfect passive: 'has been + past participle'. 'Just' goes between 'has' and 'been'.",
+            "bg": "Сегашно перфектно в страдателен залог: 'has been + минало причастие'. 'Just' стои между 'has' и 'been'."
+          }
+        },
+        {
+          "n": 26,
+          "first": "'Where did you buy those shoes?' Kate asked me.",
+          "keyword": "WHERE",
+          "before": "Kate asked me",
+          "after": "those shoes.",
+          "accept": [
+            "where I had bought",
+            "where I'd bought",
+            "where I bought"
+          ],
+          "chunks": [
+            [
+              "where I"
+            ],
+            [
+              "had bought",
+              "'d bought",
+              "bought"
+            ]
+          ],
+          "tag": "uoe.reported-speech",
+          "why": {
+            "en": "Reported questions use statement word order (where I had bought), not question order (where did I buy). The tense moves back to the past perfect, though the past simple is also accepted.",
+            "bg": "Непреките въпроси имат словоред на твърдение (where I had bought), а не на въпрос (where did I buy). Времето се измества към минало перфектно, но и минало просто се приема."
+          }
+        },
+        {
+          "n": 27,
+          "first": "It isn't necessary for you to bring food to the party.",
+          "keyword": "NEED",
+          "before": "You",
+          "after": "food to the party.",
+          "accept": [
+            "don't need to bring",
+            "do not need to bring",
+            "need not bring"
+          ],
+          "chunks": [
+            [
+              "don't need",
+              "do not need",
+              "need not"
+            ],
+            [
+              "bring"
+            ]
+          ],
+          "tag": "uoe.modals",
+          "why": {
+            "en": "Lack of necessity: 'don't need to + infinitive' (or formal 'need not + infinitive'). 'Mustn't bring' would mean it is forbidden.",
+            "bg": "Липса на необходимост: 'don't need to + инфинитив' (или официално 'need not + инфинитив'). 'Mustn't bring' би значело, че е забранено."
+          }
+        },
+        {
+          "n": 28,
+          "first": "The test was so difficult that nobody finished it.",
+          "keyword": "SUCH",
+          "before": "It was",
+          "after": "that nobody finished it.",
+          "accept": [
+            "such a difficult test"
+          ],
+          "chunks": [
+            [
+              "such a"
+            ],
+            [
+              "difficult test"
+            ]
+          ],
+          "tag": "uoe.articles-determiners",
+          "why": {
+            "en": "'Such + a + adjective + noun + that'. 'So' goes with an adjective alone; 'such' needs a noun and the article 'a'.",
+            "bg": "'Such + a + прилагателно + съществително + that'. 'So' върви само с прилагателно, а 'such' иска съществително и член 'a'."
+          }
+        },
+        {
+          "n": 29,
+          "first": "I didn't take an umbrella, so I got wet.",
+          "keyword": "IF",
+          "before": "I wouldn't have got wet",
+          "after": "an umbrella.",
+          "accept": [
+            "if I had taken",
+            "if I'd taken",
+            "if I had brought",
+            "if I'd brought"
+          ],
+          "chunks": [
+            [
+              "if I had",
+              "if I'd"
+            ],
+            [
+              "taken",
+              "brought"
+            ]
+          ],
+          "tag": "uoe.conditionals",
+          "why": {
+            "en": "Third conditional for an imaginary past: 'if + past perfect, would have + past participle'. 'If I took' is a second conditional and refers to the present.",
+            "bg": "Трето условно за въображаемо минало: 'if + минало перфектно, would have + минало причастие'. 'If I took' е второ условно и се отнася до настоящето."
+          }
+        },
+        {
+          "n": 30,
+          "first": "Sam was raised by his grandparents.",
+          "keyword": "BROUGHT",
+          "before": "Sam",
+          "after": "by his grandparents.",
+          "accept": [
+            "was brought up"
+          ],
+          "chunks": [
+            [
+              "was brought"
+            ],
+            [
+              "up"
+            ]
+          ],
+          "tag": "uoe.phrasal-verbs",
+          "why": {
+            "en": "'Bring up' = raise a child. The passive 'was brought up by' keeps Sam as the subject.",
+            "bg": "'Bring up' = отглеждам дете. Страдателният залог 'was brought up by' запазва Sam като подлог."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.read.d.p4-2",
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 4,
+      "set": "drill",
+      "title": "Key word transformations 4",
+      "topic": "mixed grammar",
+      "status": "draft",
+      "kind": "kwt",
+      "instructions": "For questions 25–30, complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.",
+      "questions": [
+        {
+          "n": 25,
+          "first": "Driving on the left doesn't feel strange to me any more.",
+          "keyword": "USED",
+          "before": "I've",
+          "after": "on the left.",
+          "accept": [
+            "got used to driving",
+            "become used to driving",
+            "gotten used to driving"
+          ],
+          "chunks": [
+            [
+              "got used to",
+              "become used to",
+              "gotten used to"
+            ],
+            [
+              "driving"
+            ]
+          ],
+          "tag": "uoe.verb-patterns",
+          "why": {
+            "en": "'Get used to + -ing' = become familiar with. After 'I've' you need the past participle 'got'. 'Used to drive' would describe a past habit.",
+            "bg": "'Get used to + -ing' = свиквам с. След 'I've' трябва минало причастие 'got'. 'Used to drive' описва минал навик."
+          }
+        },
+        {
+          "n": 26,
+          "first": "It's a pity I can't speak Japanese.",
+          "keyword": "WISH",
+          "before": "I",
+          "after": "Japanese.",
+          "accept": [
+            "wish I could speak",
+            "wish I spoke"
+          ],
+          "chunks": [
+            [
+              "wish I"
+            ],
+            [
+              "could speak",
+              "spoke"
+            ]
+          ],
+          "tag": "uoe.wish-regret",
+          "why": {
+            "en": "A wish about the present uses a past form: 'wish I could speak' (or 'wish I spoke'). 'Wish I can speak' is wrong.",
+            "bg": "Желание за настоящето използва минала форма: 'wish I could speak' (или 'wish I spoke'). 'Wish I can speak' е грешно."
+          }
+        },
+        {
+          "n": 27,
+          "first": "'Why don't we go to the beach?' said Mia.",
+          "keyword": "SUGGESTED",
+          "before": "Mia",
+          "after": "to the beach.",
+          "accept": [
+            "suggested going",
+            "suggested that we go",
+            "suggested we go",
+            "suggested that we should go",
+            "suggested we should go",
+            "suggested that we went",
+            "suggested we went"
+          ],
+          "chunks": [
+            [
+              "suggested"
+            ],
+            [
+              "going",
+              "we go",
+              "we should go",
+              "we went"
+            ]
+          ],
+          "tag": "uoe.reported-speech",
+          "why": {
+            "en": "'Suggest + -ing' or 'suggest (that) + subject + (should) verb'. 'Suggested us to go' is a very common mistake – 'suggest' never takes object + to-infinitive.",
+            "bg": "'Suggest + -ing' или 'suggest (that) + подлог + (should) глагол'. 'Suggested us to go' е много честа грешка – 'suggest' никога не се ползва с допълнение + to-инфинитив."
+          }
+        },
+        {
+          "n": 28,
+          "first": "You must wear a helmet on the building site.",
+          "keyword": "BE",
+          "before": "Helmets",
+          "after": "on the building site.",
+          "accept": [
+            "must be worn"
+          ],
+          "chunks": [
+            [
+              "must be"
+            ],
+            [
+              "worn"
+            ]
+          ],
+          "tag": "uoe.passive",
+          "why": {
+            "en": "Modal passive: 'modal + be + past participle'. The past participle of 'wear' is 'worn'.",
+            "bg": "Страдателен залог с модален глагол: 'модален + be + минало причастие'. Миналото причастие на 'wear' е 'worn'."
+          }
+        },
+        {
+          "n": 29,
+          "first": "You can borrow my car if you promise to drive carefully.",
+          "keyword": "LONG",
+          "before": "You can borrow my car",
+          "after": "to drive carefully.",
+          "accept": [
+            "as long as you promise",
+            "so long as you promise"
+          ],
+          "chunks": [
+            [
+              "as long as",
+              "so long as"
+            ],
+            [
+              "you promise"
+            ]
+          ],
+          "tag": "uoe.conditionals",
+          "why": {
+            "en": "'As long as' = only if (a condition). It's followed by the present simple, just like 'if'.",
+            "bg": "'As long as' = само ако (условие). След него идва сегашно просто, точно като след 'if'."
+          }
+        },
+        {
+          "n": 30,
+          "first": "I've never been to a city as exciting as Tokyo.",
+          "keyword": "MOST",
+          "before": "Tokyo is",
+          "after": "I've ever been to.",
+          "accept": [
+            "the most exciting city"
+          ],
+          "chunks": [
+            [
+              "the most exciting"
+            ],
+            [
+              "city"
+            ]
+          ],
+          "tag": "uoe.comparison",
+          "why": {
+            "en": "'Never… as exciting as' = 'the most exciting… I've ever…'. Superlatives need 'the', and you must keep the noun 'city'.",
+            "bg": "'Never… as exciting as' = 'the most exciting… I've ever…'. Превъзходната степен иска 'the', и трябва да запазиш съществителното 'city'."
+          }
+        }
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 1,
+      "tests": {
+        "en": "Part 1 (questions 1–8) tests vocabulary: the exact meaning of words, collocations (which words go together), fixed phrases, phrasal verbs and what grammar follows a word (e.g. 'insist on', 'allow somebody to'). All four options are usually real words with similar meanings – only one fits the context and the words around the gap.",
+        "bg": "Част 1 (въпроси 1–8) проверява речника: точното значение на думите, колокациите (кои думи вървят заедно), устойчивите изрази, фразовите глаголи и каква граматика следва след дадена дума (напр. 'insist on', 'allow somebody to'). Четирите варианта обикновено са истински думи с близко значение – само един пасва на контекста и на думите около празнината."
+      },
+      "strategy": [
+        {
+          "en": "Read the whole text quickly first for the general meaning, without stopping at the gaps.",
+          "bg": "Първо прочети целия текст бързо, за да схванеш общия смисъл, без да спираш на празнините."
+        },
+        {
+          "en": "For each gap, look at the words immediately before AND after it: a preposition, 'to', '-ing' or a noun after the gap often decides the answer.",
+          "bg": "За всяка празнина гледай думите непосредствено преди И след нея: предлог, 'to', '-ing' или съществително след празнината често решават отговора."
+        },
+        {
+          "en": "Try each option in the sentence and eliminate the ones that are wrong in meaning, collocation or grammar. Say it in your head – the natural phrase usually 'sounds' right.",
+          "bg": "Пробвай всеки вариант в изречението и изключи тези, които са грешни по смисъл, колокация или граматика. Кажи го наум – естественият израз обикновено 'звучи' правилно."
+        },
+        {
+          "en": "Never leave a gap empty – there is no penalty for a wrong answer.",
+          "bg": "Никога не оставяй празнина без отговор – за грешен отговор не се отнемат точки."
+        }
+      ],
+      "example": {
+        "question": "Many farmers have ___ up growing coffee in favour of other crops.  A taken  B given  C put  D set",
+        "steps": [
+          {
+            "en": "The word after the gap is 'up', so you need a phrasal verb: take up, give up, put up, set up are all real.",
+            "bg": "След празнината е 'up', значи трябва фразов глагол: take up, give up, put up, set up – всички съществуват."
+          },
+          {
+            "en": "'In favour of other crops' tells you the farmers STOPPED growing coffee.",
+            "bg": "'In favour of other crops' ти казва, че фермерите са СПРЕЛИ да отглеждат кафе."
+          },
+          {
+            "en": "'Give up' = stop doing something. 'Take up' is the trap: it means START doing something, the opposite. 'Put up' and 'set up' don't mean stop.",
+            "bg": "'Give up' = спирам да правя нещо. 'Take up' е капанът: означава ЗАПОЧВАМ – обратното. 'Put up' и 'set up' не значат 'спирам'."
+          }
+        ],
+        "answer": "B (given)"
+      },
+      "pitfalls": [
+        {
+          "en": "Choosing a word because it has the right meaning in Bulgarian, while ignoring collocation: 'make a mistake', not 'do a mistake'.",
+          "bg": "Да избереш дума, защото значението ѝ на български е правилно, без да внимаваш за колокацията: 'make a mistake', а не 'do a mistake'."
+        },
+        {
+          "en": "Ignoring the word after the gap – 'sensitive TO', 'regarded AS', 'consist OF' – which often rules out two or three options.",
+          "bg": "Да пренебрегнеш думата след празнината – 'sensitive TO', 'regarded AS', 'consist OF' – която често изключва два-три варианта."
+        },
+        {
+          "en": "Falling for false friends such as 'sensible' (= разумен), 'actual' (= действителен) or 'eventually' (= в крайна сметка).",
+          "bg": "Да се подлъжеш по фалшиви приятели като 'sensible' (= разумен), 'actual' (= действителен) или 'eventually' (= в крайна сметка)."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 2,
+      "tests": {
+        "en": "Part 2 (questions 9–16) is an open cloze: you write ONE word in each gap, with no options. It mainly tests grammar words – prepositions, articles, pronouns, auxiliary verbs, linking words, relative pronouns, quantifiers – plus parts of fixed phrases and phrasal verbs.",
+        "bg": "Част 2 (въпроси 9–16) е отворен текст с празнини: пишеш ЕДНА дума във всяка празнина, без варианти. Проверява главно граматически думи – предлози, членове, местоимения, спомагателни глаголи, свързващи думи, относителни местоимения, количествени думи – както и части от устойчиви изрази и фразови глаголи."
+      },
+      "strategy": [
+        {
+          "en": "Read the whole text first to understand the topic and the tense the writer is using.",
+          "bg": "Първо прочети целия текст, за да разбереш темата и времето, което авторът използва."
+        },
+        {
+          "en": "For each gap, decide what TYPE of word is missing (preposition? pronoun? auxiliary? linker?) by looking at the grammar of the whole sentence.",
+          "bg": "За всяка празнина реши какъв ТИП дума липсва (предлог? местоимение? спомагателен глагол? свързваща дума?), като гледаш граматиката на цялото изречение."
+        },
+        {
+          "en": "Look for set patterns: 'so… that', 'such a… that', 'more… than', 'not only… but also', 'turn out to be', 'have to do with'.",
+          "bg": "Търси устойчиви конструкции: 'so… that', 'such a… that', 'more… than', 'not only… but also', 'turn out to be', 'have to do with'."
+        },
+        {
+          "en": "When you finish, read the completed text again and check spelling – a misspelt word scores zero.",
+          "bg": "Накрая прочети целия попълнен текст отново и провери правописа – сгрешена дума носи нула точки."
+        }
+      ],
+      "example": {
+        "question": "Experts suggest starting with a task ___ small that it feels almost silly to avoid it.",
+        "steps": [
+          {
+            "en": "After the gap comes an adjective ('small'), and later 'that' + a result. That points to the pattern 'so + adjective + that'.",
+            "bg": "След празнината идва прилагателно ('small'), а по-нататък 'that' + резултат. Това сочи към конструкцията 'so + прилагателно + that'."
+          },
+          {
+            "en": "'Such' is tempting, but 'such' needs a noun phrase: 'such a small task that…'. Here the noun 'task' comes BEFORE the gap, so 'such' is impossible.",
+            "bg": "'Such' е изкушаващо, но 'such' иска съществително: 'such a small task that…'. Тук съществителното 'task' е ПРЕДИ празнината, затова 'such' е невъзможно."
+          }
+        ],
+        "answer": "so"
+      },
+      "pitfalls": [
+        {
+          "en": "Writing two words (e.g. 'a lot' or 'in order') – only one word is allowed, and contractions like 'don't' count as two.",
+          "bg": "Да напишеш две думи (напр. 'a lot' или 'in order') – позволена е само една, а съкращения като 'don't' се броят за две."
+        },
+        {
+          "en": "Putting in a content word (noun, adjective) when the grammar needs a function word.",
+          "bg": "Да сложиш пълнозначна дума (съществително, прилагателно), когато граматиката иска служебна дума."
+        },
+        {
+          "en": "Looking only at the words next to the gap: the answer often depends on something earlier in the sentence (e.g. 'not because… but precisely ___ we do').",
+          "bg": "Да гледаш само съседните думи: отговорът често зависи от нещо по-рано в изречението (напр. 'not because… but precisely ___ we do')."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 3,
+      "tests": {
+        "en": "Part 3 (questions 17–24) tests word formation. You change the word in CAPITALS so it fits the gap: a noun into an adjective, a verb into a noun, add a negative prefix, make an adverb, a plural, a person noun, and so on.",
+        "bg": "Част 3 (въпроси 17–24) проверява словообразуването. Променяш думата с ГЛАВНИ букви, така че да пасне на празнината: съществително в прилагателно, глагол в съществително, добавяш отрицателна представка, правиш наречие, множествено число, съществително за човек и т.н."
+      },
+      "strategy": [
+        {
+          "en": "Decide the word CLASS first: after 'a/the/my' you usually need a noun; before a noun an adjective; next to a verb or adjective an adverb.",
+          "bg": "Първо реши ЧАСТТА НА РЕЧТА: след 'a/the/my' обикновено трябва съществително; пред съществително – прилагателно; до глагол или прилагателно – наречие."
+        },
+        {
+          "en": "Then check the MEANING: is it negative (un-, in-, im-, dis-, mis-)? Is it a person (-er, -ist, -ian)? The rest of the sentence ('however', 'despite this', 'but') often tells you.",
+          "bg": "После провери СМИСЪЛА: отрицателен ли е (un-, in-, im-, dis-, mis-)? Човек ли е (-er, -ist, -ian)? Останалата част от изречението ('however', 'despite this', 'but') често подсказва."
+        },
+        {
+          "en": "Check GRAMMAR: singular or plural? Does a verb need -ed, -ing or -s?",
+          "bg": "Провери ГРАМАТИКАТА: единствено или множествено число? Трябва ли на глагола -ed, -ing или -s?"
+        },
+        {
+          "en": "Check SPELLING carefully – internal changes like 'long → length', 'vary → variety', 'visible → visibility' are common.",
+          "bg": "Провери ВНИМАТЕЛНО ПРАВОПИСА – вътрешни промени като 'long → length', 'vary → variety', 'visible → visibility' са чести."
+        }
+      ],
+      "example": {
+        "question": "Despite this, many people remain ___ (CONVINCE) that gaming deserves to be called a sport.",
+        "steps": [
+          {
+            "en": "After 'remain' you need an adjective describing people.",
+            "bg": "След 'remain' трябва прилагателно, което описва хора."
+          },
+          {
+            "en": "'Despite this' shows doubt, so the meaning is negative: they are NOT convinced.",
+            "bg": "'Despite this' показва съмнение, значи смисълът е отрицателен: те НЕ са убедени."
+          },
+          {
+            "en": "convince → convinced → unconvinced. 'Unconvincing' is wrong: it describes an argument, not a person's feeling.",
+            "bg": "convince → convinced → unconvinced. 'Unconvincing' е грешно: описва аргумент, а не чувство на човек."
+          }
+        ],
+        "answer": "unconvinced"
+      },
+      "pitfalls": [
+        {
+          "en": "Forgetting a negative prefix when the context is clearly negative – you will usually need at least one or two in a text.",
+          "bg": "Да забравиш отрицателна представка, когато контекстът е явно отрицателен – обикновено в текста има поне една-две."
+        },
+        {
+          "en": "Forgetting a plural -s ('millions of viewers', 'psychologists') – the word is right but the mark is lost.",
+          "bg": "Да забравиш -s за множествено число ('millions of viewers', 'psychologists') – думата е вярна, но точката се губи."
+        },
+        {
+          "en": "Confusing -ed and -ing adjectives: 'encouraged' people, but 'encouraging' results.",
+          "bg": "Да объркаш прилагателни на -ed и -ing: 'encouraged' хора, но 'encouraging' резултати."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 4,
+      "tests": {
+        "en": "Part 4 (questions 25–30) is key word transformation. You complete a second sentence so that it means the same as the first, using the given word without changing it, in 2–5 words. It tests grammar (passive, reported speech, conditionals, wish, modals, comparison) and vocabulary (phrasal verbs, fixed phrases). Each answer is worth 2 marks – one for each part.",
+        "bg": "Част 4 (въпроси 25–30) е трансформация с ключова дума. Допълваш второ изречение така, че да означава същото като първото, като използваш дадената дума без да я променяш, в 2–5 думи. Проверява граматика (страдателен залог, непряка реч, условни изречения, wish, модални глаголи, сравнение) и речник (фразови глаголи, устойчиви изрази). Всеки отговор носи 2 точки – по една за всяка част."
+      },
+      "strategy": [
+        {
+          "en": "Read the first sentence and identify exactly what it means – the time, who does what, and whether it is positive or negative.",
+          "bg": "Прочети първото изречение и определи точно какво значи – времето, кой какво прави и дали е утвърдително или отрицателно."
+        },
+        {
+          "en": "Look at the key word and ask which structure it belongs to: SAID → 'is said to'; WISH → past form; UNLESS/IF → condition; TOO → 'too + adjective + to'.",
+          "bg": "Погледни ключовата дума и се запитай към коя конструкция принадлежи: SAID → 'is said to'; WISH → минала форма; UNLESS/IF → условие; TOO → 'too + прилагателно + to'."
+        },
+        {
+          "en": "Look carefully at the words after the gap – they show what grammar must come before them.",
+          "bg": "Погледни внимателно думите след празнината – те показват каква граматика трябва да е преди тях."
+        },
+        {
+          "en": "Count your words (contractions count as two) and check that you haven't changed the key word or the meaning.",
+          "bg": "Преброй думите (съкращенията се броят за две) и провери дали не си променил ключовата дума или смисъла."
+        }
+      ],
+      "example": {
+        "question": "People say that the new bridge cost twice as much as planned. (SAID)  The new bridge ___ twice as much as planned.",
+        "steps": [
+          {
+            "en": "'People say that…' with the thing as the subject → impersonal passive: 'The bridge is said to…'.",
+            "bg": "'People say that…', а подлогът е предметът → безличен страдателен залог: 'The bridge is said to…'."
+          },
+          {
+            "en": "'Say' is present (is said), but the cost was in the past, so you need a perfect infinitive: 'to have cost'.",
+            "bg": "'Say' е в сегашно време (is said), но цената е в миналото, затова трябва перфектен инфинитив: 'to have cost'."
+          },
+          {
+            "en": "Count: is / said / to / have / cost = 5 words. Mark 1 for 'is said', mark 2 for 'to have cost'.",
+            "bg": "Брой: is / said / to / have / cost = 5 думи. Една точка за 'is said', втора за 'to have cost'."
+          }
+        ],
+        "answer": "is said to have cost"
+      },
+      "pitfalls": [
+        {
+          "en": "Changing the key word (e.g. writing 'says' when the word given is SAID) – this scores zero.",
+          "bg": "Да промениш ключовата дума (напр. 'says', когато е дадено SAID) – това носи нула точки."
+        },
+        {
+          "en": "Using more than five words, or changing the meaning slightly (e.g. losing 'just', 'still' or the time reference).",
+          "bg": "Да използваш повече от пет думи или леко да промениш смисъла (напр. да изпуснеш 'just', 'still' или указанието за време)."
+        },
+        {
+          "en": "Forgetting small words that complete a structure: the 'with' in 'put up with', the second 'as' in 'not as… as', the person after 'advised'.",
+          "bg": "Да забравиш малки думи, които завършват конструкцията: 'with' в 'put up with', второто 'as' в 'not as… as', човека след 'advised'."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 5,
+      "tests": {
+        "en": "Part 5 (questions 31–36) is one long text (a magazine article or a fiction extract) with six four-option questions. It tests detail, the writer's opinion and attitude, implication, purpose, tone, reference and the meaning of words in context. The questions follow the order of the text; the last one may test the text as a whole.",
+        "bg": "Част 5 (въпроси 31–36) е един дълъг текст (статия или откъс от художествена литература) с шест въпроса с по четири варианта. Проверява детайли, мнението и отношението на автора, подтекст, цел, тон, препратки и значение на думи в контекст. Въпросите следват реда на текста; последният може да е за текста като цяло."
+      },
+      "strategy": [
+        {
+          "en": "Read the text quickly once for the general idea before you look at the options.",
+          "bg": "Прочети текста веднъж бързо за общата идея, преди да гледаш вариантите."
+        },
+        {
+          "en": "For each question, read only the question stem (not the options) and find the part of the text it refers to. Read that part carefully.",
+          "bg": "За всеки въпрос прочети само въпроса (без вариантите) и намери частта от текста, за която се отнася. Прочети я внимателно."
+        },
+        {
+          "en": "Try to answer in your own words, then choose the option that matches your answer in meaning – not the one that repeats words from the text.",
+          "bg": "Опитай се да отговориш със свои думи, после избери варианта, който съвпада по смисъл – а не този, който повтаря думи от текста."
+        },
+        {
+          "en": "For each option you reject, find the reason in the text: it is not said, it says the opposite, or it is true but doesn't answer the question.",
+          "bg": "За всеки отхвърлен вариант намери причината в текста: не е казано, казано е обратното, или е вярно, но не отговаря на въпроса."
+        }
+      ],
+      "example": {
+        "question": "Text: 'He still comes in most mornings, supposedly to collect his post.' — What does 'supposedly' suggest?  A He doesn't trust her.  B He no longer gets post at home.  C The writer doubts the reason he gives.  D The writer wants him to stay at home.",
+        "steps": [
+          {
+            "en": "'Supposedly' = what someone claims, which may not be the real reason.",
+            "bg": "'Supposedly' = уж, това, което някой твърди, но може да не е истинската причина."
+          },
+          {
+            "en": "The text goes on: he stays until lunchtime and watches her work – so the post is only an excuse.",
+            "bg": "Текстът продължава: той стои до обяд и я гледа как работи – значи пощата е само претекст."
+          },
+          {
+            "en": "A and D are not supported (he nods approvingly; she doesn't complain); B takes 'post' too literally.",
+            "bg": "A и D не се подкрепят от текста (той кима одобрително, тя не се оплаква); B разбира 'post' твърде буквално."
+          }
+        ],
+        "answer": "C"
+      },
+      "pitfalls": [
+        {
+          "en": "Choosing an option because it contains the same words as the text – the correct answer usually paraphrases.",
+          "bg": "Да избереш вариант, защото съдържа същите думи като текста – верният отговор обикновено перифразира."
+        },
+        {
+          "en": "Choosing something that is true in real life or seems logical, but isn't stated in the text.",
+          "bg": "Да избереш нещо, което е вярно в реалния живот или изглежда логично, но не е казано в текста."
+        },
+        {
+          "en": "Confusing a character's first impression with what the writer later realises (e.g. 'At the time I thought… Only later I understood…').",
+          "bg": "Да объркаш първото впечатление на героя с това, което авторът осъзнава по-късно (напр. 'At the time I thought… Only later I understood…')."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 6,
+      "tests": {
+        "en": "Part 6 (questions 37–42) is a gapped text: six sentences have been removed from an article, and you choose the right one for each gap from seven options (one is extra). It tests how a text holds together – reference words, linking words, the logical order of ideas.",
+        "bg": "Част 6 (въпроси 37–42) е текст с празнини: шест изречения са извадени от статия и трябва да избереш правилното за всяка празнина от седем варианта (един е излишен). Проверява как текстът се свързва – препращащи думи, свързващи думи, логическия ред на идеите."
+      },
+      "strategy": [
+        {
+          "en": "Read the main text first, ignoring the gaps, to understand the story or argument.",
+          "bg": "Първо прочети основния текст, без да обръщаш внимание на празнините, за да разбереш историята или аргумента."
+        },
+        {
+          "en": "Read the text before AND after each gap. The missing sentence must connect to both.",
+          "bg": "Прочети текста преди И след всяка празнина. Липсващото изречение трябва да се свързва и с двете."
+        },
+        {
+          "en": "Underline clues in the options: pronouns (this, they, them, both, neither), linkers (however, also, so, on the one hand) and repeated or related words.",
+          "bg": "Подчертай подсказките във вариантите: местоимения (this, they, them, both, neither), свързващи думи (however, also, so, on the one hand) и повторени или свързани думи."
+        },
+        {
+          "en": "At the end, read the whole text with your answers and check the extra sentence really fits nowhere.",
+          "bg": "Накрая прочети целия текст с отговорите си и провери, че излишното изречение наистина не пасва никъде."
+        }
+      ],
+      "example": {
+        "question": "'I may not be strong or fast, but I am patient, and I am stubborn. ___ I would stand at the bottom of a route for minutes at a time, working out where each hand and foot should go.'  Options: 'Both of these qualities turn out to be extremely valuable on a climbing wall.' / 'Unfortunately, neither of these qualities was much use to me at first.'",
+        "steps": [
+          {
+            "en": "Both options refer back to two qualities – 'patient' and 'stubborn' – so reference words alone don't decide it.",
+            "bg": "И двата варианта препращат към две качества – 'patient' и 'stubborn' – затова само препращащите думи не решават въпроса."
+          },
+          {
+            "en": "Look at meaning: the paragraph starts 'This suited me surprisingly well', and the next sentence shows patience helping. So the qualities WERE useful.",
+            "bg": "Виж смисъла: абзацът започва с 'This suited me surprisingly well', а следващото изречение показва как търпението помага. Значи качествата СА полезни."
+          },
+          {
+            "en": "'Neither… was much use' contradicts this, so it is the distractor.",
+            "bg": "'Neither… was much use' противоречи на това, значи е капанът."
+          }
+        ],
+        "answer": "Both of these qualities turn out to be extremely valuable on a climbing wall."
+      },
+      "pitfalls": [
+        {
+          "en": "Matching only on a single repeated word and ignoring whether the meaning fits the whole paragraph.",
+          "bg": "Да избереш само по една повторена дума, без да провериш дали смисълът пасва на целия абзац."
+        },
+        {
+          "en": "Checking only the text before the gap and not the sentence after it.",
+          "bg": "Да провериш само текста преди празнината, а не и изречението след нея."
+        },
+        {
+          "en": "Not going back to change an earlier answer when a later gap needs that sentence – each option fits only one gap.",
+          "bg": "Да не се върнеш да промениш по-ранен отговор, когато по-късна празнина се нуждае от същото изречение – всеки вариант пасва само на една празнина."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "reading",
+      "part": 7,
+      "tests": {
+        "en": "Part 7 (questions 43–52) is multiple matching: one text in four sections or four short texts, and ten statements. You decide which section each statement refers to. It tests finding specific information, detail, opinion and attitude quickly – it's a scanning task.",
+        "bg": "Част 7 (въпроси 43–52) е множествено съпоставяне: един текст в четири части или четири кратки текста и десет твърдения. Решаваш към коя част се отнася всяко твърдение. Проверява бързото намиране на конкретна информация, детайли, мнение и отношение – това е задача за бързо търсене."
+      },
+      "strategy": [
+        {
+          "en": "Read the ten statements first and underline the key idea in each (e.g. 'a cut in pay', 'a relative's response').",
+          "bg": "Първо прочети десетте твърдения и подчертай ключовата идея във всяко (напр. 'a cut in pay', 'a relative's response')."
+        },
+        {
+          "en": "Read each section and, as you go, note which statements it might answer.",
+          "bg": "Прочети всяка част и, докато четеш, отбелязвай на кои твърдения може да отговаря."
+        },
+        {
+          "en": "Expect paraphrase: 'a cut in pay' may appear as 'my salary is less than half what it was'.",
+          "bg": "Очаквай перифраза: 'a cut in pay' може да се появи като 'my salary is less than half what it was'."
+        },
+        {
+          "en": "When two sections seem possible, compare them carefully – one usually only mentions the topic, while the other matches the exact statement.",
+          "bg": "Когато две части изглеждат възможни, сравни ги внимателно – едната обикновено само споменава темата, а другата съвпада точно с твърдението."
+        }
+      ],
+      "example": {
+        "question": "Which person took a significant cut in pay?  (A Lena: 'It was a secure job…'; B Tomás: 'Financially, I'm actually better off now…'; C Priya: 'My salary is now less than half what it was.')",
+        "steps": [
+          {
+            "en": "The key idea is 'earning much less money than before'.",
+            "bg": "Ключовата идея е 'изкарва много по-малко пари от преди'."
+          },
+          {
+            "en": "Tomás also talks about money, but says he is 'better off' – the opposite.",
+            "bg": "Томаш също говори за пари, но казва, че е 'better off' – обратното."
+          },
+          {
+            "en": "Priya's 'less than half what it was' is a paraphrase of 'a significant cut in pay'.",
+            "bg": "'Less than half what it was' на Прия е перифраза на 'a significant cut in pay'."
+          }
+        ],
+        "answer": "C (Priya)"
+      },
+      "pitfalls": [
+        {
+          "en": "Choosing a section just because it mentions the same topic (money, family, work) without checking that it says exactly what the statement says.",
+          "bg": "Да избереш част само защото споменава същата тема (пари, семейство, работа), без да провериш дали казва точно същото като твърдението."
+        },
+        {
+          "en": "Spending too long on one statement – move on and come back; the answers are not in text order.",
+          "bg": "Да се бавиш твърде много на едно твърдение – продължи и се върни; отговорите не са по реда на текста."
+        },
+        {
+          "en": "Assuming each section is used the same number of times – some sections may answer three or four statements, others only two.",
+          "bg": "Да приемеш, че всяка част се използва еднакъв брой пъти – някои части може да отговарят на три-четири твърдения, други само на две."
+        }
+      ]
+    }
+  ],
+  "lessons": []
+}

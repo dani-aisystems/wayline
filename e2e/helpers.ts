@@ -64,7 +64,7 @@ const bankFile = new URL("../src/content/diagnostic/bank.json", import.meta.url)
 export const diag: DiagItem[] = JSON.parse(readFileSync(bankFile, "utf8")).items;
 
 /** Pick explanation language, then the onboarding questions. Learners who can read go on to the level test. */
-export async function onboard(page: Page, opts: { canRead: boolean; lang?: "en" | "bg"; minutes?: 10 | 20 | 30 | 45; self?: number }) {
+export async function onboard(page: Page, opts: { canRead: boolean; lang?: "en" | "bg"; minutes?: 10 | 20 | 30 | 45; self?: number; cert?: "b2-first" | "c1-advanced"; examDate?: string }) {
   await page.goto("/");
   if (opts.lang === "bg") await page.getByRole("radio", { name: /Български/ }).check();
   else await page.getByRole("radio", { name: /English only/ }).check();
@@ -80,8 +80,16 @@ export async function onboard(page: Page, opts: { canRead: boolean; lang?: "en" 
   };
   await pick(opts.canRead ? 0 : 1);
   await next.click();
-  await pick(0); // goal
-  await next.click();
+  if (opts.cert) {
+    await pick(6); // goal: prepare for a Cambridge exam
+    await next.click();
+    await page.locator(".ex-exam-card", { hasText: opts.cert === "c1-advanced" ? "C1 Advanced" : "B2 First" }).click();
+    if (opts.examDate) await page.getByLabel("Exam date (if booked)").fill(opts.examDate);
+    await page.locator(".ex-setup").getByRole("button", { name: "Next" }).click();
+  } else {
+    await pick(0); // goal
+    await next.click();
+  }
   await next.click(); // skills (optional)
   await next.click(); // interests (optional)
   const minutes = [10, 20, 30, 45].indexOf(opts.minutes ?? 10);

@@ -11,8 +11,12 @@ const NAV: { to: string; label: StringKey; icon: string }[] = [
   { to: "/settings", label: "nav.settings", icon: "M4 7h10M18 7h2M4 17h4M12 17h8M14 5v4M8 15v4" },
 ];
 
+const EXAM_NAV = { to: "/exam", label: "nav.exam" as StringKey, icon: "M4 6l8-3 8 3-8 3zM7 8v5c0 1.7 2.2 3 5 3s5-1.3 5-3V8M20 6v6" };
+
 export function Shell() {
-  const { t } = useProfile();
+  const { t, profile } = useProfile();
+  // Certification learners get an Exam tab; general learners see no change.
+  const nav = profile?.track === "exam" ? [NAV[0], EXAM_NAV, ...NAV.slice(1)] : NAV;
   return (
     <div className="shell">
       <a className="skip-link" href="#main">{t("app.skip")}</a>
@@ -21,7 +25,7 @@ export function Shell() {
           <Wordmark height={26} />
         </NavLink>
         <nav className="shell-nav" aria-label={t("nav.main")}>
-          {NAV.map((n) => (
+          {nav.map((n) => (
             <NavLink key={n.to} to={n.to} className="shell-link">
               <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
                 <path d={n.icon} fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />

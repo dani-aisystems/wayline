@@ -1,0 +1,1577 @@
+{
+  "id": "b2-listening",
+  "tasks": [
+    {
+      "id": "b2.listen.m1.p1",
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 1,
+      "set": "mock-1",
+      "title": "Eight short extracts",
+      "topic": "Everyday situations",
+      "instructions": "You will hear people talking in eight different situations. For questions 1–8, choose the best answer (A, B or C).",
+      "status": "draft",
+      "kind": "listen-mc",
+      "extracts": [
+        {
+          "context": "You hear a man talking about a phone app for identifying birds.",
+          "speakers": [
+            {
+              "name": "Owen",
+              "presents": "male",
+              "accent": "GB"
+            }
+          ],
+          "script": "I'd been meaning to learn more about birds for years, and a friend suggested this app that recognises them from their song. I assumed it'd be fiddly, but actually you just hold up your phone and it does the rest. It isn't perfect — it once told me a car alarm was a blackbird — so I still double-check with my old book. What's surprised me is that I'm now out in the woods every Saturday morning, when I used to spend weekends in front of the TV.",
+          "questions": [
+            {
+              "n": 1,
+              "question": "What does he say about the app?",
+              "options": [
+                "It is more reliable than his bird book.",
+                "It has changed how he spends his weekends.",
+                "It took him a while to learn how to use it."
+              ],
+              "correct": 1,
+              "tag": "listen.detail",
+              "why": {
+                "en": "He says that now he is \"out in the woods every Saturday morning\", when he \"used to spend weekends in front of the TV\" — the app changed his weekends. A is wrong: it \"isn't perfect\", so he still checks his book. C is wrong: he expected it to be fiddly, but \"you just hold up your phone\".",
+                "bg": "Той казва, че вече е \"out in the woods every Saturday morning\", а преди е прекарвал уикендите пред телевизора — приложението е променило уикендите му. A е грешно: то \"isn't perfect\" и той пак проверява в книгата. C е грешно: очаквал е да е сложно, но \"you just hold up your phone\"."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear two friends talking about a concert they went to.",
+          "speakers": [
+            {
+              "name": "Jess",
+              "presents": "female",
+              "accent": "US"
+            },
+            {
+              "name": "Marco",
+              "presents": "male",
+              "accent": "GB"
+            }
+          ],
+          "script": "Jess: So what did you make of last night? I thought the band were brilliant, even if the sound was a bit muddy at the back.\nMarco: Really? Where we were standing it was crystal clear. I'd say it was the best I've heard them.\nJess: Well, I'm not complaining, given what we paid — though I know you thought the tickets were steep.\nMarco: They were, for a Tuesday night. But what really got me was that they were off stage after barely an hour.\nJess: Exactly. I kept waiting for an encore that never came. I wanted at least another half hour.\nMarco: Same. It felt like they had somewhere else to be.",
+          "questions": [
+            {
+              "n": 2,
+              "question": "What do the friends agree about?",
+              "options": [
+                "The performance was too short.",
+                "The sound was poor in places.",
+                "The tickets were fairly priced."
+              ],
+              "correct": 0,
+              "tag": "listen.agreement",
+              "why": {
+                "en": "Marco complains they were \"off stage after barely an hour\", Jess answers \"Exactly\" and Marco adds \"Same\". B: only Jess found the sound \"muddy\"; Marco says it was \"crystal clear\". C: Jess thinks the price was fine, but Marco thought the tickets were \"steep\".",
+                "bg": "Марко се оплаква, че са слезли от сцената \"after barely an hour\", Джес отговаря \"Exactly\", а Марко добавя \"Same\". B: само Джес е чула звука \"muddy\"; за Марко е бил \"crystal clear\". C: на Джес цената ѝ е ОК, но за Марко билетите са били \"steep\"."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear a woman leaving a voicemail message for a colleague.",
+          "speakers": [
+            {
+              "name": "Priya",
+              "presents": "female",
+              "accent": "GB"
+            }
+          ],
+          "script": "Hi Daniel, it's Priya. Just about tomorrow's meeting with the suppliers. I know we said ten o'clock, and that's still fine, so don't worry about the time. The thing is, I've just realised I left the price list on my desk, and I'm working from home in the morning. Could you possibly grab it on your way in and bring it along? It's in the blue folder. Oh, and thanks again for covering for me on Friday — I owe you one. Bye!",
+          "questions": [
+            {
+              "n": 3,
+              "question": "Why is she calling?",
+              "options": [
+                "to change the time of a meeting",
+                "to thank him for some help",
+                "to ask him to fetch something"
+              ],
+              "correct": 2,
+              "tag": "listen.purpose-function",
+              "why": {
+                "en": "The main request is \"Could you possibly grab it ... and bring it along?\" — she needs the price list. A: she says ten o'clock \"is still fine\". B: the thanks for Friday is only an afterthought (\"Oh, and…\"), not the reason for the call.",
+                "bg": "Основната молба е \"Could you possibly grab it ... and bring it along?\" — трябва ѝ ценоразписът. A: тя казва, че десет часа \"is still fine\". B: благодарността за петък е само допълнение (\"Oh, and…\"), не причината да звъни."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear a student talking about her part-time job in a café.",
+          "speakers": [
+            {
+              "name": "Leah",
+              "presents": "female",
+              "accent": "US"
+            }
+          ],
+          "script": "When I started at the café, I was honestly dreading every shift. I'd never used one of those big coffee machines, and the morning rush was chaos. My manager was patient, though, and after a few weeks I could keep up. Now I actually look forward to it — I know the regulars by name and I've got a routine. The pay isn't great, and I'd rather not work Sundays, but I'm not in any hurry to leave.",
+          "questions": [
+            {
+              "n": 4,
+              "question": "How does she feel about the job now?",
+              "options": [
+                "She enjoys it more than she expected to.",
+                "She wants to find something better paid.",
+                "She still finds the busy periods stressful."
+              ],
+              "correct": 0,
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "At first she was \"dreading every shift\", but \"now I actually look forward to it\" — she likes it more than she thought she would. B: the pay \"isn't great\", but she is \"not in any hurry to leave\". C: the rush was chaos at the start, but \"after a few weeks I could keep up\".",
+                "bg": "В началото тя е \"dreading every shift\", но \"now I actually look forward to it\" — харесва я повече, отколкото е очаквала. B: заплатата \"isn't great\", но тя \"not in any hurry to leave\". C: сутрешният хаос е бил в началото, но \"after a few weeks I could keep up\"."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear a man talking about cycling to work.",
+          "speakers": [
+            {
+              "name": "Raj",
+              "presents": "male",
+              "accent": "US"
+            }
+          ],
+          "script": "People assume I started cycling to work to get fit, and it's true I've lost a bit of weight. And yes, I'm saving on bus fares, which is nice. But honestly, what pushed me was the bus itself. It was late so often that I'd turn up to meetings flustered and apologising. On the bike I know exactly how long the journey takes — twenty-two minutes, rain or shine. That predictability was the whole point for me.",
+          "questions": [
+            {
+              "n": 5,
+              "question": "Why did he start cycling to work?",
+              "options": [
+                "to get into better shape",
+                "to cut his travel expenses",
+                "to avoid being late"
+              ],
+              "correct": 2,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"What pushed me was the bus itself. It was late so often...\" — he wanted to arrive on time; \"predictability was the whole point\". A and B are real benefits he mentions (weight, bus fares), but he introduces them as side effects, not the reason (\"But honestly…\").",
+                "bg": "\"What pushed me was the bus itself. It was late so often...\" — искал е да пристига навреме; \"predictability was the whole point\". A и B са реални ползи, които споменава (килограми, билети), но ги представя като странични ефекти, не като причина (\"But honestly…\")."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear a tour guide speaking to a group of visitors.",
+          "speakers": [
+            {
+              "name": "Fiona",
+              "presents": "female",
+              "accent": "GB"
+            }
+          ],
+          "script": "Right, everyone, we'll stop here for forty minutes. The castle itself is up that path. Now, lots of people head straight for the gift shop, but if you've only got time for one thing, do go up to the top of the north tower. It's a steep climb, I won't pretend otherwise, but the view across the valley is the best on the whole tour. The café's fine, by the way, but it gets very busy, so you might prefer to eat on the coach later.",
+          "questions": [
+            {
+              "n": 6,
+              "question": "What is the guide doing?",
+              "options": [
+                "warning the group about a dangerous path",
+                "recommending something the group should see",
+                "explaining why the group has little time"
+              ],
+              "correct": 1,
+              "tag": "listen.purpose-function",
+              "why": {
+                "en": "\"If you've only got time for one thing, do go up to the top of the north tower ... the view ... is the best on the whole tour\" — a recommendation. A: she says the climb is \"steep\", not dangerous, and still encourages it. C: she states they have forty minutes but gives no explanation for it.",
+                "bg": "\"If you've only got time for one thing, do go up to the top of the north tower ... the view ... is the best on the whole tour\" — това е препоръка. A: тя казва, че изкачването е \"steep\", не опасно, и пак го препоръчва. C: казва, че имат четирийсет минути, но не обяснява защо."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear a reviewer talking about a new novel on the radio.",
+          "speakers": [
+            {
+              "name": "Callum",
+              "presents": "male",
+              "accent": "GB"
+            }
+          ],
+          "script": "Hannah Ross's second novel follows three sisters who inherit a crumbling hotel on the Scottish coast. The characters are wonderfully drawn — you really believe in these women and their arguments — and Ross's descriptions of the sea are as lovely as in her first book. Where it falls down, I'm afraid, is the ending. After four hundred pages of slow, careful build-up, everything is resolved in about ten pages, and it all feels rather rushed and convenient. Still worth reading, though.",
+          "questions": [
+            {
+              "n": 7,
+              "question": "What does the reviewer criticise about the novel?",
+              "options": [
+                "Its characters are not convincing.",
+                "It spends too long on description.",
+                "Its final section is too hurried."
+              ],
+              "correct": 2,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "\"Where it falls down ... is the ending ... everything is resolved in about ten pages ... rushed\" — the final section. A: he praises the characters (\"you really believe in these women\"). B: he calls the descriptions \"lovely\"; the \"four hundred pages\" are mentioned to contrast with the short ending, not as a criticism.",
+                "bg": "\"Where it falls down ... is the ending ... everything is resolved in about ten pages ... rushed\" — краят. A: той хвали героите (\"you really believe in these women\"). B: описанията са \"lovely\"; \"four hundred pages\" се споменават като контраст с краткия край, не като критика."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear two neighbours talking about a community garden.",
+          "speakers": [
+            {
+              "name": "Carol",
+              "presents": "female",
+              "accent": "GB"
+            },
+            {
+              "name": "Ben",
+              "presents": "male",
+              "accent": "US"
+            }
+          ],
+          "script": "Carol: Have you seen the notice about the community garden? They want volunteers for Saturday mornings.\nBen: I did. I'd love to get involved, but I'm hopeless with plants — everything I grow dies.\nCarol: Oh, nobody minds that. They'll show you what to do.\nBen: Maybe. Actually, what I'd really like is to sort out that broken fence along the back. I've got all the tools, and it's been bothering me for months.\nCarol: They'd be thrilled. You should mention it at the meeting.\nBen: I will. I'm not sure about running a stall at the summer fair, though, like the notice says.",
+          "questions": [
+            {
+              "n": 8,
+              "question": "What does the man want to do?",
+              "options": [
+                "repair part of the garden",
+                "learn how to grow plants",
+                "help out at a summer event"
+              ],
+              "correct": 0,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"What I'd really like is to sort out that broken fence\" — he wants to repair it. B: Carol says they'll teach him, but he only answers \"Maybe\" and changes the subject. C: he is \"not sure about running a stall at the summer fair\".",
+                "bg": "\"What I'd really like is to sort out that broken fence\" — иска да поправи оградата. B: Карол казва, че ще го научат, но той отговаря само \"Maybe\" и сменя темата. C: той е \"not sure about running a stall at the summer fair\"."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2.listen.m1.p2",
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 2,
+      "set": "mock-1",
+      "title": "A summer in a mountain hut",
+      "topic": "Work and travel",
+      "instructions": "You will hear a woman called Megan talking about working at a mountain hut. For questions 9–18, complete the sentences with a word or short phrase.",
+      "status": "draft",
+      "kind": "listen-sentence",
+      "context": "You will hear a woman called Megan talking about the summer she spent working at a mountain hut in the Alps.",
+      "speakers": [
+        {
+          "name": "Megan",
+          "presents": "female",
+          "accent": "US"
+        }
+      ],
+      "script": "Hi everyone. I'm Megan, and last summer I spent three months working at a mountain hut in the Swiss Alps. A lot of you have asked how I got the job, so I thought I'd tell you about it.\n\nI actually found it through a climbing club newsletter, not online, which surprised my friends. The hut sits at just over two thousand eight hundred metres, and there's no road, so everything I needed for the summer went up with me on a five-hour walk. Heavier supplies, like flour and gas, arrive by helicopter about once a fortnight.\n\nPeople imagine it's a cosy little cabin, but it sleeps sixty guests, mostly walkers and climbers stopping for one night. There were four of us on the staff. My main job was in the kitchen. I'd expected to be doing simple things like washing up, but on my second day the cook hurt her wrist and I ended up making soup for the whole hut. Soup became my speciality — barley soup, in particular, which the guests seemed to love after a long day.\n\nThe day starts incredibly early. Climbers who are heading for the summit want breakfast at half past three in the morning, so that's when we got up. Then in the afternoon there's a quiet period, which I usually spent reading or just sitting outside watching the clouds.\n\nWater was a constant worry. All of it comes from melting snow, collected in a tank, and in a dry summer it can run low. So guests can't shower — there's a sign on the door telling them so — and we asked everyone to bring their own sheet sleeping bag to cut down on laundry.\n\nThe hardest thing for me wasn't the work or the altitude. I'd been worried about getting headaches, but I was fine after the first week. What I really struggled with was the lack of privacy. I shared a tiny room with two other staff members, and there was nowhere to go to be on your own except outside.\n\nThere were some unforgettable moments, though. One evening a storm came in very suddenly and we had a group of twelve teenagers who hadn't arrived. They eventually turned up soaked and frightened, an hour after dark, and we spent half the night drying their boots by the stove. They sent us a postcard afterwards, which is still on my fridge.\n\nIf you're thinking of doing something similar, my advice is this: don't worry too much about your cooking skills or even your fitness. The quality they really look for is patience, because guests arrive tired and sometimes grumpy, and you have to stay calm. And bring good earplugs — a building full of snoring walkers is quite something!\n\nWould I go back? Definitely. In fact, I've already been offered a place for next summer, and this time I'll be the one in charge of the kitchen.",
+      "questions": [
+        {
+          "n": 9,
+          "sentence": "Megan found out about the job in a ___ rather than online.",
+          "accept": [
+            "climbing club newsletter",
+            "newsletter",
+            "club newsletter"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"I actually found it through a climbing club newsletter, not online.\" The words \"not online\" signal the answer is coming.",
+            "bg": "\"I actually found it through a climbing club newsletter, not online.\" Думите \"not online\" ти подсказват, че отговорът е точно преди тях."
+          }
+        },
+        {
+          "n": 10,
+          "sentence": "Megan reached the hut after a ___ walk, carrying her things with her.",
+          "accept": [
+            "five-hour",
+            "five hour",
+            "5-hour",
+            "5 hour"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"Everything I needed ... went up with me on a five-hour walk.\" Don't write the altitude (2,800 metres), which comes just before.",
+            "bg": "\"Everything I needed ... went up with me on a five-hour walk.\" Не пиши надморската височина (2800 метра), която се чува малко преди това."
+          }
+        },
+        {
+          "n": 11,
+          "sentence": "Heavy supplies such as flour are brought to the hut by ___.",
+          "accept": [
+            "helicopter",
+            "a helicopter"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"Heavier supplies, like flour and gas, arrive by helicopter.\" The sentence paraphrases \"heavier supplies\" as \"heavy supplies\".",
+            "bg": "\"Heavier supplies, like flour and gas, arrive by helicopter.\" Изречението перифразира \"heavier supplies\" като \"heavy supplies\"."
+          }
+        },
+        {
+          "n": 12,
+          "sentence": "The hut has room for ___ guests.",
+          "accept": [
+            "sixty",
+            "60"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"It sleeps sixty guests.\" Careful: \"four of us on the staff\" is a different number — the staff, not the guests.",
+            "bg": "\"It sleeps sixty guests.\" Внимавай: \"four of us on the staff\" е друго число — за персонала, не за гостите."
+          }
+        },
+        {
+          "n": 13,
+          "sentence": "The dish Megan became known for was ___ soup.",
+          "accept": [
+            "barley"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"Soup became my speciality — barley soup, in particular.\" \"Became known for\" paraphrases \"speciality\".",
+            "bg": "\"Soup became my speciality — barley soup, in particular.\" \"Became known for\" перифразира \"speciality\"."
+          }
+        },
+        {
+          "n": 14,
+          "sentence": "Climbers going to the summit wanted breakfast at ___ in the morning.",
+          "accept": [
+            "half past three",
+            "3.30",
+            "3:30",
+            "half three"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"Climbers who are heading for the summit want breakfast at half past three in the morning.\" Any clear way of writing 3.30 is accepted.",
+            "bg": "\"Climbers who are heading for the summit want breakfast at half past three in the morning.\" Приема се всеки ясен запис на 3.30."
+          }
+        },
+        {
+          "n": 15,
+          "sentence": "To reduce the amount of washing, guests had to bring a ___.",
+          "accept": [
+            "sheet sleeping bag",
+            "sleeping bag"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"We asked everyone to bring their own sheet sleeping bag to cut down on laundry.\" \"Reduce the amount of washing\" = \"cut down on laundry\". The shower rule is a different point.",
+            "bg": "\"We asked everyone to bring their own sheet sleeping bag to cut down on laundry.\" \"Reduce the amount of washing\" = \"cut down on laundry\". Забраната за душ е друга точка."
+          }
+        },
+        {
+          "n": 16,
+          "sentence": "The thing Megan found hardest was the lack of ___.",
+          "accept": [
+            "privacy"
+          ],
+          "tag": "listen.opinion",
+          "why": {
+            "en": "\"What I really struggled with was the lack of privacy.\" She rejects the altitude and headaches first (\"The hardest thing ... wasn't the work or the altitude\").",
+            "bg": "\"What I really struggled with was the lack of privacy.\" Преди това тя отхвърля височината и главоболието (\"The hardest thing ... wasn't the work or the altitude\")."
+          }
+        },
+        {
+          "n": 17,
+          "sentence": "A group of teenagers later sent the staff a ___.",
+          "accept": [
+            "postcard"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"They sent us a postcard afterwards, which is still on my fridge.\" Don't be distracted by \"boots\" or \"stove\" earlier in the story.",
+            "bg": "\"They sent us a postcard afterwards, which is still on my fridge.\" Не се подвеждай от \"boots\" или \"stove\" по-рано в историята."
+          }
+        },
+        {
+          "n": 18,
+          "sentence": "Megan believes the most important quality for the job is ___.",
+          "accept": [
+            "patience"
+          ],
+          "tag": "listen.opinion",
+          "why": {
+            "en": "\"The quality they really look for is patience.\" She first says not to worry about \"cooking skills or even your fitness\" — these are the distractors.",
+            "bg": "\"The quality they really look for is patience.\" Първо казва да не се тревожиш за \"cooking skills or even your fitness\" — това са капаните."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.listen.m1.p3",
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 3,
+      "set": "mock-1",
+      "title": "Moving to a new city",
+      "topic": "Moving home",
+      "instructions": "You will hear five short extracts in which people are talking about moving to a different city. For questions 19–23, choose from the list (A–H) what each speaker says about the experience. Use the letters only once. There are three extra letters which you do not need to use.",
+      "status": "draft",
+      "kind": "listen-matching",
+      "context": "You will hear five short extracts in which people are talking about moving to a different city.",
+      "monologues": [
+        {
+          "speaker": {
+            "name": "Tom",
+            "presents": "male",
+            "accent": "GB"
+          },
+          "script": "When I got the job offer in Manchester, I almost turned it down. I'd lived in the same small town my whole life and I was convinced I'd be lonely for months. I'd even made a plan — evening classes, a running club, that sort of thing. In the end I didn't need any of it. Within a couple of weeks the people in my building had invited me round, and by the end of the first month it honestly felt like home. I still can't quite believe it."
+        },
+        {
+          "speaker": {
+            "name": "Aisha",
+            "presents": "female",
+            "accent": "US"
+          },
+          "script": "Moving to Boston was something I'd researched for ages — I knew which neighborhoods were safe, where the good schools were, all of it. What I hadn't done was work out what everyday life would actually cost. I'd looked at rents, sure, but not groceries, transport, the heating bills in winter. For the first six months I was constantly checking my bank balance. Things are fine now, but it was a shock. My parents kept offering to help, which was kind, but I wanted to manage on my own."
+        },
+        {
+          "speaker": {
+            "name": "Greg",
+            "presents": "male",
+            "accent": "US"
+          },
+          "script": "I moved to Chicago mainly because my partner got a place at university there, so I just followed. I assumed I'd have to take any job going. But it turned out there are far more companies in my field here than back home, and within a year I'd been promoted twice. I'd never have had those chances if I'd stayed put. I do find the winters brutal, and I haven't made many friends outside work, but professionally it's been the best decision I never actually made."
+        },
+        {
+          "speaker": {
+            "name": "Chloe",
+            "presents": "female",
+            "accent": "GB"
+          },
+          "script": "I moved to Glasgow knowing absolutely nobody. People had warned me I'd struggle with the accent, but honestly, after a week or so I was fine. The tricky part was meeting people — my colleagues were friendly enough, but they all had their own lives. What changed things was joining a ceilidh dance group on Thursday nights. I went along on a whim, and now nearly everyone I'd call a close friend here, I met on that dance floor."
+        },
+        {
+          "speaker": {
+            "name": "Rosa",
+            "presents": "female",
+            "accent": "US"
+          },
+          "script": "I'd been dreaming about city life for years, so when I finally moved to New York I was thrilled. And I love it — the energy, the food, the fact you can do anything at midnight. My mom was sure I'd come running home within a month, and she was wrong about that. But I'd be lying if I said I didn't think about home. I miss the quiet, and being able to see the stars at night, and walking down to the lake. That feeling hasn't faded at all."
+        }
+      ],
+      "tasks": [
+        {
+          "prompt": "What does each speaker say about moving to a different city?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "I underestimated how expensive it would be."
+            },
+            {
+              "letter": "B",
+              "text": "I made most of my friends through a hobby."
+            },
+            {
+              "letter": "C",
+              "text": "I wish I'd found out more before I went."
+            },
+            {
+              "letter": "D",
+              "text": "It brought me closer to my family."
+            },
+            {
+              "letter": "E",
+              "text": "I settled in faster than I'd expected."
+            },
+            {
+              "letter": "F",
+              "text": "I still miss things about where I used to live."
+            },
+            {
+              "letter": "G",
+              "text": "It has given my career a boost."
+            },
+            {
+              "letter": "H",
+              "text": "I struggled to understand the local accent."
+            }
+          ],
+          "questions": [
+            {
+              "n": 19,
+              "answer": "E",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Tom expected to be \"lonely for months\", but \"by the end of the first month it honestly felt like home\". B is a trap: he planned to join a running club but \"didn't need any of it\".",
+                "bg": "Том е очаквал да е \"lonely for months\", но \"by the end of the first month it honestly felt like home\". B е капан: планирал е клуб по бягане, но \"didn't need any of it\"."
+              }
+            },
+            {
+              "n": 20,
+              "answer": "A",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Aisha \"hadn't ... work[ed] out what everyday life would actually cost\" and \"was constantly checking my bank balance\". C is wrong: she had \"researched for ages\". D is wrong: she turned down her parents' help.",
+                "bg": "Айша \"hadn't ... work[ed] out what everyday life would actually cost\" и \"was constantly checking my bank balance\". C е грешно: тя е \"researched for ages\". D е грешно: отказала е помощта на родителите си."
+              }
+            },
+            {
+              "n": 21,
+              "answer": "G",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Greg was \"promoted twice\" and says \"professionally it's been the best decision\". B is wrong: he hasn't \"made many friends outside work\".",
+                "bg": "Грег е \"promoted twice\" и казва \"professionally it's been the best decision\". B е грешно: той не е \"made many friends outside work\"."
+              }
+            },
+            {
+              "n": 22,
+              "answer": "B",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Chloe met \"nearly everyone I'd call a close friend\" at a ceilidh dance group — a hobby. H is the trap: people warned her about the accent, but \"after a week or so I was fine\".",
+                "bg": "Клои е срещнала \"nearly everyone I'd call a close friend\" в група за шотландски танци — хоби. H е капанът: предупреждавали са я за акцента, но \"after a week or so I was fine\"."
+              }
+            },
+            {
+              "n": 23,
+              "answer": "F",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Rosa loves New York but says \"I miss the quiet ... the stars ... the lake\" and \"that feeling hasn't faded\". Her mom is mentioned, but nothing suggests the move brought them closer (D).",
+                "bg": "Роса обича Ню Йорк, но казва \"I miss the quiet ... the stars ... the lake\" и \"that feeling hasn't faded\". Майка ѝ се споменава, но нищо не показва, че са се сближили (D)."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2.listen.m1.p4",
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 4,
+      "set": "mock-1",
+      "title": "Interview with a board game designer",
+      "topic": "Games and careers",
+      "instructions": "You will hear an interview with a woman called Lena Hart, who designs board games. For questions 24–30, choose the best answer (A, B or C).",
+      "status": "draft",
+      "kind": "listen-mc",
+      "extracts": [
+        {
+          "context": "You will hear an interview with a woman called Lena Hart, who designs board games.",
+          "speakers": [
+            {
+              "name": "Interviewer",
+              "presents": "male",
+              "accent": "US"
+            },
+            {
+              "name": "Lena",
+              "presents": "female",
+              "accent": "GB"
+            }
+          ],
+          "script": "Interviewer: My guest today is Lena Hart, who designs board games for a living. Lena, how did you get into it?\nLena: Completely by accident. I was a maths teacher, and I used to make simple games to help my students with fractions. One of the parents worked for a games company, and she saw one and asked if I'd ever thought of doing it professionally. I honestly hadn't. I'd always played games, of course, but I never imagined anyone got paid to invent them.\nInterviewer: Was it difficult to make the move?\nLena: Financially, yes. For the first two years I taught part-time and designed in the evenings. But people assume the hard part is coming up with ideas, and it isn't — I've got notebooks full of those. The real challenge was learning to throw ideas away. You get attached to a clever rule, and then you watch people play and realise it's slowing everything down.\nInterviewer: How do you test a game?\nLena: Endlessly! I start by playing against myself, which sounds odd, but it shows up the obvious problems. Then I bring in friends. But the most useful testers are actually strangers, because friends are too polite. I go to a games café in town once a month and just ask people to try my prototypes. They'll tell you straight away if something's boring.\nInterviewer: Your latest game, Lantern Harbour, has been a big hit. Why do you think that is?\nLena: I've thought about that a lot. The artwork is gorgeous, and the illustrator deserves a lot of credit. But I think the real reason is that a game only lasts about forty minutes, so families can fit one in after dinner. Lots of strategy games take three hours, which is fine for enthusiasts, but most people simply don't have that kind of time.\nInterviewer: Do you worry that screens are taking over from board games?\nLena: Not really. Ten years ago I might have said yes. But what I've noticed is that people who spend all day looking at screens actually want something physical in the evenings — cards you can hold, pieces you can move. If anything, video games have created a new audience for us, because young people have grown up understanding how game rules work.\nInterviewer: What about the business side? Is it a good living?\nLena: It can be, but it's unpredictable. You might spend two years on a game that sells a few hundred copies. I'd say to anyone starting out: keep another source of income for as long as you can. I know people who quit their jobs after one successful game and then struggled badly.\nInterviewer: And what's next for you?\nLena: I'm working on a cooperative game, where all the players work together against the board rather than against each other. I used to think those were a bit too gentle, to be honest. But I played one with my nephews last Christmas and was amazed at how much they talked and planned together. So now I'm trying to design one myself. It's much harder than I expected!",
+          "questions": [
+            {
+              "n": 24,
+              "question": "How did Lena become a games designer?",
+              "options": [
+                "She had always planned to work with games.",
+                "She trained while she was still teaching.",
+                "Someone noticed a game she had made."
+              ],
+              "correct": 2,
+              "tag": "listen.detail",
+              "why": {
+                "en": "A parent from a games company \"saw one and asked if I'd ever thought of doing it professionally\". A is wrong: \"I never imagined anyone got paid to invent them\". B: she taught part-time while designing, but there is no mention of training.",
+                "bg": "Родител от компания за игри \"saw one and asked if I'd ever thought of doing it professionally\". A е грешно: \"I never imagined anyone got paid to invent them\". B: преподавала е на половин ден, докато е проектирала, но не се споменава обучение."
+              }
+            },
+            {
+              "n": 25,
+              "question": "What did Lena find most difficult at first?",
+              "options": [
+                "dropping rules she liked",
+                "thinking of enough new ideas",
+                "managing on a smaller income"
+              ],
+              "correct": 0,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"The real challenge was learning to throw ideas away. You get attached to a clever rule...\" B is directly rejected (\"it isn't — I've got notebooks full of those\"). C: money was hard (\"Financially, yes\"), but \"the real challenge\" signals something else.",
+                "bg": "\"The real challenge was learning to throw ideas away. You get attached to a clever rule...\" B е пряко отхвърлено (\"it isn't — I've got notebooks full of those\"). C: парите са били трудни (\"Financially, yes\"), но \"the real challenge\" показва, че става дума за друго."
+              }
+            },
+            {
+              "n": 26,
+              "question": "Why does Lena prefer testing her games with strangers?",
+              "options": [
+                "They have more experience of games.",
+                "They are more honest in their reactions.",
+                "They are like the people who buy games."
+              ],
+              "correct": 1,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"Friends are too polite\" — strangers \"tell you straight away if something's boring\", so they are more honest. A and C may sound logical, but Lena says neither.",
+                "bg": "\"Friends are too polite\" — непознатите \"tell you straight away if something's boring\", т.е. са по-честни. A и C звучат логично, но Лена не казва нито едното."
+              }
+            },
+            {
+              "n": 27,
+              "question": "According to Lena, Lantern Harbour is popular because",
+              "options": [
+                "of the quality of its artwork.",
+                "it does not take long to play.",
+                "it appeals to serious players."
+              ],
+              "correct": 1,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "\"The real reason is that a game only lasts about forty minutes.\" A: she praises the artwork but signals with \"But ... the real reason\" that it isn't the main cause. C: three-hour games suit \"enthusiasts\" — the opposite of her game.",
+                "bg": "\"The real reason is that a game only lasts about forty minutes.\" A: хвали илюстрациите, но с \"But ... the real reason\" показва, че не са главната причина. C: тричасовите игри са за \"enthusiasts\" — обратното на нейната игра."
+              }
+            },
+            {
+              "n": 28,
+              "question": "What is Lena's view of video games?",
+              "options": [
+                "They threaten the future of board games.",
+                "They have changed her approach to design.",
+                "They have won board games new fans."
+              ],
+              "correct": 2,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "\"Video games have created a new audience for us.\" A is what she \"might have said\" ten years ago, but not now. B is never mentioned.",
+                "bg": "\"Video games have created a new audience for us.\" A е това, което \"might have said\" преди десет години, но не и сега. B изобщо не се споменава."
+              }
+            },
+            {
+              "n": 29,
+              "question": "What advice does Lena give to new designers?",
+              "options": [
+                "Don't give up your other work too soon.",
+                "Try to sell your first game to a big firm.",
+                "Spend at least two years on each game."
+              ],
+              "correct": 0,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"Keep another source of income for as long as you can.\" C is a trap: \"two years\" is mentioned as a risk (a game that takes two years may sell little), not as advice.",
+                "bg": "\"Keep another source of income for as long as you can.\" C е капан: \"two years\" се споменава като риск (игра, правена две години, може да се продава слабо), не като съвет."
+              }
+            },
+            {
+              "n": 30,
+              "question": "How has Lena's attitude to cooperative games changed?",
+              "options": [
+                "She no longer finds them too hard to design.",
+                "She has seen how they get people talking.",
+                "She now thinks they suit adults better."
+              ],
+              "correct": 1,
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "She used to find them \"too gentle\", but with her nephews she \"was amazed at how much they talked and planned together\". A reverses what she says: designing one is \"much harder than I expected\". C is never suggested.",
+                "bg": "Преди ги е смятала за \"too gentle\", но с племенниците си \"was amazed at how much they talked and planned together\". A обръща казаното: да направи такава игра е \"much harder than I expected\". C не се казва никъде."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2.listen.m2.p1",
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 1,
+      "set": "mock-2",
+      "title": "Eight short extracts",
+      "topic": "Everyday situations",
+      "instructions": "You will hear people talking in eight different situations. For questions 1–8, choose the best answer (A, B or C).",
+      "status": "draft",
+      "kind": "listen-mc",
+      "extracts": [
+        {
+          "context": "You hear a woman talking about a visit to a science museum.",
+          "speakers": [
+            {
+              "name": "Grace",
+              "presents": "female",
+              "accent": "US"
+            }
+          ],
+          "script": "I went to the new science museum with my nephew on Saturday. I'd read that the dinosaur hall was the main attraction, and it's certainly big, but it was so crowded we could hardly see anything. The café was overpriced, too. What really won me over, though, was how the staff dealt with the kids. There was a young guy at the space exhibit who spent ages answering my nephew's questions — and he never once made him feel silly. That's what we're still talking about.",
+          "questions": [
+            {
+              "n": 1,
+              "question": "What impressed her most about the museum?",
+              "options": [
+                "the way staff treated young visitors",
+                "the size of one of the exhibition halls",
+                "the choice of food that was available"
+              ],
+              "correct": 0,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "\"What really won me over ... was how the staff dealt with the kids.\" B: the dinosaur hall is \"certainly big\", but too crowded to enjoy. C: she only mentions that the café was \"overpriced\".",
+                "bg": "\"What really won me over ... was how the staff dealt with the kids.\" B: залата с динозаврите е \"certainly big\", но е твърде претъпкана. C: за кафенето казва само, че е \"overpriced\"."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear two colleagues talking about moving to a new office.",
+          "speakers": [
+            {
+              "name": "Leo",
+              "presents": "male",
+              "accent": "US"
+            },
+            {
+              "name": "Kate",
+              "presents": "female",
+              "accent": "GB"
+            }
+          ],
+          "script": "Leo: Have you seen the plans for the new office? Open-plan, all on one floor.\nKate: I have. Everyone keeps telling me how exciting it is.\nLeo: You don't sound convinced.\nKate: Well, it's closer to the station, which I'll appreciate. And the building's lovely. But I write reports all day, and I need quiet. In an open-plan space with sixty people, I just can't see how I'll get anything done.\nLeo: There'll be quiet rooms you can book.\nKate: Four of them, for the whole company. I'll believe it works when I see it.",
+          "questions": [
+            {
+              "n": 2,
+              "question": "How does the woman feel about the move?",
+              "options": [
+                "glad her commute will be shorter",
+                "excited about the new building",
+                "worried about being able to focus"
+              ],
+              "correct": 2,
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"I need quiet ... I just can't see how I'll get anything done\" and \"I'll believe it works when I see it\" — she doubts she can concentrate. A and B are positives she mentions (\"closer to the station\", \"the building's lovely\"), but they come before \"But…\", which introduces her real feeling.",
+                "bg": "\"I need quiet ... I just can't see how I'll get anything done\" и \"I'll believe it works when I see it\" — тя се съмнява, че ще може да се съсредоточи. A и B са плюсове, които споменава (\"closer to the station\", \"the building's lovely\"), но след тях идва \"But…\" с истинското ѝ чувство."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear a man phoning a lost property office.",
+          "speakers": [
+            {
+              "name": "Alan",
+              "presents": "male",
+              "accent": "US"
+            },
+            {
+              "name": "Assistant",
+              "presents": "female",
+              "accent": "US"
+            }
+          ],
+          "script": "Alan: Hi, I got a text this morning saying my backpack's been handed in to you. I left it on the train yesterday.\nAssistant: Can I have your reference number?\nAlan: It's L-4-7-2.\nAssistant: Yes, here it is. Black backpack, laptop and a jacket inside. It all seems to be there.\nAlan: Great. The thing is, I'm stuck at work till late. Would it be OK for my wife to come and get it instead of me?\nAssistant: That's fine, as long as she brings a note signed by you and her own ID. We're open till eight tonight, if that helps.\nAlan: Brilliant, thanks so much.",
+          "questions": [
+            {
+              "n": 3,
+              "question": "Why is the man calling?",
+              "options": [
+                "to report that his bag has gone missing",
+                "to ask if someone else can collect it",
+                "to check when the office closes"
+              ],
+              "correct": 1,
+              "tag": "listen.purpose-function",
+              "why": {
+                "en": "\"Would it be OK for my wife to come and get it instead of me?\" A: he already knows the bag has been handed in. C: the assistant offers the closing time (\"if that helps\") — he doesn't ask for it.",
+                "bg": "\"Would it be OK for my wife to come and get it instead of me?\" A: той вече знае, че раницата е предадена. C: служителката сама казва до колко часа работят (\"if that helps\") — той не пита."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear a teacher talking about homework.",
+          "speakers": [
+            {
+              "name": "Anna",
+              "presents": "female",
+              "accent": "GB"
+            }
+          ],
+          "script": "There's a lot of debate at the moment about whether schools should scrap homework altogether. I understand the argument — kids are tired, and some families can't help with it. But I don't think getting rid of it is the answer. What I've stopped doing is setting long written tasks that take all evening. Instead, I give short bits of practice, ten or fifteen minutes, three times a week. The students actually do them, and I can see the difference in class.",
+          "questions": [
+            {
+              "n": 4,
+              "question": "What is the teacher's opinion of homework?",
+              "options": [
+                "It puts too much pressure on families.",
+                "Schools should stop setting it.",
+                "It works best in small amounts."
+              ],
+              "correct": 2,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "She gives \"short bits of practice, ten or fifteen minutes\" and \"can see the difference\". B is the view she rejects: \"I don't think getting rid of it is the answer\". A is part of the argument she \"understand[s]\", not her own conclusion.",
+                "bg": "Тя дава \"short bits of practice, ten or fifteen minutes\" и \"can see the difference\". B е мнението, което отхвърля: \"I don't think getting rid of it is the answer\". A е част от аргумента, който \"understand[s]\", а не нейният извод."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear a man talking on a podcast about sleep.",
+          "speakers": [
+            {
+              "name": "Kwame",
+              "presents": "male",
+              "accent": "GB"
+            }
+          ],
+          "script": "A lot of listeners have written in asking whether they should use those sleep-tracking apps. I've used a few, and some of the data is interesting, I'll admit. But here's the problem: people start worrying about their scores, and the worrying keeps them awake. So before you download anything, try this for a fortnight: same bedtime every night, no screens for the last half hour, and get some daylight in the morning. It's not glamorous, but it works better than any gadget.",
+          "questions": [
+            {
+              "n": 5,
+              "question": "What is the speaker doing?",
+              "options": [
+                "comparing several sleep-tracking apps",
+                "suggesting a simple routine to try first",
+                "describing his own problems with sleep"
+              ],
+              "correct": 1,
+              "tag": "listen.purpose-function",
+              "why": {
+                "en": "\"Before you download anything, try this for a fortnight: same bedtime ... no screens ... daylight.\" A: he has \"used a few\" apps but doesn't compare them. C: he talks about listeners' worries, not his own sleep.",
+                "bg": "\"Before you download anything, try this for a fortnight: same bedtime ... no screens ... daylight.\" A: той е \"used a few\" приложения, но не ги сравнява. C: говори за тревогите на слушателите, не за своя сън."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear a girl talking about a school geography trip.",
+          "speakers": [
+            {
+              "name": "Mia",
+              "presents": "female",
+              "accent": "US"
+            }
+          ],
+          "script": "We went on this geography trip to the coast last week. I was expecting to be bored, honestly — measuring rocks, that kind of thing. And some of it was a bit dull. But the bit I didn't see coming was how much the cliffs have changed. Our teacher showed us a photo from fifty years ago, and there was a whole road that's now just gone, fallen into the sea. I couldn't believe it had happened so fast. The weather was awful, as we'd been warned it would be.",
+          "questions": [
+            {
+              "n": 6,
+              "question": "What surprised her on the trip?",
+              "options": [
+                "how fast the land had been worn away",
+                "how interesting the practical tasks were",
+                "how bad the weather turned out to be"
+              ],
+              "correct": 0,
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"The bit I didn't see coming was how much the cliffs have changed ... I couldn't believe it had happened so fast.\" B: she says \"some of it was a bit dull\". C: the weather was bad, but they had been \"warned\", so it was no surprise.",
+                "bg": "\"The bit I didn't see coming was how much the cliffs have changed ... I couldn't believe it had happened so fast.\" B: тя казва \"some of it was a bit dull\". C: времето е било лошо, но са били \"warned\", значи не е изненада."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear a man talking about a dog he adopted.",
+          "speakers": [
+            {
+              "name": "Patrick",
+              "presents": "male",
+              "accent": "GB"
+            }
+          ],
+          "script": "We got Biscuit from the rescue centre in March. They'd warned us he might be nervous with strangers, and he was, for about a week. Now he greets every visitor like a long-lost friend. The thing nobody mentioned is that he's terrified of the vacuum cleaner — I have to shut him in the garden whenever I clean. We're working on it. Walks have been fine; he's actually better on the lead than our last dog was.",
+          "questions": [
+            {
+              "n": 7,
+              "question": "What does he say about the dog?",
+              "options": [
+                "It is frightened of something unexpected.",
+                "It is still nervous around new people.",
+                "It is difficult to control on walks."
+              ],
+              "correct": 0,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"The thing nobody mentioned is that he's terrified of the vacuum cleaner.\" B: he was nervous \"for about a week\", but now greets visitors \"like a long-lost friend\". C: \"he's actually better on the lead than our last dog\".",
+                "bg": "\"The thing nobody mentioned is that he's terrified of the vacuum cleaner.\" B: бил е нервен \"for about a week\", а сега посреща гостите \"like a long-lost friend\". C: \"he's actually better on the lead than our last dog\"."
+              }
+            }
+          ]
+        },
+        {
+          "context": "You hear two friends talking about a film.",
+          "speakers": [
+            {
+              "name": "Sam",
+              "presents": "male",
+              "accent": "GB"
+            },
+            {
+              "name": "Zoe",
+              "presents": "female",
+              "accent": "US"
+            }
+          ],
+          "script": "Sam: Did you end up seeing that new space film?\nZoe: Last night. Everyone said the special effects were incredible, and they were, but I kind of expected that.\nSam: I heard the story's a bit thin.\nZoe: That's what the critics said, but I didn't think so. I could follow it fine. No, what I didn't expect was the lead actor. He's mostly known for comedy, and I thought he'd be terrible in a serious role. He was brilliant — completely convincing.\nSam: Maybe I'll give it a go, then.",
+          "questions": [
+            {
+              "n": 8,
+              "question": "What does the woman say about the film?",
+              "options": [
+                "The story was weaker than she'd hoped.",
+                "The effects were better than expected.",
+                "The lead performance impressed her."
+              ],
+              "correct": 2,
+              "tag": "listen.opinion",
+              "why": {
+                "en": "About the lead actor: \"He was brilliant — completely convincing\", which she \"didn't expect\". B: the effects were incredible, but \"I kind of expected that\". A: she disagrees with the critics — \"I didn't think so\".",
+                "bg": "За главния актьор: \"He was brilliant — completely convincing\" и тя \"didn't expect\" това. B: ефектите са невероятни, но \"I kind of expected that\". A: тя не е съгласна с критиците — \"I didn't think so\"."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2.listen.m2.p2",
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Running a repair café",
+      "topic": "Community and the environment",
+      "instructions": "You will hear a man called Josh talking about a repair café he runs. For questions 9–18, complete the sentences with a word or short phrase.",
+      "status": "draft",
+      "kind": "listen-sentence",
+      "context": "You will hear a man called Josh talking about the repair café he runs in his town.",
+      "speakers": [
+        {
+          "name": "Josh",
+          "presents": "male",
+          "accent": "US"
+        }
+      ],
+      "script": "Thanks for having me. I'm Josh, and for the last four years I've run a repair café in our town. If you haven't come across the idea, it's very simple: once a month, people bring along things that are broken, and volunteers try to fix them, for free, while they wait.\n\nIt started in my garage, actually. A neighbour's toaster had stopped working and she was about to throw it away. It turned out to be a loose wire, and it took me about five minutes. I thought, how many other things are going in the bin for no good reason? Now we meet in the library on the first Saturday of every month, from ten till one.\n\nWe've got twelve regular volunteers. People assume they're all retired engineers, and a few are, but our best electrical repairer is a seventeen-year-old called Priya who taught herself from online videos. We also have two people who do nothing but clothes — zips, buttons, torn jeans. Sewing repairs are actually our most common job, more than electronics.\n\nIf you're talking about a single item, though, the thing people bring most often is the lamp. I don't know why, but every month we get at least half a dozen of them.\n\nThere are rules. We don't touch anything that uses gas, for safety reasons, and we don't do mobile phone screens, because they need special equipment we just don't have. And the owner has to stay and watch. That's really important to us. The whole point is that people learn how their things work, so next time they might be able to do it themselves.\n\nOur success rate is about seventy per cent. When we can't fix something, we try to tell people why, and often where they could get a spare part.\n\nWhat's surprised me most is the social side. I thought it would be all about saving money and reducing waste, and those things matter, of course. But what people keep telling me is that they come for the conversation. We have a tea table in the corner, and some people stay all morning even after their repair is done. For a few older people living alone, it's one of the main things in their month.\n\nWe're funded entirely by donations. There's a jar by the door, and people put in what they can. Last year that was enough to buy a proper soldering station, which has made a huge difference to what we can fix.\n\nIf you'd like to set up something similar, my main piece of advice is to sort out insurance before anything else. It's not exciting, but the library wouldn't have let us in without it.\n\nAnd if you just want to come along, you don't need to book. Just bring your broken thing — and ideally a bit of patience, because on a busy morning there can be quite a queue.",
+      "questions": [
+        {
+          "n": 9,
+          "sentence": "The first thing Josh repaired for a neighbour was a ___.",
+          "accept": [
+            "toaster"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"A neighbour's toaster had stopped working.\" \"Loose wire\" is the fault, not the object.",
+            "bg": "\"A neighbour's toaster had stopped working.\" \"Loose wire\" е повредата, а не предметът."
+          }
+        },
+        {
+          "n": 10,
+          "sentence": "The repair café now meets once a month in the ___.",
+          "accept": [
+            "library",
+            "the library"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"Now we meet in the library on the first Saturday of every month.\" The garage is where it started, not where it meets now.",
+            "bg": "\"Now we meet in the library on the first Saturday of every month.\" Гаражът е мястото, където е започнало, не където се събират сега."
+          }
+        },
+        {
+          "n": 11,
+          "sentence": "Priya, the best electrical repairer, taught herself using ___.",
+          "accept": [
+            "online videos",
+            "videos"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"A seventeen-year-old called Priya who taught herself from online videos.\" Note the contrast with \"retired engineers\".",
+            "bg": "\"A seventeen-year-old called Priya who taught herself from online videos.\" Обърни внимание на контраста с \"retired engineers\"."
+          }
+        },
+        {
+          "n": 12,
+          "sentence": "Josh says that ___ repairs are the most frequent kind of job.",
+          "accept": [
+            "sewing"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"Sewing repairs are actually our most common job, more than electronics.\" \"Most frequent\" = \"most common\". Electronics is the expected answer that he corrects.",
+            "bg": "\"Sewing repairs are actually our most common job, more than electronics.\" \"Most frequent\" = \"most common\". Електрониката е очакваният отговор, който той поправя."
+          }
+        },
+        {
+          "n": 13,
+          "sentence": "The single object people bring most often is a ___.",
+          "accept": [
+            "lamp",
+            "lamps"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"The thing people bring most often is the lamp.\" The sentence focuses on a \"single object\", as Josh does (\"a single item\").",
+            "bg": "\"The thing people bring most often is the lamp.\" Изречението говори за \"single object\", както и Джош (\"a single item\")."
+          }
+        },
+        {
+          "n": 14,
+          "sentence": "Phone screens are not repaired because they need ___.",
+          "accept": [
+            "special equipment"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"They need special equipment we just don't have.\" Gas appliances are excluded for a different reason (safety).",
+            "bg": "\"They need special equipment we just don't have.\" Уредите на газ са изключени по друга причина (безопасност)."
+          }
+        },
+        {
+          "n": 15,
+          "sentence": "The café manages to fix about ___ of the things people bring.",
+          "accept": [
+            "seventy per cent",
+            "seventy percent",
+            "70 per cent",
+            "70 percent",
+            "70%"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"Our success rate is about seventy per cent.\" Any clear spelling of 70% is fine.",
+            "bg": "\"Our success rate is about seventy per cent.\" Приема се всеки ясен запис на 70%."
+          }
+        },
+        {
+          "n": 16,
+          "sentence": "What has surprised Josh most is the ___ side of the café.",
+          "accept": [
+            "social"
+          ],
+          "tag": "listen.opinion",
+          "why": {
+            "en": "\"What's surprised me most is the social side.\" Saving money and reducing waste are what he expected, not what surprised him.",
+            "bg": "\"What's surprised me most is the social side.\" Спестяването и намаляването на отпадъците са това, което е очаквал, не това, което го е изненадало."
+          }
+        },
+        {
+          "n": 17,
+          "sentence": "Donations last year paid for a ___.",
+          "accept": [
+            "soldering station"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"That was enough to buy a proper soldering station.\" The \"jar\" is how donations are collected, not what they bought.",
+            "bg": "\"That was enough to buy a proper soldering station.\" Бурканът е начинът за събиране на дарения, не това, което са купили."
+          }
+        },
+        {
+          "n": 18,
+          "sentence": "Josh advises people starting a repair café to arrange ___ first.",
+          "accept": [
+            "insurance"
+          ],
+          "tag": "listen.specific-info",
+          "why": {
+            "en": "\"Sort out insurance before anything else.\" \"Arrange ... first\" paraphrases \"sort out ... before anything else\".",
+            "bg": "\"Sort out insurance before anything else.\" \"Arrange ... first\" перифразира \"sort out ... before anything else\"."
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2.listen.m2.p3",
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 3,
+      "set": "mock-2",
+      "title": "Learning online",
+      "topic": "Education",
+      "instructions": "You will hear five short extracts in which people are talking about an online course they did. For questions 19–23, choose from the list (A–H) what each speaker says about their course. Use the letters only once. There are three extra letters which you do not need to use.",
+      "status": "draft",
+      "kind": "listen-matching",
+      "context": "You will hear five short extracts in which people are talking about an online course they did.",
+      "monologues": [
+        {
+          "speaker": {
+            "name": "Ian",
+            "presents": "male",
+            "accent": "GB"
+          },
+          "script": "I signed up for an online photography course because it was cheap and I could do it whenever I liked. To be honest, the video lessons were nothing special — you could find similar stuff for free. But each week you uploaded three photos, and the tutor sent back a short voice message on every single one. She'd point out exactly what wasn't working — the light, the angle, whatever. That's what made me improve, far more than the lessons themselves."
+        },
+        {
+          "speaker": {
+            "name": "Lucy",
+            "presents": "female",
+            "accent": "US"
+          },
+          "script": "I did a twelve-week coding course in the evenings while I was working in a call center. I nearly gave up halfway through — not because it was hard, actually, but because I was so tired after work. I'm glad I didn't. I put the project I built at the end into my portfolio, and that's what got me an interview at a software company. I started there in June. I've never met any of the other students, which is a shame, but that's online learning for you."
+        },
+        {
+          "speaker": {
+            "name": "Omar",
+            "presents": "male",
+            "accent": "US"
+          },
+          "script": "I'd always loved history, so I thought a free university course on ancient Rome would be a nice, relaxing thing to do on Sunday afternoons. I couldn't have been more wrong. There were two long readings a week, plus essays that were marked quite strictly. At times I was spending ten hours a week on it. I did finish, and I learned a huge amount, but anyone who thinks online means easy should think again."
+        },
+        {
+          "speaker": {
+            "name": "Hannah",
+            "presents": "female",
+            "accent": "GB"
+          },
+          "script": "My course was an introduction to astronomy, just six short weeks. I'll be honest, some of the maths went over my head, though I got through it in the end. But the lessons on how to find planets in the night sky really grabbed me. I bought a second-hand telescope the week it ended, and now I'm out in the garden whenever the sky's clear. My husband thinks I've gone a bit mad."
+        },
+        {
+          "speaker": {
+            "name": "Douglas",
+            "presents": "male",
+            "accent": "GB"
+          },
+          "script": "I took a Spanish course with live online classes twice a week. The teacher was fine — a bit too strict about homework for my liking, if I'm honest. And there were weeks I fell behind because of work. But there were eight of us in the group, from all over the world, and we got on so well that we started our own chat group. We still meet online every Friday to practise, even though the course finished in the spring. They're what kept me going."
+        }
+      ],
+      "tasks": [
+        {
+          "prompt": "What does each speaker say about their online course?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "It was more demanding than I'd expected."
+            },
+            {
+              "letter": "B",
+              "text": "I liked being able to study at my own pace."
+            },
+            {
+              "letter": "C",
+              "text": "The other participants were the best part."
+            },
+            {
+              "letter": "D",
+              "text": "It helped me to get a new job."
+            },
+            {
+              "letter": "E",
+              "text": "I didn't finish it, but I don't regret starting."
+            },
+            {
+              "letter": "F",
+              "text": "The tutor's comments were especially useful."
+            },
+            {
+              "letter": "G",
+              "text": "It was poor value for money."
+            },
+            {
+              "letter": "H",
+              "text": "It led me to take up a related hobby."
+            }
+          ],
+          "questions": [
+            {
+              "n": 19,
+              "answer": "F",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Ian says the tutor's voice messages on his photos are \"what made me improve, far more than the lessons\". B is a trap: he chose the course partly because he could do it \"whenever I liked\", but that isn't what he valued.",
+                "bg": "Иън казва, че гласовите съобщения на преподавателката \"what made me improve, far more than the lessons\". B е капан: избрал е курса отчасти защото може \"whenever I liked\", но не това е ценял."
+              }
+            },
+            {
+              "n": 20,
+              "answer": "D",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Lucy's final project \"got me an interview at a software company. I started there in June.\" E is wrong: she \"nearly gave up\" but didn't. C is wrong: she never met the other students.",
+                "bg": "Финалният проект на Луси \"got me an interview at a software company. I started there in June.\" E е грешно: тя \"nearly gave up\", но не се е отказала. C е грешно: не е срещала другите студенти."
+              }
+            },
+            {
+              "n": 21,
+              "answer": "A",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Omar expected something \"relaxing\" but \"couldn't have been more wrong\" — long readings, strict marking, ten hours a week. G is wrong: the course was free. E is wrong: \"I did finish\".",
+                "bg": "Омар е очаквал нещо \"relaxing\", но \"couldn't have been more wrong\" — дълги текстове, строго оценяване, десет часа седмично. G е грешно: курсът е безплатен. E е грешно: \"I did finish\"."
+              }
+            },
+            {
+              "n": 22,
+              "answer": "H",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Hannah \"bought a second-hand telescope the week it ended\" and now goes stargazing — a new related hobby. E is wrong: the maths was hard, but \"I got through it in the end\".",
+                "bg": "Хана \"bought a second-hand telescope the week it ended\" и сега наблюдава звездите — ново свързано хоби. E е грешно: математиката е била трудна, но \"I got through it in the end\"."
+              }
+            },
+            {
+              "n": 23,
+              "answer": "C",
+              "tag": "listen.gist",
+              "why": {
+                "en": "Douglas's group \"got on so well\" that they still meet every Friday: \"They're what kept me going.\" F is wrong: the teacher was only \"fine\" and \"a bit too strict\".",
+                "bg": "Групата на Дъглас \"got on so well\", че още се срещат всеки петък: \"They're what kept me going.\" F е грешно: учителката е била само \"fine\" и \"a bit too strict\"."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2.listen.m2.p4",
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 4,
+      "set": "mock-2",
+      "title": "Interview with a food truck chef",
+      "topic": "Food and work",
+      "instructions": "You will hear an interview with a chef called Theo Marsh, who runs a food truck. For questions 24–30, choose the best answer (A, B or C).",
+      "status": "draft",
+      "kind": "listen-mc",
+      "extracts": [
+        {
+          "context": "You will hear an interview with a chef called Theo Marsh, who runs a food truck.",
+          "speakers": [
+            {
+              "name": "Interviewer",
+              "presents": "female",
+              "accent": "GB"
+            },
+            {
+              "name": "Theo",
+              "presents": "male",
+              "accent": "US"
+            }
+          ],
+          "script": "Interviewer: Today I'm talking to Theo Marsh, whose food truck, The Rolling Pot, has just won this year's Street Food Award. Theo, you trained in a top restaurant. Why leave?\nTheo: People always expect me to say I hated it, but I didn't. I learned more in those three years than at any other time in my life. The hours were long, sure, but I'm used to that — I work just as many now. What I missed was meeting the people who ate my food. In a big kitchen you never see the customers. I wanted to hand someone a plate and watch their face.\nInterviewer: Was it hard to get started?\nTheo: The truck itself was the easy bit. I found an old ice-cream van online, and my uncle helped me convert it. What nearly finished me was the paperwork. Every town has different rules about where you can park and sell, and you need a separate licence for each one. I spent more time filling in forms in that first year than actually cooking.\nInterviewer: Your menu is very short. Is that deliberate?\nTheo: Completely. We do three dishes, and they change every week depending on what the local farms have. Customers sometimes ask why we don't do burgers all the time, because they'd sell. But with a tiny kitchen, if you try to do ten things, you do them all badly. Three things done really well — that's the whole idea.\nInterviewer: How did winning the award change things?\nTheo: Well, we're busier, obviously. But the biggest change is that festivals now invite us, whereas before I had to beg for a spot and pay a fortune for it. That's where the real money is in this business. One good weekend at a music festival can pay for a whole month.\nInterviewer: What's the worst part of the job?\nTheo: Honestly? The weather. Not because it's unpleasant for me — I quite like being outside — but because it makes business so unpredictable. You can prepare food for three hundred people, and then it pours with rain and twenty turn up. I've learned to check the forecast obsessively, but you still get caught out. At least nothing goes to waste: leftover stews go to a homeless shelter nearby.\nInterviewer: Do you ever think about opening a restaurant of your own?\nTheo: Everyone asks that, as if a truck were just a stepping stone. My partner would love me to — she thinks it'd be more stable. And I won't say never. But right now I love the freedom of being able to drive somewhere new every weekend. A restaurant would tie me to one place, and I'm not ready for that.\nInterviewer: Finally, what advice would you give someone thinking of starting a food truck?\nTheo: Work on someone else's truck first, even just for a summer. You'll find out whether you can stand the heat, the long days, the tiny space. I've seen people spend all their savings on a beautiful truck and then realise within a month that they hate the life. A recipe book won't tell you that.",
+          "questions": [
+            {
+              "n": 24,
+              "question": "Why did Theo leave the restaurant?",
+              "options": [
+                "He found the working hours too long.",
+                "He wanted to meet the people he fed.",
+                "He felt he had stopped learning."
+              ],
+              "correct": 1,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"What I missed was meeting the people who ate my food ... I wanted to hand someone a plate and watch their face.\" A: he works \"just as many\" hours now. C: he \"learned more in those three years than at any other time\".",
+                "bg": "\"What I missed was meeting the people who ate my food ... I wanted to hand someone a plate and watch their face.\" A: сега работи \"just as many\" часове. C: той \"learned more in those three years than at any other time\"."
+              }
+            },
+            {
+              "n": 25,
+              "question": "What did Theo find hardest when he started?",
+              "options": [
+                "finding a vehicle he could afford",
+                "persuading his family to help him",
+                "dealing with local regulations"
+              ],
+              "correct": 2,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"What nearly finished me was the paperwork ... different rules ... a separate licence for each one.\" A: \"The truck itself was the easy bit.\" B: his uncle helped him, and there's no sign he needed persuading.",
+                "bg": "\"What nearly finished me was the paperwork ... different rules ... a separate licence for each one.\" A: \"The truck itself was the easy bit.\" B: чичо му е помогнал и няма знак, че е трябвало да бъде убеждаван."
+              }
+            },
+            {
+              "n": 26,
+              "question": "Why does Theo keep the menu short?",
+              "options": [
+                "to make sure every dish is cooked well",
+                "because local farms supply so little",
+                "because customers prefer simple choices"
+              ],
+              "correct": 0,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"If you try to do ten things, you do them all badly. Three things done really well — that's the whole idea.\" B: the farms decide what the dishes are, not how many. C: customers actually ask for more (burgers).",
+                "bg": "\"If you try to do ten things, you do them all badly. Three things done really well — that's the whole idea.\" B: фермите определят какви са ястията, не колко са. C: клиентите всъщност искат повече (бургери)."
+              }
+            },
+            {
+              "n": 27,
+              "question": "What has been the main result of winning the award?",
+              "options": [
+                "More people visit the truck every day.",
+                "Event organisers now approach him.",
+                "He is able to charge higher prices."
+              ],
+              "correct": 1,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"The biggest change is that festivals now invite us.\" A: \"we're busier, obviously\" — but he says this is not the biggest change. C: prices are not mentioned; he used to \"pay a fortune\" for festival spots.",
+                "bg": "\"The biggest change is that festivals now invite us.\" A: \"we're busier, obviously\" — но той казва, че това не е най-голямата промяна. C: цени не се споменават; преди е плащал \"a fortune\" за място на фестивал."
+              }
+            },
+            {
+              "n": 28,
+              "question": "What does Theo dislike most about his job?",
+              "options": [
+                "not knowing how many people will come",
+                "having to work outside in bad weather",
+                "throwing away food that hasn't sold"
+              ],
+              "correct": 0,
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "The weather is a problem \"because it makes business so unpredictable ... prepare food for three hundred people ... twenty turn up\". B: \"Not because it's unpleasant for me — I quite like being outside.\" C: leftovers go to a shelter, so nothing is wasted.",
+                "bg": "Времето е проблем, \"because it makes business so unpredictable ... prepare food for three hundred people ... twenty turn up\". B: \"Not because it's unpleasant for me — I quite like being outside.\" C: остатъците отиват в приют, нищо не се изхвърля."
+              }
+            },
+            {
+              "n": 29,
+              "question": "How does Theo feel about opening a restaurant?",
+              "options": [
+                "He is planning to do it quite soon.",
+                "He thinks it would be too risky.",
+                "He values his freedom more for now."
+              ],
+              "correct": 2,
+              "tag": "listen.attitude-feeling",
+              "why": {
+                "en": "\"Right now I love the freedom ... A restaurant would tie me to one place, and I'm not ready for that.\" A: he only says \"I won't say never\". B: it's his partner who talks about stability, and Theo never calls it risky.",
+                "bg": "\"Right now I love the freedom ... A restaurant would tie me to one place, and I'm not ready for that.\" A: казва само \"I won't say never\". B: партньорката му говори за стабилност, а Тео никъде не казва, че е рисковано."
+              }
+            },
+            {
+              "n": 30,
+              "question": "What does Theo advise people to do?",
+              "options": [
+                "save up before buying a truck",
+                "get some experience first",
+                "learn a wide range of recipes"
+              ],
+              "correct": 1,
+              "tag": "listen.detail",
+              "why": {
+                "en": "\"Work on someone else's truck first, even just for a summer.\" A: he warns about people who spend \"all their savings\", but saving isn't his advice. C: \"A recipe book won't tell you that.\"",
+                "bg": "\"Work on someone else's truck first, even just for a summer.\" A: предупреждава за хора, които харчат \"all their savings\", но спестяването не е съветът му. C: \"A recipe book won't tell you that.\""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 1,
+      "tests": {
+        "en": "Part 1 has eight short, unrelated extracts (about 30 seconds each): monologues or conversations in everyday situations. Each has one question with three options. It tests whether you can catch the gist, a detail, the speaker's purpose, feeling, attitude or opinion, or where they are and who they are talking to. You hear each extract twice.",
+        "bg": "Част 1 съдържа осем кратки, несвързани откъса (около 30 секунди всеки): монолози или разговори от ежедневието. Към всеки има един въпрос с три отговора. Проверява дали схващаш общия смисъл, детайл, целта, чувството, отношението или мнението на говорещия, или къде се намира и с кого говори. Чуваш всеки откъс два пъти."
+      },
+      "strategy": [
+        {
+          "en": "Read the rubric line and the question before each extract: they tell you who is speaking and what to listen for (a feeling? a reason? a purpose?).",
+          "bg": "Прочети уводното изречение и въпроса преди всеки откъс: те ти казват кой говори и какво да търсиш (чувство? причина? цел?)."
+        },
+        {
+          "en": "Expect all three options to be mentioned in some way. Listen for how each one is treated: accepted, rejected (\"but\", \"actually\", \"what really…\") or said by the other speaker.",
+          "bg": "Очаквай и трите отговора да се споменат по някакъв начин. Слушай как се третира всеки: приет, отхвърлен (\"but\", \"actually\", \"what really…\") или казан от другия говорещ."
+        },
+        {
+          "en": "Use the first listening to choose, the second to check. If the second listening doesn't confirm your choice, change it — then move on and focus on the next extract.",
+          "bg": "Използвай първото слушане, за да избереш, а второто — за проверка. Ако второто не потвърди избора ти, смени го — и веднага мини на следващия откъс."
+        },
+        {
+          "en": "For \"agree\" questions, the answer must be supported by both speakers (\"Exactly\", \"Same\", \"True\").",
+          "bg": "При въпроси \"agree\" отговорът трябва да е подкрепен и от двамата (\"Exactly\", \"Same\", \"True\")."
+        }
+      ],
+      "example": {
+        "question": "You hear a man talking about cycling to work.\n\"People assume I started cycling to get fit, and it's true I've lost a bit of weight. And yes, I'm saving on bus fares. But honestly, what pushed me was the bus itself. It was late so often that I'd turn up to meetings flustered.\"\nWhy did he start cycling to work? A to get into better shape  B to cut his travel expenses  C to avoid being late",
+        "steps": [
+          {
+            "en": "The question asks for the reason he started, so listen for words that mark a reason: \"what pushed me\", \"the reason\", \"that's why\".",
+            "bg": "Въпросът пита за причината да започне, затова търси думи за причина: \"what pushed me\", \"the reason\", \"that's why\"."
+          },
+          {
+            "en": "A and B are both mentioned, but as things \"people assume\" or side benefits (\"And yes…\"). \"But honestly\" then introduces the real reason.",
+            "bg": "A и B се споменават, но като нещо, което \"people assume\", или като странична полза (\"And yes…\"). След това \"But honestly\" въвежда истинската причина."
+          },
+          {
+            "en": "\"It was late so often\" = he was often late because of the bus. C paraphrases this without repeating the script's words.",
+            "bg": "\"It was late so often\" = често е закъснявал заради автобуса. C го перифразира, без да повтаря думите от записа."
+          }
+        ],
+        "answer": "C"
+      },
+      "pitfalls": [
+        {
+          "en": "Choosing an option just because you heard its words. The words of wrong options are often in the script — and then rejected.",
+          "bg": "Да избереш отговор само защото си чул думите му. Думите на грешните отговори често ги има в записа — и после се отхвърлят."
+        },
+        {
+          "en": "Thinking about the previous extract while the next one starts. Each extract is new: let the last one go.",
+          "bg": "Да мислиш за предишния откъс, докато започва следващият. Всеки откъс е нов: остави предишния."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 2,
+      "tests": {
+        "en": "Part 2 is one monologue of 3–4 minutes (a talk, a radio piece, a presentation). You complete ten sentences with a word or short phrase you actually hear — usually 1–3 words. It tests detail, specific information and stated opinion. The sentences follow the order of the recording.",
+        "bg": "Част 2 е един монолог от 3–4 минути (беседа, радиопредаване, презентация). Допълваш десет изречения с дума или кратък израз, които наистина чуваш — обикновено 1–3 думи. Проверява детайли, конкретна информация и изразено мнение. Изреченията следват реда на записа."
+      },
+      "strategy": [
+        {
+          "en": "Use the time before listening to read every sentence and predict the kind of word that fits: a number? a place? a noun after \"a\"? an adjective?",
+          "bg": "Използвай времето преди слушането, за да прочетеш всички изречения и да предвидиш вида на думата: число? място? съществително след \"a\"? прилагателно?"
+        },
+        {
+          "en": "The sentences paraphrase the recording (\"most frequent\" for \"most common\"), but the answer itself is the exact word you hear. Write it, don't rephrase it.",
+          "bg": "Изреченията перифразират записа (\"most frequent\" вместо \"most common\"), но самият отговор е точната дума, която чуваш. Запиши нея, не я преформулирай."
+        },
+        {
+          "en": "Listen for signals that the speaker is correcting an idea: \"people assume…, but\", \"not…, rather\", \"actually\". The answer usually follows the correction.",
+          "bg": "Слушай за сигнали, че говорещият поправя идея: \"people assume…, but\", \"not…, rather\", \"actually\". Отговорът обикновено идва след поправката."
+        },
+        {
+          "en": "Check grammar and spelling on the second listening: does your answer fit the sentence (singular/plural, article)?",
+          "bg": "При второто слушане провери граматиката и правописа: пасва ли отговорът на изречението (единствено/множествено число, член)?"
+        }
+      ],
+      "example": {
+        "question": "\"The hardest thing for me wasn't the work or the altitude. I'd been worried about getting headaches, but I was fine after the first week. What I really struggled with was the lack of privacy.\"\nThe thing Megan found hardest was the lack of ___.",
+        "steps": [
+          {
+            "en": "Prediction: after \"the lack of\" we need a noun — something you can be without.",
+            "bg": "Предвиждане: след \"the lack of\" трябва съществително — нещо, което може да ти липсва."
+          },
+          {
+            "en": "Three ideas compete: \"the work\", \"the altitude\" and \"headaches\". All three are rejected (\"wasn't\", \"but I was fine\").",
+            "bg": "Три идеи се конкурират: \"the work\", \"the altitude\" и \"headaches\". И трите са отхвърлени (\"wasn't\", \"but I was fine\")."
+          },
+          {
+            "en": "\"What I really struggled with\" = \"the thing she found hardest\". The words right after \"the lack of\" give the answer.",
+            "bg": "\"What I really struggled with\" = \"the thing she found hardest\". Думата точно след \"the lack of\" е отговорът."
+          }
+        ],
+        "answer": "privacy"
+      },
+      "pitfalls": [
+        {
+          "en": "Writing the first possible word you hear. Distractors that fit grammatically often come just before the real answer.",
+          "bg": "Да запишеш първата възможна дума, която чуеш. Капаните, които пасват граматически, често идват точно преди истинския отговор."
+        },
+        {
+          "en": "Writing too much, or a word that repeats what is already in the sentence. Keep to the missing information.",
+          "bg": "Да пишеш твърде много или дума, която повтаря вече написаното в изречението. Пиши само липсващата информация."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 3,
+      "tests": {
+        "en": "Part 3 has five short monologues by different speakers on the same topic. You match each speaker to one of eight options (A–H); three options are not used. It tests gist, attitude, opinion, purpose and feeling — what each person's main point is.",
+        "bg": "Част 3 има пет кратки монолога от различни хора на една тема. Свързваш всеки говорещ с един от осем варианта (A–H); три остават неизползвани. Проверява общия смисъл, отношение, мнение, цел и чувство — каква е основната мисъл на всеки."
+      },
+      "strategy": [
+        {
+          "en": "Before listening, underline the key idea in each option (e.g. \"faster than expected\", \"regret\", \"career\") and think of how a speaker might say it in other words.",
+          "bg": "Преди слушането подчертай ключовата идея във всеки вариант (напр. \"faster than expected\", \"regret\", \"career\") и помисли как би я казал някой с други думи."
+        },
+        {
+          "en": "Each speaker touches on several options. Decide what their main point is: what do they say most strongly, or come back to at the end?",
+          "bg": "Всеки говорещ засяга няколко варианта. Реши каква е главната му мисъл: какво казва най-категорично или към какво се връща в края?"
+        },
+        {
+          "en": "On the first listening, note one or two possible letters per speaker. Use the second listening to decide between them.",
+          "bg": "При първото слушане си отбележи една-две възможни букви за всеки. При второто реши между тях."
+        }
+      ],
+      "example": {
+        "question": "Speaker: \"I moved to Glasgow knowing absolutely nobody. People had warned me I'd struggle with the accent, but honestly, after a week or so I was fine. ... What changed things was joining a ceilidh dance group. Nearly everyone I'd call a close friend here, I met on that dance floor.\"\nOptions include: B I made most of my friends through a hobby.  H I struggled to understand the local accent.",
+        "steps": [
+          {
+            "en": "The accent is mentioned, which makes H tempting. But it's a warning from others, and she rejects it: \"after a week or so I was fine\".",
+            "bg": "Акцентът се споменава и H изглежда привлекателно. Но това е предупреждение от други хора и тя го отхвърля: \"after a week or so I was fine\"."
+          },
+          {
+            "en": "\"What changed things\" introduces her main point: a dance group (a hobby) where she met \"nearly everyone I'd call a close friend\".",
+            "bg": "\"What changed things\" въвежда главната ѝ мисъл: група за танци (хоби), където е срещнала \"nearly everyone I'd call a close friend\"."
+          }
+        ],
+        "answer": "B"
+      },
+      "pitfalls": [
+        {
+          "en": "Matching on a single word (\"accent\", \"family\", \"money\") without checking whether the speaker agrees with the idea.",
+          "bg": "Да свързваш по една дума (\"accent\", \"family\", \"money\"), без да провериш дали говорещият е съгласен с идеята."
+        },
+        {
+          "en": "Using the same letter twice. If two speakers seem to fit one option, one of them has a better match elsewhere.",
+          "bg": "Да използваш една буква два пъти. Ако двама говорещи пасват на един вариант, единият има по-добро съвпадение другаде."
+        }
+      ]
+    },
+    {
+      "exam": "b2-first",
+      "paper": "listening",
+      "part": 4,
+      "tests": {
+        "en": "Part 4 is one longer interview or conversation (3–4 minutes) with seven three-option questions. It tests opinion, attitude, gist, main idea and specific information. The questions follow the order of the recording, usually one per question from the interviewer.",
+        "bg": "Част 4 е едно по-дълго интервю или разговор (3–4 минути) със седем въпроса с по три отговора. Проверява мнение, отношение, общ смисъл, основна идея и конкретна информация. Въпросите следват реда на записа — обикновено по един на всеки въпрос на интервюиращия."
+      },
+      "strategy": [
+        {
+          "en": "Read the question stems first (not the options) — they are your map of the interview. The interviewer's questions usually tell you when to move to the next one.",
+          "bg": "Първо прочети самите въпроси (без отговорите) — те са картата ти на интервюто. Въпросите на интервюиращия обикновено ти казват кога да минеш на следващия."
+        },
+        {
+          "en": "Listen for the speaker's real view after contrast words: \"but the real reason\", \"what I've noticed\", \"if anything\". Earlier ideas are often set up to be rejected.",
+          "bg": "Слушай за истинското мнение след думи за контраст: \"but the real reason\", \"what I've noticed\", \"if anything\". По-ранните идеи често се казват, за да бъдат отхвърлени."
+        },
+        {
+          "en": "Ask yourself whether each option is said, not said, or contradicted. Only the right answer is fully supported.",
+          "bg": "Питай се за всеки отговор: казано ли е, не е ли казано, или е опровергано? Само верният е напълно подкрепен."
+        }
+      ],
+      "example": {
+        "question": "Interviewer: \"Your latest game has been a big hit. Why do you think that is?\"\nLena: \"The artwork is gorgeous, and the illustrator deserves a lot of credit. But I think the real reason is that a game only lasts about forty minutes, so families can fit one in after dinner. Lots of strategy games take three hours, which is fine for enthusiasts.\"\nThe game is popular because A of the quality of its artwork.  B it does not take long to play.  C it appeals to serious players.",
+        "steps": [
+          {
+            "en": "Lena praises the artwork, but \"But I think the real reason is…\" tells you A is not the main cause.",
+            "bg": "Лена хвали илюстрациите, но \"But I think the real reason is…\" ти показва, че A не е главната причина."
+          },
+          {
+            "en": "\"Lasts about forty minutes ... fit one in after dinner\" = it doesn't take long. That matches B.",
+            "bg": "\"Lasts about forty minutes ... fit one in after dinner\" = не отнема много време. Това е B."
+          },
+          {
+            "en": "C: \"enthusiasts\" like long three-hour games — the opposite of her game, so C is contradicted.",
+            "bg": "C: \"enthusiasts\" харесват дългите тричасови игри — обратното на нейната, значи C е опровергано."
+          }
+        ],
+        "answer": "B"
+      },
+      "pitfalls": [
+        {
+          "en": "Choosing the first idea the speaker mentions. In interviews, people often mention a common view before giving their own.",
+          "bg": "Да избереш първата идея, която говорещият споменава. В интервютата хората често първо казват общоприетото мнение, а после своето."
+        },
+        {
+          "en": "Getting stuck on one question and missing the next. If you lose a question, guess, and listen for the interviewer's next question.",
+          "bg": "Да се заковеш на един въпрос и да изпуснеш следващия. Ако изпуснеш въпрос, познай и слушай за следващия въпрос на интервюиращия."
+        }
+      ]
+    }
+  ],
+  "lessons": []
+}

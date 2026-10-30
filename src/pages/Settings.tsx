@@ -7,6 +7,8 @@ import { loadVoices, speak, toOption, type VoiceOption } from "../lib/speech";
 import type { StringKey } from "../i18n/strings";
 import { NARRATORS, NATURAL_PREFIX, narratorFor } from "../lib/clips";
 import { relativeDay } from "../lib/time";
+import { CertSetup } from "./exam/CertSetup";
+import { EXAMS } from "../content/exams/spec";
 import "./settings.css";
 
 export function Settings() {
@@ -14,6 +16,7 @@ export function Settings() {
   const [message, setMessage] = useState<{ kind: "good" | "bad"; text: string } | null>(null);
   const [persisted, setPersisted] = useState<boolean | null>(null);
   const [voices, setVoices] = useState<VoiceOption[] | null>(null);
+  const [editCert, setEditCert] = useState(false);
   // Older versions stored a bare device voice id; natural voices are now the default for those learners.
   const voiceValue = profile?.voiceId?.startsWith(NATURAL_PREFIX) || profile?.voiceId?.startsWith("device:") ? profile.voiceId : `${NATURAL_PREFIX}${narratorFor(undefined, profile?.accent)}`;
   const fileRef = useRef<HTMLInputElement>(null);
@@ -94,6 +97,22 @@ export function Settings() {
       {message && (
         <p className={`notice notice-${message.kind}`} role={message.kind === "bad" ? "alert" : "status"}>{message.text}</p>
       )}
+
+      <section className="setting" id="goal" aria-labelledby="goal-title">
+        <h2 id="goal-title" className="setting-label">{t("settings.track")}</h2>
+        <p className="setting-hint">{t("settings.trackHint")}</p>
+        <div className="chip-row">
+          <button type="button" className="chip" aria-pressed={profile.track !== "exam"} onClick={() => update({ track: "general" })}>{t("settings.track.general")}</button>
+          <button type="button" className="chip" aria-pressed={profile.track === "exam"} onClick={() => (profile.cert ? update({ track: "exam" }) : setEditCert(true))}>{t("settings.track.exam")}</button>
+        </div>
+        {profile.cert && !editCert && (
+          <p className="setting-hint">
+            {EXAMS[profile.cert.exam].name}{profile.cert.date ? ` · ${profile.cert.date}` : ""}{profile.cert.target ? ` · ${profile.cert.target}` : ""}{" "}
+            <button type="button" className="btn btn-quiet btn-small" onClick={() => setEditCert(true)}>{t("settings.trackEdit")}</button>
+          </p>
+        )}
+        {editCert && <CertSetup initial={profile.cert} onSave={async (c) => { await update({ cert: c, track: "exam" }); setEditCert(false); }} />}
+      </section>
 
       <section className="setting">
         <label htmlFor={ids.lang} className="setting-label">{t("settings.language")}</label>

@@ -1,3 +1,4 @@
+import { EXAM_BG, EXAM_EN } from "./exam-strings";
 /**
  * Interface strings. English is the source of truth; every other language must
  * provide exactly the same keys (enforced by the type below and by i18n.test.ts).
@@ -45,7 +46,7 @@ const en = {
   "onb.goal.work": "Work",
   "onb.goal.study": "Study or university",
   "onb.goal.travel": "Travel",
-  "onb.goal.exam": "An exam (Cambridge, IELTS)",
+  "onb.goal.exam": "Prepare for a Cambridge exam (B2 First or C1 Advanced)",
   "onb.goal.allround": "All of it",
   "onb.interests.question": "Pick up to 3 topics you like",
   "onb.interests.hint": "We'll use them to choose texts and examples.",
@@ -498,6 +499,7 @@ const en = {
   "search.lesson": "Lesson",
   "read.items": "{n} exercises",
   "gram.empty": "No grammar notes for this level yet.",
+  ...EXAM_EN,
 } as const;
 
 export type StringKey = keyof typeof en;
@@ -538,7 +540,7 @@ const bg: Dictionary = {
   "onb.goal.work": "За работа",
   "onb.goal.study": "За учене или университет",
   "onb.goal.travel": "За пътуване",
-  "onb.goal.exam": "За изпит (Cambridge, IELTS)",
+  "onb.goal.exam": "Подготовка за изпит на Cambridge (B2 First или C1 Advanced)",
   "onb.goal.allround": "За всичко",
   "onb.interests.question": "Избери до 3 теми, които харесваш",
   "onb.interests.hint": "Ще ги използваме, за да избираме текстове и примери.",
@@ -991,6 +993,7 @@ const bg: Dictionary = {
   "search.lesson": "Урок",
   "read.items": "Упражнения: {n}",
   "gram.empty": "Все още няма граматични бележки за това ниво.",
+  ...EXAM_BG,
 };
 
 export const DICTIONARIES: Record<UiLanguage, Dictionary> = { en, bg };

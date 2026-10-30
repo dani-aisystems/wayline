@@ -1,0 +1,1022 @@
+{
+  "id": "c1-writing",
+  "tasks": [
+    {
+      "id": "c1.write.m1.p1",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 1,
+      "set": "mock-1",
+      "title": "Encouraging healthier lifestyles",
+      "topic": "Health and government policy",
+      "instructions": "You must answer this question. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "essay",
+      "prompt": "Your class has attended a panel discussion on what governments can do to encourage people to lead healthier lives. You have made the notes below.\n\nWays governments can encourage healthier lifestyles\n• taxing unhealthy food and drink\n• providing free public sports facilities\n• running health education campaigns\n\nSome opinions expressed in the discussion:\n\"People ignore advice – only prices change behaviour.\"\n\"Free gyms and pitches mostly benefit people who already exercise.\"\n\"Children need to learn good habits early.\"\n\nWrite an essay discussing two of the methods in your notes. You should explain which method you think is more important, giving reasons in support of your answer.\n\nYou may, if you wish, make use of the opinions expressed in the discussion, but you should use your own words as far as possible.\n\nWrite your essay in 220–260 words in an appropriate style.",
+      "points": [
+        {
+          "label": "Method (choose two of three): taxing unhealthy food and drink",
+          "keywords": [
+            "tax",
+            "taxes",
+            "taxation",
+            "taxing",
+            "sugar tax",
+            "price",
+            "cost more"
+          ]
+        },
+        {
+          "label": "Method (choose two of three): free public sports facilities",
+          "keywords": [
+            "sports facilities",
+            "gym",
+            "pitch",
+            "swimming pool",
+            "sports centre",
+            "free facilities",
+            "playground"
+          ]
+        },
+        {
+          "label": "Method (choose two of three): health education campaigns",
+          "keywords": [
+            "education",
+            "campaign",
+            "awareness",
+            "advert",
+            "school",
+            "nutrition",
+            "teach"
+          ]
+        },
+        {
+          "label": "Say which method is more important, with reasons",
+          "keywords": [
+            "more important",
+            "more effective",
+            "more valuable",
+            "on balance",
+            "in my view",
+            "i would argue",
+            "i believe",
+            "i consider",
+            "overall",
+            "weighing",
+            "the more"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "Governments across Europe are increasingly concerned about rising rates of obesity and heart disease, and many are looking for ways to persuade citizens to adopt healthier habits. Two approaches that are frequently debated are taxing unhealthy products and investing in health education.\n\nTaxing sugary drinks and heavily processed food has one obvious appeal: it works regardless of whether people are paying attention. Consumers who would scroll past a public health advert will still notice when a can of cola costs twice as much, and manufacturers often respond to such taxes by reducing the sugar in their products. The main objection is that these taxes hit low-income households hardest, although this could be offset if the revenue were spent on making fresh fruit and vegetables cheaper.\n\nEducation campaigns, by contrast, aim to change attitudes rather than prices. Their strength lies in the long term: children who learn to cook simple meals and understand nutrition at school are likely to carry those habits into adulthood. However, campaigns aimed at adults have a disappointing record, since knowing that something is unhealthy rarely stops people from buying it when they are tired or busy.\n\nOn balance, I would argue that taxation is the more effective of the two, precisely because it does not depend on individual willpower. That said, it should not be seen as a substitute for education, but rather as a way of creating conditions in which the healthy choice becomes the easy one.",
+      "modelNotes": {
+        "en": "Content: the essay discusses two of the three methods (taxation and education campaigns) in depth, gives advantages and drawbacks of each, and clearly states which is more effective and why (\"precisely because it does not depend on individual willpower\").\nCommunicative Achievement: a formal, measured academic register suitable for an essay; ideas from the discussion are used but reworded (e.g. \"only prices change behaviour\" becomes \"it works regardless of whether people are paying attention\"). The writer anticipates an objection and answers it, which holds the reader's attention.\nOrganisation: introduction naming the two methods → one paragraph per method → evaluative conclusion. Cohesion is achieved through contrast and reference rather than mechanical linkers: \"by contrast\", \"Their strength lies in…\", \"these taxes\", \"That said\".\nLanguage: a wide range of C1 structures used with control – \"regardless of whether\", \"could be offset if the revenue were spent on\", \"Their strength lies in\", \"not… a substitute for… but rather\" – and precise collocations (\"rising rates of\", \"low-income households\", \"a disappointing record\", \"individual willpower\").",
+        "bg": "Съдържание: есето обсъжда задълбочено два от трите метода (данъци и образователни кампании), посочва предимства и недостатъци на всеки и ясно казва кой е по-ефективен и защо (\"precisely because it does not depend on individual willpower\").\nКомуникативно постижение: официален, премерен академичен стил, подходящ за есе; идеите от дискусията са използвани, но с други думи (напр. \"only prices change behaviour\" става \"it works regardless of whether people are paying attention\"). Авторът предвижда възражение и му отговаря, което задържа вниманието на читателя.\nОрганизация: увод с двата метода → по един абзац за всеки метод → оценяващо заключение. Свързаността идва от контраст и препратки, а не от механични свързващи думи: \"by contrast\", \"Their strength lies in…\", \"these taxes\", \"That said\".\nЕзик: широк набор от C1 структури, използвани с контрол – \"regardless of whether\", \"could be offset if the revenue were spent on\", \"Their strength lies in\", \"not… a substitute for… but rather\" – и точни колокации (\"rising rates of\", \"low-income households\", \"a disappointing record\", \"individual willpower\")."
+      }
+    },
+    {
+      "id": "c1.write.m1.p2-a",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-1",
+      "title": "Reviving a neglected public space",
+      "topic": "Urban spaces and community",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "proposal",
+      "prompt": "The council in your town has announced that it will fund a number of projects to improve neglected public spaces. Residents have been invited to submit proposals. You decide to write a proposal in which you:\n\n• describe a public space in your town that is in poor condition\n• explain how it could be improved\n• say how local residents would benefit from the changes.\n\nWrite your proposal.",
+      "points": [
+        {
+          "label": "Describe the space and its current condition",
+          "keywords": [
+            "at present",
+            "currently",
+            "condition",
+            "neglect",
+            "broken",
+            "vandalised",
+            "litter",
+            "no longer"
+          ]
+        },
+        {
+          "label": "Explain how it could be improved",
+          "keywords": [
+            "propose",
+            "could be",
+            "should be",
+            "improve",
+            "upgrade",
+            "install",
+            "turned into",
+            "measures"
+          ]
+        },
+        {
+          "label": "Explain how residents would benefit",
+          "keywords": [
+            "benefit",
+            "residents",
+            "would give",
+            "meeting place",
+            "community",
+            "safer",
+            "local business"
+          ]
+        },
+        {
+          "label": "Proposal format: headings, purpose, recommendation",
+          "keywords": [
+            "introduction",
+            "purpose of this proposal",
+            "proposal",
+            "recommend",
+            "conclusion"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "Proposal for the regeneration of Station Square\n\nIntroduction\nThe purpose of this proposal is to recommend that part of the council's new fund be used to restore Station Square, a once-attractive space that has fallen into serious neglect over the past decade.\n\nCurrent situation\nAt present, the square is something of an embarrassment for the town. The fountain no longer works, several benches have been vandalised and the flowerbeds are full of litter and weeds. Consequently, most residents avoid the area after dark, and visitors arriving by train form a poor first impression of the town.\n\nSuggested improvements\nI would propose three relatively low-cost measures. Firstly, the lighting should be upgraded, as this would immediately make the square feel safer. Secondly, the flowerbeds could be turned into a community garden maintained by volunteers, with the council providing tools and plants. Finally, the area beside the fountain would be ideal for a small weekend market, giving local producers a place to sell their goods.\n\nBenefits for residents\nThese changes would give the neighbourhood a much-needed meeting place, particularly for elderly residents who have few opportunities to socialise. A market would also bring business to nearby cafés and shops, while a shared garden would encourage a sense of collective responsibility, which is likely to reduce vandalism.\n\nConclusion\nRestoring Station Square would be a visible and affordable investment. I strongly recommend that the council treat it as a priority.",
+      "modelNotes": {
+        "en": "Content: all three points are covered fully – the current state of the square (broken fountain, vandalised benches, residents avoiding it), three specific improvements, and benefits for different groups (elderly people, local businesses, the community as a whole).\nCommunicative Achievement: the proposal is persuasive and appropriately formal for a council – \"The purpose of this proposal is to recommend that…\", \"I would propose\", \"I strongly recommend that the council treat it as a priority\". Stressing that the measures are \"low-cost\" and \"affordable\" shows awareness of what the target reader cares about.\nOrganisation: a title and headings that mirror the task, a clear introduction and conclusion, and sequencing within the suggestions (\"Firstly… Secondly… Finally\"). Each improvement is followed by its justification.\nLanguage: confident C1 control – subjunctives after \"recommend that\" (\"be used\", \"treat\"), participle clauses (\"arriving by train\", \"maintained by volunteers\", \"giving local producers…\"), \"something of an embarrassment\", \"fallen into serious neglect\", \"a much-needed meeting place\", \"a sense of collective responsibility\".",
+        "bg": "Съдържание: и трите точки са покрити изцяло – сегашното състояние на площада (счупен фонтан, потрошени пейки, хората го избягват), три конкретни подобрения и ползи за различни групи (възрастни хора, местен бизнес, общността като цяло).\nКомуникативно постижение: предложението е убедително и подходящо официално за общинска администрация – \"The purpose of this proposal is to recommend that…\", \"I would propose\", \"I strongly recommend that the council treat it as a priority\". Подчертаването, че мерките са \"low-cost\" и \"affordable\", показва, че авторът мисли за това, което е важно за читателя.\nОрганизация: заглавие и подзаглавия, които следват задачата, ясно въведение и заключение и последователност в предложенията (\"Firstly… Secondly… Finally\"). След всяко подобрение идва обосновка.\nЕзик: уверен C1 контрол – подложно наклонение след \"recommend that\" (\"be used\", \"treat\"), причастни конструкции (\"arriving by train\", \"maintained by volunteers\", \"giving local producers…\"), \"something of an embarrassment\", \"fallen into serious neglect\", \"a much-needed meeting place\", \"a sense of collective responsibility\"."
+      }
+    },
+    {
+      "id": "c1.write.m1.p2-b",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-1",
+      "title": "Do young people still read?",
+      "topic": "Reading and education",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "letter",
+      "prompt": "You have read an article in a national newspaper claiming that young people no longer read books and that this is damaging their education. You decide to write a letter to the editor of the newspaper. In your letter you should:\n\n• say to what extent you agree with the article's claims\n• explain how young people's reading habits have changed\n• suggest what could be done to encourage young people to read more.\n\nWrite your letter.",
+      "points": [
+        {
+          "label": "Say to what extent you agree with the article",
+          "keywords": [
+            "agree",
+            "disagree",
+            "while i share",
+            "misleading",
+            "true that",
+            "to some extent",
+            "i feel",
+            "claim"
+          ]
+        },
+        {
+          "label": "Explain how reading habits have changed",
+          "keywords": [
+            "changed",
+            "online",
+            "screen",
+            "phone",
+            "e-book",
+            "shorter",
+            "articles",
+            "graphic novel",
+            "fan fiction",
+            "the way they read"
+          ]
+        },
+        {
+          "label": "Suggest ways to encourage reading",
+          "keywords": [
+            "could",
+            "should",
+            "encourage",
+            "library",
+            "libraries",
+            "book club",
+            "schools",
+            "set aside",
+            "invite"
+          ]
+        },
+        {
+          "label": "Letter conventions: purpose, salutation, sign-off",
+          "keywords": [
+            "dear editor",
+            "dear sir or madam",
+            "i am writing",
+            "yours faithfully",
+            "yours sincerely"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "Dear Editor,\n\nI am writing in response to last Saturday's article, 'The Generation That Stopped Reading', which argued that young people have abandoned books and that their education is suffering as a result. While I share the writer's concern, I feel the picture presented was somewhat misleading.\n\nIt is certainly true that teenagers spend fewer hours with printed novels than their parents did. However, this does not mean they have stopped reading altogether. Many of the students I teach read a great deal – long online articles, graphic novels and, increasingly, e-books on their phones. What has changed is not so much the amount they read as the way they read: in shorter bursts, across several screens, and often while doing something else. It is this lack of sustained concentration, rather than a lack of interest, that should worry us.\n\nIf we want young people to rediscover the pleasure of longer texts, lecturing them is unlikely to help. Instead, schools could set aside a short period each day for silent reading of a book of the student's own choosing, with no tests or reports attached. Public libraries, too, could do more to attract teenagers, for example by hosting book clubs led by young people themselves or inviting popular authors to give talks.\n\nReading habits evolve with every generation. Rather than dismissing young people as non-readers, we should meet them where they are.\n\nYours faithfully,\nKaterina Ivanova",
+      "modelNotes": {
+        "en": "Content: the letter addresses all three points – partial agreement (\"While I share the writer's concern… somewhat misleading\"), how habits have changed (more screen-based, shorter bursts, less sustained concentration) and two concrete suggestions (daily silent reading, library book clubs and author talks).\nCommunicative Achievement: a convincing letter to an editor – it names the article, takes a clear but courteous position and supports it with the writer's own experience as a teacher. The register is formal yet engaged, and the closing line (\"we should meet them where they are\") gives the letter a memorable, persuasive ending.\nOrganisation: reason for writing and position → evidence about changing habits → suggestions → short conclusion. Ideas are linked by contrast and emphasis (\"However\", \"Instead\", \"too\") and by reference (\"this does not mean\", \"It is this lack of…\").\nLanguage: a broad range of C1 features used accurately – cleft sentences (\"What has changed is not so much… as…\", \"It is this lack of sustained concentration… that…\"), \"set aside\", \"with no tests or reports attached\", \"Rather than dismissing…\", and precise vocabulary (\"in shorter bursts\", \"sustained concentration\", \"abandoned\").",
+        "bg": "Съдържание: писмото засяга и трите точки – частично съгласие (\"While I share the writer's concern… somewhat misleading\"), как са се променили навиците (повече екрани, по-кратки откъси, по-малко продължително внимание) и две конкретни предложения (ежедневно тихо четене, читателски клубове и срещи с автори в библиотеките).\nКомуникативно постижение: убедително писмо до редактор – назовава статията, заема ясна, но учтива позиция и я подкрепя с личния опит на автора като учител. Стилът е официален, но ангажиран, а последното изречение (\"we should meet them where they are\") дава запомнящ се и убедителен край.\nОрганизация: причина за писане и позиция → доказателства за промените → предложения → кратко заключение. Идеите са свързани чрез контраст и акцент (\"However\", \"Instead\", \"too\") и чрез препратки (\"this does not mean\", \"It is this lack of…\").\nЕзик: широк набор от C1 средства, използвани точно – изречения с изнасяне на акцента (\"What has changed is not so much… as…\", \"It is this lack of sustained concentration… that…\"), \"set aside\", \"with no tests or reports attached\", \"Rather than dismissing…\" и прецизна лексика (\"in shorter bursts\", \"sustained concentration\", \"abandoned\")."
+      }
+    },
+    {
+      "id": "c1.write.m1.p2-c",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-1",
+      "title": "A documentary series that matters",
+      "topic": "Media and social issues",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "review",
+      "prompt": "You see this announcement on a website about documentaries.\n\nREVIEWS WANTED\nWe are looking for reviews of documentary series that tackle important issues. Your review should briefly describe the series, assess how successfully it informs and engages viewers, and say whether you think it could change the way people behave.\n\nWrite your review.",
+      "points": [
+        {
+          "label": "Briefly describe the series",
+          "keywords": [
+            "series",
+            "episode",
+            "follows",
+            "four-part",
+            "exposes",
+            "about",
+            "documentary"
+          ]
+        },
+        {
+          "label": "Assess how well it informs and engages",
+          "keywords": [
+            "compelling",
+            "engag",
+            "inform",
+            "effective",
+            "succeeds",
+            "weakness",
+            "what makes",
+            "cinematography",
+            "lecture"
+          ]
+        },
+        {
+          "label": "Say whether it could change behaviour",
+          "keywords": [
+            "change the way",
+            "behave",
+            "behaviour",
+            "shift",
+            "opinion",
+            "will make",
+            "i suspect",
+            "habits"
+          ]
+        },
+        {
+          "label": "Review conventions: title, evaluation, recommendation",
+          "keywords": [
+            "recommend",
+            "highly recommended",
+            "worth watching",
+            "must-see",
+            "should watch"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "Threadbare: the true cost of fast fashion\n\nFew documentaries manage to be both alarming and genuinely entertaining, but Threadbare, a four-part series currently available on public television, pulls off this difficult balancing act. Following a single cheap T-shirt from a cotton field in Central Asia to a rubbish tip in West Africa, it exposes the hidden consequences of our appetite for inexpensive, disposable clothing.\n\nWhat makes the series so compelling is its refusal to lecture. Rather than relying on statistics read out over dramatic music, the director lets the people involved tell their own stories: a factory worker explaining how she supports three children on less than a living wage, a second-hand trader watching bales of unwanted clothes arrive faster than she can sell them. The cinematography is striking, too, with the vivid colours of the textile markets contrasting sharply with grey mountains of waste.\n\nIf the series has a weakness, it lies in the final episode, which offers rather simplistic solutions. Viewers are urged to 'buy less and buy better', yet the programme largely ignores the fact that many families simply cannot afford ethically produced clothing.\n\nCould Threadbare change the way people behave? I suspect it will. I, for one, can no longer walk past a clearance sale without picturing those discarded clothes. While it is unlikely to transform the fashion industry on its own, it is precisely the kind of programme that shifts public opinion one viewer at a time. Highly recommended.",
+      "modelNotes": {
+        "en": "Content: all three elements are covered – a brief description (four parts, following one T-shirt across continents), an assessment of how it informs and engages (personal stories instead of statistics, striking cinematography, a weak final episode) and a reasoned answer about changing behaviour.\nCommunicative Achievement: a polished review for an interested general audience – an intriguing title, an evaluative opening (\"pulls off this difficult balancing act\"), a balanced critique and a personal response (\"I, for one, can no longer walk past a clearance sale…\") that makes the final verdict convincing.\nOrganisation: description → strengths → weakness → impact and verdict. Each paragraph opens with a clear evaluative frame (\"What makes the series so compelling is…\", \"If the series has a weakness, it lies in…\", \"Could Threadbare change…?\"), giving the review a strong sense of progression.\nLanguage: sophisticated but natural C1 language – cleft and fronted structures, participle clauses (\"Following a single cheap T-shirt…\", \"a factory worker explaining…\"), \"Rather than relying on\", \"contrasting sharply with\", and idiomatic, precise vocabulary (\"our appetite for\", \"a living wage\", \"simplistic\", \"one viewer at a time\").",
+        "bg": "Съдържание: и трите елемента са покрити – кратко описание (четири епизода, проследяващи една тениска през континентите), оценка как информира и ангажира (лични истории вместо статистика, впечатляваща операторска работа, по-слаб последен епизод) и аргументиран отговор дали може да промени поведението.\nКомуникативно постижение: изпипано ревю за заинтересована широка публика – интригуващо заглавие, оценъчно начало (\"pulls off this difficult balancing act\"), балансирана критика и лична реакция (\"I, for one, can no longer walk past a clearance sale…\"), която прави крайната оценка убедителна.\nОрганизация: описание → силни страни → слабост → въздействие и присъда. Всеки абзац започва с ясна оценъчна рамка (\"What makes the series so compelling is…\", \"If the series has a weakness, it lies in…\", \"Could Threadbare change…?\"), което дава на ревюто ясно развитие.\nЕзик: изтънчен, но естествен C1 език – изречения с изнасяне на акцента, причастни конструкции (\"Following a single cheap T-shirt…\", \"a factory worker explaining…\"), \"Rather than relying on\", \"contrasting sharply with\" и идиоматична, точна лексика (\"our appetite for\", \"a living wage\", \"simplistic\", \"one viewer at a time\")."
+      }
+    },
+    {
+      "id": "c1.write.m2.p1",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 1,
+      "set": "mock-2",
+      "title": "Preserving local culture",
+      "topic": "Culture and globalisation",
+      "instructions": "You must answer this question. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "essay",
+      "prompt": "Your class has attended a lecture on how communities can preserve their local culture in an increasingly globalised world. You have made the notes below.\n\nWays of preserving local culture\n• funding traditional festivals and crafts\n• teaching local history and traditions in schools\n• supporting local-language media\n\nSome opinions expressed in the discussion:\n\"Festivals often turn into shows for tourists rather than real traditions.\"\n\"If young people don't learn about their heritage at school, they never will.\"\n\"Without local newspapers and radio, a community loses its voice.\"\n\nWrite an essay discussing two of the methods in your notes. You should explain which method you think is more important, giving reasons in support of your answer.\n\nYou may, if you wish, make use of the opinions expressed in the discussion, but you should use your own words as far as possible.\n\nWrite your essay in 220–260 words in an appropriate style.",
+      "points": [
+        {
+          "label": "Method (choose two of three): funding festivals and crafts",
+          "keywords": [
+            "festival",
+            "craft",
+            "funding",
+            "fund",
+            "financial support",
+            "subsid",
+            "artisan"
+          ]
+        },
+        {
+          "label": "Method (choose two of three): teaching heritage in schools",
+          "keywords": [
+            "school",
+            "teach",
+            "curriculum",
+            "pupils",
+            "children",
+            "education",
+            "lessons",
+            "heritage"
+          ]
+        },
+        {
+          "label": "Method (choose two of three): supporting local-language media",
+          "keywords": [
+            "media",
+            "newspaper",
+            "radio",
+            "local language",
+            "television",
+            "journalism",
+            "broadcast"
+          ]
+        },
+        {
+          "label": "Say which method is more important, with reasons",
+          "keywords": [
+            "more important",
+            "more effective",
+            "more valuable",
+            "on balance",
+            "in my view",
+            "i would argue",
+            "i believe",
+            "i consider",
+            "overall",
+            "weighing",
+            "the more"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "As films, music and even food become increasingly similar from one country to the next, many communities fear that what makes them distinctive is gradually being lost. Of the various ways of preserving local culture, two seem particularly worth examining: financial support for traditional festivals and crafts, and the teaching of local history and traditions in schools.\n\nFunding festivals and crafts has the advantage of keeping traditions visible and, crucially, economically viable. A woodcarver who cannot make a living will eventually abandon the craft, and once that knowledge disappears it is extremely difficult to recover. The risk, however, is that public money turns living customs into performances staged mainly for tourists, preserving their outward form while emptying them of meaning.\n\nTeaching heritage in schools addresses precisely this problem. When children learn not only what local traditions involve but why they arose, they are more likely to see them as part of their own identity rather than as quaint spectacles. Furthermore, school reaches every child, including those whose families have little connection to their roots. The drawback is that an already overcrowded curriculum leaves limited room, and poorly taught lessons can make the subject seem dull.\n\nWeighing the two, I believe education is the more important, since festivals and crafts ultimately survive only if a new generation cares about them. Funding can keep a tradition alive for a few more years; understanding can keep it alive for good. Ideally, of course, the two would work together, with pupils taking part in the very events they study.",
+      "modelNotes": {
+        "en": "Content: two of the three methods (funding festivals and crafts; teaching heritage in schools) are discussed with a clear advantage and drawback for each, and the conclusion states which is more important with a clear reason (\"festivals and crafts ultimately survive only if a new generation cares about them\").\nCommunicative Achievement: a formal, thoughtful essay register. The opinions from the lecture are used but rephrased (shows for tourists → \"performances staged mainly for tourists, preserving their outward form while emptying them of meaning\"), which is exactly what the task asks.\nOrganisation: an introduction that sets the context and names the two methods; one paragraph per method; an evaluative conclusion. The paragraphs are tightly connected – \"Teaching heritage in schools addresses precisely this problem\" links back to the previous risk.\nLanguage: a wide, precise range – \"economically viable\", \"once that knowledge disappears\", \"not only… but…\", \"rather than as quaint spectacles\", the balanced antithesis \"Funding can keep a tradition alive for a few more years; understanding can keep it alive for good\", and \"the very events they study\".",
+        "bg": "Съдържание: два от трите метода (финансиране на фестивали и занаяти; преподаване на наследството в училище) са обсъдени с ясно предимство и недостатък за всеки, а заключението казва кой е по-важен с ясна причина (\"festivals and crafts ultimately survive only if a new generation cares about them\").\nКомуникативно постижение: официален, обмислен стил на есе. Мненията от лекцията са използвани, но перифразирани (shows for tourists → \"performances staged mainly for tourists, preserving their outward form while emptying them of meaning\"), точно както изисква задачата.\nОрганизация: увод, който дава контекста и назовава двата метода; по един абзац за метод; оценяващо заключение. Абзаците са плътно свързани – \"Teaching heritage in schools addresses precisely this problem\" се връща към риска от предишния абзац.\nЕзик: широк и точен набор – \"economically viable\", \"once that knowledge disappears\", \"not only… but…\", \"rather than as quaint spectacles\", балансираната антитеза \"Funding can keep a tradition alive for a few more years; understanding can keep it alive for good\" и \"the very events they study\"."
+      }
+    },
+    {
+      "id": "c1.write.m2.p2-a",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Hybrid working trial",
+      "topic": "Work and the workplace",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "report",
+      "prompt": "Your company recently ran a six-month trial in which employees in your department could work from home for up to three days a week. The Human Resources manager has asked you to write a report on the trial. In your report you should:\n\n• describe how the arrangement affected productivity and communication\n• outline any problems that arose\n• recommend whether the arrangement should be made permanent, and with what changes.\n\nWrite your report.",
+      "points": [
+        {
+          "label": "Describe the effect on productivity and communication",
+          "keywords": [
+            "productiv",
+            "communication",
+            "efficient",
+            "meetings",
+            "deadlines",
+            "on schedule",
+            "output"
+          ]
+        },
+        {
+          "label": "Outline problems that arose",
+          "keywords": [
+            "problem",
+            "issue",
+            "emerged",
+            "isolated",
+            "difficult",
+            "drawback",
+            "concern"
+          ]
+        },
+        {
+          "label": "Recommend whether to make it permanent, with changes",
+          "keywords": [
+            "recommend",
+            "permanent",
+            "should",
+            "adjustment",
+            "changes",
+            "suggest",
+            "in light of"
+          ]
+        },
+        {
+          "label": "Report format: headings, purpose, sources of information",
+          "keywords": [
+            "introduction",
+            "this report",
+            "questionnaire",
+            "survey",
+            "conclusion",
+            "findings"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "Report on the hybrid working trial\n\nIntroduction\nThis report evaluates the six-month trial during which members of the Marketing Department were permitted to work remotely for up to three days a week. It draws on productivity data, a staff questionnaire and informal interviews with team leaders.\n\nProductivity and communication\nOverall, the impact on productivity was positive. The proportion of campaigns delivered on schedule rose by around twelve per cent, and staff reported that tasks requiring concentration were completed far more efficiently at home. Communication, however, presented a more mixed picture. While scheduled meetings ran smoothly online, many respondents felt that informal exchanges of ideas had become less frequent.\n\nProblems encountered\nTwo issues emerged. Firstly, because employees chose their own office days, it was not unusual for someone to come in only to find that none of their immediate colleagues were present, which undermined the purpose of being there. Secondly, newer staff reported feeling isolated and uncertain about whom to ask for help.\n\nRecommendations\nIn light of these findings, I would recommend that the arrangement be made permanent, subject to two adjustments. The department should designate two fixed 'anchor days' each week when the whole team is in the office, so that collaborative work can be concentrated on those days. In addition, each new employee should be assigned a mentor and spend their first month working mainly on site.\n\nConclusion\nWith these modifications, hybrid working is likely to retain its clear benefits while addressing the concerns raised during the trial.",
+      "modelNotes": {
+        "en": "Content: every bullet is answered – the effect on productivity (a twelve per cent rise, better concentration) and communication (formal meetings fine, fewer informal exchanges), two specific problems, and a clear recommendation with two changes that directly solve those problems.\nCommunicative Achievement: an objective, formal register that an HR manager would expect – impersonal phrasing (\"It draws on…\", \"Two issues emerged\", \"respondents felt\"), cautious language (\"around\", \"more mixed picture\", \"is likely to\") and a recommendation that is easy to act on.\nOrganisation: a report layout with headings that follow the task, an introduction explaining sources of information, and a short conclusion. Within sections, \"Firstly / Secondly\", \"however\", \"While…\" and \"In light of these findings\" make the logic transparent.\nLanguage: confident C1 report language – passives and the subjunctive (\"be made permanent, subject to two adjustments\"), \"it was not unusual for someone to come in only to find that…\", \"whom to ask for help\", and precise collocations (\"delivered on schedule\", \"designate\", \"undermined the purpose\", \"retain its clear benefits\").",
+        "bg": "Съдържание: отговорено е на всеки булет – ефектът върху продуктивността (ръст от около 12%, по-добра концентрация) и комуникацията (формалните срещи вървят добре, по-малко неформален обмен), два конкретни проблема и ясна препоръка с две промени, които пряко решават тези проблеми.\nКомуникативно постижение: обективен, официален стил, какъвто очаква HR мениджър – безлични формулировки (\"It draws on…\", \"Two issues emerged\", \"respondents felt\"), предпазлив език (\"around\", \"more mixed picture\", \"is likely to\") и препоръка, по която лесно може да се действа.\nОрганизация: формат на доклад с подзаглавия, които следват задачата, въведение с източниците на информация и кратко заключение. В разделите \"Firstly / Secondly\", \"however\", \"While…\" и \"In light of these findings\" правят логиката прозрачна.\nЕзик: уверен C1 език за доклад – страдателен залог и подложно наклонение (\"be made permanent, subject to two adjustments\"), \"it was not unusual for someone to come in only to find that…\", \"whom to ask for help\" и точни колокации (\"delivered on schedule\", \"designate\", \"undermined the purpose\", \"retain its clear benefits\")."
+      }
+    },
+    {
+      "id": "c1.write.m2.p2-b",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Advice for colleagues relocating",
+      "topic": "Relocation and city life",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "email",
+      "prompt": "An international company is opening an office in your city. Its Human Resources manager, Ms Hartmann, has emailed you, as a local professional contact, asking for advice for staff who will be relocating there. She would like you to:\n\n• recommend the best areas to live in, for different kinds of people\n• explain what newcomers might find challenging about life in the city\n• suggest ways for them to make social connections.\n\nWrite your email.",
+      "points": [
+        {
+          "label": "Recommend areas to live in for different people",
+          "keywords": [
+            "area",
+            "district",
+            "neighbourhood",
+            "centre",
+            "live",
+            "families",
+            "flats",
+            "accommodation"
+          ]
+        },
+        {
+          "label": "Explain possible challenges for newcomers",
+          "keywords": [
+            "challeng",
+            "surprised",
+            "difficult",
+            "paperwork",
+            "administration",
+            "bureaucracy",
+            "language",
+            "shock",
+            "temperatures"
+          ]
+        },
+        {
+          "label": "Suggest ways to make social connections",
+          "keywords": [
+            "meet",
+            "club",
+            "meetup",
+            "community",
+            "friends",
+            "language exchange",
+            "join",
+            "social"
+          ]
+        },
+        {
+          "label": "Email conventions: polite opening and closing",
+          "keywords": [
+            "dear ms hartmann",
+            "thank you for your email",
+            "kind regards",
+            "best regards",
+            "don't hesitate",
+            "do not hesitate"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "Dear Ms Hartmann,\n\nThank you for your email. I'm delighted to hear that your company is opening an office in Plovdiv, and I'm happy to share some advice for your colleagues.\n\nAs far as accommodation is concerned, much depends on their priorities. Those who would like to be within walking distance of restaurants and cultural life would probably enjoy the centre or the area around the Old Town, although flats there tend to be older and can be noticeably more expensive. Families, on the other hand, often prefer the larger residential districts to the south, which offer newer buildings, parks and good schools at more reasonable prices.\n\nIn terms of challenges, newcomers are often surprised by how much everyday administration, such as registering an address or setting up utilities, still requires paperwork in Bulgarian. I would strongly recommend arranging a relocation assistant for the first few weeks. Summer temperatures can also come as something of a shock, so air conditioning is a necessity rather than a luxury.\n\nWhen it comes to making friends, the city is far more welcoming than its size might suggest. There is an active international community that organises regular meetups and language exchanges, and joining a hiking or running club is an excellent way to meet locals, many of whom speak good English. Learning even a few phrases of Bulgarian will also be warmly appreciated.\n\nPlease don't hesitate to contact me if your colleagues have any further questions. I'd be glad to meet them once they arrive.\n\nKind regards,\nNikolai Petrov",
+      "modelNotes": {
+        "en": "Content: all three requests are answered with relevant detail – areas for two different groups (people who want city life vs families), two concrete challenges (administration in Bulgarian, summer heat) and several ways to meet people (international meetups, language exchanges, sports clubs, learning some Bulgarian).\nCommunicative Achievement: a helpful, professional email to a business contact. The register is polite and semi-formal – some contractions (\"I'm delighted\") but no slang – and the writer adds practical, actionable advice (\"I would strongly recommend arranging a relocation assistant\"). The offer to meet the colleagues builds the relationship.\nOrganisation: a thank-you opening, one paragraph per request introduced by a clear topic phrase (\"As far as accommodation is concerned\", \"In terms of challenges\", \"When it comes to making friends\") and a courteous close.\nLanguage: natural C1 range – \"within walking distance of\", \"much depends on their priorities\", \"come as something of a shock\", \"a necessity rather than a luxury\", \"far more welcoming than its size might suggest\", \"many of whom\" – used accurately and appropriately.",
+        "bg": "Съдържание: и на трите молби е отговорено с уместни детайли – райони за две различни групи (хора, които искат градски живот, и семейства), две конкретни трудности (администрацията на български, лятната жега) и няколко начина за запознанства (международни срещи, езиков обмен, спортни клубове, малко български).\nКомуникативно постижение: полезен, професионален имейл до бизнес контакт. Стилът е учтив и полуофициален – има съкращения (\"I'm delighted\"), но без жаргон – а авторът добавя практични съвети (\"I would strongly recommend arranging a relocation assistant\"). Предложението да се срещне с колегите изгражда отношения.\nОрганизация: начало с благодарност, по един абзац за всяка молба, въведен с ясна фраза (\"As far as accommodation is concerned\", \"In terms of challenges\", \"When it comes to making friends\"), и учтив край.\nЕзик: естествен C1 набор – \"within walking distance of\", \"much depends on their priorities\", \"come as something of a shock\", \"a necessity rather than a luxury\", \"far more welcoming than its size might suggest\", \"many of whom\" – използвани точно и уместно."
+      }
+    },
+    {
+      "id": "c1.write.m2.p2-c",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 2,
+      "set": "mock-2",
+      "title": "Bringing adults back to the library",
+      "topic": "Libraries and community services",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "proposal",
+      "prompt": "The central library in your town wants to attract more adult visitors and has invited members of the public to submit proposals. Write a proposal for the library director in which you:\n\n• explain why adults currently use the library less than other groups\n• suggest new services or events that would appeal to adults\n• explain how these changes could be publicised.\n\nWrite your proposal.",
+      "points": [
+        {
+          "label": "Explain why adults use the library less",
+          "keywords": [
+            "opening hours",
+            "closes",
+            "perceived",
+            "unaware",
+            "obstacle",
+            "reason",
+            "full-time",
+            "image"
+          ]
+        },
+        {
+          "label": "Suggest new services or events for adults",
+          "keywords": [
+            "book club",
+            "workshop",
+            "evening",
+            "events",
+            "lend",
+            "café",
+            "conversation club",
+            "services"
+          ]
+        },
+        {
+          "label": "Explain how to publicise the changes",
+          "keywords": [
+            "publicis",
+            "publiciz",
+            "posters",
+            "social media",
+            "advertis",
+            "launch",
+            "promote",
+            "word of mouth"
+          ]
+        },
+        {
+          "label": "Proposal format: headings, purpose, recommendation",
+          "keywords": [
+            "introduction",
+            "this proposal",
+            "recommend",
+            "conclusion",
+            "i would suggest"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "Proposal: attracting adult visitors to the Central Library\n\nIntroduction\nThis proposal outlines the reasons why so few adults use the Central Library and recommends a number of services and events designed to change this.\n\nWhy adults stay away\nBased on conversations with friends and colleagues, it seems that the main obstacle is the opening hours. The library closes at 6 p.m. on weekdays, which means that most people in full-time employment simply cannot visit. In addition, the library is widely perceived as a place for children and students, and many adults are unaware that it offers anything beyond books.\n\nSuggested services and events\nFirstly, I would recommend extending opening hours until 9 p.m. on at least two evenings a week. These evenings could then host events aimed specifically at adults, such as:\n• a monthly book club, with a café corner serving coffee and snacks\n• practical workshops on topics like personal finance or using online public services\n• informal conversation clubs for people learning foreign languages.\nSecondly, the library could lend items other than books, such as tools, board games or sports equipment, a service that has proved popular in other cities.\n\nPublicising the changes\nSince the target audience rarely visits the library, publicity needs to reach them elsewhere. Posters in workplaces, gyms and on public transport would be effective, as would a presence in local social media groups. A launch evening with a well-known local author would also help to generate interest.\n\nConclusion\nI am confident that these relatively modest measures would transform the library's image among adults.",
+      "modelNotes": {
+        "en": "Content: all three points are covered – two convincing reasons adults stay away (opening hours, the library's image), a range of specific services and events, and a publicity plan that targets places adults actually go.\nCommunicative Achievement: a persuasive, formal proposal addressed to a decision-maker. It is realistic (\"relatively modest measures\"), backed by evidence (\"Based on conversations with friends and colleagues\", \"has proved popular in other cities\") and ends with a confident recommendation.\nOrganisation: clear headings matching the task, a bulleted list for the events (all in parallel noun phrases), and logical sequencing (\"Firstly… Secondly…\"). The publicity section opens by linking back to the problem (\"Since the target audience rarely visits the library…\").\nLanguage: a broad, accurate range – \"is widely perceived as\", \"anything beyond books\", \"aimed specifically at\", \"items other than books\", the inverted comparison \"as would a presence in local social media groups\", \"generate interest\", \"transform the library's image\".",
+        "bg": "Съдържание: и трите точки са покрити – две убедителни причини възрастните да не идват (работното време, имиджът на библиотеката), набор от конкретни услуги и събития и рекламен план, насочен към места, където възрастните реално ходят.\nКомуникативно постижение: убедително, официално предложение към човек, който взема решения. То е реалистично (\"relatively modest measures\"), подкрепено с доказателства (\"Based on conversations with friends and colleagues\", \"has proved popular in other cities\") и завършва с уверена препоръка.\nОрганизация: ясни подзаглавия по задачата, списък с булети за събитията (всички в успоредни съществителни фрази) и логична последователност (\"Firstly… Secondly…\"). Разделът за рекламата започва с връзка към проблема (\"Since the target audience rarely visits the library…\").\nЕзик: широк и точен набор – \"is widely perceived as\", \"anything beyond books\", \"aimed specifically at\", \"items other than books\", инверсията в сравнението \"as would a presence in local social media groups\", \"generate interest\", \"transform the library's image\"."
+      }
+    },
+    {
+      "id": "c1.write.d1.p1",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 1,
+      "set": "drill",
+      "title": "Getting people onto public transport",
+      "topic": "Transport and the environment",
+      "instructions": "You must answer this question. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "essay",
+      "prompt": "Your class has watched a documentary about how cities can persuade more people to use public transport instead of cars. You have made the notes below.\n\nWays to increase the use of public transport\n• lowering fares\n• making services more frequent and reliable\n• restricting car use in city centres\n\nSome opinions expressed in the discussion:\n\"If buses are cheap enough, people will use them.\"\n\"Nobody leaves their car at home for a bus that never comes.\"\n\"Drivers only change their habits when they have no choice.\"\n\nWrite an essay discussing two of the methods in your notes. You should explain which method you think is more important, giving reasons in support of your answer.\n\nYou may, if you wish, make use of the opinions expressed in the discussion, but you should use your own words as far as possible.\n\nWrite your essay in 220–260 words in an appropriate style.",
+      "points": [
+        {
+          "label": "Method (choose two of three): lowering fares",
+          "keywords": [
+            "fare",
+            "ticket",
+            "cheap",
+            "free public transport",
+            "price",
+            "cost",
+            "afford"
+          ]
+        },
+        {
+          "label": "Method (choose two of three): more frequent and reliable services",
+          "keywords": [
+            "frequen",
+            "reliab",
+            "timetable",
+            "every five minutes",
+            "on time",
+            "wait",
+            "convenien"
+          ]
+        },
+        {
+          "label": "Method (choose two of three): restricting car use",
+          "keywords": [
+            "restrict",
+            "ban",
+            "congestion charge",
+            "parking",
+            "car-free",
+            "low-emission zone",
+            "limit"
+          ]
+        },
+        {
+          "label": "Say which method is more important, with reasons",
+          "keywords": [
+            "more important",
+            "more effective",
+            "more valuable",
+            "on balance",
+            "in my view",
+            "i would argue",
+            "i believe",
+            "i consider",
+            "overall",
+            "weighing",
+            "the more"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "In many cities, congestion and air pollution have reached levels that authorities can no longer ignore, and encouraging people to swap their cars for public transport is widely seen as part of the solution. Two of the most commonly proposed measures are reducing fares and making services more frequent and reliable.\n\nCutting the cost of tickets has an immediate and easily understood appeal. For students, pensioners and low-income workers, even a modest reduction can make a significant difference to monthly budgets, and several European cities that have introduced free public transport have reported noticeable rises in passenger numbers. Yet closer inspection suggests that many of these new passengers were former pedestrians and cyclists rather than drivers, which rather undermines the environmental argument.\n\nImproving frequency and reliability, by contrast, targets the very reasons most drivers give for avoiding buses and trams. Few people are concerned about saving a euro if it means standing at a stop for twenty minutes, uncertain whether the bus will appear at all. When services run every few minutes and arrive when the timetable says they will, public transport becomes a genuine alternative rather than a last resort. Admittedly, this is an expensive undertaking, requiring investment in vehicles, staff and dedicated bus lanes.\n\nIn my view, reliability is the more important of the two. Price matters, but convenience matters more: people will willingly pay a reasonable fare for a service they can depend on, whereas even a free service will fail to tempt drivers if it wastes their time.",
+      "modelNotes": {
+        "en": "Content: two methods (lower fares; frequency and reliability) are each evaluated with a benefit and a limitation, and the conclusion clearly states that reliability is more important, with a reason that follows from the analysis.\nCommunicative Achievement: a formal, analytical register; the writer reworks the opinions from the documentary in their own words (a bus that never comes → \"uncertain whether the bus will appear at all\") and builds a genuine argument rather than a list.\nOrganisation: context and focus in the introduction, one paragraph per method, evaluative conclusion. Contrast is signalled precisely (\"Yet closer inspection suggests\", \"by contrast\", \"Admittedly\", \"whereas\").\nLanguage: wide and accurate C1 range – \"reached levels that authorities can no longer ignore\", \"which rather undermines the environmental argument\", \"targets the very reasons\", \"a genuine alternative rather than a last resort\", \"an expensive undertaking\", and the balanced final sentence \"Price matters, but convenience matters more\".",
+        "bg": "Съдържание: два метода (по-евтини билети; честота и надеждност) са оценени с предимство и ограничение, а заключението ясно казва, че надеждността е по-важна, с причина, която следва от анализа.\nКомуникативно постижение: официален, аналитичен стил; авторът преработва мненията от документалния филм със свои думи (a bus that never comes → \"uncertain whether the bus will appear at all\") и изгражда истински аргумент, а не списък.\nОрганизация: контекст и фокус в увода, по един абзац за метод, оценяващо заключение. Контрастът е отбелязан прецизно (\"Yet closer inspection suggests\", \"by contrast\", \"Admittedly\", \"whereas\").\nЕзик: широк и точен C1 набор – \"reached levels that authorities can no longer ignore\", \"which rather undermines the environmental argument\", \"targets the very reasons\", \"a genuine alternative rather than a last resort\", \"an expensive undertaking\" и балансираното финално изречение \"Price matters, but convenience matters more\"."
+      }
+    },
+    {
+      "id": "c1.write.d2.p1",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 1,
+      "set": "drill",
+      "title": "Helping employees develop",
+      "topic": "Work and professional development",
+      "instructions": "You must answer this question. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "essay",
+      "prompt": "Your class has attended a seminar on how employers can help their staff to develop professionally. You have made the notes below.\n\nWays employers can support staff development\n• paying for courses and qualifications\n• setting up mentoring schemes\n• offering flexible hours for study\n\nSome opinions expressed in the discussion:\n\"Staff leave as soon as the company has paid for their qualification.\"\n\"You learn more from an experienced colleague than from any course.\"\n\"People can't study if they're exhausted after work.\"\n\nWrite an essay discussing two of the methods in your notes. You should explain which method you think is more important, giving reasons in support of your answer.\n\nYou may, if you wish, make use of the opinions expressed in the discussion, but you should use your own words as far as possible.\n\nWrite your essay in 220–260 words in an appropriate style.",
+      "points": [
+        {
+          "label": "Method (choose two of three): paying for courses and qualifications",
+          "keywords": [
+            "course",
+            "qualification",
+            "paying for",
+            "funding",
+            "fund",
+            "training",
+            "certificate"
+          ]
+        },
+        {
+          "label": "Method (choose two of three): mentoring schemes",
+          "keywords": [
+            "mentor",
+            "experienced colleague",
+            "senior staff",
+            "coaching",
+            "guidance"
+          ]
+        },
+        {
+          "label": "Method (choose two of three): flexible hours for study",
+          "keywords": [
+            "flexib",
+            "hours",
+            "time off",
+            "study leave",
+            "exhausted",
+            "schedule",
+            "working time"
+          ]
+        },
+        {
+          "label": "Say which method is more important, with reasons",
+          "keywords": [
+            "more important",
+            "more effective",
+            "more valuable",
+            "on balance",
+            "in my view",
+            "i would argue",
+            "i believe",
+            "i consider",
+            "overall",
+            "weighing",
+            "the more"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "In a rapidly changing job market, employees can no longer rely on the skills they acquired at the start of their careers, and employers have a clear interest in helping them keep up. Two ways of doing this are funding external courses and qualifications, and setting up mentoring schemes within the organisation.\n\nPaying for courses gives employees access to expertise that may not exist inside the company, as well as qualifications that are recognised across an industry. It also sends a powerful message that the organisation values its staff. Some managers worry that this simply makes employees more attractive to competitors, but the concern seems exaggerated: people tend to stay with employers who invest in them, and contracts can require staff to remain for a reasonable period after completing a funded qualification.\n\nMentoring, on the other hand, costs relatively little and develops a kind of knowledge that no course can provide. An experienced colleague can explain how decisions are really made, which mistakes to avoid and how to handle difficult clients, all within the specific context of the company. Nor are the benefits one-sided, as mentors often find that explaining their work helps them to reflect on it. The main risk is that busy senior staff treat mentoring as a box to be ticked rather than a genuine commitment.\n\nOverall, I consider mentoring the more valuable of the two, because it builds the practical judgement that most employees need in their everyday work. Courses are best seen as a complement to it rather than a replacement.",
+      "modelNotes": {
+        "en": "Content: two methods (funded courses; mentoring) are discussed, each with strengths and a risk, and one opinion from the seminar (staff leaving after a paid qualification) is evaluated and answered. The conclusion clearly names mentoring as more valuable and explains why.\nCommunicative Achievement: a formal, balanced essay that would convince an educated reader: concessions are acknowledged (\"Some managers worry…\", \"The main risk is…\") and then weighed, so the final judgement feels reasoned.\nOrganisation: introduction → courses → mentoring → conclusion, with clear signposting (\"on the other hand\", \"Overall\") and strong internal cohesion (\"this simply makes…\", \"the concern seems exaggerated\", \"it\").\nLanguage: a wide C1 range used precisely – negative inversion (\"Nor are the benefits one-sided\"), \"a box to be ticked\", \"sends a powerful message\", \"within the specific context of\", \"a complement to it rather than a replacement\", and accurate collocations (\"acquired skills\", \"recognised across an industry\", \"practical judgement\").",
+        "bg": "Съдържание: обсъдени са два метода (платени курсове; менторство), всеки със силни страни и риск, а едно мнение от семинара (служителите напускат след платена квалификация) е оценено и опровергано. Заключението ясно посочва менторството като по-ценно и обяснява защо.\nКомуникативно постижение: официално, балансирано есе, което би убедило образован читател: признават се възражения (\"Some managers worry…\", \"The main risk is…\") и после се претеглят, така че крайната оценка звучи обосновано.\nОрганизация: увод → курсове → менторство → заключение, с ясни сигнали (\"on the other hand\", \"Overall\") и силна вътрешна свързаност (\"this simply makes…\", \"the concern seems exaggerated\", \"it\").\nЕзик: широк C1 набор, използван прецизно – отрицателна инверсия (\"Nor are the benefits one-sided\"), \"a box to be ticked\", \"sends a powerful message\", \"within the specific context of\", \"a complement to it rather than a replacement\" и точни колокации (\"acquired skills\", \"recognised across an industry\", \"practical judgement\")."
+      }
+    },
+    {
+      "id": "c1.write.d1.p2",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 2,
+      "set": "drill",
+      "title": "An app for learning a skill",
+      "topic": "Technology and learning",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "review",
+      "prompt": "You see this announcement on a learning website.\n\nREVIEWS WANTED: LEARNING APPS AND ONLINE COURSES\nHave you used an app or online course to learn a practical skill? Write a review describing the app or course, evaluating its strengths and weaknesses, and saying what kind of learner it would suit best.\n\nWrite your review.",
+      "points": [
+        {
+          "label": "Describe the app or course",
+          "keywords": [
+            "app",
+            "course",
+            "lessons",
+            "works by",
+            "subscription",
+            "claims",
+            "feedback"
+          ]
+        },
+        {
+          "label": "Evaluate strengths",
+          "keywords": [
+            "impressive",
+            "strength",
+            "effective",
+            "adapts",
+            "instant",
+            "stuck with",
+            "lived up to",
+            "particularly"
+          ]
+        },
+        {
+          "label": "Evaluate weaknesses",
+          "keywords": [
+            "weakness",
+            "far from perfect",
+            "however",
+            "that said",
+            "infuriating",
+            "fails",
+            "drawback",
+            "not especially"
+          ]
+        },
+        {
+          "label": "Say what kind of learner it suits",
+          "keywords": [
+            "recommend",
+            "suit",
+            "ideal for",
+            "learners who",
+            "beginners",
+            "would be well advised",
+            "for anyone"
+          ]
+        }
+      ],
+      "register": "neutral",
+      "model": "Fretwise: can an app really teach you guitar?\n\nHaving abandoned the guitar twice as a teenager, I was sceptical when a friend suggested I try Fretwise, a subscription app that claims to take complete beginners to confident players in a year. Six months on, I have to admit that it has largely lived up to its promises.\n\nThe app works by listening to you play through your phone's microphone and giving instant feedback, highlighting any notes that are out of time or out of tune. Lessons are short, rarely more than ten minutes, and are built around real songs rather than tedious exercises, which goes a long way towards explaining why I have stuck with it this time. Particularly impressive is the way the difficulty adapts: if you struggle with a chord change, the app quietly slows the song down and adds extra practice before moving on.\n\nThat said, Fretwise is far from perfect. The microphone occasionally fails to recognise notes in a noisy room, which can be infuriating, and the app has little to say about posture or technique, so it is entirely possible to develop bad habits without realising it. At around twelve euros a month, it is also not especially cheap.\n\nOverall, I would wholeheartedly recommend Fretwise to adult beginners who have limited time and need a structured routine to stay motivated. More ambitious learners, however, would be well advised to combine it with occasional lessons from a real teacher, who can spot the problems an app inevitably misses.",
+      "modelNotes": {
+        "en": "Content: the review describes how the app works, gives specific strengths (instant feedback, real songs, adaptive difficulty) and weaknesses (recognition in noisy rooms, no guidance on technique, price), and identifies two types of learner with different recommendations.\nCommunicative Achievement: an engaging, credible review – the question in the title and the writer's own history (\"Having abandoned the guitar twice as a teenager\") create interest, the evaluation is balanced and specific, and the final advice is genuinely useful to readers deciding whether to subscribe.\nOrganisation: introduction and first verdict → how it works and strengths → weaknesses → recommendation. \"That said\" and \"Overall… however\" mark the turns in the argument clearly.\nLanguage: rich, natural C1 language – a participle clause (\"Having abandoned…\"), fronting with inversion (\"Particularly impressive is the way…\"), \"goes a long way towards explaining\", \"has little to say about\", \"would be well advised to\", and precise vocabulary (\"out of tune\", \"chord change\", \"infuriating\", \"inevitably\").",
+        "bg": "Съдържание: ревюто описва как работи приложението, дава конкретни силни страни (моментална обратна връзка, истински песни, адаптивна трудност) и слабости (разпознаване в шумна стая, липса на насоки за техника, цена) и посочва два типа учащи с различни препоръки.\nКомуникативно постижение: ангажиращо и достоверно ревю – въпросът в заглавието и личната история на автора (\"Having abandoned the guitar twice as a teenager\") събуждат интерес, оценката е балансирана и конкретна, а финалният съвет е наистина полезен за читатели, които решават дали да се абонират.\nОрганизация: увод и първа оценка → как работи и силни страни → слабости → препоръка. \"That said\" и \"Overall… however\" ясно отбелязват обратите в аргумента.\nЕзик: богат, естествен C1 език – причастна конструкция (\"Having abandoned…\"), изнасяне напред с инверсия (\"Particularly impressive is the way…\"), \"goes a long way towards explaining\", \"has little to say about\", \"would be well advised to\" и точна лексика (\"out of tune\", \"chord change\", \"infuriating\", \"inevitably\")."
+      }
+    },
+    {
+      "id": "c1.write.d2.p2",
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 2,
+      "set": "drill",
+      "title": "A course that didn't deliver",
+      "topic": "Consumer rights and training",
+      "instructions": "Write an answer to one of the questions 2–4 in this part. Write your answer in 220–260 words in an appropriate style.",
+      "status": "draft",
+      "kind": "writing",
+      "genre": "letter",
+      "prompt": "You recently attended a weekend course run by a private training company. The course did not match the description in the company's brochure. Write a letter to the director of the company in which you:\n\n• describe the ways in which the course differed from the description\n• explain how this affected you\n• say what you would like the company to do.\n\nWrite your letter.",
+      "points": [
+        {
+          "label": "Describe how the course differed from the description",
+          "keywords": [
+            "brochure",
+            "according to",
+            "description",
+            "in reality",
+            "instead",
+            "promised",
+            "advertised",
+            "limited to"
+          ]
+        },
+        {
+          "label": "Explain how this affected you",
+          "keywords": [
+            "affected",
+            "as a consequence",
+            "as a result",
+            "prepare",
+            "no better",
+            "disappoint",
+            "wasted",
+            "i had chosen"
+          ]
+        },
+        {
+          "label": "Say what you want the company to do",
+          "keywords": [
+            "refund",
+            "compensation",
+            "would like",
+            "alternatively",
+            "request",
+            "expect",
+            "urge",
+            "appropriate"
+          ]
+        },
+        {
+          "label": "Formal letter conventions",
+          "keywords": [
+            "dear mr",
+            "dear ms",
+            "dear sir or madam",
+            "i am writing",
+            "yours sincerely",
+            "yours faithfully",
+            "i look forward to"
+          ]
+        }
+      ],
+      "register": "formal",
+      "model": "Dear Mr Lawson,\n\nI am writing to express my disappointment with the 'Professional Presentation Skills' weekend course I attended at your Riverside centre on 11–12 October, and to request that you take appropriate action.\n\nAccording to your brochure, the course was to be limited to twelve participants, each of whom would deliver at least three filmed presentations and receive individual feedback from an experienced trainer. In reality, there were twenty-three of us in the group. As a consequence, I was able to give only one presentation, which was not filmed because, we were told, the camera had not been charged. The trainer, while clearly knowledgeable, had so little time that her feedback amounted to a couple of brief comments.\n\nI had chosen your course specifically to prepare for an important pitch to potential investors later this month, and I paid a considerable fee on the understanding that I would receive personalised coaching. I now find myself no better prepared than before, and with very little time left to find an alternative.\n\nUnder the circumstances, I believe a full refund would be appropriate. Alternatively, I would be willing to accept two private coaching sessions with the same trainer, provided that they could be arranged within the next two weeks. I would also urge you to review your booking procedures so that future participants are not similarly let down.\n\nI look forward to your prompt reply.\n\nYours sincerely,\nAna Dimitrova",
+      "modelNotes": {
+        "en": "Content: all three points are covered – precise differences between the brochure and reality (group size, number of presentations, no filming, minimal feedback), the personal impact (an investor pitch, money and time lost) and two clear alternative requests plus a wider suggestion.\nCommunicative Achievement: a firm but courteous complaint – the register is consistently formal, the facts are stated calmly and precisely, and the requests are reasonable, which makes a positive response more likely. Fair acknowledgement of the trainer (\"while clearly knowledgeable\") adds credibility.\nOrganisation: purpose → what went wrong → effect on the writer → what should happen → formal close. Contrast and consequence are signposted clearly (\"According to your brochure… In reality…\", \"As a consequence\", \"Under the circumstances\", \"Alternatively\").\nLanguage: a wide range of formal C1 language – \"was to be limited to\", \"each of whom would\", \"her feedback amounted to\", \"on the understanding that\", \"provided that\", \"so that future participants are not similarly let down\" – with accurate past perfect and passive forms.",
+        "bg": "Съдържание: и трите точки са покрити – точни разлики между брошурата и реалността (брой участници, брой презентации, без запис, минимална обратна връзка), личното въздействие (презентация пред инвеститори, загубени пари и време) и две ясни алтернативни искания плюс по-общо предложение.\nКомуникативно постижение: твърда, но учтива жалба – стилът е последователно официален, фактите са изложени спокойно и точно, а исканията са разумни, което прави положителния отговор по-вероятен. Справедливото признание за обучителката (\"while clearly knowledgeable\") добавя достоверност.\nОрганизация: цел → какво се обърка → ефект върху автора → какво трябва да се случи → официален край. Контрастът и последствията са ясно отбелязани (\"According to your brochure… In reality…\", \"As a consequence\", \"Under the circumstances\", \"Alternatively\").\nЕзик: широк набор от официален C1 език – \"was to be limited to\", \"each of whom would\", \"her feedback amounted to\", \"on the understanding that\", \"provided that\", \"so that future participants are not similarly let down\" – с точно използвани минало перфектно време и страдателен залог."
+      }
+    }
+  ],
+  "guides": [
+    {
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 1,
+      "tests": {
+        "en": "Part 1 is a compulsory essay of 220–260 words. The input is a set of notes from a lecture, seminar, panel discussion or documentary: three points (e.g. three methods or factors) and three short opinions. You must discuss TWO of the three points and explain which one is more important or effective, giving reasons. You may use the opinions, but in your own words. Marked on four subscales, each 0–5 (20 in total):\n• Content – are exactly two points discussed relevantly, with a clear evaluation of which matters more?\n• Communicative Achievement – a formal or neutral essay register; complex ideas expressed convincingly, holding the reader's attention.\n• Organisation – well-organised, coherent paragraphs, using a variety of cohesive devices and organisational patterns.\n• Language – a range of vocabulary (including less common lexis) and grammar used with control and flexibility.",
+        "bg": "Част 1 е задължително есе от 220–260 думи. Входният материал са бележки от лекция, семинар, дискусия или документален филм: три точки (напр. три метода или фактора) и три кратки мнения. Трябва да обсъдиш ДВЕ от трите точки и да обясниш коя е по-важна или по-ефективна, с аргументи. Можеш да използваш мненията, но със свои думи. Оценява се по четири критерия, всеки 0–5 (общо 20):\n• Content – обсъдени ли са точно две точки уместно, с ясна оценка коя е по-важна?\n• Communicative Achievement – официален или неутрален стил на есе; сложни идеи, изразени убедително, които задържат вниманието на читателя.\n• Organisation – добре подредени, свързани абзаци с разнообразни свързващи средства и начини на организация.\n• Language – набор от лексика (включително по-рядка) и граматика, използвани с контрол и гъвкавост."
+      },
+      "strategy": [
+        {
+          "en": "Choose the two points you can say most about – and ideally the two that contrast well, so the evaluation is easy to argue. Ignore the third point completely.",
+          "bg": "Избери двете точки, за които можеш да кажеш най-много – и по възможност такива, които добре контрастират, за да е лесно да аргументираш оценката. Третата точка изобщо не я засягай."
+        },
+        {
+          "en": "Decide your verdict before writing (which is more important and the single main reason why). Every paragraph should build towards it.",
+          "bg": "Реши присъдата си преди да пишеш (коя е по-важна и основната причина защо). Всеки абзац трябва да води към нея."
+        },
+        {
+          "en": "Use a four-paragraph plan: introduction (context + name the two points) → point A (benefit, limitation) → point B (benefit, limitation) → conclusion (which is more important, why, maybe a final nuance). Aim for roughly 40 / 75 / 75 / 50 words.",
+          "bg": "Използвай план от четири абзаца: увод (контекст + назови двете точки) → точка А (полза, ограничение) → точка Б (полза, ограничение) → заключение (коя е по-важна, защо, евентуално финален нюанс). Цели се към около 40 / 75 / 75 / 50 думи."
+        },
+        {
+          "en": "Paraphrase the opinions instead of quoting them: \"only prices change behaviour\" → \"financial incentives tend to be more persuasive than advice\". Copying lifts whole phrases and lowers your Language mark.",
+          "bg": "Перифразирай мненията, вместо да ги цитираш: \"only prices change behaviour\" → \"financial incentives tend to be more persuasive than advice\". Копирането взима цели фрази наготово и сваля оценката за Language."
+        },
+        {
+          "en": "Keep a formal register and show C1 range naturally: concession (Admittedly…, That said…), contrast (by contrast, whereas), evaluation (far more significant, on balance), cleft sentences and inversion where they fit.",
+          "bg": "Пази официален стил и показвай C1 набор естествено: отстъпка (Admittedly…, That said…), контраст (by contrast, whereas), оценка (far more significant, on balance), изречения с изнасяне на акцента и инверсия, където пасват."
+        }
+      ],
+      "example": {
+        "question": "Notes from a seminar on reducing waste in cities: • better recycling schemes • encouraging repair and second-hand shops • stricter rules on packaging. Opinions: \"Recycling just makes people feel less guilty about buying more.\" \"Repairing things is cheaper than people think.\" \"Companies won't change unless the law makes them.\" Discuss two of the methods and say which is more important.",
+        "steps": [
+          {
+            "en": "Pick two points that contrast: packaging rules (acts on companies) vs repair and second-hand (acts on consumers). Skip recycling entirely.",
+            "bg": "Избери две точки, които контрастират: правила за опаковките (действат върху компаниите) срещу ремонт и втора употреба (действат върху потребителите). Рециклирането го пропусни изцяло."
+          },
+          {
+            "en": "Decide the verdict: packaging rules are more important, because they cut waste before it reaches anyone's home and don't depend on individual effort.",
+            "bg": "Реши присъдата: правилата за опаковките са по-важни, защото намаляват отпадъците, преди да стигнат до нечий дом, и не зависят от личното усилие."
+          },
+          {
+            "en": "For each point, note one benefit and one limitation. Packaging: affects millions of products at once / companies may pass costs on to shoppers. Repair: saves money, builds skills / depends on convenience and on people choosing it.",
+            "bg": "За всяка точка запиши една полза и едно ограничение. Опаковки: засягат милиони продукти наведнъж / фирмите може да прехвърлят разходите върху купувачите. Ремонт: пести пари, развива умения / зависи от удобството и от това дали хората го избират."
+          },
+          {
+            "en": "Paraphrase the opinions you want to use: \"Companies won't change unless the law makes them\" → \"voluntary commitments by manufacturers have rarely achieved much\".",
+            "bg": "Перифразирай мненията, които искаш да използваш: \"Companies won't change unless the law makes them\" → \"voluntary commitments by manufacturers have rarely achieved much\"."
+          },
+          {
+            "en": "Write the plan with word targets and a linker for each paragraph: Intro (40) → 'Stricter packaging rules…' (75) → 'Repair and second-hand shops, by contrast,…' (75) → 'On balance, I would argue…' (50).",
+            "bg": "Напиши плана с бройки думи и свързваща дума за всеки абзац: Увод (40) → 'Stricter packaging rules…' (75) → 'Repair and second-hand shops, by contrast,…' (75) → 'On balance, I would argue…' (50)."
+          }
+        ],
+        "answer": "Plan: 1) Intro – cities produce growing waste; focus on packaging rules and repair/second-hand. 2) Packaging rules – large-scale impact; risk: higher prices. 3) Repair/second-hand – cheaper, builds skills; limited by convenience and habit. 4) Conclusion – packaging rules more important: they work without relying on individual choices; ideally both together."
+      },
+      "pitfalls": [
+        {
+          "en": "Discussing all three points. You only get credit for two, and spreading 250 words over three makes each one superficial.",
+          "bg": "Да обсъдиш и трите точки. Получаваш точки само за две, а разпределянето на 250 думи между три прави всяка повърхностна."
+        },
+        {
+          "en": "Describing two points but never saying which is more important – the evaluation is a required part of Content, not an optional extra.",
+          "bg": "Да опишеш две точки, но да не кажеш коя е по-важна – оценката е задължителна част от Content, не допълнение."
+        },
+        {
+          "en": "Copying the opinions word for word, or building the essay around them instead of your own reasoning.",
+          "bg": "Да копираш мненията дума по дума или да изградиш есето около тях вместо около своите разсъждения."
+        },
+        {
+          "en": "Forcing in 'advanced' vocabulary or idioms that don't fit. At C1, precision and natural control score higher than showing off.",
+          "bg": "Да натъпчеш 'напреднала' лексика или идиоми, които не пасват. На C1 точността и естественият контрол носят повече от показността."
+        }
+      ]
+    },
+    {
+      "exam": "c1-advanced",
+      "paper": "writing",
+      "part": 2,
+      "tests": {
+        "en": "In Part 2 you choose one of three tasks (questions 2–4) and write 220–260 words. The task types are a letter or email, a proposal, a report and a review. The task sets a context, a target reader and usually three content points. Marked on the same four subscales, each 0–5:\n• Content – all points covered and developed, so the target reader is fully informed.\n• Communicative Achievement – the conventions of the genre are used effectively (headings in reports and proposals, a hook and verdict in reviews, appropriate opening and closing in letters) and the register suits the reader and purpose: persuading, recommending, evaluating, complaining.\n• Organisation – well-organised and coherent, with a variety of linking devices and organisational patterns.\n• Language – a range of vocabulary, including less common lexis, and complex grammar used effectively and accurately.",
+        "bg": "В Част 2 избираш една от три задачи (въпроси 2–4) и пишеш 220–260 думи. Видовете текстове са писмо или имейл, предложение (proposal), доклад (report) и ревю. Задачата дава контекст, целеви читател и обикновено три точки за съдържанието. Оценява се по същите четири критерия, всеки 0–5:\n• Content – всички точки са покрити и развити, така че читателят да е напълно информиран.\n• Communicative Achievement – конвенциите на жанра са използвани ефективно (подзаглавия в доклад и предложение, кукичка и присъда в ревю, подходящо начало и край в писмо), а стилът пасва на читателя и целта: да убедиш, да препоръчаш, да оцениш, да се оплачеш.\n• Organisation – добре подреден и свързан текст с разнообразни свързващи средства и начини на организация.\n• Language – набор от лексика, включително по-рядка, и сложна граматика, използвани ефективно и точно."
+      },
+      "strategy": [
+        {
+          "en": "Choose by genre and ideas: a report or proposal needs facts and recommendations, a review needs opinions and a verdict, a letter needs a clear purpose (complain, apply, respond). Pick the one where you can develop all three points.",
+          "bg": "Избирай по жанр и идеи: докладът и предложението искат факти и препоръки, ревюто – мнения и присъда, писмото – ясна цел (оплакване, кандидатстване, отговор). Избери това, в което можеш да развиеш и трите точки."
+        },
+        {
+          "en": "Underline the target reader and purpose, and turn each content point into a heading (report/proposal) or a paragraph (letter/review). Your plan should mirror the task.",
+          "bg": "Подчертай целевия читател и целта и превърни всяка точка в подзаглавие (доклад/предложение) или абзац (писмо/ревю). Планът ти трябва да огледа задачата."
+        },
+        {
+          "en": "Know the difference between a report and a proposal: a report looks back and evaluates what happened (findings, then recommendations); a proposal looks forward and persuades someone to approve a plan (suggestions, benefits, recommendation).",
+          "bg": "Знай разликата между доклад и предложение: докладът гледа назад и оценява какво се е случило (констатации, после препоръки); предложението гледа напред и убеждава някого да одобри план (предложения, ползи, препоръка)."
+        },
+        {
+          "en": "Fix the register for the reader: formal and impersonal for a manager, council or director (It is recommended that…, I would urge you to…); semi-formal for a professional contact; engaging and evaluative for a review.",
+          "bg": "Определи стила според читателя: официален и безличен за мениджър, общинска администрация или директор (It is recommended that…, I would urge you to…); полуофициален за професионален контакт; ангажиращ и оценъчен за ревю."
+        },
+        {
+          "en": "Leave time to check that every point is developed (not just mentioned), the register is consistent and the length is around 220–260 words.",
+          "bg": "Остави време да провериш дали всяка точка е развита (а не само спомената), дали стилът е последователен и дали дължината е около 220–260 думи."
+        }
+      ],
+      "example": {
+        "question": "The manager of the sports centre you use wants to attract more members. Write a proposal explaining why some people might not use the centre at present, suggesting improvements to its facilities or services, and explaining how these would benefit the centre.",
+        "steps": [
+          {
+            "en": "Reader and purpose: the manager; to persuade them to adopt your ideas. So: formal register, a proposal format with headings, and a clear recommendation at the end.",
+            "bg": "Читател и цел: мениджърът; да го убедиш да приеме идеите ти. Значи: официален стил, формат на предложение с подзаглавия и ясна препоръка накрая."
+          },
+          {
+            "en": "Turn the three points into headings: 'Why people stay away', 'Suggested improvements', 'Benefits for the centre' – plus 'Introduction' and 'Conclusion'.",
+            "bg": "Превърни трите точки в подзаглавия: 'Why people stay away', 'Suggested improvements', 'Benefits for the centre' – плюс 'Introduction' и 'Conclusion'."
+          },
+          {
+            "en": "Make each section specific: two reasons (e.g. crowded at peak times, few classes for beginners), two or three improvements (online booking, beginners' classes, family membership), and benefits for the business (more members, off-peak use, better reputation).",
+            "bg": "Направи всеки раздел конкретен: две причини (напр. претъпкано в пиковите часове, малко класове за начинаещи), две-три подобрения (онлайн резервации, класове за начинаещи, семейна карта) и ползи за бизнеса (повече членове, използване извън пиковите часове, по-добра репутация)."
+          },
+          {
+            "en": "Prepare persuasive formal language: 'The aim of this proposal is to…', 'I would suggest introducing…', 'This would not only… but also…', 'I strongly recommend that the centre consider…'.",
+            "bg": "Подготви убедителен официален език: 'The aim of this proposal is to…', 'I would suggest introducing…', 'This would not only… but also…', 'I strongly recommend that the centre consider…'."
+          },
+          {
+            "en": "Budget about 30 words for the introduction, 60–70 for each main section and 30 for the conclusion.",
+            "bg": "Разпредели около 30 думи за увода, по 60–70 за всеки основен раздел и 30 за заключението."
+          }
+        ],
+        "answer": "Plan: Title → Introduction (aim) → Why people stay away (peak-time crowds; nothing for beginners) → Suggested improvements (online booking; beginners' classes; family membership) → Benefits for the centre (new members, off-peak income, reputation) → Conclusion (strong recommendation)."
+      },
+      "pitfalls": [
+        {
+          "en": "Mixing up genres – a 'proposal' that only describes problems, or a 'report' with no findings, just opinions. Check what the task asks you to do with each point.",
+          "bg": "Да объркаш жанровете – 'предложение', което само описва проблеми, или 'доклад' без констатации, само с мнения. Провери какво задачата иска да направиш с всяка точка."
+        },
+        {
+          "en": "Mentioning a point in one sentence instead of developing it. At C1, each content point needs explanation, examples or justification.",
+          "bg": "Да споменеш точка с едно изречение, вместо да я развиеш. На C1 всяка точка изисква обяснение, примери или обосновка."
+        },
+        {
+          "en": "Inconsistent register – e.g. a formal complaint letter that ends 'Cheers' or slips into chatty language when the writer is annoyed.",
+          "bg": "Непоследователен стил – напр. официална жалба, която завършва с 'Cheers' или преминава в разговорен език, когато авторът е ядосан."
+        }
+      ]
+    }
+  ],
+  "lessons": []
+}

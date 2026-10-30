@@ -1,0 +1,906 @@
+{
+  "id": "exam-lessons",
+  "tasks": [],
+  "guides": [],
+  "lessons": [
+    {
+      "tag": "uoe.tenses",
+      "title": {
+        "en": "Verb tenses and aspect",
+        "bg": "Глаголни времена и аспект"
+      },
+      "explanation": {
+        "en": "Choose a tense by asking two things: when the action happens, and how the speaker sees it. Simple forms present an action as complete or habitual; continuous forms show it in progress or temporary; perfect forms link it to a later point. The present perfect connects the past to now and cannot be used with finished-time expressions (yesterday, in 2019, ago); the past simple can. The past perfect marks an earlier past ('By the time we arrived, the film had started'). Use 'will be doing' for an action in progress at a future time and 'will have done' for one completed before it. State verbs (know, own, belong, seem) are rarely continuous. Exam traps: since + a point in time vs for + a period; 'It's the first time I've ever...' takes the present perfect; after when, as soon as, until and before, use a present form for the future. In the open cloze, auxiliaries (has, had, been, will) are common gaps; in key word transformations, 'the last time...' or '...ago' often becomes 'haven't... since/for'.",
+        "bg": "Избираш време, като си задаваш два въпроса: кога се случва действието и как го вижда говорещият. Простите форми представят действието като завършено или обичайно; продължителните го показват в развитие или като временно; перфектните го свързват с по-късен момент. Present perfect свързва миналото с настоящето и не върви с изрази за приключило време (yesterday, in 2019, ago), а past simple върви. Past perfect означава по-ранно минало ('By the time we arrived, the film had started'). 'Will be doing' е за действие в развитие в бъдещ момент, а 'will have done' за действие, завършено преди него. Глаголите за състояние (know, own, belong, seem) рядко са в продължителна форма. Капани: since + момент срещу for + период; 'It's the first time I've ever...' изисква present perfect; след when, as soon as, until и before за бъдеще се ползва сегашно време. В open cloze често липсват спомагателни глаголи (has, had, been, will); в key word transformation 'the last time...' или '...ago' често става 'haven't... since/for'."
+      },
+      "examples": [
+        "I haven't spoken to her since she moved to Berlin.",
+        "By the time the ambulance arrived, a crowd had already gathered.",
+        "This time next week, I'll be lying on a beach in Crete.",
+        "It's the first time I've ever tried sushi.",
+        "Let me know as soon as you hear any news."
+      ]
+    },
+    {
+      "tag": "uoe.passive",
+      "title": {
+        "en": "Passive voice",
+        "bg": "Страдателен залог"
+      },
+      "explanation": {
+        "en": "The passive is be + past participle in any tense: is being repaired, has been sold, will have been finished, must be checked. Use it when the doer is unknown, obvious or less important, or to keep the main topic at the start of the sentence. Add 'by' + agent only when it matters. Verbs with two objects usually make the person the subject ('I was given a second chance'). Reporting passives express general beliefs: 'It is said that he lives abroad' = 'He is said to live abroad'; for an earlier action use the perfect infinitive ('She is thought to have left'). There are passive infinitives and gerunds too: 'He expects to be promoted', 'She hates being interrupted'. 'Get' + participle is an informal passive ('Our car got stolen'). Exam traps: intransitive verbs (happen, arrive, die, disappear) have no passive; 'make sb do' becomes 'be made TO do'; 'let' has no passive, so use 'be allowed to'. Key word transformations very often turn on BEEN, BEING or SAID/THOUGHT.",
+        "bg": "Страдателният залог е be + минало причастие във всяко време: is being repaired, has been sold, will have been finished, must be checked. Ползва се, когато извършителят е неизвестен, очевиден или маловажен, или за да остане основната тема в началото на изречението. 'By' + извършител добавяш само ако е важно. При глаголи с два обекта подлог обикновено става човекът ('I was given a second chance'). Страдателните конструкции с глаголи за мнение изразяват общо мнение: 'It is said that he lives abroad' = 'He is said to live abroad'; за по-ранно действие ползвай перфектен инфинитив ('She is thought to have left'). Има и страдателни инфинитиви и герундии: 'He expects to be promoted', 'She hates being interrupted'. 'Get' + причастие е разговорен страдателен залог ('Our car got stolen'). Капани: непреходни глаголи (happen, arrive, die, disappear) нямат страдателен залог; 'make sb do' става 'be made TO do'; 'let' няма страдателна форма, затова ползвай 'be allowed to'. В key word transformation ключовата дума често е BEEN, BEING или SAID/THOUGHT."
+      },
+      "examples": [
+        "The bridge is being repaired, so the road is closed until Friday.",
+        "The painting is believed to have been stolen in the 1970s.",
+        "I was given a second chance by my manager.",
+        "We were made to wait outside for over an hour.",
+        "Students aren't allowed to use their phones during the exam."
+      ]
+    },
+    {
+      "tag": "uoe.conditionals",
+      "title": {
+        "en": "Conditionals and alternatives to if",
+        "bg": "Условни изречения и алтернативи на if"
+      },
+      "explanation": {
+        "en": "Zero (if + present, present) for general truths; first (if + present, will) for real future possibilities; second (if + past, would) for unreal present or unlikely future; third (if + past perfect, would have + participle) for unreal past. Mixed conditionals combine times: 'If I had studied medicine, I would be a doctor now' (past condition, present result) or 'If I weren't so shy, I would have spoken to her' (present condition, past result). Do not use 'will' or 'would' in the if-clause. Alternatives to 'if' are heavily tested: unless (= if not), provided/providing (that), as long as, on condition that, supposing, otherwise, but for + noun, and 'in case', which means 'as a precaution' rather than a condition ('Take an umbrella in case it rains'). Formal inversion drops 'if': 'Had I known', 'Should you need help', 'Were it not for your support'. In key word transformations, UNLESS, LONG, PROVIDED, BUT and HAD are typical key words.",
+        "bg": "Нулев тип (if + сегашно, сегашно) за общи истини; първи (if + сегашно, will) за реални бъдещи възможности; втори (if + минало, would) за нереално настояще или малко вероятно бъдеще; трети (if + past perfect, would have + причастие) за нереално минало. Смесените условни комбинират времена: 'If I had studied medicine, I would be a doctor now' (минало условие, сегашен резултат) или 'If I weren't so shy, I would have spoken to her' (сегашно условие, минал резултат). В подчиненото с if не се ползват 'will' или 'would'. Алтернативите на 'if' се проверяват често: unless (= if not), provided/providing (that), as long as, on condition that, supposing, otherwise, but for + съществително, както и 'in case', което значи 'за всеки случай', а не условие ('Take an umbrella in case it rains'). Официалната инверсия премахва 'if': 'Had I known', 'Should you need help', 'Were it not for your support'. В key word transformation типични ключови думи са UNLESS, LONG, PROVIDED, BUT и HAD."
+      },
+      "examples": [
+        "If I had known about the strike, I would have taken a taxi.",
+        "You can borrow my car as long as you bring it back by six.",
+        "We won't finish on time unless someone helps us.",
+        "Had it not been for her advice, I would have accepted the offer.",
+        "I'll write down the address in case I forget it."
+      ]
+    },
+    {
+      "tag": "uoe.reported-speech",
+      "title": {
+        "en": "Reported speech and reporting verbs",
+        "bg": "Непряка реч и глаголи за предаване"
+      },
+      "explanation": {
+        "en": "When the reporting verb is in the past, tenses usually move back (am → was, have done → had done, will → would) and time and place words change (tomorrow → the next day, here → there). If the situation is still true, the backshift is optional. Reported questions use statement word order with no do/does/did: 'She asked where I lived', 'He wondered if/whether it was too late'. At B2–C1, reporting verbs and their patterns matter more than backshift. Verb + to-infinitive: agree, offer, refuse, promise, threaten. Verb + object + to-infinitive: advise, warn, urge, remind, persuade, encourage. Verb + -ing: deny, admit, suggest, recommend. Verb + preposition + -ing: apologise for, insist on, accuse sb of, blame sb for, congratulate sb on, object to. 'Suggest' takes -ing or a that-clause ('suggested that we (should) leave'), never an object + to-infinitive. Key word transformations often ask you to replace direct speech with one of these verbs.",
+        "bg": "Когато глаголът за предаване е в минало време, времената обикновено се изместват назад (am → was, have done → had done, will → would), а думите за време и място се променят (tomorrow → the next day, here → there). Ако ситуацията още е вярна, изместването не е задължително. Непреките въпроси имат словоред като в твърдение, без do/does/did: 'She asked where I lived', 'He wondered if/whether it was too late'. На B2–C1 глаголите за предаване и конструкциите след тях са по-важни от изместването на времената. Глагол + to-инфинитив: agree, offer, refuse, promise, threaten. Глагол + обект + to-инфинитив: advise, warn, urge, remind, persuade, encourage. Глагол + -ing: deny, admit, suggest, recommend. Глагол + предлог + -ing: apologise for, insist on, accuse sb of, blame sb for, congratulate sb on, object to. След 'suggest' идва -ing или подчинено с that ('suggested that we (should) leave'), никога обект + to-инфинитив. В key word transformation често трябва да замениш пряката реч с един от тези глаголи."
+      },
+      "examples": [
+        "She asked me whether I had ever lived abroad.",
+        "He denied taking the money from the drawer.",
+        "My doctor advised me to cut down on coffee.",
+        "They accused the company of misleading customers.",
+        "Tom suggested that we should meet earlier."
+      ]
+    },
+    {
+      "tag": "uoe.modals",
+      "title": {
+        "en": "Modal verbs (obligation, possibility, deduction)",
+        "bg": "Модални глаголи (задължение, възможност, извод)"
+      },
+      "explanation": {
+        "en": "Obligation: must (speaker's own view or rules), have to (external obligation), need to. Absence of obligation: don't have to / needn't. Prohibition: mustn't. In the past: 'needn't have done' = you did it but it was unnecessary; 'didn't need to do' = it was unnecessary (and usually you didn't do it). Deduction about the present: must (almost certain), might/may/could (possible), can't (almost certainly not). About the past, add have + participle: must have left, might have forgotten, can't/couldn't have seen. 'Mustn't have' is not used for deduction. 'Should have done' criticises or expresses regret; 'could have done' is an unused possibility. For a single past achievement use 'was able to' or 'managed to', not 'could'. Related expressions often appear as key words: be supposed to, be bound to (certain), be likely to, there's no need to, be obliged to.",
+        "bg": "Задължение: must (мнение на говорещия или правила), have to (външно задължение), need to. Липса на задължение: don't have to / needn't. Забрана: mustn't. В минало: 'needn't have done' = направил си го, но не е било нужно; 'didn't need to do' = не е било нужно (и обикновено не си го направил). Извод за настоящето: must (почти сигурно), might/may/could (възможно), can't (почти сигурно не). За миналото добави have + причастие: must have left, might have forgotten, can't/couldn't have seen. 'Mustn't have' не се ползва за извод. 'Should have done' изразява критика или съжаление; 'could have done' е неизползвана възможност. За еднократно постижение в миналото ползвай 'was able to' или 'managed to', а не 'could'. Свързани изрази често са ключови думи: be supposed to, be bound to (сигурно), be likely to, there's no need to, be obliged to."
+      },
+      "examples": [
+        "You needn't have bought flowers; we already had some.",
+        "She can't have seen the message, or she would have replied.",
+        "The lights are off, so they must have gone to bed.",
+        "After hours of searching, we were able to find the cat.",
+        "You were supposed to call me when you landed!"
+      ]
+    },
+    {
+      "tag": "uoe.relative-clauses",
+      "title": {
+        "en": "Relative clauses",
+        "bg": "Относителни подчинени изречения"
+      },
+      "explanation": {
+        "en": "Use who for people, which for things, whose for possession, where for places, when for times, and that in defining clauses for people or things. Defining clauses identify which one we mean and have no commas; the pronoun can be dropped when it is the object ('the book (that) I read'). Non-defining clauses add extra information, need commas, cannot use 'that', and the pronoun cannot be dropped. 'Which' can refer back to a whole clause: 'He passed the exam, which surprised everyone.' In formal English prepositions go before whom/which ('the person to whom I spoke'); informally they go at the end ('the person I spoke to'). Quantifier + of + whom/which: 'some of whom', 'none of which', 'most of whom'. Clauses can be reduced: 'the woman sitting by the door', 'the goods ordered last week'. Exam traps: 'what' means 'the thing that' and cannot follow a noun; 'whose' is the only possessive relative. Open cloze often gaps which, whose, whom and where.",
+        "bg": "Who се ползва за хора, which за неща, whose за притежание, where за места, when за време, а that в определителни изречения за хора или неща. Определителните изречения уточняват кой точно и нямат запетаи; местоимението може да отпадне, когато е допълнение ('the book (that) I read'). Неопределителните добавят допълнителна информация, имат запетаи, не допускат 'that' и местоимението не може да отпадне. 'Which' може да се отнася към цялото предходно изречение: 'He passed the exam, which surprised everyone.' В официален стил предлогът стои пред whom/which ('the person to whom I spoke'), в разговорен в края ('the person I spoke to'). Количествена дума + of + whom/which: 'some of whom', 'none of which', 'most of whom'. Изреченията могат да се съкращават: 'the woman sitting by the door', 'the goods ordered last week'. Капани: 'what' значи 'нещото, което' и не може да стои след съществително; 'whose' е единственото притежателно относително местоимение. В open cloze често липсват which, whose, whom и where."
+      },
+      "examples": [
+        "The architect whose design won the competition is only 29.",
+        "My grandparents, who live in Varna, are visiting next week.",
+        "He forgot her birthday again, which really upset her.",
+        "She invited forty guests, most of whom she barely knew.",
+        "The village where I grew up has changed beyond recognition."
+      ]
+    },
+    {
+      "tag": "uoe.linking",
+      "title": {
+        "en": "Linking words and contrast/concession",
+        "bg": "Свързващи думи, контраст и отстъпка"
+      },
+      "explanation": {
+        "en": "Linkers must match both meaning and grammar. Contrast and concession: although / even though / though + clause; despite / in spite of + noun or -ing (or 'despite the fact that' + clause); however, nevertheless, nonetheless and even so start a new sentence or clause, usually followed by a comma; whereas and while contrast two facts; 'yet' means 'but surprisingly'. Cause: because / as / since + clause; because of / due to / owing to + noun. Result: so, therefore, consequently, as a result, thus. Purpose: to, in order to, so as (not) to, so that + clause. Addition: moreover, furthermore, in addition (to + -ing), besides, as well as + -ing. Condition: as long as, provided. Exam traps: 'despite of' and 'in spite the' are wrong; 'although' cannot be followed by a noun alone; 'even' alone is not a conjunction (use 'even though' or 'even if'); 'however' can also mean 'no matter how' ('However hard I try...'). Open cloze frequently gaps although, despite, even, whereas and order (in order to).",
+        "bg": "Свързващите думи трябва да пасват и по смисъл, и граматически. Контраст и отстъпка: although / even though / though + подчинено изречение; despite / in spite of + съществително или -ing (или 'despite the fact that' + изречение); however, nevertheless, nonetheless и even so започват ново изречение или част, обикновено със запетая; whereas и while противопоставят два факта; 'yet' значи 'но изненадващо'. Причина: because / as / since + изречение; because of / due to / owing to + съществително. Резултат: so, therefore, consequently, as a result, thus. Цел: to, in order to, so as (not) to, so that + изречение. Добавяне: moreover, furthermore, in addition (to + -ing), besides, as well as + -ing. Условие: as long as, provided. Капани: 'despite of' и 'in spite the' са грешни; след 'although' не може да стои само съществително; 'even' самостоятелно не е съюз (ползвай 'even though' или 'even if'); 'however' може да значи и 'колкото и да' ('However hard I try...'). В open cloze често липсват although, despite, even, whereas и order (in order to)."
+      },
+      "examples": [
+        "Despite feeling exhausted, she finished the marathon.",
+        "Although the hotel was expensive, the service was disappointing.",
+        "Flights were cancelled owing to the heavy snow.",
+        "I left early so as not to miss the last train.",
+        "My brother loves crowds, whereas I prefer quiet places."
+      ]
+    },
+    {
+      "tag": "uoe.prepositions",
+      "title": {
+        "en": "Prepositions",
+        "bg": "Предлози"
+      },
+      "explanation": {
+        "en": "Prepositions of time: at + clock times and festivals (at noon, at Easter), on + days and dates, in + months, years, seasons and parts of the day. 'By' means no later than; 'until/till' means continuing up to a point. 'During' + noun answers 'when?'; 'for' + period answers 'how long?'. 'On time' = punctual; 'in time' = early enough. 'At the end (of)' is a point; 'in the end' means finally. Prepositions of place and movement: in/at/on, into/onto, across/through/along. Many fixed prepositional phrases are tested: in charge of, on purpose, by mistake, at risk, under pressure, out of date, in favour of, on behalf of, at first sight, by heart, beyond doubt, within reach. Because Bulgarian often uses 'в' or 'на' where English varies, learn these as chunks rather than translating. In the open cloze, a preposition is often the missing word inside a fixed phrase; read a few words either side of the gap.",
+        "bg": "Предлози за време: at + час и празници (at noon, at Easter), on + дни и дати, in + месеци, години, сезони и части от деня. 'By' значи не по-късно от; 'until/till' значи продължаване до определен момент. 'During' + съществително отговаря на 'кога?'; 'for' + период отговаря на 'колко време?'. 'On time' = навреме, точно; 'in time' = достатъчно рано. 'At the end (of)' е момент; 'in the end' значи накрая, в крайна сметка. Предлози за място и движение: in/at/on, into/onto, across/through/along. Проверяват се много устойчиви предложни изрази: in charge of, on purpose, by mistake, at risk, under pressure, out of date, in favour of, on behalf of, at first sight, by heart, beyond doubt, within reach. Понеже на български често казваме 'в' или 'на', където английският варира, учи ги като цели изрази, а не с превод. В open cloze предлогът често е липсващата дума в устойчив израз; чети по няколко думи от двете страни на празното място."
+      },
+      "examples": [
+        "Please send the report by Friday at the latest.",
+        "I'll be working from home until the end of the month.",
+        "Sorry, I deleted your file by mistake.",
+        "She spoke on behalf of all the staff.",
+        "We got to the station just in time to catch the train."
+      ]
+    },
+    {
+      "tag": "uoe.dependent-prepositions",
+      "title": {
+        "en": "Dependent prepositions",
+        "bg": "Зависими предлози"
+      },
+      "explanation": {
+        "en": "Many adjectives, verbs and nouns must be followed by a particular preposition. Adjectives: aware of, capable of, keen on, responsible for, similar to, different from, fond of, proud of, accustomed to, famous for, short of. Verbs: depend on, consist of, insist on, object to, succeed in, apologise for, rely on, approve of, cope with, benefit from, result in, contribute to. Nouns: reason for, increase in, demand for, solution to, effect on, attitude towards, access to, lack of. After any preposition, a verb takes the -ing form: 'I'm used to working nights', 'She succeeded in persuading them'. Watch out for 'to' as a preposition (object to, look forward to, be used to, when it comes to, in addition to), which is followed by -ing, not the infinitive. In the multiple-choice cloze, all four options may mean much the same thing, but only one takes the preposition after the gap ('interested IN' vs 'keen ON' vs 'fond OF'), so always read past the gap.",
+        "bg": "Много прилагателни, глаголи и съществителни изискват определен предлог след себе си. Прилагателни: aware of, capable of, keen on, responsible for, similar to, different from, fond of, proud of, accustomed to, famous for, short of. Глаголи: depend on, consist of, insist on, object to, succeed in, apologise for, rely on, approve of, cope with, benefit from, result in, contribute to. Съществителни: reason for, increase in, demand for, solution to, effect on, attitude towards, access to, lack of. След всеки предлог глаголът е във форма -ing: 'I'm used to working nights', 'She succeeded in persuading them'. Внимавай с 'to' като предлог (object to, look forward to, be used to, when it comes to, in addition to): след него идва -ing, а не инфинитив. В multiple-choice cloze и четирите варианта може да значат почти едно и също, но само един приема предлога след празното място ('interested IN' срещу 'keen ON' срещу 'fond OF'), затова винаги чети и след празното място."
+      },
+      "examples": [
+        "She's very keen on photography.",
+        "The success of the project depends on everyone's commitment.",
+        "There has been a sharp increase in the demand for electric cars.",
+        "I object to being treated like a child.",
+        "Many people aren't aware of the risks."
+      ]
+    },
+    {
+      "tag": "uoe.articles-determiners",
+      "title": {
+        "en": "Articles, determiners and quantifiers",
+        "bg": "Членове, детерминативи и количествени думи"
+      },
+      "explanation": {
+        "en": "Use a/an for a singular countable noun mentioned for the first time or as one of a kind, and for jobs ('She's an engineer'). Use 'the' for something known, unique or already mentioned, with superlatives, with rivers, seas, mountain ranges and plural country names, and with adjectives for groups ('the elderly', 'the unemployed'). Use no article for general plurals and uncountables ('Dogs are loyal', 'Life is short'), most countries and cities, meals, and institutions used for their normal purpose (go to school, be in hospital). Quantifiers: few/little = not enough (negative); a few/a little = some (positive); much + uncountable, many + plural; each/every + singular noun; either/neither for two; none of + noun phrase; a great deal of + uncountable; a large number of + plural. 'Such a + adjective + noun' but 'so + adjective'. Remember uncountables: information, advice, news, furniture, equipment, research, evidence. The open cloze often gaps the, a, few, little, such, every, both or none.",
+        "bg": "A/an се ползва за единствено число на броимо съществително, споменато за първи път или като едно от много, и за професии ('She's an engineer'). 'The' се ползва за нещо познато, уникално или вече споменато, при превъзходна степен, за реки, морета, планински вериги и държави с име в множествено число, и с прилагателни за групи хора ('the elderly', 'the unemployed'). Без член са общите множествени и неброими ('Dogs are loyal', 'Life is short'), повечето държави и градове, храненията и институциите, когато се ползват по предназначение (go to school, be in hospital). Количествени думи: few/little = недостатъчно (отрицателно); a few/a little = някои, малко (положително); much + неброимо, many + множествено; each/every + единствено число; either/neither за две неща; none of + именна фраза; a great deal of + неброимо; a large number of + множествено. 'Such a + прилагателно + съществително', но 'so + прилагателно'. Запомни неброимите: information, advice, news, furniture, equipment, research, evidence. В open cloze често липсват the, a, few, little, such, every, both или none."
+      },
+      "examples": [
+        "Few people realise how much water a single T-shirt requires.",
+        "The unemployed often struggle to get credit.",
+        "It was such a beautiful day that we ate outside.",
+        "Neither of my parents speaks English.",
+        "She gave me some very useful advice about the interview."
+      ]
+    },
+    {
+      "tag": "uoe.comparison",
+      "title": {
+        "en": "Comparatives, superlatives and comparison structures",
+        "bg": "Сравнителна и превъзходна степен, сравнителни конструкции"
+      },
+      "explanation": {
+        "en": "Short adjectives take -er/-est; longer ones take more/most; irregular forms include good-better-best, bad-worse-worst, far-further-furthest. Modify comparatives with much, far, a lot, considerably, slightly, a bit, even (never 'very'); modify superlatives with by far or easily. Equality: as + adjective + as; negative: not as/so... as, nowhere near as, nothing like as. Multiples: twice as expensive as, three times the size of. Parallel change: 'The more you practise, the easier it gets.' Progressive change: 'more and more expensive', 'better and better'. Use 'fewer' with plurals and 'less' with uncountables. Other structures: the same as, similar to, different from, compared with/to, prefer X to Y, would rather X than Y. Key word transformations often swap a superlative for a negative comparative ('the best film I've seen' → 'I've never seen a better film') or 'not as... as' for a comparative. Traps: 'more better', 'the most' + one-syllable adjective, 'than' after 'as'.",
+        "bg": "Кратките прилагателни приемат -er/-est, по-дългите more/most; неправилни форми: good-better-best, bad-worse-worst, far-further-furthest. Сравнителната степен се усилва с much, far, a lot, considerably, slightly, a bit, even (никога с 'very'); превъзходната с by far или easily. Равенство: as + прилагателно + as; отрицание: not as/so... as, nowhere near as, nothing like as. Кратни: twice as expensive as, three times the size of. Паралелна промяна: 'The more you practise, the easier it gets.' Постепенна промяна: 'more and more expensive', 'better and better'. 'Fewer' се ползва с множествено число, 'less' с неброими. Други конструкции: the same as, similar to, different from, compared with/to, prefer X to Y, would rather X than Y. В key word transformation често превъзходна степен се заменя с отрицателна сравнителна ('the best film I've seen' → 'I've never seen a better film') или 'not as... as' със сравнителна. Капани: 'more better', 'the most' + едносрично прилагателно, 'than' след 'as'."
+      },
+      "examples": [
+        "The new model is far more efficient than the old one.",
+        "The more I learn about the topic, the less certain I feel.",
+        "This flat is nowhere near as spacious as our last one.",
+        "I've never tasted a better curry.",
+        "There are fewer tourists here than there used to be."
+      ]
+    },
+    {
+      "tag": "uoe.inversion",
+      "title": {
+        "en": "Inversion and emphasis",
+        "bg": "Инверсия и емфаза"
+      },
+      "explanation": {
+        "en": "When a negative or restrictive expression starts a sentence, the auxiliary comes before the subject, as in a question. If there is no auxiliary, add do/does/did. Common triggers: Never (before), Rarely, Seldom, Little, Hardly... when, Scarcely... when, No sooner... than, Not only... but (also), Under no circumstances, On no account, In no way, Not until..., and Only + time expression (only when, only after, only then, only by). With 'Only when' and 'Not until', the inversion is in the main clause: 'Only when I got home did I realise.' Conditional inversion replaces 'if': Had I known, Should you need, Were it not for. 'So' and 'such' can also be fronted: 'So severe was the damage that...', 'Such was his anger that...'. Emphatic do adds stress without inversion: 'I did tell you!' This is mostly a C1 point, tested in key word transformations (key words like SOONER, HARDLY, ONLY, CIRCUMSTANCES, LITTLE). Pairings to memorise: hardly/scarcely + when, no sooner + than.",
+        "bg": "Когато изречението започва с отрицателен или ограничителен израз, спомагателният глагол застава пред подлога, както във въпрос. Ако няма спомагателен глагол, добави do/does/did. Типични изрази: Never (before), Rarely, Seldom, Little, Hardly... when, Scarcely... when, No sooner... than, Not only... but (also), Under no circumstances, On no account, In no way, Not until..., и Only + израз за време (only when, only after, only then, only by). При 'Only when' и 'Not until' инверсията е в главното изречение: 'Only when I got home did I realise.' Условната инверсия заменя 'if': Had I known, Should you need, Were it not for. 'So' и 'such' също могат да се изнесат напред: 'So severe was the damage that...', 'Such was his anger that...'. Емфатичното do добавя ударение без инверсия: 'I did tell you!' Това е основно въпрос от C1 и се проверява в key word transformation (ключови думи като SOONER, HARDLY, ONLY, CIRCUMSTANCES, LITTLE). Двойки за запомняне: hardly/scarcely + when, no sooner + than."
+      },
+      "examples": [
+        "No sooner had we sat down than the fire alarm went off.",
+        "Under no circumstances should you open this door.",
+        "Little did she know that her life was about to change.",
+        "Only after the meeting did I understand what had happened.",
+        "Not only did he forget the tickets, but he also lost his passport."
+      ]
+    },
+    {
+      "tag": "uoe.cleft",
+      "title": {
+        "en": "Cleft sentences",
+        "bg": "Разцепени (клефт) изречения"
+      },
+      "explanation": {
+        "en": "Cleft sentences split one idea into two clauses to focus on a particular part. It-clefts: It + be + focused element + that/who + rest: 'It was Anna who found the keys', 'It's the noise that bothers me.' 'It wasn't until... that...' emphasises when something finally happened. Wh-clefts put the new information at the end: 'What I need is a long holiday', 'What surprised me was how calm she seemed.' To focus on an action, use 'What + subject + did was (to) + infinitive': 'What she did was (to) call the police.' 'What happened was (that)...' focuses on an event. Similar patterns: 'All I want is...', 'The reason (why)... is that...', 'The thing that annoys me is...', 'The place where...', 'The person who...'. The verb 'be' is usually singular after a what-clause. In key word transformations, key words such as WHAT, IT, ALL, REASON or UNTIL often signal a cleft: 'I only realised later' → 'It was only later that I realised.'",
+        "bg": "Разцепените изречения разделят една мисъл на две части, за да подчертаят определен елемент. It-изречения: It + be + подчертан елемент + that/who + останалото: 'It was Anna who found the keys', 'It's the noise that bothers me.' 'It wasn't until... that...' подчертава кога най-накрая нещо се е случило. Wh-изреченията поставят новата информация в края: 'What I need is a long holiday', 'What surprised me was how calm she seemed.' За да подчертаеш действие, ползвай 'What + подлог + did was (to) + инфинитив': 'What she did was (to) call the police.' 'What happened was (that)...' подчертава събитие. Сходни модели: 'All I want is...', 'The reason (why)... is that...', 'The thing that annoys me is...', 'The place where...', 'The person who...'. След изречение с what глаголът 'be' обикновено е в единствено число. В key word transformation ключови думи като WHAT, IT, ALL, REASON или UNTIL често подсказват разцепено изречение: 'I only realised later' → 'It was only later that I realised.'"
+      },
+      "examples": [
+        "It was my sister who persuaded me to apply.",
+        "What I really need right now is a good night's sleep.",
+        "It wasn't until I moved abroad that I appreciated my family.",
+        "All he did was ask a simple question.",
+        "The reason why I'm late is that the bus broke down."
+      ]
+    },
+    {
+      "tag": "uoe.causative",
+      "title": {
+        "en": "Causative have/get",
+        "bg": "Каузатив с have/get"
+      },
+      "explanation": {
+        "en": "Use have/get + object + past participle when someone else does a job for you: 'I had my car serviced', 'We're getting the kitchen repainted.' The tense goes on 'have/get', and the object comes BEFORE the participle ('I had my hair cut', not 'I had cut my hair', which means you cut it yourself). The same structure describes something unpleasant that happened to you: 'She had her phone stolen on the bus.' To say you arranged for or persuaded a person to act, use 'have + person + bare infinitive' ('I'll have the receptionist call you') or 'get + person + to-infinitive' ('I got my brother to help me move'). 'Get' is more informal and can suggest effort or persuasion. 'Get something done' can also mean finish it ('I need to get this report done'). Key word transformations often use HAVE, HAD or GET to replace a passive or 'someone did X for me', so check that you include both the object and the past participle.",
+        "bg": "Have/get + обект + минало причастие се ползва, когато някой друг върши работа за теб: 'I had my car serviced', 'We're getting the kitchen repainted.' Времето се изразява чрез 'have/get', а обектът стои ПРЕДИ причастието ('I had my hair cut', а не 'I had cut my hair', което значи, че си се подстригал сам). Същата конструкция описва и нещо неприятно, което ти се е случило: 'She had her phone stolen on the bus.' За да кажеш, че си накарал или убедил някого да направи нещо, ползвай 'have + човек + инфинитив без to' ('I'll have the receptionist call you') или 'get + човек + to-инфинитив' ('I got my brother to help me move'). 'Get' е по-разговорно и може да подсказва усилие или убеждаване. 'Get something done' може да значи и да приключиш нещо ('I need to get this report done'). В key word transformation HAVE, HAD или GET често заместват страдателен залог или 'някой направи X за мен', затова провери дали си включил и обекта, и причастието."
+      },
+      "examples": [
+        "I'm having my eyes tested tomorrow.",
+        "We got the roof repaired just before the storm.",
+        "He had his wallet stolen while he was on holiday.",
+        "I'll have my assistant send you the details.",
+        "She finally got her landlord to fix the heating."
+      ]
+    },
+    {
+      "tag": "uoe.wish-regret",
+      "title": {
+        "en": "Wish, if only, would rather, regret",
+        "bg": "Wish, if only, would rather, regret"
+      },
+      "explanation": {
+        "en": "Wish/if only + past simple expresses a wish about the present ('I wish I had more time', 'If only I were taller'). Wish + past perfect expresses regret about the past ('I wish I hadn't said that'). Wish + could expresses ability you lack ('I wish I could drive'). Wish + would is used for annoyance or a desire for someone or something else to change ('I wish you would stop interrupting'); it isn't used about yourself or for states. 'Would rather' + bare infinitive when the subject is the same ('I'd rather stay in'), but 'would rather' + another person + past simple ('I'd rather you didn't smoke here'). 'It's (high/about) time' + past simple: 'It's time we left.' 'Regret + -ing / having done' looks back at the past ('I regret not travelling more'); 'regret + to say/inform' is a formal way to give bad news. 'Should have done' also expresses regret. In key word transformations, WISH, ONLY, RATHER and REGRET usually require you to move the tense one step back.",
+        "bg": "Wish/if only + past simple изразява желание за настоящето ('I wish I had more time', 'If only I were taller'). Wish + past perfect изразява съжаление за миналото ('I wish I hadn't said that'). Wish + could изразява способност, която нямаш ('I wish I could drive'). Wish + would се ползва при раздразнение или желание някой или нещо друго да се промени ('I wish you would stop interrupting'); не се ползва за самия себе си или за състояния. 'Would rather' + инфинитив без to, когато подлогът е същият ('I'd rather stay in'), но 'would rather' + друг човек + past simple ('I'd rather you didn't smoke here'). 'It's (high/about) time' + past simple: 'It's time we left.' 'Regret + -ing / having done' гледа назад към миналото ('I regret not travelling more'); 'regret + to say/inform' е официален начин да съобщиш лоша новина. 'Should have done' също изразява съжаление. В key word transformation WISH, ONLY, RATHER и REGRET обикновено изискват да изместиш времето една стъпка назад."
+      },
+      "examples": [
+        "I wish I hadn't eaten that last slice of cake.",
+        "If only we lived closer to the sea.",
+        "I'd rather you didn't tell anyone about this yet.",
+        "It's high time the government did something about traffic.",
+        "She regrets not taking the job in Lisbon."
+      ]
+    },
+    {
+      "tag": "uoe.verb-patterns",
+      "title": {
+        "en": "Gerund and infinitive patterns",
+        "bg": "Герундий и инфинитив след глаголи"
+      },
+      "explanation": {
+        "en": "Some verbs take -ing: enjoy, avoid, mind, deny, consider, risk, miss, put off, can't help, can't stand, and expressions like it's worth, there's no point (in), it's no use. Some take the to-infinitive: decide, manage, refuse, afford, tend, fail, seem, hope, offer, arrange, deserve. Some take an object + to-infinitive: want, expect, encourage, allow, advise, force, enable, persuade. Make and let take an object + bare infinitive ('They made us wait'), but in the passive 'make' needs 'to' ('We were made to wait'). Some verbs change meaning: remember/forget doing (memory of the past) vs remember/forget to do (a task); stop doing (quit) vs stop to do (in order to); try doing (an experiment) vs try to do (make an effort); regret doing vs regret to say; go on doing (continue) vs go on to do (next step); mean doing (involve) vs mean to do (intend). Distinguish 'used to do' (past habit) from 'be/get used to doing' (be/become accustomed). These patterns are tested across all Use of English parts.",
+        "bg": "Някои глаголи приемат -ing: enjoy, avoid, mind, deny, consider, risk, miss, put off, can't help, can't stand, както и изрази като it's worth, there's no point (in), it's no use. Други приемат to-инфинитив: decide, manage, refuse, afford, tend, fail, seem, hope, offer, arrange, deserve. Трети приемат обект + to-инфинитив: want, expect, encourage, allow, advise, force, enable, persuade. Make и let приемат обект + инфинитив без to ('They made us wait'), но в страдателен залог 'make' изисква 'to' ('We were made to wait'). Някои глаголи сменят значението си: remember/forget doing (спомен за минало) срещу remember/forget to do (задача); stop doing (спирам да правя) срещу stop to do (спирам, за да направя); try doing (опитвам като експеримент) срещу try to do (полагам усилие); regret doing срещу regret to say; go on doing (продължавам) срещу go on to do (следваща стъпка); mean doing (означава, включва) срещу mean to do (възнамерявам). Разграничавай 'used to do' (минал навик) от 'be/get used to doing' (свикнал съм / свиквам). Тези модели се проверяват във всички части на Use of English."
+      },
+      "examples": [
+        "I can't afford to go on holiday this year.",
+        "Do you remember meeting him at the conference?",
+        "Please remember to lock the door when you leave.",
+        "We stopped to buy some water on the way.",
+        "It took me months to get used to driving on the left."
+      ]
+    },
+    {
+      "tag": "uoe.auxiliaries",
+      "title": {
+        "en": "Auxiliary verbs and verb forms",
+        "bg": "Спомагателни глаголи и глаголни форми"
+      },
+      "explanation": {
+        "en": "Auxiliaries (be, do, have and the modals) form tenses, questions, negatives and passives, and they replace whole verb phrases to avoid repetition. Short responses: 'So do I', 'Neither/Nor have I' (auxiliary before subject); 'I do too', 'I haven't either'. Question tags use the auxiliary of the main clause with the opposite polarity: 'You've met her, haven't you?', 'I'm right, aren't I?', 'Let's go, shall we?' Ellipsis: 'He said he'd call, but he didn't.' Emphatic do/does/did adds contrast or insistence: 'I did lock the door!' In the open cloze, auxiliaries are some of the most frequent answers: did, does, had, has, been, being, be, would. To find them, check the whole verb phrase around the gap: is there a participle that needs 'been' or 'being'? A bare verb after a negative that needs 'did'? Also check subject–verb agreement when the subject is long or far from the verb ('The list of applicants WAS long').",
+        "bg": "Спомагателните глаголи (be, do, have и модалните) образуват времена, въпроси, отрицания и страдателен залог, и заместват цели глаголни фрази, за да се избегне повторение. Кратки реакции: 'So do I', 'Neither/Nor have I' (спомагателният пред подлога); 'I do too', 'I haven't either'. Разделителните въпроси (question tags) ползват спомагателния глагол от главното изречение с обратен знак: 'You've met her, haven't you?', 'I'm right, aren't I?', 'Let's go, shall we?' Елипса: 'He said he'd call, but he didn't.' Емфатичното do/does/did добавя контраст или настояване: 'I did lock the door!' В open cloze спомагателните глаголи са сред най-честите отговори: did, does, had, has, been, being, be, would. За да ги откриеш, провери цялата глаголна фраза около празното място: има ли причастие, което иска 'been' или 'being'? Глагол без окончание след отрицание, който иска 'did'? Провери и съгласуването между подлог и сказуемо, когато подлогът е дълъг или далеч от глагола ('The list of applicants WAS long')."
+      },
+      "examples": [
+        "She doesn't eat meat, and neither does her husband.",
+        "You haven't seen my keys, have you?",
+        "I didn't expect to enjoy the film, but I did.",
+        "The results, which had been checked twice, were still wrong.",
+        "The number of complaints has risen sharply this year."
+      ]
+    },
+    {
+      "tag": "uoe.pronouns-reference",
+      "title": {
+        "en": "Pronouns and reference words",
+        "bg": "Местоимения и думи за препратка"
+      },
+      "explanation": {
+        "en": "Reference words point back (or forward) to something in the text and keep it cohesive. Personal and possessive pronouns must agree in number and person. Reflexive pronouns (myself, themselves) are used when subject and object are the same; 'each other' / 'one another' express a two-way action. 'One/ones' replaces a countable noun ('the red one'); 'do so' replaces a verb phrase. 'This/that/these/those' can refer to a whole previous idea; 'those who' means 'people who'. 'The former' and 'the latter' refer to the first and second of two things; 'such' means 'of this kind'. Dummy subjects: 'there' introduces existence ('There's a problem'), 'it' refers to weather, time, distance or a later clause ('It's worth checking', 'I find it hard to concentrate', 'I'd appreciate it if you could reply'). In the open cloze, it, there, one, those, themselves and such are frequent answers; in Reading Part 5 and the gapped text, you must track what these words refer to.",
+        "bg": "Думите за препратка сочат назад (или напред) към нещо в текста и го правят свързан. Личните и притежателните местоимения трябва да се съгласуват по число и лице. Възвратните (myself, themselves) се ползват, когато подлогът и допълнението са едно и също; 'each other' / 'one another' изразяват взаимно действие. 'One/ones' замества броимо съществително ('the red one'); 'do so' замества глаголна фраза. 'This/that/these/those' могат да сочат към цяла предишна идея; 'those who' значи 'хората, които'. 'The former' и 'the latter' сочат първото и второто от две неща; 'such' значи 'такъв'. Формални подлози: 'there' въвежда съществуване ('There's a problem'), а 'it' се ползва за време, час, разстояние или по-късна част от изречението ('It's worth checking', 'I find it hard to concentrate', 'I'd appreciate it if you could reply'). В open cloze it, there, one, those, themselves и such са чести отговори; в Reading Part 5 и в gapped text трябва да следиш към какво сочат тези думи."
+      },
+      "examples": [
+        "I find it difficult to concentrate in open-plan offices.",
+        "There's no point in arguing about it now.",
+        "Those who arrive late will not be admitted.",
+        "I prefer the blue jacket to the black one.",
+        "Tea and coffee are both popular, but the latter contains more caffeine."
+      ]
+    },
+    {
+      "tag": "uoe.phrasal-verbs",
+      "title": {
+        "en": "Phrasal verbs",
+        "bg": "Фразови глаголи"
+      },
+      "explanation": {
+        "en": "A phrasal verb is a verb plus one or two particles, often with an idiomatic meaning: give up, turn down, look into, come up with, put up with, run out of, cut down on, get on with, look up to. Some are separable, so a pronoun object must go between verb and particle ('turn it down', not 'turn down it'); others are inseparable ('look after them'); three-part verbs are never split. Many have a formal one-word equivalent that is useful for register: postpone = put off, tolerate = put up with, investigate = look into, cancel = call off, reduce = cut down on, discover = find out. In the multiple-choice cloze, the particle is often printed and you choose the verb (carry/bring/take/set + out), or the verb is printed and you choose the particle. It helps to learn the common meanings of particles: up (increase or completion: use up, speed up), out (to the end or disappearing: sell out, die out), off (separation or starting: set off, call off), down (decrease: cut down, slow down).",
+        "bg": "Фразовият глагол е глагол плюс една или две частици, често с идиоматично значение: give up, turn down, look into, come up with, put up with, run out of, cut down on, get on with, look up to. Някои се разделят и тогава местоимението-допълнение стои между глагола и частицата ('turn it down', а не 'turn down it'); други не се разделят ('look after them'); тричастните никога не се разделят. Много от тях имат официален еднословен еквивалент, полезен за регистъра: postpone = put off, tolerate = put up with, investigate = look into, cancel = call off, reduce = cut down on, discover = find out. В multiple-choice cloze частицата често е дадена и избираш глагола (carry/bring/take/set + out), или глаголът е даден и избираш частицата. Полезно е да научиш честите значения на частиците: up (увеличаване или завършване: use up, speed up), out (до край или изчезване: sell out, die out), off (отделяне или тръгване: set off, call off), down (намаляване: cut down, slow down)."
+      },
+      "examples": [
+        "The concert was called off because of the storm.",
+        "I don't know how you put up with all that noise.",
+        "She came up with a brilliant solution.",
+        "We've run out of milk, so I'll pop to the shop.",
+        "The police are looking into the complaint."
+      ]
+    },
+    {
+      "tag": "uoe.collocations",
+      "title": {
+        "en": "Collocations",
+        "bg": "Колокации (устойчиви словосъчетания)"
+      },
+      "explanation": {
+        "en": "Collocations are words that naturally go together; the 'wrong' choice is often grammatically possible but sounds unnatural to a native speaker. Verb + noun: make a decision/mistake/effort/progress, do research/damage/business/your best, take a risk/a break/responsibility, pay attention, meet a deadline, raise awareness, pose a threat, reach a conclusion, draw attention. Adjective + noun: heavy traffic/rain, strong coffee/accent, a high price, a narrow escape, a wide range, a sharp increase, a vast majority. Adverb + adjective: highly unlikely, deeply concerned, bitterly disappointed, fully aware, utterly exhausted, widely regarded. The multiple-choice cloze tests collocation more than anything else: all four options often share a similar meaning, and only one fits the word next to the gap ('make/do/take/have an effort'). Read the full phrase on both sides of the gap, and record new vocabulary as chunks ('meet a deadline') rather than single words.",
+        "bg": "Колокациите са думи, които естествено вървят заедно; 'грешният' избор често е граматически възможен, но звучи неестествено за носител на езика. Глагол + съществително: make a decision/mistake/effort/progress, do research/damage/business/your best, take a risk/a break/responsibility, pay attention, meet a deadline, raise awareness, pose a threat, reach a conclusion, draw attention. Прилагателно + съществително: heavy traffic/rain, strong coffee/accent, a high price, a narrow escape, a wide range, a sharp increase, a vast majority. Наречие + прилагателно: highly unlikely, deeply concerned, bitterly disappointed, fully aware, utterly exhausted, widely regarded. Multiple-choice cloze проверява колокации повече от всичко друго: четирите варианта често имат сходно значение и само един пасва на думата до празното място ('make/do/take/have an effort'). Чети цялата фраза от двете страни на празното място и записвай новата лексика като цели изрази ('meet a deadline'), а не като отделни думи."
+      },
+      "examples": [
+        "We need to make a decision by the end of the week.",
+        "It's highly unlikely that the shop will still be open.",
+        "The team worked all night to meet the deadline.",
+        "There has been a sharp increase in house prices.",
+        "The campaign aims to raise awareness of mental health."
+      ]
+    },
+    {
+      "tag": "uoe.fixed-phrases",
+      "title": {
+        "en": "Fixed phrases and expressions",
+        "bg": "Устойчиви изрази"
+      },
+      "explanation": {
+        "en": "Fixed phrases are multi-word expressions whose form cannot change: by no means, on the whole, as a matter of fact, in the long run, at short notice, for the time being, in terms of, with regard to, on the verge of, to some extent, in the event of, on the grounds that, at the expense of, by and large, take something for granted, take into account, make the most of. Changing a single word makes them wrong ('in the long time', 'at a short notice'). In the open cloze, one word of such a phrase is usually removed (in ___ of → terms; as a matter ___ fact → of), so recognising the rest of the phrase gives you the answer. In key word transformations, a noun key word often belongs to a fixed phrase: ACCOUNT → take into account / on account of; EXPENSE → at the expense of; VERGE → on the verge of; GRANTED → take for granted. Learn them with an example sentence and note their register.",
+        "bg": "Устойчивите изрази са многословни изрази, чиято форма не се променя: by no means, on the whole, as a matter of fact, in the long run, at short notice, for the time being, in terms of, with regard to, on the verge of, to some extent, in the event of, on the grounds that, at the expense of, by and large, take something for granted, take into account, make the most of. Ако смениш дори една дума, изразът става грешен ('in the long time', 'at a short notice'). В open cloze обикновено липсва една дума от такъв израз (in ___ of → terms; as a matter ___ fact → of), затова ако разпознаеш останалата част, имаш отговора. В key word transformation ключовата дума съществително често е част от устойчив израз: ACCOUNT → take into account / on account of; EXPENSE → at the expense of; VERGE → on the verge of; GRANTED → take for granted. Учи ги с примерно изречение и отбелязвай регистъра им."
+      },
+      "examples": [
+        "The project was, by and large, a success.",
+        "They had to cancel the trip at short notice.",
+        "The company was on the verge of collapse.",
+        "In the long run, renting may cost you more.",
+        "We should take the weather into account when planning the route."
+      ]
+    },
+    {
+      "tag": "uoe.idioms",
+      "title": {
+        "en": "Idioms",
+        "bg": "Идиоми"
+      },
+      "explanation": {
+        "en": "An idiom is a fixed expression whose meaning cannot be worked out from its individual words: a piece of cake (very easy), get cold feet (become nervous and change your mind), in hot water (in trouble), once in a blue moon (very rarely), the last straw (the final problem that makes a situation unbearable), hit the nail on the head (describe something exactly), pull someone's leg (joke), cost an arm and a leg, keep an eye on, call it a day. Idioms are fixed in form: one wrong word ('a piece of pie') breaks them. In the multiple-choice cloze, you may have to choose the word that completes an idiom; in key word transformations, the key word can be part of one (EYE → keep an eye on; DAY → call it a day). In Reading and Listening, idioms often carry the speaker's attitude, so understanding them helps with opinion questions. Most are informal, so avoid them in formal writing.",
+        "bg": "Идиомът е устойчив израз, чието значение не може да се изведе от отделните думи: a piece of cake (много лесно), get cold feet (уплашиш се и се отказваш), in hot water (в беда), once in a blue moon (много рядко), the last straw (капката, която прелива чашата), hit the nail on the head (уцелваш точно), pull someone's leg (шегуваш се с някого), cost an arm and a leg, keep an eye on, call it a day. Идиомите имат фиксирана форма: една грешна дума ('a piece of pie') ги разваля. В multiple-choice cloze може да трябва да избереш думата, която допълва идиом; в key word transformation ключовата дума може да е част от идиом (EYE → keep an eye on; DAY → call it a day). В Reading и Listening идиомите често носят отношението на говорещия, затова разбирането им помага при въпроси за мнение. Повечето са разговорни, затова ги избягвай в официално писане."
+      },
+      "examples": [
+        "The exam was a piece of cake compared with last year's.",
+        "He got cold feet the night before the wedding.",
+        "We only eat out once in a blue moon.",
+        "Could you keep an eye on my bag for a minute?",
+        "When the printer broke again, it was the last straw."
+      ]
+    },
+    {
+      "tag": "uoe.word-choice",
+      "title": {
+        "en": "Choosing the precise word (near-synonyms)",
+        "bg": "Избор на точната дума (близки синоними)"
+      },
+      "explanation": {
+        "en": "Many words look similar in meaning but differ in grammar, collocation, connotation or register. Classic pairs and groups: affect (verb) / effect (noun); rise (no object) / raise (needs an object); lie / lay; say (something) / tell (someone) / speak / talk; borrow / lend; remind / remember; job (countable) / work (uncountable) / career; opportunity / possibility / chance; achieve / reach / gain; economic / economical; sensible / sensitive; actually (in fact) / currently (now); argument / discussion; journey / trip / travel. To choose in the multiple-choice cloze: first check the grammar after the gap (a preposition, a that-clause, an object, an infinitive), then the collocation (gain experience, reach an agreement, achieve a goal), and finally the precise meaning in context (positive or negative, formal or informal). Eliminate options that fail any one test. Watch out for false friends from Bulgarian, such as 'sympathetic' (= съчувстващ, not симпатичен) and 'actual' (= действителен, not актуален).",
+        "bg": "Много думи изглеждат сходни по значение, но се различават по граматика, колокация, оттенък или регистър. Класически двойки и групи: affect (глагол) / effect (съществително); rise (без допълнение) / raise (с допълнение); lie / lay; say (нещо) / tell (някому) / speak / talk; borrow / lend; remind / remember; job (броимо) / work (неброимо) / career; opportunity / possibility / chance; achieve / reach / gain; economic / economical; sensible / sensitive; actually (всъщност) / currently (в момента); argument / discussion; journey / trip / travel. За да избереш в multiple-choice cloze: първо провери граматиката след празното място (предлог, подчинено с that, допълнение, инфинитив), после колокацията (gain experience, reach an agreement, achieve a goal) и накрая точното значение в контекста (положително или отрицателно, официално или разговорно). Отхвърляй вариантите, които не минават дори един от тестовете. Пази се от фалшиви приятели от български, например 'sympathetic' (= съчувстващ, не симпатичен) и 'actual' (= действителен, не актуален)."
+      },
+      "examples": [
+        "The new rules will affect thousands of drivers.",
+        "Could you lend me your charger for a moment?",
+        "Prices have risen steadily over the past year.",
+        "The meeting gave us an opportunity to share ideas.",
+        "This car is very economical; it uses very little fuel."
+      ]
+    },
+    {
+      "tag": "uoe.complementation",
+      "title": {
+        "en": "What follows a word (complementation)",
+        "bg": "Какво следва след думата (допълване)"
+      },
+      "explanation": {
+        "en": "Every verb, adjective and noun comes with a pattern: what is allowed to follow it. It may be a that-clause, a to-infinitive, an -ing form, an object + to-infinitive, a preposition + -ing, or a wh-clause. Examples: prevent/stop/discourage sb from doing; insist that sb (should) do; it's essential/vital that...; be capable of doing; have difficulty (in) doing; there's no point in doing; tend to do; be inclined to do; enable/allow sb to do; let/make sb do; deter sb from doing; succeed in doing; suggest doing / that... The multiple-choice cloze often offers four words with similar meanings but different patterns: 'The money ___ us to buy new equipment' (enabled / let / made / gave) — only 'enabled' fits 'us to buy'. So when the meaning seems to fit for several options, decide using the structure around the gap. This is close to verb patterns and dependent prepositions, but the focus here is on letting the words after the gap choose the word in the gap.",
+        "bg": "Всеки глагол, прилагателно и съществително има модел: какво може да го следва. Това може да е подчинено с that, to-инфинитив, форма -ing, обект + to-инфинитив, предлог + -ing или въпросително подчинено. Примери: prevent/stop/discourage sb from doing; insist that sb (should) do; it's essential/vital that...; be capable of doing; have difficulty (in) doing; there's no point in doing; tend to do; be inclined to do; enable/allow sb to do; let/make sb do; deter sb from doing; succeed in doing; suggest doing / that... В multiple-choice cloze често има четири думи със сходно значение, но различни модели: 'The money ___ us to buy new equipment' (enabled / let / made / gave) — само 'enabled' пасва на 'us to buy'. Затова, когато значението пасва на няколко варианта, решавай по структурата около празното място. Това е близко до моделите след глаголи и зависимите предлози, но тук фокусът е да оставиш думите след празното място да изберат думата в него."
+      },
+      "examples": [
+        "The heavy rain prevented us from leaving on time.",
+        "The grant enabled the school to buy new laptops.",
+        "She insisted that we stay for dinner.",
+        "Many people have difficulty remembering names.",
+        "There's no point in complaining now."
+      ]
+    },
+    {
+      "tag": "wf.noun-suffix",
+      "title": {
+        "en": "Forming nouns (-tion, -ment, -ity, -ance...)",
+        "bg": "Образуване на съществителни (-tion, -ment, -ity, -ance...)"
+      },
+      "explanation": {
+        "en": "Common noun suffixes: -tion/-sion (inform → information, decide → decision), -ment (develop → development, achieve → achievement), -ance/-ence (perform → performance, exist → existence), -ity (able → ability, curious → curiosity), -ness (aware → awareness, kind → kindness), -dom (free → freedom), -ship (friend → friendship), -hood (child → childhood), -al (arrive → arrival, refuse → refusal), -ure (fail → failure), -th (grow → growth). People: -er/-or (employ → employer, invest → investor), -ee (employ → employee), -ant/-ent (apply → applicant, reside → resident), -ist (science → scientist). Watch spelling changes: maintain → maintenance, pronounce → pronunciation, explain → explanation, generous → generosity, repeat → repetition, persuade → persuasion. A gap after an article, a possessive, an adjective or a preposition usually needs a noun. Then ask: a person or a thing? Singular or plural? A noun gap may also need a prefix (unemployment, disapproval).",
+        "bg": "Чести наставки за съществителни: -tion/-sion (inform → information, decide → decision), -ment (develop → development, achieve → achievement), -ance/-ence (perform → performance, exist → existence), -ity (able → ability, curious → curiosity), -ness (aware → awareness, kind → kindness), -dom (free → freedom), -ship (friend → friendship), -hood (child → childhood), -al (arrive → arrival, refuse → refusal), -ure (fail → failure), -th (grow → growth). За хора: -er/-or (employ → employer, invest → investor), -ee (employ → employee), -ant/-ent (apply → applicant, reside → resident), -ist (science → scientist). Внимавай с промените в правописа: maintain → maintenance, pronounce → pronunciation, explain → explanation, generous → generosity, repeat → repetition, persuade → persuasion. Празно място след член, притежателно местоимение, прилагателно или предлог обикновено иска съществително. После се запитай: човек или нещо? Единствено или множествено число? Съществителното може да иска и представка (unemployment, disapproval)."
+      },
+      "examples": [
+        "The development of the vaccine took less than a year.",
+        "Her curiosity eventually led her to a career in science.",
+        "There were over two hundred applicants for the job.",
+        "His pronunciation has improved enormously.",
+        "Regular maintenance will extend the life of your bike."
+      ]
+    },
+    {
+      "tag": "wf.adjective-suffix",
+      "title": {
+        "en": "Forming adjectives (-able, -ive, -ous, -al...)",
+        "bg": "Образуване на прилагателни (-able, -ive, -ous, -al...)"
+      },
+      "explanation": {
+        "en": "Common adjective suffixes: -able/-ible (rely → reliable, sense → sensible), -ive (attract → attractive, compete → competitive), -ous (danger → dangerous, courage → courageous), -al (nation → national, benefit → beneficial), -ful and -less (care → careful/careless), -ic/-ical (science → scientific, history → historic/historical), -y (risk → risky), -ent/-ant (depend → dependent, please → pleasant), -ish (child → childish), -ary (moment → momentary). Some pairs differ in meaning: economic (about the economy) / economical (saves money); historic (important in history) / historical (about the past); sensible (reasonable) / sensitive (easily affected); -ed (how you feel: bored) / -ing (what causes the feeling: boring). Spelling changes are frequent: fame → famous, glamour → glamorous, admire → admirable, persuade → persuasive, space → spacious. A gap before a noun, after be/seem/become/look, or after very/extremely/rather usually needs an adjective. Check whether the meaning is negative and needs a prefix too.",
+        "bg": "Чести наставки за прилагателни: -able/-ible (rely → reliable, sense → sensible), -ive (attract → attractive, compete → competitive), -ous (danger → dangerous, courage → courageous), -al (nation → national, benefit → beneficial), -ful и -less (care → careful/careless), -ic/-ical (science → scientific, history → historic/historical), -y (risk → risky), -ent/-ant (depend → dependent, please → pleasant), -ish (child → childish), -ary (moment → momentary). Някои двойки се различават по значение: economic (свързан с икономиката) / economical (пестелив); historic (исторически важен) / historical (свързан с миналото); sensible (разумен) / sensitive (чувствителен); -ed (как се чувстваш: bored) / -ing (какво предизвиква чувството: boring). Промените в правописа са чести: fame → famous, glamour → glamorous, admire → admirable, persuade → persuasive, space → spacious. Празно място пред съществително, след be/seem/become/look или след very/extremely/rather обикновено иска прилагателно. Провери дали значението е отрицателно и дали не трябва и представка."
+      },
+      "examples": [
+        "It was a courageous decision to speak out.",
+        "Regular exercise is beneficial to both body and mind.",
+        "The flat is surprisingly spacious for the price.",
+        "She gave a very persuasive presentation.",
+        "I found the lecture rather confusing."
+      ]
+    },
+    {
+      "tag": "wf.adverb",
+      "title": {
+        "en": "Forming adverbs",
+        "bg": "Образуване на наречия"
+      },
+      "explanation": {
+        "en": "Most adverbs are adjective + -ly (quick → quickly). Spelling rules: -y → -ily (easy → easily, happy → happily); -le → -ly (possible → possibly, gentle → gently); -ic → -ically (basic → basically, dramatic → dramatically; but public → publicly); true → truly, whole → wholly, due → duly, full → fully. Some adverbs have the same form as the adjective (fast, hard, late, early, straight), and some -ly forms have a different meaning: hardly (almost not), lately (recently), nearly (almost), highly (very much). Good → well. An adverb gap usually modifies a verb ('She spoke ___'), an adjective ('___ expensive') or the whole sentence, often at the start followed by a comma ('___, nobody was hurt'). Word formation answers often combine an adverb with a prefix and a suffix: un + fortunate + ly → unfortunately; in + credible + ly → incredibly; un + doubt + ed + ly → undoubtedly. Check whether the context is positive or negative before you write the word.",
+        "bg": "Повечето наречия са прилагателно + -ly (quick → quickly). Правописни правила: -y → -ily (easy → easily, happy → happily); -le → -ly (possible → possibly, gentle → gently); -ic → -ically (basic → basically, dramatic → dramatically; но public → publicly); true → truly, whole → wholly, due → duly, full → fully. Някои наречия имат същата форма като прилагателното (fast, hard, late, early, straight), а някои форми с -ly имат различно значение: hardly (едва, почти не), lately (напоследък), nearly (почти), highly (много, силно). Good → well. Наречието обикновено пояснява глагол ('She spoke ___'), прилагателно ('___ expensive') или цялото изречение, често в началото и със запетая ('___, nobody was hurt'). В word formation отговорите често съчетават наречие с представка и наставка: un + fortunate + ly → unfortunately; in + credible + ly → incredibly; un + doubt + ed + ly → undoubtedly. Провери дали контекстът е положителен или отрицателен, преди да напишеш думата."
+      },
+      "examples": [
+        "Unfortunately, the museum is closed on Mondays.",
+        "Prices have risen dramatically since last spring.",
+        "She is undoubtedly the best player in the team.",
+        "I've hardly had any time to read lately.",
+        "The film was incredibly moving."
+      ]
+    },
+    {
+      "tag": "wf.verb-formation",
+      "title": {
+        "en": "Forming verbs (-ise/-ize, -en, en-...)",
+        "bg": "Образуване на глаголи (-ise/-ize, -en, en-...)"
+      },
+      "explanation": {
+        "en": "Verbs can be formed with suffixes: -ise/-ize (modern → modernise, critic → criticise, special → specialise, sympathy → sympathise), -en (wide → widen, strength → strengthen, short → shorten, threat → threaten, length → lengthen), -ify (simple → simplify, class → classify, pure → purify, just → justify), -ate (active → activate, origin → originate). Prefixes also form or change verbs: en-/em- (able → enable, courage → encourage, danger → endanger, power → empower, rich → enrich), re- (again: rebuild, reconsider), over-/under- (too much/too little: overestimate, underestimate), out- (more than: outnumber, outlive), dis- (disappear). Both British -ise and American -ize spellings are normally accepted, but be consistent. After forming the verb, make it fit the sentence grammatically: third person -s, past -ed, -ing after a preposition, or a past participle in a passive or perfect. Many lost marks come from writing 'strengthen' where the sentence needs 'strengthened'.",
+        "bg": "Глаголи се образуват с наставки: -ise/-ize (modern → modernise, critic → criticise, special → specialise, sympathy → sympathise), -en (wide → widen, strength → strengthen, short → shorten, threat → threaten, length → lengthen), -ify (simple → simplify, class → classify, pure → purify, just → justify), -ate (active → activate, origin → originate). Представките също образуват или променят глаголи: en-/em- (able → enable, courage → encourage, danger → endanger, power → empower, rich → enrich), re- (отново: rebuild, reconsider), over-/under- (твърде много/твърде малко: overestimate, underestimate), out- (повече от: outnumber, outlive), dis- (disappear). Британското -ise и американското -ize обикновено се приемат, но бъди последователен. След като образуваш глагола, нагоди го граматически към изречението: -s за трето лице, -ed за минало, -ing след предлог или минало причастие в страдателен залог или перфектно време. Много точки се губят, защото е написано 'strengthen', а изречението иска 'strengthened'."
+      },
+      "examples": [
+        "The council plans to widen the road next year.",
+        "Climate change is endangering many species.",
+        "The new software simplifies the whole process.",
+        "Teachers should encourage students to ask questions.",
+        "The bridge was strengthened after the earthquake."
+      ]
+    },
+    {
+      "tag": "wf.negative-prefix",
+      "title": {
+        "en": "Negative prefixes (un-, in-, im-, ir-, dis-, mis-)",
+        "bg": "Отрицателни представки (un-, in-, im-, ir-, dis-, mis-)"
+      },
+      "explanation": {
+        "en": "Negative prefixes reverse or negate meaning: un- is the most common (unlikely, unaware, unemployment); in- (inaccurate, inadequate, inexperienced); im- before p, m and b (impossible, impatient, immature, imbalance); il- before l (illegal, illogical); ir- before r (irrelevant, irresponsible, irregular); dis- (disagree, dishonest, dissatisfied, disadvantage); mis- means 'wrongly' (misunderstand, mislead, misinform); non- (non-existent, non-fiction). The suffix -less is also negative (pointless, harmless). The text decides whether a negative is needed: look for signals such as 'but', 'despite', 'surprisingly', 'complained', 'criticised', or a contrast with the previous sentence. In the exam, the prefix often combines with a suffix, so you need two changes: honest → dishonesty, satisfy → dissatisfaction, believe → unbelievably, responsible → irresponsibility, expect → unexpectedly. Read the whole sentence, and the one before, before you decide.",
+        "bg": "Отрицателните представки обръщат или отричат значението: un- е най-честата (unlikely, unaware, unemployment); in- (inaccurate, inadequate, inexperienced); im- пред p, m и b (impossible, impatient, immature, imbalance); il- пред l (illegal, illogical); ir- пред r (irrelevant, irresponsible, irregular); dis- (disagree, dishonest, dissatisfied, disadvantage); mis- значи 'погрешно' (misunderstand, mislead, misinform); non- (non-existent, non-fiction). Наставката -less също е отрицателна (pointless, harmless). Текстът решава дали е нужно отрицание: търси сигнали като 'but', 'despite', 'surprisingly', 'complained', 'criticised' или контраст с предишното изречение. На изпита представката често се съчетава с наставка, затова са нужни две промени: honest → dishonesty, satisfy → dissatisfaction, believe → unbelievably, responsible → irresponsibility, expect → unexpectedly. Прочети цялото изречение и предишното, преди да решиш."
+      },
+      "examples": [
+        "Many customers were dissatisfied with the new service.",
+        "It's illegal to park on this side of the street.",
+        "I think you misunderstood what I meant.",
+        "Leaving the children alone was completely irresponsible.",
+        "The results were unexpectedly positive."
+      ]
+    },
+    {
+      "tag": "wf.internal-change",
+      "title": {
+        "en": "Internal changes (long → length)",
+        "bg": "Вътрешни промени (long → length)"
+      },
+      "explanation": {
+        "en": "Some related words change inside the stem, not just at the end, so adding a suffix is not enough. Adjective → noun: long → length, strong → strength, wide → width, deep → depth, high → height, broad → breadth, young → youth, true → truth, proud → pride, hot → heat, poor → poverty, able → ability. Verb → noun: choose → choice, lose → loss, prove → proof, believe → belief, advise → advice, sell → sale, behave → behaviour, describe → description, receive → reception/receipt, succeed → success, maintain → maintenance, intend → intention, apply → application, think → thought, fly → flight. Noun/adjective → verb: strength → strengthen, long → lengthen, high → heighten. These words are tested because candidates often write a logical but non-existent form ('longness', 'deepness', 'choosement'). Learn them as families, and when a stem is a short, common word in the exam, suspect an internal change.",
+        "bg": "Някои сродни думи се променят вътре в основата, а не само в края, затова не стига да добавиш наставка. Прилагателно → съществително: long → length, strong → strength, wide → width, deep → depth, high → height, broad → breadth, young → youth, true → truth, proud → pride, hot → heat, poor → poverty, able → ability. Глагол → съществително: choose → choice, lose → loss, prove → proof, believe → belief, advise → advice, sell → sale, behave → behaviour, describe → description, receive → reception/receipt, succeed → success, maintain → maintenance, intend → intention, apply → application, think → thought, fly → flight. Съществително/прилагателно → глагол: strength → strengthen, long → lengthen, high → heighten. Тези думи се проверяват, защото кандидатите често пишат логична, но несъществуваща форма ('longness', 'deepness', 'choosement'). Учи ги на семейства и когато основата на изпита е кратка и често срещана дума, подозирай вътрешна промяна."
+      },
+      "examples": [
+        "The length of the course has been reduced to six weeks.",
+        "Child poverty remains a serious problem in many cities.",
+        "There is no proof that the drug is effective.",
+        "We were amazed by the height of the waterfall.",
+        "She spent her youth travelling around South America."
+      ]
+    },
+    {
+      "tag": "wf.compound",
+      "title": {
+        "en": "Compounds",
+        "bg": "Сложни думи"
+      },
+      "explanation": {
+        "en": "Compound words combine two or more parts. Many exam answers are nouns or adjectives built from phrasal verbs or with a particle at the front: break down → breakdown, set back → setback, come out → outcome, bring up → upbringing, take over → takeover, break through → breakthrough, go on → ongoing, come in → income, look out → outlook, fall short → shortcoming, stand out → outstanding, look over → overlooked. Others combine a noun or adjective with a participle and are usually hyphenated: well-known, long-term, time-consuming, record-breaking, open-minded, self-confident, short-sighted, world-famous, life-changing. So when the stem is a short word like COME, LOOK, BREAK, STAND or SET, ask whether a particle needs to be added before or after it. As always, check the grammar of the gap afterwards (plural setbacks, past participle overlooked) and whether the compound is written as one word, with a hyphen or as two words.",
+        "bg": "Сложните думи съчетават две или повече части. Много отговори на изпита са съществителни или прилагателни, образувани от фразови глаголи или с частица отпред: break down → breakdown, set back → setback, come out → outcome, bring up → upbringing, take over → takeover, break through → breakthrough, go on → ongoing, come in → income, look out → outlook, fall short → shortcoming, stand out → outstanding, look over → overlooked. Други съчетават съществително или прилагателно с причастие и обикновено се пишат с тире: well-known, long-term, time-consuming, record-breaking, open-minded, self-confident, short-sighted, world-famous, life-changing. Затова, когато основата е кратка дума като COME, LOOK, BREAK, STAND или SET, се запитай дали не трябва да добавиш частица пред или след нея. Както винаги, после провери граматиката на празното място (множествено setbacks, причастие overlooked) и дали сложната дума се пише слято, с тире или разделно."
+      },
+      "examples": [
+        "Nobody could predict the outcome of the election.",
+        "Scientists have made an important breakthrough in cancer research.",
+        "Despite several setbacks, the project was finished on time.",
+        "Filling in all these forms is very time-consuming.",
+        "Her upbringing in a small village shaped her values."
+      ]
+    },
+    {
+      "tag": "wf.plural-agreement",
+      "title": {
+        "en": "Plural and agreement in the gap",
+        "bg": "Множествено число и съгласуване в празното място"
+      },
+      "explanation": {
+        "en": "Forming the right word is only half the job; it must also fit the grammar of the sentence. Check for plural signals before a noun gap: many, several, a number of, a variety of, one of the, these/those, numbers, or a plural verb after the gap ('the ___ were...'). Decide whether the gap needs a person or an abstract idea, and how many: scientist(s) vs science, competitor(s) vs competition. Remember that uncountable nouns never take -s, even when the meaning feels plural: research, equipment, evidence, advice, information, knowledge, progress, furniture. Adjectives never take -s. For verbs, check tense, person and form: -s for third person, -ed or an irregular past, -ing after a preposition, a past participle after have or in a passive. A large share of lost marks in word formation comes from the right word in the wrong form, such as a missing -s, so reread the sentence with your answer in place before moving on.",
+        "bg": "Да образуваш правилната дума е само половината работа; тя трябва и да пасва граматически на изречението. Търси сигнали за множествено число пред празното място за съществително: many, several, a number of, a variety of, one of the, these/those, числа или глагол в множествено число след празното място ('the ___ were...'). Реши дали е нужен човек или абстрактно понятие и колко: scientist(s) срещу science, competitor(s) срещу competition. Помни, че неброимите съществителни никога не приемат -s, дори когато значението звучи като множествено: research, equipment, evidence, advice, information, knowledge, progress, furniture. Прилагателните никога не приемат -s. При глаголите провери времето, лицето и формата: -s за трето лице, -ed или неправилно минало, -ing след предлог, минало причастие след have или в страдателен залог. Голяма част от изгубените точки в word formation идват от правилна дума в грешна форма, например липсващо -s, затова прочети отново изречението с отговора си, преди да продължиш."
+      },
+      "examples": [
+        "Several competitors were disqualified for breaking the rules.",
+        "One of the greatest achievements of the decade was the new bridge.",
+        "The researchers collected a great deal of evidence.",
+        "The festival attracts a number of international performers.",
+        "Her ideas have been widely criticised."
+      ]
+    },
+    {
+      "tag": "read.detail",
+      "title": {
+        "en": "Understanding detail",
+        "bg": "Разбиране на детайли"
+      },
+      "explanation": {
+        "en": "Detail questions check that you understand exactly what a specific part of the text says. In multiple choice (B2 Part 5, C1 Part 5), the questions follow the order of the text, so locate the relevant section, then read the sentence before and after it carefully. The correct option almost always paraphrases the text rather than repeating its words. Wrong options are typically built in predictable ways: they repeat words from the text but say something different; they are true according to the text but don't answer the question; they exaggerate (all, always, never, completely) what the text says more cautiously; or they mix up who did or thought what. For each option, find the exact words in the text that prove it or rule it out. If you can't point to evidence, the option is probably wrong. Pay special attention to small words that change meaning: only, still, almost, not yet, rather than, unlike, instead.",
+        "bg": "Въпросите за детайли проверяват дали разбираш точно какво казва определена част от текста. При multiple choice (B2 Part 5, C1 Part 5) въпросите следват реда на текста, затова намери съответната част и внимателно прочети изречението преди и след нея. Правилният вариант почти винаги перифразира текста, а не повтаря думите му. Грешните варианти обикновено са изградени по предвидим начин: повтарят думи от текста, но казват нещо различно; верни са според текста, но не отговарят на въпроса; преувеличават (all, always, never, completely) нещо, което текстът казва по-предпазливо; или объркват кой какво е направил или мислил. За всеки вариант намери точните думи в текста, които го доказват или отхвърлят. Ако не можеш да посочиш доказателство, вариантът вероятно е грешен. Обърни специално внимание на малките думи, които променят смисъла: only, still, almost, not yet, rather than, unlike, instead."
+      },
+      "examples": [
+        "Text: 'The museum had planned to reopen in May, but delays pushed this back to the autumn.' Correct paraphrase: The reopening took place later than intended.",
+        "Text: 'Most, though not all, of the volunteers were students.' Wrong option: All the volunteers were students.",
+        "Text: 'She had considered studying law before settling on medicine.' Correct paraphrase: Medicine was not her first idea.",
+        "Text: 'The idea wasn't new; what was new was the price.' Correct paraphrase: The product was cheaper than earlier versions."
+      ]
+    },
+    {
+      "tag": "read.gist",
+      "title": {
+        "en": "Main idea (gist)",
+        "bg": "Основна идея (гист)"
+      },
+      "explanation": {
+        "en": "Gist questions ask what a paragraph or text is mainly about, or what point the writer is mainly making. They appear in Reading Part 5 (for example, 'What is the main point of the second paragraph?'), and gist understanding is essential for gapped texts and multiple matching. Read the whole paragraph before answering; the main idea is often in the first or last sentence, or in a sentence that the rest of the paragraph supports with examples. Ask yourself: if I had to summarise this paragraph in one sentence, what would it be? Then compare your summary with the options. Wrong options typically focus on a single detail or example, describe something mentioned only in passing, are too general (they could describe any text on the topic), or reflect an opinion the writer reports but does not hold. When skimming a long text before the questions, note a few words in the margin for each paragraph's main idea; it will speed up locating answers later.",
+        "bg": "Въпросите за основна идея питат за какво главно е абзацът или текстът или какво главно иска да каже авторът. Срещат се в Reading Part 5 (например 'What is the main point of the second paragraph?'), а разбирането на основната идея е задължително и за gapped text и multiple matching. Прочети целия абзац, преди да отговориш; основната идея често е в първото или последното изречение или в изречение, което останалата част подкрепя с примери. Запитай се: ако трябва да обобщя този абзац в едно изречение, какво ще е то? После сравни обобщението си с вариантите. Грешните варианти обикновено се фокусират върху един детайл или пример, описват нещо споменато мимоходом, твърде общи са (биха описали всеки текст по темата) или отразяват мнение, което авторът цитира, но не споделя. Когато прегледаш бързо дълъг текст преди въпросите, записвай в полето по няколко думи за основната идея на всеки абзац; това ще ускори търсенето на отговорите после."
+      },
+      "examples": [
+        "Paragraph about three failed attempts before a successful invention. Main idea: success came only after repeated failure.",
+        "Paragraph listing costs, noise and delays of a new airport. Main idea: the project has several serious drawbacks.",
+        "Wrong gist option: 'The writer describes the colour of the building' (only a detail in a paragraph about urban design).",
+        "One-sentence summary habit: 'Para 3 = why people distrust experts.'"
+      ]
+    },
+    {
+      "tag": "read.opinion-attitude",
+      "title": {
+        "en": "Opinion and attitude",
+        "bg": "Мнение и отношение"
+      },
+      "explanation": {
+        "en": "These questions ask what the writer, or a person in the text, thinks or feels about something: 'What is the writer's attitude to...?', 'The writer suggests that...', 'How does Maria feel about...?'. Look for evaluative language: adjectives and adverbs (admittedly, regrettably, surprisingly, rightly, misguided, refreshing), modal verbs and hedging (may, it seems, arguably), and contrast markers. What follows 'but', 'however' or 'yet' is often the writer's real view, after a concession ('Admittedly, the plan is expensive, but...'). Be careful to separate the writer's own opinion from views they report ('Some critics claim...', 'It is often said that...'); a common trap is an option that matches a reported view the writer then rejects. Attitude options use words like critical, sceptical, enthusiastic, ambivalent, sympathetic, dismissive, cautious: make sure you know their precise meanings. The answer should be supported by several clues across the section, not just one word.",
+        "bg": "Тези въпроси питат какво мисли или чувства авторът или човек в текста за нещо: 'What is the writer's attitude to...?', 'The writer suggests that...', 'How does Maria feel about...?'. Търси оценъчен език: прилагателни и наречия (admittedly, regrettably, surprisingly, rightly, misguided, refreshing), модални глаголи и омекотяване (may, it seems, arguably), и думи за контраст. Това, което следва 'but', 'however' или 'yet', често е истинското мнение на автора след отстъпка ('Admittedly, the plan is expensive, but...'). Внимавай да разграничиш собственото мнение на автора от мнения, които той цитира ('Some critics claim...', 'It is often said that...'); чест капан е вариант, който съвпада с цитирано мнение, което авторът после отхвърля. Вариантите за отношение ползват думи като critical, sceptical, enthusiastic, ambivalent, sympathetic, dismissive, cautious: увери се, че знаеш точното им значение. Отговорът трябва да се подкрепя от няколко сигнала в откъса, а не само от една дума."
+      },
+      "examples": [
+        "'Admittedly, the scheme has its flaws, but it is a refreshing change.' Attitude: broadly positive.",
+        "'Critics dismiss the idea as naive; they could hardly be more mistaken.' The writer disagrees with the critics.",
+        "'Whether this will actually work remains to be seen.' Attitude: sceptical or cautious.",
+        "'I was, I confess, rather charmed by the place.' Attitude: pleasantly surprised."
+      ]
+    },
+    {
+      "tag": "read.inference",
+      "title": {
+        "en": "Inference and implication",
+        "bg": "Извод и подразбиране"
+      },
+      "explanation": {
+        "en": "Inference questions test what the text suggests without stating it directly: 'What does the writer imply about...?', 'It can be inferred that...', 'What do we learn about Tom from this paragraph?'. You need to combine clues, such as a character's actions, a choice of word or a contrast, and draw the most reasonable conclusion. The key rule is that the inference must be supported by the text, not by your general knowledge or by what seems likely in real life. Distractors are often plausible statements that go one step too far beyond the evidence, or that are true in general but not supported here. Check each option by asking: what in the text makes this necessarily or very probably true? Typical clues are implied comparisons ('for once she arrived on time' implies she is usually late), understatement, and what a person avoids saying. In Part 5, inference questions are usually the hardest, so leave enough time for them.",
+        "bg": "Въпросите за извод проверяват какво текстът подсказва, без да го казва директно: 'What does the writer imply about...?', 'It can be inferred that...', 'What do we learn about Tom from this paragraph?'. Трябва да съчетаеш сигнали, като действия на героя, избор на дума или контраст, и да стигнеш до най-разумното заключение. Основното правило е, че изводът трябва да се подкрепя от текста, а не от общите ти знания или от това, което изглежда вероятно в реалния живот. Подвеждащите варианти често са правдоподобни твърдения, които отиват една стъпка отвъд доказателствата, или са верни по принцип, но не се подкрепят тук. Проверявай всеки вариант, като се питаш: какво в текста прави това задължително или много вероятно вярно? Типични сигнали са подразбиращи се сравнения ('for once she arrived on time' подсказва, че обикновено закъснява), омаловажаване и това, което човек избягва да каже. В Part 5 въпросите за извод обикновено са най-трудни, затова им остави достатъчно време."
+      },
+      "examples": [
+        "'For once, the train left on time.' Inference: it is usually late.",
+        "'He glanced at his watch for the third time.' Inference: he was impatient or in a hurry.",
+        "'It was the last time anyone would ask Jack to organise a party.' Inference: the party went badly.",
+        "'She had read the contract twice before signing it, unlike her colleague.' Inference: the colleague was less careful."
+      ]
+    },
+    {
+      "tag": "read.purpose",
+      "title": {
+        "en": "Writer's purpose",
+        "bg": "Цел на автора"
+      },
+      "explanation": {
+        "en": "Purpose questions ask why the writer includes something: 'Why does the writer mention her grandfather?', 'The writer uses the example of the bicycle to...', 'What is the purpose of the final paragraph?'. The answer is about the function of the words in the argument, not about their content. Typical functions are: to illustrate a point with an example, to support a claim with evidence, to contrast two situations, to challenge a common belief, to introduce a new topic, to explain a cause, to persuade, to warn, or to entertain. To find it, look at what comes just before and after the reference: is the writer giving an example of the claim in the previous sentence? Answering a counter-argument? Options often use precise verbs (illustrate, emphasise, question, justify, dismiss), so understand them exactly. A common trap is an option that accurately describes what the sentence says but not why it is there.",
+        "bg": "Въпросите за цел питат защо авторът включва нещо: 'Why does the writer mention her grandfather?', 'The writer uses the example of the bicycle to...', 'What is the purpose of the final paragraph?'. Отговорът е свързан с функцията на думите в аргумента, а не със съдържанието им. Типични функции са: да илюстрира с пример, да подкрепи твърдение с доказателство, да противопостави две ситуации, да оспори разпространено мнение, да въведе нова тема, да обясни причина, да убеди, да предупреди или да забавлява. За да я откриеш, погледни какво има точно преди и след споменаването: дава ли авторът пример за твърдението от предишното изречение? Отговаря ли на контрааргумент? Вариантите често ползват точни глаголи (illustrate, emphasise, question, justify, dismiss), затова ги разбирай точно. Чест капан е вариант, който точно описва какво казва изречението, но не и защо е там."
+      },
+      "examples": [
+        "'Take the humble bicycle, for instance...' Purpose: to illustrate a general claim.",
+        "'It is often assumed that... In reality, the opposite is true.' Purpose: to challenge a common belief.",
+        "'If nothing changes, these forests could vanish within a generation.' Purpose: to warn.",
+        "'My grandfather, who never owned a phone, would have found this baffling.' Purpose: to contrast past and present attitudes."
+      ]
+    },
+    {
+      "tag": "read.tone",
+      "title": {
+        "en": "Tone",
+        "bg": "Тон"
+      },
+      "explanation": {
+        "en": "Tone is the writer's manner or feeling as it comes through the language: humorous, ironic, critical, nostalgic, enthusiastic, sceptical, objective, sympathetic, mocking, matter-of-fact. Questions may ask about the tone of the whole text or of a paragraph, and tone also helps with attitude and purpose questions. Clues include word choice (loaded or neutral vocabulary), exaggeration or understatement, rhetorical questions, informal asides, unexpected comparisons, and punctuation like exclamation marks or quotation marks around a word (often signalling irony). Irony is especially important at C1: the literal meaning is the opposite of what the writer means ('Another brilliant idea from the council: closing the only library'). Distinguish tone from topic: a text about a sad subject can be written in a matter-of-fact tone, and a serious argument can be presented with humour. Make sure you know the exact meaning of tone adjectives, since distractors often use near-synonyms that are slightly too strong or too weak.",
+        "bg": "Тонът е начинът или чувството на автора, които личат от езика: хумористичен, ироничен, критичен, носталгичен, ентусиазиран, скептичен, обективен, съчувстващ, подигравателен, делови. Въпросите може да питат за тона на целия текст или на абзац, а тонът помага и при въпросите за отношение и цел. Сигнали са изборът на думи (оцветена или неутрална лексика), преувеличение или омаловажаване, риторични въпроси, разговорни отклонения, неочаквани сравнения и пунктуация като удивителни или кавички около дума (често знак за ирония). Иронията е особено важна на C1: буквалното значение е обратното на това, което авторът има предвид ('Another brilliant idea from the council: closing the only library'). Разграничавай тон от тема: текст за тъжна тема може да е написан делово, а сериозен аргумент може да е поднесен с хумор. Знай точното значение на прилагателните за тон, защото подвеждащите варианти често ползват близки синоними, които са малко по-силни или по-слаби."
+      },
+      "examples": [
+        "'Another brilliant idea from the council: closing the only library in town.' Tone: ironic.",
+        "'Those long summer evenings, when nobody owned a phone, seem a world away now.' Tone: nostalgic.",
+        "'The figures speak for themselves: sales fell by 12% in a single quarter.' Tone: objective, matter-of-fact.",
+        "'Who, exactly, asked for a fridge that talks?' Tone: mocking, sceptical."
+      ]
+    },
+    {
+      "tag": "read.vocabulary-context",
+      "title": {
+        "en": "Vocabulary in context",
+        "bg": "Лексика в контекст"
+      },
+      "explanation": {
+        "en": "Some questions ask what a word or phrase means in the text ('What does the writer mean by \"a tall order\" in line 34?'). The expression may be unfamiliar, idiomatic, or a familiar word used in a less common sense ('a sound argument', 'she is set on the idea'). Don't rely on what the word usually means; the most common meaning is often a distractor. Instead, use the context: read the sentences before and after, identify whether the meaning is positive or negative, look for an explanation, an example or a contrast nearby, and think about the writer's overall point. Then substitute each option into the sentence and check that it makes complete sense and fits the argument. Word-level knowledge also matters elsewhere: in the gapped text and matching tasks, synonyms and paraphrases link the question to the text, so building awareness of how ideas are reworded is one of the best ways to improve your reading score.",
+        "bg": "Някои въпроси питат какво значи дума или израз в текста ('What does the writer mean by \"a tall order\" in line 34?'). Изразът може да е непознат, идиоматичен или позната дума в по-рядко значение ('a sound argument', 'she is set on the idea'). Не разчитай на обичайното значение на думата; най-честото значение често е подвеждащият вариант. Вместо това ползвай контекста: прочети изреченията преди и след, определи дали значението е положително или отрицателно, потърси обяснение, пример или контраст наблизо и помисли за общата теза на автора. После постави всеки вариант в изречението и провери дали има пълен смисъл и пасва на аргумента. Познаването на думите е важно и другаде: в gapped text и matching синонимите и перифразите свързват въпроса с текста, затова умението да забелязваш как се преформулират идеите е един от най-добрите начини да подобриш резултата си по четене."
+      },
+      "examples": [
+        "'Finishing the bridge by June was a tall order.' Meaning: very difficult to achieve.",
+        "'It's a sound argument, backed by years of data.' Here 'sound' means reliable, not 'a noise'.",
+        "'Once she is set on an idea, nothing will change her mind.' 'Set on' means determined to do.",
+        "'The plan fell flat with the audience.' Meaning: failed to have the intended effect."
+      ]
+    },
+    {
+      "tag": "read.reference",
+      "title": {
+        "en": "Reference (what words refer to)",
+        "bg": "Препратка (към какво сочат думите)"
+      },
+      "explanation": {
+        "en": "Reference questions ask what a word or phrase refers to: 'What does \"this\" in line 12 refer to?', 'Who does \"they\" refer to?'. Reference words include pronouns (it, they, them, this, that, these, those), determiners with nouns (this change, such behaviour, the latter), and substitutes (one, do so, the same). Usually the reference points back to the nearest suitable noun or idea, but not always, so check three things: agreement (singular or plural, person or thing), meaning (does the sentence make sense if you replace the word with your answer?), and scope ('this' often refers to a whole idea or situation from the previous sentence rather than a single noun). Reference is also the key to the gapped text task, where pronouns at the start of a missing sentence or paragraph must have something to refer back to in the text before the gap, and to linking ideas in multiple matching. Replace the word with your answer and reread the sentence aloud in your head.",
+        "bg": "Въпросите за препратка питат към какво сочи дума или израз: 'What does \"this\" in line 12 refer to?', 'Who does \"they\" refer to?'. Думи за препратка са местоименията (it, they, them, this, that, these, those), детерминативите със съществителни (this change, such behaviour, the latter) и заместителите (one, do so, the same). Обикновено препратката сочи към най-близкото подходящо съществително или идея, но не винаги, затова провери три неща: съгласуване (единствено или множествено число, човек или нещо), смисъл (има ли смисъл изречението, ако замениш думата с отговора си?) и обхват ('this' често сочи цяла идея или ситуация от предишното изречение, а не едно съществително). Препратката е ключът и към задачата gapped text, където местоименията в началото на липсващото изречение или абзац трябва да сочат към нещо в текста преди празното място, както и към свързването на идеи при multiple matching. Замени думата с отговора си и прочети изречението отново наум."
+      },
+      "examples": [
+        "'The company cut prices and extended its opening hours. This led to a rise in sales.' 'This' = both changes together.",
+        "'Doctors and patients disagreed; the latter felt ignored.' 'The latter' = patients.",
+        "'She suggested walking, but nobody wanted to do so.' 'Do so' = walk.",
+        "'Such behaviour would not be tolerated today.' 'Such behaviour' refers to the actions described just before."
+      ]
+    },
+    {
+      "tag": "read.cohesion",
+      "title": {
+        "en": "Cohesion and text structure",
+        "bg": "Свързаност и структура на текста"
+      },
+      "explanation": {
+        "en": "The gapped text (B2 Part 6: sentences; C1 Part 7: paragraphs) tests how a text holds together. A sentence or paragraph fits a gap only if it links to BOTH what comes before and what comes after. Look for four kinds of link: reference words (he, this, these problems, such an approach) that need something to point back to; linkers (however, as a result, what's more, instead) that show the logical relationship; lexical chains, where the same idea is repeated with synonyms (the vehicle → the car → it); and time or sequence (later, by then, at first, eventually). Read the whole base text first to understand its structure, then work on each gap, underlining clues on both sides. Be careful with the extra option: it is usually on the topic and may contain tempting words from the text, but its links fail somewhere. When you have finished, read the whole text again with your answers in place to check that it flows logically.",
+        "bg": "Gapped text (B2 Part 6: изречения; C1 Part 7: абзаци) проверява как текстът се държи като цяло. Изречение или абзац пасва на празното място само ако се свързва И с това, което е преди, И с това, което е след него. Търси четири вида връзки: думи за препратка (he, this, these problems, such an approach), които трябва да сочат към нещо по-рано; свързващи думи (however, as a result, what's more, instead), които показват логическата връзка; лексикални вериги, при които една и съща идея се повтаря със синоними (the vehicle → the car → it); и време или последователност (later, by then, at first, eventually). Първо прочети целия основен текст, за да разбереш структурата му, после работи по всяко празно място и подчертавай сигналите от двете страни. Внимавай с излишния вариант: обикновено е по темата и може да съдържа примамливи думи от текста, но връзките му се провалят някъде. Накрая прочети целия текст с отговорите, за да провериш дали тече логично."
+      },
+      "examples": [
+        "Before gap: 'At first, the team had no funding at all.' Missing sentence: 'Within a year, however, that had changed completely.'",
+        "Missing sentence starts 'These problems...' so the text before the gap must describe several problems.",
+        "Lexical chain: 'the expedition' → 'the journey' → 'the trip'.",
+        "Missing sentence: 'Instead, she decided to retrain as a nurse.' The text before must mention a plan she rejected."
+      ]
+    },
+    {
+      "tag": "read.comparing-opinions",
+      "title": {
+        "en": "Comparing opinions across texts",
+        "bg": "Сравняване на мнения в различни текстове"
+      },
+      "explanation": {
+        "en": "C1 Reading Part 6 (cross-text multiple matching) gives four short texts by different writers on the same topic, for example four reviews of a book or four experts on a policy. The questions ask you to compare their views: 'Which writer shares writer B's opinion on...?', 'Which writer has a different view from the others regarding...?'. The effective method is to read the questions first so you know which issues (usually four) to look for, then read each text and note each writer's position on each issue in a simple grid: agree, disagree, mixed or not mentioned. Only then answer the questions from your grid. Traps: a writer may mention an issue without giving an opinion on it; may concede a point before disagreeing ('It's true that... but'), so the real opinion comes after the concession; or may express the same view in completely different words from another writer, so match ideas, not vocabulary.",
+        "bg": "C1 Reading Part 6 (cross-text multiple matching) дава четири кратки текста от различни автори по една тема, например четири ревюта на книга или четирима експерти за една политика. Въпросите искат да сравниш мненията им: 'Which writer shares writer B's opinion on...?', 'Which writer has a different view from the others regarding...?'. Ефективният метод е първо да прочетеш въпросите, за да знаеш кои въпроси (обикновено четири) търсиш, после да прочетеш всеки текст и да отбележиш позицията на всеки автор по всеки въпрос в проста таблица: съгласен, несъгласен, смесено или не споменава. Едва тогава отговаряй от таблицата. Капани: авторът може да спомене въпроса, без да дава мнение; може да направи отстъпка преди несъгласието си ('It's true that... but'), така че истинското мнение идва след отстъпката; или може да изрази същото мнение с напълно различни думи от друг автор, затова съпоставяй идеи, а не лексика."
+      },
+      "examples": [
+        "Writer A: 'The ending feels rushed.' Writer C: 'The final chapters are crammed in too quickly.' Same opinion, different words.",
+        "Writer B: 'It is true that the book is long, but every page earns its place.' B does not think the length is a problem.",
+        "Grid: Issue 1 (originality) A+, B+, C-, D not mentioned.",
+        "'Which writer differs from the others on the role of government?' Look for the one negative in a column."
+      ]
+    },
+    {
+      "tag": "read.specific-info",
+      "title": {
+        "en": "Locating specific information",
+        "bg": "Откриване на конкретна информация"
+      },
+      "explanation": {
+        "en": "Multiple matching (B2 Part 7, C1 Part 8) gives a long text divided into sections, or several short texts, and ten statements; you decide which section each statement refers to. It tests your ability to scan for specific information and then read carefully to confirm a match. Read the statements first and underline the key idea in each, thinking of how it might be paraphrased (statement 'regrets not starting earlier' may appear in the text as 'If I could go back, I'd have begun years ago'). Then read the sections one by one, checking which statements each contains, rather than searching the whole text for each statement in turn. The text will almost never use the same words as the statement, and when it does, be suspicious: similar ideas or words often appear in several sections, but only one matches exactly. Check details such as time (now or in the past), who has the opinion, and whether something actually happened or was only planned.",
+        "bg": "Multiple matching (B2 Part 7, C1 Part 8) дава дълъг текст, разделен на части, или няколко кратки текста, и десет твърдения; трябва да решиш към коя част се отнася всяко твърдение. Проверява умението ти да търсиш конкретна информация и после да четеш внимателно, за да потвърдиш съвпадението. Първо прочети твърденията и подчертай основната идея във всяко, като помислиш как може да е перифразирана (твърдението 'regrets not starting earlier' може да изглежда в текста като 'If I could go back, I'd have begun years ago'). После чети частите една по една и проверявай кои твърдения съдържа всяка, вместо да търсиш поотделно всяко твърдение в целия текст. Текстът почти никога не ползва същите думи като твърдението, а когато го прави, бъди подозрителен: сходни идеи или думи често се появяват в няколко части, но само една съвпада точно. Проверявай детайли като време (сега или в миналото), чие е мнението и дали нещо наистина се е случило или само е било планирано."
+      },
+      "examples": [
+        "Statement: 'mentions an unexpected benefit'. Text: 'What I hadn't bargained for was how much fitter I'd get.'",
+        "Statement: 'regrets not starting earlier'. Text: 'If I could go back, I'd have begun years ago.'",
+        "Trap: two sections mention money, but only one says the writer 'received financial help from family'.",
+        "Statement: 'describes a plan that never happened'. Check whether the text says it was only intended."
+      ]
+    },
+    {
+      "tag": "listen.gist",
+      "title": {
+        "en": "Listening for gist",
+        "bg": "Слушане за обща идея"
+      },
+      "explanation": {
+        "en": "Gist questions ask about the main point of what you hear: what a speaker is mainly talking about, the main purpose of a conversation, or the overall message of a talk. They appear in B2 Part 1 and C1 Part 1 (short extracts), and in the multiple matching tasks (B2 Part 3, C1 Part 4), where five speakers talk on a related theme. Don't choose an option as soon as you hear a word from it; speakers often mention several topics, and words from wrong options are deliberately included. Listen to the whole extract and ask yourself: what is the speaker's main point? Summarise it in a few words in your head, then compare with the options. Use the first listening to get the overall meaning and the second to check the details that confirm it. Read the context sentence before each extract carefully ('You hear a man talking about his new job'): it tells you who is speaking and the topic, so you can predict what kind of language to expect.",
+        "bg": "Въпросите за обща идея питат за основното в това, което чуваш: за какво главно говори човекът, каква е основната цел на разговора или какво е общото послание на изказването. Срещат се в B2 Part 1 и C1 Part 1 (кратки откъси) и в задачите за съпоставяне (B2 Part 3, C1 Part 4), където петима души говорят по сходна тема. Не избирай вариант веднага щом чуеш дума от него; говорещите често споменават няколко теми, а думи от грешните варианти са включени нарочно. Изслушай целия откъс и се запитай: каква е основната мисъл на говорещия? Обобщи я с няколко думи наум и после сравни с вариантите. Ползвай първото слушане за общия смисъл, а второто, за да провериш детайлите, които го потвърждават. Прочети внимателно изречението с контекста преди всеки откъс ('You hear a man talking about his new job'): то ти казва кой говори и каква е темата, за да предвидиш какъв език да очакваш."
+      },
+      "examples": [
+        "A woman mentions the weather, the food and the hotel, but keeps returning to how rude the guide was. Gist: she is complaining about the guide.",
+        "A speaker describes three jobs he did before teaching. Gist: how he found his real career.",
+        "Context: 'You hear two friends discussing a film.' Predict: opinions, recommendations, comparisons.",
+        "In-head summary: 'He's mainly saying the course wasn't worth the money.'"
+      ]
+    },
+    {
+      "tag": "listen.detail",
+      "title": {
+        "en": "Listening for detail",
+        "bg": "Слушане за детайли"
+      },
+      "explanation": {
+        "en": "Detail questions test whether you catch specific points of meaning: what exactly happened, what someone decided, which problem they mention. The options are usually paraphrases of what is said, so listen for meaning rather than matching words. Typical distractors: a word from the wrong option is mentioned but in a different context; the speaker first says one thing and then corrects it ('It was on Tuesday... no, actually, Wednesday'); something is mentioned as a possibility but rejected; or one speaker suggests it and the other disagrees. Listen especially carefully after signals of change and correction: but, actually, in fact, although, I thought... but, it turned out. Read the questions before each listening and underline the key words in the question stem (what, why, when, who), so you know exactly what information you are waiting for. If you miss an answer, move on immediately and use the second listening.",
+        "bg": "Въпросите за детайли проверяват дали улавяш конкретни моменти: какво точно се е случило, какво е решил някой, какъв проблем споменава. Вариантите обикновено перифразират казаното, затова слушай за смисъла, а не за съвпадащи думи. Типични подвеждащи елементи: дума от грешен вариант се споменава, но в друг контекст; говорещият казва едно и после се поправя ('It was on Tuesday... no, actually, Wednesday'); нещо се споменава като възможност, но се отхвърля; или единият го предлага, а другият не е съгласен. Слушай особено внимателно след сигнали за промяна и поправка: but, actually, in fact, although, I thought... but, it turned out. Прочети въпросите преди всяко слушане и подчертай ключовите думи във въпроса (what, why, when, who), за да знаеш точно каква информация чакаш. Ако изпуснеш отговор, продължи веднага и ползвай второто слушане."
+      },
+      "examples": [
+        "'We were going to drive, but in the end we took the train.' Detail: they travelled by train.",
+        "'Everyone assumed it was the price that put people off, but actually it was the location.'",
+        "'I did think about studying law, but I never applied.' She did not study law.",
+        "'The meeting's at three... sorry, half past three.' The correct time is 3.30."
+      ]
+    },
+    {
+      "tag": "listen.attitude-feeling",
+      "title": {
+        "en": "Attitude and feeling",
+        "bg": "Отношение и чувства"
+      },
+      "explanation": {
+        "en": "These questions ask how a speaker feels or felt about something: 'How did she feel when she got the results?', 'What is the man's attitude to the new rules?'. Options use words like relieved, frustrated, indifferent, apprehensive, resentful, amused, disappointed, so you must know their precise meanings. Clues come from vocabulary (I was gutted, I couldn't believe my luck, it drives me mad), from intonation and stress (a flat 'Great.' may be sarcastic), and from what the speaker focuses on. Separate the feeling at different times: speakers often describe how they felt at first and how they feel now ('I was terrified at the start, but now I love it'), and the question will specify which one. Also separate the speaker's feeling from other people's ('My parents were horrified, but I thought it was hilarious'). Distractors often match the situation (one might expect someone to feel nervous before an exam) but not what this speaker actually says.",
+        "bg": "Тези въпроси питат как се чувства или се е чувствал говорещият: 'How did she feel when she got the results?', 'What is the man's attitude to the new rules?'. Вариантите ползват думи като relieved, frustrated, indifferent, apprehensive, resentful, amused, disappointed, затова трябва да знаеш точното им значение. Сигнали идват от лексиката (I was gutted, I couldn't believe my luck, it drives me mad), от интонацията и ударението (равнодушно 'Great.' може да е саркастично) и от това, върху какво се фокусира говорещият. Разграничавай чувствата в различни моменти: хората често описват как са се чувствали в началото и как се чувстват сега ('I was terrified at the start, but now I love it'), а въпросът уточнява кое от двете. Разграничавай и чувствата на говорещия от тези на други хора ('My parents were horrified, but I thought it was hilarious'). Подвеждащите варианти често пасват на ситуацията (би могло да очакваш някой да е нервен преди изпит), но не и на това, което този човек всъщност казва."
+      },
+      "examples": [
+        "'When I saw my name on the list, I just sat down and breathed out.' Feeling: relieved.",
+        "'Honestly, whether they change the logo or not makes no difference to me.' Attitude: indifferent.",
+        "'I was dreading it at first, but by the end I didn't want to leave.'",
+        "'Oh, great. Another meeting.' (flat intonation) Attitude: irritated, sarcastic."
+      ]
+    },
+    {
+      "tag": "listen.opinion",
+      "title": {
+        "en": "Opinion",
+        "bg": "Мнение"
+      },
+      "explanation": {
+        "en": "Opinion questions ask what a speaker thinks: 'What does the woman think about online courses?', 'What is the speaker's view of the new stadium?'. Listen for signals that introduce opinions (I reckon, to my mind, as far as I'm concerned, what bothers me is, the thing is, I'd say, personally), and for hedging that softens them (I suppose, it seems to me, I'm not entirely convinced). Speakers often present other people's views before their own ('Everyone says it's a waste of money, but I think...'), so make sure you identify whose opinion it is. A concession followed by 'but' usually leads to the real opinion. Opinions may also be expressed indirectly through evaluation ('It's hardly what I'd call a bargain' means it's expensive). In C1 Part 3 (an interview or discussion), questions often ask about opinions on several points in turn, so follow the structure of the interview and use the interviewer's questions as signposts to know which question you are on.",
+        "bg": "Въпросите за мнение питат какво мисли говорещият: 'What does the woman think about online courses?', 'What is the speaker's view of the new stadium?'. Слушай за сигнали, които въвеждат мнение (I reckon, to my mind, as far as I'm concerned, what bothers me is, the thing is, I'd say, personally), и за омекотяване (I suppose, it seems to me, I'm not entirely convinced). Говорещите често представят мнението на други хора преди своето ('Everyone says it's a waste of money, but I think...'), затова се увери чие е мнението. Отстъпка, последвана от 'but', обикновено води към истинското мнение. Мнението може да е изразено и косвено чрез оценка ('It's hardly what I'd call a bargain' значи, че е скъпо). В C1 Part 3 (интервю или дискусия) въпросите често питат за мнения по няколко точки поред, затова следи структурата на интервюто и ползвай въпросите на водещия като ориентир кой въпрос е в момента."
+      },
+      "examples": [
+        "'Everyone says it's a waste of money, but I think it'll pay for itself.' Opinion: positive.",
+        "'It's hardly what I'd call a bargain.' Opinion: it's too expensive.",
+        "'I'm not entirely convinced that working from home suits everyone.'",
+        "'What bothers me is that nobody asked the residents.' Opinion: residents should have been consulted."
+      ]
+    },
+    {
+      "tag": "listen.purpose-function",
+      "title": {
+        "en": "Purpose and function",
+        "bg": "Цел и функция"
+      },
+      "explanation": {
+        "en": "Purpose and function questions ask why someone is speaking or what they are doing with their words: 'Why is the woman calling?', 'What is the speaker doing?', with options like complaining, apologising, persuading, recommending, warning, requesting, explaining, offering, criticising. These appear especially in the short extracts of B2 Part 1 and C1 Part 1, and in the multiple matching tasks. Focus on the function of the whole message rather than individual words: a speaker might mention a problem but actually be calling to recommend a solution. Typical language helps: complaining (I'm not happy with, this isn't the first time), warning (watch out, I'd be careful), persuading (you really should, think about it), apologising (I'm afraid I, I didn't mean to), recommending (you can't go wrong with, it's well worth). Often the purpose becomes clear at the end of the extract, so don't decide too early. Ask yourself: what does the speaker want the listener to do or understand?",
+        "bg": "Въпросите за цел и функция питат защо някой говори или какво прави с думите си: 'Why is the woman calling?', 'What is the speaker doing?', с варианти като оплаква се, извинява се, убеждава, препоръчва, предупреждава, моли, обяснява, предлага, критикува. Срещат се особено в кратките откъси от B2 Part 1 и C1 Part 1 и в задачите за съпоставяне. Фокусирай се върху функцията на цялото съобщение, а не върху отделни думи: говорещият може да спомене проблем, но всъщност да се обажда, за да препоръча решение. Типичният език помага: оплакване (I'm not happy with, this isn't the first time), предупреждение (watch out, I'd be careful), убеждаване (you really should, think about it), извинение (I'm afraid I, I didn't mean to), препоръка (you can't go wrong with, it's well worth). Често целта става ясна в края на откъса, затова не решавай твърде рано. Запитай се: какво иска говорещият слушателят да направи или да разбере?"
+      },
+      "examples": [
+        "'This is the third time the delivery has been late, and frankly I expect a refund.' Function: complaining.",
+        "'If you're going up there in winter, take proper boots; people get caught out every year.' Function: warning.",
+        "'Honestly, you can't go wrong with that hotel. It's well worth the extra money.' Function: recommending.",
+        "'I'm calling about the job advert. Could you tell me if it's still open?' Function: requesting information."
+      ]
+    },
+    {
+      "tag": "listen.inference",
+      "title": {
+        "en": "Inference",
+        "bg": "Извод"
+      },
+      "explanation": {
+        "en": "Inference questions in Listening ask you to understand things that are suggested but not stated: the relationship between speakers, where they are, what has happened before, or what someone really means ('What does the man imply about his colleague?'). You need to combine clues from vocabulary, tone and context. For example, 'Well, at least he turned up this time' implies that the person often doesn't come. Understatement and politeness often hide the real meaning: 'It wasn't exactly cheap' means it was expensive; 'I'm sure she means well' can imply criticism. Don't add information from your own experience: the correct answer must follow from what the speakers say. Distractors are often reasonable guesses about the situation that the recording doesn't actually support. Listen to the whole extract, because a later remark often confirms or overturns your first impression, and use the second listening to check the specific words that support your choice.",
+        "bg": "Въпросите за извод в Listening изискват да разбереш неща, които се подразбират, но не се казват: отношенията между говорещите, къде са, какво се е случило преди или какво всъщност има предвид някой ('What does the man imply about his colleague?'). Трябва да съчетаеш сигнали от лексиката, тона и контекста. Например 'Well, at least he turned up this time' подсказва, че човекът често не идва. Омаловажаването и учтивостта често крият истинския смисъл: 'It wasn't exactly cheap' значи, че е било скъпо; 'I'm sure she means well' може да намеква за критика. Не добавяй информация от собствения си опит: правилният отговор трябва да следва от казаното. Подвеждащите варианти често са разумни догадки за ситуацията, които записът всъщност не подкрепя. Изслушай целия откъс, защото по-късна реплика често потвърждава или преобръща първото ти впечатление, и ползвай второто слушане, за да провериш конкретните думи, които подкрепят избора ти."
+      },
+      "examples": [
+        "'Well, at least he turned up this time.' Implies: he often doesn't come.",
+        "'It wasn't exactly cheap.' Implies: it was expensive.",
+        "'Table for two? Your starters will be with you shortly.' Inference: they are in a restaurant, speaking to a waiter.",
+        "'I'm sure she means well.' Can imply mild criticism of her actions."
+      ]
+    },
+    {
+      "tag": "listen.specific-info",
+      "title": {
+        "en": "Specific information",
+        "bg": "Конкретна информация"
+      },
+      "explanation": {
+        "en": "Sentence completion (B2 Part 2, C1 Part 2) asks you to complete sentences with words you actually hear in a monologue, usually one to three words. Before listening, read each sentence and predict the type of word missing (a noun, a number, a place, a profession, an adjective) and possible answers from the grammar and meaning. The sentences follow the order of the recording but paraphrase it, so listen for the idea, then write the exact word or words you hear. Watch out for distractors: speakers often mention a wrong answer first and then correct it ('I'd expected it to be the cost, but it was actually the noise that bothered me'), or mention two similar things where only one fits the sentence. Your answer must fit the sentence grammatically (singular or plural) and must be spelt correctly; don't paraphrase the word you hear. If you miss one, leave it and move on, then fill it in during the second listening.",
+        "bg": "Sentence completion (B2 Part 2, C1 Part 2) изисква да допълниш изречения с думи, които наистина чуваш в монолог, обикновено една до три думи. Преди слушането прочети всяко изречение и предвиди вида на липсващата дума (съществително, число, място, професия, прилагателно) и възможни отговори по граматиката и смисъла. Изреченията следват реда на записа, но го перифразират, затова слушай за идеята и после запиши точната дума или думи, които чуваш. Внимавай за подвеждащи елементи: говорещите често споменават първо грешен отговор и после се поправят ('I'd expected it to be the cost, but it was actually the noise that bothered me') или споменават две сходни неща, от които само едното пасва на изречението. Отговорът трябва да пасва граматически на изречението (единствено или множествено число) и да е правилно изписан; не перифразирай думата, която чуваш. Ако изпуснеш някой, остави го и продължи, а го попълни при второто слушане."
+      },
+      "examples": [
+        "Sentence: 'The speaker was surprised by the ___ of the island.' Prediction: a noun such as size or silence.",
+        "Recording: 'I'd expected the cost to be the problem, but it was actually the noise.' Answer: noise.",
+        "Sentence: 'She first worked as a ___ in a hotel.' Prediction: a job (singular, after 'a').",
+        "Recording: 'We saw dolphins and, more surprisingly, a whale.' Sentence: 'The animal that surprised her most was a ___.' Answer: whale."
+      ]
+    },
+    {
+      "tag": "listen.agreement",
+      "title": {
+        "en": "Agreement between speakers",
+        "bg": "Съгласие между говорещите"
+      },
+      "explanation": {
+        "en": "Some questions about conversations ask what two speakers agree or disagree about: 'What do both speakers think about the new park?', 'What do the friends agree about?'. These appear mainly in the short dialogues of B2 Part 1 and C1 Part 1, and in C1 Part 3. For an 'agree' answer, both speakers must clearly express the same view; it is not enough for one to state it and the other to say nothing. Listen for agreement signals (Exactly, Absolutely, I couldn't agree more, That's what I thought too, Me neither) and for disagreement disguised as agreement ('Yes, but...', 'That's true, although...', 'I see what you mean, however...'), which usually introduces a different view. Partial agreement is common, so check which specific point they agree on. Distractors often describe one speaker's opinion that the other challenges. Keep track of each speaker's position as the conversation develops, since people sometimes change their mind or concede a point by the end.",
+        "bg": "Някои въпроси за разговори питат за какво двамата говорещи са съгласни или несъгласни: 'What do both speakers think about the new park?', 'What do the friends agree about?'. Срещат се главно в кратките диалози от B2 Part 1 и C1 Part 1 и в C1 Part 3. За отговор 'съгласни са' и двамата трябва ясно да изразят едно и също мнение; не стига единият да го каже, а другият да мълчи. Слушай за сигнали за съгласие (Exactly, Absolutely, I couldn't agree more, That's what I thought too, Me neither) и за несъгласие, маскирано като съгласие ('Yes, but...', 'That's true, although...', 'I see what you mean, however...'), което обикновено въвежда различно мнение. Частичното съгласие е често, затова провери за коя конкретна точка са съгласни. Подвеждащите варианти често описват мнението на единия, което другият оспорва. Следи позицията на всеки говорещ в хода на разговора, защото понякога хората променят мнението си или отстъпват до края."
+      },
+      "examples": [
+        "A: 'The ending was far too long.' B: 'Absolutely, I nearly fell asleep.' They agree.",
+        "A: 'The new layout is much clearer.' B: 'Yes, but it's harder to find anything.' They disagree.",
+        "A: 'The food was great, but the service was slow.' B: 'The food, yes, definitely.' They agree only about the food.",
+        "A: 'I didn't enjoy the lecture.' B: 'Me neither.' Both disliked it."
+      ]
+    }
+  ]
+}
