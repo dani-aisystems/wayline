@@ -95,4 +95,4 @@ Static build (`dist/`) with SPA rewrites and security headers in `vercel.json`. 
 
 ## Licence
 
-Source code: proprietary, all rights reserved — see [LICENSE](LICENSE). The Wayline name and logo are not licensed for reuse. Third-party fonts and libraries: see [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+Copyright © 2026 Daniel Yanchev. Wayline is free software under the GNU General Public License, version 3 or (at your option) any later version — see [LICENSE](LICENSE). The licence covers the code and content, not the Wayline name and logo, which are not licensed for reuse (GPL-3.0 §7e). Third-party fonts and libraries: see [ATTRIBUTIONS.md](ATTRIBUTIONS.md).

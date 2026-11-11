@@ -4,7 +4,7 @@
   "description": "Free, local-first English course from Pre-A1 to C2: adaptive level test, personal daily plan, speaking practice and a growing library.",
   "private": true,
   "type": "module",
-  "license": "UNLICENSED",
+  "license": "GPL-3.0-or-later",
   "author": "Daniel Yanchev <daniel.aisystems@gmail.com>",
   "repository": {
     "type": "git",
