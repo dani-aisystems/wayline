@@ -18,7 +18,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b",
-    "lint": "oxlint src e2e",
+    "lint": "oxlint src e2e api server",
     "test": "vitest run",
     "test:content": "vitest run src/content",
     "test:e2e": "playwright test",
