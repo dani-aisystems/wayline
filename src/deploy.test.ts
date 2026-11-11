@@ -18,7 +18,12 @@ describe("deployment headers", () => {
   it("keep third-party scripts and connections blocked", () => {
     const csp = header("Content-Security-Policy");
     expect(csp).toMatch(/script-src 'self';/);
-    expect(csp).toMatch(/connect-src 'self';/);
+  });
+  it("allow connections only to the app itself and Wayline's two Supabase projects", () => {
+    // Production (wayline) and preview/dev (wayline-dev). The classroom layer talks to Supabase directly
+    // for sign-in and RLS-protected reads; any other origin stays blocked.
+    const connect = header("Content-Security-Policy").match(/connect-src ([^;]*);/)?.[1].split(" ");
+    expect(connect).toEqual(["'self'", "https://qbmrfyrhpqgmtcdlirzt.supabase.co", "https://tovfdgxgcetmbmcfzons.supabase.co"]);
   });
 });
 
