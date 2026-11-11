@@ -30,6 +30,21 @@ describe("natural voice files", () => {
   });
 });
 
+describe("API routes", () => {
+  it("reach the functions instead of being rewritten to the app", () => {
+    const rewrite = (config as unknown as { rewrites: { source: string }[] }).rewrites[0].source;
+    expect(new RegExp(`^${rewrite}$`).test("/api/health")).toBe(false);
+    expect(new RegExp(`^${rewrite}$`).test("/api/sync")).toBe(false);
+    // A page whose name merely starts with "api" is still the app.
+    expect(new RegExp(`^${rewrite}$`).test("/apiary")).toBe(true);
+  });
+  it("keep the database awake with a daily health check", () => {
+    const crons = (config as unknown as { crons?: { path: string; schedule: string }[] }).crons ?? [];
+    // Free Supabase projects pause after a quiet week; once a day leaves six days of margin.
+    expect(crons).toContainEqual({ path: "/api/health", schedule: "0 6 * * *" });
+  });
+});
+
 describe("embedded videos", () => {
   it("allow only privacy-enhanced YouTube frames", () => {
     expect(header("Content-Security-Policy")).toMatch(/frame-src https:\/\/www\.youtube-nocookie\.com;/);
