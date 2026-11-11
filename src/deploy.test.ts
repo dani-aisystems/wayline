@@ -23,7 +23,7 @@ describe("deployment headers", () => {
     // Production (wayline) and preview/dev (wayline-dev). The classroom layer talks to Supabase directly
     // for sign-in and RLS-protected reads; any other origin stays blocked.
     const connect = header("Content-Security-Policy").match(/connect-src ([^;]*);/)?.[1].split(" ");
-    expect(connect).toEqual(["'self'", "https://qbmrfyrhpqgmtcdlirzt.supabase.co", "https://tovfdgxgcetmbmcfzons.supabase.co"]);
+    expect(connect).toEqual(["'self'", "https://tovfdgxgcetmbmcfzons.supabase.co", "https://qbmrfyrhpqgmtcdlirzt.supabase.co"]);
   });
 });
 
