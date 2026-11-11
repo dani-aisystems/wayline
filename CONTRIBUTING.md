@@ -1,6 +1,6 @@
 # Contributing
 
-Wayline is a personal project, and its source code is proprietary (see [LICENSE](LICENSE)). Issue reports are welcome, especially about content. Code contributions only by prior arrangement with the owner.
+Wayline is a personal project, licensed under GPL-3.0-or-later (see [LICENSE](LICENSE)). Issue reports are welcome, especially about content. Contributions are accepted under the same licence; please open an issue before starting larger code changes.
 
 ## Reporting a content error
 

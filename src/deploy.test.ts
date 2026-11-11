@@ -18,7 +18,12 @@ describe("deployment headers", () => {
   it("keep third-party scripts and connections blocked", () => {
     const csp = header("Content-Security-Policy");
     expect(csp).toMatch(/script-src 'self';/);
-    expect(csp).toMatch(/connect-src 'self';/);
+  });
+  it("allow connections only to the app itself and Wayline's two Supabase projects", () => {
+    // Production (wayline) and preview/dev (wayline-dev). The classroom layer talks to Supabase directly
+    // for sign-in and RLS-protected reads; any other origin stays blocked.
+    const connect = header("Content-Security-Policy").match(/connect-src ([^;]*);/)?.[1].split(" ");
+    expect(connect).toEqual(["'self'", "https://tovfdgxgcetmbmcfzons.supabase.co", "https://qbmrfyrhpqgmtcdlirzt.supabase.co"]);
   });
 });
 
@@ -27,6 +32,24 @@ describe("natural voice files", () => {
     const rewrite = (config as unknown as { rewrites: { source: string }[] }).rewrites[0].source;
     expect(new RegExp(`^${rewrite}$`).test("/voice/af_heart.json")).toBe(false);
     expect(new RegExp(`^${rewrite}$`).test("/today")).toBe(true);
+  });
+});
+
+describe("API routes", () => {
+  it("reach the functions instead of being rewritten to the app", () => {
+    const rewrite = (config as unknown as { rewrites: { source: string }[] }).rewrites[0].source;
+    expect(new RegExp(`^${rewrite}$`).test("/api/health")).toBe(false);
+    expect(new RegExp(`^${rewrite}$`).test("/api/sync")).toBe(false);
+    // A page whose name merely starts with "api" is still the app.
+    expect(new RegExp(`^${rewrite}$`).test("/apiary")).toBe(true);
+  });
+  it("run in Frankfurt, next to the EU database, so learner data is processed in the EU", () => {
+    expect((config as unknown as { regions?: string[] }).regions).toEqual(["fra1"]);
+  });
+  it("keep the database awake with a daily health check", () => {
+    const crons = (config as unknown as { crons?: { path: string; schedule: string }[] }).crons ?? [];
+    // Free Supabase projects pause after a quiet week; once a day leaves six days of margin.
+    expect(crons).toContainEqual({ path: "/api/health", schedule: "0 6 * * *" });
   });
 });
 
