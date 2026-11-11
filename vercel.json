@@ -3,6 +3,7 @@
   "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
+  "regions": ["fra1"],
   "rewrites": [{ "source": "/((?!api/|assets/|brand/|voice/|sw\\.js|workbox-|manifest\\.webmanifest|favicon).*)", "destination": "/index.html" }],
   "crons": [{ "path": "/api/health", "schedule": "0 6 * * *" }],
   "headers": [

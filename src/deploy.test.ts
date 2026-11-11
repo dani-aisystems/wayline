@@ -38,6 +38,9 @@ describe("API routes", () => {
     // A page whose name merely starts with "api" is still the app.
     expect(new RegExp(`^${rewrite}$`).test("/apiary")).toBe(true);
   });
+  it("run in Frankfurt, next to the EU database, so learner data is processed in the EU", () => {
+    expect((config as unknown as { regions?: string[] }).regions).toEqual(["fra1"]);
+  });
   it("keep the database awake with a daily health check", () => {
     const crons = (config as unknown as { crons?: { path: string; schedule: string }[] }).crons ?? [];
     // Free Supabase projects pause after a quiet week; once a day leaves six days of margin.
