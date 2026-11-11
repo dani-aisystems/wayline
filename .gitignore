@@ -35,3 +35,6 @@ voice/lines.json
 
 # Competition strategy and rehearsed jury answers: kept local, never published
 docs/competition/private/
+
+# Vercel CLI link (project id) and pulled env files
+.vercel
