@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { onboardA1 } from "./helpers";
+import { AUDIO_START_MS, CLIPS_MISSING, hasNaturalClips as hasClips, onboardA1 } from "./helpers";
 
 /**
  * Natural voices. Headless browsers have no audio output, so `play()` is replaced with a recorder that
@@ -30,6 +30,7 @@ const played = (page: Page) => page.evaluate(() => (window as unknown as { __pla
 const spoken = (page: Page) => page.evaluate(() => (window as unknown as { __spoken: string[] }).__spoken);
 
 test("settings: natural voices are offered and the test phrase plays a real clip", async ({ page }) => {
+  test.skip(!hasClips, CLIPS_MISSING);
   await recordPlayback(page);
   await onboardA1(page);
   await page.goto("/settings");
@@ -47,6 +48,7 @@ test("settings: natural voices are offered and the test phrase plays a real clip
 });
 
 test("dialogue: each character speaks in their own natural voice", async ({ page }) => {
+  test.skip(!hasClips, CLIPS_MISSING);
   await recordPlayback(page);
   const manifests = new Set<string>();
   page.on("request", (r) => { const m = r.url().match(/\/voice\/([a-z_]+)\.json$/); if (m) manifests.add(m[1]); });
@@ -58,6 +60,7 @@ test("dialogue: each character speaks in their own natural voice", async ({ page
 });
 
 test("slow speed stretches the natural clip instead of switching voice", async ({ page }) => {
+  test.skip(!hasClips, CLIPS_MISSING);
   await recordPlayback(page);
   await onboardA1(page);
   await page.goto("/practice?ids=a1.talk-cafe.say-glass-of-water");
@@ -75,6 +78,6 @@ test("if clips can't load, the device voice takes over", async ({ page }) => {
   await onboardA1(page);
   await page.goto("/settings");
   await page.getByRole("button", { name: "Test voice" }).click();
-  await expect.poll(() => spoken(page)).toContain("Hello!");
+  await expect.poll(() => spoken(page), { timeout: AUDIO_START_MS }).toContain("Hello!");
   expect(await played(page)).toEqual([]);
 });

@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { onboardA1 } from "./helpers";
+import { AUDIO_START_MS, hasNaturalClips, onboardA1 } from "./helpers";
 
 test.beforeEach(({ browserName, isMobile }) => {
   test.skip(!isMobile && browserName !== "chromium", "exam journeys run on chromium + phones");
@@ -59,8 +59,10 @@ test("listening practice: recordings play in the speakers' voices, answers are m
   await onboardA1(page);
   await chooseExam(page, /B2 First/);
   await page.goto("/exam/run?mode=section&tasks=b2.listen.m1.p1");
+  // With no clips and no device speech (e.g. WebKit on Windows) there is genuinely nothing to play.
+  test.skip(!hasNaturalClips && !(await page.evaluate(() => "speechSynthesis" in window)), "no natural clips and no device speech in this browser build");
   await page.getByRole("button", { name: "Play recording" }).first().click();
-  await expect.poll(() => page.evaluate(() => (window as unknown as { __played: number }).__played)).toBeGreaterThan(0);
+  await expect.poll(() => page.evaluate(() => (window as unknown as { __played: number }).__played), { timeout: AUDIO_START_MS }).toBeGreaterThan(0);
   // Keys: q1 = B, q2 = A; answer q1 right and q2 wrong.
   await page.getByRole("radiogroup", { name: "Question 1" }).locator("label").nth(1).click();
   await page.getByRole("radiogroup", { name: "Question 2" }).locator("label").nth(2).click();
