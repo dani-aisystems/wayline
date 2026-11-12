@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { AUDIO_START_MS, CLIPS_MISSING, hasNaturalClips as hasClips, onboardA1 } from "./helpers";
+import { AUDIO_START_MS, CLIPS_MISSING, hasDeviceSpeech, hasNaturalClips as hasClips, onboardA1 } from "./helpers";
 
 /**
  * Natural voices. Headless browsers have no audio output, so `play()` is replaced with a recorder that
@@ -73,7 +73,7 @@ test("slow speed stretches the natural clip instead of switching voice", async (
 test("if clips can't load, the device voice takes over", async ({ page }) => {
   await recordPlayback(page);
   await page.goto("/favicon.ico");
-  test.skip(!(await page.evaluate(() => "speechSynthesis" in window)), "This browser build has no device speech");
+  test.skip(!(await hasDeviceSpeech(page)), "This browser build has no device speech");
   await page.route("**/voice/**", (r) => r.abort());
   await onboardA1(page);
   await page.goto("/settings");

@@ -71,9 +71,16 @@ export const hasNaturalClips = existsSync(new URL("../public/voice/bm_george.jso
 export const CLIPS_MISSING = "natural voice clips are not in public/voice/ yet (render them, see CLAUDE.md)";
 
 /**
+ * Whether the browser offers device speech, by the app's own rule (speechAvailable() in src/lib/speech.ts):
+ * both halves of the Web Speech API must exist. Some builds expose speechSynthesis without
+ * SpeechSynthesisUtterance; the app then rightly stays silent, so a speech test there would test nothing.
+ */
+export const hasDeviceSpeech = (page: Page) => page.evaluate(() => "speechSynthesis" in window && "SpeechSynthesisUtterance" in window);
+
+/**
  * How long to wait for audio to start. Without clips WebKit falls back to device speech only after the clip
- * lookup fails and its voice list has loaded (up to 1.5 s, src/lib/speech.ts loadVoices): about 2.4 s on a
- * desktop, more on a busy 2-core CI runner. The 5 s default was too tight there.
+ * lookup fails and its voice list has loaded (up to 1.5 s, src/lib/speech.ts loadVoices): measured at 2.4 s on a
+ * desktop. The 5 s default leaves little margin on a busy 2-core CI runner.
  */
 export const AUDIO_START_MS = 15_000;
 
