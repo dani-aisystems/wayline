@@ -20,5 +20,5 @@
     "noFallthroughCasesInSwitch": true,
     "strict": true
   },
-  "include": ["api", "server", "shared"]
+  "include": ["api", "server", "shared", "tests", "vitest.db.config.ts"]
 }

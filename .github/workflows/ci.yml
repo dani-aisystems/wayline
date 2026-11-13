@@ -34,3 +34,27 @@ jobs:
           name: playwright-report
           path: playwright-report
           retention-days: 7
+
+  database:
+    # Row-level security and database functions, tested through the real API against a throwaway local Supabase.
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Start a local Supabase (database, auth, API) with every migration applied
+        run: npx supabase start -x realtime,storage-api,imgproxy,mailpit,postgres-meta,studio,edge-runtime,logflare,vector,supavisor
+      - name: Point the tests at it
+        run: |
+          eval "$(npx supabase status -o env)"
+          # Newer CLIs name the keys PUBLISHABLE_KEY / SECRET_KEY, older ones ANON_KEY / SERVICE_ROLE_KEY.
+          echo "SUPABASE_TEST_URL=$API_URL" >> "$GITHUB_ENV"
+          echo "SUPABASE_TEST_PUBLISHABLE_KEY=${PUBLISHABLE_KEY:-$ANON_KEY}" >> "$GITHUB_ENV"
+          echo "SUPABASE_TEST_SECRET_KEY=${SECRET_KEY:-$SERVICE_ROLE_KEY}" >> "$GITHUB_ENV"
+          npx supabase status -o env | cut -d= -f1 | tr '\n' ' '
+      - name: Database rule tests
+        run: npm run test:db
