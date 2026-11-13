@@ -48,7 +48,9 @@ test("writing practice: word count, honest indicators, self-marking, stored resu
   await expect(page.getByText("self-assessed")).toBeVisible();
 });
 
-test("listening practice: recordings play in the speakers' voices, answers are marked, transcript afterwards", async ({ page }) => {
+test("listening practice: recordings play in the speakers' voices, answers are marked, transcript afterwards", async ({ page, browserName }) => {
+  // Without clips this falls back to device speech, which is silent on Linux WebKit in CI.
+  test.fixme(browserName === "webkit" && !hasNaturalClips, "device-speech fallback is silent on Linux WebKit in CI: issue #5");
   await page.addInitScript(() => {
     // Headless browsers have no audio output: end each clip at once, and record what played.
     const w = window as unknown as { __played: number };

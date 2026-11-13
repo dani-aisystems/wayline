@@ -70,7 +70,8 @@ test("slow speed stretches the natural clip instead of switching voice", async (
   expect((await played(page))[0].rate).toBe(0.75);
 });
 
-test("if clips can't load, the device voice takes over", async ({ page }) => {
+test("if clips can't load, the device voice takes over", async ({ page, browserName }) => {
+  test.fixme(browserName === "webkit", "device-speech fallback is silent on Linux WebKit in CI: issue #5");
   await recordPlayback(page);
   await page.goto("/favicon.ico");
   test.skip(!(await hasDeviceSpeech(page)), "This browser build has no device speech");
