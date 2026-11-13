@@ -1,4 +1,5 @@
 import { EXAM_BG, EXAM_EN } from "./exam-strings";
+import { CLASS_BG, CLASS_EN } from "./classroom-strings";
 /**
  * Interface strings. English is the source of truth; every other language must
  * provide exactly the same keys (enforced by the type below and by i18n.test.ts).
@@ -500,6 +501,7 @@ const en = {
   "read.items": "{n} exercises",
   "gram.empty": "No grammar notes for this level yet.",
   ...EXAM_EN,
+  ...CLASS_EN,
 } as const;
 
 export type StringKey = keyof typeof en;
@@ -994,6 +996,7 @@ const bg: Dictionary = {
   "read.items": "Упражнения: {n}",
   "gram.empty": "Все още няма граматични бележки за това ниво.",
   ...EXAM_BG,
+  ...CLASS_BG,
 };
 
 export const DICTIONARIES: Record<UiLanguage, Dictionary> = { en, bg };
