@@ -1,0 +1,36 @@
+/* Wayline Клас screens. Built on the settings layout (.setting, .setting-row); tokens only. */
+.class-back { margin-bottom: var(--s-3); }
+.settings.classroom .page-title { margin-bottom: var(--s-3); }
+.class-intro { margin-bottom: var(--s-5); }
+.class-form { gap: var(--s-4); }
+.field { display: grid; gap: var(--s-1); width: 100%; max-width: 28rem; }
+.field label { font-weight: 600; }
+.field input {
+  min-height: var(--tap); padding: 0 var(--s-4);
+  border: var(--border); border-radius: var(--r-md);
+  background: var(--surface-raised); color: var(--text); font: inherit;
+}
+.class-code-input { font-family: ui-monospace, monospace; letter-spacing: 0.2em; text-transform: uppercase; max-width: 12rem; }
+
+.class-consent {
+  display: grid; gap: var(--s-2); max-width: 60ch;
+  padding: var(--s-4); border: var(--border); border-radius: var(--r-md); background: var(--surface-raised);
+}
+.class-consent ul { margin: 0; padding-left: 1.2em; display: grid; gap: var(--s-1); }
+.class-check { display: flex; gap: var(--s-3); align-items: center; min-height: var(--tap); font-weight: 600; cursor: pointer; }
+.class-check input { width: 22px; height: 22px; accent-color: var(--accent); }
+
+.class-card {
+  display: grid; gap: var(--s-2); width: 100%; max-width: 40rem;
+  padding: var(--s-4); border: var(--border); border-radius: var(--r-md); background: var(--surface-raised);
+}
+.class-card h3 { font-size: var(--fs-lg); }
+.class-card h4 { font-size: var(--fs-md); margin: var(--s-2) 0 0; }
+.class-code { font-family: ui-monospace, monospace; font-size: var(--fs-lg); letter-spacing: 0.15em; }
+
+.class-students { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); width: 100%; max-width: 40rem; }
+.class-students li {
+  display: flex; flex-wrap: wrap; gap: var(--s-3); align-items: center; justify-content: space-between;
+  padding: var(--s-2) 0; border-bottom: var(--border);
+}
+.class-role { color: var(--text-soft); }
