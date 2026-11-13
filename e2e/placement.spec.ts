@@ -36,10 +36,18 @@ test("an advanced learner who rated themselves low can still reach C2", async ({
   await startAt(page);
   await expect(page.locator(".journey-name .route-band")).toHaveText(/C1|C2/);
   await page.getByRole("link", { name: /^(Start today's session|Continue learning)$/ }).click();
+  // Skip notes and texts until the first exercise. During a step change the outgoing note and the incoming
+  // exercise are briefly both on the page, so after each Continue wait for the step counter to move and for a
+  // single step to remain. Otherwise a click can land on the new exercise (e.g. "Continue without microphone").
   const first = page.locator(".exercise").first();
+  const step = page.locator(".exercise, .step-note, .step-text");
+  const counter = page.getByRole("heading", { level: 1 });
+  await expect(step).toHaveCount(1);
   for (let i = 0; i < 5 && !(await first.isVisible()); i++) {
-    await page.locator(".exercise, .step-note, .step-text").first().waitFor();
-    if (!(await first.isVisible())) await page.getByRole("button", { name: "Continue" }).click();
+    const before = await counter.innerText();
+    await step.getByRole("button", { name: /^(Continue|Продължи)$/ }).click();
+    await expect(counter).not.toHaveText(before);
+    await expect(step).toHaveCount(1);
   }
   expect(await first.getAttribute("data-item-id")).toMatch(/^c[12]\./);
   await answerExercise(page, "right");

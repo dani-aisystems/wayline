@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { expect, type Page } from "@playwright/test";
 
 type AnyItem = {
@@ -62,6 +62,27 @@ const BAND_ORDER = ["preA1", "A1", "A2", "B1", "B2", "C1", "C2"];
 type DiagItem = { id: string; band: Band; type: "choice" | "cloze"; prompt?: string; sentence?: string; passage?: string; options?: string[]; correct?: number; accept?: string[] };
 const bankFile = new URL("../src/content/diagnostic/bank.json", import.meta.url);
 export const diag: DiagItem[] = JSON.parse(readFileSync(bankFile, "utf8")).items;
+
+/**
+ * Natural voice clips are generated (CLAUDE.md, "Natural voices") and not committed yet. Tests that need a real
+ * clip skip without them, like src/content/voice-coverage.test.ts, and run again once public/voice/ exists.
+ */
+export const hasNaturalClips = existsSync(new URL("../public/voice/bm_george.json", import.meta.url));
+export const CLIPS_MISSING = "natural voice clips are not in public/voice/ yet (render them, see CLAUDE.md)";
+
+/**
+ * Whether the browser offers device speech, by the app's own rule (speechAvailable() in src/lib/speech.ts):
+ * both halves of the Web Speech API must exist. Some builds expose speechSynthesis without
+ * SpeechSynthesisUtterance; the app then rightly stays silent, so a speech test there would test nothing.
+ */
+export const hasDeviceSpeech = (page: Page) => page.evaluate(() => "speechSynthesis" in window && "SpeechSynthesisUtterance" in window);
+
+/**
+ * How long to wait for audio to start. Without clips WebKit falls back to device speech only after the clip
+ * lookup fails and its voice list has loaded (up to 1.5 s, src/lib/speech.ts loadVoices): measured at 2.4 s on a
+ * desktop. The 5 s default leaves little margin on a busy 2-core CI runner.
+ */
+export const AUDIO_START_MS = 15_000;
 
 /** Pick explanation language, then the onboarding questions. Learners who can read go on to the level test. */
 export async function onboard(page: Page, opts: { canRead: boolean; lang?: "en" | "bg"; minutes?: 10 | 20 | 30 | 45; self?: number; cert?: "b2-first" | "c1-advanced"; examDate?: string }) {
