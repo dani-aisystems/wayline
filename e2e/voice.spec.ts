@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { onboardA1 } from "./helpers";
+import { AUDIO_START_MS, CLIPS_MISSING, hasDeviceSpeech, hasNaturalClips as hasClips, onboardA1 } from "./helpers";
 
 /**
  * Natural voices. Headless browsers have no audio output, so `play()` is replaced with a recorder that
@@ -30,6 +30,7 @@ const played = (page: Page) => page.evaluate(() => (window as unknown as { __pla
 const spoken = (page: Page) => page.evaluate(() => (window as unknown as { __spoken: string[] }).__spoken);
 
 test("settings: natural voices are offered and the test phrase plays a real clip", async ({ page }) => {
+  test.skip(!hasClips, CLIPS_MISSING);
   await recordPlayback(page);
   await onboardA1(page);
   await page.goto("/settings");
@@ -47,6 +48,7 @@ test("settings: natural voices are offered and the test phrase plays a real clip
 });
 
 test("dialogue: each character speaks in their own natural voice", async ({ page }) => {
+  test.skip(!hasClips, CLIPS_MISSING);
   await recordPlayback(page);
   const manifests = new Set<string>();
   page.on("request", (r) => { const m = r.url().match(/\/voice\/([a-z_]+)\.json$/); if (m) manifests.add(m[1]); });
@@ -58,6 +60,7 @@ test("dialogue: each character speaks in their own natural voice", async ({ page
 });
 
 test("slow speed stretches the natural clip instead of switching voice", async ({ page }) => {
+  test.skip(!hasClips, CLIPS_MISSING);
   await recordPlayback(page);
   await onboardA1(page);
   await page.goto("/practice?ids=a1.talk-cafe.say-glass-of-water");
@@ -67,14 +70,15 @@ test("slow speed stretches the natural clip instead of switching voice", async (
   expect((await played(page))[0].rate).toBe(0.75);
 });
 
-test("if clips can't load, the device voice takes over", async ({ page }) => {
+test("if clips can't load, the device voice takes over", async ({ page, browserName }) => {
+  test.fixme(browserName === "webkit", "device-speech fallback is silent on Linux WebKit in CI: issue #5");
   await recordPlayback(page);
   await page.goto("/favicon.ico");
-  test.skip(!(await page.evaluate(() => "speechSynthesis" in window)), "This browser build has no device speech");
+  test.skip(!(await hasDeviceSpeech(page)), "This browser build has no device speech");
   await page.route("**/voice/**", (r) => r.abort());
   await onboardA1(page);
   await page.goto("/settings");
   await page.getByRole("button", { name: "Test voice" }).click();
-  await expect.poll(() => spoken(page)).toContain("Hello!");
+  await expect.poll(() => spoken(page), { timeout: AUDIO_START_MS }).toContain("Hello!");
   expect(await played(page)).toEqual([]);
 });

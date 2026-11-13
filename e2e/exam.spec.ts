@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { onboardA1 } from "./helpers";
+import { AUDIO_START_MS, hasDeviceSpeech, hasNaturalClips, onboardA1 } from "./helpers";
 
 test.beforeEach(({ browserName, isMobile }) => {
   test.skip(!isMobile && browserName !== "chromium", "exam journeys run on chromium + phones");
@@ -48,7 +48,9 @@ test("writing practice: word count, honest indicators, self-marking, stored resu
   await expect(page.getByText("self-assessed")).toBeVisible();
 });
 
-test("listening practice: recordings play in the speakers' voices, answers are marked, transcript afterwards", async ({ page }) => {
+test("listening practice: recordings play in the speakers' voices, answers are marked, transcript afterwards", async ({ page, browserName }) => {
+  // Without clips this falls back to device speech, which is silent on Linux WebKit in CI.
+  test.fixme(browserName === "webkit" && !hasNaturalClips, "device-speech fallback is silent on Linux WebKit in CI: issue #5");
   await page.addInitScript(() => {
     // Headless browsers have no audio output: end each clip at once, and record what played.
     const w = window as unknown as { __played: number };
@@ -59,8 +61,10 @@ test("listening practice: recordings play in the speakers' voices, answers are m
   await onboardA1(page);
   await chooseExam(page, /B2 First/);
   await page.goto("/exam/run?mode=section&tasks=b2.listen.m1.p1");
+  // With no clips and no device speech (e.g. WebKit on Windows) there is genuinely nothing to play.
+  test.skip(!hasNaturalClips && !(await hasDeviceSpeech(page)), "no natural clips and no device speech in this browser build");
   await page.getByRole("button", { name: "Play recording" }).first().click();
-  await expect.poll(() => page.evaluate(() => (window as unknown as { __played: number }).__played)).toBeGreaterThan(0);
+  await expect.poll(() => page.evaluate(() => (window as unknown as { __played: number }).__played), { timeout: AUDIO_START_MS }).toBeGreaterThan(0);
   // Keys: q1 = B, q2 = A; answer q1 right and q2 wrong.
   await page.getByRole("radiogroup", { name: "Question 1" }).locator("label").nth(1).click();
   await page.getByRole("radiogroup", { name: "Question 2" }).locator("label").nth(2).click();
