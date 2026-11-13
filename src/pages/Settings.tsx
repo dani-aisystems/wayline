@@ -1,4 +1,5 @@
 import { useEffect, useId, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { useProfile } from "../state/profile";
 import { LANGUAGE_NAMES, SUPPORTED_LANGUAGES, type UiLanguage } from "../i18n/strings";
 import { backupFileName, exportBackup, importBackup } from "../db/backup";
@@ -169,6 +170,12 @@ export function Settings() {
           </button>
         </div>
         <p className="setting-hint">{t("settings.voiceCredit")}</p>
+      </section>
+
+      <section className="setting" id="class" aria-labelledby="class-title">
+        <h2 id="class-title" className="setting-label">{t("class.settings.title")}</h2>
+        <p className="setting-hint">{t("class.settings.hint")}</p>
+        <Link to="/klas" className="btn btn-quiet">{t("class.settings.open")}</Link>
       </section>
 
       <section className="setting" id="backup" aria-labelledby="backup-title">

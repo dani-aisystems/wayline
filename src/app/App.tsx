@@ -16,6 +16,8 @@ const ExamRunner = lazy(() => import("../pages/exam/ExamRunner").then((m) => ({ 
 const ExamGuide = lazy(() => import("../pages/exam/ExamPages").then((m) => ({ default: m.ExamGuide })));
 const ExamLesson = lazy(() => import("../pages/exam/ExamPages").then((m) => ({ default: m.ExamLesson })));
 const ExamResult = lazy(() => import("../pages/exam/ExamPages").then((m) => ({ default: m.ExamResult })));
+// Wayline Клас (opt-in): Supabase loads only when someone opens /klas, so local-only learners make no network calls.
+const Classroom = lazy(() => import("../pages/classroom/Classroom").then((m) => ({ default: m.Classroom })));
 import { Settings } from "../pages/Settings";
 import { Session } from "../pages/session/Session";
 import { Placement } from "../pages/placement/Placement";
@@ -58,6 +60,8 @@ export function App() {
           <Route path="/review/session" element={<RequireOnboarded><Session reviewOnly /></RequireOnboarded>} />
           <Route path="/practice" element={<RequireOnboarded><Practice /></RequireOnboarded>} />
           <Route path="/exam/run" element={<RequireOnboarded><Suspense fallback={<div className="page" aria-busy="true" />}><ExamRunner /></Suspense></RequireOnboarded>} />
+          {/* No onboarding gate: a teacher (or a judge's test account) can sign in on a fresh browser. */}
+          <Route path="/klas" element={<Suspense fallback={<div className="page" aria-busy="true" />}><Classroom /></Suspense>} />
           <Route element={<RequireOnboarded><Shell /></RequireOnboarded>}>
             <Route path="/today" element={<Today />} />
             <Route path="/review" element={<Review />} />
